@@ -1,0 +1,49 @@
+---
+title: WordProcessingShape
+second_title: Справочник по API GroupDocs.Watermark для .NET
+description: Представляет фигуру рисунка в документе Word.
+type: docs
+weight: 1390
+url: /ru/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/
+---
+## WordProcessingShape class
+
+Представляет фигуру рисунка в документе Word.
+
+```csharp
+public class WordProcessingShape : ShapeSearchAdapter, IRotatableTwoDObject
+```
+
+## Характеристики
+
+| Имя | Описание |
+| --- | --- |
+| [AlternativeText](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/alternativetext) { get; set; } | Получает или задает описательный (альтернативный) текст, связанный с этим[`WordProcessingShape`](../wordprocessingshape) . |
+| [BehindText](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/behindtext) { get; set; } | Получает или задает значение, указывающее, находится ли фигура над текстом или за ним. |
+| [FormattedTextFragments](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/formattedtextfragments) { get; } | Получает коллекцию форматированных текстовых фрагментов этого[`WordProcessingShape`](../wordprocessingshape) . |
+| [HeaderFooter](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/headerfooter) { get; } | Получает родительский верхний/нижний колонтитул этого[`WordProcessingShape`](../wordprocessingshape) (если присутствует). |
+| [Height](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/height) { get; set; } | Получает или задает высоту этого[`WordProcessingShape`](../wordprocessingshape)в пунктах. |
+| [HorizontalAlignment](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/horizontalalignment) { get; } | Получает значение, указывающее, как фигура расположена по горизонтали. |
+| [Hyperlink](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/hyperlink) { get; set; } | Получает или задает гиперссылку, связанную с этим[`WordProcessingShape`](../wordprocessingshape) . |
+| [Image](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/image) { get; set; } | Получает или задает изображение этого[`WordProcessingShape`](../wordprocessingshape) . |
+| [IsWordArt](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/iswordart) { get; } | Получает значение, указывающее, является ли это[`WordProcessingShape`](../wordprocessingshape) является объектом WordArt. |
+| [Name](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/name) { get; } | Получает имя этого[`WordProcessingShape`](../wordprocessingshape) . |
+| [RelativeHorizontalPosition](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/relativehorizontalposition) { get; } | Получает значение, определяющее положение фигуры по горизонтали. |
+| [RelativeVerticalPosition](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/relativeverticalposition) { get; } | Получает значение, определяющее положение фигуры по вертикали. |
+| [RotateAngle](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/rotateangle) { get; set; } | Получает или задает угол поворота этого[`WordProcessingShape`](../wordprocessingshape) в градусах. |
+| [Section](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/section) { get; } | Получает родительский раздел этого[`WordProcessingShape`](../wordprocessingshape) . |
+| [ShapeType](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/shapetype) { get; } | Получает тип фигуры. |
+| [Text](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/text) { get; set; } | Получает или задает текст этого[`WordProcessingShape`](../wordprocessingshape) . |
+| [VerticalAlignment](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/verticalalignment) { get; } | Получает значение, указывающее вертикальное расположение фигуры. |
+| [Width](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/width) { get; set; } | Получает или задает ширину этого[`WordProcessingShape`](../wordprocessingshape)в пунктах. |
+| [X](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/x) { get; set; } | Получает или задает горизонтальное смещение этого[`WordProcessingShape`](../wordprocessingshape) от левой границы страницы в пунктах. |
+| [Y](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/y) { get; set; } | Получает или задает вертикальное смещение этого[`WordProcessingShape`](../wordprocessingshape) от верхней границы страницы в пунктах. |
+
+### Смотрите также
+
+* class [ShapeSearchAdapter](../../groupdocs.watermark.search/shapesearchadapter)
+* interface [IRotatableTwoDObject](../../groupdocs.watermark.search/irotatabletwodobject)
+* пространство имен [GroupDocs.Watermark.Contents.WordProcessing](../../groupdocs.watermark.contents.wordprocessing)
+* сборка [GroupDocs.Watermark](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Watermark.dll -->
