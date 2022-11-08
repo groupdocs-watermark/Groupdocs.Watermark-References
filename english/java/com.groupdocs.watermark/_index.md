@@ -20,5 +20,7 @@ The main classes in this package are:
 
 | Class | Description |
 | --- | --- |
+| [PresentationPreviewOptions](../com.groupdocs.watermark/presentationpreviewoptions) | Provides options to sets requirements and stream delegates for preview generation of Presentation document. |
 | [Watermark](../com.groupdocs.watermark/watermark) | Represents a watermark to be added to a document. |
 | [Watermarker](../com.groupdocs.watermark/watermarker) | Represents a class for watermark management in a document. |
+| [WatermarkerSettings](../com.groupdocs.watermark/watermarkersettings) | Defines settings for customizing Watermarker behaviour. |

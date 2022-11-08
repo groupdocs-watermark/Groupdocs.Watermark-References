@@ -3,7 +3,7 @@ title: Watermark
 second_title: GroupDocs.Watermark for Java API Reference
 description: Represents a watermark to be added to a document.
 type: docs
-weight: 10
+weight: 11
 url: /java/com.groupdocs.watermark/watermark/
 ---
 **Inheritance:**

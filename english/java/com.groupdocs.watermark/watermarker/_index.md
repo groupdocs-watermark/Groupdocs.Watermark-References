@@ -3,7 +3,7 @@ title: Watermarker
 second_title: GroupDocs.Watermark for Java API Reference
 description: Represents a class for watermark management in a document.
 type: docs
-weight: 11
+weight: 12
 url: /java/com.groupdocs.watermark/watermarker/
 ---
 **Inheritance:**
