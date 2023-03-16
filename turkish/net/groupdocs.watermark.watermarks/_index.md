@@ -16,6 +16,7 @@ Ad alanı, filigranların özelliklerini belirtmek için sınıflar sağlar.
 | [ImageWatermark](./imagewatermark) | Bir görüntü filigranını temsil eder. |
 | [Margins](./margins) | Bir nesnenin her kenarı için kenar boşluğu ayarlarını temsil eder. |
 | [TextWatermark](./textwatermark) | Bir metin filigranını temsil eder. |
+| [Thickness](./thickness) | Bir dikdörtgenin etrafındaki çerçevenin kalınlığını tanımlar. |
 ## Yapılar
 
 | Yapı | Tanım |

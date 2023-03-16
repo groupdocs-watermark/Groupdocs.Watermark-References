@@ -1,14 +1,14 @@
 ---
 title: PNG
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: PNG Portable Network Graphics kayıpsız sıkıştırma kullanan bir tür raster görüntü dosyası formatını ifade eder. Bu dosya formatı hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/png/ .
+description: PNG Portable Network Graphics kayıpsız sıkıştırma kullanan bir tür raster görüntü dosyası formatını ifade eder. Bu dosya formatı hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/png/ .
 type: docs
 weight: 250
 url: /tr/net/groupdocs.watermark.common/filetype/png/
 ---
 ## FileType.PNG field
 
-PNG, Portable Network Graphics, kayıpsız sıkıştırma kullanan bir tür raster görüntü dosyası formatını ifade eder. Bu dosya formatı hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/png/) .
+PNG, Portable Network Graphics, kayıpsız sıkıştırma kullanan bir tür raster görüntü dosyası formatını ifade eder. Bu dosya formatı hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/png/) .
 
 ```csharp
 public static readonly FileType PNG;

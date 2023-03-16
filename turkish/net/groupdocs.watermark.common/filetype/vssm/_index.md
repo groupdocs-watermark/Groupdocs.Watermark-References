@@ -1,14 +1,14 @@
 ---
 title: VSSM
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: .VSSM uzantılı dosyalar makrolar için destek sağlamayı destekleyen Microsoft Visio Stencil dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vssm/ .
+description: .VSSM uzantılı dosyalar makrolar için destek sağlamayı destekleyen Microsoft Visio Stencil dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vssm/ .
 type: docs
 weight: 440
 url: /tr/net/groupdocs.watermark.common/filetype/vssm/
 ---
 ## FileType.VSSM field
 
-.VSSM uzantılı dosyalar, makrolar için destek sağlamayı destekleyen Microsoft Visio Stencil dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vssm/) .
+.VSSM uzantılı dosyalar, makrolar için destek sağlamayı destekleyen Microsoft Visio Stencil dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vssm/) .
 
 ```csharp
 public static readonly FileType VSSM;

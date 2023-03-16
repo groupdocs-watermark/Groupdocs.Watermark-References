@@ -53,7 +53,7 @@ public WatermarkException(string message, Exception innerException)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | message | String | İstisnanın nedenini açıklayan hata mesajı. |
-| innerException | Exception | Mevcut özel durumun nedeni olan özel durum veya herhangi bir iç özel durum belirtilmemişse boş bir başvuru (Visual Basic'te Hiçbir Şey yok). |
+| innerException | Exception | Mevcut istisnanın nedeni olan istisna veya herhangi bir iç istisna belirtilmemişse boş bir başvuru (Visual Basic'te Hiçbir Şey yok). |
 
 ### Ayrıca bakınız
 

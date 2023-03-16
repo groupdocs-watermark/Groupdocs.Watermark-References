@@ -1,14 +1,14 @@
 ---
 title: VTX
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: VTX uzantılı bir dosya XML dosya biçiminde diske kaydedilen bir Microsoft Visio çizim şablonudur. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vtx/ .
+description: VTX uzantılı bir dosya XML dosya biçiminde diske kaydedilen bir Microsoft Visio çizim şablonudur. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vtx/ .
 type: docs
 weight: 500
 url: /tr/net/groupdocs.watermark.common/filetype/vtx/
 ---
 ## FileType.VTX field
 
-VTX uzantılı bir dosya, XML dosya biçiminde diske kaydedilen bir Microsoft Visio çizim şablonudur. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vtx/) .
+VTX uzantılı bir dosya, XML dosya biçiminde diske kaydedilen bir Microsoft Visio çizim şablonudur. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vtx/) .
 
 ```csharp
 public static readonly FileType VTX;

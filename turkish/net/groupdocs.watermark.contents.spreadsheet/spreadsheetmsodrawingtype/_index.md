@@ -45,7 +45,8 @@ public enum SpreadsheetMsoDrawingType
 | WebExtension | `32` | Yerleşik çizim türü. |
 | SmartArt | `33` | Yerleşik çizim türü. |
 | CustomXml | `34` | Yerleşik çizim türü. |
-| Model3D | `35` | Yerleşik çizim türü. |
+| Timeline | `35` | Yerleşik çizim türü. |
+| Model3D | `36` | Yerleşik çizim türü. |
 
 ### Ayrıca bakınız
 

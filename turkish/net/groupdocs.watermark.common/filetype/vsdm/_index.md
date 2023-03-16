@@ -1,14 +1,14 @@
 ---
 title: VSDM
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: VSDM uzantılı dosyalar makroları destekleyen Microsoft Visio uygulamasıyla oluşturulmuş çizim dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/image/vsdm/ .
+description: VSDM uzantılı dosyalar makroları destekleyen Microsoft Visio uygulamasıyla oluşturulan çizim dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/image/vsdm/ .
 type: docs
 weight: 410
 url: /tr/net/groupdocs.watermark.common/filetype/vsdm/
 ---
 ## FileType.VSDM field
 
-VSDM uzantılı dosyalar, makroları destekleyen Microsoft Visio uygulamasıyla oluşturulmuş çizim dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/image/vsdm/) .
+VSDM uzantılı dosyalar, makroları destekleyen Microsoft Visio uygulamasıyla oluşturulan çizim dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/image/vsdm/) .
 
 ```csharp
 public static readonly FileType VSDM;

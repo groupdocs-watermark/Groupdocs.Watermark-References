@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: Bunun dikey ofsetini alır veya ayarlarPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapefrom punto cinsinden sunumun üst sınırı.
+description: Bunun dikey ofsetini alır veya ayarlarPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape from punto cinsinden sunumun üst sınırı.
 type: docs
 weight: 90
 url: /tr/net/groupdocs.watermark.contents.presentation/presentationbaseshape/y/
 ---
 ## PresentationBaseShape.Y property
 
-Bunun dikey ofsetini alır veya ayarlar[`PresentationBaseShape`](../../presentationbaseshape)from punto cinsinden sunumun üst sınırı.
+Bunun dikey ofsetini alır veya ayarlar[`PresentationBaseShape`](../../presentationbaseshape) from punto cinsinden sunumun üst sınırı.
 
 ```csharp
 public double Y { get; set; }

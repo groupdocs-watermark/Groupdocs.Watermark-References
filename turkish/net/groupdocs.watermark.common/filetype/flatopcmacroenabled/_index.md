@@ -1,14 +1,14 @@
 ---
 title: FlatOpcMacroEnabled
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: ZIP paketi .xml yerine düz bir XML dosyasında saklanan Office Açık XML WordprocessingML Makro Etkin Belge. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//en.wikipedia.org/wiki/Office_Open_XML .
+description: ZIP paketi .xml yerine düz bir XML dosyasında saklanan Office Açık XML WordprocessingML Makro Etkin Belge. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//en.wikipedia.org/wiki/Office_Open_XML .
 type: docs
 weight: 110
 url: /tr/net/groupdocs.watermark.common/filetype/flatopcmacroenabled/
 ---
 ## FileType.FlatOpcMacroEnabled field
 
-ZIP paketi (.xml) yerine düz bir XML dosyasında saklanan Office Açık XML WordprocessingML Makro Etkin Belge. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://en.wikipedia.org/wiki/Office_Open_XML) .
+ZIP paketi (.xml) yerine düz bir XML dosyasında saklanan Office Açık XML WordprocessingML Makro Etkin Belge. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://en.wikipedia.org/wiki/Office_Open_XML) .
 
 ```csharp
 public static readonly FileType FlatOpcMacroEnabled;

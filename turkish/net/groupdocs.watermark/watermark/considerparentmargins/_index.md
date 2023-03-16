@@ -16,7 +16,7 @@ public bool ConsiderParentMargins { get; set; }
 
 ### Mülk değeri
 
-Değer doğruysa, filigran boyutu ve koordinatlar üst kenar boşlukları dikkate alınarak hesaplanır. Varsayılan olarak, değer yanlıştır, üst kenar boşlukları göz ardı edilir.
+Değer doğruysa, filigran boyutu ve koordinatlar üst kenar boşlukları dikkate alınarak hesaplanır. Varsayılan olarak, değer yanlıştır, üst kenar boşlukları dikkate alınmaz.
 
 ### Ayrıca bakınız
 

@@ -3,7 +3,7 @@ title: Text
 second_title: .NET API Başvurusu için GroupDocs.Watermark
 description: Filigran olarak kullanılacak metni alır veya ayarlar.
 type: docs
-weight: 50
+weight: 60
 url: /tr/net/groupdocs.watermark.watermarks/textwatermark/text/
 ---
 ## TextWatermark.Text property

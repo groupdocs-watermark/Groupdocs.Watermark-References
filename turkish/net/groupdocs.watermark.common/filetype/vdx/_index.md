@@ -1,14 +1,14 @@
 ---
 title: VDX
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: Microsoft Visioda oluşturulan ancak XML biçiminde kaydedilen herhangi bir çizim veya grafik .VDX uzantısına sahiptir. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vdx/ .
+description: Microsoft Visioda oluşturulan ancak XML biçiminde kaydedilen herhangi bir çizim veya grafik .VDX uzantısına sahiptir. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vdx/ .
 type: docs
 weight: 390
 url: /tr/net/groupdocs.watermark.common/filetype/vdx/
 ---
 ## FileType.VDX field
 
-Microsoft Visio'da oluşturulan ancak XML biçiminde kaydedilen herhangi bir çizim veya grafik .VDX uzantısına sahiptir. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vdx/) .
+Microsoft Visio'da oluşturulan ancak XML biçiminde kaydedilen herhangi bir çizim veya grafik .VDX uzantısına sahiptir. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vdx/) .
 
 ```csharp
 public static readonly FileType VDX;

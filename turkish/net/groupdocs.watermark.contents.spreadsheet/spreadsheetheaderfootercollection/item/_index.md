@@ -16,7 +16,7 @@ public SpreadsheetHeaderFooter this[OfficeHeaderFooterType headerFooterType] { g
 
 | Parametre | Tanım |
 | --- | --- |
-| headerFooterType | Bir[`OfficeHeaderFooterType`](../../../groupdocs.watermark.contents/officeheaderfootertype) Alınacak üstbilgi/altbilgi türünü belirten değer. |
+| headerFooterType | bir[`OfficeHeaderFooterType`](../../../groupdocs.watermark.contents/officeheaderfootertype) Alınacak üstbilgi/altbilgi türünü belirten değer. |
 
 ### Mülk değeri
 

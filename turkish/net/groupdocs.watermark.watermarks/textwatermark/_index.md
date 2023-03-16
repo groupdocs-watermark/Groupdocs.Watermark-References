@@ -33,6 +33,7 @@ public class TextWatermark : Watermark
 | [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | Filigranın arka plana yerleştirilip yerleştirilmeyeceğini belirten bir değer alır veya ayarlar. |
 | [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | Bunun kenar boşluğu ayarlarını alır veya ayarlar[`Watermark`](../../groupdocs.watermark/watermark) . |
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Bunun opaklığını alır veya ayarlar[`Watermark`](../../groupdocs.watermark/watermark) . |
+| [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | Bunun dolgu ayarlarını alır veya ayarlar[`TextWatermark`](../textwatermark) . Bu özellik yalnızca resim dosyaları için geçerlidir. |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Bunun döndürme açısını alır veya ayarlar[`Watermark`](../../groupdocs.watermark/watermark) derece cinsinden. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Filigran boyutunun ebeveyn boyutuna nasıl bağlı olduğunu tanımlayan bir değer alır veya ayarlar. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Filigranın boyutlandırılması gereken yolu belirten bir değer alır veya ayarlar. |

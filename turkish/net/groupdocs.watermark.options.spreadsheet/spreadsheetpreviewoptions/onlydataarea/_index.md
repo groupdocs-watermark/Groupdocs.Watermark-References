@@ -20,7 +20,7 @@ Veri alanını yalnızca üst bilgiler, alt bilgiler, kenar boşlukları olmadan
 
 ### Notlar
 
-Bu bayraklar, tüm çalışma sayfasının tek bir sayfada görüntülenmesine yol açar. Varsayılan değer:`yanlış` .
+Bu bayraklar, tüm çalışma sayfasının tek bir sayfada görüntülenmesine yol açar. Varsayılan değer:`YANLIŞ` .
 
 ### Ayrıca bakınız
 

@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: .NET API Başvurusu için GroupDocs.Watermark
 description: Filigran metin hizalamasını alır veya ayarlar.
 type: docs
-weight: 60
+weight: 70
 url: /tr/net/groupdocs.watermark.watermarks/textwatermark/textalignment/
 ---
 ## TextWatermark.TextAlignment property

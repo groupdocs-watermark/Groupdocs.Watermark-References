@@ -1,14 +1,14 @@
 ---
 title: VSTX
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: VSTX uzantılı dosyalar Microsoft Visio 2013 ve üstü ile oluşturulan çizim şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/image/vstx/ .
+description: VSTX uzantılı dosyalar Microsoft Visio 2013 ve üstü ile oluşturulmuş çizim şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/image/vstx/ .
 type: docs
 weight: 480
 url: /tr/net/groupdocs.watermark.common/filetype/vstx/
 ---
 ## FileType.VSTX field
 
-VSTX uzantılı dosyalar, Microsoft Visio 2013 ve üstü ile oluşturulan çizim şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/image/vstx/) .
+VSTX uzantılı dosyalar, Microsoft Visio 2013 ve üstü ile oluşturulmuş çizim şablon dosyalarıdır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/image/vstx/) .
 
 ```csharp
 public static readonly FileType VSTX;

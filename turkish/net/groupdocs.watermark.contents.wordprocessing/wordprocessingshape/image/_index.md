@@ -16,7 +16,7 @@ public WordProcessingWatermarkableImage Image { get; set; }
 
 ### Mülk değeri
 
-Bunun görüntüsü[`WordProcessingShape`](../../wordprocessingshape). Şeklin resmi yoksa null değerini döndürür.
+Bunun görüntüsü[`WordProcessingShape`](../../wordprocessingshape) . Şeklin resmi yoksa null değerini döndürür.
 
 ### Ayrıca bakınız
 

@@ -37,7 +37,7 @@ public class SpreadsheetWorksheet : ContentPart
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Belirtilen arama kriterlerine göre görüntüleri bulur. Arama, belirtilen nesnelerde gerçekleştirilir.[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetColumnWidth](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getcolumnwidth)(int) | Belirtilen sütunun genişliğini punto cinsinden alır. |
 | [GetColumnWidthPx](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getcolumnwidthpx)(int) | Belirtilen sütunun genişliğini piksel olarak alır. |
-| [GetRowHeight](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheight)(int) | Belirtilen satırın yüksekliğini punto olarak alır. |
+| [GetRowHeight](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheight)(int) | Belirtilen satırın yüksekliğini punto cinsinden alır. |
 | [GetRowHeightPx](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheightpx)(int) | Belirtilen satırın yüksekliğini piksel olarak alır. |
 | [Search](../../groupdocs.watermark.contents/contentpart/search)() | İçerikteki tüm olası filigranları bulur. Arama, belirtilen nesnelerde gerçekleştirilir.[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | Belirtilen arama kriterlerine göre olası filigranları bulur. Arama, belirtilen nesnelerde gerçekleştirilir.[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |

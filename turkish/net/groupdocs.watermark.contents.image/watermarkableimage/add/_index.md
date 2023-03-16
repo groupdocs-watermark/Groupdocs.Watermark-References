@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: Buna filigran eklerWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage. Bu yöntem filigran ofsetinin ve boyutunun atanmışlarsa piksel cinsinden ölçüldüğünü varsayar.
+description: Buna filigran eklerWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage . Bu yöntem filigran ofsetinin ve boyutunun atanmışlarsa piksel cinsinden ölçüldüğünü varsayar.
 type: docs
 weight: 30
 url: /tr/net/groupdocs.watermark.contents.image/watermarkableimage/add/
 ---
 ## WatermarkableImage.Add method
 
-Buna filigran ekler[`WatermarkableImage`](../../watermarkableimage). Bu yöntem, filigran ofsetinin ve boyutunun (atanmışlarsa) piksel cinsinden ölçüldüğünü varsayar.
+Buna filigran ekler[`WatermarkableImage`](../../watermarkableimage) . Bu yöntem, filigran ofsetinin ve boyutunun (atanmışlarsa) piksel cinsinden ölçüldüğünü varsayar.
 
 ```csharp
 public void Add(Watermark watermark)

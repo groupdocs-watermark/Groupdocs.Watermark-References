@@ -1,14 +1,14 @@
 ---
 title: VSTM
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: VSTM uzantılı dosyalar makroları destekleyen Microsoft Visio ile oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininburadahttps//wiki.fileformat.com/image/vstm/ .
+description: VSTM uzantılı dosyalar makroları destekleyen Microsoft Visio ile oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edininBuradahttps//wiki.fileformat.com/image/vstm/ .
 type: docs
 weight: 470
 url: /tr/net/groupdocs.watermark.common/filetype/vstm/
 ---
 ## FileType.VSTM field
 
-VSTM uzantılı dosyalar, makroları destekleyen Microsoft Visio ile oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[burada](https://wiki.fileformat.com/image/vstm/) .
+VSTM uzantılı dosyalar, makroları destekleyen Microsoft Visio ile oluşturulan şablon dosyalarıdır. Bu dosya biçimi hakkında daha fazla bilgi edinin[Burada](https://wiki.fileformat.com/image/vstm/) .
 
 ```csharp
 public static readonly FileType VSTM;
