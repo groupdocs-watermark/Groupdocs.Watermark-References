@@ -20,7 +20,7 @@ Los números de página para agregar la marca de agua.
 
 ### Observaciones
 
-Todos los números deben ser mayores o iguales a 1. Esta propiedad solo se usa cuando se agrega la marca de agua a un documento. Si este valor es`nulo` o vacío, la marca de agua se agrega a todas las páginas.
+Todos los números deben ser mayores o iguales a 1. Esta propiedad solo se usa cuando se agrega la marca de agua a un documento. Si este valor es`nulo` vacío, la marca de agua se agrega a todas las páginas.
 
 ### Ver también
 

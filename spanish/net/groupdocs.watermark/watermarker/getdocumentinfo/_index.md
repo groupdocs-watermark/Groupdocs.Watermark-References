@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Valor_devuelto
 
-los[`IDocumentInfo`](../../../groupdocs.watermark.common/idocumentinfo) instancia que contiene información detectada.
+El[`IDocumentInfo`](../../../groupdocs.watermark.common/idocumentinfo) instancia que contiene información detectada.
 
 ### Observaciones
 

@@ -45,7 +45,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.vsdx", loadOptions))
 
     DiagramShapeWatermarkOptions options = new DiagramShapeWatermarkOptions();
     options.IsLocked = true;
-    options.PlacementType = DiagramWatermarkPlacementType.AllPages; // defecto
+    options.PlacementType = DiagramWatermarkPlacementType.AllPages; // por defecto
 
     watermarker.Add(watermark, options);
     watermarker.Save();

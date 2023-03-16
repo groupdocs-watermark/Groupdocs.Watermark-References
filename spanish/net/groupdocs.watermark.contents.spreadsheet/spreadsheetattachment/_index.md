@@ -25,7 +25,7 @@ public class SpreadsheetAttachment : Attachment, ITwoDObject
 | [PreviewImageContent](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/previewimagecontent) { get; set; } | Obtiene o establece la imagen de vista previa del archivo adjunto como una matriz de bytes. |
 | [SourceFullName](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/sourcefullname) { get; } | Obtiene el nombre completo del archivo adjunto. |
 | [Width](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/width) { get; set; } | Obtiene o establece el ancho del marco adjunto en puntos. |
-| [X](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/x) { get; set; } | Obtiene o establece el desplazamiento horizontal del marco adjunto desde el borde izquierdo de la hoja de trabajo en puntos. |
+| [X](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/x) { get; set; } | Obtiene o establece el desplazamiento horizontal del marco adjunto desde el borde izquierdo de la hoja de cálculo en puntos. |
 | [Y](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/y) { get; set; } | Obtiene o establece el desplazamiento vertical del marco adjunto desde el borde superior de la hoja de cálculo en puntos. |
 
 ## Métodos

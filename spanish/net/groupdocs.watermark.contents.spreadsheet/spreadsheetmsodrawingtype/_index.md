@@ -45,7 +45,8 @@ public enum SpreadsheetMsoDrawingType
 | WebExtension | `32` | Tipo de dibujo integrado. |
 | SmartArt | `33` | Tipo de dibujo integrado. |
 | CustomXml | `34` | Tipo de dibujo integrado. |
-| Model3D | `35` | Tipo de dibujo integrado. |
+| Timeline | `35` | Tipo de dibujo integrado. |
+| Model3D | `36` | Tipo de dibujo integrado. |
 
 ### Ver también
 

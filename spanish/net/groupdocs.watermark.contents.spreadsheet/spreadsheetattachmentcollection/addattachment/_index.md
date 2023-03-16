@@ -18,7 +18,7 @@ public void AddAttachment(byte[] fileContent, string sourceFullName, byte[] prev
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | fileContent | Byte[] | El contenido del archivo a adjuntar. |
-| sourceFullName | String | El nombre completo del archivo adjunto (La extensión se usa para determinar la aplicación apropiada para abrir el archivo). |
+| sourceFullName | String | El nombre completo del archivo adjunto (La extensión se usa para determinar la aplicación adecuada para abrir el archivo). |
 | previewImageContent | Byte[] | La imagen de vista previa del archivo adjunto como una matriz de bytes. |
 | x | Double | La coordenada x del marco adjunto (en puntos). |
 | y | Double | La coordenada y del marco adjunto (en puntos). |

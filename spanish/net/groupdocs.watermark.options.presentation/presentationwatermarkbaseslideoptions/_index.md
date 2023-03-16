@@ -19,7 +19,7 @@ public abstract class PresentationWatermarkBaseSlideOptions : PresentationWaterm
 | Nombre | Descripción |
 | --- | --- |
 | [AlternativeText](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/alternativetext) { get; set; } | Obtiene o establece el texto descriptivo (alternativo) que se asociará con una forma. |
-| [Effects](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects) { get; set; } | Obtiene o establece un valor de[`PresentationImageEffects`](../presentationimageeffects) o [`PresentationTextEffects`](../presentationtexteffects) para los efectos que deben aplicarse a la marca de agua. |
+| [Effects](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects) { get; set; } | Obtiene o establece un valor de[`PresentationImageEffects`](../presentationimageeffects) or [`PresentationTextEffects`](../presentationtexteffects) para los efectos que deben aplicarse a la marca de agua. |
 | [IsLocked](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/islocked) { get; set; } | Obtiene o establece un valor que indica si está prohibida la edición de la forma en PowerPoint. |
 | [Name](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/name) { get; set; } | Obtiene o establece el nombre de una forma. |
 | [ProtectWithUnreadableCharacters](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/protectwithunreadablecharacters) { get; set; } | Obtiene o establece un valor que indica si los caracteres de la marca de agua de texto están mezclados con caracteres ilegibles. |
@@ -42,17 +42,17 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.pptx", loadOptions))
 
     // Agregar marca de agua a todas las diapositivas maestras
     PresentationWatermarkMasterSlideOptions masterSlideOptions = new PresentationWatermarkMasterSlideOptions();
-    masterSlideOptions.MasterSlideIndex = -1; // defecto
+    masterSlideOptions.MasterSlideIndex = -1; // por defecto
     watermarker.Add(watermark, masterSlideOptions);
 
     // Agregar marca de agua a todas las diapositivas de diseño
     PresentationWatermarkLayoutSlideOptions layoutSlideOptions = new PresentationWatermarkLayoutSlideOptions();
-    layoutSlideOptions.LayoutSlideIndex = -1; // defecto
+    layoutSlideOptions.LayoutSlideIndex = -1; // por defecto
     watermarker.Add(watermark, layoutSlideOptions);
 
     // Agregar marca de agua a todas las diapositivas de notas
     PresentationWatermarkNoteSlideOptions noteSlideOptions = new PresentationWatermarkNoteSlideOptions();
-    noteSlideOptions.SlideIndex = -1; // defecto
+    noteSlideOptions.SlideIndex = -1; // por defecto
     watermarker.Add(watermark, noteSlideOptions);
 
     // Agregar marca de agua al maestro del folleto

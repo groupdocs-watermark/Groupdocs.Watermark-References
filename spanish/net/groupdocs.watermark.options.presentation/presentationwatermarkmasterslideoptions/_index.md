@@ -25,7 +25,7 @@ public sealed class PresentationWatermarkMasterSlideOptions : PresentationWaterm
 | Nombre | Descripción |
 | --- | --- |
 | [AlternativeText](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/alternativetext) { get; set; } | Obtiene o establece el texto descriptivo (alternativo) que se asociará con una forma. |
-| [Effects](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects) { get; set; } | Obtiene o establece un valor de[`PresentationImageEffects`](../presentationimageeffects) o [`PresentationTextEffects`](../presentationtexteffects) para los efectos que deben aplicarse a la marca de agua. |
+| [Effects](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects) { get; set; } | Obtiene o establece un valor de[`PresentationImageEffects`](../presentationimageeffects) or [`PresentationTextEffects`](../presentationtexteffects) para los efectos que deben aplicarse a la marca de agua. |
 | [IsLocked](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/islocked) { get; set; } | Obtiene o establece un valor que indica si está prohibida la edición de la forma en PowerPoint. |
 | [MasterSlideIndex](../../groupdocs.watermark.options.presentation/presentationwatermarkmasterslideoptions/masterslideindex) { get; set; } | Obtiene o establece el índice de la diapositiva maestra para agregarle la marca de agua. |
 | [Name](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/name) { get; set; } | Obtiene o establece el nombre de una forma. |

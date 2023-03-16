@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Referencia de API de GroupDocs.Watermark para .NET
 description: Obtiene o establece la alineación del texto de la marca de agua.
 type: docs
-weight: 60
+weight: 70
 url: /es/net/groupdocs.watermark.watermarks/textwatermark/textalignment/
 ---
 ## TextWatermark.TextAlignment property

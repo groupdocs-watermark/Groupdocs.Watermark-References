@@ -25,7 +25,7 @@ public sealed class WordProcessingWatermarkHeaderFooterOptions : WordProcessingW
 | Nombre | Descripción |
 | --- | --- |
 | [AlternativeText](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/alternativetext) { get; set; } | Obtiene o establece el texto descriptivo (alternativo) que se asociará con una forma. |
-| [Effects](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/effects) { get; set; } | Obtiene o establece un valor de[`WordProcessingImageEffects`](../wordprocessingimageeffects) o [`WordProcessingTextEffects`](../wordprocessingtexteffects) para los efectos que deben aplicarse a la marca de agua. |
+| [Effects](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/effects) { get; set; } | Obtiene o establece un valor de[`WordProcessingImageEffects`](../wordprocessingimageeffects) or [`WordProcessingTextEffects`](../wordprocessingtexteffects) para los efectos que deben aplicarse a la marca de agua. |
 | [HeaderFooterType](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkheaderfooteroptions/headerfootertype) { get; set; } | Obtiene o establece el valor que identifica el tipo de encabezado o pie de página al que se agregará la marca de agua. |
 | [IsLocked](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/islocked) { get; set; } | Obtiene o establece un valor que indica si está prohibida la edición de la forma en Word. |
 | [LockType](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/locktype) { get; set; } | Obtiene o establece el tipo de bloqueo de marca de agua. |

@@ -31,7 +31,7 @@ public class SpreadsheetWatermarkableImage : WatermarkableImage
 
 | Nombre | Descripción |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Agrega una marca de agua a esto[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). Este método asume que el desplazamiento y el tamaño de la marca de agua se miden en píxeles (si están asignados). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Agrega una marca de agua a esto[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage) . Este método asume que el desplazamiento y el tamaño de la marca de agua se miden en píxeles (si están asignados). |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | Encuentra todas las imágenes en el contenido. La búsqueda se realiza en los objetos especificados en[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Encuentra imágenes de acuerdo con los criterios de búsqueda especificados. La búsqueda se realiza en los objetos especificados en[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | Obtiene la imagen como matriz de bytes. |

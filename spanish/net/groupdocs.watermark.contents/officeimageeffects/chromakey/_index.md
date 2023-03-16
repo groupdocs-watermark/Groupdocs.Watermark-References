@@ -16,7 +16,7 @@ public Color ChromaKey { get; set; }
 
 ### El valor de la propiedad
 
-El valor predeterminado es color completamente transparente.
+El valor predeterminado es color totalmente transparente.
 
 ### Ver también
 

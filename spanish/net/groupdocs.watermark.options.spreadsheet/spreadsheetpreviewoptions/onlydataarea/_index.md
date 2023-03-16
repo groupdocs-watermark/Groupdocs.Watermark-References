@@ -20,7 +20,7 @@ La bandera para representar el área de datos solo sin encabezados, pies de pág
 
 ### Observaciones
 
-Este indicador conduce a representar toda la hoja de trabajo en una página. El valor predeterminado es`falso` .
+Este indicador conduce a representar toda la hoja de trabajo en una página. El valor predeterminado es`FALSO` .
 
 ### Ver también
 

@@ -20,7 +20,7 @@ public static Color FromArgb(int argb)
 
 ### Valor_devuelto
 
-los[`Color`](../../color) estructura que crea este método.
+El[`Color`](../../color) estructura que crea este método.
 
 ### Ver también
 
@@ -41,11 +41,11 @@ public static Color FromArgb(int alpha, Color baseColor)
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
 | alpha | Int32 | El valor alfa para el nuevo[`Color`](../../color). Los valores válidos son de 0 a 255. |
-| baseColor | Color | los[`Color`](../../color) a partir de la cual crear el nuevo[`Color`](../../color). |
+| baseColor | Color | El[`Color`](../../color) a partir de la cual crear el nuevo[`Color`](../../color). |
 
 ### Valor_devuelto
 
-los[`Color`](../../color) que crea este método.
+El[`Color`](../../color) que crea este método.
 
 ### Excepciones
 
@@ -81,7 +81,7 @@ public static Color FromArgb(int red, int green, int blue)
 
 ### Valor_devuelto
 
-los[`Color`](../../color) que crea este método.
+El[`Color`](../../color) que crea este método.
 
 ### Excepciones
 
@@ -118,7 +118,7 @@ public static Color FromArgb(int alpha, int red, int green, int blue)
 
 ### Valor_devuelto
 
-los[`Color`](../../color) que crea este método.
+El[`Color`](../../color) que crea este método.
 
 ### Excepciones
 

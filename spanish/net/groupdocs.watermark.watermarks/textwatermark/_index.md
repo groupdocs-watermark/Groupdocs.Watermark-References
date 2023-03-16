@@ -33,6 +33,7 @@ public class TextWatermark : Watermark
 | [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | Obtiene o establece un valor que indica si la marca de agua se debe colocar en el fondo. |
 | [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | Obtiene o establece la configuración de márgenes de este[`Watermark`](../../groupdocs.watermark/watermark) . |
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Obtiene o establece la opacidad de este[`Watermark`](../../groupdocs.watermark/watermark) . |
+| [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | Obtiene o establece la configuración de relleno de este[`TextWatermark`](../textwatermark) . Esta propiedad solo se aplica a archivos de imagen. |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Obtiene o establece el ángulo de rotación de este[`Watermark`](../../groupdocs.watermark/watermark) en grados. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Obtiene o establece un valor que define cómo el tamaño de la marca de agua depende del tamaño principal. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Obtiene o establece un valor que especifica la forma en que se debe dimensionar la marca de agua. |

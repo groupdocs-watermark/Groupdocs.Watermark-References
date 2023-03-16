@@ -1,14 +1,14 @@
 ---
 title: Effects
 second_title: Referencia de API de GroupDocs.Watermark para .NET
-description: Obtiene o establece un valor deSpreadsheetImageEffectsgroupdocs.watermark.options.spreadsheet/spreadsheetimageeffects o SpreadsheetTextEffectsgroupdocs.watermark.options.spreadsheet/spreadsheettexteffects para los efectos que deben aplicarse a la marca de agua.
+description: Obtiene o establece un valor deSpreadsheetImageEffectsgroupdocs.watermark.options.spreadsheet/spreadsheetimageeffects or SpreadsheetTextEffectsgroupdocs.watermark.options.spreadsheet/spreadsheettexteffects para los efectos que deben aplicarse a la marca de agua.
 type: docs
 weight: 20
 url: /es/net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/effects/
 ---
 ## SpreadsheetWatermarkShapeOptions.Effects property
 
-Obtiene o establece un valor de[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) o [`SpreadsheetTextEffects`](../../spreadsheettexteffects) para los efectos que deben aplicarse a la marca de agua.
+Obtiene o establece un valor de[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) or [`SpreadsheetTextEffects`](../../spreadsheettexteffects) para los efectos que deben aplicarse a la marca de agua.
 
 ```csharp
 public ISpreadsheetWatermarkEffects Effects { get; set; }
@@ -16,7 +16,7 @@ public ISpreadsheetWatermarkEffects Effects { get; set; }
 
 ### El valor de la propiedad
 
-El[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) o[`SpreadsheetTextEffects`](../../spreadsheettexteffects) para efectos que se deben aplicar a la marca de agua.
+El[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) o[`SpreadsheetTextEffects`](../../spreadsheettexteffects)para efectos que se deben aplicar a la marca de agua.
 
 ### Ver también
 

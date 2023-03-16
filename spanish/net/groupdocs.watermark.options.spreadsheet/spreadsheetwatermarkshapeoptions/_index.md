@@ -25,7 +25,7 @@ public sealed class SpreadsheetWatermarkShapeOptions : SpreadsheetWatermarkBaseO
 | Nombre | Descripción |
 | --- | --- |
 | [AlternativeText](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/alternativetext) { get; set; } | Obtiene o establece el texto descriptivo (alternativo) que se asociará con una forma. |
-| [Effects](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/effects) { get; set; } | Obtiene o establece un valor de[`SpreadsheetImageEffects`](../spreadsheetimageeffects) o [`SpreadsheetTextEffects`](../spreadsheettexteffects) para los efectos que deben aplicarse a la marca de agua. |
+| [Effects](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/effects) { get; set; } | Obtiene o establece un valor de[`SpreadsheetImageEffects`](../spreadsheetimageeffects) or [`SpreadsheetTextEffects`](../spreadsheettexteffects) para los efectos que deben aplicarse a la marca de agua. |
 | [IsLocked](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/islocked) { get; set; } | Obtiene o establece un valor que indica si está prohibida la edición de la forma en Excel. |
 | [Name](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/name) { get; set; } | Obtiene o establece el nombre de una forma. |
 | [WorksheetIndex](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/worksheetindex) { get; set; } | Obtiene o establece el índice de la hoja de trabajo para agregar la marca de agua. |
