@@ -16,7 +16,7 @@ public static GifImageSaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`GifImageSaveOptions`](../../gifimagesaveoptions) صف دراسي.
+القيمة الافتراضية لملف[`GifImageSaveOptions`](../../gifimagesaveoptions) فصل.
 
 ### أنظر أيضا
 

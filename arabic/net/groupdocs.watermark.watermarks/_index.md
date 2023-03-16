@@ -16,6 +16,7 @@ url: /ar/net/groupdocs.watermark.watermarks/
 | [ImageWatermark](./imagewatermark) | يمثل صورة العلامة المائية. |
 | [Margins](./margins) | يمثل إعدادات الهامش لكل حافة كائن. |
 | [TextWatermark](./textwatermark) | يمثل علامة مائية نصية. |
+| [Thickness](./thickness) | يصف سمك إطار حول مستطيل. |
 ## الهياكل
 
 | بنية | وصف |

@@ -27,7 +27,7 @@ public abstract class PresentationBaseShape : ShapeSearchAdapter, IPresentationH
 | [Presentation](../../groupdocs.watermark.contents.presentation/presentationbaseshape/presentation) { get; } | يحصل على العرض التقديمي الأصل لهذا[`PresentationBaseShape`](../presentationbaseshape) . |
 | [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | الحصول على أو تحديد عرض هذا[`PresentationBaseShape`](../presentationbaseshape)بالنقاط. |
 | [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | الحصول على أو تحديد الإزاحة الأفقية لهذا[`PresentationBaseShape`](../presentationbaseshape) من الحد الأيسر للعرض بالنقاط . |
-| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | الحصول على أو تحديد الإزاحة الرأسية لهذا[`PresentationBaseShape`](../presentationbaseshape)from عرض الحد العلوي بالنقاط . |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | الحصول على أو تحديد الإزاحة الرأسية لهذا[`PresentationBaseShape`](../presentationbaseshape) from عرض الحد العلوي بالنقاط . |
 | [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | يحصل على موقع هذا[`PresentationBaseShape`](../presentationbaseshape) بالترتيب z. |
 
 ## طُرق

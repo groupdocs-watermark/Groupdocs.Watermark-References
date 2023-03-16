@@ -16,7 +16,7 @@ public WordProcessingWatermarkableImage Image { get; set; }
 
 ### Property_Value
 
-صورة هذا[`WordProcessingShape`](../../wordprocessingshape). تُرجع القيمة فارغة إذا كان الشكل لا يحتوي على صورة.
+صورة هذا[`WordProcessingShape`](../../wordprocessingshape) . تُرجع القيمة فارغة إذا كان الشكل لا يحتوي على صورة.
 
 ### أنظر أيضا
 

@@ -16,7 +16,7 @@ public static ImageSaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`ImageSaveOptions`](../../imagesaveoptions) صف دراسي.
+القيمة الافتراضية لملف[`ImageSaveOptions`](../../imagesaveoptions) فصل.
 
 ### أنظر أيضا
 

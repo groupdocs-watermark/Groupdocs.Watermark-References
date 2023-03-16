@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Watermark لـ .NET API Reference
 description: الحصول على أو تعيين النص لاستخدامه كعلامة مائية.
 type: docs
-weight: 50
+weight: 60
 url: /ar/net/groupdocs.watermark.watermarks/textwatermark/text/
 ---
 ## TextWatermark.Text property

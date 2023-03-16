@@ -16,7 +16,7 @@ public Watermarker CreateWatermarker()
 
 ### قيمة الإرجاع
 
-المثيل المناسب من سليل[`Content`](../../../groupdocs.watermark.contents/content) صف دراسي.
+المثيل المناسب من سليل[`Content`](../../../groupdocs.watermark.contents/content) فصل.
 
 ### أنظر أيضا
 
@@ -41,7 +41,7 @@ public Watermarker CreateWatermarker(LoadOptions loadOptions)
 
 ### قيمة الإرجاع
 
-المثيل المناسب من سليل[`Content`](../../../groupdocs.watermark.contents/content) صف دراسي.
+المثيل المناسب من سليل[`Content`](../../../groupdocs.watermark.contents/content) فصل.
 
 ### أنظر أيضا
 
@@ -69,7 +69,7 @@ public Watermarker CreateWatermarker(LoadOptions loadOptions,
 
 ### قيمة الإرجاع
 
-المثيل المناسب من سليل[`Content`](../../../groupdocs.watermark.contents/content) صف دراسي.
+المثيل المناسب من سليل[`Content`](../../../groupdocs.watermark.contents/content) فصل.
 
 ### أنظر أيضا
 

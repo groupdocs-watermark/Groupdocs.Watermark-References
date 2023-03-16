@@ -16,7 +16,7 @@ public static EmailLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لـ[`EmailLoadOptions`](../../emailloadoptions) صف دراسي.
+القيمة الافتراضية لـ[`EmailLoadOptions`](../../emailloadoptions) فصل.
 
 ### أنظر أيضا
 

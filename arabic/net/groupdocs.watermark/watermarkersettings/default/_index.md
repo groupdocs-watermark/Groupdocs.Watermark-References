@@ -16,7 +16,7 @@ public static WatermarkerSettings Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`WatermarkerSettings`](../../watermarkersettings) صف دراسي.
+القيمة الافتراضية لملف[`WatermarkerSettings`](../../watermarkersettings) فصل.
 
 ### أنظر أيضا
 

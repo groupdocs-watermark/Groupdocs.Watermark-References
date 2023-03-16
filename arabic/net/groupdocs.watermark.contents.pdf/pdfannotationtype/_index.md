@@ -46,6 +46,7 @@ public enum PdfAnnotationType
 | RichMedia | `25` | نوع التعليق التوضيحي RichMedia . |
 | Unknown | `26` | تعليق توضيحي غير معروف . |
 | Pdf3D | `27` | تعليق توضيحي بتنسيق PDF ثلاثي الأبعاد . |
+| ColorBar | `28` | التعليق التوضيحي لشريط ColorBar . |
 
 ### أنظر أيضا
 

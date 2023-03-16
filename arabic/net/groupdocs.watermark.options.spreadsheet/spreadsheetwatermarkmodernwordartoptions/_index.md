@@ -46,8 +46,8 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.xls", loadO
     TextWatermark watermark = new TextWatermark("Test watermark", new Font("Arial", 36));
 
     SpreadsheetWatermarkModernWordArtOptions options = new SpreadsheetWatermarkModernWordArtOptions();
-    options.WorksheetIndex = -1; // إفتراضي
-    options.IsLocked = false; // إفتراضي
+    options.WorksheetIndex = -1; // تقصير
+    options.IsLocked = false; // تقصير
 
     watermarker.Add(watermark, options);
     watermarker.Save();

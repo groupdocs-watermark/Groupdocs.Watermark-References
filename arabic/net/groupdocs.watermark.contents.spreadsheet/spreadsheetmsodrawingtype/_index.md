@@ -45,7 +45,8 @@ public enum SpreadsheetMsoDrawingType
 | WebExtension | `32` | نوع الرسم المدمج. |
 | SmartArt | `33` | نوع الرسم المدمج. |
 | CustomXml | `34` | نوع الرسم المدمج. |
-| Model3D | `35` | نوع الرسم المدمج. |
+| Timeline | `35` | نوع الرسم المدمج. |
+| Model3D | `36` | نوع الرسم المدمج. |
 
 ### أنظر أيضا
 

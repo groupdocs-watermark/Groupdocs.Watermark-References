@@ -16,7 +16,7 @@ public static PresentationSaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`PresentationSaveOptions`](../../presentationsaveoptions) صف دراسي.
+القيمة الافتراضية لملف[`PresentationSaveOptions`](../../presentationsaveoptions) فصل.
 
 ### أنظر أيضا
 

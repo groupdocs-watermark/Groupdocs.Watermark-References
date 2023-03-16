@@ -16,7 +16,7 @@ public static PdfSaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`PdfSaveOptions`](../../pdfsaveoptions) صف دراسي.
+القيمة الافتراضية لملف[`PdfSaveOptions`](../../pdfsaveoptions) فصل.
 
 ### أنظر أيضا
 

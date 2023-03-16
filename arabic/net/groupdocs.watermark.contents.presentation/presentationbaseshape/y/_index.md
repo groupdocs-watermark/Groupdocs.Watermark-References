@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: GroupDocs.Watermark لـ .NET API Reference
-description: الحصول على أو تحديد الإزاحة الرأسية لهذاPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapefrom عرض الحد العلوي بالنقاط .
+description: الحصول على أو تحديد الإزاحة الرأسية لهذاPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape from عرض الحد العلوي بالنقاط .
 type: docs
 weight: 90
 url: /ar/net/groupdocs.watermark.contents.presentation/presentationbaseshape/y/
 ---
 ## PresentationBaseShape.Y property
 
-الحصول على أو تحديد الإزاحة الرأسية لهذا[`PresentationBaseShape`](../../presentationbaseshape)from عرض الحد العلوي بالنقاط .
+الحصول على أو تحديد الإزاحة الرأسية لهذا[`PresentationBaseShape`](../../presentationbaseshape) from عرض الحد العلوي بالنقاط .
 
 ```csharp
 public double Y { get; set; }

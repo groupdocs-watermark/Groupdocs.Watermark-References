@@ -16,7 +16,7 @@ public Color Color { get; set; }
 
 ### Property_Value
 
-النظام الأساسي[`Black`](../../../groupdocs.watermark.watermarks/color/black).
+القيمة الافتراضية هي[`Black`](../../../groupdocs.watermark.watermarks/color/black).
 
 ### أنظر أيضا
 

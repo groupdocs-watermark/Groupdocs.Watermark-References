@@ -42,17 +42,17 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.pptx", loadOptions))
 
     // أضف علامة مائية إلى جميع الشرائح الرئيسية
     PresentationWatermarkMasterSlideOptions masterSlideOptions = new PresentationWatermarkMasterSlideOptions();
-    masterSlideOptions.MasterSlideIndex = -1; // إفتراضي
+    masterSlideOptions.MasterSlideIndex = -1; // تقصير
     watermarker.Add(watermark, masterSlideOptions);
 
     // إضافة علامة مائية إلى جميع شرائح التخطيط
     PresentationWatermarkLayoutSlideOptions layoutSlideOptions = new PresentationWatermarkLayoutSlideOptions();
-    layoutSlideOptions.LayoutSlideIndex = -1; // إفتراضي
+    layoutSlideOptions.LayoutSlideIndex = -1; // تقصير
     watermarker.Add(watermark, layoutSlideOptions);
 
     // أضف علامة مائية إلى جميع شرائح الملاحظات
     PresentationWatermarkNoteSlideOptions noteSlideOptions = new PresentationWatermarkNoteSlideOptions();
-    noteSlideOptions.SlideIndex = -1; // إفتراضي
+    noteSlideOptions.SlideIndex = -1; // تقصير
     watermarker.Add(watermark, noteSlideOptions);
 
     // أضف علامة مائية إلى النشرات الرئيسية

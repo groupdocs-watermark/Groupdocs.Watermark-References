@@ -16,7 +16,7 @@ public static EmailSaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`EmailSaveOptions`](../../emailsaveoptions) صف دراسي.
+القيمة الافتراضية لملف[`EmailSaveOptions`](../../emailsaveoptions) فصل.
 
 ### أنظر أيضا
 

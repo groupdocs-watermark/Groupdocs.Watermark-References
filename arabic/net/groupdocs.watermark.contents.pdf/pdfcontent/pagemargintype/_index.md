@@ -22,7 +22,7 @@ public PdfPageMarginType PageMarginType { get; set; }
 
 هذه الخاصية تعمل فقط عندما[`ConsiderParentMargins`](../../../groupdocs.watermark/watermark/considerparentmargins) مضبوط على صواب. إذا[`ConsiderParentMargins`](../../../groupdocs.watermark/watermark/considerparentmargins) خطأ ، عند استخدام pdf كروبوكس كمنطقة علامة مائية.
 
-النظام الأساسيTrimBox.
+القيمة الافتراضية هيTrimBox.
 
 ### أنظر أيضا
 

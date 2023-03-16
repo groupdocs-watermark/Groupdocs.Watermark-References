@@ -16,7 +16,7 @@ public static SpreadsheetLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions) صف دراسي.
+القيمة الافتراضية لملف[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions) فصل.
 
 ### أنظر أيضا
 

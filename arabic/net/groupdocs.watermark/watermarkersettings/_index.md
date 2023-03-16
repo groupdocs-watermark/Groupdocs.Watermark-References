@@ -18,7 +18,7 @@ public sealed class WatermarkerSettings
 
 | اسم | وصف |
 | --- | --- |
-| [WatermarkerSettings](watermarkersettings)() | تهيئة مثيل جديد لـ[`WatermarkerSettings`](../watermarkersettings) صف دراسي. |
+| [WatermarkerSettings](watermarkersettings)() | تهيئة مثيل جديد لـ[`WatermarkerSettings`](../watermarkersettings) فصل. |
 
 ## الخصائص
 

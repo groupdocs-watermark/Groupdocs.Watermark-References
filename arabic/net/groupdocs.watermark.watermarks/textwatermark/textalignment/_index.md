@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: GroupDocs.Watermark لـ .NET API Reference
 description: الحصول على محاذاة نص العلامة المائية أو تعيينها.
 type: docs
-weight: 60
+weight: 70
 url: /ar/net/groupdocs.watermark.watermarks/textwatermark/textalignment/
 ---
 ## TextWatermark.TextAlignment property

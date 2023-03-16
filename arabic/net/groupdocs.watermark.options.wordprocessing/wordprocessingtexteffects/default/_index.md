@@ -16,7 +16,7 @@ public static readonly WordProcessingTextEffects Default;
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`WordProcessingTextEffects`](../../wordprocessingtexteffects) صف دراسي.
+القيمة الافتراضية لملف[`WordProcessingTextEffects`](../../wordprocessingtexteffects) فصل.
 
 ### أنظر أيضا
 

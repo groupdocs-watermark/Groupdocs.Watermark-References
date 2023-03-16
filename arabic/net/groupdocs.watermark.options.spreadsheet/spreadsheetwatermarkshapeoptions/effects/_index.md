@@ -16,7 +16,7 @@ public ISpreadsheetWatermarkEffects Effects { get; set; }
 
 ### Property_Value
 
-ملف[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) أو[`SpreadsheetTextEffects`](../../spreadsheettexteffects) للتأثيرات التي يجب تطبيقها على العلامة المائية.
+ملف[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) أو[`SpreadsheetTextEffects`](../../spreadsheettexteffects)للتأثيرات التي يجب تطبيقها على العلامة المائية.
 
 ### أنظر أيضا
 
