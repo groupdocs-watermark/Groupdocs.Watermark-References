@@ -18,7 +18,7 @@ public enum PresentationShapeType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| NotDefined | `-1` | 未定义文档形状类型。 |
+| NotDefined | `-1` | UndefinedDocument 形状类型。 |
 | Custom | `0` | 内置形状几何预设类型。 |
 | Line | `1` | 内置形状几何预设类型。 |
 | LineInverse | `2` | 内置形状几何预设类型。 |

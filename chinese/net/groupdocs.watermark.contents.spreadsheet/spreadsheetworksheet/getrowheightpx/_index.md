@@ -1,14 +1,14 @@
 ---
 title: GetRowHeightPx
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取指定行的高度以像素为单位
+description: 获取指定行的像素高度
 type: docs
 weight: 140
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheightpx/
 ---
 ## SpreadsheetWorksheet.GetRowHeightPx method
 
-获取指定行的高度（以像素为单位）。
+获取指定行的像素高度。
 
 ```csharp
 public int GetRowHeightPx(int row)

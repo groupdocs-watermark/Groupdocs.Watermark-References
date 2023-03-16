@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示保存图像时的图像保存选项
+description: 表示保存图片时的图片保存选项
 type: docs
 weight: 1780
 url: /zh/net/groupdocs.watermark.options.image/imagesaveoptions/
 ---
 ## ImageSaveOptions class
 
-表示保存图像时的图像保存选项。
+表示保存图片时的图片保存选项。
 
 ```csharp
 public class ImageSaveOptions : SaveOptions
@@ -18,7 +18,7 @@ public class ImageSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageSaveOptions](imagesaveoptions)() | 初始化[`ImageSaveOptions`](../imagesaveoptions)类. |
+| [ImageSaveOptions](imagesaveoptions)() | 初始化一个新的实例[`ImageSaveOptions`](../imagesaveoptions)类. |
 
 ## 特性
 

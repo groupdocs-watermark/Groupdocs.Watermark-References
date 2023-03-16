@@ -18,7 +18,7 @@ public sealed class GifImageLoadOptions : MultiframeImageLoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GifImageLoadOptions](gifimageloadoptions)() | 初始化[`GifImageLoadOptions`](../gifimageloadoptions)类. |
+| [GifImageLoadOptions](gifimageloadoptions)() | 初始化一个新的实例[`GifImageLoadOptions`](../gifimageloadoptions)类. |
 
 ## 特性
 

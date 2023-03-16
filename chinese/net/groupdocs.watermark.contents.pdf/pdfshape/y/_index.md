@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取对象的 y 坐标
+description: 获取对象的y坐标
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfshape/y/
 ---
 ## PdfShape.Y property
 
-获取对象的 y 坐标。
+获取对象的y坐标。
 
 ```csharp
 public abstract double Y { get; }

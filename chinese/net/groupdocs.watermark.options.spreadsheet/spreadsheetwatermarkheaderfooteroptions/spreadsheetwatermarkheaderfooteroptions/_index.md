@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetWatermarkHeaderFooterOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetWatermarkHeaderFooterOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions类.
+description: 初始化一个新的实例SpreadsheetWatermarkHeaderFooterOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/spreadsheetwatermarkheaderfooteroptions/
 ---
 ## SpreadsheetWatermarkHeaderFooterOptions constructor
 
-初始化[`SpreadsheetWatermarkHeaderFooterOptions`](../../spreadsheetwatermarkheaderfooteroptions)类.
+初始化一个新的实例[`SpreadsheetWatermarkHeaderFooterOptions`](../../spreadsheetwatermarkheaderfooteroptions)类.
 
 ```csharp
 public SpreadsheetWatermarkHeaderFooterOptions()

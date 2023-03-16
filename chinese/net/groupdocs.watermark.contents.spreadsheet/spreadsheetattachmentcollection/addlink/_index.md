@@ -17,8 +17,8 @@ public void AddLink(string sourceFullName, byte[] previewImageContent, double x,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| sourceFullName | String | 链接的文件路径。 |
-| previewImageContent | Byte[] | 作为字节数组的附件预览图像。 |
+| sourceFullName | String | 链接文件路径。 |
+| previewImageContent | Byte[] | 作为字节数组的附加文件预览图像。 |
 | x | Double | 附件框架的 x 坐标（以磅为单位）。 |
 | y | Double | 附件框架的 y 坐标（以磅为单位）。 |
 | width | Double | 附件框架的宽度（以磅为单位）。 |

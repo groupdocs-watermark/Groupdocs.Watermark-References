@@ -1,14 +1,14 @@
 ---
 title: InvalidPasswordException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化InvalidPasswordExceptiongroupdocs.watermark.exceptions/invalidpasswordexception类.
+description: 初始化一个新的实例InvalidPasswordExceptiongroupdocs.watermark.exceptions/invalidpasswordexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/invalidpasswordexception/invalidpasswordexception/
 ---
 ## InvalidPasswordException constructor
 
-初始化[`InvalidPasswordException`](../../invalidpasswordexception)类.
+初始化一个新的实例[`InvalidPasswordException`](../../invalidpasswordexception)类.
 
 ```csharp
 public InvalidPasswordException()

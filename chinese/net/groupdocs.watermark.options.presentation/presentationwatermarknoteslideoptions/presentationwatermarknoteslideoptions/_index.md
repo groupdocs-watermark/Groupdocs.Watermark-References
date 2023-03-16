@@ -1,14 +1,14 @@
 ---
 title: PresentationWatermarkNoteSlideOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PresentationWatermarkNoteSlideOptionsgroupdocs.watermark.options.presentation/presentationwatermarknoteslideoptions类.
+description: 初始化一个新的实例PresentationWatermarkNoteSlideOptionsgroupdocs.watermark.options.presentation/presentationwatermarknoteslideoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.presentation/presentationwatermarknoteslideoptions/presentationwatermarknoteslideoptions/
 ---
 ## PresentationWatermarkNoteSlideOptions constructor
 
-初始化[`PresentationWatermarkNoteSlideOptions`](../../presentationwatermarknoteslideoptions)类.
+初始化一个新的实例[`PresentationWatermarkNoteSlideOptions`](../../presentationwatermarknoteslideoptions)类.
 
 ```csharp
 public PresentationWatermarkNoteSlideOptions()

@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本PossibleWatermarkgroupdocs.watermark.search/possiblewatermark.
+description: 获取或设置此文本PossibleWatermarkgroupdocs.watermark.search/possiblewatermark.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.search/possiblewatermark/text/
 ---
 ## PossibleWatermark.Text property
 
-获取或设置 this 的文本[`PossibleWatermark`](../../possiblewatermark).
+获取或设置此文本[`PossibleWatermark`](../../possiblewatermark).
 
 ```csharp
 public virtual string Text { get; set; }
@@ -16,7 +16,7 @@ public virtual string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`PossibleWatermark`](../../possiblewatermark).
+这一段的正文[`PossibleWatermark`](../../possiblewatermark).
 
 ### 也可以看看
 

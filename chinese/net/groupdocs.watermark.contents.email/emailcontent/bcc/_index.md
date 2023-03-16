@@ -1,14 +1,14 @@
 ---
 title: Bcc
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取电子邮件的密件抄送密件抄送收件人的集合
+description: 获取电子邮件的 BCC密件抄送收件人集合
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.email/emailcontent/bcc/
 ---
 ## EmailContent.Bcc property
 
-获取电子邮件的密件抄送（密件抄送）收件人的集合。
+获取电子邮件的 BCC（密件抄送）收件人集合。
 
 ```csharp
 public EmailAddressCollection Bcc { get; }
@@ -16,7 +16,7 @@ public EmailAddressCollection Bcc { get; }
 
 ### 适当的价值
 
-电子邮件的密件抄送（密件抄送）收件人的集合。
+电子邮件的 BCC（密件抄送）收件人的集合。
 
 ### 也可以看看
 

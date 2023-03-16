@@ -18,25 +18,25 @@ public class PresentationWatermarkableImage : WatermarkableImage
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PresentationWatermarkableImage](presentationwatermarkableimage)(byte[]) | 初始化[`PresentationWatermarkableImage`](../presentationwatermarkableimage) 类使用指定的图像数据。 |
+| [PresentationWatermarkableImage](presentationwatermarkableimage)(byte[]) | 初始化一个新的实例[`PresentationWatermarkableImage`](../presentationwatermarkableimage) 使用指定图像数据的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Height](../../groupdocs.watermark.contents.image/watermarkableimage/height) { get; } | 获取这个的高度[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage)以像素为单位。 |
-| [Width](../../groupdocs.watermark.contents.image/watermarkableimage/width) { get; } | 获取这个的宽度[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage)以像素为单位。 |
+| [Height](../../groupdocs.watermark.contents.image/watermarkableimage/height) { get; } | 获取这个的高度[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage)以像素为单位. |
+| [Width](../../groupdocs.watermark.contents.image/watermarkableimage/width) { get; } | 得到这个的宽度[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage)以像素为单位. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | 添加水印[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). 此方法假定水印偏移量和大小以像素为单位（如果已分配）。 |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | 以字节数组的形式获取图像。 |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | 为此添加水印[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). 此方法假定水印偏移量和大小以像素为单位测量（如果已分配）。 |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | 获取图像作为字节数组。 |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MediaType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的媒体类型EmailAttachmentBasegroupdocs.watermark.contents.email/emailattachmentbase.
+description: 得到这个的媒体类型EmailAttachmentBasegroupdocs.watermark.contents.email/emailattachmentbase.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.email/emailattachmentbase/mediatype/
 ---
 ## EmailAttachmentBase.MediaType property
 
-获取这个的媒体类型[`EmailAttachmentBase`](../../emailattachmentbase).
+得到这个的媒体类型[`EmailAttachmentBase`](../../emailattachmentbase).
 
 ```csharp
 public string MediaType { get; }

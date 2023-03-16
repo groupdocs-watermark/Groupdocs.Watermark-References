@@ -1,14 +1,14 @@
 ---
 title: IsBackground
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示水印是否应放置在背景中
+description: 获取或设置一个值指示水印是否应放置在背景中
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark/watermark/isbackground/
 ---
 ## Watermark.IsBackground property
 
-获取或设置一个值，该值指示水印是否应放置在背景中。
+获取或设置一个值，指示水印是否应放置在背景中。
 
 ```csharp
 public bool IsBackground { get; set; }
@@ -16,7 +16,7 @@ public bool IsBackground { get; set; }
 
 ### 适当的价值
 
-如果值为true，水印会放在底部。 默认值为false，水印会放在顶部。
+如果值为true，水印将放在底部。 默认值为false，水印将放在顶部。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置附件框架与工作表左边框的水平偏移量以磅为单位
+description: 获取或设置附件框相对于工作表左边框的水平偏移量以磅为单位
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/x/
 ---
 ## SpreadsheetAttachment.X property
 
-获取或设置附件框架与工作表左边框的水平偏移量，以磅为单位。
+获取或设置附件框相对于工作表左边框的水平偏移量（以磅为单位）。
 
 ```csharp
 public double X { get; set; }

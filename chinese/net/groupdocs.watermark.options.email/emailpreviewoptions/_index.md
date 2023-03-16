@@ -1,14 +1,14 @@
 ---
 title: EmailPreviewOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 提供选项来设置要求和流代理以预览电子邮件文档的生成
+description: 提供选项来设置要求和流委托以生成电子邮件文档的预览
 type: docs
 weight: 1710
 url: /zh/net/groupdocs.watermark.options.email/emailpreviewoptions/
 ---
 ## EmailPreviewOptions class
 
-提供选项来设置要求和流代理以预览电子邮件文档的生成。
+提供选项来设置要求和流委托以生成电子邮件文档的预览。
 
 ```csharp
 public class EmailPreviewOptions : PreviewOptions
@@ -18,8 +18,8 @@ public class EmailPreviewOptions : PreviewOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmailPreviewOptions](emailpreviewoptions#constructor)(CreatePageStream) | 初始化[`EmailPreviewOptions`](../emailpreviewoptions)导致输出流关闭的类。 |
-| [EmailPreviewOptions](emailpreviewoptions#constructor_1)(CreatePageStream, ReleasePageStream) | 初始化一个新的实例[`EmailPreviewOptions`](../emailpreviewoptions)类导致输出流返回 给客户端以供进一步使用。 |
+| [EmailPreviewOptions](emailpreviewoptions#constructor)(CreatePageStream) | 初始化一个新的实例[`EmailPreviewOptions`](../emailpreviewoptions)导致输出流关闭的类。 |
+| [EmailPreviewOptions](emailpreviewoptions#constructor_1)(CreatePageStream, ReleasePageStream) | 初始化一个新实例[`EmailPreviewOptions`](../emailpreviewoptions)导致输出流被返回 到客户端以供进一步使用的类。 |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public class EmailPreviewOptions : PreviewOptions
 | [CreatePageStream](../../groupdocs.watermark.options/previewoptions/createpagestream) { get; set; } | 获取或设置页面流创建委托的实例。 |
 | [Height](../../groupdocs.watermark.options/previewoptions/height) { get; set; } | 获取或设置页面预览高度。 |
 | [PageNumbers](../../groupdocs.watermark.options/previewoptions/pagenumbers) { get; set; } | 获取或设置页码数组以生成预览。 |
-| [PreviewFormat](../../groupdocs.watermark.options/previewoptions/previewformat) { get; set; } | 获取或设置预览图像格式 |
+| [PreviewFormat](../../groupdocs.watermark.options/previewoptions/previewformat) { get; set; } | 获取或设置预览图像格式。 |
 | [ReleasePageStream](../../groupdocs.watermark.options/previewoptions/releasepagestream) { get; set; } | 获取或设置页面预览完成委托的实例。 |
 | [Resolution](../../groupdocs.watermark.options.email/emailpreviewoptions/resolution) { get; set; } | 获取或设置生成图像的分辨率，以每英寸点数为单位。 |
 | [Width](../../groupdocs.watermark.options/previewoptions/width) { get; set; } | 获取或设置页面预览宽度。 |
@@ -37,7 +37,7 @@ public class EmailPreviewOptions : PreviewOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [DefaultResolution](../../groupdocs.watermark.options.email/emailpreviewoptions/defaultresolution) | 以每英寸点数为单位的默认分辨率。 |
+| const [DefaultResolution](../../groupdocs.watermark.options.email/emailpreviewoptions/defaultresolution) | 默认分辨率（以每英寸点数为单位）. |
 
 ### 也可以看看
 

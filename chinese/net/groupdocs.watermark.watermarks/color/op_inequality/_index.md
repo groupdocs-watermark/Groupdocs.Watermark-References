@@ -1,14 +1,14 @@
 ---
 title: op_Inequality
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 判断两个是否指定Colorgroupdocs.watermark.watermarks/color结构不同
+description: 判断是否指定了两个Colorgroupdocs.watermark.watermarks/color结构不同.
 type: docs
 weight: 1560
 url: /zh/net/groupdocs.watermark.watermarks/color/op_inequality/
 ---
 ## Color Inequality operator
 
-判断两个是否指定[`Color`](../../color)结构不同。
+判断是否指定了两个[`Color`](../../color)结构不同.
 
 ```csharp
 public static bool operator !=(Color left, Color right)
@@ -16,12 +16,12 @@ public static bool operator !=(Color left, Color right)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| left | Color | 这[`Color`](../../color)即在不等式运算符的左侧。 |
-| right | Color | 这[`Color`](../../color)即在不等式运算符的右侧。 |
+| left | Color | 这[`Color`](../../color)即不等式运算符的左侧。 |
+| right | Color | 这[`Color`](../../color)那是在不等式运算符的右边。 |
 
 ### 返回值
 
-如果两者为真[`Color`](../../color)结构不同；否则为假。
+真如果两个[`Color`](../../color)结构不同；否则，假的。
 
 ### 也可以看看
 

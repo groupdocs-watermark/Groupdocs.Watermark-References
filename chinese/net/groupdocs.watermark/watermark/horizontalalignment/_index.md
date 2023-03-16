@@ -1,14 +1,14 @@
 ---
 title: HorizontalAlignment
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的水平对齐方式Watermarkgroupdocs.watermark/watermark.
+description: 获取或设置此元素的水平对齐方式Watermarkgroupdocs.watermark/watermark.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark/watermark/horizontalalignment/
 ---
 ## Watermark.HorizontalAlignment property
 
-获取或设置 this 的水平对齐方式[`Watermark`](../../watermark).
+获取或设置此元素的水平对齐方式[`Watermark`](../../watermark).
 
 ```csharp
 public HorizontalAlignment HorizontalAlignment { get; set; }
@@ -16,7 +16,7 @@ public HorizontalAlignment HorizontalAlignment { get; set; }
 
 ### 适当的价值
 
-这个水平对齐[`Watermark`](../../watermark).
+这个的水平对齐[`Watermark`](../../watermark).
 
 ### 评论
 

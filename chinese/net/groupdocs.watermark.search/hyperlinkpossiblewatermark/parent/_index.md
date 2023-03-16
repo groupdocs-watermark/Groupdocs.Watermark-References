@@ -16,7 +16,7 @@ public override ContentPart Parent { get; }
 
 ### 适当的价值
 
-这个的家长[`HyperlinkPossibleWatermark`](../../hyperlinkpossiblewatermark).
+这个的父[`HyperlinkPossibleWatermark`](../../hyperlinkpossiblewatermark).
 
 ### 也可以看看
 

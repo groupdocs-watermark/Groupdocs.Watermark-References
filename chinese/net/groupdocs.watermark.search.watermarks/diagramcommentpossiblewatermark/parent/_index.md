@@ -16,7 +16,7 @@ public override ContentPart Parent { get; }
 
 ### 适当的价值
 
-这个的家长[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark).
+这个的父[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark).
 
 ### 也可以看看
 

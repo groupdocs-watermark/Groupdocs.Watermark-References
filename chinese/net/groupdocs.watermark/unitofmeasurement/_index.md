@@ -1,14 +1,14 @@
 ---
 title: UnitOfMeasurement
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示测量单位
+description: 表示计量单位
 type: docs
 weight: 3040
 url: /zh/net/groupdocs.watermark/unitofmeasurement/
 ---
 ## UnitOfMeasurement enumeration
 
-表示测量单位。
+表示计量单位。
 
 ```csharp
 public enum UnitOfMeasurement
@@ -18,8 +18,8 @@ public enum UnitOfMeasurement
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Pixel | `0` | 指定测量单位是像素。 |
-| Point | `1` | 指定测量单位是点。 |
+| Pixel | `0` | 指定测量单位为像素。 |
+| Point | `1` | 指定测量单位为点。 |
 
 ### 也可以看看
 

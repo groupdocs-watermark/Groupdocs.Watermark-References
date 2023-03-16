@@ -1,14 +1,14 @@
 ---
 title: Remove
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 从集合中删除特定对象的第一个匹配项
+description: 从集合中删除第一次出现的特定对象
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.common/removeonlylistbase-1/remove/
 ---
 ## RemoveOnlyListBase&lt;T&gt;.Remove method
 
-从集合中删除特定对象的第一个匹配项。
+从集合中删除第一次出现的特定对象。
 
 ```csharp
 public bool Remove(T item)
@@ -20,7 +20,7 @@ public bool Remove(T item)
 
 ### 返回值
 
-真如果*item*已成功移除；否则为假。
+真如果*item*已成功删除；否则为假。
 
 ### 也可以看看
 

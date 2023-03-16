@@ -18,29 +18,29 @@ public abstract class WatermarkableImage : ContentPart
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Height](../../groupdocs.watermark.contents.image/watermarkableimage/height) { get; } | 获取这个的高度[`WatermarkableImage`](../watermarkableimage)以像素为单位。 |
-| [Width](../../groupdocs.watermark.contents.image/watermarkableimage/width) { get; } | 获取这个的宽度[`WatermarkableImage`](../watermarkableimage)以像素为单位。 |
+| [Height](../../groupdocs.watermark.contents.image/watermarkableimage/height) { get; } | 获取这个的高度[`WatermarkableImage`](../watermarkableimage)以像素为单位. |
+| [Width](../../groupdocs.watermark.contents.image/watermarkableimage/width) { get; } | 得到这个的宽度[`WatermarkableImage`](../watermarkableimage)以像素为单位. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | 添加水印[`WatermarkableImage`](../watermarkableimage). 此方法假定水印偏移量和大小以像素为单位（如果已分配）。 |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | 以字节数组的形式获取图像。 |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | 为此添加水印[`WatermarkableImage`](../watermarkableimage). 此方法假定水印偏移量和大小以像素为单位测量（如果已分配）。 |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | 获取图像作为字节数组。 |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [向文档内的图像添加水印](https://docs.groupdocs.com/display/watermarknet/Adding+watermark+to+images+inside+a+document)
+* [为文档中的图像添加水印](https://docs.groupdocs.com/display/watermarknet/Adding+watermark+to+images+inside+a+document)
 
 ### 例子
 
-为任何支持类型的文档中的所有图像添加水印。
+为任何支持类型的文档内的所有图像添加水印。
 
 ```csharp
 using (Watermarker watermarker = new Watermarker(@"D:\input.doc"))

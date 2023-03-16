@@ -1,14 +1,14 @@
 ---
 title: WatermarkerSettings
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化的新实例WatermarkerSettingsgroupdocs.watermark/watermarkersettings班级
+description: 初始化新实例WatermarkerSettingsgroupdocs.watermark/watermarkersettings班级
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark/watermarkersettings/watermarkersettings/
 ---
 ## WatermarkerSettings constructor
 
-初始化的新实例[`WatermarkerSettings`](../../watermarkersettings)班级。
+初始化新实例[`WatermarkerSettings`](../../watermarkersettings)班级。
 
 ```csharp
 public WatermarkerSettings()

@@ -16,7 +16,7 @@ public static Color RosyBrown { get; }
 
 ### 适当的价值
 
-一个[`Color`](../../color)表示系统定义的颜色。
+A[`Color`](../../color)代表系统定义的颜色。
 
 ### 也可以看看
 

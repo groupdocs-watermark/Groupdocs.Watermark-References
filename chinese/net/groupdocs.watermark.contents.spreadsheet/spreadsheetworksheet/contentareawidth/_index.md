@@ -1,14 +1,14 @@
 ---
 title: ContentAreaWidth
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以点为单位获取内容区域的宽度
+description: 获取内容区域的宽度以磅为单位
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/contentareawidth/
 ---
 ## SpreadsheetWorksheet.ContentAreaWidth property
 
-以点为单位获取内容区域的宽度。
+获取内容区域的宽度（以磅为单位）。
 
 ```csharp
 public double ContentAreaWidth { get; }

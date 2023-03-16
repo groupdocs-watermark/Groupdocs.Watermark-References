@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本DiagramShapegroupdocs.watermark.contents.diagram/diagramshape.
+description: 获取或设置此文本DiagramShapegroupdocs.watermark.contents.diagram/diagramshape.
 type: docs
 weight: 90
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramshape/text/
 ---
 ## DiagramShape.Text property
 
-获取或设置 this 的文本[`DiagramShape`](../../diagramshape).
+获取或设置此文本[`DiagramShape`](../../diagramshape).
 
 ```csharp
 public string Text { get; set; }
@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`DiagramShape`](../../diagramshape).
+这一段的正文[`DiagramShape`](../../diagramshape).
 
 ### 也可以看看
 

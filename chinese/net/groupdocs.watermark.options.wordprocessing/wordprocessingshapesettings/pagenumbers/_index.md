@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingshapesetti
 ---
 ## WordProcessingShapeSettings.PageNumbers property
 
-获取或设置添加水印的页码
+获取或设置添加水印的页码。
 
 ```csharp
 public int[] PageNumbers { get; set; }
@@ -20,7 +20,7 @@ public int[] PageNumbers { get; set; }
 
 ### 评论
 
-所有数字必须大于等于1。 这个属性只在给文档添加水印时使用。 如果这个值`无效的`，水印添加到所有页面。
+所有数字必须大于或等于 1。 此属性仅在将水印添加到文档时使用。 如果此值为`无效的` 水印被添加到所有页面.
 
 ### 也可以看看
 

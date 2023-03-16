@@ -16,7 +16,7 @@ public PdfWatermarkableImage Image { get; set; }
 
 ### 适当的价值
 
-这个形象[`PdfShape`](../../pdfshape). 如果对象没有图像，则返回 null。
+这个的形象[`PdfShape`](../../pdfshape). 如果对象没有图像，则返回 null。
 
 ### 也可以看看
 

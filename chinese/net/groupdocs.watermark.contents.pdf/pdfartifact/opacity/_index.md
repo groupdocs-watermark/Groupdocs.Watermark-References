@@ -16,7 +16,7 @@ public double Opacity { get; }
 
 ### 适当的价值
 
-这个不透明[`PdfArtifact`](../../pdfartifact).
+这个的不透明度[`PdfArtifact`](../../pdfartifact).
 
 ### 评论
 

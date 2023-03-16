@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此名称SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape.
+description: 获取这个的名字SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape.
 type: docs
 weight: 110
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/name/
 ---
 ## SpreadsheetShape.Name property
 
-获取此名称[`SpreadsheetShape`](../../spreadsheetshape).
+获取这个的名字[`SpreadsheetShape`](../../spreadsheetshape).
 
 ```csharp
 public string Name { get; }
@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### 适当的价值
 
-这个名字[`SpreadsheetShape`](../../spreadsheetshape).
+这个的名字[`SpreadsheetShape`](../../spreadsheetshape).
 
 ### 也可以看看
 

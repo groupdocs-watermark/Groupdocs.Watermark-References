@@ -1,14 +1,14 @@
 ---
 title: PdfArtifactWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示将工件水印添加到 pdf 文档时添加水印的选项
+description: 表示给pdf文档添加神器水印时的水印添加选项
 type: docs
 weight: 1870
 url: /zh/net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/
 ---
 ## PdfArtifactWatermarkOptions class
 
-表示将工件水印添加到 pdf 文档时添加水印的选项。
+表示给pdf文档添加神器水印时的水印添加选项。
 
 ```csharp
 public sealed class PdfArtifactWatermarkOptions : PdfWatermarkOptions
@@ -18,7 +18,7 @@ public sealed class PdfArtifactWatermarkOptions : PdfWatermarkOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfArtifactWatermarkOptions](pdfartifactwatermarkoptions)() | 初始化[`PdfArtifactWatermarkOptions`](../pdfartifactwatermarkoptions)类. |
+| [PdfArtifactWatermarkOptions](pdfartifactwatermarkoptions)() | 初始化一个新的实例[`PdfArtifactWatermarkOptions`](../pdfartifactwatermarkoptions)类. |
 
 ## 特性
 
@@ -28,13 +28,13 @@ public sealed class PdfArtifactWatermarkOptions : PdfWatermarkOptions
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为 PDF 文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 
 ### 例子
 
-将图像工件水印添加到 PDF 文档。
+将图像伪像水印添加到 PDF 文档。
 
 ```csharp
 PdfLoadOptions loadOptions = new PdfLoadOptions();

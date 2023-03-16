@@ -1,14 +1,14 @@
 ---
 title: GifImageWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示向 GIF 图片添加水印时添加水印的选项
+description: 表示给GIF图片加水印时加水印的选项
 type: docs
 weight: 1760
 url: /zh/net/groupdocs.watermark.options.image/gifimagewatermarkoptions/
 ---
 ## GifImageWatermarkOptions class
 
-表示向 GIF 图片添加水印时添加水印的选项。
+表示给GIF图片加水印时加水印的选项。
 
 ```csharp
 public sealed class GifImageWatermarkOptions : MultiframeImageWatermarkOptions
@@ -18,24 +18,24 @@ public sealed class GifImageWatermarkOptions : MultiframeImageWatermarkOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GifImageWatermarkOptions](gifimagewatermarkoptions#constructor)() | 初始化[`GifImageWatermarkOptions`](../gifimagewatermarkoptions)类. |
-| [GifImageWatermarkOptions](gifimagewatermarkoptions#constructor_1)(int) | 初始化[`GifImageWatermarkOptions`](../gifimagewatermarkoptions)具有指定帧索引的类。 |
+| [GifImageWatermarkOptions](gifimagewatermarkoptions#constructor)() | 初始化一个新的实例[`GifImageWatermarkOptions`](../gifimagewatermarkoptions)类. |
+| [GifImageWatermarkOptions](gifimagewatermarkoptions#constructor_1)(int) | 初始化一个新的实例[`GifImageWatermarkOptions`](../gifimagewatermarkoptions)具有指定帧索引的类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FrameIndex](../../groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frameindex) { get; set; } | 获取或设置要加水印的帧索引。 |
+| [FrameIndex](../../groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frameindex) { get; set; } | 获取或设置要添加水印的帧索引。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为图像添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
 
 ### 例子
 
-给 GIF 图片的特定帧添加水印。
+为 GIF 图像的特定帧添加水印。
 
 ```csharp
 GifImageLoadOptions loadOptions = new GifImageLoadOptions();

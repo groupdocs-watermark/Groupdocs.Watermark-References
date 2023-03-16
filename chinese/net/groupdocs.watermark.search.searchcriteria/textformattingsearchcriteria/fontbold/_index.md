@@ -1,14 +1,14 @@
 ---
 title: FontBold
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示水印文本格式中使用的字体是否为粗体
+description: 获取或设置一个值该值指示用于水印文本格式化的字体是否为粗体
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontbold/
 ---
 ## TextFormattingSearchCriteria.FontBold property
 
-获取或设置一个值，该值指示水印文本格式中使用的字体是否为粗体。
+获取或设置一个值，该值指示用于水印文本格式化的字体是否为粗体。
 
 ```csharp
 public bool? FontBold { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: FamilyName
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此人的姓氏Fontgroupdocs.watermark.watermarks/font.
+description: 获取这个的姓氏Fontgroupdocs.watermark.watermarks/font.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.watermarks/font/familyname/
 ---
 ## Font.FamilyName property
 
-获取此人的姓氏[`Font`](../../font).
+获取这个的姓氏[`Font`](../../font).
 
 ```csharp
 public string FamilyName { get; }

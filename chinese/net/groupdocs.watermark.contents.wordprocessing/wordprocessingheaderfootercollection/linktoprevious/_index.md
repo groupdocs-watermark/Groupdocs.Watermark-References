@@ -1,14 +1,14 @@
 ---
 title: LinkToPrevious
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 将所有页眉和页脚链接或取消链接到上一节中对应的 页眉和页脚
+description: 将所有页眉和页脚链接或取消链接到上一节中相应的 页眉和页脚
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingheaderfootercollection/linktoprevious/
 ---
 ## WordProcessingHeaderFooterCollection.LinkToPrevious method
 
-将所有页眉和页脚链接或取消链接到上一节中对应的 页眉和页脚。
+将所有页眉和页脚链接或取消链接到上一节中相应的 页眉和页脚。
 
 ```csharp
 public void LinkToPrevious(bool isLinkToPrevious)
@@ -16,7 +16,7 @@ public void LinkToPrevious(bool isLinkToPrevious)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| isLinkToPrevious | Boolean | true 将页眉和页脚链接到上一节； false 取消链接。 |
+| isLinkToPrevious | Boolean | True 将页眉和页脚链接到上一节； false 取消链接。 |
 
 ### 也可以看看
 

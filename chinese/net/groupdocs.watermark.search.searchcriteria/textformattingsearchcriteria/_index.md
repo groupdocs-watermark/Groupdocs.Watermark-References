@@ -18,18 +18,18 @@ public class TextFormattingSearchCriteria : SearchCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextFormattingSearchCriteria](textformattingsearchcriteria)() | 初始化[`TextFormattingSearchCriteria`](../textformattingsearchcriteria)类. |
+| [TextFormattingSearchCriteria](textformattingsearchcriteria)() | 初始化一个新的实例[`TextFormattingSearchCriteria`](../textformattingsearchcriteria)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [BackgroundColorRange](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/backgroundcolorrange) { get; set; } | 获取或设置用于按文本背景颜色过滤水印的颜色范围。 |
-| [FontBold](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontbold) { get; set; } | 获取或设置一个值，该值指示水印文本格式中使用的字体是否为粗体。 |
-| [FontItalic](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontitalic) { get; set; } | 获取或设置一个值，该值指示水印文本格式中使用的字体是否为斜体。 |
-| [FontName](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontname) { get; set; } | 获取或设置用于可能的水印文本格式的字体名称。 |
-| [FontStrikeout](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontstrikeout) { get; set; } | 获取或设置一个值，该值指示水印文本格式中使用的字体是否为删除线。 |
-| [FontUnderline](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontunderline) { get; set; } | 获取或设置一个值，该值指示水印文本格式中使用的字体是否为下划线。 |
+| [FontBold](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontbold) { get; set; } | 获取或设置一个值，该值指示用于水印文本格式化的字体是否为粗体。 |
+| [FontItalic](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontitalic) { get; set; } | 获取或设置一个值，该值指示用于水印文本格式化的字体是否为斜体。 |
+| [FontName](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontname) { get; set; } | 获取或设置在可能的水印文本格式中使用的字体名称。 |
+| [FontStrikeout](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontstrikeout) { get; set; } | 获取或设置一个值，该值指示用于水印文本格式化的字体是否为删除线。 |
+| [FontUnderline](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontunderline) { get; set; } | 获取或设置用于水印文本格式化的字体是否为下划线的值。 |
 | [ForegroundColorRange](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/foregroundcolorrange) { get; set; } | 获取或设置用于按文本前景色过滤水印的颜色范围。 |
 | [MaxFontSize](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/maxfontsize) { get; set; } | 获取或设置字体大小的结束值。 |
 | [MinFontSize](../../groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/minfontsize) { get; set; } | 获取或设置字体大小的起始值。 |
@@ -38,19 +38,19 @@ public class TextFormattingSearchCriteria : SearchCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)使用逻辑 AND 运算符的其他条件。 |
+| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑 AND 运算符. |
 | [Not](../../groupdocs.watermark.search.searchcriteria/searchcriteria/not)() | 否定这个[`SearchCriteria`](../searchcriteria). |
-| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与使用逻辑 OR 运算符的其他条件。 |
+| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑或运算符. |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 
 ### 例子
 
-删除具有特定文本格式的可能水印（无论文档类型如何）。
+删除可能具有特定文本格式的水印（无论文档类型如何）。
 
 ```csharp
 using (Watermarker watermarker = new Watermarker(@"D:\test.doc"))

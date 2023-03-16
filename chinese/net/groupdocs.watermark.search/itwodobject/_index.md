@@ -21,7 +21,7 @@ public interface ITwoDObject
 | [Height](../../groupdocs.watermark.search/itwodobject/height) { get; } | 获取对象的高度。 |
 | [Width](../../groupdocs.watermark.search/itwodobject/width) { get; } | 获取对象的宽度。 |
 | [X](../../groupdocs.watermark.search/itwodobject/x) { get; } | 获取对象的 x 坐标。 |
-| [Y](../../groupdocs.watermark.search/itwodobject/y) { get; } | 获取对象的 y 坐标。 |
+| [Y](../../groupdocs.watermark.search/itwodobject/y) { get; } | 获取对象的y坐标。 |
 
 ### 也可以看看
 

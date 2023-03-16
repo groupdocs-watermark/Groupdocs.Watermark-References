@@ -1,14 +1,14 @@
 ---
 title: BodyType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取邮件正文的类型
+description: 获取电子邮件正文的类型
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.email/emailcontent/bodytype/
 ---
 ## EmailContent.BodyType property
 
-获取邮件正文的类型。
+获取电子邮件正文的类型。
 
 ```csharp
 public EmailBodyType BodyType { get; }

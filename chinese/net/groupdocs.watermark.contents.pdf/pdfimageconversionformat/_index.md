@@ -1,14 +1,14 @@
 ---
 title: PdfImageConversionFormat
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示可用于 pdf 文档页面光栅化的图像格式
+description: 表示可用于pdf文档页面光栅化的图像格式
 type: docs
 weight: 650
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfimageconversionformat/
 ---
 ## PdfImageConversionFormat enumeration
 
-表示可用于 pdf 文档页面光栅化的图像格式。
+表示可用于pdf文档页面光栅化的图像格式。
 
 ```csharp
 public enum PdfImageConversionFormat
@@ -18,9 +18,9 @@ public enum PdfImageConversionFormat
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Jpeg | `0` | Jpeg 图像。 |
-| Png | `1` | PNG 图像. |
-| Gif | `2` | Gif 图像。 |
+| Jpeg | `0` | Jpeg 图片. |
+| Png | `1` | Png 图像. |
+| Gif | `2` | Gif 图片. |
 
 ### 也可以看看
 

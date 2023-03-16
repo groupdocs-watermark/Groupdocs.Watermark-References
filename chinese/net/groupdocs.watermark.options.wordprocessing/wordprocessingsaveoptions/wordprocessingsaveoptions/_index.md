@@ -1,14 +1,14 @@
 ---
 title: WordProcessingSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化WordProcessingSaveOptionsgroupdocs.watermark.options.wordprocessing/wordprocessingsaveoptions类.
+description: 初始化一个新的实例WordProcessingSaveOptionsgroupdocs.watermark.options.wordprocessing/wordprocessingsaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingsaveoptions/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions constructor
 
-初始化[`WordProcessingSaveOptions`](../../wordprocessingsaveoptions)类.
+初始化一个新的实例[`WordProcessingSaveOptions`](../../wordprocessingsaveoptions)类.
 
 ```csharp
 public WordProcessingSaveOptions()

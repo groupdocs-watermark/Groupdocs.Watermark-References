@@ -18,22 +18,22 @@ public class PdfArtifact : PdfShape
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ArtifactSubtype](../../groupdocs.watermark.contents.pdf/pdfartifact/artifactsubtype) { get; } | 获取 this 的子类型[`PdfArtifact`](../pdfartifact). |
+| [ArtifactSubtype](../../groupdocs.watermark.contents.pdf/pdfartifact/artifactsubtype) { get; } | 得到这个的子类型[`PdfArtifact`](../pdfartifact). |
 | [ArtifactType](../../groupdocs.watermark.contents.pdf/pdfartifact/artifacttype) { get; } | 获取 this 的类型[`PdfArtifact`](../pdfartifact). |
-| [FormattedTextFragments](../../groupdocs.watermark.contents.pdf/pdfshape/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PdfShape`](../pdfshape). |
-| override [Height](../../groupdocs.watermark.contents.pdf/pdfartifact/height) { get; } | 获取这个的高度[`PdfArtifact`](../pdfartifact)以点为单位。 |
+| [FormattedTextFragments](../../groupdocs.watermark.contents.pdf/pdfshape/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PdfShape`](../pdfshape). |
+| override [Height](../../groupdocs.watermark.contents.pdf/pdfartifact/height) { get; } | 获取这个的高度[`PdfArtifact`](../pdfartifact)点. |
 | [Image](../../groupdocs.watermark.contents.pdf/pdfshape/image) { get; set; } | 获取或设置此图像[`PdfShape`](../pdfshape). |
 | [Opacity](../../groupdocs.watermark.contents.pdf/pdfartifact/opacity) { get; } | 获取这个的不透明度[`PdfArtifact`](../pdfartifact). |
 | [Page](../../groupdocs.watermark.contents.pdf/pdfartifact/page) { get; } | 获取这个的父页面[`PdfArtifact`](../pdfartifact). |
-| override [RotateAngle](../../groupdocs.watermark.contents.pdf/pdfartifact/rotateangle) { get; } | 获取 this 的旋转角度[`PdfArtifact`](../pdfartifact)度数. |
-| override [Text](../../groupdocs.watermark.contents.pdf/pdfartifact/text) { get; set; } | 获取或设置 this 的文本[`PdfArtifact`](../pdfartifact). |
-| override [Width](../../groupdocs.watermark.contents.pdf/pdfartifact/width) { get; } | 获取这个的宽度[`PdfArtifact`](../pdfartifact)以点为单位。 |
-| override [X](../../groupdocs.watermark.contents.pdf/pdfartifact/x) { get; } | 获取 this 的水平偏移量[`PdfArtifact`](../pdfartifact)从页面左边框开始。 |
-| override [Y](../../groupdocs.watermark.contents.pdf/pdfartifact/y) { get; } | 获取 this 的垂直偏移量[`PdfArtifact`](../pdfartifact)从页面底部边框以点为单位。 |
+| override [RotateAngle](../../groupdocs.watermark.contents.pdf/pdfartifact/rotateangle) { get; } | 获取this的旋转角度[`PdfArtifact`](../pdfartifact)以度为单位. |
+| override [Text](../../groupdocs.watermark.contents.pdf/pdfartifact/text) { get; set; } | 获取或设置此文本[`PdfArtifact`](../pdfartifact). |
+| override [Width](../../groupdocs.watermark.contents.pdf/pdfartifact/width) { get; } | 得到这个的宽度[`PdfArtifact`](../pdfartifact)点. |
+| override [X](../../groupdocs.watermark.contents.pdf/pdfartifact/x) { get; } | 得到这个的水平偏移量[`PdfArtifact`](../pdfartifact)从页面左边框开始. |
+| override [Y](../../groupdocs.watermark.contents.pdf/pdfartifact/y) { get; } | 获取此的垂直偏移量[`PdfArtifact`](../pdfartifact)从页面底部边框开始. |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [使用工件](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithartifacts)
 

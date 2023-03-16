@@ -1,14 +1,14 @@
 ---
 title: OnlyDataArea
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置只渲染数据区域的标志没有页眉页脚边距
+description: 获取或设置仅渲染数据区域的标志不带页眉页脚边距
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/onlydataarea/
 ---
 ## SpreadsheetPreviewOptions.OnlyDataArea property
 
-获取或设置只渲染数据区域的标志，没有页眉，页脚，边距。
+获取或设置仅渲染数据区域的标志，不带页眉、页脚、边距。
 
 ```csharp
 public bool OnlyDataArea { get; set; }
@@ -16,11 +16,11 @@ public bool OnlyDataArea { get; set; }
 
 ### 适当的价值
 
-仅用于呈现数据区域的标志，没有页眉、页脚、边距。
+仅呈现数据区域的标志，没有页眉、页脚和边距。
 
 ### 评论
 
-此标志导致将整个工作表呈现在一页上。 默认值为`错误的`.
+此标志导致在一页上呈现整个工作表。 默认值为`错误的`.
 
 ### 也可以看看
 

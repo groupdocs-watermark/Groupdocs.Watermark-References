@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的高度WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark以点为单位
+description: 获取这个的高度WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark点.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/height/
 ---
 ## WordProcessingTextPossibleWatermark.Height property
 
-获取这个的高度[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark)以点为单位。
+获取这个的高度[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark)点.
 
 ```csharp
 public override double Height { get; }

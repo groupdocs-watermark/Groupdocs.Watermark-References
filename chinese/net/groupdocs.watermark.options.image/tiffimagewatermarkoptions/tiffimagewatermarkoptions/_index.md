@@ -1,14 +1,14 @@
 ---
 title: TiffImageWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化TiffImageWatermarkOptionsgroupdocs.watermark.options.image/tiffimagewatermarkoptions类.
+description: 初始化一个新的实例TiffImageWatermarkOptionsgroupdocs.watermark.options.image/tiffimagewatermarkoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/tiffimagewatermarkoptions/
 ---
 ## TiffImageWatermarkOptions() {#constructor}
 
-初始化[`TiffImageWatermarkOptions`](../../tiffimagewatermarkoptions)类.
+初始化一个新的实例[`TiffImageWatermarkOptions`](../../tiffimagewatermarkoptions)类.
 
 ```csharp
 public TiffImageWatermarkOptions()
@@ -24,7 +24,7 @@ public TiffImageWatermarkOptions()
 
 ## TiffImageWatermarkOptions(int) {#constructor_1}
 
-初始化[`TiffImageWatermarkOptions`](../../tiffimagewatermarkoptions) class 具有帧的指定索引。
+初始化一个新的实例[`TiffImageWatermarkOptions`](../../tiffimagewatermarkoptions) class 具有指定索引的 frame.
 
 ```csharp
 public TiffImageWatermarkOptions(int frameIndex)
@@ -32,7 +32,7 @@ public TiffImageWatermarkOptions(int frameIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| frameIndex | Int32 | 添加水印的帧的索引。 |
+| frameIndex | Int32 | 添加水印的帧索引。 |
 
 ### 也可以看看
 

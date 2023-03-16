@@ -1,14 +1,14 @@
 ---
 title: PreviewOptions.PreviewFormats
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示支持的预览格式
+description: 代表支持的预览格式
 type: docs
 weight: 2080
 url: /zh/net/groupdocs.watermark.options/previewoptions.previewformats/
 ---
 ## PreviewOptions.PreviewFormats enumeration
 
-表示支持的预览格式。
+代表支持的预览格式。
 
 ```csharp
 public enum PreviewFormats

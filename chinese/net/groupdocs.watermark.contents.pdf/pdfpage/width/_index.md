@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度PdfPagegroupdocs.watermark.contents.pdf/pdfpage以点为单位
+description: 得到这个的宽度PdfPagegroupdocs.watermark.contents.pdf/pdfpage点.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfpage/width/
 ---
 ## PdfPage.Width property
 
-获取这个的宽度[`PdfPage`](../../pdfpage)以点为单位。
+得到这个的宽度[`PdfPage`](../../pdfpage)点.
 
 ```csharp
 public double Width { get; }
@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### 适当的价值
 
-这个宽度[`PdfPage`](../../pdfpage)在点。
+这个的宽度[`PdfPage`](../../pdfpage)分。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: NotesSlide
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取注释幻灯片PresentationSlidegroupdocs.watermark.contents.presentation/presentationslide.
+description: 获取此的注释幻灯片PresentationSlidegroupdocs.watermark.contents.presentation/presentationslide.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationslide/notesslide/
 ---
 ## PresentationSlide.NotesSlide property
 
-获取注释幻灯片[`PresentationSlide`](../../presentationslide).
+获取此的注释幻灯片[`PresentationSlide`](../../presentationslide).
 
 ```csharp
 public PresentationNotesSlide NotesSlide { get; }
@@ -16,7 +16,7 @@ public PresentationNotesSlide NotesSlide { get; }
 
 ### 适当的价值
 
-注释幻灯片为此[`PresentationSlide`](../../presentationslide).
+笔记幻灯片[`PresentationSlide`](../../presentationslide).
 
 ### 也可以看看
 

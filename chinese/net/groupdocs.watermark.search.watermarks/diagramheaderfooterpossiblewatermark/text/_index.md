@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本DiagramHeaderFooterPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark.
+description: 获取或设置此文本DiagramHeaderFooterPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/text/
 ---
 ## DiagramHeaderFooterPossibleWatermark.Text property
 
-获取或设置 this 的文本[`DiagramHeaderFooterPossibleWatermark`](../../diagramheaderfooterpossiblewatermark).
+获取或设置此文本[`DiagramHeaderFooterPossibleWatermark`](../../diagramheaderfooterpossiblewatermark).
 
 ```csharp
 public override string Text { get; set; }
@@ -16,7 +16,7 @@ public override string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`DiagramHeaderFooterPossibleWatermark`](../../diagramheaderfooterpossiblewatermark).
+这一段的正文[`DiagramHeaderFooterPossibleWatermark`](../../diagramheaderfooterpossiblewatermark).
 
 ### 也可以看看
 

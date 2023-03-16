@@ -1,14 +1,14 @@
 ---
 title: FontItalic
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示水印文本格式中使用的字体是否为斜体
+description: 获取或设置一个值该值指示用于水印文本格式化的字体是否为斜体
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontitalic/
 ---
 ## TextFormattingSearchCriteria.FontItalic property
 
-获取或设置一个值，该值指示水印文本格式中使用的字体是否为斜体。
+获取或设置一个值，该值指示用于水印文本格式化的字体是否为斜体。
 
 ```csharp
 public bool? FontItalic { get; set; }

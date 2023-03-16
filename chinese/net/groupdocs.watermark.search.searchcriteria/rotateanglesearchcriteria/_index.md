@@ -1,14 +1,14 @@
 ---
 title: RotateAngleSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示允许按水印旋转角度过滤的标准
+description: 表示允许按水印旋转角度过滤的条件
 type: docs
 weight: 2660
 url: /zh/net/groupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria/
 ---
 ## RotateAngleSearchCriteria class
 
-表示允许按水印旋转角度过滤的标准。
+表示允许按水印旋转角度过滤的条件。
 
 ```csharp
 public class RotateAngleSearchCriteria : SearchCriteria
@@ -18,26 +18,26 @@ public class RotateAngleSearchCriteria : SearchCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [RotateAngleSearchCriteria](rotateanglesearchcriteria)(double, double) | 初始化[`RotateAngleSearchCriteria`](../rotateanglesearchcriteria) class 具有起始角度和结束角度。 |
+| [RotateAngleSearchCriteria](rotateanglesearchcriteria)(double, double) | 初始化一个新的实例[`RotateAngleSearchCriteria`](../rotateanglesearchcriteria) class 具有起始角和结束角. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MaximumAngle](../../groupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria/maximumangle) { get; } | 以度为单位获取结束角度。 |
-| [MinimumAngle](../../groupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria/minimumangle) { get; } | 以度为单位获取起始角度。 |
+| [MaximumAngle](../../groupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria/maximumangle) { get; } | 获取以度为单位的结束角度。 |
+| [MinimumAngle](../../groupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria/minimumangle) { get; } | 获取以度为单位的起始角度。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)使用逻辑 AND 运算符的其他条件。 |
+| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑 AND 运算符. |
 | [Not](../../groupdocs.watermark.search.searchcriteria/searchcriteria/not)() | 否定这个[`SearchCriteria`](../searchcriteria). |
-| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与使用逻辑 OR 运算符的其他条件。 |
+| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑或运算符. |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

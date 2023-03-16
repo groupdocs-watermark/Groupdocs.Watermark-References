@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的垂直偏移量PdfXObjectgroupdocs.watermark.contents.pdf/pdfxobject从页面底部边框以点为单位
+description: 获取此的垂直偏移量PdfXObjectgroupdocs.watermark.contents.pdf/pdfxobject从页面底部边框开始.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfxobject/y/
 ---
 ## PdfXObject.Y property
 
-获取 this 的垂直偏移量[`PdfXObject`](../../pdfxobject)从页面底部边框以点为单位。
+获取此的垂直偏移量[`PdfXObject`](../../pdfxobject)从页面底部边框开始.
 
 ```csharp
 public override double Y { get; }

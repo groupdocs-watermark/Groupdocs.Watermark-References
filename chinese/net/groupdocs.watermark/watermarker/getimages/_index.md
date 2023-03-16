@@ -24,13 +24,13 @@ public WatermarkableImageCollection GetImages(ImageSearchCriteria searchCriteria
 
 ### 评论
 
-搜索是在指定的对象中进行的[`SearchableObjects`](../searchableobjects).
+搜索在指定的对象中进行[`SearchableObjects`](../searchableobjects).
 
-了解有关搜索水印的更多信息 [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks).
+详细了解搜索水印 [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks).
 
 ### 例子
 
-从任何受支持类型的文档中删除与参考相似的所有图像。
+从任何支持类型的文档中删除与参考相似的所有图像。
 
 ```csharp
 using (Watermarker watermarker = new Watermarker(@"D:\input.doc"))
@@ -66,9 +66,9 @@ public WatermarkableImageCollection GetImages()
 
 ### 评论
 
-搜索是在指定的对象中进行的[`SearchableObjects`](../searchableobjects).
+搜索在指定的对象中进行[`SearchableObjects`](../searchableobjects).
 
-了解有关搜索水印的更多信息 [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks).
+详细了解搜索水印 [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks).
 
 ### 例子
 

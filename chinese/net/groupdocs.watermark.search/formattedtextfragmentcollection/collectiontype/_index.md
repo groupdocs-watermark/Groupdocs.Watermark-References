@@ -1,14 +1,14 @@
 ---
 title: CollectionType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取格式化的片段集合类型
+description: 获取格式化片段集合类型
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search/formattedtextfragmentcollection/collectiontype/
 ---
 ## FormattedTextFragmentCollection.CollectionType property
 
-获取格式化的片段集合类型。
+获取格式化片段集合类型。
 
 ```csharp
 public FormattedTextFragmentCollectionType CollectionType { get; }

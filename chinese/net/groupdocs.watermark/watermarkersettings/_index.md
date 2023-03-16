@@ -18,15 +18,15 @@ public sealed class WatermarkerSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WatermarkerSettings](watermarkersettings)() | 初始化的新实例[`WatermarkerSettings`](../watermarkersettings)班级。 |
+| [WatermarkerSettings](watermarkersettings)() | 初始化新实例[`WatermarkerSettings`](../watermarkersettings)班级。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | static [Default](../../groupdocs.watermark/watermarkersettings/default) { get; } | 获取默认值[`WatermarkerSettings`](../watermarkersettings)类. |
-| [Logger](../../groupdocs.watermark/watermarkersettings/logger) { get; set; } | 获取或设置水印期间用于记录事件和错误的记录器。 |
-| [SearchableObjects](../../groupdocs.watermark/watermarkersettings/searchableobjects) { get; set; } | 获取或设置[`SearchableObjects`](./searchableobjects)要包含在水印搜索中的内容。 |
+| [Logger](../../groupdocs.watermark/watermarkersettings/logger) { get; set; } | 获取或设置用于在水印期间记录事件和错误的记录器。 |
+| [SearchableObjects](../../groupdocs.watermark/watermarkersettings/searchableobjects) { get; set; } | 获取或设置[`SearchableObjects`](./searchableobjects)将包含在水印搜索中。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MaxDifference
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置图像之间允许的最大差异
+description: 获取或设置图像之间的最大允许差异
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference/
 ---
 ## ImageSearchCriteria.MaxDifference property
 
-获取或设置图像之间允许的最大差异。
+获取或设置图像之间的最大允许差异。
 
 ```csharp
 public double MaxDifference { get; set; }

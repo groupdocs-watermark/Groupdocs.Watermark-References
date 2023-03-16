@@ -1,14 +1,14 @@
 ---
 title: BackgroundImage
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置背景图片
+description: 获取或设置背景图像
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents/officeimagefillformat-1/backgroundimage/
 ---
 ## OfficeImageFillFormat&lt;TWatermarkableImage&gt;.BackgroundImage property
 
-获取或设置背景图片。
+获取或设置背景图像。
 
 ```csharp
 public abstract TWatermarkableImage BackgroundImage { get; set; }

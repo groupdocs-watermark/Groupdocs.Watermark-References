@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的水平偏移量SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape以点为单位的工作表左边框.
+description: 获取或设置此的水平偏移量SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape从工作表左边框以点为单位.
 type: docs
 weight: 160
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/x/
 ---
 ## SpreadsheetShape.X property
 
-获取或设置 this 的水平偏移量[`SpreadsheetShape`](../../spreadsheetshape)以点为单位的工作表左边框.
+获取或设置此的水平偏移量[`SpreadsheetShape`](../../spreadsheetshape)从工作表左边框以点为单位.
 
 ```csharp
 public double X { get; set; }

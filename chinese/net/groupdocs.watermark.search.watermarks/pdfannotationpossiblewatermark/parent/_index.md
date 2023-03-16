@@ -16,7 +16,7 @@ public override ContentPart Parent { get; }
 
 ### 适当的价值
 
-这个的家长[`PdfAnnotationPossibleWatermark`](../../pdfannotationpossiblewatermark).
+这个的父[`PdfAnnotationPossibleWatermark`](../../pdfannotationpossiblewatermark).
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public byte ThumbnailSize { get; set; }
 
 ### 适当的价值
 
-默认情况下，将使用 32X32 缩略图。
+默认情况下将使用 32X32 缩略图。
 
 ### 也可以看看
 

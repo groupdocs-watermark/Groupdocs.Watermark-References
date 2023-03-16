@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.watermark.options/previewoptions/previewformat/
 ---
 ## PreviewOptions.PreviewFormat property
 
-获取或设置预览图像格式
+获取或设置预览图像格式。
 
 ```csharp
 public PreviewFormats PreviewFormat { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: VSX
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 带有 .VSX 扩展名的文件是指由绘图和形状组成的模板用于 在 Microsoft Visio 中创建图表了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/image/vsx/.
+description: 具有 .VSX 扩展名的文件是指由图形和形状组成的模板这些图形和形状用于 在 Microsoft Visio 中创建图表详细了解此文件格式 这里https//wiki.fileformat.com/image/vsx/.
 type: docs
 weight: 490
 url: /zh/net/groupdocs.watermark.common/filetype/vsx/
 ---
 ## FileType.VSX field
 
-带有 .VSX 扩展名的文件是指由绘图和形状组成的模板，用于 在 Microsoft Visio 中创建图表。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/image/vsx/).
+具有 .VSX 扩展名的文件是指由图形和形状组成的模板，这些图形和形状用于 在 Microsoft Visio 中创建图表。详细了解此文件格式 [这里](https://wiki.fileformat.com/image/vsx/).
 
 ```csharp
 public static readonly FileType VSX;

@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 2D 对象的 y 坐标
+description: 获取二维对象的y坐标
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.search/twodobjectpossiblewatermark/y/
 ---
 ## TwoDObjectPossibleWatermark.Y property
 
-获取 2D 对象的 y 坐标。
+获取二维对象的y坐标。
 
 ```csharp
 public override double Y { get; }

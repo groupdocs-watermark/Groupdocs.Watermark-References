@@ -19,7 +19,7 @@ public enum DiagramSearchableObjects
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不指定搜索对象。 |
+| None | `0` | 指定没有搜索对象。 |
 | Shapes | `1` | 在形状中搜索。 |
 | Comments | `2` | 在评论中搜索。 |
 | HeadersFooters | `4` | 在页眉和页脚中搜索。 |

@@ -18,7 +18,7 @@ public class DetachedImageException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DetachedImageException](detachedimageexception)() | 初始化[`DetachedImageException`](../detachedimageexception)类. |
+| [DetachedImageException](detachedimageexception)() | 初始化一个新的实例[`DetachedImageException`](../detachedimageexception)类. |
 
 ### 也可以看看
 

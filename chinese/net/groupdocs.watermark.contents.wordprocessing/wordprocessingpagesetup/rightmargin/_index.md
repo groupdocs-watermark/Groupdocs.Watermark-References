@@ -1,14 +1,14 @@
 ---
 title: RightMargin
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以磅为单位获取右边距的大小
+description: 获取右边距的大小以点为单位
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/rightmargin/
 ---
 ## WordProcessingPageSetup.RightMargin property
 
-以磅为单位获取右边距的大小。
+获取右边距的大小（以点为单位）。
 
 ```csharp
 public double RightMargin { get; }

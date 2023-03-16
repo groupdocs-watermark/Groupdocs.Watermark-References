@@ -1,14 +1,14 @@
 ---
 title: Logger
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置水印期间用于记录事件和错误的记录器
+description: 获取或设置用于在水印期间记录事件和错误的记录器
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark/watermarkersettings/logger/
 ---
 ## WatermarkerSettings.Logger property
 
-获取或设置水印期间用于记录事件和错误的记录器。
+获取或设置用于在水印期间记录事件和错误的记录器。
 
 ```csharp
 public ILogger Logger { get; set; }
@@ -16,7 +16,7 @@ public ILogger Logger { get; set; }
 
 ### 适当的价值
 
-实现的类的实例[`ILogger`](../../../groupdocs.watermark.options/ilogger)界面。
+实现类的实例[`ILogger`](../../../groupdocs.watermark.options/ilogger)界面。
 
 ### 也可以看看
 

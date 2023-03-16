@@ -20,11 +20,11 @@ public void Remove(PossibleWatermark possibleWatermark)
 
 ### 评论
 
-了解有关去除水印的更多信息： [删除找到的水印](https://docs.groupdocs.com/display/watermarknet/Removing+found+watermarks) .
+了解有关删除水印的更多信息： [删除找到的水印](https://docs.groupdocs.com/display/watermarknet/Removing+found+watermarks) .
 
 ### 例子
 
-从任何受支持类型的文档 中查找并删除包含特定文本或图像的第一个可能的水印。
+从任何支持类型的文档 中查找并删除包含特定文本或图像的第一个可能的水印。
 
 ```csharp
 using (Watermarker watermarker = new Watermarker(@"D:\input.doc"))
@@ -65,11 +65,11 @@ public void Remove(PossibleWatermarkCollection possibleWatermarks)
 
 ### 评论
 
-了解有关去除水印的更多信息 [删除找到的水印](https://docs.groupdocs.com/display/watermarknet/Removing+found+watermarks).
+了解有关删除水印的更多信息 [删除找到的水印](https://docs.groupdocs.com/display/watermarknet/Removing+found+watermarks).
 
 ### 例子
 
-从任何受支持类型的文档 中查找并删除所有可能包含特定文本或图像的水印。
+从任何支持类型的文档 中查找并删除所有可能包含特定文本或图像的水印。
 
 ```csharp
 using (Watermarker watermarker = new Watermarker(@"D:\input.doc"))

@@ -18,8 +18,8 @@ public class LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [LoadOptions](loadoptions#constructor)() | 初始化[`LoadOptions`](../loadoptions)类. |
-| [LoadOptions](loadoptions#constructor_1)(string) | 初始化[`LoadOptions`](../loadoptions)具有指定密码的类。 |
+| [LoadOptions](loadoptions#constructor)() | 初始化一个新的实例[`LoadOptions`](../loadoptions)类. |
+| [LoadOptions](loadoptions#constructor_1)(string) | 初始化一个新的实例[`LoadOptions`](../loadoptions)具有指定密码的类. |
 
 ## 特性
 
@@ -30,11 +30,11 @@ public class LoadOptions
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [加载文档](https://docs.groupdocs.com/display/watermarknet/Loading+documents)
+* [载入文件](https://docs.groupdocs.com/display/watermarknet/Loading+documents)
 * [从本地磁盘加载](https://docs.groupdocs.com/display/watermarknet/Load+from+local+disk)
-* [从流加载](https://docs.groupdocs.com/display/watermarknet/Load+from+stream)
+* [从流中加载](https://docs.groupdocs.com/display/watermarknet/Load+from+stream)
 * [加载特定格式的文档](https://docs.groupdocs.com/display/watermarknet/Load+document+of+specific+format)
 * [加载受密码保护的文档](https://docs.groupdocs.com/display/watermarknet/Load+password-protected+document)
 

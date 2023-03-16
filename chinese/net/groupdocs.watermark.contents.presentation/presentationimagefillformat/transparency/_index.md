@@ -1,14 +1,14 @@
 ---
 title: Transparency
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置背景图像的透明度为 0.0不透明到 1.0 完全透明的值
+description: 获取或设置背景图像的透明度为从 0.0不透明到 1.0 完全透明的值
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationimagefillformat/transparency/
 ---
 ## PresentationImageFillFormat.Transparency property
 
-获取或设置背景图像的透明度为 0.0（不透明）到 1.0 （完全透明）的值。
+获取或设置背景图像的透明度为从 0.0（不透明）到 1.0 （完全透明）的值。
 
 ```csharp
 public override double Transparency { get; set; }
@@ -16,7 +16,7 @@ public override double Transparency { get; set; }
 
 ### 适当的价值
 
-背景图像的透明度，取值范围为 0.0（不透明）到 1.0 （完全透明）。
+背景图像的透明度，值为从 0.0（不透明）到 1.0 （完全透明）的值。
 
 ### 也可以看看
 

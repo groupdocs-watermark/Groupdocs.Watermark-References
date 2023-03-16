@@ -1,14 +1,14 @@
 ---
 title: DetachedImageException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化DetachedImageExceptiongroupdocs.watermark.exceptions/detachedimageexception类.
+description: 初始化一个新的实例DetachedImageExceptiongroupdocs.watermark.exceptions/detachedimageexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/detachedimageexception/detachedimageexception/
 ---
 ## DetachedImageException constructor
 
-初始化[`DetachedImageException`](../../detachedimageexception)类.
+初始化一个新的实例[`DetachedImageException`](../../detachedimageexception)类.
 
 ```csharp
 public DetachedImageException()

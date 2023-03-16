@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本WordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshape.
+description: 获取或设置此文本WordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshape.
 type: docs
 weight: 160
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/text/
 ---
 ## WordProcessingShape.Text property
 
-获取或设置 this 的文本[`WordProcessingShape`](../../wordprocessingshape).
+获取或设置此文本[`WordProcessingShape`](../../wordprocessingshape).
 
 ```csharp
 public string Text { get; set; }
@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`WordProcessingShape`](../../wordprocessingshape).
+这一段的正文[`WordProcessingShape`](../../wordprocessingshape).
 
 ### 也可以看看
 

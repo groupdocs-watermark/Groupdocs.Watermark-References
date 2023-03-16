@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化Fontgroupdocs.watermark.watermarks/font具有指定字体系列名称和大小的类
+description: 初始化一个新的实例Fontgroupdocs.watermark.watermarks/font具有指定字体系列名称和大小的类
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.watermarks/font/font/
 ---
 ## Font(string, float) {#constructor}
 
-初始化[`Font`](../../font)具有指定字体系列名称和大小的类。
+初始化一个新的实例[`Font`](../../font)具有指定字体系列名称和大小的类。
 
 ```csharp
 public Font(string fontFamilyName, float size)
@@ -29,7 +29,7 @@ public Font(string fontFamilyName, float size)
 
 ## Font(string, float, FontStyle) {#constructor_1}
 
-初始化[`Font`](../../font)具有指定字体系列名称、大小和样式的类。
+初始化一个新的实例[`Font`](../../font)具有指定字体系列名称、大小和样式的类。
 
 ```csharp
 public Font(string fontFamilyName, float size, FontStyle style)

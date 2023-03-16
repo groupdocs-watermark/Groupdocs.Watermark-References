@@ -1,14 +1,14 @@
 ---
 title: WordProcessingImageEffects
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化WordProcessingImageEffectsgroupdocs.watermark.options.wordprocessing/wordprocessingimageeffects类.
+description: 初始化一个新的实例WordProcessingImageEffectsgroupdocs.watermark.options.wordprocessing/wordprocessingimageeffects类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingimageeffects/wordprocessingimageeffects/
 ---
 ## WordProcessingImageEffects constructor
 
-初始化[`WordProcessingImageEffects`](../../wordprocessingimageeffects)类.
+初始化一个新的实例[`WordProcessingImageEffects`](../../wordprocessingimageeffects)类.
 
 ```csharp
 public WordProcessingImageEffects()

@@ -1,14 +1,14 @@
 ---
 title: OddAndEvenPagesHeaderFooter
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示奇数页和偶数页是否使用不同的页眉/页脚 页 注意更改此属性会影响内容中的所有部分
+description: 获取或设置一个值该值指示奇数页和偶数页是否使用不同的页眉/页脚 注意更改此属性会影响内容中的所有部分
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/oddandevenpagesheaderfooter/
 ---
 ## WordProcessingPageSetup.OddAndEvenPagesHeaderFooter property
 
-获取或设置一个值，该值指示奇数页和偶数页是否使用不同的页眉/页脚 页。 注意，更改此属性会影响内容中的所有部分。
+获取或设置一个值，该值指示奇数页和偶数页是否使用不同的页眉/页脚。 注意，更改此属性会影响内容中的所有部分。
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool OddAndEvenPagesHeaderFooter { get; set; }
 
 ### 适当的价值
 
-如果不同的页眉/页脚用于奇数页和偶数页，则为真；否则为假。
+如果奇数页和偶数页使用不同的页眉/页脚则为真；否则为 false.
 
 ### 也可以看看
 

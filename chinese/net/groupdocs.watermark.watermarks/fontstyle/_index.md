@@ -1,14 +1,14 @@
 ---
 title: FontStyle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示字体样式
+description: 代表一种字体样式
 type: docs
 weight: 3100
 url: /zh/net/groupdocs.watermark.watermarks/fontstyle/
 ---
 ## FontStyle enumeration
 
-表示字体样式。
+代表一种字体样式。
 
 ```csharp
 [Flags]
@@ -19,9 +19,9 @@ public enum FontStyle
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Regular | `0` | 普通文本。 |
-| Bold | `1` | 粗体字。 |
-| Italic | `2` | 斜体字。 |
+| Regular | `0` | 普通文本. |
+| Bold | `1` | 粗体文本. |
+| Italic | `2` | 斜体文本. |
 | Underline | `4` | 带下划线的文本。 |
 | Strikeout | `8` | 中间有一条线的文本。 |
 

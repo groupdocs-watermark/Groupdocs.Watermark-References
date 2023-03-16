@@ -19,7 +19,7 @@ public enum WordProcessingSearchableObjects
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不指定搜索对象。 |
+| None | `0` | 指定没有搜索对象。 |
 | Shapes | `1` | 在形状中搜索。 |
 | Text | `2` | 在内容文本中搜索。 |
 | Hyperlinks | `4` | 在超链接中搜索。 |

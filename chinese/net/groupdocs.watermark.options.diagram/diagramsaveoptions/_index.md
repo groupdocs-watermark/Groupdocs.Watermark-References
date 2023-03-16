@@ -18,7 +18,7 @@ public sealed class DiagramSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DiagramSaveOptions](diagramsaveoptions)() | 初始化[`DiagramSaveOptions`](../diagramsaveoptions)类. |
+| [DiagramSaveOptions](diagramsaveoptions)() | 初始化一个新的实例[`DiagramSaveOptions`](../diagramsaveoptions)类. |
 
 ## 特性
 

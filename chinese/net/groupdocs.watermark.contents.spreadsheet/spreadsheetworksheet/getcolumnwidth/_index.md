@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getco
 ---
 ## SpreadsheetWorksheet.GetColumnWidth method
 
-获取指定列的宽度，以磅为单位。
+获取指定列的宽度（以磅为单位）。
 
 ```csharp
 public double GetColumnWidth(int column)

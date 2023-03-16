@@ -1,14 +1,14 @@
 ---
 title: GifImageWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化GifImageWatermarkOptionsgroupdocs.watermark.options.image/gifimagewatermarkoptions类.
+description: 初始化一个新的实例GifImageWatermarkOptionsgroupdocs.watermark.options.image/gifimagewatermarkoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.image/gifimagewatermarkoptions/gifimagewatermarkoptions/
 ---
 ## GifImageWatermarkOptions() {#constructor}
 
-初始化[`GifImageWatermarkOptions`](../../gifimagewatermarkoptions)类.
+初始化一个新的实例[`GifImageWatermarkOptions`](../../gifimagewatermarkoptions)类.
 
 ```csharp
 public GifImageWatermarkOptions()
@@ -24,7 +24,7 @@ public GifImageWatermarkOptions()
 
 ## GifImageWatermarkOptions(int) {#constructor_1}
 
-初始化[`GifImageWatermarkOptions`](../../gifimagewatermarkoptions)具有指定帧索引的类。
+初始化一个新的实例[`GifImageWatermarkOptions`](../../gifimagewatermarkoptions)具有指定帧索引的类.
 
 ```csharp
 public GifImageWatermarkOptions(int frameIndex)
@@ -32,7 +32,7 @@ public GifImageWatermarkOptions(int frameIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| frameIndex | Int32 | 添加水印的帧的索引。 |
+| frameIndex | Int32 | 添加水印的帧索引。 |
 
 ### 也可以看看
 

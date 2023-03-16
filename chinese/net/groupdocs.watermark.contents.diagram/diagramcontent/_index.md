@@ -18,22 +18,22 @@ public sealed class DiagramContent : Content
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HeaderFooter](../../groupdocs.watermark.contents.diagram/diagramcontent/headerfooter) { get; } | 获取这个的页眉和页脚[`DiagramContent`](../diagramcontent). |
-| [Pages](../../groupdocs.watermark.contents.diagram/diagramcontent/pages) { get; } | 获取此所有页面的集合[`DiagramContent`](../diagramcontent). |
+| [HeaderFooter](../../groupdocs.watermark.contents.diagram/diagramcontent/headerfooter) { get; } | 得到这个的页眉和页脚[`DiagramContent`](../diagramcontent). |
+| [Pages](../../groupdocs.watermark.contents.diagram/diagramcontent/pages) { get; } | 获取this所有页面的集合[`DiagramContent`](../diagramcontent). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../groupdocs.watermark.contents/content/dispose)() | 处理当前实例。 |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为图表文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 * [图表文档中的现有对象](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+diagram+document)

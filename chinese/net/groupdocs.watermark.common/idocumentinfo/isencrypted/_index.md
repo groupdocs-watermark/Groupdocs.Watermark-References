@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取一个值该值指示文档是否已加密并需要密码才能打开
+description: 获取一个值表示文档是否加密需要密码才能打开
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.common/idocumentinfo/isencrypted/
 ---
 ## IDocumentInfo.IsEncrypted property
 
-获取一个值，该值指示文档是否已加密并需要密码才能打开。
+获取一个值，表示文档是否加密，需要密码才能打开。
 
 ```csharp
 public bool IsEncrypted { get; }
@@ -16,7 +16,7 @@ public bool IsEncrypted { get; }
 
 ### 适当的价值
 
-如果文档已加密并且需要密码才能打开，则为真； 否则为假。
+如果文档已加密且需要密码才能打开，则为真； 否则为假。
 
 ### 也可以看看
 

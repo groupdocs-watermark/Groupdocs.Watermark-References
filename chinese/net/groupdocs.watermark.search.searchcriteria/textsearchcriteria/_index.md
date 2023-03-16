@@ -18,28 +18,28 @@ public class TextSearchCriteria : SearchCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextSearchCriteria](textsearchcriteria#constructor_2)(Regex) | 初始化[`TextSearchCriteria`](../textsearchcriteria)具有指定正则表达式的类。 |
-| [TextSearchCriteria](textsearchcriteria#constructor)(string) | 初始化[`TextSearchCriteria`](../textsearchcriteria)带有搜索字符串的类。 |
-| [TextSearchCriteria](textsearchcriteria#constructor_1)(string, bool) | 初始化[`TextSearchCriteria`](../textsearchcriteria) class 带有一个搜索字符串和一个用于比较的标志。 |
+| [TextSearchCriteria](textsearchcriteria#constructor_2)(Regex) | 初始化一个新的实例[`TextSearchCriteria`](../textsearchcriteria)具有指定正则表达式的类. |
+| [TextSearchCriteria](textsearchcriteria#constructor)(string) | 初始化一个新的实例[`TextSearchCriteria`](../textsearchcriteria)带有搜索字符串的类. |
+| [TextSearchCriteria](textsearchcriteria#constructor_1)(string, bool) | 初始化一个新的实例[`TextSearchCriteria`](../textsearchcriteria) class 带有搜索字符串和用于比较的标志. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [Pattern](../../groupdocs.watermark.search.searchcriteria/textsearchcriteria/pattern) { get; } | 获取搜索模式。 |
-| [SkipUnreadableCharacters](../../groupdocs.watermark.search.searchcriteria/textsearchcriteria/skipunreadablecharacters) { get; set; } | 获取或设置一个值，指示在字符串比较过程中将跳过不可读的字符。 |
+| [SkipUnreadableCharacters](../../groupdocs.watermark.search.searchcriteria/textsearchcriteria/skipunreadablecharacters) { get; set; } | 获取或设置一个值，表示在字符串比较过程中将跳过不可读字符。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)使用逻辑 AND 运算符的其他条件。 |
+| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑 AND 运算符. |
 | [Not](../../groupdocs.watermark.search.searchcriteria/searchcriteria/not)() | 否定这个[`SearchCriteria`](../searchcriteria). |
-| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与使用逻辑 OR 运算符的其他条件。 |
+| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑或运算符. |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

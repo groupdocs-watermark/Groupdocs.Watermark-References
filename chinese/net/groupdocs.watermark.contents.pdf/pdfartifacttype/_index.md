@@ -1,14 +1,14 @@
 ---
 title: PdfArtifactType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 枚举可能的工件类型
+description: 可能的工件类型的枚举
 type: docs
 weight: 580
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfartifacttype/
 ---
 ## PdfArtifactType enumeration
 
-枚举可能的工件类型。
+可能的工件类型的枚举。
 
 ```csharp
 public enum PdfArtifactType
@@ -19,7 +19,7 @@ public enum PdfArtifactType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Pagination | `0` | 分页类型。 |
-| Layout | `1` | 布局类型。 |
+| Layout | `1` | 布局类型. |
 | Page | `2` | 页面类型。 |
 | Background | `3` | 背景类型. |
 | Undefined | `4` | 未定义文档类型。 |

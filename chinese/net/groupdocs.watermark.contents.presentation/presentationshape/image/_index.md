@@ -16,7 +16,7 @@ public PresentationWatermarkableImage Image { get; set; }
 
 ### 适当的价值
 
-这个形象[`PresentationShape`](../../presentationshape)如果形状没有图像，则为 null。
+这个的形象[`PresentationShape`](../../presentationshape)如果形状没有图像，则为 null。
 
 ### 也可以看看
 

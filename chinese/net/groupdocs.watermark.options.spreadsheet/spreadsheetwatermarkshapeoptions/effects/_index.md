@@ -16,7 +16,7 @@ public ISpreadsheetWatermarkEffects Effects { get; set; }
 
 ### 适当的价值
 
-的[`SpreadsheetImageEffects`](../../spreadsheetimageeffects)或者[`SpreadsheetTextEffects`](../../spreadsheettexteffects)对于应该应用于水印的效果 。
+的[`SpreadsheetImageEffects`](../../spreadsheetimageeffects)或者[`SpreadsheetTextEffects`](../../spreadsheettexteffects)对于应该应用于水印的 effects 。
 
 ### 也可以看看
 

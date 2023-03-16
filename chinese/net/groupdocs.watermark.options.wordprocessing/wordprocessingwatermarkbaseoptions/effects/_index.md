@@ -16,7 +16,7 @@ public IWordProcessingWatermarkEffects Effects { get; set; }
 
 ### 适当的价值
 
-的[`WordProcessingImageEffects`](../../wordprocessingimageeffects)或者[`WordProcessingTextEffects`](../../wordprocessingtexteffects) 表示应应用于水印的效果。
+的[`WordProcessingImageEffects`](../../wordprocessingimageeffects)或者[`WordProcessingTextEffects`](../../wordprocessingtexteffects) 用于应应用于水印的效果。
 
 ### 也可以看看
 

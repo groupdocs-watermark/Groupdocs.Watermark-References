@@ -1,14 +1,14 @@
 ---
 title: WatermarkException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示基本异常GroupDocs.Watermark产品.
+description: 表示基础异常在GroupDocs.水印产品.
 type: docs
 weight: 1600
 url: /zh/net/groupdocs.watermark.exceptions/watermarkexception/
 ---
 ## WatermarkException class
 
-表示基本异常**GroupDocs.Watermark**产品.
+表示基础异常在**GroupDocs.水印**产品.
 
 ```csharp
 public class WatermarkException : Exception
@@ -18,9 +18,9 @@ public class WatermarkException : Exception
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WatermarkException](watermarkexception#constructor)() | 初始化[`WatermarkException`](../watermarkexception)类. |
-| [WatermarkException](watermarkexception#constructor_1)(string) | 初始化[`WatermarkException`](../watermarkexception)具有指定错误消息的类。 |
-| [WatermarkException](watermarkexception#constructor_2)(string, Exception) | 初始化[`WatermarkException`](../watermarkexception)具有指定错误消息 和对导致此异常的内部异常的引用的类。 |
+| [WatermarkException](watermarkexception#constructor)() | 初始化一个新的实例[`WatermarkException`](../watermarkexception)类. |
+| [WatermarkException](watermarkexception#constructor_1)(string) | 初始化一个新的实例[`WatermarkException`](../watermarkexception)带有指定错误消息的类。 |
+| [WatermarkException](watermarkexception#constructor_2)(string, Exception) | 初始化一个新的实例[`WatermarkException`](../watermarkexception)具有指定错误消息 和对导致此异常的内部异常的引用的类。 |
 
 ### 也可以看看
 

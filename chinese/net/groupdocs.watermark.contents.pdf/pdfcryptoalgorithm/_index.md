@@ -20,7 +20,7 @@ public enum PdfCryptoAlgorithm
 | --- | --- | --- |
 | RC4x40 | `0` | RC4 密钥长度为 40. |
 | RC4x128 | `1` | RC4 密钥长度为 128. |
-| AESx128 | `2` | AES 密钥长度为 128. |
+| AESx128 | `2` | 密钥长度为 128. 的 AES |
 | AESx256 | `3` | 密钥长度为 256. 的 AES |
 
 ### 也可以看看

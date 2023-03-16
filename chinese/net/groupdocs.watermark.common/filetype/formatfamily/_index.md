@@ -1,14 +1,14 @@
 ---
 title: FormatFamily
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取格式族
+description: 获取格式系列
 type: docs
 weight: 620
 url: /zh/net/groupdocs.watermark.common/filetype/formatfamily/
 ---
 ## FileType.FormatFamily property
 
-获取格式族。
+获取格式系列。
 
 ```csharp
 public FormatFamily FormatFamily { get; }

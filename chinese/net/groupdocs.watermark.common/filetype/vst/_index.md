@@ -1,14 +1,14 @@
 ---
 title: VST
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 带有 VST 扩展名的文件是使用 Microsoft Visio 创建的矢量图像文件并充当 创建更多文件的模板了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/image/vst/.
+description: 具有 VST 扩展名的文件是使用 Microsoft Visio 创建的矢量图像文件可作为 创建更多文件的模板详细了解此文件格式 这里https//wiki.fileformat.com/image/vst/.
 type: docs
 weight: 460
 url: /zh/net/groupdocs.watermark.common/filetype/vst/
 ---
 ## FileType.VST field
 
-带有 VST 扩展名的文件是使用 Microsoft Visio 创建的矢量图像文件，并充当 创建更多文件的模板。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/image/vst/).
+具有 VST 扩展名的文件是使用 Microsoft Visio 创建的矢量图像文件，可作为 创建更多文件的模板。详细了解此文件格式 [这里](https://wiki.fileformat.com/image/vst/).
 
 ```csharp
 public static readonly FileType VST;

@@ -18,7 +18,7 @@ public class InvalidPasswordException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [InvalidPasswordException](invalidpasswordexception)() | 初始化[`InvalidPasswordException`](../invalidpasswordexception)类. |
+| [InvalidPasswordException](invalidpasswordexception)() | 初始化一个新的实例[`InvalidPasswordException`](../invalidpasswordexception)类. |
 
 ### 也可以看看
 

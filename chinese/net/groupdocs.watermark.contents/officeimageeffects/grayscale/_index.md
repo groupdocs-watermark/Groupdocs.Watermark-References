@@ -1,14 +1,14 @@
 ---
 title: GrayScale
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示图片是否将以灰度模式显示
+description: 获取或设置一个图片是否以灰度模式显示的值
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents/officeimageeffects/grayscale/
 ---
 ## OfficeImageEffects.GrayScale property
 
-获取或设置一个值，该值指示图片是否将以灰度模式显示。
+获取或设置一个图片是否以灰度模式显示的值。
 
 ```csharp
 public bool GrayScale { get; set; }

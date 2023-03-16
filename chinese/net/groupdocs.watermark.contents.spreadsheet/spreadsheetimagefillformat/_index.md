@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetImageFillFormat
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Excel 文档中的图像填充格式设置
+description: 表示Excel文档中的图片填充格式设置
 type: docs
 weight: 1160
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetimagefillformat/
 ---
 ## SpreadsheetImageFillFormat class
 
-表示 Excel 文档中的图像填充格式设置。
+表示Excel文档中的图片填充格式设置。
 
 ```csharp
 public class SpreadsheetImageFillFormat : OfficeImageFillFormat<SpreadsheetWatermarkableImage>
@@ -18,9 +18,9 @@ public class SpreadsheetImageFillFormat : OfficeImageFillFormat<SpreadsheetWater
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [BackgroundImage](../../groupdocs.watermark.contents.spreadsheet/spreadsheetimagefillformat/backgroundimage) { get; set; } | 获取或设置背景图片。 |
+| override [BackgroundImage](../../groupdocs.watermark.contents.spreadsheet/spreadsheetimagefillformat/backgroundimage) { get; set; } | 获取或设置背景图像。 |
 | override [TileAsTexture](../../groupdocs.watermark.contents.spreadsheet/spreadsheetimagefillformat/tileastexture) { get; set; } | 获取或设置一个值，该值指示图像是否平铺在背景上。 |
-| override [Transparency](../../groupdocs.watermark.contents.spreadsheet/spreadsheetimagefillformat/transparency) { get; set; } | 获取或设置背景图像的透明度为 0.0（不透明） 到 1.0（完全透明）的值。 |
+| override [Transparency](../../groupdocs.watermark.contents.spreadsheet/spreadsheetimagefillformat/transparency) { get; set; } | 获取或设置背景图像的透明度为从 0.0（不透明） 到 1.0（完全透明）的值。 |
 
 ### 也可以看看
 

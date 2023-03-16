@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的 x 坐标Watermarkgroupdocs.watermark/watermark.
+description: 获取或设置此的 x 坐标Watermarkgroupdocs.watermark/watermark.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.watermark/watermark/x/
 ---
 ## Watermark.X property
 
-获取或设置 this 的 x 坐标[`Watermark`](../../watermark).
+获取或设置此的 x 坐标[`Watermark`](../../watermark).
 
 ```csharp
 public double X { get; set; }

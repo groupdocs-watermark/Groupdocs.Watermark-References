@@ -1,14 +1,14 @@
 ---
 title: A
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取颜色的 alpha 分量值
+description: 获取颜色的alpha分量值
 type: docs
 weight: 1440
 url: /zh/net/groupdocs.watermark.watermarks/color/a/
 ---
 ## Color.A property
 
-获取颜色的 alpha 分量值。
+获取颜色的alpha分量值。
 
 ```csharp
 public byte A { get; }

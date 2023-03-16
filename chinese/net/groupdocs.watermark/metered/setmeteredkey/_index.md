@@ -1,14 +1,14 @@
 ---
 title: SetMeteredKey
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 使用计量键激活产品
+description: 使用计量密钥激活产品
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark/metered/setmeteredkey/
 ---
 ## Metered.SetMeteredKey method
 
-使用计量键激活产品。
+使用计量密钥激活产品。
 
 ```csharp
 public void SetMeteredKey(string publicKey, string privateKey)

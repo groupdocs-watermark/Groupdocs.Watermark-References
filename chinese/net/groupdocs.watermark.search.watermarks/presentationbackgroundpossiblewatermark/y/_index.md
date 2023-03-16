@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的垂直偏移量PresentationBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark 从幻灯片顶部边框以点为单位
+description: 获取此的垂直偏移量PresentationBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark 从幻灯片顶部边框开始
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/y/
 ---
 ## PresentationBackgroundPossibleWatermark.Y property
 
-获取 this 的垂直偏移量[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark) 从幻灯片顶部边框以点为单位。
+获取此的垂直偏移量[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark) 从幻灯片顶部边框开始。
 
 ```csharp
 public override double Y { get; }

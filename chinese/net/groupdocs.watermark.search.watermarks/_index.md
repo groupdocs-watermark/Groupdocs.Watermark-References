@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Watermark.Search.Watermarks
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 命名空间提供了在不同格式的文档中找到的可能水印的类别 
+description: 命名空间提供了在不同格式的文档中发现的可能的水印类 
 type: docs
 weight: 230
 url: /zh/net/groupdocs.watermark.search.watermarks/
 ---
-命名空间提供了在不同格式的文档中找到的可能水印的类别 。
+命名空间提供了在不同格式的文档中发现的可能的水印类 。
 
 ## 课程
 
@@ -16,31 +16,31 @@ url: /zh/net/groupdocs.watermark.search.watermarks/
 | [DiagramHeaderFooterPossibleWatermark](./diagramheaderfooterpossiblewatermark) | 表示 Visio 文档页眉/页脚中可能存在的水印。 |
 | [DiagramHyperlinkPossibleWatermark](./diagramhyperlinkpossiblewatermark) | 表示 Visio 文档中可能的超链接水印。 |
 | [DiagramShapePossibleWatermark](./diagramshapepossiblewatermark) | 表示 Visio 文档中可能的形状水印。 |
-| [EmailAttachedImagePossibleWatermark](./emailattachedimagepossiblewatermark) | 表示电子邮件附件中可能存在的图像水印。 |
+| [EmailAttachedImagePossibleWatermark](./emailattachedimagepossiblewatermark) | 表示电子邮件附件中可能的图像水印。 |
 | [EmailBodyTextPossibleWatermark](./emailbodytextpossiblewatermark) | 表示电子邮件正文中可能存在的水印。 |
-| [EmailEmbeddedImagePossibleWatermark](./emailembeddedimagepossiblewatermark) | 表示嵌入到电子邮件正文的可能图像水印。 |
-| [EmailHtmlBodyTextPossibleWatermark](./emailhtmlbodytextpossiblewatermark) | 表示电子邮件 html 正文中可能存在的水印。 |
-| [EmailSubjectTextPossibleWatermark](./emailsubjecttextpossiblewatermark) | 表示电子邮件主题中可能存在的水印。 |
-| [EmailTextPossibleWatermark](./emailtextpossiblewatermark) | 表示电子邮件文本字段中可能存在的水印。 |
+| [EmailEmbeddedImagePossibleWatermark](./emailembeddedimagepossiblewatermark) | 表示可能嵌入到电子邮件正文中的图像水印。 |
+| [EmailHtmlBodyTextPossibleWatermark](./emailhtmlbodytextpossiblewatermark) | 表示电子邮件 html 正文中可能的水印。 |
+| [EmailSubjectTextPossibleWatermark](./emailsubjecttextpossiblewatermark) | 表示电子邮件主题中可能的水印。 |
+| [EmailTextPossibleWatermark](./emailtextpossiblewatermark) | 表示电子邮件文本字段中可能的水印。 |
 | [PdfAnnotationPossibleWatermark](./pdfannotationpossiblewatermark) | 表示pdf文档中可能的注释水印。 |
 | [PdfArtifactPossibleWatermark](./pdfartifactpossiblewatermark) | 表示 pdf 内容中可能存在的人工水印。 |
-| [PdfAttachedImagePossibleWatermark](./pdfattachedimagepossiblewatermark) | 表示pdf文档附件中可能存在的图像水印。 |
-| [PdfHyperlinkPossibleWatermark](./pdfhyperlinkpossiblewatermark) | 表示 pdf 文档中可能存在的超链接水印。 |
-| [PdfTextPossibleWatermark](./pdftextpossiblewatermark) | 表示 pdf 文档文本中可能存在的水印。 |
-| [PdfXObjectPossibleWatermark](./pdfxobjectpossiblewatermark) | 表示 pdf 内容中可能的 XObject 水印。 |
-| [PresentationBackgroundPossibleWatermark](./presentationbackgroundpossiblewatermark) | 表示 PowerPoint 文档中可能存在的背景水印。 |
+| [PdfAttachedImagePossibleWatermark](./pdfattachedimagepossiblewatermark) | 表示pdf文档附件中可能的图片水印。 |
+| [PdfHyperlinkPossibleWatermark](./pdfhyperlinkpossiblewatermark) | 表示pdf文档中可能的超链接水印。 |
+| [PdfTextPossibleWatermark](./pdftextpossiblewatermark) | 表示pdf文档文本中可能存在的水印。 |
+| [PdfXObjectPossibleWatermark](./pdfxobjectpossiblewatermark) | 表示 pdf 内容中可能存在的 XObject 水印。 |
+| [PresentationBackgroundPossibleWatermark](./presentationbackgroundpossiblewatermark) | 表示 PowerPoint 文档中可能的背景水印。 |
 | [PresentationChartBackgroundPossibleWatermark](./presentationchartbackgroundpossiblewatermark) | 表示 PowerPoint 图表中可能的背景水印。 |
-| [PresentationHyperlinkPossibleWatermark](./presentationhyperlinkpossiblewatermark) | 表示 PowerPoint 文档中可能存在的超链接水印。 |
+| [PresentationHyperlinkPossibleWatermark](./presentationhyperlinkpossiblewatermark) | 表示 PowerPoint 文档中可能的超链接水印。 |
 | [PresentationShapePossibleWatermark](./presentationshapepossiblewatermark) | 表示 PowerPoint 文档中可能的形状水印。 |
-| [SpreadsheetAttachedImagePossibleWatermark](./spreadsheetattachedimagepossiblewatermark) | 表示 Excel 文档附件中可能存在的图像水印。 |
-| [SpreadsheetBackgroundPossibleWatermark](./spreadsheetbackgroundpossiblewatermark) | 表示 Excel 文档中可能存在的背景水印。 |
-| [SpreadsheetCellPossibleWatermark](./spreadsheetcellpossiblewatermark) | 表示 Excel 文档中可能存在的单元格水印。 |
-| [SpreadsheetChartBackgroundPossibleWatermark](./spreadsheetchartbackgroundpossiblewatermark) | 表示 Excel 图表背景中可能存在的图像水印。 |
+| [SpreadsheetAttachedImagePossibleWatermark](./spreadsheetattachedimagepossiblewatermark) | 表示Excel文档附件中可能存在图片水印。 |
+| [SpreadsheetBackgroundPossibleWatermark](./spreadsheetbackgroundpossiblewatermark) | 表示 Excel 文档中可能的背景水印。 |
+| [SpreadsheetCellPossibleWatermark](./spreadsheetcellpossiblewatermark) | 表示 Excel 文档中可能的单元格水印。 |
+| [SpreadsheetChartBackgroundPossibleWatermark](./spreadsheetchartbackgroundpossiblewatermark) | 表示Excel图表背景中可能出现的图片水印。 |
 | [SpreadsheetHeaderFooterPossibleWatermark](./spreadsheetheaderfooterpossiblewatermark) | 表示 Excel 文档的页眉或页脚中可能存在的水印。 |
-| [SpreadsheetHyperlinkPossibleWatermark](./spreadsheethyperlinkpossiblewatermark) | 表示 Excel 文档中可能存在的超链接水印。 |
-| [SpreadsheetShapePossibleWatermark](./spreadsheetshapepossiblewatermark) | 表示 Excel 文档中可能的形状水印。 |
-| [WordProcessingShapePossibleWatermark](./wordprocessingshapepossiblewatermark) | 表示 Word 文档中可能的形状水印。 |
-| [WordProcessingTextHyperlinkPossibleWatermark](./wordprocessingtexthyperlinkpossiblewatermark) | 表示 Word 文档中可能存在的超链接水印。 |
+| [SpreadsheetHyperlinkPossibleWatermark](./spreadsheethyperlinkpossiblewatermark) | 表示 Excel 文档中可能的超链接水印。 |
+| [SpreadsheetShapePossibleWatermark](./spreadsheetshapepossiblewatermark) | 表示Excel文档中可能的形状水印。 |
+| [WordProcessingShapePossibleWatermark](./wordprocessingshapepossiblewatermark) | 表示Word文档中可能的形状水印。 |
+| [WordProcessingTextHyperlinkPossibleWatermark](./wordprocessingtexthyperlinkpossiblewatermark) | 表示 Word 文档中可能的超链接水印。 |
 | [WordProcessingTextPossibleWatermark](./wordprocessingtextpossiblewatermark) | 表示 Word 文档文本中可能存在的水印。 |
 
 <!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Watermark.dll -->

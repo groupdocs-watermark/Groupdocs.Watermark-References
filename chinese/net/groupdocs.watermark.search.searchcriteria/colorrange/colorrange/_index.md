@@ -1,14 +1,14 @@
 ---
 title: ColorRange
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化ColorRangegroupdocs.watermark.search.searchcriteria/colorrange类.
+description: 初始化一个新的实例ColorRangegroupdocs.watermark.search.searchcriteria/colorrange类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/colorrange/colorrange/
 ---
 ## ColorRange() {#constructor}
 
-初始化[`ColorRange`](../../colorrange)类.
+初始化一个新的实例[`ColorRange`](../../colorrange)类.
 
 ```csharp
 public ColorRange()
@@ -24,7 +24,7 @@ public ColorRange()
 
 ## ColorRange(Color) {#constructor_1}
 
-初始化[`ColorRange`](../../colorrange)具有指定确切颜色的类。
+初始化一个新的实例[`ColorRange`](../../colorrange)具有指定确切颜色的类。
 
 ```csharp
 public ColorRange(Color exactColor)

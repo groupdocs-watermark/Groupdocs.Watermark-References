@@ -1,14 +1,14 @@
 ---
 title: PdfXObjectWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PdfXObjectWatermarkOptionsgroupdocs.watermark.options.pdf/pdfxobjectwatermarkoptions类.
+description: 初始化一个新的实例PdfXObjectWatermarkOptionsgroupdocs.watermark.options.pdf/pdfxobjectwatermarkoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.pdf/pdfxobjectwatermarkoptions/pdfxobjectwatermarkoptions/
 ---
 ## PdfXObjectWatermarkOptions constructor
 
-初始化[`PdfXObjectWatermarkOptions`](../../pdfxobjectwatermarkoptions)类.
+初始化一个新的实例[`PdfXObjectWatermarkOptions`](../../pdfxobjectwatermarkoptions)类.
 
 ```csharp
 public PdfXObjectWatermarkOptions()

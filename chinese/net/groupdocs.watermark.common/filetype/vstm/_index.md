@@ -1,14 +1,14 @@
 ---
 title: VSTM
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 带有 VSTM 扩展名的文件是使用 Microsoft Visio 创建的支持宏的模板文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vstm/.
+description: 具有 VSTM 扩展名的文件是使用支持宏的 Microsoft Visio 创建的模板文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vstm/.
 type: docs
 weight: 470
 url: /zh/net/groupdocs.watermark.common/filetype/vstm/
 ---
 ## FileType.VSTM field
 
-带有 VSTM 扩展名的文件是使用 Microsoft Visio 创建的支持宏的模板文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vstm/).
+具有 VSTM 扩展名的文件是使用支持宏的 Microsoft Visio 创建的模板文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vstm/).
 
 ```csharp
 public static readonly FileType VSTM;

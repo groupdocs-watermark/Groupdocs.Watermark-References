@@ -18,7 +18,7 @@ public class SpreadsheetCellFormattedTextFragment : FormattedTextFragment
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [BackgroundColor](../../groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragment/backgroundcolor) { get; } | 获取文本的背景颜色。 |
+| override [BackgroundColor](../../groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragment/backgroundcolor) { get; } | 获取文本的背景色。 |
 | override [Font](../../groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragment/font) { get; } | 获取文本的字体。 |
 | override [ForegroundColor](../../groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragment/foregroundcolor) { get; } | 获取文本的前景色。 |
 | override [Text](../../groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragment/text) { get; } | 获取片段文本。 |

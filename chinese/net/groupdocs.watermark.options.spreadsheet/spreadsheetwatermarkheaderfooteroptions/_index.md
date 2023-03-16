@@ -18,17 +18,17 @@ public sealed class SpreadsheetWatermarkHeaderFooterOptions : SpreadsheetWaterma
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetWatermarkHeaderFooterOptions](spreadsheetwatermarkheaderfooteroptions)() | 初始化[`SpreadsheetWatermarkHeaderFooterOptions`](../spreadsheetwatermarkheaderfooteroptions)类. |
+| [SpreadsheetWatermarkHeaderFooterOptions](spreadsheetwatermarkheaderfooteroptions)() | 初始化一个新的实例[`SpreadsheetWatermarkHeaderFooterOptions`](../spreadsheetwatermarkheaderfooteroptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WorksheetIndex](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/worksheetindex) { get; set; } | 获取或设置要添加水印的工作表的索引。 |
+| [WorksheetIndex](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/worksheetindex) { get; set; } | 获取或设置要添加水印的工作表索引。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [向电子表格文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 

@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetBackgroundWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetBackgroundWatermarkOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions类.
+description: 初始化一个新的实例SpreadsheetBackgroundWatermarkOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/spreadsheetbackgroundwatermarkoptions/
 ---
 ## SpreadsheetBackgroundWatermarkOptions constructor
 
-初始化[`SpreadsheetBackgroundWatermarkOptions`](../../spreadsheetbackgroundwatermarkoptions)类.
+初始化一个新的实例[`SpreadsheetBackgroundWatermarkOptions`](../../spreadsheetbackgroundwatermarkoptions)类.
 
 ```csharp
 public SpreadsheetBackgroundWatermarkOptions()

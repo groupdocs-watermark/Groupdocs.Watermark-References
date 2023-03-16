@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetWatermarkShapeOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetWatermarkShapeOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions类.
+description: 初始化一个新的实例SpreadsheetWatermarkShapeOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/spreadsheetwatermarkshapeoptions/
 ---
 ## SpreadsheetWatermarkShapeOptions constructor
 
-初始化[`SpreadsheetWatermarkShapeOptions`](../../spreadsheetwatermarkshapeoptions)类.
+初始化一个新的实例[`SpreadsheetWatermarkShapeOptions`](../../spreadsheetwatermarkshapeoptions)类.
 
 ```csharp
 public SpreadsheetWatermarkShapeOptions()

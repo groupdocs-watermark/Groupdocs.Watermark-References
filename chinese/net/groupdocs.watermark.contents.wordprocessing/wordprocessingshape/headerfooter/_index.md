@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取它的父页眉/页脚WordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshape如果有的话.
+description: 获取此的父页眉/页脚WordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshape如果有的话.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/headerfooter/
 ---
 ## WordProcessingShape.HeaderFooter property
 
-获取它的父页眉/页脚[`WordProcessingShape`](../../wordprocessingshape)（如果有的话）.
+获取此的父页眉/页脚[`WordProcessingShape`](../../wordprocessingshape)（如果有的话）.
 
 ```csharp
 public WordProcessingHeaderFooter HeaderFooter { get; }

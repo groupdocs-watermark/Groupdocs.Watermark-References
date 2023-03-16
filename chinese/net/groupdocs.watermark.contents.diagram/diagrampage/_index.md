@@ -18,26 +18,26 @@ public class DiagramPage : ContentPart
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackgroundPage](../../groupdocs.watermark.contents.diagram/diagrampage/backgroundpage) { get; } | 获取这个的背景页面[`DiagramPage`](../diagrampage). |
-| [BottomMargin](../../groupdocs.watermark.contents.diagram/diagrampage/bottommargin) { get; } | 以磅为单位获取下边距的大小。 |
-| [Height](../../groupdocs.watermark.contents.diagram/diagrampage/height) { get; } | 获取这个的高度[`DiagramPage`](../diagrampage)以点为单位。 |
-| [IsBackground](../../groupdocs.watermark.contents.diagram/diagrampage/isbackground) { get; } | 获取页面是否为背景页面的值。 |
-| [IsVisible](../../groupdocs.watermark.contents.diagram/diagrampage/isvisible) { get; set; } | 获取或设置一个值，该值指示页面是否在 UI 中可见。 |
-| [LeftMargin](../../groupdocs.watermark.contents.diagram/diagrampage/leftmargin) { get; } | 以磅为单位获取左边距的大小。 |
-| [Name](../../groupdocs.watermark.contents.diagram/diagrampage/name) { get; } | 获取此名称[`DiagramPage`](../diagrampage). |
-| [RightMargin](../../groupdocs.watermark.contents.diagram/diagrampage/rightmargin) { get; } | 以磅为单位获取右边距的大小。 |
+| [BackgroundPage](../../groupdocs.watermark.contents.diagram/diagrampage/backgroundpage) { get; } | 获取这个的后台页面[`DiagramPage`](../diagrampage). |
+| [BottomMargin](../../groupdocs.watermark.contents.diagram/diagrampage/bottommargin) { get; } | 获取下边距的大小（以点为单位）。 |
+| [Height](../../groupdocs.watermark.contents.diagram/diagrampage/height) { get; } | 获取这个的高度[`DiagramPage`](../diagrampage)点. |
+| [IsBackground](../../groupdocs.watermark.contents.diagram/diagrampage/isbackground) { get; } | 获取该页面是否为背景页面的值。 |
+| [IsVisible](../../groupdocs.watermark.contents.diagram/diagrampage/isvisible) { get; set; } | 获取或设置一个值，指示页面在 UI 中是否可见。 |
+| [LeftMargin](../../groupdocs.watermark.contents.diagram/diagrampage/leftmargin) { get; } | 获取左边距的大小（以磅为单位）。 |
+| [Name](../../groupdocs.watermark.contents.diagram/diagrampage/name) { get; } | 获取这个的名字[`DiagramPage`](../diagrampage). |
+| [RightMargin](../../groupdocs.watermark.contents.diagram/diagrampage/rightmargin) { get; } | 获取右边距的大小（以点为单位）。 |
 | [Shapes](../../groupdocs.watermark.contents.diagram/diagrampage/shapes) { get; } | 获取页面所有形状的集合。 |
-| [TopMargin](../../groupdocs.watermark.contents.diagram/diagrampage/topmargin) { get; } | 以磅为单位获取上边距的大小。 |
-| [Width](../../groupdocs.watermark.contents.diagram/diagrampage/width) { get; } | 获取这个的宽度[`DiagramPage`](../diagrampage)以点为单位。 |
+| [TopMargin](../../groupdocs.watermark.contents.diagram/diagrampage/topmargin) { get; } | 获取上边距的大小（以点为单位）。 |
+| [Width](../../groupdocs.watermark.contents.diagram/diagrampage/width) { get; } | 得到这个的宽度[`DiagramPage`](../diagrampage)点. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 也可以看看
 

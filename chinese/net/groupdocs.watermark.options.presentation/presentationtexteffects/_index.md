@@ -18,7 +18,7 @@ public sealed class PresentationTextEffects : OfficeTextEffects, IPresentationWa
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PresentationTextEffects](presentationtexteffects)() | 初始化[`PresentationTextEffects`](../presentationtexteffects)类. |
+| [PresentationTextEffects](presentationtexteffects)() | 初始化一个新的实例[`PresentationTextEffects`](../presentationtexteffects)类. |
 
 ## 特性
 

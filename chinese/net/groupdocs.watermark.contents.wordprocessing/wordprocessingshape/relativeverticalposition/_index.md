@@ -1,14 +1,14 @@
 ---
 title: RelativeVerticalPosition
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取指定形状垂直定位的值
+description: 获取指定形状垂直放置的值
 type: docs
 weight: 120
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/relativeverticalposition/
 ---
 ## WordProcessingShape.RelativeVerticalPosition property
 
-获取指定形状垂直定位的值。
+获取指定形状垂直放置的值。
 
 ```csharp
 public WordProcessingRelativeVerticalPosition RelativeVerticalPosition { get; }

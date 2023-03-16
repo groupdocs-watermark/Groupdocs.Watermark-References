@@ -1,14 +1,14 @@
 ---
 title: OFT
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 带有 .OFT 扩展名的文件表示使用 Microsoft Outlook 创建的邮件模板文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/email/oft/.
+description: 扩展名为 .OFT 的文件表示使用 Microsoft Outlook 创建的消息模板文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/email/oft/.
 type: docs
 weight: 220
 url: /zh/net/groupdocs.watermark.common/filetype/oft/
 ---
 ## FileType.OFT field
 
-带有 .OFT 扩展名的文件表示使用 Microsoft Outlook 创建的邮件模板文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/oft/).
+扩展名为 .OFT 的文件表示使用 Microsoft Outlook 创建的消息模板文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/email/oft/).
 
 ```csharp
 public static readonly FileType OFT;

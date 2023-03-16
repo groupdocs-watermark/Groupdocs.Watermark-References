@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 pdf 文档的文档加载选项
+description: 表示pdf文档的文档加载选项
 type: docs
 weight: 1880
 url: /zh/net/groupdocs.watermark.options.pdf/pdfloadoptions/
 ---
 ## PdfLoadOptions class
 
-表示 pdf 文档的文档加载选项。
+表示pdf文档的文档加载选项。
 
 ```csharp
 public sealed class PdfLoadOptions : LoadOptions
@@ -18,8 +18,8 @@ public sealed class PdfLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfLoadOptions](pdfloadoptions#constructor)() | 初始化[`PdfLoadOptions`](../pdfloadoptions)类. |
-| [PdfLoadOptions](pdfloadoptions#constructor_1)(string) | 初始化[`PdfLoadOptions`](../pdfloadoptions)具有指定密码的类。 |
+| [PdfLoadOptions](pdfloadoptions#constructor)() | 初始化一个新的实例[`PdfLoadOptions`](../pdfloadoptions)类. |
+| [PdfLoadOptions](pdfloadoptions#constructor_1)(string) | 初始化一个新的实例[`PdfLoadOptions`](../pdfloadoptions)具有指定密码的类. |
 
 ## 特性
 

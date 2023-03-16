@@ -1,14 +1,14 @@
 ---
 title: PresentationLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示演示文稿文档的文档加载选项
+description: 表示演示文档的文档加载选项
 type: docs
 weight: 1950
 url: /zh/net/groupdocs.watermark.options.presentation/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
 
-表示演示文稿文档的文档加载选项。
+表示演示文档的文档加载选项。
 
 ```csharp
 public sealed class PresentationLoadOptions : LoadOptions
@@ -18,8 +18,8 @@ public sealed class PresentationLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PresentationLoadOptions](presentationloadoptions#constructor)() | 初始化[`PresentationLoadOptions`](../presentationloadoptions)类. |
-| [PresentationLoadOptions](presentationloadoptions#constructor_1)(string) | 初始化[`PresentationLoadOptions`](../presentationloadoptions)具有指定密码的类。 |
+| [PresentationLoadOptions](presentationloadoptions#constructor)() | 初始化一个新的实例[`PresentationLoadOptions`](../presentationloadoptions)类. |
+| [PresentationLoadOptions](presentationloadoptions#constructor_1)(string) | 初始化一个新的实例[`PresentationLoadOptions`](../presentationloadoptions)具有指定密码的类. |
 
 ## 特性
 

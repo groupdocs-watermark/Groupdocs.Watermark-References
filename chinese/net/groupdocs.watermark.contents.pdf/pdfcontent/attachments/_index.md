@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此所有附件的集合PdfContentgroupdocs.watermark.contents.pdf/pdfcontent.
+description: 获取本次所有附件的集合PdfContentgroupdocs.watermark.contents.pdf/pdfcontent.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfcontent/attachments/
 ---
 ## PdfContent.Attachments property
 
-获取此所有附件的集合[`PdfContent`](../../pdfcontent).
+获取本次所有附件的集合[`PdfContent`](../../pdfcontent).
 
 ```csharp
 public PdfAttachmentCollection Attachments { get; }
@@ -16,7 +16,7 @@ public PdfAttachmentCollection Attachments { get; }
 
 ### 适当的价值
 
-本篇所有附件的合集[`PdfContent`](../../pdfcontent).
+本文所有附件合集[`PdfContent`](../../pdfcontent).
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的水平偏移量PresentationBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark 从滑动左边框以点为单位
+description: 得到这个的水平偏移量PresentationBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark 从幻灯片左边界点开始
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/x/
 ---
 ## PresentationBackgroundPossibleWatermark.X property
 
-获取 this 的水平偏移量[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark) 从滑动左边框以点为单位。
+得到这个的水平偏移量[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark) 从幻灯片左边界点开始。
 
 ```csharp
 public override double X { get; }

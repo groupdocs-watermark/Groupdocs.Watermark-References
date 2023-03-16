@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark.
+description: 获取或设置此文本WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/text/
 ---
 ## WordProcessingTextPossibleWatermark.Text property
 
-获取或设置 this 的文本[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark).
+获取或设置此文本[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark).
 
 ```csharp
 public override string Text { get; set; }
@@ -16,7 +16,7 @@ public override string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark).
+这一段的正文[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark).
 
 ### 也可以看看
 

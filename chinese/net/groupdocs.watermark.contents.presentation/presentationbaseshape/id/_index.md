@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的标识符PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape.
+description: 得到这个的标识符PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationbaseshape/id/
 ---
 ## PresentationBaseShape.Id property
 
-获取这个的标识符[`PresentationBaseShape`](../../presentationbaseshape).
+得到这个的标识符[`PresentationBaseShape`](../../presentationbaseshape).
 
 ```csharp
 public uint Id { get; }
@@ -16,7 +16,7 @@ public uint Id { get; }
 
 ### 适当的价值
 
-这个标识符[`PresentationBaseShape`](../../presentationbaseshape).
+这个的标识符[`PresentationBaseShape`](../../presentationbaseshape).
 
 ### 也可以看看
 

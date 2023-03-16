@@ -1,14 +1,14 @@
 ---
 title: VSSM
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 带有 .VSSM 扩展名的文件是 Microsoft Visio Stencil 文件支持提供对宏的支持 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vssm/.
+description: 带有 .VSSM 扩展名的文件是支持宏的 Microsoft Visio Stencil 文件 了解有关此文件格式的更多信息这里https//wiki.fileformat.com/image/vssm/.
 type: docs
 weight: 440
 url: /zh/net/groupdocs.watermark.common/filetype/vssm/
 ---
 ## FileType.VSSM field
 
-带有 .VSSM 扩展名的文件是 Microsoft Visio Stencil 文件，支持提供对宏的支持。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vssm/).
+带有 .VSSM 扩展名的文件是支持宏的 Microsoft Visio Stencil 文件。 了解有关此文件格式的更多信息[这里](https://wiki.fileformat.com/image/vssm/).
 
 ```csharp
 public static readonly FileType VSSM;

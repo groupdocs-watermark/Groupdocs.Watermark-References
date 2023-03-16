@@ -16,7 +16,7 @@ public float Size { get; }
 
 ### 适当的价值
 
-这个尺寸[`Font`](../../font).
+这个的大小[`Font`](../../font).
 
 ### 也可以看看
 

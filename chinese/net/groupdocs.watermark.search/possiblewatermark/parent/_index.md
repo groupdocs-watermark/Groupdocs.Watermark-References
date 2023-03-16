@@ -16,7 +16,7 @@ public abstract ContentPart Parent { get; }
 
 ### 适当的价值
 
-这个的家长[`PossibleWatermark`](../../possiblewatermark).
+这个的父[`PossibleWatermark`](../../possiblewatermark).
 
 ### 也可以看看
 

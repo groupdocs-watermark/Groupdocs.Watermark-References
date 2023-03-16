@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 x 坐标HyperlinkPossibleWatermarkgroupdocs.watermark.search/hyperlinkpossiblewatermark.
+description: 得到这个的x坐标HyperlinkPossibleWatermarkgroupdocs.watermark.search/hyperlinkpossiblewatermark.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.search/hyperlinkpossiblewatermark/x/
 ---
 ## HyperlinkPossibleWatermark.X property
 
-获取 x 坐标[`HyperlinkPossibleWatermark`](../../hyperlinkpossiblewatermark).
+得到这个的x坐标[`HyperlinkPossibleWatermark`](../../hyperlinkpossiblewatermark).
 
 ```csharp
 public override double X { get; }

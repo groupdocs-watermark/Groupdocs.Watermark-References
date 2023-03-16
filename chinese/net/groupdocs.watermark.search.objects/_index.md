@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Watermark.Search.Objects
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 命名空间为要包含在水印搜索中的文档对象提供类 
+description: 命名空间为要在水印搜索中包含 的文档对象提供类
 type: docs
 weight: 210
 url: /zh/net/groupdocs.watermark.search.objects/
 ---
-命名空间为要包含在水印搜索中的文档对象提供类 。
+命名空间为要在水印搜索中包含 的文档对象提供类。
 
 ## 课程
 
@@ -18,7 +18,7 @@ url: /zh/net/groupdocs.watermark.search.objects/
 | 枚举 | 描述 |
 | --- | --- |
 | [DiagramSearchableObjects](./diagramsearchableobjects) | 指定代表要包含在水印搜索中的 Visio 文档对象的标志。 |
-| [EmailSearchableObjects](./emailsearchableobjects) | 指定表示要包含在水印搜索中的电子邮件对象的标志。 |
+| [EmailSearchableObjects](./emailsearchableobjects) | 指定表示要包含在水印搜索中的电子邮件消息对象的标志。 |
 | [PdfSearchableObjects](./pdfsearchableobjects) | 指定代表要包含在水印搜索中的 pdf 内容对象的标志。 |
 | [PresentationSearchableObjects](./presentationsearchableobjects) | 指定代表要包含在水印搜索中的 PowerPoint 内容对象的标志。 |
 | [SpreadsheetSearchableObjects](./spreadsheetsearchableobjects) | 指定代表要包含在水印搜索中的 Excel 内容对象的标志。 |

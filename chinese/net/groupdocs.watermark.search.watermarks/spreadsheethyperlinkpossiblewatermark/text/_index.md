@@ -16,7 +16,7 @@ public override string Text { get; set; }
 
 ### 适当的价值
 
-这个网址[`SpreadsheetHyperlinkPossibleWatermark`](../../spreadsheethyperlinkpossiblewatermark).
+这个的网址[`SpreadsheetHyperlinkPossibleWatermark`](../../spreadsheethyperlinkpossiblewatermark).
 
 ### 也可以看看
 

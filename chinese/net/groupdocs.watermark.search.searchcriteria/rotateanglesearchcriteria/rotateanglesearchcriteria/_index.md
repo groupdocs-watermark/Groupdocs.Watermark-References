@@ -1,14 +1,14 @@
 ---
 title: RotateAngleSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化RotateAngleSearchCriteriagroupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria class 具有起始角度和结束角度
+description: 初始化一个新的实例RotateAngleSearchCriteriagroupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria class 具有起始角和结束角.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria/rotateanglesearchcriteria/
 ---
 ## RotateAngleSearchCriteria constructor
 
-初始化[`RotateAngleSearchCriteria`](../../rotateanglesearchcriteria) class 具有起始角度和结束角度。
+初始化一个新的实例[`RotateAngleSearchCriteria`](../../rotateanglesearchcriteria) class 具有起始角和结束角.
 
 ```csharp
 public RotateAngleSearchCriteria(double minAngle, double maxAngle)

@@ -1,14 +1,14 @@
 ---
 title: PdfAttachment
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示附加到 pdf 内容的文件
+description: 表示附加到pdf内容的文件
 type: docs
 weight: 590
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfattachment/
 ---
 ## PdfAttachment class
 
-表示附加到 pdf 内容的文件。
+表示附加到pdf内容的文件。
 
 ```csharp
 public class PdfAttachment : Attachment
@@ -18,22 +18,22 @@ public class PdfAttachment : Attachment
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Content](../../groupdocs.watermark.contents.pdf/pdfattachment/content) { get; set; } | 获取或设置附件内容。 |
-| [Description](../../groupdocs.watermark.contents.pdf/pdfattachment/description) { get; set; } | 获取或设置附件的描述信息。 |
+| override [Content](../../groupdocs.watermark.contents.pdf/pdfattachment/content) { get; set; } | 获取或设置附加文件内容。 |
+| [Description](../../groupdocs.watermark.contents.pdf/pdfattachment/description) { get; set; } | 获取或设置附加文件的描述。 |
 | [Name](../../groupdocs.watermark.contents.pdf/pdfattachment/name) { get; set; } | 获取或设置附加文件的名称。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)() | 从附件加载内容。 |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions) | 使用指定的加载选项从附件加载内容。 |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions, WatermarkerSettings) | 使用指定的加载选项和设置从附件加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)() | 从附件中加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions) | 使用指定的加载选项从附件中加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions, WatermarkerSettings) | 使用指定的加载选项和设置从附件中加载内容。 |
 | [GetDocumentInfo](../../groupdocs.watermark.common/attachment/getdocumentinfo)() | 获取有关存储在附件中的文档的信息。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [PDF 文档中的附件](https://docs.groupdocs.com/display/watermarknet/Attachments+in+PDF+document)
 

@@ -1,14 +1,14 @@
 ---
 title: WordProcessingWatermarkPagesOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示向 Word 文档页面添加水印时的选项
+description: 表示给Word文档页面加水印时的选项
 type: docs
 weight: 2370
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkpagesoptions/
 ---
 ## WordProcessingWatermarkPagesOptions class
 
-表示向 Word 文档页面添加水印时的选项。
+表示给Word文档页面加水印时的选项。
 
 ```csharp
 public sealed class WordProcessingWatermarkPagesOptions : WordProcessingWatermarkBaseOptions
@@ -18,7 +18,7 @@ public sealed class WordProcessingWatermarkPagesOptions : WordProcessingWatermar
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WordProcessingWatermarkPagesOptions](wordprocessingwatermarkpagesoptions)() | 初始化[`WordProcessingWatermarkPagesOptions`](../wordprocessingwatermarkpagesoptions)类. |
+| [WordProcessingWatermarkPagesOptions](wordprocessingwatermarkpagesoptions)() | 初始化一个新的实例[`WordProcessingWatermarkPagesOptions`](../wordprocessingwatermarkpagesoptions)类. |
 
 ## 特性
 
@@ -27,14 +27,14 @@ public sealed class WordProcessingWatermarkPagesOptions : WordProcessingWatermar
 | [AlternativeText](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/alternativetext) { get; set; } | 获取或设置将与形状关联的描述性（替代）文本。 |
 | [Effects](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/effects) { get; set; } | 获取或设置一个值[`WordProcessingImageEffects`](../wordprocessingimageeffects)or [`WordProcessingTextEffects`](../wordprocessingtexteffects)对于应该应用于水印的效果。 |
 | [IsLocked](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/islocked) { get; set; } | 获取或设置一个值，该值指示是否禁止在 Word 中编辑形状。 |
-| [LockType](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/locktype) { get; set; } | 获取或设置水印锁定类型。 |
+| [LockType](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/locktype) { get; set; } | 获取或设置水印锁类型。 |
 | [Name](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/name) { get; set; } | 获取或设置形状的名称。 |
-| [PageNumbers](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkpagesoptions/pagenumbers) { get; set; } | 获取或设置添加水印的页码 |
+| [PageNumbers](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkpagesoptions/pagenumbers) { get; set; } | 获取或设置添加水印的页码。 |
 | [Password](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/password) { get; set; } | 获取或设置用于锁定水印的密码。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为文字处理文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents)
 

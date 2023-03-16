@@ -16,7 +16,7 @@ public bool IsLocked { get; set; }
 
 ### 适当的价值
 
-如果该值为真，将禁止形状编辑。 默认值为false，可以在PowerPoint中编辑形状。
+如果该值为真，将禁止形状编辑。 默认情况下，该值为 false，可以在 PowerPoint 中编辑形状。
 
 ### 也可以看看
 

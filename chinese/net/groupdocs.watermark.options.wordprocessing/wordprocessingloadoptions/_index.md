@@ -18,8 +18,8 @@ public sealed class WordProcessingLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WordProcessingLoadOptions](wordprocessingloadoptions#constructor)() | 初始化[`WordProcessingLoadOptions`](../wordprocessingloadoptions)类. |
-| [WordProcessingLoadOptions](wordprocessingloadoptions#constructor_1)(string) | 初始化[`WordProcessingLoadOptions`](../wordprocessingloadoptions)具有指定密码的类。 |
+| [WordProcessingLoadOptions](wordprocessingloadoptions#constructor)() | 初始化一个新的实例[`WordProcessingLoadOptions`](../wordprocessingloadoptions)类. |
+| [WordProcessingLoadOptions](wordprocessingloadoptions#constructor_1)(string) | 初始化一个新的实例[`WordProcessingLoadOptions`](../wordprocessingloadoptions)具有指定密码的类. |
 
 ## 特性
 

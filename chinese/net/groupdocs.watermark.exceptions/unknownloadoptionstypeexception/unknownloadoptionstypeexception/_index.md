@@ -1,14 +1,14 @@
 ---
 title: UnknownLoadOptionsTypeException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化UnknownLoadOptionsTypeExceptiongroupdocs.watermark.exceptions/unknownloadoptionstypeexception类.
+description: 初始化一个新的实例UnknownLoadOptionsTypeExceptiongroupdocs.watermark.exceptions/unknownloadoptionstypeexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/unknownloadoptionstypeexception/unknownloadoptionstypeexception/
 ---
 ## UnknownLoadOptionsTypeException constructor
 
-初始化[`UnknownLoadOptionsTypeException`](../../unknownloadoptionstypeexception)类.
+初始化一个新的实例[`UnknownLoadOptionsTypeException`](../../unknownloadoptionstypeexception)类.
 
 ```csharp
 public UnknownLoadOptionsTypeException()

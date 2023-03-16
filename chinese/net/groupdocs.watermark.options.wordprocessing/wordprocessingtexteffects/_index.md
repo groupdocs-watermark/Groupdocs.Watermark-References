@@ -18,7 +18,7 @@ public sealed class WordProcessingTextEffects : OfficeTextEffects, IWordProcessi
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WordProcessingTextEffects](wordprocessingtexteffects)() | 初始化[`WordProcessingTextEffects`](../wordprocessingtexteffects)类. |
+| [WordProcessingTextEffects](wordprocessingtexteffects)() | 初始化一个新的实例[`WordProcessingTextEffects`](../wordprocessingtexteffects)类. |
 
 ## 特性
 

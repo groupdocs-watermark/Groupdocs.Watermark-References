@@ -18,8 +18,8 @@ public class FontNotFoundException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FontNotFoundException](fontnotfoundexception#constructor)() | 初始化[`FontNotFoundException`](../fontnotfoundexception)类. |
-| [FontNotFoundException](fontnotfoundexception#constructor_1)(string) | 初始化[`FontNotFoundException`](../fontnotfoundexception)具有指定字体名称的类。 |
+| [FontNotFoundException](fontnotfoundexception#constructor)() | 初始化一个新的实例[`FontNotFoundException`](../fontnotfoundexception)类. |
+| [FontNotFoundException](fontnotfoundexception#constructor_1)(string) | 初始化一个新的实例[`FontNotFoundException`](../fontnotfoundexception)具有指定字体名称的类. |
 
 ## 特性
 

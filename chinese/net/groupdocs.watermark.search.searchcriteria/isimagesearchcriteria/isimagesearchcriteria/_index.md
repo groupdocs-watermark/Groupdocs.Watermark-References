@@ -1,14 +1,14 @@
 ---
 title: IsImageSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化IsImageSearchCriteriagroupdocs.watermark.search.searchcriteria/isimagesearchcriteria类.
+description: 初始化一个新的实例IsImageSearchCriteriagroupdocs.watermark.search.searchcriteria/isimagesearchcriteria类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/isimagesearchcriteria/isimagesearchcriteria/
 ---
 ## IsImageSearchCriteria constructor
 
-初始化[`IsImageSearchCriteria`](../../isimagesearchcriteria)类.
+初始化一个新的实例[`IsImageSearchCriteria`](../../isimagesearchcriteria)类.
 
 ```csharp
 public IsImageSearchCriteria()

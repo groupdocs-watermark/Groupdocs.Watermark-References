@@ -18,7 +18,7 @@ public class PreviewNotSupportedException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PreviewNotSupportedException](previewnotsupportedexception)() | 初始化[`PreviewNotSupportedException`](../previewnotsupportedexception)类. |
+| [PreviewNotSupportedException](previewnotsupportedexception)() | 初始化一个新的实例[`PreviewNotSupportedException`](../previewnotsupportedexception)类. |
 
 ### 也可以看看
 

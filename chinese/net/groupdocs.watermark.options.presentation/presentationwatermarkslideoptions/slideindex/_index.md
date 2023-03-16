@@ -1,14 +1,14 @@
 ---
 title: SlideIndex
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置要添加水印的幻灯片的索引
+description: 获取或设置要添加水印的幻灯片索引
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/slideindex/
 ---
 ## PresentationWatermarkSlideOptions.SlideIndex property
 
-获取或设置要添加水印的幻灯片的索引。
+获取或设置要添加水印的幻灯片索引。
 
 ```csharp
 public int SlideIndex { get; set; }
@@ -16,7 +16,7 @@ public int SlideIndex { get; set; }
 
 ### 适当的价值
 
-添加水印的幻灯片的索引。
+要添加水印的幻灯片的索引。
 
 ### 评论
 

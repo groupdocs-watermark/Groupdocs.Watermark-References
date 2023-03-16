@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以磅为单位获取打印页面的高度
+description: 获取打印页面的高度以磅为单位
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/height/
 ---
 ## SpreadsheetPageSetup.Height property
 
-以磅为单位获取打印页面的高度。
+获取打印页面的高度（以磅为单位）。
 
 ```csharp
 public double Height { get; }

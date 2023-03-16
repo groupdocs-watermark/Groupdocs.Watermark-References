@@ -1,14 +1,14 @@
 ---
 title: TextSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化TextSearchCriteriagroupdocs.watermark.search.searchcriteria/textsearchcriteria具有指定正则表达式的类
+description: 初始化一个新的实例TextSearchCriteriagroupdocs.watermark.search.searchcriteria/textsearchcriteria具有指定正则表达式的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/textsearchcriteria/textsearchcriteria/
 ---
 ## TextSearchCriteria(Regex) {#constructor_2}
 
-初始化[`TextSearchCriteria`](../../textsearchcriteria)具有指定正则表达式的类。
+初始化一个新的实例[`TextSearchCriteria`](../../textsearchcriteria)具有指定正则表达式的类.
 
 ```csharp
 public TextSearchCriteria(Regex pattern)
@@ -28,7 +28,7 @@ public TextSearchCriteria(Regex pattern)
 
 ## TextSearchCriteria(string, bool) {#constructor_1}
 
-初始化[`TextSearchCriteria`](../../textsearchcriteria) class 带有一个搜索字符串和一个用于比较的标志。
+初始化一个新的实例[`TextSearchCriteria`](../../textsearchcriteria) class 带有搜索字符串和用于比较的标志.
 
 ```csharp
 public TextSearchCriteria(string searchString, bool isMatchCase)
@@ -37,7 +37,7 @@ public TextSearchCriteria(string searchString, bool isMatchCase)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | searchString | String | 要搜索的确切字符串。 |
-| isMatchCase | Boolean | 在比较期间忽略大小写；否则，. |
+| isMatchCase | Boolean | 在比较过程中忽略大小写；否则，. |
 
 ### 也可以看看
 
@@ -49,7 +49,7 @@ public TextSearchCriteria(string searchString, bool isMatchCase)
 
 ## TextSearchCriteria(string) {#constructor}
 
-初始化[`TextSearchCriteria`](../../textsearchcriteria)带有搜索字符串的类。
+初始化一个新的实例[`TextSearchCriteria`](../../textsearchcriteria)带有搜索字符串的类.
 
 ```csharp
 public TextSearchCriteria(string searchString)

@@ -1,14 +1,14 @@
 ---
 title: SearchableObjects
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SearchableObjectsgroupdocs.watermark.search.objects/searchableobjects类.
+description: 初始化一个新的实例SearchableObjectsgroupdocs.watermark.search.objects/searchableobjects类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.objects/searchableobjects/searchableobjects/
 ---
 ## SearchableObjects constructor
 
-初始化[`SearchableObjects`](../../searchableobjects)类.
+初始化一个新的实例[`SearchableObjects`](../../searchableobjects)类.
 
 ```csharp
 public SearchableObjects()

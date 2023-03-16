@@ -1,14 +1,14 @@
 ---
 title: CreateWatermarker
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 从附件加载内容
+description: 从附件中加载内容
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.common/attachment/createwatermarker/
 ---
 ## CreateWatermarker() {#createwatermarker}
 
-从附件加载内容。
+从附件中加载内容。
 
 ```csharp
 public Watermarker CreateWatermarker()
@@ -29,7 +29,7 @@ public Watermarker CreateWatermarker()
 
 ## CreateWatermarker(LoadOptions) {#createwatermarker_1}
 
-使用指定的加载选项从附件加载内容。
+使用指定的加载选项从附件中加载内容。
 
 ```csharp
 public Watermarker CreateWatermarker(LoadOptions loadOptions)
@@ -37,7 +37,7 @@ public Watermarker CreateWatermarker(LoadOptions loadOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| loadOptions | LoadOptions | 加载附件内容时使用的其他选项。 |
+| loadOptions | LoadOptions | 加载附件内容时使用的附加选项。 |
 
 ### 返回值
 
@@ -55,7 +55,7 @@ public Watermarker CreateWatermarker(LoadOptions loadOptions)
 
 ## CreateWatermarker(LoadOptions, WatermarkerSettings) {#createwatermarker_2}
 
-使用指定的加载选项和设置从附件加载内容。
+使用指定的加载选项和设置从附件中加载内容。
 
 ```csharp
 public Watermarker CreateWatermarker(LoadOptions loadOptions, 
@@ -64,7 +64,7 @@ public Watermarker CreateWatermarker(LoadOptions loadOptions,
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| loadOptions | LoadOptions | 加载附件内容时使用的其他选项。 |
+| loadOptions | LoadOptions | 加载附件内容时使用的附加选项。 |
 | watermarkerSettings | WatermarkerSettings | 处理加载的文档时要使用的其他设置。 |
 
 ### 返回值

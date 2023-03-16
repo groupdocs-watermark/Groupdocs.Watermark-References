@@ -1,14 +1,14 @@
 ---
 title: EmailLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化EmailLoadOptionsgroupdocs.watermark.options.email/emailloadoptions类.
+description: 初始化一个新的实例EmailLoadOptionsgroupdocs.watermark.options.email/emailloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.email/emailloadoptions/emailloadoptions/
 ---
 ## EmailLoadOptions constructor
 
-初始化[`EmailLoadOptions`](../../emailloadoptions)类.
+初始化一个新的实例[`EmailLoadOptions`](../../emailloadoptions)类.
 
 ```csharp
 public EmailLoadOptions()

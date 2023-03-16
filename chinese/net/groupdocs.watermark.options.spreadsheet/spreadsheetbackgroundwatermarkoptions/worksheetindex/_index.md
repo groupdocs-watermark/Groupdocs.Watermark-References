@@ -16,7 +16,7 @@ public int WorksheetIndex { get; set; }
 
 ### 适当的价值
 
-要添加水印的工作表的索引。
+要添加水印的工作表索引。
 
 ### 评论
 

@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取一个值该值指示这是否Colorgroupdocs.watermark.watermarks/color结构未初始化
+description: 获取一个值指示是否这Colorgroupdocs.watermark.watermarks/color结构未初始化.
 type: docs
 weight: 1470
 url: /zh/net/groupdocs.watermark.watermarks/color/isempty/
 ---
 ## Color.IsEmpty property
 
-获取一个值，该值指示这是否[`Color`](../../color)结构未初始化。
+获取一个值，指示是否这[`Color`](../../color)结构未初始化.
 
 ```csharp
 public bool IsEmpty { get; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; }
 
 ### 适当的价值
 
-如果此颜色未初始化，则此属性返回 true；否则为假。
+如果此颜色未初始化，则此属性返回 true；否则，假的。
 
 ### 也可以看看
 

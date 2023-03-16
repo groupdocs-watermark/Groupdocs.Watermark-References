@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的垂直偏移量SpreadsheetBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark从工作表顶部边框 in 像素.
+description: 获取此的垂直偏移量SpreadsheetBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark从工作表顶部边框 in pixels.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/y/
 ---
 ## SpreadsheetBackgroundPossibleWatermark.Y property
 
-获取 this 的垂直偏移量[`SpreadsheetBackgroundPossibleWatermark`](../../spreadsheetbackgroundpossiblewatermark)从工作表顶部边框 in 像素.
+获取此的垂直偏移量[`SpreadsheetBackgroundPossibleWatermark`](../../spreadsheetbackgroundpossiblewatermark)从工作表顶部边框 in pixels.
 
 ```csharp
 public override double Y { get; }

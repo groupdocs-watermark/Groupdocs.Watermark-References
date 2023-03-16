@@ -1,14 +1,14 @@
 ---
 title: WatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化WatermarkOptionsgroupdocs.watermark.options/watermarkoptions类.
+description: 初始化一个新的实例WatermarkOptionsgroupdocs.watermark.options/watermarkoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options/watermarkoptions/watermarkoptions/
 ---
 ## WatermarkOptions constructor
 
-初始化[`WatermarkOptions`](../../watermarkoptions)类.
+初始化一个新的实例[`WatermarkOptions`](../../watermarkoptions)类.
 
 ```csharp
 public WatermarkOptions()

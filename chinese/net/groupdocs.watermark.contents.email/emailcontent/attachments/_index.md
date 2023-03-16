@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取电子邮件的所有附件的集合
+description: 获取电子邮件所有附件的集合
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.email/emailcontent/attachments/
 ---
 ## EmailContent.Attachments property
 
-获取电子邮件的所有附件的集合。
+获取电子邮件所有附件的集合。
 
 ```csharp
 public EmailAttachmentCollection Attachments { get; }

@@ -18,7 +18,7 @@ public sealed class EmailSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmailSaveOptions](emailsaveoptions)() | 初始化[`EmailSaveOptions`](../emailsaveoptions)类. |
+| [EmailSaveOptions](emailsaveoptions)() | 初始化一个新的实例[`EmailSaveOptions`](../emailsaveoptions)类. |
 
 ## 特性
 

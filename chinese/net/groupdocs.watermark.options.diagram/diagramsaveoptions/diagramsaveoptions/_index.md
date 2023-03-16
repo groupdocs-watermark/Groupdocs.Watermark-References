@@ -1,14 +1,14 @@
 ---
 title: DiagramSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化DiagramSaveOptionsgroupdocs.watermark.options.diagram/diagramsaveoptions类.
+description: 初始化一个新的实例DiagramSaveOptionsgroupdocs.watermark.options.diagram/diagramsaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.diagram/diagramsaveoptions/diagramsaveoptions/
 ---
 ## DiagramSaveOptions constructor
 
-初始化[`DiagramSaveOptions`](../../diagramsaveoptions)类.
+初始化一个新的实例[`DiagramSaveOptions`](../../diagramsaveoptions)类.
 
 ```csharp
 public DiagramSaveOptions()

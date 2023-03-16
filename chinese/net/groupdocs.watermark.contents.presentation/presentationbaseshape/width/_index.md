@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的宽度PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape以点为单位
+description: 获取或设置宽度PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape点.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationbaseshape/width/
 ---
 ## PresentationBaseShape.Width property
 
-获取或设置 this 的宽度[`PresentationBaseShape`](../../presentationbaseshape)以点为单位。
+获取或设置宽度[`PresentationBaseShape`](../../presentationbaseshape)点.
 
 ```csharp
 public double Width { get; set; }
@@ -16,7 +16,7 @@ public double Width { get; set; }
 
 ### 适当的价值
 
-这个宽度[`PresentationBaseShape`](../../presentationbaseshape)在点。
+这个的宽度[`PresentationBaseShape`](../../presentationbaseshape)分。
 
 ### 也可以看看
 

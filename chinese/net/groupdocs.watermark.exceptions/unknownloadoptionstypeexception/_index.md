@@ -1,14 +1,14 @@
 ---
 title: UnknownLoadOptionsTypeException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 无法加载提供的文档时引发的异常LoadOptions../groupdocs.watermark.options/loadoptions.
+description: 无法加载文档时抛出的异常LoadOptions../groupdocs.watermark.options/loadoptions.
 type: docs
 weight: 1570
 url: /zh/net/groupdocs.watermark.exceptions/unknownloadoptionstypeexception/
 ---
 ## UnknownLoadOptionsTypeException class
 
-无法加载提供的文档时引发的异常[`LoadOptions`](../../groupdocs.watermark.options/loadoptions).
+无法加载文档时抛出的异常[`LoadOptions`](../../groupdocs.watermark.options/loadoptions).
 
 ```csharp
 public sealed class UnknownLoadOptionsTypeException : WatermarkException
@@ -18,7 +18,7 @@ public sealed class UnknownLoadOptionsTypeException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UnknownLoadOptionsTypeException](unknownloadoptionstypeexception)() | 初始化[`UnknownLoadOptionsTypeException`](../unknownloadoptionstypeexception)类. |
+| [UnknownLoadOptionsTypeException](unknownloadoptionstypeexception)() | 初始化一个新的实例[`UnknownLoadOptionsTypeException`](../unknownloadoptionstypeexception)类. |
 
 ### 也可以看看
 

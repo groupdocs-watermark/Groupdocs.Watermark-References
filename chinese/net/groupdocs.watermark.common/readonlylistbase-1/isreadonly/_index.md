@@ -1,14 +1,14 @@
 ---
 title: IsReadOnly
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取一个值该值指示该集合是否为只读
+description: 获取一个值指示集合是否为只读
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.common/readonlylistbase-1/isreadonly/
 ---
 ## ReadOnlyListBase&lt;T&gt;.IsReadOnly property
 
-获取一个值，该值指示该集合是否为只读。
+获取一个值，指示集合是否为只读。
 
 ```csharp
 public virtual bool IsReadOnly { get; }
@@ -16,7 +16,7 @@ public virtual bool IsReadOnly { get; }
 
 ### 适当的价值
 
-如果集合是只读的，则为真；否则为假。
+如果集合是只读的，则为真；否则为真。否则，假的。
 
 ### 也可以看看
 

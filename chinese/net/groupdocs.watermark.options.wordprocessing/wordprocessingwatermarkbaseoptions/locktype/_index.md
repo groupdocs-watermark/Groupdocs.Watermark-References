@@ -1,14 +1,14 @@
 ---
 title: LockType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置水印锁定类型
+description: 获取或设置水印锁类型
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/locktype/
 ---
 ## WordProcessingWatermarkBaseOptions.LockType property
 
-获取或设置水印锁定类型。
+获取或设置水印锁类型。
 
 ```csharp
 public WordProcessingLockType LockType { get; set; }
@@ -16,7 +16,7 @@ public WordProcessingLockType LockType { get; set; }
 
 ### 适当的价值
 
-水印锁定类型。
+水印锁类型。
 
 ### 评论
 

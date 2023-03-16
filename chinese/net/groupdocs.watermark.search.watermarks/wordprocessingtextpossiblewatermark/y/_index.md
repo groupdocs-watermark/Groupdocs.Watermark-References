@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的垂直偏移量WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark 从文档顶部边框开始以点为单位
+description: 获取此的垂直偏移量WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark 来自以点为单位的文档顶部边框
 type: docs
 weight: 90
 url: /zh/net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/y/
 ---
 ## WordProcessingTextPossibleWatermark.Y property
 
-获取 this 的垂直偏移量[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark) 从文档顶部边框开始，以点为单位。
+获取此的垂直偏移量[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark) 来自以点为单位的文档顶部边框。
 
 ```csharp
 public override double Y { get; }

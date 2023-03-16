@@ -1,14 +1,14 @@
 ---
 title: BackgroundImage
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的背景图片SpreadsheetWorksheetgroupdocs.watermark.contents.spreadsheet/spreadsheetworksheet.
+description: 获取或设置这个的背景图片SpreadsheetWorksheetgroupdocs.watermark.contents.spreadsheet/spreadsheetworksheet.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/backgroundimage/
 ---
 ## SpreadsheetWorksheet.BackgroundImage property
 
-获取或设置 this 的背景图片[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
+获取或设置这个的背景图片[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
 
 ```csharp
 public SpreadsheetWatermarkableImage BackgroundImage { get; set; }

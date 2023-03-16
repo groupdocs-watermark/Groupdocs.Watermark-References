@@ -1,14 +1,14 @@
 ---
 title: FrameIndex
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置要加水印的帧索引
+description: 获取或设置要添加水印的帧索引
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frameindex/
 ---
 ## MultiframeImageWatermarkOptions.FrameIndex property
 
-获取或设置要加水印的帧索引。
+获取或设置要添加水印的帧索引。
 
 ```csharp
 public int FrameIndex { get; set; }
@@ -16,7 +16,7 @@ public int FrameIndex { get; set; }
 
 ### 适当的价值
 
-添加水印的帧的索引。
+添加水印的帧索引。
 
 ### 评论
 

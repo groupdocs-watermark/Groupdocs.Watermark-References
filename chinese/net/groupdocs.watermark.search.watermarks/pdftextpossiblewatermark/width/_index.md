@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度PdfTextPossibleWatermarkgroupdocs.watermark.search.watermarks/pdftextpossiblewatermark以点为单位
+description: 得到这个的宽度PdfTextPossibleWatermarkgroupdocs.watermark.search.watermarks/pdftextpossiblewatermark点.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/width/
 ---
 ## PdfTextPossibleWatermark.Width property
 
-获取这个的宽度[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark)以点为单位。
+得到这个的宽度[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark)点.
 
 ```csharp
 public override double Width { get; }
@@ -16,7 +16,7 @@ public override double Width { get; }
 
 ### 适当的价值
 
-这个宽度[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark)在点。
+这个的宽度[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark)分。
 
 ### 也可以看看
 

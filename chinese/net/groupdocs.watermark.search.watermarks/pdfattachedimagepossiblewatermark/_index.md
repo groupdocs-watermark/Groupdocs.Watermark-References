@@ -1,14 +1,14 @@
 ---
 title: PdfAttachedImagePossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示pdf文档附件中可能存在的图像水印
+description: 表示pdf文档附件中可能的图片水印
 type: docs
 weight: 2860
 url: /zh/net/groupdocs.watermark.search.watermarks/pdfattachedimagepossiblewatermark/
 ---
 ## PdfAttachedImagePossibleWatermark class
 
-表示pdf文档附件中可能存在的图像水印。
+表示pdf文档附件中可能的图片水印。
 
 ```csharp
 public class PdfAttachedImagePossibleWatermark : AttachedImagePossibleWatermark<PdfAttachment>
@@ -18,16 +18,16 @@ public class PdfAttachedImagePossibleWatermark : AttachedImagePossibleWatermark<
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/height) { get; } | 获取这个的高度[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/parent) { get; } | 获取这个的父级[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
-| override [RotateAngle](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/rotateangle) { get; } | 获取 this 的旋转角度[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1)度数. |
-| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/unitofmeasurement) { get; } | 获取此的度量单位[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
-| override [Width](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/width) { get; } | 获取这个的宽度[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
-| override [X](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/x) { get; } | 获取 x 坐标[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
-| override [Y](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/y) { get; } | 获取这个的 y 坐标[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
+| override [RotateAngle](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/rotateangle) { get; } | 获取this的旋转角度[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1)以度为单位. |
+| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置此文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/unitofmeasurement) { get; } | 得到这个的计量单位[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
+| override [Width](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/width) { get; } | 得到这个的宽度[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
+| override [X](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/x) { get; } | 得到这个的x坐标[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
+| override [Y](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/y) { get; } | 得到这个的y坐标[`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1). |
 
 ### 也可以看看
 

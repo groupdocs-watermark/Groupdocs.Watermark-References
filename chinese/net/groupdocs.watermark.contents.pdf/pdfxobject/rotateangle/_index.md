@@ -1,14 +1,14 @@
 ---
 title: RotateAngle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的旋转角度PdfXObjectgroupdocs.watermark.contents.pdf/pdfxobject度数.
+description: 获取this的旋转角度PdfXObjectgroupdocs.watermark.contents.pdf/pdfxobject以度为单位.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfxobject/rotateangle/
 ---
 ## PdfXObject.RotateAngle property
 
-获取 this 的旋转角度[`PdfXObject`](../../pdfxobject)度数.
+获取this的旋转角度[`PdfXObject`](../../pdfxobject)以度为单位.
 
 ```csharp
 public override double RotateAngle { get; }

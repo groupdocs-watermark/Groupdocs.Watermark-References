@@ -1,14 +1,14 @@
 ---
 title: WordProcessingWatermarkHeaderFooterOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化WordProcessingWatermarkHeaderFooterOptionsgroupdocs.watermark.options.wordprocessing/wordprocessingwatermarkheaderfooteroptions类.
+description: 初始化一个新的实例WordProcessingWatermarkHeaderFooterOptionsgroupdocs.watermark.options.wordprocessing/wordprocessingwatermarkheaderfooteroptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkheaderfooteroptions/wordprocessingwatermarkheaderfooteroptions/
 ---
 ## WordProcessingWatermarkHeaderFooterOptions constructor
 
-初始化[`WordProcessingWatermarkHeaderFooterOptions`](../../wordprocessingwatermarkheaderfooteroptions)类.
+初始化一个新的实例[`WordProcessingWatermarkHeaderFooterOptions`](../../wordprocessingwatermarkheaderfooteroptions)类.
 
 ```csharp
 public WordProcessingWatermarkHeaderFooterOptions()

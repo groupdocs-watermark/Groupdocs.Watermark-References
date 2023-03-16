@@ -1,23 +1,23 @@
 ---
 title: GroupDocs.Watermark.Contents.Image
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 命名空间提供了给不同格式的图片添加水印的类
+description: 命名空间提供了为不同格式的图片添加水印的类
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.contents.image/
 ---
-命名空间提供了给不同格式的图片添加水印的类。
+命名空间提供了为不同格式的图片添加水印的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [GifImageContent](./gifimagecontent) | 表示可以放水印的gif图片。 |
+| [GifImageContent](./gifimagecontent) | 代表gif图片，可以放水印。 |
 | [ImageContent](./imagecontent) | 表示可以放置水印的图片。 |
-| [ImageFrame](./imageframe) | 表示可以放置水印的图像帧。 |
-| [ImageFrameCollection](./imageframecollection) | 表示多帧图像中的帧集合。 |
+| [ImageFrame](./imageframe) | 表示可以放置水印的图像框。 |
+| [ImageFrameCollection](./imageframecollection) | 表示多帧图像中帧的集合。 |
 | [MultiframeImageContent](./multiframeimagecontent) | 表示可以放置水印的多帧图像。 |
-| [TiffImageContent](./tiffimagecontent) | 表示可以放置水印的tiff图像。 |
+| [TiffImageContent](./tiffimagecontent) | 表示可以放置水印的tiff图片。 |
 | [WatermarkableImage](./watermarkableimage) | 表示文档中的图像。 |
 | [WatermarkableImageCollection](./watermarkableimagecollection) | 表示在文档中找到的图像集合。 |
 

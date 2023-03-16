@@ -1,14 +1,14 @@
 ---
 title: IsTextSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化IsTextSearchCriteriagroupdocs.watermark.search.searchcriteria/istextsearchcriteria类.
+description: 初始化一个新的实例IsTextSearchCriteriagroupdocs.watermark.search.searchcriteria/istextsearchcriteria类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/istextsearchcriteria/istextsearchcriteria/
 ---
 ## IsTextSearchCriteria constructor
 
-初始化[`IsTextSearchCriteria`](../../istextsearchcriteria)类.
+初始化一个新的实例[`IsTextSearchCriteria`](../../istextsearchcriteria)类.
 
 ```csharp
 public IsTextSearchCriteria()

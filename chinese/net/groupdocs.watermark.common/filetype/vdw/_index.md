@@ -1,14 +1,14 @@
 ---
 title: VDW
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: VDW 是 Visio 图形服务文件格式它指定 渲染 Web 绘图所需的流和存储了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/web/vdw/.
+description: VDW 是 Visio 图形服务文件格式它指定 呈现 Web 绘图所需的流和存储详细了解此文件格式 这里https//wiki.fileformat.com/web/vdw/.
 type: docs
 weight: 380
 url: /zh/net/groupdocs.watermark.common/filetype/vdw/
 ---
 ## FileType.VDW field
 
-VDW 是 Visio 图形服务文件格式，它指定 渲染 Web 绘图所需的流和存储。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/web/vdw/).
+VDW 是 Visio 图形服务文件格式，它指定 呈现 Web 绘图所需的流和存储。详细了解此文件格式 [这里](https://wiki.fileformat.com/web/vdw/).
 
 ```csharp
 public static readonly FileType VDW;

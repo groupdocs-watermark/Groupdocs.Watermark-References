@@ -1,14 +1,14 @@
 ---
 title: HtmlBody
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置消息体的 html 表示形式
+description: 获取或设置消息正文的 html 表示
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.contents.email/emailcontent/htmlbody/
 ---
 ## EmailContent.HtmlBody property
 
-获取或设置消息体的 html 表示形式。
+获取或设置消息正文的 html 表示。
 
 ```csharp
 public string HtmlBody { get; set; }

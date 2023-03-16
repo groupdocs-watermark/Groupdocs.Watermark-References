@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.watermark.contents.presentation/presentationcontent/slide
 ---
 ## PresentationContent.SlideWidth property
 
-获取幻灯片的宽度，以磅为单位。
+获取幻灯片的宽度（以磅为单位）。
 
 ```csharp
 public double SlideWidth { get; }
@@ -16,7 +16,7 @@ public double SlideWidth { get; }
 
 ### 适当的价值
 
-幻灯片的宽度，以磅为单位。
+幻灯片的宽度（以磅为单位）。
 
 ### 也可以看看
 

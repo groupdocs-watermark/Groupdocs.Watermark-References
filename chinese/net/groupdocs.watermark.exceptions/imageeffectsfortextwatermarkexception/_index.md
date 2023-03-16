@@ -18,7 +18,7 @@ public sealed class ImageEffectsForTextWatermarkException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageEffectsForTextWatermarkException](imageeffectsfortextwatermarkexception)() | 初始化[`ImageEffectsForTextWatermarkException`](../imageeffectsfortextwatermarkexception)类. |
+| [ImageEffectsForTextWatermarkException](imageeffectsfortextwatermarkexception)() | 初始化一个新的实例[`ImageEffectsForTextWatermarkException`](../imageeffectsfortextwatermarkexception)类. |
 
 ### 也可以看看
 

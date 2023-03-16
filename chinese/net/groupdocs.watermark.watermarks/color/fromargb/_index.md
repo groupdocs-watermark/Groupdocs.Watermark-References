@@ -1,14 +1,14 @@
 ---
 title: FromArgb
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 创建一个Colorgroupdocs.watermark.watermarks/color来自 32 位 ARGB 值的结构
+description: 创建一个Colorgroupdocs.watermark.watermarks/color来自 32 位 ARGB 值的结构.
 type: docs
 weight: 1430
 url: /zh/net/groupdocs.watermark.watermarks/color/fromargb/
 ---
 ## FromArgb(int) {#fromargb}
 
-创建一个[`Color`](../../color)来自 32 位 ARGB 值的结构。
+创建一个[`Color`](../../color)来自 32 位 ARGB 值的结构.
 
 ```csharp
 public static Color FromArgb(int argb)
@@ -16,7 +16,7 @@ public static Color FromArgb(int argb)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| argb | Int32 | 一个指定 32 位 ARGB 值的值。 |
+| argb | Int32 | 指定 32 位 ARGB 值的值。 |
 
 ### 返回值
 
@@ -32,7 +32,7 @@ public static Color FromArgb(int argb)
 
 ## FromArgb(int, Color) {#fromargb_1}
 
-创建一个[`Color`](../../color)从指定的结构[`Color`](../../color)结构， ，但具有新的指定 alpha 值。
+创建一个[`Color`](../../color)从指定的结构[`Color`](../../color)结构， 但具有新指定的 alpha 值。
 
 ```csharp
 public static Color FromArgb(int alpha, Color baseColor)
@@ -55,7 +55,7 @@ public static Color FromArgb(int alpha, Color baseColor)
 
 ### 评论
 
-虽然此方法允许为 alpha 值传递 32 位值，但该值限制为 8 位。
+尽管此方法允许为 alpha 值传递 32 位值，但该值被限制为 8 位。
 
 ### 也可以看看
 
@@ -67,7 +67,7 @@ public static Color FromArgb(int alpha, Color baseColor)
 
 ## FromArgb(int, int, int) {#fromargb_2}
 
-创建一个[`Color`](../../color)来自指定的 8 位颜色值（红色、绿色和蓝色）和 的结构，alpha 值隐式为 255（完全不透明）。
+创建一个[`Color`](../../color)来自指定 8 位颜色值（红色、绿色和蓝色）的结构和 alpha 值隐式为 255（完全不透明）。
 
 ```csharp
 public static Color FromArgb(int red, int green, int blue)
@@ -75,7 +75,7 @@ public static Color FromArgb(int red, int green, int blue)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| red | Int32 | 新的红色组件值[`Color`](../../color).有效值为 0 到 255。 |
+| red | Int32 | 新的红色分量值[`Color`](../../color).有效值为 0 到 255。 |
 | green | Int32 | 新的绿色组件值[`Color`](../../color).有效值为 0 到 255。 |
 | blue | Int32 | 新的蓝色分量值[`Color`](../../color).有效值为 0 到 255。 |
 
@@ -91,7 +91,7 @@ public static Color FromArgb(int red, int green, int blue)
 
 ### 评论
 
-虽然这种方法允许为每个颜色分量传递一个 32 位的值， 每个分量的值被限制为 8 位。
+虽然此方法允许为每个颜色分量传递一个32位的值， 每个分量的值被限制为8位。
 
 ### 也可以看看
 
@@ -103,7 +103,7 @@ public static Color FromArgb(int red, int green, int blue)
 
 ## FromArgb(int, int, int, int) {#fromargb_3}
 
-创建一个[`Color`](../../color)四个 ARGB 分量（alpha、红色、绿色和蓝色）值的结构。
+创建一个[`Color`](../../color)来自四个 ARGB 分量（alpha、红色、绿色和蓝色）值的结构。
 
 ```csharp
 public static Color FromArgb(int alpha, int red, int green, int blue)
@@ -112,7 +112,7 @@ public static Color FromArgb(int alpha, int red, int green, int blue)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | alpha | Int32 | 新的 alpha 分量值[`Color`](../../color).有效值为 0 到 255。 |
-| red | Int32 | 新的红色组件值[`Color`](../../color).有效值为 0 到 255。 |
+| red | Int32 | 新的红色分量值[`Color`](../../color).有效值为 0 到 255。 |
 | green | Int32 | 新的绿色组件值[`Color`](../../color).有效值为 0 到 255。 |
 | blue | Int32 | 新的蓝色分量值[`Color`](../../color).有效值为 0 到 255。 |
 
@@ -128,7 +128,7 @@ public static Color FromArgb(int alpha, int red, int green, int blue)
 
 ### 评论
 
-虽然此方法允许为每个组件传递一个32位的值， 每个组件的值限制为8位。
+虽然此方法允许为每个组件传递一个32位的值，但 每个组件的值被限制为8位。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetHyperlinkPossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Excel 文档中可能存在的超链接水印
+description: 表示 Excel 文档中可能的超链接水印
 type: docs
 weight: 2990
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/
 ---
 ## SpreadsheetHyperlinkPossibleWatermark class
 
-表示 Excel 文档中可能存在的超链接水印。
+表示 Excel 文档中可能的超链接水印。
 
 ```csharp
 public class SpreadsheetHyperlinkPossibleWatermark : HyperlinkPossibleWatermark
@@ -18,16 +18,16 @@ public class SpreadsheetHyperlinkPossibleWatermark : HyperlinkPossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| override [Height](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/height) { get; } | 获取这个的高度[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark)以点为单位。 |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [Height](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/height) { get; } | 获取这个的高度[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark)点. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/parent) { get; } | 获取这个的父级[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark)度数. |
+| override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark)以度为单位. |
 | override [Text](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/text) { get; set; } | 获取或设置 this 的 url[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark). |
-| override [Width](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/width) { get; } | 获取这个的宽度[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark)以点为单位。 |
-| override [X](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/x) { get; } | 获取 this 的水平偏移量[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark) from 工作表左边框以点为单位。 |
-| override [Y](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/y) { get; } | 获取 this 的垂直偏移量[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark) from 工作表顶部边框以点为单位。 |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark). |
+| override [Width](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/width) { get; } | 得到这个的宽度[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark)点. |
+| override [X](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/x) { get; } | 得到这个的水平偏移量[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark) from 工作表左边框（以点为单位）. |
+| override [Y](../../groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/y) { get; } | 获取此的垂直偏移量[`SpreadsheetHyperlinkPossibleWatermark`](../spreadsheethyperlinkpossiblewatermark) from 工作表顶部边框（以点为单位）. |
 
 ### 也可以看看
 

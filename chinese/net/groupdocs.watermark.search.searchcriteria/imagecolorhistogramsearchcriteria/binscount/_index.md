@@ -1,14 +1,14 @@
 ---
 title: BinsCount
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置将用于构建颜色直方图的 bin 计数
+description: 获取或设置将用于构建颜色直方图的箱数
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria/binscount/
 ---
 ## ImageColorHistogramSearchCriteria.BinsCount property
 
-获取或设置将用于构建颜色直方图的 bin 计数。
+获取或设置将用于构建颜色直方图的箱数。
 
 ```csharp
 public byte BinsCount { get; set; }

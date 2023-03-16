@@ -1,14 +1,14 @@
 ---
 title: Opacity
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置线条的不透明度
+description: 获取或设置线条不透明度
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.contents/officelineformat/opacity/
 ---
 ## OfficeLineFormat.Opacity property
 
-获取或设置线条的不透明度。
+获取或设置线条不透明度。
 
 ```csharp
 public double Opacity { get; set; }

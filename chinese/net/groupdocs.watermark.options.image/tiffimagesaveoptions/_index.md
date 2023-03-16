@@ -18,7 +18,7 @@ public sealed class TiffImageSaveOptions : ImageSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TiffImageSaveOptions](tiffimagesaveoptions)() | 初始化[`TiffImageSaveOptions`](../tiffimagesaveoptions)类. |
+| [TiffImageSaveOptions](tiffimagesaveoptions)() | 初始化一个新的实例[`TiffImageSaveOptions`](../tiffimagesaveoptions)类. |
 
 ## 特性
 

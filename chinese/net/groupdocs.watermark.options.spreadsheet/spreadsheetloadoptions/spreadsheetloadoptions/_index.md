@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetLoadOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetloadoptions类.
+description: 初始化一个新的实例SpreadsheetLoadOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions() {#constructor}
 
-初始化[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions)类.
+初始化一个新的实例[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions)类.
 
 ```csharp
 public SpreadsheetLoadOptions()
@@ -24,7 +24,7 @@ public SpreadsheetLoadOptions()
 
 ## SpreadsheetLoadOptions(string) {#constructor_1}
 
-初始化[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions)具有指定密码的类。
+初始化一个新的实例[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions)具有指定密码的类.
 
 ```csharp
 public SpreadsheetLoadOptions(string password)

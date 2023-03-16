@@ -1,14 +1,14 @@
 ---
 title: ImageColorHistogramSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化ImageColorHistogramSearchCriteriagroupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria具有指定文件路径的类
+description: 初始化一个新的实例ImageColorHistogramSearchCriteriagroupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria具有指定文件路径的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria/imagecolorhistogramsearchcriteria/
 ---
 ## ImageColorHistogramSearchCriteria(string) {#constructor_1}
 
-初始化[`ImageColorHistogramSearchCriteria`](../../imagecolorhistogramsearchcriteria)具有指定文件路径的类。
+初始化一个新的实例[`ImageColorHistogramSearchCriteria`](../../imagecolorhistogramsearchcriteria)具有指定文件路径的类.
 
 ```csharp
 public ImageColorHistogramSearchCriteria(string filePath)
@@ -28,7 +28,7 @@ public ImageColorHistogramSearchCriteria(string filePath)
 
 ## ImageColorHistogramSearchCriteria(Stream) {#constructor}
 
-初始化[`ImageColorHistogramSearchCriteria`](../../imagecolorhistogramsearchcriteria)具有指定流的类。
+初始化一个新的实例[`ImageColorHistogramSearchCriteria`](../../imagecolorhistogramsearchcriteria)具有指定流的类.
 
 ```csharp
 public ImageColorHistogramSearchCriteria(Stream stream)
@@ -36,7 +36,7 @@ public ImageColorHistogramSearchCriteria(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要从中加载图像的流。 |
+| stream | Stream | 从中加载图像的流。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PresentationWatermarkBaseSlideOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 用于向演示文档添加选项的水印基类
+description: 用于向演示文稿文档添加选项的水印基类
 type: docs
 weight: 1990
 url: /zh/net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/
 ---
 ## PresentationWatermarkBaseSlideOptions class
 
-用于向演示文档添加选项的水印基类。
+用于向演示文稿文档添加选项的水印基类。
 
 ```csharp
 public abstract class PresentationWatermarkBaseSlideOptions : PresentationWatermarkOptions
@@ -22,17 +22,17 @@ public abstract class PresentationWatermarkBaseSlideOptions : PresentationWaterm
 | [Effects](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects) { get; set; } | 获取或设置一个值[`PresentationImageEffects`](../presentationimageeffects)or [`PresentationTextEffects`](../presentationtexteffects)对于应该应用于水印的效果。 |
 | [IsLocked](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/islocked) { get; set; } | 获取或设置一个值，该值指示是否禁止在 PowerPoint 中编辑形状。 |
 | [Name](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/name) { get; set; } | 获取或设置形状的名称。 |
-| [ProtectWithUnreadableCharacters](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/protectwithunreadablecharacters) { get; set; } | 获取或设置一个值，该值指示文本水印字符是否与不可读字符混合。 |
+| [ProtectWithUnreadableCharacters](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/protectwithunreadablecharacters) { get; set; } | 获取或设置文本水印字符是否混有不可读字符的值。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [为演示文稿添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
+* [向演示文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 
 ### 例子
 
-为 Power Point 演示文稿的不同服务幻灯片添加水印。
+将水印添加到 Power Point 演示文稿的不同服务幻灯片。
 
 ```csharp
 PresentationLoadOptions loadOptions = new PresentationLoadOptions();
@@ -50,12 +50,12 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.pptx", loadOptions))
     layoutSlideOptions.LayoutSlideIndex = -1; // 默认
     watermarker.Add(watermark, layoutSlideOptions);
 
-    // 给所有笔记幻灯片添加水印
+    // 为所有笔记幻灯片添加水印
     PresentationWatermarkNoteSlideOptions noteSlideOptions = new PresentationWatermarkNoteSlideOptions();
     noteSlideOptions.SlideIndex = -1; // 默认
     watermarker.Add(watermark, noteSlideOptions);
 
-    // 给讲义母版添加水印
+    // 给讲义母版加水印
     PresentationWatermarkMasterHandoutSlideOptions masterHandoutSlideOptions = new PresentationWatermarkMasterHandoutSlideOptions();
     watermarker.Add(watermark, masterHandoutSlideOptions);
 

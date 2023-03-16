@@ -1,14 +1,14 @@
 ---
 title: MultiframeImageLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化MultiframeImageLoadOptionsgroupdocs.watermark.options.image/multiframeimageloadoptions类.
+description: 初始化一个新的实例MultiframeImageLoadOptionsgroupdocs.watermark.options.image/multiframeimageloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.image/multiframeimageloadoptions/multiframeimageloadoptions/
 ---
 ## MultiframeImageLoadOptions constructor
 
-初始化[`MultiframeImageLoadOptions`](../../multiframeimageloadoptions)类.
+初始化一个新的实例[`MultiframeImageLoadOptions`](../../multiframeimageloadoptions)类.
 
 ```csharp
 public MultiframeImageLoadOptions()

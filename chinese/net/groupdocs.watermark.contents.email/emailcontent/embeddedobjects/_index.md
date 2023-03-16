@@ -16,7 +16,7 @@ public EmailEmbeddedObjectCollection EmbeddedObjects { get; }
 
 ### 适当的价值
 
-电子邮件消息的所有嵌入对象的集合。
+电子邮件的所有嵌入对象的集合。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取它的父页眉/页脚SpreadsheetHeaderFooterSectiongroupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection.
+description: 获取此的父页眉/页脚SpreadsheetHeaderFooterSectiongroupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/headerfooter/
 ---
 ## SpreadsheetHeaderFooterSection.HeaderFooter property
 
-获取它的父页眉/页脚[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection).
+获取此的父页眉/页脚[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection).
 
 ```csharp
 public SpreadsheetHeaderFooter HeaderFooter { get; }

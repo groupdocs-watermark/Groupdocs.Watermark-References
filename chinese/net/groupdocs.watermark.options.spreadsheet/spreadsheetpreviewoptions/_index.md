@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetPreviewOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 为电子表格文档的预览生成提供设置要求和流委托的选项
+description: 提供选项来设置要求和流委托以预览电子表格文档的生成
 type: docs
 weight: 2150
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/
 ---
 ## SpreadsheetPreviewOptions class
 
-为电子表格文档的预览生成提供设置要求和流委托的选项。
+提供选项来设置要求和流委托以预览电子表格文档的生成。
 
 ```csharp
 public class SpreadsheetPreviewOptions : PreviewOptions
@@ -18,8 +18,8 @@ public class SpreadsheetPreviewOptions : PreviewOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetPreviewOptions](spreadsheetpreviewoptions#constructor)(CreatePageStream) | 初始化[`SpreadsheetPreviewOptions`](../spreadsheetpreviewoptions)导致输出流关闭的类。 |
-| [SpreadsheetPreviewOptions](spreadsheetpreviewoptions#constructor_1)(CreatePageStream, ReleasePageStream) | 初始化一个新的实例[`SpreadsheetPreviewOptions`](../spreadsheetpreviewoptions)类导致输出流返回 给客户端以供进一步使用。 |
+| [SpreadsheetPreviewOptions](spreadsheetpreviewoptions#constructor)(CreatePageStream) | 初始化一个新的实例[`SpreadsheetPreviewOptions`](../spreadsheetpreviewoptions)导致输出流关闭的类。 |
+| [SpreadsheetPreviewOptions](spreadsheetpreviewoptions#constructor_1)(CreatePageStream, ReleasePageStream) | 初始化一个新实例[`SpreadsheetPreviewOptions`](../spreadsheetpreviewoptions)导致输出流被返回 到客户端以供进一步使用的类。 |
 
 ## 特性
 
@@ -27,9 +27,9 @@ public class SpreadsheetPreviewOptions : PreviewOptions
 | --- | --- |
 | [CreatePageStream](../../groupdocs.watermark.options/previewoptions/createpagestream) { get; set; } | 获取或设置页面流创建委托的实例。 |
 | [Height](../../groupdocs.watermark.options/previewoptions/height) { get; set; } | 获取或设置页面预览高度。 |
-| [OnlyDataArea](../../groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/onlydataarea) { get; set; } | 获取或设置只渲染数据区域的标志，没有页眉，页脚，边距。 |
+| [OnlyDataArea](../../groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/onlydataarea) { get; set; } | 获取或设置仅渲染数据区域的标志，不带页眉、页脚、边距。 |
 | [PageNumbers](../../groupdocs.watermark.options/previewoptions/pagenumbers) { get; set; } | 获取或设置页码数组以生成预览。 |
-| [PreviewFormat](../../groupdocs.watermark.options/previewoptions/previewformat) { get; set; } | 获取或设置预览图像格式 |
+| [PreviewFormat](../../groupdocs.watermark.options/previewoptions/previewformat) { get; set; } | 获取或设置预览图像格式。 |
 | [ReleasePageStream](../../groupdocs.watermark.options/previewoptions/releasepagestream) { get; set; } | 获取或设置页面预览完成委托的实例。 |
 | [Resolution](../../groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/resolution) { get; set; } | 获取或设置生成图像的分辨率，以每英寸点数为单位。 |
 | [Width](../../groupdocs.watermark.options/previewoptions/width) { get; set; } | 获取或设置页面预览宽度。 |
@@ -38,7 +38,7 @@ public class SpreadsheetPreviewOptions : PreviewOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| const [DefaultResolution](../../groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/defaultresolution) | 以每英寸点数为单位的默认分辨率。 |
+| const [DefaultResolution](../../groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/defaultresolution) | 默认分辨率（以每英寸点数为单位）. |
 
 ### 也可以看看
 

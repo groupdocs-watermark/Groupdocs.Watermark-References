@@ -1,14 +1,14 @@
 ---
 title: Hyperlinks
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取附加到此的超链接的集合DiagramShapegroupdocs.watermark.contents.diagram/diagramshape.
+description: 获取附加到此的超链接集合DiagramShapegroupdocs.watermark.contents.diagram/diagramshape.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramshape/hyperlinks/
 ---
 ## DiagramShape.Hyperlinks property
 
-获取附加到此的超链接的集合[`DiagramShape`](../../diagramshape).
+获取附加到此的超链接集合[`DiagramShape`](../../diagramshape).
 
 ```csharp
 public DiagramHyperlinkCollection Hyperlinks { get; }

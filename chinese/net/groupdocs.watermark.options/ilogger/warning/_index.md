@@ -1,14 +1,14 @@
 ---
 title: Warning
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 记录水印期间发生的警告
+description: 记录加水印期间发生的警告
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.options/ilogger/warning/
 ---
 ## ILogger.Warning method
 
-记录水印期间发生的警告。
+记录加水印期间发生的警告。
 
 ```csharp
 public void Warning(string message)

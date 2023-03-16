@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的水平偏移量SpreadsheetHeaderFooterPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark 从工作表左边框以点为单位
+description: 得到这个的水平偏移量SpreadsheetHeaderFooterPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark 来自工作表左边框以点为单位
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark/x/
 ---
 ## SpreadsheetHeaderFooterPossibleWatermark.X property
 
-获取 this 的水平偏移量[`SpreadsheetHeaderFooterPossibleWatermark`](../../spreadsheetheaderfooterpossiblewatermark) 从工作表左边框以点为单位。
+得到这个的水平偏移量[`SpreadsheetHeaderFooterPossibleWatermark`](../../spreadsheetheaderfooterpossiblewatermark) 来自工作表左边框（以点为单位）。
 
 ```csharp
 public override double X { get; }

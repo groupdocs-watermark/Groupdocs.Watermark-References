@@ -16,7 +16,7 @@ public EmailAddressCollection To { get; }
 
 ### 适当的价值
 
-电子邮件的收件人集合。
+电子邮件收件人的集合。
 
 ### 也可以看看
 

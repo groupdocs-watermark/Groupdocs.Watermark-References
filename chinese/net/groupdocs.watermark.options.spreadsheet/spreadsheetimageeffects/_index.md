@@ -18,7 +18,7 @@ public sealed class SpreadsheetImageEffects : OfficeImageEffects, ISpreadsheetWa
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetImageEffects](spreadsheetimageeffects)() | 初始化[`SpreadsheetImageEffects`](../spreadsheetimageeffects)类. |
+| [SpreadsheetImageEffects](spreadsheetimageeffects)() | 初始化一个新的实例[`SpreadsheetImageEffects`](../spreadsheetimageeffects)类. |
 
 ## 特性
 
@@ -27,8 +27,8 @@ public sealed class SpreadsheetImageEffects : OfficeImageEffects, ISpreadsheetWa
 | [BorderLineFormat](../../groupdocs.watermark.contents/officeimageeffects/borderlineformat) { get; set; } | 获取或设置图像边框的线格式设置。 |
 | [Brightness](../../groupdocs.watermark.contents/officeimageeffects/brightness) { get; set; } | 获取或设置图片的亮度。此属性的值必须 是从 0.0（最暗）到 1.0（最亮）的数字。 |
 | [ChromaKey](../../groupdocs.watermark.contents/officeimageeffects/chromakey) { get; set; } | 获取或设置将被视为透明的图像的颜色值。 |
-| [Contrast](../../groupdocs.watermark.contents/officeimageeffects/contrast) { get; set; } | 获取或设置指定图片的对比度。此属性 的值必须是从 0.0（最小对比度）到 1.0（最大对比度）的数字。 |
-| [GrayScale](../../groupdocs.watermark.contents/officeimageeffects/grayscale) { get; set; } | 获取或设置一个值，该值指示图片是否将以灰度模式显示。 |
+| [Contrast](../../groupdocs.watermark.contents/officeimageeffects/contrast) { get; set; } | 获取或设置指定图片的对比度。此属性 的值必须是从 0.0（最小对比度）到 1.0（最大对比度）之间的数字。 |
+| [GrayScale](../../groupdocs.watermark.contents/officeimageeffects/grayscale) { get; set; } | 获取或设置一个图片是否以灰度模式显示的值。 |
 
 ### 也可以看看
 

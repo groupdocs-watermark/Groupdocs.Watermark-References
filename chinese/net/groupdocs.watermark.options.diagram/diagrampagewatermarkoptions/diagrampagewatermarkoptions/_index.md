@@ -1,14 +1,14 @@
 ---
 title: DiagramPageWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化DiagramPageWatermarkOptionsgroupdocs.watermark.options.diagram/diagrampagewatermarkoptions类.
+description: 初始化一个新的实例DiagramPageWatermarkOptionsgroupdocs.watermark.options.diagram/diagrampagewatermarkoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/diagrampagewatermarkoptions/
 ---
 ## DiagramPageWatermarkOptions constructor
 
-初始化[`DiagramPageWatermarkOptions`](../../diagrampagewatermarkoptions)类.
+初始化一个新的实例[`DiagramPageWatermarkOptions`](../../diagrampagewatermarkoptions)类.
 
 ```csharp
 public DiagramPageWatermarkOptions()

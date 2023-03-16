@@ -16,7 +16,7 @@ public override string Text { get; set; }
 
 ### 适当的价值
 
-这个网址[`HyperlinkPossibleWatermark`](../../../groupdocs.watermark.search/hyperlinkpossiblewatermark).
+这个的网址[`HyperlinkPossibleWatermark`](../../../groupdocs.watermark.search/hyperlinkpossiblewatermark).
 
 ### 也可以看看
 

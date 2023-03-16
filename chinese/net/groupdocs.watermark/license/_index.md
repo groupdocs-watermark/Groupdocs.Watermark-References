@@ -18,7 +18,7 @@ public sealed class License
 
 | 姓名 | 描述 |
 | --- | --- |
-| [License](license)() | 初始化[`License`](../license)类. |
+| [License](license)() | 初始化一个新的实例[`License`](../license)类. |
 
 ## 方法
 
@@ -30,7 +30,7 @@ public sealed class License
 ### 评论
 
 * 有关许可的更多信息： [GroupDocs 许可常见问题解答](https://purchase.groupdocs.com/faqs/licensing)
-* 更多关于**GroupDocs.Watermark**许可： [评估限制和许可](https://docs.groupdocs.com/display/watermarknet/Evaluation+Limitations+and+Licensing)
+* 更多关于**GroupDocs.水印**许可： [评估限制和许可](https://docs.groupdocs.com/display/watermarknet/Evaluation+Limitations+and+Licensing)
 
 ### 例子
 

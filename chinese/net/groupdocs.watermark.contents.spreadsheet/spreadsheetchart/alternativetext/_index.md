@@ -16,7 +16,7 @@ public string AlternativeText { get; }
 
 ### 适当的价值
 
-与此相关的描述性（替代）文本[`SpreadsheetChart`](../../spreadsheetchart).
+与此关联的描述性（替代）文本[`SpreadsheetChart`](../../spreadsheetchart).
 
 ### 也可以看看
 

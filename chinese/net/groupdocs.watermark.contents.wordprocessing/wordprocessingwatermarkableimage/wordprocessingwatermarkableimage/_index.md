@@ -1,14 +1,14 @@
 ---
 title: WordProcessingWatermarkableImage
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化WordProcessingWatermarkableImagegroupdocs.watermark.contents.wordprocessing/wordprocessingwatermarkableimage使用指定图像数据的类
+description: 初始化一个新的实例WordProcessingWatermarkableImagegroupdocs.watermark.contents.wordprocessing/wordprocessingwatermarkableimage使用指定图像数据的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingwatermarkableimage/wordprocessingwatermarkableimage/
 ---
 ## WordProcessingWatermarkableImage constructor
 
-初始化[`WordProcessingWatermarkableImage`](../../wordprocessingwatermarkableimage)使用指定图像数据的类。
+初始化一个新的实例[`WordProcessingWatermarkableImage`](../../wordprocessingwatermarkableimage)使用指定图像数据的类.
 
 ```csharp
 public WordProcessingWatermarkableImage(byte[] imageData)
@@ -16,7 +16,7 @@ public WordProcessingWatermarkableImage(byte[] imageData)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageData | Byte[] | 无符号字节数组，从中创建[`WordProcessingWatermarkableImage`](../../wordprocessingwatermarkableimage). |
+| imageData | Byte[] | 从中创建的无符号字节数组[`WordProcessingWatermarkableImage`](../../wordprocessingwatermarkableimage). |
 
 ### 也可以看看
 

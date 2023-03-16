@@ -1,14 +1,14 @@
 ---
 title: PresentationWatermarkableImage
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PresentationWatermarkableImagegroupdocs.watermark.contents.presentation/presentationwatermarkableimage 类使用指定的图像数据
+description: 初始化一个新的实例PresentationWatermarkableImagegroupdocs.watermark.contents.presentation/presentationwatermarkableimage 使用指定图像数据的类
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationwatermarkableimage/presentationwatermarkableimage/
 ---
 ## PresentationWatermarkableImage constructor
 
-初始化[`PresentationWatermarkableImage`](../../presentationwatermarkableimage) 类使用指定的图像数据。
+初始化一个新的实例[`PresentationWatermarkableImage`](../../presentationwatermarkableimage) 使用指定图像数据的类。
 
 ```csharp
 public PresentationWatermarkableImage(byte[] imageData)
@@ -16,7 +16,7 @@ public PresentationWatermarkableImage(byte[] imageData)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageData | Byte[] | 从中创建 的无符号字节数组[`PresentationWatermarkableImage`](../../presentationwatermarkableimage). |
+| imageData | Byte[] | 从中创建 the 的无符号字节数组[`PresentationWatermarkableImage`](../../presentationwatermarkableimage). |
 
 ### 也可以看看
 

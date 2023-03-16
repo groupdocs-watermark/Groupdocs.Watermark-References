@@ -1,14 +1,14 @@
 ---
 title: TextEffectsForImageWatermarkException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化TextEffectsForImageWatermarkExceptiongroupdocs.watermark.exceptions/texteffectsforimagewatermarkexception类.
+description: 初始化一个新的实例TextEffectsForImageWatermarkExceptiongroupdocs.watermark.exceptions/texteffectsforimagewatermarkexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/texteffectsforimagewatermarkexception/texteffectsforimagewatermarkexception/
 ---
 ## TextEffectsForImageWatermarkException constructor
 
-初始化[`TextEffectsForImageWatermarkException`](../../texteffectsforimagewatermarkexception)类.
+初始化一个新的实例[`TextEffectsForImageWatermarkException`](../../texteffectsforimagewatermarkexception)类.
 
 ```csharp
 public TextEffectsForImageWatermarkException()

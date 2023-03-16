@@ -1,14 +1,14 @@
 ---
 title: RotateAngle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的旋转角度WordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshape度数.
+description: 获取或设置旋转角度WordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshape以度为单位.
 type: docs
 weight: 130
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/rotateangle/
 ---
 ## WordProcessingShape.RotateAngle property
 
-获取或设置 this 的旋转角度[`WordProcessingShape`](../../wordprocessingshape)度数.
+获取或设置旋转角度[`WordProcessingShape`](../../wordprocessingshape)以度为单位.
 
 ```csharp
 public double RotateAngle { get; set; }

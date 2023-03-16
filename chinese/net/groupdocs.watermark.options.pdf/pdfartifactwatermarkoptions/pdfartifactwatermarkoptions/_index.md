@@ -1,14 +1,14 @@
 ---
 title: PdfArtifactWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PdfArtifactWatermarkOptionsgroupdocs.watermark.options.pdf/pdfartifactwatermarkoptions类.
+description: 初始化一个新的实例PdfArtifactWatermarkOptionsgroupdocs.watermark.options.pdf/pdfartifactwatermarkoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/pdfartifactwatermarkoptions/
 ---
 ## PdfArtifactWatermarkOptions constructor
 
-初始化[`PdfArtifactWatermarkOptions`](../../pdfartifactwatermarkoptions)类.
+初始化一个新的实例[`PdfArtifactWatermarkOptions`](../../pdfartifactwatermarkoptions)类.
 
 ```csharp
 public PdfArtifactWatermarkOptions()

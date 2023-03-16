@@ -1,14 +1,14 @@
 ---
 title: Protect
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 保护文档不被更改并设置保护密码
+description: 保护文档免受更改并设置保护密码
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/protect/
 ---
 ## WordProcessingContent.Protect method
 
-保护文档不被更改并设置保护密码。
+保护文档免受更改并设置保护密码。
 
 ```csharp
 public void Protect(WordProcessingProtectionType protectionType, string password)

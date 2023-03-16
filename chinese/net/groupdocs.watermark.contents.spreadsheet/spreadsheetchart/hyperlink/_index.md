@@ -16,7 +16,7 @@ public string Hyperlink { get; set; }
 
 ### 适当的价值
 
-与此相关的超链接[`SpreadsheetChart`](../../spreadsheetchart).
+与此关联的超链接[`SpreadsheetChart`](../../spreadsheetchart).
 
 ### 也可以看看
 

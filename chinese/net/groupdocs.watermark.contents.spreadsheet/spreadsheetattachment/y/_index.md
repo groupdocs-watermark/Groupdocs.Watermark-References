@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置附件框架与工作表上边框的垂直偏移量
+description: 获取或设置附件框架相对于工作表顶部边框的垂直偏移量以磅为单位
 type: docs
 weight: 90
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/y/
 ---
 ## SpreadsheetAttachment.Y property
 
-获取或设置附件框架与工作表上边框的垂直偏移量。
+获取或设置附件框架相对于工作表顶部边框的垂直偏移量（以磅为单位）。
 
 ```csharp
 public double Y { get; set; }

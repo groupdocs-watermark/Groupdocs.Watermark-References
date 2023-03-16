@@ -1,14 +1,14 @@
 ---
 title: OfficeLineFormat
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化OfficeLineFormatgroupdocs.watermark.contents/officelineformat类.
+description: 初始化一个新的实例OfficeLineFormatgroupdocs.watermark.contents/officelineformat类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents/officelineformat/officelineformat/
 ---
 ## OfficeLineFormat constructor
 
-初始化[`OfficeLineFormat`](../../officelineformat)类.
+初始化一个新的实例[`OfficeLineFormat`](../../officelineformat)类.
 
 ```csharp
 public OfficeLineFormat()

@@ -1,14 +1,14 @@
 ---
 title: Cc
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取电子邮件的抄送抄送收件人的集合
+description: 获取电子邮件的 CC抄送收件人集合
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.email/emailcontent/cc/
 ---
 ## EmailContent.Cc property
 
-获取电子邮件的抄送（抄送）收件人的集合。
+获取电子邮件的 CC（抄送）收件人集合。
 
 ```csharp
 public EmailAddressCollection Cc { get; }
@@ -16,7 +16,7 @@ public EmailAddressCollection Cc { get; }
 
 ### 适当的价值
 
-电子邮件消息的抄送（抄送）收件人的集合。
+电子邮件消息的 CC（抄送）收件人的集合。
 
 ### 也可以看看
 

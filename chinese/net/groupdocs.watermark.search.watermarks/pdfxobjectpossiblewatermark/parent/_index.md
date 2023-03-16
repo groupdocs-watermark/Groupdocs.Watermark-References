@@ -16,7 +16,7 @@ public override ContentPart Parent { get; }
 
 ### 适当的价值
 
-这个的家长[`PdfXObjectPossibleWatermark`](../../pdfxobjectpossiblewatermark).
+这个的父[`PdfXObjectPossibleWatermark`](../../pdfxobjectpossiblewatermark).
 
 ### 也可以看看
 

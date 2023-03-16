@@ -1,14 +1,14 @@
 ---
 title: Underline
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取一个值该值指示字体是否带下划线
+description: 获取一个值表示字体是否带下划线
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.watermarks/font/underline/
 ---
 ## Font.Underline property
 
-获取一个值，该值指示字体是否带下划线。
+获取一个值，表示字体是否带下划线。
 
 ```csharp
 public bool Underline { get; }
@@ -16,7 +16,7 @@ public bool Underline { get; }
 
 ### 适当的价值
 
-如果此字体有下划线，则为真；否则为假。
+如果此字体有下划线则为真；否则，假的。
 
 ### 也可以看看
 

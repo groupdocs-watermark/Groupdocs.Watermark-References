@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetWatermarkModernWordArtOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示将现代艺术文字水印添加到电子表格工作表时的选项
+description: 表示将现代艺术字水印添加到电子表格工作表时的选项
 type: docs
 weight: 2210
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkmodernwordartoptions/
 ---
 ## SpreadsheetWatermarkModernWordArtOptions class
 
-表示将现代艺术文字水印添加到电子表格工作表时的选项。
+表示将现代艺术字水印添加到电子表格工作表时的选项。
 
 ```csharp
 public sealed class SpreadsheetWatermarkModernWordArtOptions : SpreadsheetWatermarkBaseOptions
@@ -18,7 +18,7 @@ public sealed class SpreadsheetWatermarkModernWordArtOptions : SpreadsheetWaterm
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetWatermarkModernWordArtOptions](spreadsheetwatermarkmodernwordartoptions)() | 初始化[`SpreadsheetWatermarkModernWordArtOptions`](../spreadsheetwatermarkmodernwordartoptions)类. |
+| [SpreadsheetWatermarkModernWordArtOptions](spreadsheetwatermarkmodernwordartoptions)() | 初始化一个新的实例[`SpreadsheetWatermarkModernWordArtOptions`](../spreadsheetwatermarkmodernwordartoptions)类. |
 
 ## 特性
 
@@ -27,11 +27,11 @@ public sealed class SpreadsheetWatermarkModernWordArtOptions : SpreadsheetWaterm
 | [AlternativeText](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/alternativetext) { get; set; } | 获取或设置将与形状关联的描述性（替代）文本。 |
 | [IsLocked](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/islocked) { get; set; } | 获取或设置一个值，该值指示是否禁止在 Excel 中编辑形状。 |
 | [Name](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/name) { get; set; } | 获取或设置形状的名称。 |
-| [WorksheetIndex](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkmodernwordartoptions/worksheetindex) { get; set; } | 获取或设置要添加水印的工作表的索引。 |
+| [WorksheetIndex](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkmodernwordartoptions/worksheetindex) { get; set; } | 获取或设置要添加水印的工作表索引。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [向电子表格文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 

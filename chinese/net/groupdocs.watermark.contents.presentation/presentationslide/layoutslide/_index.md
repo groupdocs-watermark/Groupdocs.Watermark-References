@@ -16,7 +16,7 @@ public PresentationLayoutSlide LayoutSlide { get; }
 
 ### 适当的价值
 
-为此的布局幻灯片[`PresentationSlide`](../../presentationslide).
+这个的布局幻灯片[`PresentationSlide`](../../presentationslide).
 
 ### 也可以看看
 

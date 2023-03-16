@@ -18,7 +18,7 @@ public sealed class PresentationShapeSettings : OfficeShapeSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PresentationShapeSettings](presentationshapesettings)() | 初始化[`PresentationShapeSettings`](../presentationshapesettings)类. |
+| [PresentationShapeSettings](presentationshapesettings)() | 初始化一个新的实例[`PresentationShapeSettings`](../presentationshapesettings)类. |
 
 ## 特性
 
@@ -27,7 +27,7 @@ public sealed class PresentationShapeSettings : OfficeShapeSettings
 | [AlternativeText](../../groupdocs.watermark.contents/officeshapesettings/alternativetext) { get; set; } | 获取或设置将与形状关联的描述性（替代）文本。 |
 | [IsLocked](../../groupdocs.watermark.contents.presentation/presentationshapesettings/islocked) { get; set; } | 获取或设置一个值，该值指示是否禁止在 PowerPoint 中编辑形状。 |
 | [Name](../../groupdocs.watermark.contents/officeshapesettings/name) { get; set; } | 获取或设置形状的名称。 |
-| [ProtectWithUnreadableCharacters](../../groupdocs.watermark.contents.presentation/presentationshapesettings/protectwithunreadablecharacters) { get; set; } | 获取或设置一个值，该值指示文本水印字符是否与不可读字符混合。 |
+| [ProtectWithUnreadableCharacters](../../groupdocs.watermark.contents.presentation/presentationshapesettings/protectwithunreadablecharacters) { get; set; } | 获取或设置文本水印字符是否混有不可读字符的值。 |
 
 ### 也可以看看
 

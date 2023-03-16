@@ -1,14 +1,14 @@
 ---
 title: EncryptionIsNotSupportedException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化EncryptionIsNotSupportedExceptiongroupdocs.watermark.exceptions/encryptionisnotsupportedexception类.
+description: 初始化一个新的实例EncryptionIsNotSupportedExceptiongroupdocs.watermark.exceptions/encryptionisnotsupportedexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/encryptionisnotsupportedexception/encryptionisnotsupportedexception/
 ---
 ## EncryptionIsNotSupportedException constructor
 
-初始化[`EncryptionIsNotSupportedException`](../../encryptionisnotsupportedexception)类.
+初始化一个新的实例[`EncryptionIsNotSupportedException`](../../encryptionisnotsupportedexception)类.
 
 ```csharp
 public EncryptionIsNotSupportedException()

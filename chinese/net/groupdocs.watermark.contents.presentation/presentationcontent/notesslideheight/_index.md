@@ -1,14 +1,14 @@
 ---
 title: NotesSlideHeight
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取笔记幻灯片的高度以磅为单位
+description: 获取音符幻灯片的高度以磅为单位
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationcontent/notesslideheight/
 ---
 ## PresentationContent.NotesSlideHeight property
 
-获取笔记幻灯片的高度（以磅为单位）。
+获取音符幻灯片的高度（以磅为单位）。
 
 ```csharp
 public double NotesSlideHeight { get; }
@@ -16,7 +16,7 @@ public double NotesSlideHeight { get; }
 
 ### 适当的价值
 
-音符的高度以磅为单位。
+音符幻灯片的高度（以磅为单位）。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: UnsupportedFileTypeException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化UnsupportedFileTypeExceptiongroupdocs.watermark.exceptions/unsupportedfiletypeexception类.
+description: 初始化一个新的实例UnsupportedFileTypeExceptiongroupdocs.watermark.exceptions/unsupportedfiletypeexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/unsupportedfiletypeexception/unsupportedfiletypeexception/
 ---
 ## UnsupportedFileTypeException constructor
 
-初始化[`UnsupportedFileTypeException`](../../unsupportedfiletypeexception)类.
+初始化一个新的实例[`UnsupportedFileTypeException`](../../unsupportedfiletypeexception)类.
 
 ```csharp
 public UnsupportedFileTypeException()

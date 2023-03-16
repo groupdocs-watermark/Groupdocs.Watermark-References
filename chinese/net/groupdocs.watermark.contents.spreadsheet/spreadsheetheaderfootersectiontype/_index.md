@@ -18,9 +18,9 @@ public enum SpreadsheetHeaderFooterSectionType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Left | `0` | 左侧部分。 |
+| Left | `0` | 左侧部分. |
 | Center | `1` | 中心部分。 |
-| Right | `2` | 右侧部分。 |
+| Right | `2` | 右侧部分. |
 
 ### 也可以看看
 

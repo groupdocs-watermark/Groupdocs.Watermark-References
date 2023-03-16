@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度FloatingAttachedImagePossibleWatermarkgroupdocs.watermark.search/floatingattachedimagepossiblewatermark1.
+description: 得到这个的宽度FloatingAttachedImagePossibleWatermarkgroupdocs.watermark.search/floatingattachedimagepossiblewatermark1.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/width/
 ---
 ## FloatingAttachedImagePossibleWatermark&lt;T&gt;.Width property
 
-获取这个的宽度[`FloatingAttachedImagePossibleWatermark`](../../floatingattachedimagepossiblewatermark-1).
+得到这个的宽度[`FloatingAttachedImagePossibleWatermark`](../../floatingattachedimagepossiblewatermark-1).
 
 ```csharp
 public override double Width { get; }
@@ -16,7 +16,7 @@ public override double Width { get; }
 
 ### 适当的价值
 
-这个宽度[`FloatingAttachedImagePossibleWatermark`](../../floatingattachedimagepossiblewatermark-1).
+这个的宽度[`FloatingAttachedImagePossibleWatermark`](../../floatingattachedimagepossiblewatermark-1).
 
 ### 也可以看看
 

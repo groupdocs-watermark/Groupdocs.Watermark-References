@@ -1,14 +1,14 @@
 ---
 title: HeadersFooters
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取this的所有页眉和页脚的集合WordProcessingSectiongroupdocs.watermark.contents.wordprocessing/wordprocessingsection.
+description: 获取此所有页眉和页脚的集合WordProcessingSectiongroupdocs.watermark.contents.wordprocessing/wordprocessingsection.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingsection/headersfooters/
 ---
 ## WordProcessingSection.HeadersFooters property
 
-获取this的所有页眉和页脚的集合[`WordProcessingSection`](../../wordprocessingsection).
+获取此所有页眉和页脚的集合[`WordProcessingSection`](../../wordprocessingsection).
 
 ```csharp
 public WordProcessingHeaderFooterCollection HeadersFooters { get; }
@@ -16,7 +16,7 @@ public WordProcessingHeaderFooterCollection HeadersFooters { get; }
 
 ### 适当的价值
 
-此的所有页眉和页脚的集合[`WordProcessingSection`](../../wordprocessingsection).
+这个的所有页眉和页脚的集合[`WordProcessingSection`](../../wordprocessingsection).
 
 ### 也可以看看
 

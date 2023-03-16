@@ -19,22 +19,22 @@ public class SpreadsheetAttachment : Attachment, ITwoDObject
 | 姓名 | 描述 |
 | --- | --- |
 | [AlternativeText](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/alternativetext) { get; set; } | 获取或设置与附加文件关联的描述性（替代）文本。 |
-| override [Content](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/content) { get; set; } | 获取或设置附件内容。 |
-| [Height](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/height) { get; set; } | 获取或设置附件框架的高度，以磅为单位。 |
+| override [Content](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/content) { get; set; } | 获取或设置附加文件内容。 |
+| [Height](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/height) { get; set; } | 获取或设置附件框的高度（以磅为单位）。 |
 | [IsLink](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/islink) { get; } | 获取一个值，该值指示内容是否仅包含指向文件的链接。 |
-| [PreviewImageContent](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/previewimagecontent) { get; set; } | 获取或设置附件预览图为字节数组。 |
+| [PreviewImageContent](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/previewimagecontent) { get; set; } | 获取或设置附件预览图像为字节数组。 |
 | [SourceFullName](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/sourcefullname) { get; } | 获取附件的全名。 |
-| [Width](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/width) { get; set; } | 获取或设置附件框架的宽度，以点为单位。 |
-| [X](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/x) { get; set; } | 获取或设置附件框架与工作表左边框的水平偏移量，以磅为单位。 |
-| [Y](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/y) { get; set; } | 获取或设置附件框架与工作表上边框的垂直偏移量。 |
+| [Width](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/width) { get; set; } | 获取或设置附件框的宽度（以磅为单位）。 |
+| [X](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/x) { get; set; } | 获取或设置附件框相对于工作表左边框的水平偏移量（以磅为单位）。 |
+| [Y](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/y) { get; set; } | 获取或设置附件框架相对于工作表顶部边框的垂直偏移量（以磅为单位）。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)() | 从附件加载内容。 |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions) | 使用指定的加载选项从附件加载内容。 |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions, WatermarkerSettings) | 使用指定的加载选项和设置从附件加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)() | 从附件中加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions) | 使用指定的加载选项从附件中加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions, WatermarkerSettings) | 使用指定的加载选项和设置从附件中加载内容。 |
 | [GetDocumentInfo](../../groupdocs.watermark.common/attachment/getdocumentinfo)() | 获取有关存储在附件中的文档的信息。 |
 
 ### 也可以看看

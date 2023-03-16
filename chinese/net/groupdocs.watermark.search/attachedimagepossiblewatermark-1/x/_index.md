@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 x 坐标AttachedImagePossibleWatermarkgroupdocs.watermark.search/attachedimagepossiblewatermark1.
+description: 得到这个的x坐标AttachedImagePossibleWatermarkgroupdocs.watermark.search/attachedimagepossiblewatermark1.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.search/attachedimagepossiblewatermark-1/x/
 ---
 ## AttachedImagePossibleWatermark&lt;T&gt;.X property
 
-获取 x 坐标[`AttachedImagePossibleWatermark`](../../attachedimagepossiblewatermark-1).
+得到这个的x坐标[`AttachedImagePossibleWatermark`](../../attachedimagepossiblewatermark-1).
 
 ```csharp
 public override double X { get; }

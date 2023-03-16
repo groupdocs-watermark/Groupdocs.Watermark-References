@@ -1,14 +1,14 @@
 ---
 title: RotateAngle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以度为单位获取 2D 对象的旋转角度
+description: 获取二维对象的旋转角度以度为单位
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.search/twodobjectpossiblewatermark/rotateangle/
 ---
 ## TwoDObjectPossibleWatermark.RotateAngle property
 
-以度为单位获取 2D 对象的旋转角度。
+获取二维对象的旋转角度（以度为单位）。
 
 ```csharp
 public override double RotateAngle { get; }
@@ -16,7 +16,7 @@ public override double RotateAngle { get; }
 
 ### 适当的价值
 
-2D 对象的旋转角度，以度为单位。
+二维对象的旋转角度（以度为单位）。
 
 ### 也可以看看
 

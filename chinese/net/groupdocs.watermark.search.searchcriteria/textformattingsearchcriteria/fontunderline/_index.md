@@ -1,14 +1,14 @@
 ---
 title: FontUnderline
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示水印文本格式中使用的字体是否为下划线
+description: 获取或设置用于水印文本格式化的字体是否为下划线的值
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontunderline/
 ---
 ## TextFormattingSearchCriteria.FontUnderline property
 
-获取或设置一个值，该值指示水印文本格式中使用的字体是否为下划线。
+获取或设置用于水印文本格式化的字体是否为下划线的值。
 
 ```csharp
 public bool? FontUnderline { get; set; }

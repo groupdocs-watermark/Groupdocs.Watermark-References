@@ -16,7 +16,7 @@ public abstract bool TileAsTexture { get; set; }
 
 ### 适当的价值
 
-如果图像平铺在背景上，则为真；否则为假（图像被拉伸）。
+如果图像在背景中平铺，则为真；否则为真。否则为 false（图像被拉伸）。
 
 ### 也可以看看
 

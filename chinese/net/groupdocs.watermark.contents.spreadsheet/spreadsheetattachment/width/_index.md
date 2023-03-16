@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置附件框架的宽度以点为单位
+description: 获取或设置附件框的宽度以磅为单位
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/width/
 ---
 ## SpreadsheetAttachment.Width property
 
-获取或设置附件框架的宽度，以点为单位。
+获取或设置附件框的宽度（以磅为单位）。
 
 ```csharp
 public double Width { get; set; }

@@ -16,7 +16,7 @@ public PresentationMasterSlideCollection MasterSlides { get; }
 
 ### 适当的价值
 
-本次所有母版幻灯片合集[`PresentationContent`](../../presentationcontent).
+本期所有母版幻灯片合集[`PresentationContent`](../../presentationcontent).
 
 ### 也可以看看
 

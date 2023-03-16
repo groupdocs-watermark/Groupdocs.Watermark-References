@@ -1,14 +1,14 @@
 ---
 title: PdfContent
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 代表一个pdf文档可以放水印
+description: 代表pdf文档可以放水印
 type: docs
 weight: 610
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfcontent/
 ---
 ## PdfContent class
 
-代表一个pdf文档，可以放水印。
+代表pdf文档，可以放水印。
 
 ```csharp
 public class PdfContent : Content
@@ -18,9 +18,9 @@ public class PdfContent : Content
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Attachments](../../groupdocs.watermark.contents.pdf/pdfcontent/attachments) { get; } | 获取此所有附件的集合[`PdfContent`](../pdfcontent). |
-| [PageMarginType](../../groupdocs.watermark.contents.pdf/pdfcontent/pagemargintype) { get; set; } | 获取或设置添加水印时使用的 pdf 页边距。 |
-| [Pages](../../groupdocs.watermark.contents.pdf/pdfcontent/pages) { get; } | 获取此所有页面的集合[`PdfContent`](../pdfcontent). |
+| [Attachments](../../groupdocs.watermark.contents.pdf/pdfcontent/attachments) { get; } | 获取本次所有附件的集合[`PdfContent`](../pdfcontent). |
+| [PageMarginType](../../groupdocs.watermark.contents.pdf/pdfcontent/pagemargintype) { get; set; } | 获取或设置添加水印时使用的pdf页边距。 |
+| [Pages](../../groupdocs.watermark.contents.pdf/pdfcontent/pages) { get; } | 获取this所有页面的集合[`PdfContent`](../pdfcontent). |
 
 ## 方法
 
@@ -28,22 +28,22 @@ public class PdfContent : Content
 | --- | --- |
 | [Decrypt](../../groupdocs.watermark.contents.pdf/pdfcontent/decrypt)() | 解密内容。 |
 | [Dispose](../../groupdocs.watermark.contents/content/dispose)() | 处理当前实例。 |
-| [Encrypt](../../groupdocs.watermark.contents.pdf/pdfcontent/encrypt#encrypt)(string) | 使用与用户密码和所有者密码相同的密码对文档进行加密。 |
+| [Encrypt](../../groupdocs.watermark.contents.pdf/pdfcontent/encrypt#encrypt)(string) | 使用与用户密码和所有者密码相同的密码加密文档。 |
 | [Encrypt](../../groupdocs.watermark.contents.pdf/pdfcontent/encrypt#encrypt_1)(string, string, PdfPermissions, PdfCryptoAlgorithm) | 加密内容。 |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 | [Rasterize](../../groupdocs.watermark.contents.pdf/pdfcontent/rasterize)(int, int, PdfImageConversionFormat) | 将所有内容页面转换为图像。 |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为 PDF 文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 * [PDF 文档中的现有对象](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document)
-* [光栅化文档或页面](https://docs.groupdocs.com/display/watermarknet/Rasterize+document+or+page)
-* [PDF 文档中的水印](https://docs.groupdocs.com/display/watermarknet/Watermarks+in+PDF+document)
+* [栅格化文档或页面](https://docs.groupdocs.com/display/watermarknet/Rasterize+document+or+page)
+* [PDF文档中的水印](https://docs.groupdocs.com/display/watermarknet/Watermarks+in+PDF+document)
 
 ### 也可以看看
 

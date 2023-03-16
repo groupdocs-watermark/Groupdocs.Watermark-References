@@ -1,14 +1,14 @@
 ---
 title: LoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化LoadOptionsgroupdocs.watermark.options/loadoptions类.
+description: 初始化一个新的实例LoadOptionsgroupdocs.watermark.options/loadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options/loadoptions/loadoptions/
 ---
 ## LoadOptions() {#constructor}
 
-初始化[`LoadOptions`](../../loadoptions)类.
+初始化一个新的实例[`LoadOptions`](../../loadoptions)类.
 
 ```csharp
 public LoadOptions()
@@ -24,7 +24,7 @@ public LoadOptions()
 
 ## LoadOptions(string) {#constructor_1}
 
-初始化[`LoadOptions`](../../loadoptions)具有指定密码的类。
+初始化一个新的实例[`LoadOptions`](../../loadoptions)具有指定密码的类.
 
 ```csharp
 public LoadOptions(string password)

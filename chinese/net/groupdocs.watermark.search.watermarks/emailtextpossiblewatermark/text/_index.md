@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本EmailTextPossibleWatermarkgroupdocs.watermark.search.watermarks/emailtextpossiblewatermark.
+description: 获取或设置此文本EmailTextPossibleWatermarkgroupdocs.watermark.search.watermarks/emailtextpossiblewatermark.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/text/
 ---
 ## EmailTextPossibleWatermark.Text property
 
-获取或设置 this 的文本[`EmailTextPossibleWatermark`](../../emailtextpossiblewatermark).
+获取或设置此文本[`EmailTextPossibleWatermark`](../../emailtextpossiblewatermark).
 
 ```csharp
 public override string Text { get; set; }
@@ -16,7 +16,7 @@ public override string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`EmailTextPossibleWatermark`](../../emailtextpossiblewatermark).
+这一段的正文[`EmailTextPossibleWatermark`](../../emailtextpossiblewatermark).
 
 ### 也可以看看
 

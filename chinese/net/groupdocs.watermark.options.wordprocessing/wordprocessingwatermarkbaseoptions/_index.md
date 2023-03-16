@@ -1,14 +1,14 @@
 ---
 title: WordProcessingWatermarkBaseOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 用于向 Word 文档添加选项的水印基类
+description: 向 Word 文档添加水印选项的基类
 type: docs
 weight: 2340
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/
 ---
 ## WordProcessingWatermarkBaseOptions class
 
-用于向 Word 文档添加选项的水印基类。
+向 Word 文档添加水印选项的基类。
 
 ```csharp
 public abstract class WordProcessingWatermarkBaseOptions : WordProcessingWatermarkOptions
@@ -21,7 +21,7 @@ public abstract class WordProcessingWatermarkBaseOptions : WordProcessingWaterma
 | [AlternativeText](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/alternativetext) { get; set; } | 获取或设置将与形状关联的描述性（替代）文本。 |
 | [Effects](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/effects) { get; set; } | 获取或设置一个值[`WordProcessingImageEffects`](../wordprocessingimageeffects)or [`WordProcessingTextEffects`](../wordprocessingtexteffects)对于应该应用于水印的效果。 |
 | [IsLocked](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/islocked) { get; set; } | 获取或设置一个值，该值指示是否禁止在 Word 中编辑形状。 |
-| [LockType](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/locktype) { get; set; } | 获取或设置水印锁定类型。 |
+| [LockType](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/locktype) { get; set; } | 获取或设置水印锁类型。 |
 | [Name](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/name) { get; set; } | 获取或设置形状的名称。 |
 | [Password](../../groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/password) { get; set; } | 获取或设置用于锁定水印的密码。 |
 

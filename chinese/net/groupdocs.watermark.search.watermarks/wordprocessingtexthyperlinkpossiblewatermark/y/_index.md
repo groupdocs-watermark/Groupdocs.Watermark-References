@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的 y 坐标WordProcessingTextHyperlinkPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark.
+description: 得到这个的y坐标WordProcessingTextHyperlinkPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/y/
 ---
 ## WordProcessingTextHyperlinkPossibleWatermark.Y property
 
-获取这个的 y 坐标[`WordProcessingTextHyperlinkPossibleWatermark`](../../wordprocessingtexthyperlinkpossiblewatermark).
+得到这个的y坐标[`WordProcessingTextHyperlinkPossibleWatermark`](../../wordprocessingtexthyperlinkpossiblewatermark).
 
 ```csharp
 public override double Y { get; }

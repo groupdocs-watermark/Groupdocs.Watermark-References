@@ -1,14 +1,14 @@
 ---
 title: ImageThumbnailSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化ImageThumbnailSearchCriteriagroupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria具有指定文件路径的类
+description: 初始化一个新的实例ImageThumbnailSearchCriteriagroupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria具有指定文件路径的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria/imagethumbnailsearchcriteria/
 ---
 ## ImageThumbnailSearchCriteria(string) {#constructor_1}
 
-初始化[`ImageThumbnailSearchCriteria`](../../imagethumbnailsearchcriteria)具有指定文件路径的类。
+初始化一个新的实例[`ImageThumbnailSearchCriteria`](../../imagethumbnailsearchcriteria)具有指定文件路径的类.
 
 ```csharp
 public ImageThumbnailSearchCriteria(string filePath)
@@ -28,7 +28,7 @@ public ImageThumbnailSearchCriteria(string filePath)
 
 ## ImageThumbnailSearchCriteria(Stream) {#constructor}
 
-初始化[`ImageThumbnailSearchCriteria`](../../imagethumbnailsearchcriteria)具有指定流的类。
+初始化一个新的实例[`ImageThumbnailSearchCriteria`](../../imagethumbnailsearchcriteria)具有指定流的类.
 
 ```csharp
 public ImageThumbnailSearchCriteria(Stream stream)
@@ -36,7 +36,7 @@ public ImageThumbnailSearchCriteria(Stream stream)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| stream | Stream | 要从中加载图像的流。 |
+| stream | Stream | 从中加载图像的流。 |
 
 ### 也可以看看
 

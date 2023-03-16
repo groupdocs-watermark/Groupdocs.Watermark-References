@@ -1,14 +1,14 @@
 ---
 title: Insert
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 在给定索引处将格式化的文本片段插入集合中
+description: 将格式化文本片段插入集合中给定索引处
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.search/formattedtextfragmentcollection/insert/
 ---
 ## Insert(int, string) {#insert}
 
-在给定索引处将格式化的文本片段插入集合中。
+将格式化文本片段插入集合中给定索引处。
 
 ```csharp
 public void Insert(int index, string text)
@@ -29,7 +29,7 @@ public void Insert(int index, string text)
 
 ## Insert(int, string, Font) {#insert_1}
 
-在给定索引处将格式化的文本片段插入集合中。
+将格式化文本片段插入集合中给定索引处。
 
 ```csharp
 public void Insert(int index, string text, Font font)
@@ -52,7 +52,7 @@ public void Insert(int index, string text, Font font)
 
 ## Insert(int, string, Font, Color) {#insert_2}
 
-在给定索引处将格式化的文本片段插入集合中。
+将格式化文本片段插入集合中给定索引处。
 
 ```csharp
 public void Insert(int index, string text, Font font, Color foregroundColor)
@@ -77,7 +77,7 @@ public void Insert(int index, string text, Font font, Color foregroundColor)
 
 ## Insert(int, string, Font, Color, Color) {#insert_3}
 
-在给定索引处将格式化的文本片段插入集合中。
+将格式化文本片段插入集合中给定索引处。
 
 ```csharp
 public void Insert(int index, string text, Font font, Color foregroundColor, Color backgroundColor)

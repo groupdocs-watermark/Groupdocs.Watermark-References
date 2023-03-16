@@ -16,7 +16,7 @@ public void Add(Watermark watermark)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| watermark | Watermark | 添加到文档的水印。 |
+| watermark | Watermark | 要添加到文档中的水印。 |
 
 ### 评论
 
@@ -63,7 +63,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\input.pdf"))
 
 ## Add(Watermark, WatermarkOptions) {#add_1}
 
-使用水印选项向加载的文档添加水印。
+使用水印选项为加载的文档添加水印。
 
 ```csharp
 public void Add(Watermark watermark, WatermarkOptions options)
@@ -71,7 +71,7 @@ public void Add(Watermark watermark, WatermarkOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| watermark | Watermark | 添加到文档的水印。 |
+| watermark | Watermark | 要添加到文档中的水印。 |
 | options | WatermarkOptions | 添加水印时要使用的其他选项。 |
 
 ### 评论

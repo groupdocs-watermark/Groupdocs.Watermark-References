@@ -1,14 +1,14 @@
 ---
 title: DiagramShapeWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示向 Visio 文档添加形状水印时添加水印的选项
+description: 表示给Visio文档添加形状水印时的水印添加选项
 type: docs
 weight: 1680
 url: /zh/net/groupdocs.watermark.options.diagram/diagramshapewatermarkoptions/
 ---
 ## DiagramShapeWatermarkOptions class
 
-表示向 Visio 文档添加形状水印时添加水印的选项。
+表示给Visio文档添加形状水印时的水印添加选项。
 
 ```csharp
 public sealed class DiagramShapeWatermarkOptions : DiagramWatermarkOptions
@@ -18,7 +18,7 @@ public sealed class DiagramShapeWatermarkOptions : DiagramWatermarkOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DiagramShapeWatermarkOptions](diagramshapewatermarkoptions)() | 初始化[`DiagramShapeWatermarkOptions`](../diagramshapewatermarkoptions)类. |
+| [DiagramShapeWatermarkOptions](diagramshapewatermarkoptions)() | 初始化一个新的实例[`DiagramShapeWatermarkOptions`](../diagramshapewatermarkoptions)类. |
 
 ## 特性
 
@@ -29,7 +29,7 @@ public sealed class DiagramShapeWatermarkOptions : DiagramWatermarkOptions
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为图表文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 

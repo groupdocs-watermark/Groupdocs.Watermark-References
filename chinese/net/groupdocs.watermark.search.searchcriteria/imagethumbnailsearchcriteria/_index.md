@@ -18,23 +18,23 @@ public class ImageThumbnailSearchCriteria : ImageSearchCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageThumbnailSearchCriteria](imagethumbnailsearchcriteria#constructor)(Stream) | 初始化[`ImageThumbnailSearchCriteria`](../imagethumbnailsearchcriteria)具有指定流的类。 |
-| [ImageThumbnailSearchCriteria](imagethumbnailsearchcriteria#constructor_1)(string) | 初始化[`ImageThumbnailSearchCriteria`](../imagethumbnailsearchcriteria)具有指定文件路径的类。 |
+| [ImageThumbnailSearchCriteria](imagethumbnailsearchcriteria#constructor)(Stream) | 初始化一个新的实例[`ImageThumbnailSearchCriteria`](../imagethumbnailsearchcriteria)具有指定流的类. |
+| [ImageThumbnailSearchCriteria](imagethumbnailsearchcriteria#constructor_1)(string) | 初始化一个新的实例[`ImageThumbnailSearchCriteria`](../imagethumbnailsearchcriteria)具有指定文件路径的类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | 获取或设置图像之间允许的最大差异。 |
+| [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | 获取或设置图像之间的最大允许差异。 |
 | [ThumbnailSize](../../groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria/thumbnailsize) { get; set; } | 获取或设置缩略图大小。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)使用逻辑 AND 运算符的其他条件。 |
+| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑 AND 运算符. |
 | [Not](../../groupdocs.watermark.search.searchcriteria/searchcriteria/not)() | 否定这个[`SearchCriteria`](../searchcriteria). |
-| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与使用逻辑 OR 运算符的其他条件。 |
+| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑或运算符. |
 
 ### 评论
 

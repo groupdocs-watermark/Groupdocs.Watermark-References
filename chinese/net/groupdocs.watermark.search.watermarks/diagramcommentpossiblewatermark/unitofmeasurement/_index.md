@@ -1,14 +1,14 @@
 ---
 title: UnitOfMeasurement
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此的度量单位DiagramCommentPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark.
+description: 得到这个的计量单位DiagramCommentPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/unitofmeasurement/
 ---
 ## DiagramCommentPossibleWatermark.UnitOfMeasurement property
 
-获取此的度量单位[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark).
+得到这个的计量单位[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark).
 
 ```csharp
 public override UnitOfMeasurement UnitOfMeasurement { get; }

@@ -1,14 +1,14 @@
 ---
 title: ImageLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示加载图像时的图像加载选项
+description: 表示加载图片时的图片加载选项
 type: docs
 weight: 1770
 url: /zh/net/groupdocs.watermark.options.image/imageloadoptions/
 ---
 ## ImageLoadOptions class
 
-表示加载图像时的图像加载选项。
+表示加载图片时的图片加载选项。
 
 ```csharp
 public class ImageLoadOptions : LoadOptions
@@ -18,7 +18,7 @@ public class ImageLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageLoadOptions](imageloadoptions)() | 初始化[`ImageLoadOptions`](../imageloadoptions)类. |
+| [ImageLoadOptions](imageloadoptions)() | 初始化一个新的实例[`ImageLoadOptions`](../imageloadoptions)类. |
 
 ## 特性
 

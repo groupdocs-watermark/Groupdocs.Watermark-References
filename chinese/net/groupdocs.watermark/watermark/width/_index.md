@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置此所需的宽度Watermarkgroupdocs.watermark/watermark.
+description: 获取或设置所需的宽度Watermarkgroupdocs.watermark/watermark.
 type: docs
 weight: 110
 url: /zh/net/groupdocs.watermark/watermark/width/
 ---
 ## Watermark.Width property
 
-获取或设置此所需的宽度[`Watermark`](../../watermark).
+获取或设置所需的宽度[`Watermark`](../../watermark).
 
 ```csharp
 public double Width { get; set; }
@@ -16,11 +16,11 @@ public double Width { get; set; }
 
 ### 适当的价值
 
-这所需的宽度[`Watermark`](../../watermark).
+这个所需的宽度[`Watermark`](../../watermark).
 
 ### 评论
 
-设置这个属性也会改变[`SizingType`](../sizingtype) 属性Absolute.
+设置这个属性也会改变的值[`SizingType`](../sizingtype) 属性到Absolute.
 
 ### 也可以看看
 

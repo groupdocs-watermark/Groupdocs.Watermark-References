@@ -1,14 +1,14 @@
 ---
 title: Save
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 将文档数据保存到底层流
+description: 将文档数据保存到底层流中
 type: docs
 weight: 100
 url: /zh/net/groupdocs.watermark/watermarker/save/
 ---
 ## Save() {#save}
 
-将文档数据保存到底层流。
+将文档数据保存到底层流中。
 
 ```csharp
 public void Save()
@@ -20,13 +20,13 @@ public void Save()
 
 ### 例子
 
-从电子邮件正文/主题中删除特定的文本片段并保存电子邮件。
+从电子邮件正文/主题中删除特定文本片段并保存电子邮件。
 
 ```csharp
 using (Watermarker watermarker = new Watermarker(@"D:\test.msg"))
 {
     SearchCriteria criteria = new TextSearchCriteria("test", false);
-    // 注意，只有将 TextSearchCriteria 实例传递给 Search 方法时才会执行搜索
+    // 注意，仅当您将 TextSearchCriteria 实例传递给 Search 方法时才会执行搜索
     PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
     // 删除找到的文本片段
     watermarker.Remove(watermarks);
@@ -82,7 +82,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 
 ## Save(Stream) {#save_2}
 
-将文档保存到指定的流中。
+将文档保存到指定的流。
 
 ```csharp
 public void Save(Stream document)
@@ -131,7 +131,7 @@ public void Save(SaveOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| options | SaveOptions | 保存文档时使用的其他选项。 |
+| options | SaveOptions | 保存文档时要使用的其他选项。 |
 
 ### 评论
 
@@ -139,7 +139,7 @@ public void Save(SaveOptions options)
 
 ### 例子
 
-添加水印并默认保存文档[`SaveOptions`](../../../groupdocs.watermark.options/saveoptions).
+添加水印，文档默认保存[`SaveOptions`](../../../groupdocs.watermark.options/saveoptions).
 
 ```csharp
 using (Watermarker watermarker = new Watermarker("input.pdf"))
@@ -170,7 +170,7 @@ public void Save(string filePath, SaveOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 保存文档数据的文件路径。 |
-| options | SaveOptions | 保存文档时使用的其他选项。 |
+| options | SaveOptions | 保存文档时要使用的其他选项。 |
 
 ### 评论
 
@@ -178,7 +178,7 @@ public void Save(string filePath, SaveOptions options)
 
 ### 例子
 
-添加水印并将文档默认保存到另一个文件[`SaveOptions`](../../../groupdocs.watermark.options/saveoptions).
+添加水印并默认将文档保存到另一个文件[`SaveOptions`](../../../groupdocs.watermark.options/saveoptions).
 
 ```csharp
 using (Watermarker watermarker = new Watermarker("input.pdf"))
@@ -200,7 +200,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 
 ## Save(Stream, SaveOptions) {#save_3}
 
-使用保存选项将文档保存到指定的流中。
+使用保存选项将文档保存到指定的流。
 
 ```csharp
 public void Save(Stream document, SaveOptions options)
@@ -209,7 +209,7 @@ public void Save(Stream document, SaveOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | document | Stream | 将文档数据保存到的流。 |
-| options | SaveOptions | 保存文档时使用的其他选项。 |
+| options | SaveOptions | 保存文档时要使用的其他选项。 |
 
 ### 评论
 
@@ -217,7 +217,7 @@ public void Save(Stream document, SaveOptions options)
 
 ### 例子
 
-添加水印并将文档默认保存到内存流中[`SaveOptions`](../../../groupdocs.watermark.options/saveoptions).
+添加水印，文档默认保存到内存流[`SaveOptions`](../../../groupdocs.watermark.options/saveoptions).
 
 ```csharp
 using (Watermarker watermarker = new Watermarker("input.pdf"))

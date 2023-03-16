@@ -1,14 +1,14 @@
 ---
 title: LayoutSlides
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此所有布局幻灯片的集合PresentationContentgroupdocs.watermark.contents.presentation/presentationcontent.
+description: 获取本次所有布局幻灯片的集合PresentationContentgroupdocs.watermark.contents.presentation/presentationcontent.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationcontent/layoutslides/
 ---
 ## PresentationContent.LayoutSlides property
 
-获取此所有布局幻灯片的集合[`PresentationContent`](../../presentationcontent).
+获取本次所有布局幻灯片的集合[`PresentationContent`](../../presentationcontent).
 
 ```csharp
 public PresentationLayoutSlideCollection LayoutSlides { get; }
@@ -16,7 +16,7 @@ public PresentationLayoutSlideCollection LayoutSlides { get; }
 
 ### 适当的价值
 
-本次所有布局幻灯片的合集[`PresentationContent`](../../presentationcontent).
+本次所有layout slides的合集[`PresentationContent`](../../presentationcontent).
 
 ### 也可以看看
 

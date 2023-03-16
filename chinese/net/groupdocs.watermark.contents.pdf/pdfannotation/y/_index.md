@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的垂直偏移量PdfAnnotationgroupdocs.watermark.contents.pdf/pdfannotation以点为单位的工作表底部边框.
+description: 获取此的垂直偏移量PdfAnnotationgroupdocs.watermark.contents.pdf/pdfannotation从工作表底部边框以点为单位.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfannotation/y/
 ---
 ## PdfAnnotation.Y property
 
-获取 this 的垂直偏移量[`PdfAnnotation`](../../pdfannotation)以点为单位的工作表底部边框.
+获取此的垂直偏移量[`PdfAnnotation`](../../pdfannotation)从工作表底部边框以点为单位.
 
 ```csharp
 public override double Y { get; }

@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此中包含的所有形状的集合WordProcessingSectiongroupdocs.watermark.contents.wordprocessing/wordprocessingsection.
+description: 获取此包含的所有形状的集合WordProcessingSectiongroupdocs.watermark.contents.wordprocessing/wordprocessingsection.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingsection/shapes/
 ---
 ## WordProcessingSection.Shapes property
 
-获取此中包含的所有形状的集合[`WordProcessingSection`](../../wordprocessingsection).
+获取此包含的所有形状的集合[`WordProcessingSection`](../../wordprocessingsection).
 
 ```csharp
 public WordProcessingShapeCollection Shapes { get; }

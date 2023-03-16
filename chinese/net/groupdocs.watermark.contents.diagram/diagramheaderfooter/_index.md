@@ -20,13 +20,13 @@ public class DiagramHeaderFooter
 | --- | --- |
 | [Font](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/font) { get; } | 获取用于页眉和页脚文本的字体。 |
 | [FooterCenter](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/footercenter) { get; set; } | 获取或设置出现在文档页脚中心部分的文本字符串。 |
-| [FooterLeft](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/footerleft) { get; set; } | 获取或设置出现在文档页脚左侧的文本字符串。 |
-| [FooterMargin](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/footermargin) { get; set; } | 获取或设置文档页眉的边距。 |
-| [FooterRight](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/footerright) { get; set; } | 获取或设置出现在文档页脚右侧的文本字符串。 |
-| [HeaderCenter](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/headercenter) { get; set; } | 获取或设置出现在文档标题中心部分的文本字符串。 |
-| [HeaderLeft](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/headerleft) { get; set; } | 获取或设置出现在文档标题左侧的文本字符串。 |
-| [HeaderMargin](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/headermargin) { get; set; } | 获取或设置文档页眉的边距。 |
-| [HeaderRight](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/headerright) { get; set; } | 获取或设置出现在文档标题右侧的文本字符串。 |
+| [FooterLeft](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/footerleft) { get; set; } | 获取或设置出现在文档页脚左侧部分的文本字符串。 |
+| [FooterMargin](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/footermargin) { get; set; } | 获取或设置文档页眉边距。 |
+| [FooterRight](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/footerright) { get; set; } | 获取或设置出现在文档页脚右侧部分的文本字符串。 |
+| [HeaderCenter](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/headercenter) { get; set; } | 获取或设置出现在文档页眉中心部分的文本字符串。 |
+| [HeaderLeft](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/headerleft) { get; set; } | 获取或设置出现在文档标题左侧部分的文本字符串。 |
+| [HeaderMargin](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/headermargin) { get; set; } | 获取或设置文档页眉边距。 |
+| [HeaderRight](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/headerright) { get; set; } | 获取或设置出现在文档标题右侧部分的文本字符串。 |
 | [TextColor](../../groupdocs.watermark.contents.diagram/diagramheaderfooter/textcolor) { get; set; } | 获取或设置页眉和页脚的文本颜色。 |
 
 ### 也可以看看

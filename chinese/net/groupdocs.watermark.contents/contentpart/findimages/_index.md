@@ -1,14 +1,14 @@
 ---
 title: FindImages
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 根据指定的搜索条件查找图像 在指定的对象中进行搜索SearchableObjectsgroupdocs.watermark/watermarker/searchableobjects.
+description: 根据指定的搜索条件查找图像 搜索在指定的对象中进行SearchableObjectsgroupdocs.watermark/watermarker/searchableobjects.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents/contentpart/findimages/
 ---
 ## FindImages(ImageSearchCriteria) {#findimages_1}
 
-根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../../groupdocs.watermark/watermarker/searchableobjects).
+根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../../groupdocs.watermark/watermarker/searchableobjects).
 
 ```csharp
 public WatermarkableImageCollection FindImages(ImageSearchCriteria searchCriteria)
@@ -34,7 +34,7 @@ public WatermarkableImageCollection FindImages(ImageSearchCriteria searchCriteri
 
 ## FindImages() {#findimages}
 
-查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../../groupdocs.watermark/watermarker/searchableobjects).
+查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../../groupdocs.watermark/watermarker/searchableobjects).
 
 ```csharp
 public WatermarkableImageCollection FindImages()

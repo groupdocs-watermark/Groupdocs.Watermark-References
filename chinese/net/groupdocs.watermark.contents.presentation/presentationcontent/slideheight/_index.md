@@ -1,14 +1,14 @@
 ---
 title: SlideHeight
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以磅为单位获取幻灯片的高度
+description: 获取幻灯片的高度以磅为单位
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationcontent/slideheight/
 ---
 ## PresentationContent.SlideHeight property
 
-以磅为单位获取幻灯片的高度。
+获取幻灯片的高度（以磅为单位）。
 
 ```csharp
 public double SlideHeight { get; }

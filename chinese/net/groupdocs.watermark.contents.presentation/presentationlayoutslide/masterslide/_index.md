@@ -1,14 +1,14 @@
 ---
 title: MasterSlide
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 为此获取母版幻灯片PresentationLayoutSlidegroupdocs.watermark.contents.presentation/presentationlayoutslide.
+description: 获取此母版幻灯片PresentationLayoutSlidegroupdocs.watermark.contents.presentation/presentationlayoutslide.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationlayoutslide/masterslide/
 ---
 ## PresentationLayoutSlide.MasterSlide property
 
-为此获取母版幻灯片[`PresentationLayoutSlide`](../../presentationlayoutslide).
+获取此母版幻灯片[`PresentationLayoutSlide`](../../presentationlayoutslide).
 
 ```csharp
 public PresentationMasterSlide MasterSlide { get; }
@@ -16,7 +16,7 @@ public PresentationMasterSlide MasterSlide { get; }
 
 ### 适当的价值
 
-主幻灯片[`PresentationLayoutSlide`](../../presentationlayoutslide).
+这个的主幻灯片[`PresentationLayoutSlide`](../../presentationlayoutslide).
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Or
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 结合这个SearchCriteriagroupdocs.watermark.search.searchcriteria/searchcriteria与使用逻辑 OR 运算符的其他条件
+description: 结合这个SearchCriteriagroupdocs.watermark.search.searchcriteria/searchcriteria与其他标准使用逻辑或运算符.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.search.searchcriteria/searchcriteria/or/
 ---
 ## SearchCriteria.Or method
 
-结合这个[`SearchCriteria`](../../searchcriteria)与使用逻辑 OR 运算符的其他条件。
+结合这个[`SearchCriteria`](../../searchcriteria)与其他标准使用逻辑或运算符.
 
 ```csharp
 public SearchCriteria Or(SearchCriteria other)

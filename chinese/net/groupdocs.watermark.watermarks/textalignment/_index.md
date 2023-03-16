@@ -1,14 +1,14 @@
 ---
 title: TextAlignment
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 枚举可能的文本对齐值
+description: 可能的文本对齐值的枚举
 type: docs
 weight: 3150
 url: /zh/net/groupdocs.watermark.watermarks/textalignment/
 ---
 ## TextAlignment enumeration
 
-枚举可能的文本对齐值。
+可能的文本对齐值的枚举。
 
 ```csharp
 public enum TextAlignment
@@ -18,9 +18,9 @@ public enum TextAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Left | `0` | 左对齐。 |
+| Left | `0` | 左对齐. |
 | Center | `1` | 居中对齐。 |
-| Right | `2` | 向右对齐。 |
+| Right | `2` | 右对齐. |
 | Justify | `3` | 对齐对齐。文本将在左右边距上对齐。 |
 
 ### 也可以看看

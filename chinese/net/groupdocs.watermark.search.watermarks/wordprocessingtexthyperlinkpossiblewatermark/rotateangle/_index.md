@@ -1,14 +1,14 @@
 ---
 title: RotateAngle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的旋转角度WordProcessingTextHyperlinkPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark度数.
+description: 获取this的旋转角度WordProcessingTextHyperlinkPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark以度为单位.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/rotateangle/
 ---
 ## WordProcessingTextHyperlinkPossibleWatermark.RotateAngle property
 
-获取 this 的旋转角度[`WordProcessingTextHyperlinkPossibleWatermark`](../../wordprocessingtexthyperlinkpossiblewatermark)度数.
+获取this的旋转角度[`WordProcessingTextHyperlinkPossibleWatermark`](../../wordprocessingtexthyperlinkpossiblewatermark)以度为单位.
 
 ```csharp
 public override double RotateAngle { get; }

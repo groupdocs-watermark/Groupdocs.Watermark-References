@@ -18,11 +18,11 @@ public enum WordProcessingLockType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| AllowOnlyRevisions | `0` | 用户只能在文档中添加修订标记。 |
-| AllowOnlyComments | `1` | 用户只能修改文档中的评论。 |
+| AllowOnlyRevisions | `0` | 用户只能向文档添加修订标记。 |
+| AllowOnlyComments | `1` | 用户只能修改文档中的注释。 |
 | AllowOnlyFormFields | `2` | 用户只能在文档的表单域中输入数据。 |
 | ReadOnly | `3` | 整个文档是只读的。 |
-| ReadOnlyWithEditableContent | `4` | 文档是只读的，但是除了水印之外的所有内容都被标记为可编辑。 |
+| ReadOnlyWithEditableContent | `4` | 文档为只读，但除水印外的所有内容都标记为可编辑。 |
 | NoLock | `-1` | 禁用对水印和文档的任何锁定。 |
 
 ### 也可以看看

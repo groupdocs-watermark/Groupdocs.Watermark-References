@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的水平偏移量WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark 从文档左边框开始以点为单位
+description: 得到这个的水平偏移量WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark 来自文档左边框以点为单位
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/x/
 ---
 ## WordProcessingTextPossibleWatermark.X property
 
-获取 this 的水平偏移量[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark) 从文档左边框开始，以点为单位。
+得到这个的水平偏移量[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark) 来自文档左边框（以点为单位）。
 
 ```csharp
 public override double X { get; }

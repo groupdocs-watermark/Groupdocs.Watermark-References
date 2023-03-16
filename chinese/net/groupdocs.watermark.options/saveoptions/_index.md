@@ -18,7 +18,7 @@ public class SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SaveOptions](saveoptions)() | 初始化[`SaveOptions`](../saveoptions)类. |
+| [SaveOptions](saveoptions)() | 初始化一个新的实例[`SaveOptions`](../saveoptions)类. |
 
 ## 特性
 

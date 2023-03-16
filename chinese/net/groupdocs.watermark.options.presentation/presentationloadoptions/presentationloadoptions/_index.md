@@ -1,14 +1,14 @@
 ---
 title: PresentationLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PresentationLoadOptionsgroupdocs.watermark.options.presentation/presentationloadoptions类.
+description: 初始化一个新的实例PresentationLoadOptionsgroupdocs.watermark.options.presentation/presentationloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.presentation/presentationloadoptions/presentationloadoptions/
 ---
 ## PresentationLoadOptions() {#constructor}
 
-初始化[`PresentationLoadOptions`](../../presentationloadoptions)类.
+初始化一个新的实例[`PresentationLoadOptions`](../../presentationloadoptions)类.
 
 ```csharp
 public PresentationLoadOptions()
@@ -24,7 +24,7 @@ public PresentationLoadOptions()
 
 ## PresentationLoadOptions(string) {#constructor_1}
 
-初始化[`PresentationLoadOptions`](../../presentationloadoptions)具有指定密码的类。
+初始化一个新的实例[`PresentationLoadOptions`](../../presentationloadoptions)具有指定密码的类.
 
 ```csharp
 public PresentationLoadOptions(string password)

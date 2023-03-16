@@ -1,14 +1,14 @@
 ---
 title: IsWordArt
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取一个值该值指示这是否SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape是一个艺术字对象
+description: 获取一个值指示是否这SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape是一个艺术字对象
 type: docs
 weight: 90
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/iswordart/
 ---
 ## SpreadsheetShape.IsWordArt property
 
-获取一个值，该值指示这是否[`SpreadsheetShape`](../../spreadsheetshape)是一个艺术字对象。
+获取一个值，指示是否这[`SpreadsheetShape`](../../spreadsheetshape)是一个艺术字对象。
 
 ```csharp
 public bool IsWordArt { get; }
@@ -16,7 +16,7 @@ public bool IsWordArt { get; }
 
 ### 适当的价值
 
-如果形状是艺术字对象，则为真；否则为假。
+如果形状是艺术字对象，则为真；否则为真。否则，假的。
 
 ### 也可以看看
 

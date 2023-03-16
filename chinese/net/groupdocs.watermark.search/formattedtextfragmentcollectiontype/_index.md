@@ -19,7 +19,7 @@ public enum FormattedTextFragmentCollectionType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | UnlimitedFragments | `0` | 允许多种样式，集合可以包含无限数量的片段。 |
-| SingleFragment | `1` | 整个文本可以用一种样式格式化，集合只能包含一个片段。 |
+| SingleFragment | `1` | 整个文本可以用单一样式格式化，集合只能包含一个片段。 |
 | NoFormattedText | `2` | 父对象不支持文本格式，集合始终为空。 |
 
 ### 也可以看看

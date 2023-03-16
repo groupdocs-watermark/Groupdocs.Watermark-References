@@ -19,14 +19,14 @@ public class SpreadsheetAttachmentCollection : RemoveOnlyListBase<SpreadsheetAtt
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | 获取集合中包含的元素数。 |
-| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | 获取一个值，该值指示该集合是否为只读。 |
+| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | 获取一个值，指示集合是否为只读。 |
 | virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | 获取集合中指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [AddAttachment](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/addattachment)(byte[], string, byte[], double, double, double, double) | 将附件添加到[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
+| [AddAttachment](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/addattachment)(byte[], string, byte[], double, double, double, double) | 添加附件到[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
 | [AddLink](../../groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/addlink)(string, byte[], double, double, double, double) | 通过链接添加附件（文档将不包含附件内容）。 |
 | [Clear](../../groupdocs.watermark.common/removeonlylistbase-1/clear)() |  |
 | virtual [Contains](../../groupdocs.watermark.common/readonlylistbase-1/contains)(SpreadsheetAttachment) |  |
@@ -37,7 +37,7 @@ public class SpreadsheetAttachmentCollection : RemoveOnlyListBase<SpreadsheetAtt
 
 ### 评论
 
-此集合包含以下项目[`SpreadsheetAttachment`](../spreadsheetattachment)类型.
+此集合包含的项目[`SpreadsheetAttachment`](../spreadsheetattachment)类型.
 
 ### 也可以看看
 

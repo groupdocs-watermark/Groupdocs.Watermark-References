@@ -1,14 +1,14 @@
 ---
 title: ColorRange
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示颜色范围使用 RGB 颜色的 HSB 表示指定范围
+description: 代表颜色范围使用 RGB 颜色的 HSB 表示指定范围
 type: docs
 weight: 2570
 url: /zh/net/groupdocs.watermark.search.searchcriteria/colorrange/
 ---
 ## ColorRange class
 
-表示颜色范围。使用 RGB 颜色的 HSB 表示指定范围。
+代表颜色范围。使用 RGB 颜色的 HSB 表示指定范围。
 
 ```csharp
 public class ColorRange
@@ -18,14 +18,14 @@ public class ColorRange
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ColorRange](colorrange#constructor)() | 初始化[`ColorRange`](../colorrange)类. |
-| [ColorRange](colorrange#constructor_1)(Color) | 初始化[`ColorRange`](../colorrange)具有指定确切颜色的类。 |
+| [ColorRange](colorrange#constructor)() | 初始化一个新的实例[`ColorRange`](../colorrange)类. |
+| [ColorRange](colorrange#constructor_1)(Color) | 初始化一个新的实例[`ColorRange`](../colorrange)具有指定确切颜色的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsEmpty](../../groupdocs.watermark.search.searchcriteria/colorrange/isempty) { get; set; } | 获取或设置一个值，指示是否只有空颜色在范围内。 |
+| [IsEmpty](../../groupdocs.watermark.search.searchcriteria/colorrange/isempty) { get; set; } | 获取或设置一个值，该值指示是否只有空颜色在范围内。 |
 | [MaxBrightness](../../groupdocs.watermark.search.searchcriteria/colorrange/maxbrightness) { get; set; } | 获取或设置结束亮度值。 |
 | [MaxHue](../../groupdocs.watermark.search.searchcriteria/colorrange/maxhue) { get; set; } | 获取或设置结束色调值，以度为单位。 |
 | [MaxSaturation](../../groupdocs.watermark.search.searchcriteria/colorrange/maxsaturation) { get; set; } | 获取或设置结束饱和值。 |

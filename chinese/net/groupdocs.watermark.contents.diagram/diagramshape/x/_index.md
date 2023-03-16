@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的水平偏移量DiagramShapegroupdocs.watermark.contents.diagram/diagramshape从页面左边框开始
+description: 获取或设置此的水平偏移量DiagramShapegroupdocs.watermark.contents.diagram/diagramshape从页面左边框开始.
 type: docs
 weight: 110
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramshape/x/
 ---
 ## DiagramShape.X property
 
-获取或设置 this 的水平偏移量[`DiagramShape`](../../diagramshape)从页面左边框开始。
+获取或设置此的水平偏移量[`DiagramShape`](../../diagramshape)从页面左边框开始.
 
 ```csharp
 public double X { get; set; }

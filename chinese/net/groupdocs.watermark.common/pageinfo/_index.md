@@ -1,14 +1,14 @@
 ---
 title: PageInfo
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示文档页面描述
+description: 代表一个文档页面描述
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.common/pageinfo/
 ---
 ## PageInfo class
 
-表示文档页面描述。
+代表一个文档页面描述。
 
 ```csharp
 public sealed class PageInfo

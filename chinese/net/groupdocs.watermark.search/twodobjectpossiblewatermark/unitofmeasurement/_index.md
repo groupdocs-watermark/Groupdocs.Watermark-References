@@ -1,14 +1,14 @@
 ---
 title: UnitOfMeasurement
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 2D 对象的测量单位
+description: 获取二维对象的测量单位
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.search/twodobjectpossiblewatermark/unitofmeasurement/
 ---
 ## TwoDObjectPossibleWatermark.UnitOfMeasurement property
 
-获取 2D 对象的测量单位。
+获取二维对象的测量单位。
 
 ```csharp
 public override UnitOfMeasurement UnitOfMeasurement { get; }
@@ -16,7 +16,7 @@ public override UnitOfMeasurement UnitOfMeasurement { get; }
 
 ### 适当的价值
 
-2D 对象的测量单位。
+二维对象的测量单位。
 
 ### 也可以看看
 

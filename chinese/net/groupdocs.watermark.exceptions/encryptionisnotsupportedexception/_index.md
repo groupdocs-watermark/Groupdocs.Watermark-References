@@ -8,7 +8,7 @@ url: /zh/net/groupdocs.watermark.exceptions/encryptionisnotsupportedexception/
 ---
 ## EncryptionIsNotSupportedException class
 
-不支持内容加密时抛出的异常
+不支持内容加密时抛出的异常。
 
 ```csharp
 public class EncryptionIsNotSupportedException : WatermarkException
@@ -18,7 +18,7 @@ public class EncryptionIsNotSupportedException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EncryptionIsNotSupportedException](encryptionisnotsupportedexception)() | 初始化[`EncryptionIsNotSupportedException`](../encryptionisnotsupportedexception)类. |
+| [EncryptionIsNotSupportedException](encryptionisnotsupportedexception)() | 初始化一个新的实例[`EncryptionIsNotSupportedException`](../encryptionisnotsupportedexception)类. |
 
 ### 也可以看看
 

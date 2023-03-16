@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度PdfAnnotationgroupdocs.watermark.contents.pdf/pdfannotation以点为单位
+description: 得到这个的宽度PdfAnnotationgroupdocs.watermark.contents.pdf/pdfannotation点.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfannotation/width/
 ---
 ## PdfAnnotation.Width property
 
-获取这个的宽度[`PdfAnnotation`](../../pdfannotation)以点为单位。
+得到这个的宽度[`PdfAnnotation`](../../pdfannotation)点.
 
 ```csharp
 public override double Width { get; }
@@ -16,7 +16,7 @@ public override double Width { get; }
 
 ### 适当的价值
 
-这个宽度[`PdfAnnotation`](../../pdfannotation)在点。
+这个的宽度[`PdfAnnotation`](../../pdfannotation)分。
 
 ### 也可以看看
 

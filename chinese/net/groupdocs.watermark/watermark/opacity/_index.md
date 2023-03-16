@@ -1,14 +1,14 @@
 ---
 title: Opacity
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的不透明度Watermarkgroupdocs.watermark/watermark.
+description: 获取或设置这个的不透明度Watermarkgroupdocs.watermark/watermark.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark/watermark/opacity/
 ---
 ## Watermark.Opacity property
 
-获取或设置 this 的不透明度[`Watermark`](../../watermark).
+获取或设置这个的不透明度[`Watermark`](../../watermark).
 
 ```csharp
 public double Opacity { get; set; }
@@ -16,11 +16,11 @@ public double Opacity { get; set; }
 
 ### 适当的价值
 
-这个不透明[`Watermark`](../../watermark).
+这个的不透明度[`Watermark`](../../watermark).
 
 ### 评论
 
-opacity的值应该在0到1之间。默认值为1。
+opacity的值应该在0到1之间。默认值为1.
 
 ### 也可以看看
 

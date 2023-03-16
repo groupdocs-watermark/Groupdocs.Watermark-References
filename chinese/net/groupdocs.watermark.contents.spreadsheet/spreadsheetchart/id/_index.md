@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的标识符SpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart.
+description: 得到这个的标识符SpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/id/
 ---
 ## SpreadsheetChart.Id property
 
-获取这个的标识符[`SpreadsheetChart`](../../spreadsheetchart).
+得到这个的标识符[`SpreadsheetChart`](../../spreadsheetchart).
 
 ```csharp
 public int Id { get; }
@@ -16,7 +16,7 @@ public int Id { get; }
 
 ### 适当的价值
 
-这个标识符[`SpreadsheetChart`](../../spreadsheetchart).
+这个的标识符[`SpreadsheetChart`](../../spreadsheetchart).
 
 ### 也可以看看
 

@@ -18,7 +18,7 @@ public class MultiframeImageLoadOptions : ImageLoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MultiframeImageLoadOptions](multiframeimageloadoptions)() | 初始化[`MultiframeImageLoadOptions`](../multiframeimageloadoptions)类. |
+| [MultiframeImageLoadOptions](multiframeimageloadoptions)() | 初始化一个新的实例[`MultiframeImageLoadOptions`](../multiframeimageloadoptions)类. |
 
 ## 特性
 

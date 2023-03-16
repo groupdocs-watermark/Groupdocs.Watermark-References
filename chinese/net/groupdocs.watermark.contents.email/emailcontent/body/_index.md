@@ -1,14 +1,14 @@
 ---
 title: Body
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置消息正文的纯文本表示
+description: 获取或设置消息正文的纯文本表示形式
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.email/emailcontent/body/
 ---
 ## EmailContent.Body property
 
-获取或设置消息正文的纯文本表示。
+获取或设置消息正文的纯文本表示形式。
 
 ```csharp
 public string Body { get; set; }

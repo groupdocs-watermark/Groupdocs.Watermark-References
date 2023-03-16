@@ -18,7 +18,7 @@ public sealed class TiffImageLoadOptions : MultiframeImageLoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TiffImageLoadOptions](tiffimageloadoptions)() | 初始化[`TiffImageLoadOptions`](../tiffimageloadoptions)类. |
+| [TiffImageLoadOptions](tiffimageloadoptions)() | 初始化一个新的实例[`TiffImageLoadOptions`](../tiffimageloadoptions)类. |
 
 ## 特性
 

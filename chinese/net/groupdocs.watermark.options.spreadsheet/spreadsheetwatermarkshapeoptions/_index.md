@@ -18,7 +18,7 @@ public sealed class SpreadsheetWatermarkShapeOptions : SpreadsheetWatermarkBaseO
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetWatermarkShapeOptions](spreadsheetwatermarkshapeoptions)() | 初始化[`SpreadsheetWatermarkShapeOptions`](../spreadsheetwatermarkshapeoptions)类. |
+| [SpreadsheetWatermarkShapeOptions](spreadsheetwatermarkshapeoptions)() | 初始化一个新的实例[`SpreadsheetWatermarkShapeOptions`](../spreadsheetwatermarkshapeoptions)类. |
 
 ## 特性
 
@@ -28,17 +28,17 @@ public sealed class SpreadsheetWatermarkShapeOptions : SpreadsheetWatermarkBaseO
 | [Effects](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/effects) { get; set; } | 获取或设置一个值[`SpreadsheetImageEffects`](../spreadsheetimageeffects)or [`SpreadsheetTextEffects`](../spreadsheettexteffects)对于应该应用于水印的效果。 |
 | [IsLocked](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/islocked) { get; set; } | 获取或设置一个值，该值指示是否禁止在 Excel 中编辑形状。 |
 | [Name](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/name) { get; set; } | 获取或设置形状的名称。 |
-| [WorksheetIndex](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/worksheetindex) { get; set; } | 获取或设置要添加水印的工作表的索引。 |
+| [WorksheetIndex](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/worksheetindex) { get; set; } | 获取或设置要添加水印的工作表索引。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [向电子表格文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 
 ### 例子
 
-向 Excel 文档的特定工作表添加水印。
+将水印添加到 Excel 文档的特定工作表。
 
 ```csharp
 SpreadsheetLoadOptions loadOptions = new SpreadsheetLoadOptions();

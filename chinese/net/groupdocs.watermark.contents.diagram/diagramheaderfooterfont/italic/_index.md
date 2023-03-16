@@ -1,14 +1,14 @@
 ---
 title: Italic
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置字体是否为斜体的值
+description: 获取或设置一个值指示字体是否为斜体
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/italic/
 ---
 ## DiagramHeaderFooterFont.Italic property
 
-获取或设置字体是否为斜体的值。
+获取或设置一个值，指示字体是否为斜体。
 
 ```csharp
 public bool Italic { get; set; }
@@ -16,7 +16,7 @@ public bool Italic { get; set; }
 
 ### 适当的价值
 
-如果此字体为斜体则为真；否则为假。
+如果此字体为斜体，则为真；否则，假的。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的水平偏移量PdfAnnotationgroupdocs.watermark.contents.pdf/pdfannotation从页面左边框开始
+description: 得到这个的水平偏移量PdfAnnotationgroupdocs.watermark.contents.pdf/pdfannotation从页面左边框开始.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfannotation/x/
 ---
 ## PdfAnnotation.X property
 
-获取 this 的水平偏移量[`PdfAnnotation`](../../pdfannotation)从页面左边框开始。
+得到这个的水平偏移量[`PdfAnnotation`](../../pdfannotation)从页面左边框开始.
 
 ```csharp
 public override double X { get; }

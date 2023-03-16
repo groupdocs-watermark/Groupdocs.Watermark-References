@@ -1,14 +1,14 @@
 ---
 title: Worksheet
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此工作表的父工作表SpreadsheetHeaderFootergroupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter.
+description: 获取这个的父工作表SpreadsheetHeaderFootergroupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/worksheet/
 ---
 ## SpreadsheetHeaderFooter.Worksheet property
 
-获取此工作表的父工作表[`SpreadsheetHeaderFooter`](../../spreadsheetheaderfooter).
+获取这个的父工作表[`SpreadsheetHeaderFooter`](../../spreadsheetheaderfooter).
 
 ```csharp
 public SpreadsheetWorksheet Worksheet { get; }
@@ -16,7 +16,7 @@ public SpreadsheetWorksheet Worksheet { get; }
 
 ### 适当的价值
 
-此的父工作表[`SpreadsheetHeaderFooter`](../../spreadsheetheaderfooter).
+这个的父工作表[`SpreadsheetHeaderFooter`](../../spreadsheetheaderfooter).
 
 ### 也可以看看
 

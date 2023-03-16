@@ -1,14 +1,14 @@
 ---
 title: ShapeSearchAdapter
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 为包含要包含在 watermark 搜索中的特定文档片段的形状提供基类
+description: 为包含要包含在 watermark search. 中的特定文档片段的形状提供基类
 type: docs
 weight: 2720
 url: /zh/net/groupdocs.watermark.search/shapesearchadapter/
 ---
 ## ShapeSearchAdapter class
 
-为包含要包含在 watermark 搜索中的特定文档片段的形状提供基类。
+为包含要包含在 watermark search. 中的特定文档片段的形状提供基类
 
 ```csharp
 public abstract class ShapeSearchAdapter

@@ -1,14 +1,14 @@
 ---
 title: PreviewNotSupportedException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PreviewNotSupportedExceptiongroupdocs.watermark.exceptions/previewnotsupportedexception类.
+description: 初始化一个新的实例PreviewNotSupportedExceptiongroupdocs.watermark.exceptions/previewnotsupportedexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/previewnotsupportedexception/previewnotsupportedexception/
 ---
 ## PreviewNotSupportedException constructor
 
-初始化[`PreviewNotSupportedException`](../../previewnotsupportedexception)类.
+初始化一个新的实例[`PreviewNotSupportedException`](../../previewnotsupportedexception)类.
 
 ```csharp
 public PreviewNotSupportedException()

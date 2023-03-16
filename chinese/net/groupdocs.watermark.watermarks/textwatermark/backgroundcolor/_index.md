@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置文本的背景颜色
+description: 获取或设置文本的背景色
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.watermarks/textwatermark/backgroundcolor/
 ---
 ## TextWatermark.BackgroundColor property
 
-获取或设置文本的背景颜色。
+获取或设置文本的背景色。
 
 ```csharp
 public Color BackgroundColor { get; set; }

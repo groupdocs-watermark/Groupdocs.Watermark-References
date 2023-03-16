@@ -160,29 +160,29 @@ public struct Color
 | static [WhiteSmoke](../../groupdocs.watermark.watermarks/color/whitesmoke) { get; } | 获取系统定义的颜色。 |
 | static [Yellow](../../groupdocs.watermark.watermarks/color/yellow) { get; } | 获取系统定义的颜色。 |
 | static [YellowGreen](../../groupdocs.watermark.watermarks/color/yellowgreen) { get; } | 获取系统定义的颜色。 |
-| [A](../../groupdocs.watermark.watermarks/color/a) { get; } | 获取颜色的 alpha 分量值。 |
+| [A](../../groupdocs.watermark.watermarks/color/a) { get; } | 获取颜色的alpha分量值。 |
 | [B](../../groupdocs.watermark.watermarks/color/b) { get; } | 获取颜色的蓝色分量值。 |
 | [G](../../groupdocs.watermark.watermarks/color/g) { get; } | 获取颜色的绿色分量值。 |
-| [IsEmpty](../../groupdocs.watermark.watermarks/color/isempty) { get; } | 获取一个值，该值指示这是否[`Color`](../color)结构未初始化。 |
+| [IsEmpty](../../groupdocs.watermark.watermarks/color/isempty) { get; } | 获取一个值，指示是否这[`Color`](../color)结构未初始化. |
 | [R](../../groupdocs.watermark.watermarks/color/r) { get; } | 获取颜色的红色分量值。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| static [FromArgb](../../groupdocs.watermark.watermarks/color/fromargb#fromargb)(int) | 创建一个[`Color`](../color)来自 32 位 ARGB 值的结构。 |
-| static [FromArgb](../../groupdocs.watermark.watermarks/color/fromargb#fromargb_1)(int, Color) | 创建一个[`Color`](../color)从指定的结构[`Color`](../color)结构， ，但具有新的指定 alpha 值。 |
-| static [FromArgb](../../groupdocs.watermark.watermarks/color/fromargb#fromargb_2)(int, int, int) | 创建一个[`Color`](../color)来自指定的 8 位颜色值（红色、绿色和蓝色）和 的结构，alpha 值隐式为 255（完全不透明）。 |
-| static [FromArgb](../../groupdocs.watermark.watermarks/color/fromargb#fromargb_3)(int, int, int, int) | 创建一个[`Color`](../color)四个 ARGB 分量（alpha、红色、绿色和蓝色）值的结构。 |
-| [Equals](../../groupdocs.watermark.watermarks/color/equals#equals)(Color) | 判断是否指定[`Color`](../color)结构相当于这个[`Color`](../color)结构. |
-| override [Equals](../../groupdocs.watermark.watermarks/color/equals#equals_1)(object) | 判断指定对象是否为[`Color`](../color)&gt; 结构和等价于 this[`Color`](../color)结构. |
-| [GetBrightness](../../groupdocs.watermark.watermarks/color/getbrightness)() | 获取此颜色的色相饱和度 (HSB) 亮度值[`Color`](../color)结构. |
-| override [GetHashCode](../../groupdocs.watermark.watermarks/color/gethashcode)() | 获取此哈希码[`Color`](../color)结构. |
+| static [FromArgb](../../groupdocs.watermark.watermarks/color/fromargb#fromargb)(int) | 创建一个[`Color`](../color)来自 32 位 ARGB 值的结构. |
+| static [FromArgb](../../groupdocs.watermark.watermarks/color/fromargb#fromargb_1)(int, Color) | 创建一个[`Color`](../color)从指定的结构[`Color`](../color)结构， 但具有新指定的 alpha 值。 |
+| static [FromArgb](../../groupdocs.watermark.watermarks/color/fromargb#fromargb_2)(int, int, int) | 创建一个[`Color`](../color)来自指定 8 位颜色值（红色、绿色和蓝色）的结构和 alpha 值隐式为 255（完全不透明）。 |
+| static [FromArgb](../../groupdocs.watermark.watermarks/color/fromargb#fromargb_3)(int, int, int, int) | 创建一个[`Color`](../color)来自四个 ARGB 分量（alpha、红色、绿色和蓝色）值的结构。 |
+| [Equals](../../groupdocs.watermark.watermarks/color/equals#equals)(Color) | 判断指定的是否[`Color`](../color)结构相当于这个[`Color`](../color)结构. |
+| override [Equals](../../groupdocs.watermark.watermarks/color/equals#equals_1)(object) | 判断指定对象是否为[`Color`](../color)&gt; 结构和相当于 这个[`Color`](../color)结构. |
+| [GetBrightness](../../groupdocs.watermark.watermarks/color/getbrightness)() | 获取此色调-饱和度-亮度 (HSB) 亮度值[`Color`](../color)结构. |
+| override [GetHashCode](../../groupdocs.watermark.watermarks/color/gethashcode)() | 获取这个的哈希码[`Color`](../color)结构. |
 | [GetHue](../../groupdocs.watermark.watermarks/color/gethue)() | 获取色调-饱和度-亮度 (HSB) 色调值，以度为单位，为此[`Color`](../color)结构. |
-| [GetSaturation](../../groupdocs.watermark.watermarks/color/getsaturation)() | 获取此颜色的色相饱和度 (HSB) 饱和度值[`Color`](../color)结构. |
-| [ToArgb](../../groupdocs.watermark.watermarks/color/toargb)() | 获取这个的 32 位 ARGB 值[`Color`](../color)结构. |
-| [operator ==](../../groupdocs.watermark.watermarks/color/op_equality) | 判断两个是否指定[`Color`](../color)结构是等价的。 |
-| [operator !=](../../groupdocs.watermark.watermarks/color/op_inequality) | 判断两个是否指定[`Color`](../color)结构不同。 |
+| [GetSaturation](../../groupdocs.watermark.watermarks/color/getsaturation)() | 获取此色调-饱和度-亮度 (HSB) 饱和度值[`Color`](../color)结构. |
+| [ToArgb](../../groupdocs.watermark.watermarks/color/toargb)() | 得到这个的32位ARGB值[`Color`](../color)结构. |
+| [operator ==](../../groupdocs.watermark.watermarks/color/op_equality) | 判断是否指定了两个[`Color`](../color)结构是等价的。 |
+| [operator !=](../../groupdocs.watermark.watermarks/color/op_inequality) | 判断是否指定了两个[`Color`](../color)结构不同. |
 
 ### 也可以看看
 

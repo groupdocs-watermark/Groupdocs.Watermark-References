@@ -19,18 +19,18 @@ public enum FormatFamily
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Unknown | `0` | 未知格式系列。 |
-| Diagram | `1` | 图表格式族. |
+| Diagram | `1` | 图表格式系列. |
 | Email | `2` | 电子邮件格式系列。 |
 | Image | `3` | 图像格式系列。 |
-| MultiframeImage | `4` | 多帧图像格式系列。 |
-| Pdf | `5` | PDF 格式族. |
-| Presentation | `6` | 演示格式系列。 |
+| MultiframeImage | `4` | 多帧图像格式系列. |
+| Pdf | `5` | PDF 格式系列. |
+| Presentation | `6` | 演示文稿格式系列。 |
 | Spreadsheet | `7` | 电子表格格式系列。 |
-| WordProcessing | `8` | 文字处理格式族. |
+| WordProcessing | `8` | 字处理格式系列。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [支持的文档格式](https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats)
 * [获取支持的文件格式](https://docs.groupdocs.com/display/watermarknet/Get+supported+file+formats)

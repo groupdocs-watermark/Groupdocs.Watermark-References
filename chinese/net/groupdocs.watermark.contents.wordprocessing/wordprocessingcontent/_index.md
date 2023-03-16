@@ -18,8 +18,8 @@ public class WordProcessingContent : Content
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PageCount](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/pagecount) { get; } | 获取文档的页数。 |
-| [Sections](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/sections) { get; } | 获取此所有部分的集合[`WordProcessingContent`](../wordprocessingcontent). |
+| [PageCount](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/pagecount) { get; } | 获取文档中的页数。 |
+| [Sections](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/sections) { get; } | 获取此所有节的集合[`WordProcessingContent`](../wordprocessingcontent). |
 
 ## 方法
 
@@ -28,19 +28,19 @@ public class WordProcessingContent : Content
 | [Decrypt](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/decrypt)() | 解密文档。 |
 | [Dispose](../../groupdocs.watermark.contents/content/dispose)() | 处理当前实例。 |
 | [Encrypt](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/encrypt)(string) | 加密文档。 |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Protect](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/protect)(WordProcessingProtectionType, string) | 保护文档不被更改并设置保护密码。 |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Unprotect](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/unprotect)() | 无论密码如何，都删除文档的保护。 |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Protect](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/protect)(WordProcessingProtectionType, string) | 保护文档免受更改并设置保护密码。 |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Unprotect](../../groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/unprotect)() | 无论密码如何，都从文档中删除保护。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为文字处理文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents)
-* [文字处理文档中的现有对象](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+word+processing+document)
+* [字处理文档中的现有对象](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+word+processing+document)
 * [在文字处理文档中锁定水印](https://docs.groupdocs.com/display/watermarknet/Locking+watermark+in+word+processing+document)
 * [保护文字处理文档](https://docs.groupdocs.com/display/watermarknet/Protecting+word+processing+documents)
 * [文字处理文档中的水印](https://docs.groupdocs.com/display/watermarknet/Watermarks+in+word+processing+document)

@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此名称PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape.
+description: 获取这个的名字PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationbaseshape/name/
 ---
 ## PresentationBaseShape.Name property
 
-获取此名称[`PresentationBaseShape`](../../presentationbaseshape).
+获取这个的名字[`PresentationBaseShape`](../../presentationbaseshape).
 
 ```csharp
 public string Name { get; }
@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### 适当的价值
 
-这个名字[`PresentationBaseShape`](../../presentationbaseshape).
+这个的名字[`PresentationBaseShape`](../../presentationbaseshape).
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: PdfAnnotationWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示在pdf文档中添加注释水印时添加水印选项
+description: 表示给pdf文档添加注释水印时添加水印的选项
 type: docs
 weight: 1860
 url: /zh/net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/
 ---
 ## PdfAnnotationWatermarkOptions class
 
-表示在pdf文档中添加注释水印时添加水印选项。
+表示给pdf文档添加注释水印时添加水印的选项。
 
 ```csharp
 public sealed class PdfAnnotationWatermarkOptions : PdfWatermarkOptions
@@ -18,24 +18,24 @@ public sealed class PdfAnnotationWatermarkOptions : PdfWatermarkOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfAnnotationWatermarkOptions](pdfannotationwatermarkoptions)() | 初始化[`PdfAnnotationWatermarkOptions`](../pdfannotationwatermarkoptions)类. |
+| [PdfAnnotationWatermarkOptions](pdfannotationwatermarkoptions)() | 初始化一个新的实例[`PdfAnnotationWatermarkOptions`](../pdfannotationwatermarkoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
 | [PageIndex](../../groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/pageindex) { get; set; } | 获取或设置要添加水印的页面索引。 |
-| [PrintOnly](../../groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/printonly) { get; set; } | 获取或设置是否打印注释的值，但在pdf查看应用程序中不显示 。 |
+| [PrintOnly](../../groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/printonly) { get; set; } | 获取或设置是否打印批注的值，但不在 pdf 查看应用程序中显示 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为 PDF 文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 
 ### 例子
 
-在 PDF 文档中添加图像注释水印。
+将图像注释水印添加到 PDF 文档。
 
 ```csharp
 PdfLoadOptions loadOptions = new PdfLoadOptions();

@@ -18,8 +18,8 @@ public class OoxmlLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OoxmlLoadOptions](ooxmlloadoptions#constructor)() | 初始化[`OoxmlLoadOptions`](../ooxmlloadoptions)类. |
-| [OoxmlLoadOptions](ooxmlloadoptions#constructor_1)(string) | 初始化[`OoxmlLoadOptions`](../ooxmlloadoptions)具有指定密码的类。 |
+| [OoxmlLoadOptions](ooxmlloadoptions#constructor)() | 初始化一个新的实例[`OoxmlLoadOptions`](../ooxmlloadoptions)类. |
+| [OoxmlLoadOptions](ooxmlloadoptions#constructor_1)(string) | 初始化一个新的实例[`OoxmlLoadOptions`](../ooxmlloadoptions)具有指定密码的类. |
 
 ## 特性
 

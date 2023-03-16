@@ -1,14 +1,14 @@
 ---
 title: MaximumAngle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以度为单位获取结束角度
+description: 获取以度为单位的结束角度
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria/maximumangle/
 ---
 ## RotateAngleSearchCriteria.MaximumAngle property
 
-以度为单位获取结束角度。
+获取以度为单位的结束角度。
 
 ```csharp
 public double MaximumAngle { get; }

@@ -18,14 +18,14 @@ public enum HorizontalAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不对齐（使用指定位置）。 |
-| Left | `1` | 左对齐。 |
+| None | `0` | 没有对齐（使用指定位置）。 |
+| Left | `1` | 左对齐. |
 | Center | `2` | 居中对齐。 |
-| Right | `3` | 向右对齐。 |
+| Right | `3` | 右对齐. |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [添加文字或图片水印](https://docs.groupdocs.com/display/watermarknet/Add+text+or+image+watermark)
 * [添加水印](https://docs.groupdocs.com/display/watermarknet/Adding+watermarks)

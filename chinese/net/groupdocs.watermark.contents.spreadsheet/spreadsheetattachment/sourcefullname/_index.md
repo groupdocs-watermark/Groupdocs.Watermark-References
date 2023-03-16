@@ -16,7 +16,7 @@ public string SourceFullName { get; }
 
 ### 适当的价值
 
-附件的全名。
+附加文件的全名。
 
 ### 评论
 

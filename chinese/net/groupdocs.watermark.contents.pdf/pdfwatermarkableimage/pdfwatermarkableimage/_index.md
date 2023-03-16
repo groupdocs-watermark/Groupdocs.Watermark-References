@@ -1,14 +1,14 @@
 ---
 title: PdfWatermarkableImage
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PdfWatermarkableImagegroupdocs.watermark.contents.pdf/pdfwatermarkableimage使用指定图像数据的类
+description: 初始化一个新的实例PdfWatermarkableImagegroupdocs.watermark.contents.pdf/pdfwatermarkableimage使用指定图像数据的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfwatermarkableimage/pdfwatermarkableimage/
 ---
 ## PdfWatermarkableImage constructor
 
-初始化[`PdfWatermarkableImage`](../../pdfwatermarkableimage)使用指定图像数据的类。
+初始化一个新的实例[`PdfWatermarkableImage`](../../pdfwatermarkableimage)使用指定图像数据的类.
 
 ```csharp
 public PdfWatermarkableImage(byte[] imageData)

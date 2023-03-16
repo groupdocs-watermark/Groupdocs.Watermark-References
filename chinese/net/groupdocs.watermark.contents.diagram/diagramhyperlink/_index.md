@@ -20,7 +20,7 @@ public class DiagramHyperlink
 | --- | --- |
 | [Address](../../groupdocs.watermark.contents.diagram/diagramhyperlink/address) { get; } | 获取超链接地址。 |
 | [Description](../../groupdocs.watermark.contents.diagram/diagramhyperlink/description) { get; } | 获取超链接的描述。 |
-| [SubAddress](../../groupdocs.watermark.contents.diagram/diagramhyperlink/subaddress) { get; } | 获取目标内容中要链接到的位置。 |
+| [SubAddress](../../groupdocs.watermark.contents.diagram/diagramhyperlink/subaddress) { get; } | 获取要链接到的目标内容中的位置。 |
 
 ### 也可以看看
 

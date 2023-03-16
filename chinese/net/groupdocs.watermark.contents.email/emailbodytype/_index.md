@@ -1,14 +1,14 @@
 ---
 title: EmailBodyType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示邮件正文的内容类型
+description: 表示电子邮件正文的内容类型
 type: docs
 weight: 320
 url: /zh/net/groupdocs.watermark.contents.email/emailbodytype/
 ---
 ## EmailBodyType enumeration
 
-表示邮件正文的内容类型。
+表示电子邮件正文的内容类型。
 
 ```csharp
 public enum EmailBodyType
@@ -19,7 +19,7 @@ public enum EmailBodyType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | PlainText | `0` | 纯文本正文。 |
-| Html | `1` | Html 格式的正文。 |
+| Html | `1` | Html 格式的主体。 |
 
 ### 也可以看看
 

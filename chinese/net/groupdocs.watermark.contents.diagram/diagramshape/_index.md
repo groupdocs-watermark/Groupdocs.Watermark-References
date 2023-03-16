@@ -18,18 +18,18 @@ public class DiagramShape : ShapeSearchAdapter, IRotatableTwoDObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FormattedTextFragments](../../groupdocs.watermark.contents.diagram/diagramshape/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`DiagramShape`](../diagramshape). |
-| [Height](../../groupdocs.watermark.contents.diagram/diagramshape/height) { get; set; } | 获取或设置 this 的高度[`DiagramShape`](../diagramshape)以点为单位。 |
-| [Hyperlinks](../../groupdocs.watermark.contents.diagram/diagramshape/hyperlinks) { get; } | 获取附加到此的超链接的集合[`DiagramShape`](../diagramshape). |
-| [Id](../../groupdocs.watermark.contents.diagram/diagramshape/id) { get; } | 获取这个的标识符[`DiagramShape`](../diagramshape). |
+| [FormattedTextFragments](../../groupdocs.watermark.contents.diagram/diagramshape/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`DiagramShape`](../diagramshape). |
+| [Height](../../groupdocs.watermark.contents.diagram/diagramshape/height) { get; set; } | 获取或设置此高度[`DiagramShape`](../diagramshape)点. |
+| [Hyperlinks](../../groupdocs.watermark.contents.diagram/diagramshape/hyperlinks) { get; } | 获取附加到此的超链接集合[`DiagramShape`](../diagramshape). |
+| [Id](../../groupdocs.watermark.contents.diagram/diagramshape/id) { get; } | 得到这个的标识符[`DiagramShape`](../diagramshape). |
 | [Image](../../groupdocs.watermark.contents.diagram/diagramshape/image) { get; set; } | 获取或设置此图像[`DiagramShape`](../diagramshape). |
-| [Name](../../groupdocs.watermark.contents.diagram/diagramshape/name) { get; } | 获取此名称[`DiagramShape`](../diagramshape). |
+| [Name](../../groupdocs.watermark.contents.diagram/diagramshape/name) { get; } | 获取这个的名字[`DiagramShape`](../diagramshape). |
 | [Page](../../groupdocs.watermark.contents.diagram/diagramshape/page) { get; } | 获取这个的父页面[`DiagramShape`](../diagramshape). |
-| [RotateAngle](../../groupdocs.watermark.contents.diagram/diagramshape/rotateangle) { get; set; } | 获取或设置 this 的旋转角度[`DiagramShape`](../diagramshape)度数. |
-| [Text](../../groupdocs.watermark.contents.diagram/diagramshape/text) { get; set; } | 获取或设置 this 的文本[`DiagramShape`](../diagramshape). |
-| [Width](../../groupdocs.watermark.contents.diagram/diagramshape/width) { get; set; } | 获取或设置 this 的宽度[`DiagramShape`](../diagramshape)以点为单位。 |
-| [X](../../groupdocs.watermark.contents.diagram/diagramshape/x) { get; set; } | 获取或设置 this 的水平偏移量[`DiagramShape`](../diagramshape)从页面左边框开始。 |
-| [Y](../../groupdocs.watermark.contents.diagram/diagramshape/y) { get; set; } | 获取或设置 this 的垂直偏移量[`DiagramShape`](../diagramshape)从页面底部边框以点为单位。 |
+| [RotateAngle](../../groupdocs.watermark.contents.diagram/diagramshape/rotateangle) { get; set; } | 获取或设置旋转角度[`DiagramShape`](../diagramshape)以度为单位. |
+| [Text](../../groupdocs.watermark.contents.diagram/diagramshape/text) { get; set; } | 获取或设置此文本[`DiagramShape`](../diagramshape). |
+| [Width](../../groupdocs.watermark.contents.diagram/diagramshape/width) { get; set; } | 获取或设置宽度[`DiagramShape`](../diagramshape)点. |
+| [X](../../groupdocs.watermark.contents.diagram/diagramshape/x) { get; set; } | 获取或设置此的水平偏移量[`DiagramShape`](../diagramshape)从页面左边框开始. |
+| [Y](../../groupdocs.watermark.contents.diagram/diagramshape/y) { get; set; } | 获取或设置此的垂直偏移量[`DiagramShape`](../diagramshape)从页面底部边框开始. |
 
 ### 也可以看看
 

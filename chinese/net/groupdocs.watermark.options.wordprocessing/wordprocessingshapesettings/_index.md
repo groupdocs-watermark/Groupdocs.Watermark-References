@@ -18,7 +18,7 @@ public sealed class WordProcessingShapeSettings : OfficeShapeSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WordProcessingShapeSettings](wordprocessingshapesettings)() | 初始化[`WordProcessingShapeSettings`](../wordprocessingshapesettings)类. |
+| [WordProcessingShapeSettings](wordprocessingshapesettings)() | 初始化一个新的实例[`WordProcessingShapeSettings`](../wordprocessingshapesettings)类. |
 
 ## 特性
 
@@ -26,9 +26,9 @@ public sealed class WordProcessingShapeSettings : OfficeShapeSettings
 | --- | --- |
 | [AlternativeText](../../groupdocs.watermark.contents/officeshapesettings/alternativetext) { get; set; } | 获取或设置将与形状关联的描述性（替代）文本。 |
 | [IsLocked](../../groupdocs.watermark.options.wordprocessing/wordprocessingshapesettings/islocked) { get; set; } | 获取或设置一个值，该值指示是否禁止在 Word 中编辑形状。 |
-| [LockType](../../groupdocs.watermark.options.wordprocessing/wordprocessingshapesettings/locktype) { get; set; } | 获取或设置水印锁定类型。 |
+| [LockType](../../groupdocs.watermark.options.wordprocessing/wordprocessingshapesettings/locktype) { get; set; } | 获取或设置水印锁类型。 |
 | [Name](../../groupdocs.watermark.contents/officeshapesettings/name) { get; set; } | 获取或设置形状的名称。 |
-| [PageNumbers](../../groupdocs.watermark.options.wordprocessing/wordprocessingshapesettings/pagenumbers) { get; set; } | 获取或设置添加水印的页码 |
+| [PageNumbers](../../groupdocs.watermark.options.wordprocessing/wordprocessingshapesettings/pagenumbers) { get; set; } | 获取或设置添加水印的页码。 |
 | [Password](../../groupdocs.watermark.options.wordprocessing/wordprocessingshapesettings/password) { get; set; } | 获取或设置用于锁定水印的密码。 |
 
 ### 也可以看看

@@ -1,14 +1,14 @@
 ---
 title: WordProcessingSectionCollection
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Word 文档中的部分集合
+description: 表示 Word 文档中节的集合
 type: docs
 weight: 1380
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingsectioncollection/
 ---
 ## WordProcessingSectionCollection class
 
-表示 Word 文档中的部分集合。
+表示 Word 文档中节的集合。
 
 ```csharp
 public class WordProcessingSectionCollection : ReadOnlyListBase<WordProcessingSection>
@@ -19,7 +19,7 @@ public class WordProcessingSectionCollection : ReadOnlyListBase<WordProcessingSe
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | 获取集合中包含的元素数。 |
-| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } | 获取一个值，该值指示该集合是否为只读。 |
+| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } | 获取一个值，指示集合是否为只读。 |
 | virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | 获取集合中指定索引处的元素。 |
 
 ## 方法
@@ -32,7 +32,7 @@ public class WordProcessingSectionCollection : ReadOnlyListBase<WordProcessingSe
 
 ### 评论
 
-此集合包含以下项目[`WordProcessingSection`](../wordprocessingsection)类型.
+此集合包含的项目[`WordProcessingSection`](../wordprocessingsection)类型.
 
 ### 也可以看看
 

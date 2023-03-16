@@ -18,16 +18,16 @@ public class PresentationChartBackgroundPossibleWatermark : TwoDObjectPossibleWa
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search/twodobjectpossiblewatermark/height) { get; } | 获取二维对象的高度。 |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/parent) { get; } | 获取这个的父级[`PresentationChartBackgroundPossibleWatermark`](../presentationchartbackgroundpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`PresentationChartBackgroundPossibleWatermark`](../presentationchartbackgroundpossiblewatermark)度数. |
-| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`PresentationChartBackgroundPossibleWatermark`](../presentationchartbackgroundpossiblewatermark). |
+| override [RotateAngle](../../groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`PresentationChartBackgroundPossibleWatermark`](../presentationchartbackgroundpossiblewatermark)以度为单位. |
+| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置此文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`PresentationChartBackgroundPossibleWatermark`](../presentationchartbackgroundpossiblewatermark). |
 | override [Width](../../groupdocs.watermark.search/twodobjectpossiblewatermark/width) { get; } | 获取二维对象的宽度。 |
-| override [X](../../groupdocs.watermark.search/twodobjectpossiblewatermark/x) { get; } | 获取 2D 对象的 x 坐标。 |
-| override [Y](../../groupdocs.watermark.search/twodobjectpossiblewatermark/y) { get; } | 获取 2D 对象的 y 坐标。 |
+| override [X](../../groupdocs.watermark.search/twodobjectpossiblewatermark/x) { get; } | 获取二维对象的 x 坐标。 |
+| override [Y](../../groupdocs.watermark.search/twodobjectpossiblewatermark/y) { get; } | 获取二维对象的y坐标。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ILogger
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 定义记录器的接口用于记录水印期间的事件和错误
+description: 定义用于在加水印期间记录事件和错误的记录器的接口
 type: docs
 weight: 1730
 url: /zh/net/groupdocs.watermark.options/ilogger/
 ---
 ## ILogger interface
 
-定义记录器的接口，用于记录水印期间的事件和错误。
+定义用于在加水印期间记录事件和错误的记录器的接口。
 
 ```csharp
 public interface ILogger
@@ -18,9 +18,9 @@ public interface ILogger
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Error](../../groupdocs.watermark.options/ilogger/error)(string, Exception) | 记录水印期间发生的错误。 |
-| [Trace](../../groupdocs.watermark.options/ilogger/trace)(string) | 记录水印期间发生的事件。 |
-| [Warning](../../groupdocs.watermark.options/ilogger/warning)(string) | 记录水印期间发生的警告。 |
+| [Error](../../groupdocs.watermark.options/ilogger/error)(string, Exception) | 记录加水印期间发生的错误。 |
+| [Trace](../../groupdocs.watermark.options/ilogger/trace)(string) | 记录加水印期间发生的事件。 |
+| [Warning](../../groupdocs.watermark.options/ilogger/warning)(string) | 记录加水印期间发生的警告。 |
 
 ### 也可以看看
 

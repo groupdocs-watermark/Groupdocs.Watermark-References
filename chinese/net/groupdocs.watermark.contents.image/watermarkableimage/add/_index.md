@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 添加水印WatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage. 此方法假定水印偏移量和大小以像素为单位如果已分配
+description: 为此添加水印WatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage. 此方法假定水印偏移量和大小以像素为单位测量如果已分配
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.image/watermarkableimage/add/
 ---
 ## WatermarkableImage.Add method
 
-添加水印[`WatermarkableImage`](../../watermarkableimage). 此方法假定水印偏移量和大小以像素为单位（如果已分配）。
+为此添加水印[`WatermarkableImage`](../../watermarkableimage). 此方法假定水印偏移量和大小以像素为单位测量（如果已分配）。
 
 ```csharp
 public void Add(Watermark watermark)
@@ -16,7 +16,7 @@ public void Add(Watermark watermark)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| watermark | Watermark | 添加到图像的水印。 |
+| watermark | Watermark | 要添加到图像的水印。 |
 
 ### 也可以看看
 

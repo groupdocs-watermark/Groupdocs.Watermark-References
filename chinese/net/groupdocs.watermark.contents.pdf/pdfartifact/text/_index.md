@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本PdfArtifactgroupdocs.watermark.contents.pdf/pdfartifact.
+description: 获取或设置此文本PdfArtifactgroupdocs.watermark.contents.pdf/pdfartifact.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfartifact/text/
 ---
 ## PdfArtifact.Text property
 
-获取或设置 this 的文本[`PdfArtifact`](../../pdfartifact).
+获取或设置此文本[`PdfArtifact`](../../pdfartifact).
 
 ```csharp
 public override string Text { get; set; }
@@ -16,7 +16,7 @@ public override string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`PdfArtifact`](../../pdfartifact).
+这一段的正文[`PdfArtifact`](../../pdfartifact).
 
 ### 也可以看看
 

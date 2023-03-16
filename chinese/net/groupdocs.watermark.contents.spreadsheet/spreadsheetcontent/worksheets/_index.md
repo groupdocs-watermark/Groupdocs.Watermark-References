@@ -16,7 +16,7 @@ public SpreadsheetWorksheetCollection Worksheets { get; }
 
 ### 适当的价值
 
-本次所有工作表的集合[`SpreadsheetContent`](../../spreadsheetcontent).
+所有工作表的集合[`SpreadsheetContent`](../../spreadsheetcontent).
 
 ### 也可以看看
 

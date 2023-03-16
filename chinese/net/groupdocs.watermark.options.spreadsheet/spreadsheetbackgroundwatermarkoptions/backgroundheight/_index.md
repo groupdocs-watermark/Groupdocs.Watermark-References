@@ -1,14 +1,14 @@
 ---
 title: BackgroundHeight
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置背景图像的所需高度以像素为单位
+description: 获取或设置所需的背景图像高度以像素为单位
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/backgroundheight/
 ---
 ## SpreadsheetBackgroundWatermarkOptions.BackgroundHeight property
 
-获取或设置背景图像的所需高度（以像素为单位）。
+获取或设置所需的背景图像高度（以像素为单位）。
 
 ```csharp
 public int BackgroundHeight { get; set; }
@@ -16,7 +16,7 @@ public int BackgroundHeight { get; set; }
 
 ### 适当的价值
 
-背景图像的所需高度（以像素为单位）。
+所需的背景图像高度（以像素为单位）。
 
 ### 也可以看看
 

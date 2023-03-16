@@ -19,14 +19,14 @@ public interface IDocumentInfo
 | 姓名 | 描述 |
 | --- | --- |
 | [FileType](../../groupdocs.watermark.common/idocumentinfo/filetype) { get; } | 获取文件格式描述。 |
-| [IsEncrypted](../../groupdocs.watermark.common/idocumentinfo/isencrypted) { get; } | 获取一个值，该值指示文档是否已加密并需要密码才能打开。 |
+| [IsEncrypted](../../groupdocs.watermark.common/idocumentinfo/isencrypted) { get; } | 获取一个值，表示文档是否加密，需要密码才能打开。 |
 | [PageCount](../../groupdocs.watermark.common/idocumentinfo/pagecount) { get; } | 获取总页数。 |
 | [Pages](../../groupdocs.watermark.common/idocumentinfo/pages) { get; } | 获取文档页面描述的集合。 |
 | [Size](../../groupdocs.watermark.common/idocumentinfo/size) { get; } | 以字节为单位获取文档大小。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [获取文档信息](https://docs.groupdocs.com/display/watermarknet/Get+document+info)
 

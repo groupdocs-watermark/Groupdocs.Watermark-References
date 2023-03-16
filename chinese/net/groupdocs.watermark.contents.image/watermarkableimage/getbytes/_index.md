@@ -1,14 +1,14 @@
 ---
 title: GetBytes
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以字节数组的形式获取图像
+description: 获取图像作为字节数组
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.image/watermarkableimage/getbytes/
 ---
 ## WatermarkableImage.GetBytes method
 
-以字节数组的形式获取图像。
+获取图像作为字节数组。
 
 ```csharp
 public byte[] GetBytes()

@@ -1,14 +1,14 @@
 ---
 title: BackgroundPage
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的背景页面DiagramPagegroupdocs.watermark.contents.diagram/diagrampage.
+description: 获取这个的后台页面DiagramPagegroupdocs.watermark.contents.diagram/diagrampage.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.diagram/diagrampage/backgroundpage/
 ---
 ## DiagramPage.BackgroundPage property
 
-获取这个的背景页面[`DiagramPage`](../../diagrampage).
+获取这个的后台页面[`DiagramPage`](../../diagrampage).
 
 ```csharp
 public DiagramPage BackgroundPage { get; }

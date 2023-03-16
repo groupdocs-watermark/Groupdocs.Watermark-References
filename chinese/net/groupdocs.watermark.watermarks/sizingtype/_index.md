@@ -21,7 +21,7 @@ public enum SizingType
 | Auto | `0` | 水印应根据其内容自动调整大小。 |
 | Absolute | `1` | 水印的大小应精确到[`Width`](../../groupdocs.watermark/watermark/width)和[`Height`](../../groupdocs.watermark/watermark/height) |
 | ScaleToParentDimensions | `2` | 水印应使用指定的 相对于父尺寸进行缩放[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor). |
-| ScaleToParentArea | `3` | 水印应使用指定的相对于父区域进行缩放[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) |
+| ScaleToParentArea | `3` | 水印应使用指定的相对于父区域缩放[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) |
 
 ### 也可以看看
 

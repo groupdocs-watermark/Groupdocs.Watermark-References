@@ -1,14 +1,14 @@
 ---
 title: HeaderRight
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置出现在文档标题右侧的文本字符串
+description: 获取或设置出现在文档标题右侧部分的文本字符串
 type: docs
 weight: 90
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramheaderfooter/headerright/
 ---
 ## DiagramHeaderFooter.HeaderRight property
 
-获取或设置出现在文档标题右侧的文本字符串。
+获取或设置出现在文档标题右侧部分的文本字符串。
 
 ```csharp
 public string HeaderRight { get; set; }
@@ -16,7 +16,7 @@ public string HeaderRight { get; set; }
 
 ### 适当的价值
 
-出现在文档标题右侧的文本字符串。
+出现在文档标题右侧部分的文本字符串。
 
 ### 也可以看看
 

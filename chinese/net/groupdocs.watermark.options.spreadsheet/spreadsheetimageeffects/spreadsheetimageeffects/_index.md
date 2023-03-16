@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetImageEffects
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetImageEffectsgroupdocs.watermark.options.spreadsheet/spreadsheetimageeffects类.
+description: 初始化一个新的实例SpreadsheetImageEffectsgroupdocs.watermark.options.spreadsheet/spreadsheetimageeffects类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetimageeffects/spreadsheetimageeffects/
 ---
 ## SpreadsheetImageEffects constructor
 
-初始化[`SpreadsheetImageEffects`](../../spreadsheetimageeffects)类.
+初始化一个新的实例[`SpreadsheetImageEffects`](../../spreadsheetimageeffects)类.
 
 ```csharp
 public SpreadsheetImageEffects()

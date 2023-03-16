@@ -1,14 +1,14 @@
 ---
 title: PresentationSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PresentationSaveOptionsgroupdocs.watermark.options.presentation/presentationsaveoptions类.
+description: 初始化一个新的实例PresentationSaveOptionsgroupdocs.watermark.options.presentation/presentationsaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.presentation/presentationsaveoptions/presentationsaveoptions/
 ---
 ## PresentationSaveOptions constructor
 
-初始化[`PresentationSaveOptions`](../../presentationsaveoptions)类.
+初始化一个新的实例[`PresentationSaveOptions`](../../presentationsaveoptions)类.
 
 ```csharp
 public PresentationSaveOptions()

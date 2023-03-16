@@ -1,14 +1,14 @@
 ---
 title: And
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 结合这个SearchCriteriagroupdocs.watermark.search.searchcriteria/searchcriteria使用逻辑 AND 运算符的其他条件
+description: 结合这个SearchCriteriagroupdocs.watermark.search.searchcriteria/searchcriteria与其他标准使用逻辑 AND 运算符.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/searchcriteria/and/
 ---
 ## SearchCriteria.And method
 
-结合这个[`SearchCriteria`](../../searchcriteria)使用逻辑 AND 运算符的其他条件。
+结合这个[`SearchCriteria`](../../searchcriteria)与其他标准使用逻辑 AND 运算符.
 
 ```csharp
 public SearchCriteria And(SearchCriteria other)

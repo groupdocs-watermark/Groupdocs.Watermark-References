@@ -1,14 +1,14 @@
 ---
 title: License
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化Licensegroupdocs.watermark/license类.
+description: 初始化一个新的实例Licensegroupdocs.watermark/license类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark/license/license/
 ---
 ## License constructor
 
-初始化[`License`](../../license)类.
+初始化一个新的实例[`License`](../../license)类.
 
 ```csharp
 public License()

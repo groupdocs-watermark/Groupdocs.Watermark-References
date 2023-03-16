@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度DiagramPagegroupdocs.watermark.contents.diagram/diagrampage以点为单位
+description: 得到这个的宽度DiagramPagegroupdocs.watermark.contents.diagram/diagrampage点.
 type: docs
 weight: 110
 url: /zh/net/groupdocs.watermark.contents.diagram/diagrampage/width/
 ---
 ## DiagramPage.Width property
 
-获取这个的宽度[`DiagramPage`](../../diagrampage)以点为单位。
+得到这个的宽度[`DiagramPage`](../../diagrampage)点.
 
 ```csharp
 public double Width { get; }
@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### 适当的价值
 
-这个宽度[`DiagramPage`](../../diagrampage)在点。
+这个的宽度[`DiagramPage`](../../diagrampage)分。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ZOrderPosition
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的位置PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape在 z 顺序中
+description: 得到这个的位置PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape在 zorder.
 type: docs
 weight: 100
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition/
 ---
 ## PresentationBaseShape.ZOrderPosition property
 
-获取这个的位置[`PresentationBaseShape`](../../presentationbaseshape)在 z 顺序中。
+得到这个的位置[`PresentationBaseShape`](../../presentationbaseshape)在 z-order.
 
 ```csharp
 public int ZOrderPosition { get; }
@@ -16,7 +16,7 @@ public int ZOrderPosition { get; }
 
 ### 适当的价值
 
-这个位置[`PresentationBaseShape`](../../presentationbaseshape)在 z 顺序中。
+这个的位置[`PresentationBaseShape`](../../presentationbaseshape)在 z-order.
 
 ### 评论
 
