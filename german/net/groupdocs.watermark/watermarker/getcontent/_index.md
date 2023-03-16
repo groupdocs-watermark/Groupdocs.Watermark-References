@@ -21,7 +21,7 @@ public T GetContent<T>()
 
 ### Rückgabewert
 
-Das[`Content`](../../../groupdocs.watermark.contents/content) Objekt für das geladene Dokument.
+Der[`Content`](../../../groupdocs.watermark.contents/content) Objekt für das geladene Dokument.
 
 ### Beispiele
 

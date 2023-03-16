@@ -47,7 +47,7 @@ public sealed class ImageWatermark : Watermark, IDisposable
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Hinzufügen von Bildwasserzeichen](https://docs.groupdocs.com/display/watermarknet/Adding+image+watermarks)
 

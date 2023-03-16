@@ -31,7 +31,7 @@ public class PdfAnnotation : PdfShape
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Arbeiten mit Anmerkungen](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithannotations)
 

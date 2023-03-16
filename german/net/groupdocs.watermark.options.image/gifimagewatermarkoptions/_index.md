@@ -29,7 +29,7 @@ public sealed class GifImageWatermarkOptions : MultiframeImageWatermarkOptions
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Wasserzeichen zu Bildern hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
 

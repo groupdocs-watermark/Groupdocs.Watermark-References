@@ -16,7 +16,7 @@ public static Color Cornsilk { get; }
 
 ### Eigentumswert
 
-EIN[`Color`](../../color) eine systemdefinierte Farbe darstellt.
+A[`Color`](../../color) eine systemdefinierte Farbe darstellt.
 
 ### Siehe auch
 

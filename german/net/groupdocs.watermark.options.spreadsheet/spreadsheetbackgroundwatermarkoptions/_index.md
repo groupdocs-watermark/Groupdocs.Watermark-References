@@ -30,7 +30,7 @@ public sealed class SpreadsheetBackgroundWatermarkOptions : SpreadsheetWatermark
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Tabellendokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 
@@ -45,7 +45,7 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.xlsx", load
     TextWatermark watermark = new TextWatermark("Test watermark", new Font("Arial", 36));
 
     SpreadsheetBackgroundWatermarkOptions options = new SpreadsheetBackgroundWatermarkOptions();
-    options.WorksheetIndex = -1; // Ursprünglich
+    options.WorksheetIndex = -1; // Standard
     options.BackgroundWidth = 800;
     options.BackgroundHeight = 600;
 

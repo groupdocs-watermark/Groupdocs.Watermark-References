@@ -29,7 +29,7 @@ public sealed class PdfAnnotationWatermarkOptions : PdfWatermarkOptions
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Wasserzeichen zu PDF-Dokumenten hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 

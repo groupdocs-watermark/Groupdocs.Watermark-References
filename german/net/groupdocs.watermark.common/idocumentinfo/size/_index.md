@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Ruft die Dokumentgröße in Bytes ab.
+description: Ruft die Dokumentgröße in Byte ab.
 type: docs
 weight: 50
 url: /de/net/groupdocs.watermark.common/idocumentinfo/size/
 ---
 ## IDocumentInfo.Size property
 
-Ruft die Dokumentgröße in Bytes ab.
+Ruft die Dokumentgröße in Byte ab.
 
 ```csharp
 public long Size { get; }
@@ -16,7 +16,7 @@ public long Size { get; }
 
 ### Eigentumswert
 
-Die Dokumentgröße in Byte.
+Die Dokumentgröße in Bytes.
 
 ### Siehe auch
 

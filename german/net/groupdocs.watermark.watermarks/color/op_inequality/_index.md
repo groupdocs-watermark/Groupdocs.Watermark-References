@@ -16,8 +16,8 @@ public static bool operator !=(Color left, Color right)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| left | Color | Das[`Color`](../../color) das ist links vom Ungleichheitsoperator. |
-| right | Color | Das[`Color`](../../color) das ist rechts vom Ungleichheitsoperator. |
+| left | Color | Der[`Color`](../../color) das ist links vom Ungleichheitsoperator. |
+| right | Color | Der[`Color`](../../color) das ist rechts vom Ungleichheitsoperator. |
 
 ### Rückgabewert
 

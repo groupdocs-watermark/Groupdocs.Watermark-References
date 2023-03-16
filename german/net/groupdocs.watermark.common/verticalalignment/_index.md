@@ -25,7 +25,7 @@ public enum VerticalAlignment
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Fügen Sie Text- oder Bildwasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+text+or+image+watermark)
 * [Hinzufügen von Wasserzeichen](https://docs.groupdocs.com/display/watermarknet/Adding+watermarks)

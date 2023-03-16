@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: GroupDocs.Watermark für .NET-API-Referenz
 description: Ruft die Textausrichtung des Wasserzeichens ab oder legt sie fest.
 type: docs
-weight: 60
+weight: 70
 url: /de/net/groupdocs.watermark.watermarks/textwatermark/textalignment/
 ---
 ## TextWatermark.TextAlignment property

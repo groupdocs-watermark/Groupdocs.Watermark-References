@@ -1,14 +1,14 @@
 ---
 title: VDW
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: VDW ist das Dateiformat des Visio Graphics Service das die Streams und Speicher angibt die für das Rendern einer Webzeichnung erforderlich sind. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/web/vdw/ .
+description: VDW ist das Dateiformat des Visio Graphics Service das die Streams und Speicher angibt die für das Rendern einer Webzeichnung erforderlich sind. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/web/vdw/ .
 type: docs
 weight: 380
 url: /de/net/groupdocs.watermark.common/filetype/vdw/
 ---
 ## FileType.VDW field
 
-VDW ist das Dateiformat des Visio Graphics Service, das die Streams und Speicher angibt, die für das Rendern einer Webzeichnung erforderlich sind. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/web/vdw/) .
+VDW ist das Dateiformat des Visio Graphics Service, das die Streams und Speicher angibt, die für das Rendern einer Webzeichnung erforderlich sind. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/web/vdw/) .
 
 ```csharp
 public static readonly FileType VDW;

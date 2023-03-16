@@ -29,7 +29,7 @@ public sealed class DiagramPageWatermarkOptions : DiagramWatermarkOptions
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Diagrammdokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 

@@ -30,7 +30,7 @@ public class LoadOptions
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Dokumente laden](https://docs.groupdocs.com/display/watermarknet/Loading+documents)
 * [Von lokaler Festplatte laden](https://docs.groupdocs.com/display/watermarknet/Load+from+local+disk)

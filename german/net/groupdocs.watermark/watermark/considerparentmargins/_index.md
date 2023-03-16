@@ -16,7 +16,7 @@ public bool ConsiderParentMargins { get; set; }
 
 ### Eigentumswert
 
-Wenn der Wert wahr ist, werden Größe und Koordinaten des Wasserzeichens unter Berücksichtigung der übergeordneten Ränder berechnet. Standardmäßig ist der Wert falsch, übergeordnete Ränder werden ignoriert.
+Wenn der Wert „true“ ist, werden Größe und Koordinaten des Wasserzeichens unter Berücksichtigung der übergeordneten Ränder berechnet. Standardmäßig ist der Wert „false“, übergeordnete Ränder werden ignoriert.
 
 ### Siehe auch
 

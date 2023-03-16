@@ -45,7 +45,8 @@ public enum SpreadsheetMsoDrawingType
 | WebExtension | `32` | Eingebauter Zeichnungstyp. |
 | SmartArt | `33` | Eingebauter Zeichnungstyp. |
 | CustomXml | `34` | Eingebauter Zeichnungstyp. |
-| Model3D | `35` | Eingebauter Zeichnungstyp. |
+| Timeline | `35` | Eingebauter Zeichnungstyp. |
+| Model3D | `36` | Eingebauter Zeichnungstyp. |
 
 ### Siehe auch
 

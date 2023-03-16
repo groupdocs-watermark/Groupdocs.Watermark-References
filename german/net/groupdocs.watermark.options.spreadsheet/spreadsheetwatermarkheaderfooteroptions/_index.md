@@ -28,7 +28,7 @@ public sealed class SpreadsheetWatermarkHeaderFooterOptions : SpreadsheetWaterma
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Tabellendokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 

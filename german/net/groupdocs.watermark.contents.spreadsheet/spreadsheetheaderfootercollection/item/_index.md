@@ -20,7 +20,7 @@ public SpreadsheetHeaderFooter this[OfficeHeaderFooterType headerFooterType] { g
 
 ### Eigentumswert
 
-Das[`SpreadsheetHeaderFooter`](../../spreadsheetheaderfooter) vom angegebenen Typ.
+Der[`SpreadsheetHeaderFooter`](../../spreadsheetheaderfooter) vom angegebenen Typ.
 
 ### Siehe auch
 

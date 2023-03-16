@@ -16,7 +16,7 @@ public SpreadsheetWatermarkableImage Image { get; set; }
 
 ### Eigentumswert
 
-Das Bild davon[`SpreadsheetShape`](../../spreadsheetshape). Gibt null zurück, wenn die Form kein Bild hat.
+Das Bild davon[`SpreadsheetShape`](../../spreadsheetshape) . Gibt null zurück, wenn die Form kein Bild hat.
 
 ### Siehe auch
 

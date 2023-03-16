@@ -19,7 +19,7 @@ public enum SizingType
 | Name | Wert | Beschreibung |
 | --- | --- | --- |
 | Auto | `0` | Das Wasserzeichen sollte automatisch entsprechend seinem Inhalt skaliert werden. |
-| Absolute | `1` | Das Wasserzeichen sollte eine exakte Größe haben[`Width`](../../groupdocs.watermark/watermark/width) und[`Height`](../../groupdocs.watermark/watermark/height) |
+| Absolute | `1` | Das Wasserzeichen sollte eine exakte Größe haben[`Width`](../../groupdocs.watermark/watermark/width) Und[`Height`](../../groupdocs.watermark/watermark/height) |
 | ScaleToParentDimensions | `2` | Das Wasserzeichen sollte relativ zu den übergeordneten Dimensionen skaliert werden, indem angegeben wird[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) . |
 | ScaleToParentArea | `3` | Wasserzeichen sollte relativ zum übergeordneten Bereich skaliert werden, indem angegeben wird[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) |
 

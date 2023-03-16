@@ -22,11 +22,11 @@ public interface IDocumentInfo
 | [IsEncrypted](../../groupdocs.watermark.common/idocumentinfo/isencrypted) { get; } | Ruft einen Wert ab, der angibt, ob das Dokument verschlüsselt ist und zum Öffnen ein Kennwort erfordert. |
 | [PageCount](../../groupdocs.watermark.common/idocumentinfo/pagecount) { get; } | Ruft die Gesamtseitenzahl ab. |
 | [Pages](../../groupdocs.watermark.common/idocumentinfo/pages) { get; } | Ruft die Sammlung von Dokumentseitenbeschreibungen ab. |
-| [Size](../../groupdocs.watermark.common/idocumentinfo/size) { get; } | Ruft die Dokumentgröße in Bytes ab. |
+| [Size](../../groupdocs.watermark.common/idocumentinfo/size) { get; } | Ruft die Dokumentgröße in Byte ab. |
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [Dokumentinformationen erhalten](https://docs.groupdocs.com/display/watermarknet/Get+document+info)
 

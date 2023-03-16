@@ -16,11 +16,11 @@ public WordProcessingHeaderFooter this[OfficeHeaderFooterType headerFooterType] 
 
 | Parameter | Beschreibung |
 | --- | --- |
-| headerFooterType | EIN[`OfficeHeaderFooterType`](../../../groupdocs.watermark.contents/officeheaderfootertype) value , der den Typ der abzurufenden Kopf-/Fußzeile angibt. |
+| headerFooterType | A[`OfficeHeaderFooterType`](../../../groupdocs.watermark.contents/officeheaderfootertype) value , der den Typ der abzurufenden Kopf-/Fußzeile angibt. |
 
 ### Eigentumswert
 
-Das[`WordProcessingHeaderFooter`](../../wordprocessingheaderfooter) vom angegebenen Typ.
+Der[`WordProcessingHeaderFooter`](../../wordprocessingheaderfooter) vom angegebenen Typ.
 
 ### Siehe auch
 

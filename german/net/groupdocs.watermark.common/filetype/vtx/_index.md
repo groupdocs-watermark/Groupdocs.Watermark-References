@@ -1,14 +1,14 @@
 ---
 title: VTX
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Eine Datei mit der Erweiterung VTX ist eine Microsoft VisioZeichnungsvorlage die im XMLDateiformat auf einer Disc gespeichert wird. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vtx/ .
+description: Eine Datei mit der Erweiterung VTX ist eine Microsoft VisioZeichnungsvorlage die im XMLDateiformat auf einer Disc gespeichert wird. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vtx/ .
 type: docs
 weight: 500
 url: /de/net/groupdocs.watermark.common/filetype/vtx/
 ---
 ## FileType.VTX field
 
-Eine Datei mit der Erweiterung VTX ist eine Microsoft Visio-Zeichnungsvorlage, die im XML-Dateiformat auf einer Disc gespeichert wird. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vtx/) .
+Eine Datei mit der Erweiterung VTX ist eine Microsoft Visio-Zeichnungsvorlage, die im XML-Dateiformat auf einer Disc gespeichert wird. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vtx/) .
 
 ```csharp
 public static readonly FileType VTX;

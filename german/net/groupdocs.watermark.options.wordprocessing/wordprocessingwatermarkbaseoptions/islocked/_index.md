@@ -16,7 +16,7 @@ public bool IsLocked { get; set; }
 
 ### Eigentumswert
 
-Wenn der Wert ist`Stimmt` , Formbearbeitung wird verboten. Standardmäßig ist der Wert`FALSCH` , die Form kann in Word bearbeitet werden.
+Wenn der Wert ist`WAHR` , Formbearbeitung wird verboten. Standardmäßig ist der Wert`FALSCH` , die Form kann in Word bearbeitet werden.
 
 ### Siehe auch
 

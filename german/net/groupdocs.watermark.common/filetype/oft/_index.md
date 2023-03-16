@@ -1,14 +1,14 @@
 ---
 title: OFT
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Dateien mit der Erweiterung .OFT stellen Nachrichtenvorlagendateien dar die mit Microsoft Outlook erstellt wurden. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/email/oft/ .
+description: Dateien mit der Erweiterung .OFT stellen Nachrichtenvorlagendateien dar die mit Microsoft Outlook erstellt wurden. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/email/oft/ .
 type: docs
 weight: 220
 url: /de/net/groupdocs.watermark.common/filetype/oft/
 ---
 ## FileType.OFT field
 
-Dateien mit der Erweiterung .OFT stellen Nachrichtenvorlagendateien dar, die mit Microsoft Outlook erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/email/oft/) .
+Dateien mit der Erweiterung .OFT stellen Nachrichtenvorlagendateien dar, die mit Microsoft Outlook erstellt wurden. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/email/oft/) .
 
 ```csharp
 public static readonly FileType OFT;

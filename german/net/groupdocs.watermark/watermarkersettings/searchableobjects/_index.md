@@ -16,7 +16,7 @@ public SearchableObjects SearchableObjects { get; set; }
 
 ### Eigentumswert
 
-Das`SearchableObjects` die in eine Wasserzeichensuche einbezogen werden sollen.
+Der`SearchableObjects` die in eine Wasserzeichensuche einbezogen werden sollen.
 
 ### Siehe auch
 

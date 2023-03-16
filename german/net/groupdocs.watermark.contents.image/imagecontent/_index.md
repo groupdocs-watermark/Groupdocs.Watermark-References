@@ -33,7 +33,7 @@ public class ImageContent : Content
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Wasserzeichen zu Bildern hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
 

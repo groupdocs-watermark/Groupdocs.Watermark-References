@@ -30,7 +30,7 @@ public class Metered
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Mehr über die gebührenpflichtige Lizenzierung: [Häufig gestellte Fragen zur getakteten Lizenzierung](https://purchase.groupdocs.com/faqs/licensing/metered)
 * Mehr über**GroupDocs.Watermark** Lizenzierung: [Bewertungsbeschränkungen und Lizenzierung](https://docs.groupdocs.com/display/watermarknet/Evaluation+Limitations+and+Licensing)

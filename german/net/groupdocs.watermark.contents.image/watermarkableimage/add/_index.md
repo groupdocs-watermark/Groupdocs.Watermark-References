@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Fügt ein Wasserzeichen hinzuWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage. Diese Methode geht davon aus dass Offset und Größe des Wasserzeichens in Pixel gemessen werden sofern zugewiesen.
+description: Fügt ein Wasserzeichen hinzuWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage . Diese Methode geht davon aus dass Offset und Größe des Wasserzeichens in Pixel gemessen werden sofern zugewiesen.
 type: docs
 weight: 30
 url: /de/net/groupdocs.watermark.contents.image/watermarkableimage/add/
 ---
 ## WatermarkableImage.Add method
 
-Fügt ein Wasserzeichen hinzu[`WatermarkableImage`](../../watermarkableimage). Diese Methode geht davon aus, dass Offset und Größe des Wasserzeichens in Pixel gemessen werden (sofern zugewiesen).
+Fügt ein Wasserzeichen hinzu[`WatermarkableImage`](../../watermarkableimage) . Diese Methode geht davon aus, dass Offset und Größe des Wasserzeichens in Pixel gemessen werden (sofern zugewiesen).
 
 ```csharp
 public void Add(Watermark watermark)

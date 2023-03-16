@@ -42,7 +42,7 @@ public class PresentationContent : Content
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Präsentationsdokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 * [Arbeiten mit Folienhintergründen](https://docs.groupdocs.com/display/watermarknet/Working+with+slide+backgrounds)

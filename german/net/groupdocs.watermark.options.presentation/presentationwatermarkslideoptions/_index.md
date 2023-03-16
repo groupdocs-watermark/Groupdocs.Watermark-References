@@ -33,7 +33,7 @@ public sealed class PresentationWatermarkSlideOptions : PresentationWatermarkBas
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Präsentationsdokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 
@@ -51,10 +51,10 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.ppt", loadO
 
     PresentationWatermarkSlideOptions options = new PresentationWatermarkSlideOptions();
     options.SlideIndex = 0;
-    options.IsLocked = false; // Ursprünglich
-    options.ProtectWithUnreadableCharacters = false; // Ursprünglich
-    options.Name = null; // Ursprünglich
-    options.AlternativeText = null; // Ursprünglich
+    options.IsLocked = false; // Standard
+    options.ProtectWithUnreadableCharacters = false; // Standard
+    options.Name = null; // Standard
+    options.AlternativeText = null; // Standard
 
     watermarker.Add(watermark, options);
     watermarker.Save();

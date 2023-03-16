@@ -1,14 +1,14 @@
 ---
 title: VST
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Dateien mit der Endung VST sind Vektorbilddateien die mit Microsoft Visio erstellt wurden und als Vorlage für zur Erstellung weiterer Dateien dienen. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/vst/ .
+description: Dateien mit der Endung VST sind Vektorbilddateien die mit Microsoft Visio erstellt wurden und als Vorlage für zur Erstellung weiterer Dateien dienen. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/vst/ .
 type: docs
 weight: 460
 url: /de/net/groupdocs.watermark.common/filetype/vst/
 ---
 ## FileType.VST field
 
-Dateien mit der Endung VST sind Vektorbilddateien, die mit Microsoft Visio erstellt wurden und als Vorlage für zur Erstellung weiterer Dateien dienen. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/vst/) .
+Dateien mit der Endung VST sind Vektorbilddateien, die mit Microsoft Visio erstellt wurden und als Vorlage für zur Erstellung weiterer Dateien dienen. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/vst/) .
 
 ```csharp
 public static readonly FileType VST;

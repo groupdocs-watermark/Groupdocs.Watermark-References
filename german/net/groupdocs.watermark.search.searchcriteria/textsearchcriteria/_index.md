@@ -39,7 +39,7 @@ public class TextSearchCriteria : SearchCriteria
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Suche nach Wasserzeichen](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

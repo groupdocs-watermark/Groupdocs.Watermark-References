@@ -37,7 +37,7 @@ public class WordProcessingContent : Content
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Textverarbeitungsdokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents)
 * [Vorhandene Objekte im Textverarbeitungsdokument](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+word+processing+document)

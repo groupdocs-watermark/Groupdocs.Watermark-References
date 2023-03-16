@@ -38,7 +38,7 @@ public class PdfContent : Content
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Wasserzeichen zu PDF-Dokumenten hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 * [Vorhandene Objekte im PDF-Dokument](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document)

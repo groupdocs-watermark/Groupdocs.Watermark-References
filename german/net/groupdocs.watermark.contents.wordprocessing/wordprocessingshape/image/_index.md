@@ -16,7 +16,7 @@ public WordProcessingWatermarkableImage Image { get; set; }
 
 ### Eigentumswert
 
-Das Bild davon[`WordProcessingShape`](../../wordprocessingshape). Gibt null zurück, wenn die Form kein Bild hat.
+Das Bild davon[`WordProcessingShape`](../../wordprocessingshape) . Gibt null zurück, wenn die Form kein Bild hat.
 
 ### Siehe auch
 

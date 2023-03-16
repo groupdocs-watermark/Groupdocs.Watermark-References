@@ -26,7 +26,7 @@ public abstract class PresentationWatermarkBaseSlideOptions : PresentationWaterm
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Präsentationsdokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 
@@ -42,17 +42,17 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.pptx", loadOptions))
 
     // Wasserzeichen zu allen Masterfolien hinzufügen
     PresentationWatermarkMasterSlideOptions masterSlideOptions = new PresentationWatermarkMasterSlideOptions();
-    masterSlideOptions.MasterSlideIndex = -1; // Ursprünglich
+    masterSlideOptions.MasterSlideIndex = -1; // Standard
     watermarker.Add(watermark, masterSlideOptions);
 
     // Wasserzeichen zu allen Layoutfolien hinzufügen
     PresentationWatermarkLayoutSlideOptions layoutSlideOptions = new PresentationWatermarkLayoutSlideOptions();
-    layoutSlideOptions.LayoutSlideIndex = -1; // Ursprünglich
+    layoutSlideOptions.LayoutSlideIndex = -1; // Standard
     watermarker.Add(watermark, layoutSlideOptions);
 
     // Wasserzeichen zu allen Notizfolien hinzufügen
     PresentationWatermarkNoteSlideOptions noteSlideOptions = new PresentationWatermarkNoteSlideOptions();
-    noteSlideOptions.SlideIndex = -1; // Ursprünglich
+    noteSlideOptions.SlideIndex = -1; // Standard
     watermarker.Add(watermark, noteSlideOptions);
 
     // Wasserzeichen zum Handout-Master hinzufügen

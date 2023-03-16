@@ -33,7 +33,7 @@ public sealed class DiagramContent : Content
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Diagrammdokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 * [Vorhandene Objekte im Diagrammdokument](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+diagram+document)

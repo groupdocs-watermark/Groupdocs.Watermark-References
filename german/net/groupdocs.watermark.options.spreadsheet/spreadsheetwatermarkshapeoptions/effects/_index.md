@@ -16,7 +16,7 @@ public ISpreadsheetWatermarkEffects Effects { get; set; }
 
 ### Eigentumswert
 
-Die[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) oder[`SpreadsheetTextEffects`](../../spreadsheettexteffects) für Effekte die auf das Wasserzeichen angewendet werden sollen.
+Die[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) oder[`SpreadsheetTextEffects`](../../spreadsheettexteffects)für Effekte die auf das Wasserzeichen angewendet werden sollen.
 
 ### Siehe auch
 

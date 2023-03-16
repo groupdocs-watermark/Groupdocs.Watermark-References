@@ -33,6 +33,7 @@ public class TextWatermark : Watermark
 | [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der angibt, ob das Wasserzeichen im Hintergrund platziert werden soll. |
 | [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | Holt oder setzt die Randeinstellungen davon[`Watermark`](../../groupdocs.watermark/watermark) . |
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Ermittelt oder setzt die Deckkraft davon[`Watermark`](../../groupdocs.watermark/watermark) . |
+| [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | Holt oder setzt die Padding-Einstellungen davon[`TextWatermark`](../textwatermark) . Diese Eigenschaft gilt nur für Bilddateien. |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Holt oder setzt den Rotationswinkel davon[`Watermark`](../../groupdocs.watermark/watermark) in Grad. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der definiert, wie die Größe des Wasserzeichens von der Größe des übergeordneten Elements abhängt. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Ruft einen Wert ab oder legt einen Wert fest, der die Größe des Wasserzeichens angibt. |
@@ -45,7 +46,7 @@ public class TextWatermark : Watermark
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Hinzufügen von Textwasserzeichen](https://docs.groupdocs.com/display/watermarknet/Adding+text+watermarks)
 

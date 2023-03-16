@@ -31,7 +31,7 @@ public abstract class Attachment
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * [E-Mail Anhänge](https://docs.groupdocs.com/display/watermarknet/Email+attachments)
 * [Anhänge im PDF-Dokument](https://docs.groupdocs.com/display/watermarknet/Attachments+in+PDF+document)

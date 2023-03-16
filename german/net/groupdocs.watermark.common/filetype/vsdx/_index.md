@@ -1,14 +1,14 @@
 ---
 title: VSDX
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Dateien mit der Erweiterung .VSDX stellen das Microsoft VisioDateiformat dar das ab Microsoft Office 2013 eingeführt wurde. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/vsdx/ .
+description: Dateien mit der Erweiterung .VSDX stellen das Microsoft VisioDateiformat dar das ab Microsoft Office 2013 eingeführt wurde. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/vsdx/ .
 type: docs
 weight: 420
 url: /de/net/groupdocs.watermark.common/filetype/vsdx/
 ---
 ## FileType.VSDX field
 
-Dateien mit der Erweiterung .VSDX stellen das Microsoft Visio-Dateiformat dar, das ab Microsoft Office 2013 eingeführt wurde. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/vsdx/) .
+Dateien mit der Erweiterung .VSDX stellen das Microsoft Visio-Dateiformat dar, das ab Microsoft Office 2013 eingeführt wurde. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/vsdx/) .
 
 ```csharp
 public static readonly FileType VSDX;
