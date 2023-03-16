@@ -16,7 +16,7 @@ public static LoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour[`LoadOptions`](../../loadoptions) classer.
+La valeur par défaut pour[`LoadOptions`](../../loadoptions) classe.
 
 ### Voir également
 

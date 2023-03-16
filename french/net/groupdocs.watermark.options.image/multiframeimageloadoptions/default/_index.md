@@ -16,7 +16,7 @@ public static MultiframeImageLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`MultiframeImageLoadOptions`](../../multiframeimageloadoptions) classer.
+La valeur par défaut pour le[`MultiframeImageLoadOptions`](../../multiframeimageloadoptions) classe.
 
 ### Voir également
 

@@ -16,7 +16,7 @@ public static ImageSaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`ImageSaveOptions`](../../imagesaveoptions) classer.
+La valeur par défaut pour le[`ImageSaveOptions`](../../imagesaveoptions) classe.
 
 ### Voir également
 

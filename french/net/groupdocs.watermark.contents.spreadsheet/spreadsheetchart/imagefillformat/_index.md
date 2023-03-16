@@ -1,14 +1,14 @@
 ---
 title: ImageFillFormat
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Obtient les paramètres de format de remplissage dimage de ceSpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart .
+description: Obtient les paramètres de format de remplissage dimage de cetteSpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart .
 type: docs
 weight: 50
 url: /fr/net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/imagefillformat/
 ---
 ## SpreadsheetChart.ImageFillFormat property
 
-Obtient les paramètres de format de remplissage d'image de ce[`SpreadsheetChart`](../../spreadsheetchart) .
+Obtient les paramètres de format de remplissage d'image de cette[`SpreadsheetChart`](../../spreadsheetchart) .
 
 ```csharp
 public SpreadsheetImageFillFormat ImageFillFormat { get; }

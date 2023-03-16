@@ -16,7 +16,7 @@ public static readonly WordProcessingTextEffects Default;
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`WordProcessingTextEffects`](../../wordprocessingtexteffects) classer.
+La valeur par défaut pour le[`WordProcessingTextEffects`](../../wordprocessingtexteffects) classe.
 
 ### Voir également
 

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Obtient ou définit la largeur de cePresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapeen points.
+description: Obtient ou définit la largeur de cettePresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapeen points.
 type: docs
 weight: 70
 url: /fr/net/groupdocs.watermark.contents.presentation/presentationbaseshape/width/
 ---
 ## PresentationBaseShape.Width property
 
-Obtient ou définit la largeur de ce[`PresentationBaseShape`](../../presentationbaseshape)en points.
+Obtient ou définit la largeur de cette[`PresentationBaseShape`](../../presentationbaseshape)en points.
 
 ```csharp
 public double Width { get; set; }

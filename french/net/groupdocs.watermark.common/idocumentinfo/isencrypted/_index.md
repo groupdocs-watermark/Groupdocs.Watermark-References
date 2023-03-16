@@ -1,14 +1,14 @@
 ---
 title: IsEncrypted
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Obtient une valeur indiquant si le document est chiffré et nécessite un mot de passe pour souvrir.
+description: Obtient une valeur indiquant si le document est crypté et nécessite un mot de passe pour souvrir.
 type: docs
 weight: 20
 url: /fr/net/groupdocs.watermark.common/idocumentinfo/isencrypted/
 ---
 ## IDocumentInfo.IsEncrypted property
 
-Obtient une valeur indiquant si le document est chiffré et nécessite un mot de passe pour s'ouvrir.
+Obtient une valeur indiquant si le document est crypté et nécessite un mot de passe pour s'ouvrir.
 
 ```csharp
 public bool IsEncrypted { get; }
@@ -16,7 +16,7 @@ public bool IsEncrypted { get; }
 
 ### Valeur de la propriété
 
-Vrai si le document est chiffré et nécessite un mot de passe pour s'ouvrir ; sinon, faux.
+Vrai si le document est crypté et nécessite un mot de passe pour s'ouvrir ; sinon, faux.
 
 ### Voir également
 

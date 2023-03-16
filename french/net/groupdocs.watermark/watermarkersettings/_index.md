@@ -18,7 +18,7 @@ public sealed class WatermarkerSettings
 
 | Nom | La description |
 | --- | --- |
-| [WatermarkerSettings](watermarkersettings)() | Initialise la nouvelle instance de[`WatermarkerSettings`](../watermarkersettings) classer. |
+| [WatermarkerSettings](watermarkersettings)() | Initialise la nouvelle instance de[`WatermarkerSettings`](../watermarkersettings) classe. |
 
 ## Propriétés
 

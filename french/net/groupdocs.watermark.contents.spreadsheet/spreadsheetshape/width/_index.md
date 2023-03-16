@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Obtient ou définit la largeur de ceSpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshapeen points.
+description: Obtient ou définit la largeur de cetteSpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshapeen points.
 type: docs
 weight: 140
 url: /fr/net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/width/
 ---
 ## SpreadsheetShape.Width property
 
-Obtient ou définit la largeur de ce[`SpreadsheetShape`](../../spreadsheetshape)en points.
+Obtient ou définit la largeur de cette[`SpreadsheetShape`](../../spreadsheetshape)en points.
 
 ```csharp
 public double Width { get; set; }

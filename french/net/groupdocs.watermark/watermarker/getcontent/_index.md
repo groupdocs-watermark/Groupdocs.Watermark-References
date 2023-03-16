@@ -21,7 +21,7 @@ public T GetContent<T>()
 
 ### Return_Value
 
-La[`Content`](../../../groupdocs.watermark.contents/content) objet pour le document chargé.
+Le[`Content`](../../../groupdocs.watermark.contents/content) objet pour le document chargé.
 
 ### Exemples
 

@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Obtient ou définit la largeur de ceWordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshapeen points.
+description: Obtient ou définit la largeur de cetteWordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshapeen points.
 type: docs
 weight: 180
 url: /fr/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/width/
 ---
 ## WordProcessingShape.Width property
 
-Obtient ou définit la largeur de ce[`WordProcessingShape`](../../wordprocessingshape)en points.
+Obtient ou définit la largeur de cette[`WordProcessingShape`](../../wordprocessingshape)en points.
 
 ```csharp
 public double Width { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Obtient ou définit le décalage vertical de cePresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapefrom bordure supérieure de la présentation en points.
+description: Obtient ou définit le décalage vertical de cePresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape from bordure supérieure de la présentation en points.
 type: docs
 weight: 90
 url: /fr/net/groupdocs.watermark.contents.presentation/presentationbaseshape/y/
 ---
 ## PresentationBaseShape.Y property
 
-Obtient ou définit le décalage vertical de ce[`PresentationBaseShape`](../../presentationbaseshape)from bordure supérieure de la présentation en points.
+Obtient ou définit le décalage vertical de ce[`PresentationBaseShape`](../../presentationbaseshape) from bordure supérieure de la présentation en points.
 
 ```csharp
 public double Y { get; set; }

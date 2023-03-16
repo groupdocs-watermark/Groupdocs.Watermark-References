@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Obtient ou définit la largeur de ceDiagramShapegroupdocs.watermark.contents.diagram/diagramshapeen points.
+description: Obtient ou définit la largeur de cetteDiagramShapegroupdocs.watermark.contents.diagram/diagramshapeen points.
 type: docs
 weight: 100
 url: /fr/net/groupdocs.watermark.contents.diagram/diagramshape/width/
 ---
 ## DiagramShape.Width property
 
-Obtient ou définit la largeur de ce[`DiagramShape`](../../diagramshape)en points.
+Obtient ou définit la largeur de cette[`DiagramShape`](../../diagramshape)en points.
 
 ```csharp
 public double Width { get; set; }

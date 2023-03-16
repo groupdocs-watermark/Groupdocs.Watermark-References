@@ -33,6 +33,7 @@ public class TextWatermark : Watermark
 | [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | Obtient ou définit une valeur indiquant si le filigrane doit être placé en arrière-plan. |
 | [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | Obtient ou définit les paramètres de marge de ce[`Watermark`](../../groupdocs.watermark/watermark) . |
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Obtient ou définit l'opacité de ce[`Watermark`](../../groupdocs.watermark/watermark) . |
+| [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | Obtient ou définit les paramètres de remplissage de ce[`TextWatermark`](../textwatermark) . Cette propriété s'applique uniquement aux fichiers image. |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Obtient ou définit l'angle de rotation de ce[`Watermark`](../../groupdocs.watermark/watermark) en degrés. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Obtient ou définit une valeur qui définit la façon dont la taille du filigrane dépend de la taille du parent. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Obtient ou définit une valeur spécifiant la façon dont le filigrane doit être dimensionné. |

@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Return_Value
 
-La[`IDocumentInfo`](../../../groupdocs.watermark.common/idocumentinfo) instance qui contient des informations détectées.
+Le[`IDocumentInfo`](../../../groupdocs.watermark.common/idocumentinfo) instance qui contient des informations détectées.
 
 ### Remarques
 

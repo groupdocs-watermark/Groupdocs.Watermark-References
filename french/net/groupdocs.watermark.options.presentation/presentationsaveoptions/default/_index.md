@@ -16,7 +16,7 @@ public static PresentationSaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`PresentationSaveOptions`](../../presentationsaveoptions) classer.
+La valeur par défaut pour le[`PresentationSaveOptions`](../../presentationsaveoptions) classe.
 
 ### Voir également
 

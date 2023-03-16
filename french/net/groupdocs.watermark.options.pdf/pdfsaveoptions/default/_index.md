@@ -16,7 +16,7 @@ public static PdfSaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`PdfSaveOptions`](../../pdfsaveoptions) classer.
+La valeur par défaut pour le[`PdfSaveOptions`](../../pdfsaveoptions) classe.
 
 ### Voir également
 

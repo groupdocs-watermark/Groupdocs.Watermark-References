@@ -19,7 +19,7 @@ public interface IDocumentInfo
 | Nom | La description |
 | --- | --- |
 | [FileType](../../groupdocs.watermark.common/idocumentinfo/filetype) { get; } | Obtient la description du format de fichier. |
-| [IsEncrypted](../../groupdocs.watermark.common/idocumentinfo/isencrypted) { get; } | Obtient une valeur indiquant si le document est chiffré et nécessite un mot de passe pour s'ouvrir. |
+| [IsEncrypted](../../groupdocs.watermark.common/idocumentinfo/isencrypted) { get; } | Obtient une valeur indiquant si le document est crypté et nécessite un mot de passe pour s'ouvrir. |
 | [PageCount](../../groupdocs.watermark.common/idocumentinfo/pagecount) { get; } | Obtient le nombre total de pages. |
 | [Pages](../../groupdocs.watermark.common/idocumentinfo/pages) { get; } | Obtient la collection de descriptions de pages de document. |
 | [Size](../../groupdocs.watermark.common/idocumentinfo/size) { get; } | Obtient la taille du document en octets. |

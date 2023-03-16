@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Return_Value
 
-La[`IDocumentInfo`](../../idocumentinfo) instance qui contient des informations détectées
+Le[`IDocumentInfo`](../../idocumentinfo) instance qui contient des informations détectées
 
 ### Voir également
 

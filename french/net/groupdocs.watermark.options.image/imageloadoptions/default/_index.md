@@ -16,7 +16,7 @@ public static ImageLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`ImageLoadOptions`](../../imageloadoptions) classer.
+La valeur par défaut pour le[`ImageLoadOptions`](../../imageloadoptions) classe.
 
 ### Voir également
 

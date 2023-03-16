@@ -16,7 +16,7 @@ public static readonly OoxmlLoadOptions Default;
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`OoxmlLoadOptions`](../../ooxmlloadoptions) classer.
+La valeur par défaut pour le[`OoxmlLoadOptions`](../../ooxmlloadoptions) classe.
 
 ### Voir également
 

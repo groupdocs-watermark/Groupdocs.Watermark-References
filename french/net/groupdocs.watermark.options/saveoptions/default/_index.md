@@ -16,7 +16,7 @@ public static SaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`SaveOptions`](../../saveoptions) classer.
+La valeur par défaut pour le[`SaveOptions`](../../saveoptions) classe.
 
 ### Voir également
 

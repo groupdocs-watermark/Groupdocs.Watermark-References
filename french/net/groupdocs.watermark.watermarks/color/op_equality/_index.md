@@ -16,8 +16,8 @@ public static bool operator ==(Color left, Color right)
 
 | Paramètre | Taper | La description |
 | --- | --- | --- |
-| left | Color | La[`Color`](../../color) c'est-à-dire à gauche de l'opérateur d'égalité. |
-| right | Color | La[`Color`](../../color) c'est-à-dire à droite de l'opérateur d'égalité. |
+| left | Color | Le[`Color`](../../color) c'est-à-dire à gauche de l'opérateur d'égalité. |
+| right | Color | Le[`Color`](../../color) c'est-à-dire à droite de l'opérateur d'égalité. |
 
 ### Return_Value
 

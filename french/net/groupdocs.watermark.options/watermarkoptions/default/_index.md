@@ -16,7 +16,7 @@ public static WatermarkOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`WatermarkOptions`](../../watermarkoptions) classer.
+La valeur par défaut pour le[`WatermarkOptions`](../../watermarkoptions) classe.
 
 ### Voir également
 

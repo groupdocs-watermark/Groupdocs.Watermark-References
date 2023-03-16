@@ -16,7 +16,7 @@ public static WatermarkerSettings Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`WatermarkerSettings`](../../watermarkersettings) classer.
+La valeur par défaut pour le[`WatermarkerSettings`](../../watermarkersettings) classe.
 
 ### Voir également
 

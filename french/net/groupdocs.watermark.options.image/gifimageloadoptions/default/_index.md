@@ -16,7 +16,7 @@ public static GifImageLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour[`GifImageLoadOptions`](../../gifimageloadoptions) classer.
+La valeur par défaut pour[`GifImageLoadOptions`](../../gifimageloadoptions) classe.
 
 ### Voir également
 

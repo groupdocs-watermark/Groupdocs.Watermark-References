@@ -16,7 +16,7 @@ public static PdfLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`PdfLoadOptions`](../../pdfloadoptions) classer.
+La valeur par défaut pour le[`PdfLoadOptions`](../../pdfloadoptions) classe.
 
 ### Voir également
 

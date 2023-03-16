@@ -20,7 +20,7 @@ public WordProcessingHeaderFooter this[OfficeHeaderFooterType headerFooterType] 
 
 ### Valeur de la propriété
 
-La[`WordProcessingHeaderFooter`](../../wordprocessingheaderfooter) de type spécifié.
+Le[`WordProcessingHeaderFooter`](../../wordprocessingheaderfooter) de type spécifié.
 
 ### Voir également
 

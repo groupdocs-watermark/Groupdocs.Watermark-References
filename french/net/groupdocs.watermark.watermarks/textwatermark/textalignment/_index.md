@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
 description: Obtient ou définit lalignement du texte du filigrane.
 type: docs
-weight: 60
+weight: 70
 url: /fr/net/groupdocs.watermark.watermarks/textwatermark/textalignment/
 ---
 ## TextWatermark.TextAlignment property

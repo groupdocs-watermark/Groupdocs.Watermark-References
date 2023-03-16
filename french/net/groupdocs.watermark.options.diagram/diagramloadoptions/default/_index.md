@@ -16,7 +16,7 @@ public static DiagramLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`DiagramLoadOptions`](../../diagramloadoptions) classer.
+La valeur par défaut pour le[`DiagramLoadOptions`](../../diagramloadoptions) classe.
 
 ### Voir également
 

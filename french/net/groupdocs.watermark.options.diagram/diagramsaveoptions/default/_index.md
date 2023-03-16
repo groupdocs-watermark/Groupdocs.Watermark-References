@@ -16,7 +16,7 @@ public static DiagramSaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`DiagramSaveOptions`](../../diagramsaveoptions) classer.
+La valeur par défaut pour le[`DiagramSaveOptions`](../../diagramsaveoptions) classe.
 
 ### Voir également
 

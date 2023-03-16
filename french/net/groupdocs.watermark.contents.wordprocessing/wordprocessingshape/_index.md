@@ -35,7 +35,7 @@ public class WordProcessingShape : ShapeSearchAdapter, IRotatableTwoDObject
 | [ShapeType](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/shapetype) { get; } | Obtient le type de forme. |
 | [Text](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/text) { get; set; } | Obtient ou définit le texte de ce[`WordProcessingShape`](../wordprocessingshape) . |
 | [VerticalAlignment](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/verticalalignment) { get; } | Obtient une valeur spécifiant comment la forme est positionnée verticalement. |
-| [Width](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/width) { get; set; } | Obtient ou définit la largeur de ce[`WordProcessingShape`](../wordprocessingshape)en points. |
+| [Width](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/width) { get; set; } | Obtient ou définit la largeur de cette[`WordProcessingShape`](../wordprocessingshape)en points. |
 | [X](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/x) { get; set; } | Obtient ou définit le décalage horizontal de ce[`WordProcessingShape`](../wordprocessingshape) à partir de la bordure gauche de la page en points. |
 | [Y](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/y) { get; set; } | Obtient ou définit le décalage vertical de ce[`WordProcessingShape`](../wordprocessingshape) à partir de la bordure supérieure de la page en points. |
 
