@@ -29,7 +29,7 @@ public class MultiframeImageWatermarkOptions : WatermarkOptions
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки к изображениям](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
 

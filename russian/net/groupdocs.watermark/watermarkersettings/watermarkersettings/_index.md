@@ -1,14 +1,14 @@
 ---
 title: WatermarkerSettings
 second_title: Справочник по API GroupDocs.Watermark для .NET
-description: Инициализирует новый экземплярWatermarkerSettingsgroupdocs.watermark/watermarkersettings учебный класс.
+description: Инициализирует новый экземплярWatermarkerSettingsgroupdocs.watermark/watermarkersettings сорт.
 type: docs
 weight: 10
 url: /ru/net/groupdocs.watermark/watermarkersettings/watermarkersettings/
 ---
 ## WatermarkerSettings constructor
 
-Инициализирует новый экземпляр[`WatermarkerSettings`](../../watermarkersettings) учебный класс.
+Инициализирует новый экземпляр[`WatermarkerSettings`](../../watermarkersettings) сорт.
 
 ```csharp
 public WatermarkerSettings()

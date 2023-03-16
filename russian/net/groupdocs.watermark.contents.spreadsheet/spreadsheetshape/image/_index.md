@@ -16,7 +16,7 @@ public SpreadsheetWatermarkableImage Image { get; set; }
 
 ### Стоимость имущества
 
-Образ этого[`SpreadsheetShape`](../../spreadsheetshape). Возвращает ноль, если у фигуры нет изображения.
+Образ этого[`SpreadsheetShape`](../../spreadsheetshape) . Возвращает ноль, если у фигуры нет изображения.
 
 ### Смотрите также
 

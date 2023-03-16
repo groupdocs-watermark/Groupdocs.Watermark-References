@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Справочник по API GroupDocs.Watermark для .NET
-description: Получает или задает вертикальное смещение этогоPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapefrom верхняя граница презентации в пунктах.
+description: Получает или задает вертикальное смещение этогоPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape from верхняя граница презентации в пунктах.
 type: docs
 weight: 90
 url: /ru/net/groupdocs.watermark.contents.presentation/presentationbaseshape/y/
 ---
 ## PresentationBaseShape.Y property
 
-Получает или задает вертикальное смещение этого[`PresentationBaseShape`](../../presentationbaseshape)from верхняя граница презентации в пунктах.
+Получает или задает вертикальное смещение этого[`PresentationBaseShape`](../../presentationbaseshape) from верхняя граница презентации в пунктах.
 
 ```csharp
 public double Y { get; set; }

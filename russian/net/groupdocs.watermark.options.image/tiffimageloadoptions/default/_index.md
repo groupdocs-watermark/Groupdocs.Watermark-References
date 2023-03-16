@@ -16,7 +16,7 @@ public static TiffImageLoadOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`TiffImageLoadOptions`](../../tiffimageloadoptions) учебный класс.
+Значение по умолчанию для[`TiffImageLoadOptions`](../../tiffimageloadoptions) сорт.
 
 ### Смотрите также
 

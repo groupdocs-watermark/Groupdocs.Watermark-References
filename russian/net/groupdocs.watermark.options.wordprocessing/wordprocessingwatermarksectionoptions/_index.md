@@ -34,7 +34,7 @@ public sealed class WordProcessingWatermarkSectionOptions : WordProcessingWaterm
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в текстовые документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents)
 

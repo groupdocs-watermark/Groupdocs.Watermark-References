@@ -31,7 +31,7 @@ public abstract class Attachment
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Вложения электронной почты](https://docs.groupdocs.com/display/watermarknet/Email+attachments)
 * [Вложения в PDF-документе](https://docs.groupdocs.com/display/watermarknet/Attachments+in+PDF+document)

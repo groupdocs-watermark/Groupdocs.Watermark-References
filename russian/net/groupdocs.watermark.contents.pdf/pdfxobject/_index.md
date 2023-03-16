@@ -30,7 +30,7 @@ public abstract class PdfXObject : PdfShape
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Работа с XObjects](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-WorkingwithXObjects)
 

@@ -33,7 +33,7 @@ public sealed class DiagramContent : Content
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавление водяных знаков в документы диаграмм](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 * [Существующие объекты в документе диаграммы](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+diagram+document)

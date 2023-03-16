@@ -33,7 +33,7 @@ public sealed class PresentationWatermarkSlideOptions : PresentationWatermarkBas
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в презентационные документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 
@@ -51,10 +51,10 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.ppt", loadO
 
     PresentationWatermarkSlideOptions options = new PresentationWatermarkSlideOptions();
     options.SlideIndex = 0;
-    options.IsLocked = false; // дефолт
-    options.ProtectWithUnreadableCharacters = false; // дефолт
-    options.Name = null; // дефолт
-    options.AlternativeText = null; // дефолт
+    options.IsLocked = false; // по умолчанию
+    options.ProtectWithUnreadableCharacters = false; // по умолчанию
+    options.Name = null; // по умолчанию
+    options.AlternativeText = null; // по умолчанию
 
     watermarker.Add(watermark, options);
     watermarker.Save();

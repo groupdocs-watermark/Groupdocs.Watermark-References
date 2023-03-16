@@ -16,7 +16,7 @@ public static DiagramLoadOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`DiagramLoadOptions`](../../diagramloadoptions) учебный класс.
+Значение по умолчанию для[`DiagramLoadOptions`](../../diagramloadoptions) сорт.
 
 ### Смотрите также
 

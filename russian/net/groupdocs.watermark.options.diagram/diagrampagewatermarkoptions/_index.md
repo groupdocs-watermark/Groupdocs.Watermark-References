@@ -29,7 +29,7 @@ public sealed class DiagramPageWatermarkOptions : DiagramWatermarkOptions
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавление водяных знаков в документы диаграмм](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 

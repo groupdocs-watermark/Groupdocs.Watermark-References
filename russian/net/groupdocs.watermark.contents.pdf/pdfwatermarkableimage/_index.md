@@ -31,7 +31,7 @@ public class PdfWatermarkableImage : WatermarkableImage
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Добавляет к этому водяной знак[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). Этот метод предполагает, что смещение и размер водяного знака измеряются в пикселях (если они назначены). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Добавляет к этому водяной знак[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage) . Этот метод предполагает, что смещение и размер водяного знака измеряются в пикселях (если они назначены). |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | Находит все изображения в содержании. Поиск ведется в объектах, указанных в[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Находит изображения по заданным критериям поиска. Поиск ведется в объектах, указанных в[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | Получает изображение в виде массива байтов. |

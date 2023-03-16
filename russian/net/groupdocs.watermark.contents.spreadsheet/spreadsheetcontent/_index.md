@@ -34,7 +34,7 @@ public class SpreadsheetContent : Content
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в табличные документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 * [Фигуры в табличном документе](https://docs.groupdocs.com/display/watermarknet/Shapes+in+spreadsheet+document)

@@ -34,7 +34,7 @@ public abstract class Watermark
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее о свойствах водяного знака: [Добавление текстовых водяных знаков](https://docs.groupdocs.com/display/watermarknet/Adding+text+watermarks)
 * Дополнительные темы по водяным знакам: [Добавление водяных знаков](https://docs.groupdocs.com/display/watermarknet/Adding+watermarks)

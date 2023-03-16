@@ -16,7 +16,7 @@ public static MultiframeImageLoadOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`MultiframeImageLoadOptions`](../../multiframeimageloadoptions) учебный класс.
+Значение по умолчанию для[`MultiframeImageLoadOptions`](../../multiframeimageloadoptions) сорт.
 
 ### Смотрите также
 

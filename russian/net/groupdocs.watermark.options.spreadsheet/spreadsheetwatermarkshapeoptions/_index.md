@@ -32,7 +32,7 @@ public sealed class SpreadsheetWatermarkShapeOptions : SpreadsheetWatermarkBaseO
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в табличные документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 

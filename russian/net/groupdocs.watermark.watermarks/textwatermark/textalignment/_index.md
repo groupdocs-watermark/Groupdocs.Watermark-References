@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: Справочник по API GroupDocs.Watermark для .NET
 description: Получает или задает выравнивание текста водяного знака.
 type: docs
-weight: 60
+weight: 70
 url: /ru/net/groupdocs.watermark.watermarks/textwatermark/textalignment/
 ---
 ## TextWatermark.TextAlignment property

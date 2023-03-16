@@ -32,7 +32,7 @@ public Margins(MarginType marginType, double left, double right, double top, dou
 
 | Параметр | Тип | Описание |
 | --- | --- | --- |
-| marginType | MarginType | Тип маржи. Указывает, как следует интерпретировать значения полей. |
+| marginType | MarginType | Тип маржи. Указывает, как следует интерпретировать значения поля. |
 | left | Double | Значение левого поля. |
 | right | Double | Правильное значение маржи. |
 | top | Double | Значение верхней маржи. |

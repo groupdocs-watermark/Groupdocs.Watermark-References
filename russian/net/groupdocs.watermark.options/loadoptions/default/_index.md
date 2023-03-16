@@ -16,7 +16,7 @@ public static LoadOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`LoadOptions`](../../loadoptions) учебный класс.
+Значение по умолчанию для[`LoadOptions`](../../loadoptions) сорт.
 
 ### Смотрите также
 

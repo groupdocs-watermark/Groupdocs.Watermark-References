@@ -24,7 +24,7 @@ public enum PresentationSearchableObjects
 | ChartsBackgrounds | `2` | Поиск в фонах диаграмм. |
 | SlidesBackgrounds | `4` | Поиск в фонах слайдов. |
 | Hyperlinks | `8` | Поиск по гиперссылкам. |
-| All | `F` | Поиск во всех объектах содержимого. |
+| All | `F` | Поиск во всех объектах контента. |
 
 ### Смотрите также
 

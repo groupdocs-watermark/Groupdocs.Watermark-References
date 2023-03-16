@@ -18,7 +18,7 @@ public sealed class WatermarkerSettings
 
 | Имя | Описание |
 | --- | --- |
-| [WatermarkerSettings](watermarkersettings)() | Инициализирует новый экземпляр[`WatermarkerSettings`](../watermarkersettings) учебный класс. |
+| [WatermarkerSettings](watermarkersettings)() | Инициализирует новый экземпляр[`WatermarkerSettings`](../watermarkersettings) сорт. |
 
 ## Характеристики
 

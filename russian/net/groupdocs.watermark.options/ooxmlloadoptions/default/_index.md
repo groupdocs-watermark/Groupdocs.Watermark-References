@@ -16,7 +16,7 @@ public static readonly OoxmlLoadOptions Default;
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`OoxmlLoadOptions`](../../ooxmlloadoptions) учебный класс.
+Значение по умолчанию для[`OoxmlLoadOptions`](../../ooxmlloadoptions) сорт.
 
 ### Смотрите также
 

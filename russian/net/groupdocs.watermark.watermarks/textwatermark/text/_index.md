@@ -3,7 +3,7 @@ title: Text
 second_title: Справочник по API GroupDocs.Watermark для .NET
 description: Получает или задает текст который будет использоваться в качестве водяного знака.
 type: docs
-weight: 50
+weight: 60
 url: /ru/net/groupdocs.watermark.watermarks/textwatermark/text/
 ---
 ## TextWatermark.Text property

@@ -83,7 +83,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\input.doc"))
     // Находим все изображения в документе.
     WatermarkableImageCollection images = watermarker.GetImages();
 
-    // Добавить водяной знак.
+    // Добавить водный знак.
     foreach (WatermarkableImage watermarkableImage in images)
     {
         watermarkableImage.AddWatermark(watermark);

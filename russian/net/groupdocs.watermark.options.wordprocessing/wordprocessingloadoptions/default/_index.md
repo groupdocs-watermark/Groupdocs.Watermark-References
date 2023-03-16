@@ -16,7 +16,7 @@ public static WordProcessingLoadOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`WordProcessingLoadOptions`](../../wordprocessingloadoptions) учебный класс.
+Значение по умолчанию для[`WordProcessingLoadOptions`](../../wordprocessingloadoptions) сорт.
 
 ### Смотрите также
 

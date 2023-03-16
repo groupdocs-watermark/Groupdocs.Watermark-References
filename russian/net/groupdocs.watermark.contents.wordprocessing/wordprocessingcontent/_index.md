@@ -37,7 +37,7 @@ public class WordProcessingContent : Content
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в текстовые документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents)
 * [Существующие объекты в текстовом документе](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+word+processing+document)

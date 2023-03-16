@@ -41,7 +41,7 @@ public sealed class EmailContent : Content
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки во вложения электронной почты](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+email+attachments)
 * [Вложения электронной почты](https://docs.groupdocs.com/display/watermarknet/Email+attachments)

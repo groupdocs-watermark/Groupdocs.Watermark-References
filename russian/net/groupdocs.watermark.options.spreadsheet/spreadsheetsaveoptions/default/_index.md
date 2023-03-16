@@ -16,7 +16,7 @@ public static SpreadsheetSaveOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`SpreadsheetSaveOptions`](../../spreadsheetsaveoptions) учебный класс.
+Значение по умолчанию для[`SpreadsheetSaveOptions`](../../spreadsheetsaveoptions) сорт.
 
 ### Смотрите также
 

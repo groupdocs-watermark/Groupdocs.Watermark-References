@@ -16,7 +16,7 @@ public static PdfLoadOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`PdfLoadOptions`](../../pdfloadoptions) учебный класс.
+Значение по умолчанию для[`PdfLoadOptions`](../../pdfloadoptions) сорт.
 
 ### Смотрите также
 

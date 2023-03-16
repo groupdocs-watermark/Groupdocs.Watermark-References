@@ -17,7 +17,7 @@ public abstract class ShapePossibleWatermark<T> : TwoDObjectPossibleWatermark
 
 | Параметр | Описание |
 | --- | --- |
-| T | Тип формы. |
+| T | Тип фигуры. |
 
 ## Характеристики
 
