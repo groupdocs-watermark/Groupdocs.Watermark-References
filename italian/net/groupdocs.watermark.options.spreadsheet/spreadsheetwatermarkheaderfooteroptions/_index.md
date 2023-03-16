@@ -28,7 +28,7 @@ public sealed class SpreadsheetWatermarkHeaderFooterOptions : SpreadsheetWaterma
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane ai documenti del foglio di calcolo](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 

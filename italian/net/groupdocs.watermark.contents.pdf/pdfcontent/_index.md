@@ -38,7 +38,7 @@ public class PdfContent : Content
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane ai documenti PDF](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 * [Oggetti esistenti nel documento PDF](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document)

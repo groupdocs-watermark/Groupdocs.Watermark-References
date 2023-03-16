@@ -16,7 +16,7 @@ public ISpreadsheetWatermarkEffects Effects { get; set; }
 
 ### Valore della proprietà
 
-Il[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) o[`SpreadsheetTextEffects`](../../spreadsheettexteffects) per gli effetti da applicare alla filigrana.
+Il[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) O[`SpreadsheetTextEffects`](../../spreadsheettexteffects)per gli effetti da applicare alla filigrana.
 
 ### Guarda anche
 

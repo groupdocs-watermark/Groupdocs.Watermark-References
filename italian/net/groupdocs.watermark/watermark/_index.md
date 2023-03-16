@@ -34,7 +34,7 @@ public abstract class Watermark
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori dettagli sulle proprietà della filigrana: [Aggiunta di filigrane di testo](https://docs.groupdocs.com/display/watermarknet/Adding+text+watermarks)
 * Argomenti più avanzati sulla filigrana: [Aggiunta di filigrane](https://docs.groupdocs.com/display/watermarknet/Adding+watermarks)

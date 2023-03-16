@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: Ottiene la pagina principale di thisPdfXObjectgroupdocs.watermark.contents.pdf/pdfxobject .
+description: Ottiene la pagina padre di thisPdfXObjectgroupdocs.watermark.contents.pdf/pdfxobject .
 type: docs
 weight: 20
 url: /it/net/groupdocs.watermark.contents.pdf/pdfxobject/page/
 ---
 ## PdfXObject.Page property
 
-Ottiene la pagina principale di this[`PdfXObject`](../../pdfxobject) .
+Ottiene la pagina padre di this[`PdfXObject`](../../pdfxobject) .
 
 ```csharp
 public PdfPage Page { get; }

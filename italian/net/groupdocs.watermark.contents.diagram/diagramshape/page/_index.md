@@ -1,14 +1,14 @@
 ---
 title: Page
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: Ottiene la pagina principale di thisDiagramShapegroupdocs.watermark.contents.diagram/diagramshape .
+description: Ottiene la pagina padre di thisDiagramShapegroupdocs.watermark.contents.diagram/diagramshape .
 type: docs
 weight: 70
 url: /it/net/groupdocs.watermark.contents.diagram/diagramshape/page/
 ---
 ## DiagramShape.Page property
 
-Ottiene la pagina principale di this[`DiagramShape`](../../diagramshape) .
+Ottiene la pagina padre di this[`DiagramShape`](../../diagramshape) .
 
 ```csharp
 public DiagramPage Page { get; }

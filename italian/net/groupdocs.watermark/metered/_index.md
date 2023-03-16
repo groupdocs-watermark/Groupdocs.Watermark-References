@@ -30,7 +30,7 @@ public class Metered
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * Ulteriori informazioni sulle licenze a consumo: [Domande frequenti sulle licenze misurate](https://purchase.groupdocs.com/faqs/licensing/metered)
 * Ulteriori informazioni**GroupDocs.Filigrana** licenza: [Limiti di valutazione e licenza](https://docs.groupdocs.com/display/watermarknet/Evaluation+Limitations+and+Licensing)

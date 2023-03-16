@@ -16,7 +16,7 @@ public WordProcessingWatermarkableImage Image { get; set; }
 
 ### Valore della proprietà
 
-L'immagine di questo[`WordProcessingShape`](../../wordprocessingshape). Restituisce null se la forma non ha immagini.
+L'immagine di questo[`WordProcessingShape`](../../wordprocessingshape) . Restituisce null se la forma non ha immagini.
 
 ### Guarda anche
 

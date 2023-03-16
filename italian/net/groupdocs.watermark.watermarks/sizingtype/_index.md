@@ -19,7 +19,7 @@ public enum SizingType
 | Nome | Valore | Descrizione |
 | --- | --- | --- |
 | Auto | `0` | La filigrana dovrebbe essere ridimensionata automaticamente in base al suo contenuto. |
-| Absolute | `1` | La filigrana deve essere dimensionata esattamente[`Width`](../../groupdocs.watermark/watermark/width) e[`Height`](../../groupdocs.watermark/watermark/height) |
+| Absolute | `1` | La filigrana deve essere dimensionata esattamente[`Width`](../../groupdocs.watermark/watermark/width) E[`Height`](../../groupdocs.watermark/watermark/height) |
 | ScaleToParentDimensions | `2` | La filigrana deve essere ridimensionata rispetto alle dimensioni principali utilizzando specificato[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) . |
 | ScaleToParentArea | `3` | La filigrana deve essere ridimensionata rispetto all'area principale utilizzando specificato[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) |
 

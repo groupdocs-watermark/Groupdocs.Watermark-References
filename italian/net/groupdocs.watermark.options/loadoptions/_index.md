@@ -30,7 +30,7 @@ public class LoadOptions
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Caricamento documenti](https://docs.groupdocs.com/display/watermarknet/Loading+documents)
 * [Carica da disco locale](https://docs.groupdocs.com/display/watermarknet/Load+from+local+disk)

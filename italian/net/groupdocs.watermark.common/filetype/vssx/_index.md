@@ -1,14 +1,14 @@
 ---
 title: VSSX
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: I file con estensione .VSSX stanno disegnando stencil creati con Microsoft Visio 2013 e versioni successive. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/image/vssx/ .
+description: I file con estensione .VSSX stanno disegnando stencil creati con Microsoft Visio 2013 e versioni successive. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/image/vssx/ .
 type: docs
 weight: 450
 url: /it/net/groupdocs.watermark.common/filetype/vssx/
 ---
 ## FileType.VSSX field
 
-I file con estensione .VSSX stanno disegnando stencil creati con Microsoft Visio 2013 e versioni successive. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/image/vssx/) .
+I file con estensione .VSSX stanno disegnando stencil creati con Microsoft Visio 2013 e versioni successive. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/image/vssx/) .
 
 ```csharp
 public static readonly FileType VSSX;

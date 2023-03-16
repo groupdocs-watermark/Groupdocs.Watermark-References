@@ -1,14 +1,14 @@
 ---
 title: CollectionType
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: Ottiene il tipo di raccolta di frammenti formattati.
+description: Ottiene il tipo di raccolta di frammenti formattata.
 type: docs
 weight: 10
 url: /it/net/groupdocs.watermark.search/formattedtextfragmentcollection/collectiontype/
 ---
 ## FormattedTextFragmentCollection.CollectionType property
 
-Ottiene il tipo di raccolta di frammenti formattati.
+Ottiene il tipo di raccolta di frammenti formattata.
 
 ```csharp
 public FormattedTextFragmentCollectionType CollectionType { get; }

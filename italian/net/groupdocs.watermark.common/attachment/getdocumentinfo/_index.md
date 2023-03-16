@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Valore di ritorno
 
-Il[`IDocumentInfo`](../../idocumentinfo) istanza che contiene le informazioni rilevate
+IL[`IDocumentInfo`](../../idocumentinfo) istanza che contiene le informazioni rilevate
 
 ### Guarda anche
 

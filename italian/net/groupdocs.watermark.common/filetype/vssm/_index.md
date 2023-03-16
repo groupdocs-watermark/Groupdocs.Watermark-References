@@ -1,14 +1,14 @@
 ---
 title: VSSM
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: I file con estensione .VSSM sono file Microsoft Visio Stencil che supportano le macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vssm/ .
+description: I file con estensione .VSSM sono file Microsoft Visio Stencil che supportano le macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vssm/ .
 type: docs
 weight: 440
 url: /it/net/groupdocs.watermark.common/filetype/vssm/
 ---
 ## FileType.VSSM field
 
-I file con estensione .VSSM sono file Microsoft Visio Stencil che supportano le macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vssm/) .
+I file con estensione .VSSM sono file Microsoft Visio Stencil che supportano le macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vssm/) .
 
 ```csharp
 public static readonly FileType VSSM;

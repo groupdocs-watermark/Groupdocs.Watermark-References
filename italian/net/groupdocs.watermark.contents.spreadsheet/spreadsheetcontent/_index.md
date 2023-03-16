@@ -34,7 +34,7 @@ public class SpreadsheetContent : Content
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane ai documenti del foglio di calcolo](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 * [Forme nel documento del foglio di calcolo](https://docs.groupdocs.com/display/watermarknet/Shapes+in+spreadsheet+document)
@@ -50,7 +50,7 @@ Carica e salva un documento Excel di qualsiasi tipo supportato.
 SpreadsheetLoadOptions loadOptions = new SpreadsheetLoadOptions();
 using (Watermarker watermarker = new Watermarker(@"D:\input.xls", loadOptions))
 {
-    // Usa il metodo Add per aggiungere la filigrana a uno oa tutti i fogli di lavoro.
+    // Usa il metodo Add per aggiungere filigrana a un particolare oa tutti i fogli di lavoro.
 
     // Salvare le modifiche.
     watermarker.Save(@"D:\output.xls");

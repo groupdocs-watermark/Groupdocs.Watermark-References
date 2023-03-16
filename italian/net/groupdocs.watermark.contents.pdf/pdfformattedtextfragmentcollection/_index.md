@@ -18,7 +18,7 @@ public class PdfFormattedTextFragmentCollection : FormattedTextFragmentCollectio
 
 | Nome | Descrizione |
 | --- | --- |
-| [CollectionType](../../groupdocs.watermark.search/formattedtextfragmentcollection/collectiontype) { get; } | Ottiene il tipo di raccolta di frammenti formattati. |
+| [CollectionType](../../groupdocs.watermark.search/formattedtextfragmentcollection/collectiontype) { get; } | Ottiene il tipo di raccolta di frammenti formattata. |
 | virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | Ottiene il numero di elementi contenuti nella raccolta. |
 | override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | Ottiene un valore che indica se la raccolta è di sola lettura. |
 | virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | Ottiene l'elemento in corrispondenza dell'indice specificato nella raccolta. |

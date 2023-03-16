@@ -27,7 +27,7 @@ public abstract class PresentationBaseShape : ShapeSearchAdapter, IPresentationH
 | [Presentation](../../groupdocs.watermark.contents.presentation/presentationbaseshape/presentation) { get; } | Ottiene la presentazione padre di this[`PresentationBaseShape`](../presentationbaseshape) . |
 | [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | Ottiene o imposta la larghezza di this[`PresentationBaseShape`](../presentationbaseshape)in punti. |
 | [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | Ottiene o imposta l'offset orizzontale di this[`PresentationBaseShape`](../presentationbaseshape) dal bordo sinistro della presentazione in punti. |
-| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Ottiene o imposta l'offset verticale di this[`PresentationBaseShape`](../presentationbaseshape)from bordo superiore presentazione in punti. |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Ottiene o imposta l'offset verticale di this[`PresentationBaseShape`](../presentationbaseshape) from bordo superiore presentazione in punti. |
 | [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | Ottiene la posizione di this[`PresentationBaseShape`](../presentationbaseshape) nell'ordine z. |
 
 ## Metodi

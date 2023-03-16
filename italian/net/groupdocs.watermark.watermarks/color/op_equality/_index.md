@@ -16,8 +16,8 @@ public static bool operator ==(Color left, Color right)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| left | Color | Il[`Color`](../../color) cioè a sinistra dell'operatore di uguaglianza. |
-| right | Color | Il[`Color`](../../color) cioè a destra dell'operatore di uguaglianza. |
+| left | Color | IL[`Color`](../../color) cioè a sinistra dell'operatore di uguaglianza. |
+| right | Color | IL[`Color`](../../color) cioè a destra dell'operatore di uguaglianza. |
 
 ### Valore di ritorno
 

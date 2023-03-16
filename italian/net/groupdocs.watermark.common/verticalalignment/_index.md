@@ -25,7 +25,7 @@ public enum VerticalAlignment
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Aggiungi filigrana di testo o immagine](https://docs.groupdocs.com/display/watermarknet/Add+text+or+image+watermark)
 * [Aggiunta di filigrane](https://docs.groupdocs.com/display/watermarknet/Adding+watermarks)

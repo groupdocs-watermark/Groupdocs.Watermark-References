@@ -30,7 +30,7 @@ public enum FormatFamily
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Formati di documenti supportati](https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats)
 * [Ottieni i formati di file supportati](https://docs.groupdocs.com/display/watermarknet/Get+supported+file+formats)

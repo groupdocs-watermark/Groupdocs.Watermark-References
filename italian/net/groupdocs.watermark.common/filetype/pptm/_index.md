@@ -1,14 +1,14 @@
 ---
 title: PPTM
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: I file con estensione PPTM sono file di presentazione con attivazione macro creati con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/presentation/pptm/ .
+description: I file con estensione PPTM sono file di presentazione con attivazione macro creati con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/presentation/pptm/ .
 type: docs
 weight: 320
 url: /it/net/groupdocs.watermark.common/filetype/pptm/
 ---
 ## FileType.PPTM field
 
-I file con estensione PPTM sono file di presentazione con attivazione macro creati con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/presentation/pptm/) .
+I file con estensione PPTM sono file di presentazione con attivazione macro creati con Microsoft PowerPoint 2007 o versioni successive. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/presentation/pptm/) .
 
 ```csharp
 public static readonly FileType PPTM;

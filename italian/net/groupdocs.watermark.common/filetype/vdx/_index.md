@@ -1,14 +1,14 @@
 ---
 title: VDX
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: Qualsiasi disegno o grafico creato in Microsoft Visio ma salvato in formato XML ha estensione .VDX. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vdx/ .
+description: Qualsiasi disegno o grafico creato in Microsoft Visio ma salvato in formato XML ha estensione .VDX. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vdx/ .
 type: docs
 weight: 390
 url: /it/net/groupdocs.watermark.common/filetype/vdx/
 ---
 ## FileType.VDX field
 
-Qualsiasi disegno o grafico creato in Microsoft Visio, ma salvato in formato XML ha estensione .VDX. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vdx/) .
+Qualsiasi disegno o grafico creato in Microsoft Visio, ma salvato in formato XML ha estensione .VDX. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vdx/) .
 
 ```csharp
 public static readonly FileType VDX;

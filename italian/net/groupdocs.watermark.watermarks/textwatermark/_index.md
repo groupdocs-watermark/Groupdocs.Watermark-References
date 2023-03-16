@@ -33,6 +33,7 @@ public class TextWatermark : Watermark
 | [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | Ottiene o imposta un valore che indica se la filigrana deve essere posizionata sullo sfondo. |
 | [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | Ottiene o imposta le impostazioni dei margini di this[`Watermark`](../../groupdocs.watermark/watermark) . |
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Ottiene o imposta l'opacità di this[`Watermark`](../../groupdocs.watermark/watermark) . |
+| [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | Ottiene o imposta le impostazioni di riempimento di this[`TextWatermark`](../textwatermark) . Questa proprietà è applicabile solo ai file immagine. |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Ottiene o imposta l'angolo di rotazione di this[`Watermark`](../../groupdocs.watermark/watermark) in gradi. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Ottiene o imposta un valore che definisce in che modo la dimensione della filigrana dipende dalla dimensione principale. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Ottiene o imposta un valore che specifica la dimensione della filigrana. |
@@ -45,7 +46,7 @@ public class TextWatermark : Watermark
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiunta di filigrane di testo](https://docs.groupdocs.com/display/watermarknet/Adding+text+watermarks)
 

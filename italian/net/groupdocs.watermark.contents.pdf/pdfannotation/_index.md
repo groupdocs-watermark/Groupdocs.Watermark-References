@@ -22,7 +22,7 @@ public class PdfAnnotation : PdfShape
 | [FormattedTextFragments](../../groupdocs.watermark.contents.pdf/pdfshape/formattedtextfragments) { get; } | Ottiene la raccolta di frammenti di testo formattati di this[`PdfShape`](../pdfshape) . |
 | override [Height](../../groupdocs.watermark.contents.pdf/pdfannotation/height) { get; } | Ottiene l'altezza di questo[`PdfAnnotation`](../pdfannotation)in punti. |
 | [Image](../../groupdocs.watermark.contents.pdf/pdfshape/image) { get; set; } | Ottiene o imposta l'immagine di this[`PdfShape`](../pdfshape) . |
-| [Page](../../groupdocs.watermark.contents.pdf/pdfannotation/page) { get; } | Ottiene la pagina principale di this[`PdfAnnotation`](../pdfannotation) . |
+| [Page](../../groupdocs.watermark.contents.pdf/pdfannotation/page) { get; } | Ottiene la pagina padre di this[`PdfAnnotation`](../pdfannotation) . |
 | override [RotateAngle](../../groupdocs.watermark.contents.pdf/pdfannotation/rotateangle) { get; } | Ottiene l'angolo di rotazione di this[`PdfAnnotation`](../pdfannotation) in gradi. |
 | virtual [Text](../../groupdocs.watermark.contents.pdf/pdfshape/text) { get; set; } | Ottiene o imposta il testo di this[`PdfShape`](../pdfshape) . |
 | override [Width](../../groupdocs.watermark.contents.pdf/pdfannotation/width) { get; } | Ottiene la larghezza di this[`PdfAnnotation`](../pdfannotation)in punti. |
@@ -31,7 +31,7 @@ public class PdfAnnotation : PdfShape
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Lavorare con le annotazioni](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithannotations)
 

@@ -1,14 +1,14 @@
 ---
 title: XLSM
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: I file con estensione XLSM sono un tipo di file Spreasheet che supportano le macro. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/specification/spreadsheet/xlsm/ .
+description: I file con estensione XLSM sono un tipo di file Spreasheet che supportano le macro. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/specification/spreadsheet/xlsm/ .
 type: docs
 weight: 540
 url: /it/net/groupdocs.watermark.common/filetype/xlsm/
 ---
 ## FileType.XLSM field
 
-I file con estensione XLSM sono un tipo di file Spreasheet che supportano le macro. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) .
+I file con estensione XLSM sono un tipo di file Spreasheet che supportano le macro. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) .
 
 ```csharp
 public static readonly FileType XLSM;

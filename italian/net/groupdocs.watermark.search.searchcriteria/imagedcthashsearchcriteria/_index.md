@@ -37,7 +37,7 @@ public class ImageDctHashSearchCriteria : ImageSearchCriteria
 
 ### Osservazioni
 
-Questo criterio di ricerca utilizza l'hash percettivo dell'immagine basato su DCT per calcolare la somiglianza dell'immagine. **Scopri di più:**
+Questo criterio di ricerca utilizza l'hash percettivo dell'immagine basato su DCT per calcolare la somiglianza dell'immagine. **Saperne di più:**
 
 * [Ricerca di filigrane](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

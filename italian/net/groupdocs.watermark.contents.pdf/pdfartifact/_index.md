@@ -24,7 +24,7 @@ public class PdfArtifact : PdfShape
 | override [Height](../../groupdocs.watermark.contents.pdf/pdfartifact/height) { get; } | Ottiene l'altezza di questo[`PdfArtifact`](../pdfartifact)in punti. |
 | [Image](../../groupdocs.watermark.contents.pdf/pdfshape/image) { get; set; } | Ottiene o imposta l'immagine di this[`PdfShape`](../pdfshape) . |
 | [Opacity](../../groupdocs.watermark.contents.pdf/pdfartifact/opacity) { get; } | Ottiene l'opacità di this[`PdfArtifact`](../pdfartifact) . |
-| [Page](../../groupdocs.watermark.contents.pdf/pdfartifact/page) { get; } | Ottiene la pagina principale di this[`PdfArtifact`](../pdfartifact) . |
+| [Page](../../groupdocs.watermark.contents.pdf/pdfartifact/page) { get; } | Ottiene la pagina padre di this[`PdfArtifact`](../pdfartifact) . |
 | override [RotateAngle](../../groupdocs.watermark.contents.pdf/pdfartifact/rotateangle) { get; } | Ottiene l'angolo di rotazione di this[`PdfArtifact`](../pdfartifact) in gradi. |
 | override [Text](../../groupdocs.watermark.contents.pdf/pdfartifact/text) { get; set; } | Ottiene o imposta il testo di this[`PdfArtifact`](../pdfartifact) . |
 | override [Width](../../groupdocs.watermark.contents.pdf/pdfartifact/width) { get; } | Ottiene la larghezza di this[`PdfArtifact`](../pdfartifact)in punti. |
@@ -33,7 +33,7 @@ public class PdfArtifact : PdfShape
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Lavorare con gli artefatti](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithartifacts)
 

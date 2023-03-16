@@ -16,7 +16,7 @@ public IPresentationWatermarkEffects Effects { get; set; }
 
 ### Valore della proprietà
 
-Il valore di[`PresentationImageEffects`](../../presentationimageeffects) o[`PresentationTextEffects`](../../presentationtexteffects) per gli effetti da applicare alla filigrana.
+Il valore di[`PresentationImageEffects`](../../presentationimageeffects) O[`PresentationTextEffects`](../../presentationtexteffects) per gli effetti da applicare alla filigrana.
 
 ### Guarda anche
 

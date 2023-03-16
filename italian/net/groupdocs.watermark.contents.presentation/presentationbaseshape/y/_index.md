@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: Ottiene o imposta loffset verticale di thisPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapefrom bordo superiore presentazione in punti.
+description: Ottiene o imposta loffset verticale di thisPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape from bordo superiore presentazione in punti.
 type: docs
 weight: 90
 url: /it/net/groupdocs.watermark.contents.presentation/presentationbaseshape/y/
 ---
 ## PresentationBaseShape.Y property
 
-Ottiene o imposta l'offset verticale di this[`PresentationBaseShape`](../../presentationbaseshape)from bordo superiore presentazione in punti.
+Ottiene o imposta l'offset verticale di this[`PresentationBaseShape`](../../presentationbaseshape) from bordo superiore presentazione in punti.
 
 ```csharp
 public double Y { get; set; }

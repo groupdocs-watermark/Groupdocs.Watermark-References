@@ -1,14 +1,14 @@
 ---
 title: VST
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: I file con estensione VST sono file di immagini vettoriali creati con Microsoft Visio e fungono da modello per la creazione di ulteriori file. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/image/vst/ .
+description: I file con estensione VST sono file di immagini vettoriali creati con Microsoft Visio e fungono da modello per la creazione di ulteriori file. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/image/vst/ .
 type: docs
 weight: 460
 url: /it/net/groupdocs.watermark.common/filetype/vst/
 ---
 ## FileType.VST field
 
-I file con estensione VST sono file di immagini vettoriali creati con Microsoft Visio e fungono da modello per la creazione di ulteriori file. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/image/vst/) .
+I file con estensione VST sono file di immagini vettoriali creati con Microsoft Visio e fungono da modello per la creazione di ulteriori file. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/image/vst/) .
 
 ```csharp
 public static readonly FileType VST;

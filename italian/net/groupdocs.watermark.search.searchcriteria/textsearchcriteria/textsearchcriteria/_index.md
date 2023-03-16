@@ -37,7 +37,7 @@ public TextSearchCriteria(string searchString, bool isMatchCase)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | searchString | String | La stringa esatta da cercare. |
-| isMatchCase | Boolean | ignorare maiuscole e minuscole durante il confronto; altrimenti,. |
+| isMatchCase | Boolean | ignorare maiuscole e minuscole durante il confronto; Altrimenti,. |
 
 ### Guarda anche
 

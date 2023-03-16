@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Valore di ritorno
 
-Il[`IDocumentInfo`](../../../groupdocs.watermark.common/idocumentinfo) istanza che contiene le informazioni rilevate.
+IL[`IDocumentInfo`](../../../groupdocs.watermark.common/idocumentinfo) istanza che contiene le informazioni rilevate.
 
 ### Osservazioni
 

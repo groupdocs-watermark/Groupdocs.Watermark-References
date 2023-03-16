@@ -37,7 +37,7 @@ public class WordProcessingContent : Content
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane ai documenti di elaborazione testi](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents)
 * [Oggetti esistenti nel documento di elaborazione testi](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+word+processing+document)

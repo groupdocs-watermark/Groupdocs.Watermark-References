@@ -41,7 +41,7 @@ public sealed class EmailContent : Content
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane agli allegati e-mail](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+email+attachments)
 * [Allegati e-mail](https://docs.groupdocs.com/display/watermarknet/Email+attachments)

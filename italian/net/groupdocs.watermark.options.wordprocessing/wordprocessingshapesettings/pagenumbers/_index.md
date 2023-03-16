@@ -20,7 +20,7 @@ I numeri di pagina per aggiungere la filigrana.
 
 ### Osservazioni
 
-Tutti i numeri devono essere maggiori o uguali a 1. Questa proprietà viene utilizzata solo quando si aggiunge la filigrana a un documento. Se questo valore è`nullo` , la filigrana viene aggiunta a tutte le pagine.
+Tutti i numeri devono essere maggiori o uguali a 1. Questa proprietà viene utilizzata solo quando si aggiunge la filigrana a un documento. Se questo valore è`nullo` la filigrana viene aggiunta a tutte le pagine.
 
 ### Guarda anche
 

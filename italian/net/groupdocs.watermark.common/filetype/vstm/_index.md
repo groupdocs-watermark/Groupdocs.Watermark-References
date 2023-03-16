@@ -1,14 +1,14 @@
 ---
 title: VSTM
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: I file con estensione VSTM sono file modello creati con Microsoft Visio che supportano le macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/vstm/ .
+description: I file con estensione VSTM sono file modello creati con Microsoft Visio che supportano le macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/vstm/ .
 type: docs
 weight: 470
 url: /it/net/groupdocs.watermark.common/filetype/vstm/
 ---
 ## FileType.VSTM field
 
-I file con estensione VSTM sono file modello creati con Microsoft Visio che supportano le macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/vstm/) .
+I file con estensione VSTM sono file modello creati con Microsoft Visio che supportano le macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/vstm/) .
 
 ```csharp
 public static readonly FileType VSTM;

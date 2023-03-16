@@ -33,7 +33,7 @@ public sealed class DiagramContent : Content
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane ai documenti del diagramma](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 * [Oggetti esistenti nel documento del diagramma](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+diagram+document)

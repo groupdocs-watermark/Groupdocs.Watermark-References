@@ -1,14 +1,14 @@
 ---
 title: FlatOpcTemplate
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: Modello Office Open XML WordprocessingML privo di macro memorizzato in un file XML flat anziché in un pacchetto ZIP .xml. Ulteriori informazioni su questo formato di filequihttps//en.wikipedia.org/wiki/Office_Open_XML .
+description: Modello Office Open XML WordprocessingML privo di macro memorizzato in un file XML piatto anziché in un pacchetto ZIP .xml. Ulteriori informazioni su questo formato di fileQuihttps//en.wikipedia.org/wiki/Office_Open_XML .
 type: docs
 weight: 120
 url: /it/net/groupdocs.watermark.common/filetype/flatopctemplate/
 ---
 ## FileType.FlatOpcTemplate field
 
-Modello Office Open XML WordprocessingML (privo di macro) memorizzato in un file XML flat anziché in un pacchetto ZIP (.xml). Ulteriori informazioni su questo formato di file[qui](https://en.wikipedia.org/wiki/Office_Open_XML) .
+Modello Office Open XML WordprocessingML (privo di macro) memorizzato in un file XML piatto anziché in un pacchetto ZIP (.xml). Ulteriori informazioni su questo formato di file[Qui](https://en.wikipedia.org/wiki/Office_Open_XML) .
 
 ```csharp
 public static readonly FileType FlatOpcTemplate;

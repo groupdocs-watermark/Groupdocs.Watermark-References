@@ -16,7 +16,7 @@ public IWordProcessingWatermarkEffects Effects { get; set; }
 
 ### Valore della proprietà
 
-Il[`WordProcessingImageEffects`](../../wordprocessingimageeffects) o[`WordProcessingTextEffects`](../../wordprocessingtexteffects) per gli effetti da applicare alla filigrana.
+Il[`WordProcessingImageEffects`](../../wordprocessingimageeffects) O[`WordProcessingTextEffects`](../../wordprocessingtexteffects) per gli effetti da applicare alla filigrana.
 
 ### Guarda anche
 
