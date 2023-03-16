@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: GroupDocs.Watermark for .NET API-referens
-description: Lägger till en vattenstämpel till dettaWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage. Den här metoden förutsätter att vattenmärkesförskjutning och storlek mäts i pixlar om de är tilldelade.
+description: Lägger till en vattenstämpel till dettaWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage . Den här metoden förutsätter att vattenmärkesförskjutning och storlek mäts i pixlar om de är tilldelade.
 type: docs
 weight: 30
 url: /sv/net/groupdocs.watermark.contents.image/watermarkableimage/add/
 ---
 ## WatermarkableImage.Add method
 
-Lägger till en vattenstämpel till detta[`WatermarkableImage`](../../watermarkableimage). Den här metoden förutsätter att vattenmärkesförskjutning och storlek mäts i pixlar (om de är tilldelade).
+Lägger till en vattenstämpel till detta[`WatermarkableImage`](../../watermarkableimage) . Den här metoden förutsätter att vattenmärkesförskjutning och storlek mäts i pixlar (om de är tilldelade).
 
 ```csharp
 public void Add(Watermark watermark)

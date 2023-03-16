@@ -31,7 +31,7 @@ public class PresentationShape : PresentationBaseShape, IRotatableTwoDObject
 | [Text](../../groupdocs.watermark.contents.presentation/presentationshape/text) { get; set; } | Hämtar eller ställer in texten för detta[`PresentationShape`](../presentationshape) . |
 | [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | Hämtar eller ställer in bredden på detta[`PresentationBaseShape`](../presentationbaseshape) poäng. |
 | [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | Hämtar eller ställer in den horisontella offseten för detta[`PresentationBaseShape`](../presentationbaseshape) från presentationens vänstra kant i punkter. |
-| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Hämtar eller ställer in den vertikala offseten för detta[`PresentationBaseShape`](../presentationbaseshape)from presentations övre kant i punkter. |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Hämtar eller ställer in den vertikala offseten för detta[`PresentationBaseShape`](../presentationbaseshape) from presentations övre kant i punkter. |
 | [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | Får positionen för denna[`PresentationBaseShape`](../presentationbaseshape) i z-ordningen. |
 
 ## Metoder

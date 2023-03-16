@@ -45,7 +45,8 @@ public enum SpreadsheetMsoDrawingType
 | WebExtension | `32` | Inbyggd ritningstyp. |
 | SmartArt | `33` | Inbyggd ritningstyp. |
 | CustomXml | `34` | Inbyggd ritningstyp. |
-| Model3D | `35` | Inbyggd ritningstyp. |
+| Timeline | `35` | Inbyggd ritningstyp. |
+| Model3D | `36` | Inbyggd ritningstyp. |
 
 ### Se även
 

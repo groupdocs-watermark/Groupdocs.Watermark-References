@@ -25,7 +25,7 @@ public class AttachmentWatermarkableImage : WatermarkableImage
 
 | namn | Beskrivning |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Lägger till en vattenstämpel till detta[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). Den här metoden förutsätter att vattenmärkesförskjutning och storlek mäts i pixlar (om de är tilldelade). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Lägger till en vattenstämpel till detta[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage) . Den här metoden förutsätter att vattenmärkesförskjutning och storlek mäts i pixlar (om de är tilldelade). |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | Hittar alla bilder i innehållet. Sökningen utförs i de objekt som anges i[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Hittar bilder enligt de angivna sökkriterierna. Sökningen utförs i de objekt som anges i[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | Hämtar bilden som byte-array. |

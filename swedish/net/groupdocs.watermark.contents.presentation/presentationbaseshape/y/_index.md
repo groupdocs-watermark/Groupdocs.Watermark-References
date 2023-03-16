@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: GroupDocs.Watermark for .NET API-referens
-description: Hämtar eller ställer in den vertikala offseten för dettaPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapefrom presentations övre kant i punkter.
+description: Hämtar eller ställer in den vertikala offseten för dettaPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape from presentations övre kant i punkter.
 type: docs
 weight: 90
 url: /sv/net/groupdocs.watermark.contents.presentation/presentationbaseshape/y/
 ---
 ## PresentationBaseShape.Y property
 
-Hämtar eller ställer in den vertikala offseten för detta[`PresentationBaseShape`](../../presentationbaseshape)from presentations övre kant i punkter.
+Hämtar eller ställer in den vertikala offseten för detta[`PresentationBaseShape`](../../presentationbaseshape) from presentations övre kant i punkter.
 
 ```csharp
 public double Y { get; set; }

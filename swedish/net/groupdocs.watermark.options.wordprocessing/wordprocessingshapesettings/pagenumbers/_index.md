@@ -20,7 +20,7 @@ Sidnumren för att lägga till vattenstämpeln.
 
 ### Anmärkningar
 
-Alla siffror måste vara större än eller lika med 1. Den här egenskapen används endast när vattenstämpeln läggs till i ett dokument. Om detta värde är`null` , vattenstämpeln läggs till på alla sidor.
+Alla siffror måste vara större än eller lika med 1. Den här egenskapen används endast när vattenstämpeln läggs till i ett dokument. Om detta värde är`null` vattenstämpeln läggs till på alla sidor.
 
 ### Se även
 
