@@ -19,7 +19,7 @@ public enum WordProcessingFlipOrientation
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 坐标不翻转。 |
+| None | `0` | 坐标未翻转。 |
 | Horizontal | `1` | 沿 y 轴翻转，反转 x 坐标。 |
 | Vertical | `2` | 沿 x 轴翻转，反转 y 坐标。 |
 | Both | `3` | 沿 y 轴和 x 轴翻转。 |

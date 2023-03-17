@@ -1,14 +1,14 @@
 ---
 title: VSX
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Dateien mit der Erweiterung .VSX beziehen sich auf Schablonen die aus Zeichnungen und Formen bestehen die zum Erstellen von Diagrammen in Microsoft Visio verwendet werden. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/vsx/ .
+description: Dateien mit der Erweiterung .VSX beziehen sich auf Schablonen die aus Zeichnungen und Formen bestehen die zum Erstellen von Diagrammen in Microsoft Visio verwendet werden. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/vsx/ .
 type: docs
 weight: 490
 url: /de/net/groupdocs.watermark.common/filetype/vsx/
 ---
 ## FileType.VSX field
 
-Dateien mit der Erweiterung .VSX beziehen sich auf Schablonen, die aus Zeichnungen und Formen bestehen, die zum Erstellen von Diagrammen in Microsoft Visio verwendet werden. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/vsx/) .
+Dateien mit der Erweiterung .VSX beziehen sich auf Schablonen, die aus Zeichnungen und Formen bestehen, die zum Erstellen von Diagrammen in Microsoft Visio verwendet werden. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/vsx/) .
 
 ```csharp
 public static readonly FileType VSX;

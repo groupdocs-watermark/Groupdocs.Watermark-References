@@ -1,14 +1,14 @@
 ---
 title: Bold
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置字体是否为粗体的值
+description: 获取或设置一个值指示字体是否为粗体
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/bold/
 ---
 ## DiagramHeaderFooterFont.Bold property
 
-获取或设置字体是否为粗体的值。
+获取或设置一个值，指示字体是否为粗体。
 
 ```csharp
 public bool Bold { get; set; }
@@ -16,7 +16,7 @@ public bool Bold { get; set; }
 
 ### 适当的价值
 
-如果此字体为粗体则为真；否则为假。
+如果此字体为粗体，则为真；否则，假的。
 
 ### 也可以看看
 

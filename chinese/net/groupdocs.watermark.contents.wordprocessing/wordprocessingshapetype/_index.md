@@ -1,14 +1,14 @@
 ---
 title: WordProcessingShapeType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Word 文档中形状的类型
+description: 表示Word文档中形状的类型
 type: docs
 weight: 1420
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshapetype/
 ---
 ## WordProcessingShapeType enumeration
 
-表示 Word 文档中形状的类型。
+表示Word文档中形状的类型。
 
 ```csharp
 public enum WordProcessingShapeType

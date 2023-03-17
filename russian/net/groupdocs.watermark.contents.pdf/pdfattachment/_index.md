@@ -33,7 +33,7 @@ public class PdfAttachment : Attachment
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Вложения в PDF-документе](https://docs.groupdocs.com/display/watermarknet/Attachments+in+PDF+document)
 

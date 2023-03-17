@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的宽度WordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshape以点为单位
+description: 获取或设置宽度WordProcessingShapegroupdocs.watermark.contents.wordprocessing/wordprocessingshape点.
 type: docs
 weight: 180
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/width/
 ---
 ## WordProcessingShape.Width property
 
-获取或设置 this 的宽度[`WordProcessingShape`](../../wordprocessingshape)以点为单位。
+获取或设置宽度[`WordProcessingShape`](../../wordprocessingshape)点.
 
 ```csharp
 public double Width { get; set; }
@@ -16,7 +16,7 @@ public double Width { get; set; }
 
 ### 适当的价值
 
-这个宽度[`WordProcessingShape`](../../wordprocessingshape)在点。
+这个的宽度[`WordProcessingShape`](../../wordprocessingshape)分。
 
 ### 也可以看看
 

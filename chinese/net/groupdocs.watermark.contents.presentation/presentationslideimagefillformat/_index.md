@@ -18,9 +18,9 @@ public class PresentationSlideImageFillFormat : PresentationImageFillFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [BackgroundImage](../../groupdocs.watermark.contents.presentation/presentationslideimagefillformat/backgroundimage) { get; set; } | 获取或设置背景图片。 |
+| override [BackgroundImage](../../groupdocs.watermark.contents.presentation/presentationslideimagefillformat/backgroundimage) { get; set; } | 获取或设置背景图像。 |
 | override [TileAsTexture](../../groupdocs.watermark.contents.presentation/presentationimagefillformat/tileastexture) { get; set; } | 获取或设置一个值，该值指示图像是否平铺在背景上。 |
-| override [Transparency](../../groupdocs.watermark.contents.presentation/presentationimagefillformat/transparency) { get; set; } | 获取或设置背景图像的透明度为 0.0（不透明）到 1.0 （完全透明）的值。 |
+| override [Transparency](../../groupdocs.watermark.contents.presentation/presentationimagefillformat/transparency) { get; set; } | 获取或设置背景图像的透明度为从 0.0（不透明）到 1.0 （完全透明）的值。 |
 
 ### 也可以看看
 

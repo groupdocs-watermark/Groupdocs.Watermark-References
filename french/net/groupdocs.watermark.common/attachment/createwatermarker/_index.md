@@ -16,7 +16,7 @@ public Watermarker CreateWatermarker()
 
 ### Return_Value
 
-L'instance du descendant approprié de[`Content`](../../../groupdocs.watermark.contents/content) classer.
+L'instance du descendant approprié de[`Content`](../../../groupdocs.watermark.contents/content) classe.
 
 ### Voir également
 
@@ -41,7 +41,7 @@ public Watermarker CreateWatermarker(LoadOptions loadOptions)
 
 ### Return_Value
 
-L'instance du descendant approprié de[`Content`](../../../groupdocs.watermark.contents/content) classer.
+L'instance du descendant approprié de[`Content`](../../../groupdocs.watermark.contents/content) classe.
 
 ### Voir également
 
@@ -69,7 +69,7 @@ public Watermarker CreateWatermarker(LoadOptions loadOptions,
 
 ### Return_Value
 
-L'instance du descendant approprié de[`Content`](../../../groupdocs.watermark.contents/content) classer.
+L'instance du descendant approprié de[`Content`](../../../groupdocs.watermark.contents/content) classe.
 
 ### Voir également
 

@@ -1,0 +1,49 @@
+---
+title: WordProcessingShape
+second_title: GroupDocs.Watermark untuk Referensi .NET API
+description: Merupakan bentuk gambar dalam dokumen Word.
+type: docs
+weight: 1390
+url: /id/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/
+---
+## WordProcessingShape class
+
+Merupakan bentuk gambar dalam dokumen Word.
+
+```csharp
+public class WordProcessingShape : ShapeSearchAdapter, IRotatableTwoDObject
+```
+
+## Properti
+
+| Nama | Keterangan |
+| --- | --- |
+| [AlternativeText](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/alternativetext) { get; set; } | Mendapat atau menyetel teks deskriptif (alternatif) yang terkait dengan ini[`WordProcessingShape`](../wordprocessingshape) . |
+| [BehindText](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/behindtext) { get; set; } | Mendapat atau menetapkan nilai yang menunjukkan apakah bentuk berada di atas atau di belakang teks. |
+| [FormattedTextFragments](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/formattedtextfragments) { get; } | Mendapat kumpulan fragmen teks berformat ini[`WordProcessingShape`](../wordprocessingshape) . |
+| [HeaderFooter](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/headerfooter) { get; } | Mendapat header/footer induk dari ini[`WordProcessingShape`](../wordprocessingshape) (jika ada). |
+| [Height](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/height) { get; set; } | Mendapat atau mengatur ketinggian ini[`WordProcessingShape`](../wordprocessingshape)dalam poin. |
+| [HorizontalAlignment](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/horizontalalignment) { get; } | Mendapat nilai yang menentukan bagaimana bentuk diposisikan secara horizontal. |
+| [Hyperlink](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/hyperlink) { get; set; } | Mendapat atau menyetel hyperlink yang terkait dengan ini[`WordProcessingShape`](../wordprocessingshape) . |
+| [Image](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/image) { get; set; } | Mendapat atau menyetel gambar ini[`WordProcessingShape`](../wordprocessingshape) . |
+| [IsWordArt](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/iswordart) { get; } | Mendapat nilai yang menunjukkan apakah ini[`WordProcessingShape`](../wordprocessingshape) adalah objek WordArt. |
+| [Name](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/name) { get; } | Mendapat nama ini[`WordProcessingShape`](../wordprocessingshape) . |
+| [RelativeHorizontalPosition](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/relativehorizontalposition) { get; } | Mendapat nilai yang menentukan bentuk apa yang diposisikan secara horizontal. |
+| [RelativeVerticalPosition](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/relativeverticalposition) { get; } | Mendapat nilai yang menentukan bentuk apa yang diposisikan secara vertikal. |
+| [RotateAngle](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/rotateangle) { get; set; } | Mendapat atau mengatur sudut putar ini[`WordProcessingShape`](../wordprocessingshape) dalam derajat. |
+| [Section](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/section) { get; } | Mendapatkan bagian induk dari ini[`WordProcessingShape`](../wordprocessingshape) . |
+| [ShapeType](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/shapetype) { get; } | Mendapatkan tipe bentuk. |
+| [Text](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/text) { get; set; } | Mendapat atau mengatur teks ini[`WordProcessingShape`](../wordprocessingshape) . |
+| [VerticalAlignment](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/verticalalignment) { get; } | Mendapat nilai yang menentukan bagaimana bentuk diposisikan secara vertikal. |
+| [Width](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/width) { get; set; } | Mendapat atau mengatur lebar ini[`WordProcessingShape`](../wordprocessingshape)dalam poin. |
+| [X](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/x) { get; set; } | Mendapat atau menyetel offset horizontal dari ini[`WordProcessingShape`](../wordprocessingshape) dari batas kiri halaman dalam poin. |
+| [Y](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/y) { get; set; } | Mendapat atau menyetel offset vertikal dari ini[`WordProcessingShape`](../wordprocessingshape) dari batas atas halaman dalam poin. |
+
+### Lihat juga
+
+* class [ShapeSearchAdapter](../../groupdocs.watermark.search/shapesearchadapter)
+* interface [IRotatableTwoDObject](../../groupdocs.watermark.search/irotatabletwodobject)
+* ruang nama [GroupDocs.Watermark.Contents.WordProcessing](../../groupdocs.watermark.contents.wordprocessing)
+* perakitan [GroupDocs.Watermark](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Watermark.dll -->

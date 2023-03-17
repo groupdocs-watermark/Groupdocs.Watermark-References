@@ -16,7 +16,7 @@ public static EmailLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour[`EmailLoadOptions`](../../emailloadoptions) classer.
+La valeur par défaut pour[`EmailLoadOptions`](../../emailloadoptions) classe.
 
 ### Voir également
 

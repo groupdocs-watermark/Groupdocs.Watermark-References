@@ -19,8 +19,8 @@ public enum MarginType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Absolute | `0` | 以内容单位衡量的边距值。 |
-| RelativeToParentDimensions | `1` | 边距值应被解释为适当父维度的一部分。 |
-| RelativeToParentMinDimension | `2` | 边距值应解释为父最小尺寸的一部分。 |
+| RelativeToParentDimensions | `1` | 边距值应解释为适当父维度的一部分。 |
+| RelativeToParentMinDimension | `2` | 边距值应解释为父级最小尺寸的一部分。 |
 
 ### 也可以看看
 

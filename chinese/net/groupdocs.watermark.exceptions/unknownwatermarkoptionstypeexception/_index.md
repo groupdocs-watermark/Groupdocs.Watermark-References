@@ -1,14 +1,14 @@
 ---
 title: UnknownWatermarkOptionsTypeException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 无法添加水印时抛出的异常WatermarkOptions../groupdocs.watermark.options/watermarkoptions.
+description: supplied 无法添加水印时抛出的异常WatermarkOptions../groupdocs.watermark.options/watermarkoptions.
 type: docs
 weight: 1580
 url: /zh/net/groupdocs.watermark.exceptions/unknownwatermarkoptionstypeexception/
 ---
 ## UnknownWatermarkOptionsTypeException class
 
-无法添加水印时抛出的异常[`WatermarkOptions`](../../groupdocs.watermark.options/watermarkoptions).
+supplied 无法添加水印时抛出的异常[`WatermarkOptions`](../../groupdocs.watermark.options/watermarkoptions).
 
 ```csharp
 public sealed class UnknownWatermarkOptionsTypeException : WatermarkException
@@ -18,7 +18,7 @@ public sealed class UnknownWatermarkOptionsTypeException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UnknownWatermarkOptionsTypeException](unknownwatermarkoptionstypeexception)() | 初始化[`UnknownWatermarkOptionsTypeException`](../unknownwatermarkoptionstypeexception)类. |
+| [UnknownWatermarkOptionsTypeException](unknownwatermarkoptionstypeexception)() | 初始化一个新的实例[`UnknownWatermarkOptionsTypeException`](../unknownwatermarkoptionstypeexception)类. |
 
 ### 也可以看看
 

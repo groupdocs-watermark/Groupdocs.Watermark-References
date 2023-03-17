@@ -18,23 +18,23 @@ public class ImageColorHistogramSearchCriteria : ImageSearchCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [ImageColorHistogramSearchCriteria](imagecolorhistogramsearchcriteria#constructor)(Stream) | 初始化[`ImageColorHistogramSearchCriteria`](../imagecolorhistogramsearchcriteria)具有指定流的类。 |
-| [ImageColorHistogramSearchCriteria](imagecolorhistogramsearchcriteria#constructor_1)(string) | 初始化[`ImageColorHistogramSearchCriteria`](../imagecolorhistogramsearchcriteria)具有指定文件路径的类。 |
+| [ImageColorHistogramSearchCriteria](imagecolorhistogramsearchcriteria#constructor)(Stream) | 初始化一个新的实例[`ImageColorHistogramSearchCriteria`](../imagecolorhistogramsearchcriteria)具有指定流的类. |
+| [ImageColorHistogramSearchCriteria](imagecolorhistogramsearchcriteria#constructor_1)(string) | 初始化一个新的实例[`ImageColorHistogramSearchCriteria`](../imagecolorhistogramsearchcriteria)具有指定文件路径的类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BinsCount](../../groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria/binscount) { get; set; } | 获取或设置将用于构建颜色直方图的 bin 计数。 |
-| [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | 获取或设置图像之间允许的最大差异。 |
+| [BinsCount](../../groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria/binscount) { get; set; } | 获取或设置将用于构建颜色直方图的箱数。 |
+| [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | 获取或设置图像之间的最大允许差异。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)使用逻辑 AND 运算符的其他条件。 |
+| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑 AND 运算符. |
 | [Not](../../groupdocs.watermark.search.searchcriteria/searchcriteria/not)() | 否定这个[`SearchCriteria`](../searchcriteria). |
-| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与使用逻辑 OR 运算符的其他条件。 |
+| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑或运算符. |
 
 ### 评论
 

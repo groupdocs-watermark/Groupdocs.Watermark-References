@@ -1,14 +1,14 @@
 ---
 title: Margins
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置这个的边距设置Watermarkgroupdocs.watermark/watermark.
+description: 获取或设置此的边距设置Watermarkgroupdocs.watermark/watermark.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark/watermark/margins/
 ---
 ## Watermark.Margins property
 
-获取或设置这个的边距设置[`Watermark`](../../watermark).
+获取或设置此的边距设置[`Watermark`](../../watermark).
 
 ```csharp
 public Margins Margins { get; set; }
@@ -16,7 +16,7 @@ public Margins Margins { get; set; }
 
 ### 适当的价值
 
-此页边距设置[`Watermark`](../../watermark).
+这个的边距设置[`Watermark`](../../watermark).
 
 ### 也可以看看
 

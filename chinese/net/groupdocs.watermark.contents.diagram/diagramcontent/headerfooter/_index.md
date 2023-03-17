@@ -1,14 +1,14 @@
 ---
 title: HeaderFooter
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的页眉和页脚DiagramContentgroupdocs.watermark.contents.diagram/diagramcontent.
+description: 得到这个的页眉和页脚DiagramContentgroupdocs.watermark.contents.diagram/diagramcontent.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramcontent/headerfooter/
 ---
 ## DiagramContent.HeaderFooter property
 
-获取这个的页眉和页脚[`DiagramContent`](../../diagramcontent).
+得到这个的页眉和页脚[`DiagramContent`](../../diagramcontent).
 
 ```csharp
 public DiagramHeaderFooter HeaderFooter { get; }

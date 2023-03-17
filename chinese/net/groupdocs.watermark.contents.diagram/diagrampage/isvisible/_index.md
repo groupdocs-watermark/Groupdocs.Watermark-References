@@ -1,14 +1,14 @@
 ---
 title: IsVisible
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示页面是否在 UI 中可见
+description: 获取或设置一个值指示页面在 UI 中是否可见
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.diagram/diagrampage/isvisible/
 ---
 ## DiagramPage.IsVisible property
 
-获取或设置一个值，该值指示页面是否在 UI 中可见。
+获取或设置一个值，指示页面在 UI 中是否可见。
 
 ```csharp
 public bool IsVisible { get; set; }
@@ -16,7 +16,7 @@ public bool IsVisible { get; set; }
 
 ### 适当的价值
 
-表示页面在UI中是否可见的值。 如果页面可见则为真；否则为假。
+表示页面在UI中是否可见的值。 如果页面可见则为True；否则，假的。
 
 ### 也可以看看
 

@@ -1,19 +1,19 @@
 ---
 title: GroupDocs.Watermark.Contents.Presentation
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 命名空间提供了用于处理 PowerPoint 文档中的水印的类
+description: 命名空间提供用于处理 PowerPoint 文档中的水印的类
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.contents.presentation/
 ---
-命名空间提供了用于处理 PowerPoint 文档中的水印的类。
+命名空间提供用于处理 PowerPoint 文档中的水印的类。
 
 ## 课程
 
 | 班级 | 描述 |
 | --- | --- |
-| [PresentationBaseShape](./presentationbaseshape) | 为 PowerPoint 文档中所有类型的形状提供抽象基类。 |
-| [PresentationBaseSlide](./presentationbaseslide) | 为 PowerPoint 文档中所有类型的幻灯片提供抽象基类。 |
+| [PresentationBaseShape](./presentationbaseshape) | 提供PowerPoint文档中所有形状的抽象基类。 |
+| [PresentationBaseSlide](./presentationbaseslide) | 提供PowerPoint文档中所有类型幻灯片的抽象基类。 |
 | [PresentationChart](./presentationchart) | 表示 PowerPoint 文档中的图表。 |
 | [PresentationChartCollection](./presentationchartcollection) | 表示 PowerPoint 文档中的图表集合。 |
 | [PresentationContent](./presentationcontent) | 表示可以放置水印的 PowerPoint 文档。 |
@@ -23,15 +23,15 @@ url: /zh/net/groupdocs.watermark.contents.presentation/
 | [PresentationLayoutSlide](./presentationlayoutslide) | 表示 PowerPoint 内容布局幻灯片。 |
 | [PresentationLayoutSlideCollection](./presentationlayoutslidecollection) | 表示 PowerPoint 文档中布局幻灯片的集合。 |
 | [PresentationMasterHandoutSlide](./presentationmasterhandoutslide) | 表示 PowerPoint 内容中的主讲义幻灯片。 |
-| [PresentationMasterNotesSlide](./presentationmasternotesslide) | 代表 PowerPoint 文档中所有笔记幻灯片的母版幻灯片。 |
+| [PresentationMasterNotesSlide](./presentationmasternotesslide) | 表示 PowerPoint 文档中所有备注幻灯片的母版幻灯片。 |
 | [PresentationMasterSlide](./presentationmasterslide) | 表示 PowerPoint 文档母版幻灯片。 |
-| [PresentationMasterSlideCollection](./presentationmasterslidecollection) | 表示 PowerPoint 文档中的母版幻灯片集合。 |
+| [PresentationMasterSlideCollection](./presentationmasterslidecollection) | 表示 PowerPoint 文档中母版幻灯片的集合。 |
 | [PresentationNotesSlide](./presentationnotesslide) | 表示 PowerPoint 文档注释幻灯片。 |
 | [PresentationShape](./presentationshape) | 表示 PowerPoint 文档中的绘图形状。 |
 | [PresentationShapeCollection](./presentationshapecollection) | 表示 PowerPoint 文档中绘图形状的集合。 |
 | [PresentationShapeSettings](./presentationshapesettings) | 表示可应用于 PowerPoint 文档的形状水印的设置。 |
 | [PresentationSlide](./presentationslide) | 表示 PowerPoint 文档幻灯片。 |
-| [PresentationSlideCollection](./presentationslidecollection) | 表示 PowerPoint 文档中的幻灯片集合。 |
+| [PresentationSlideCollection](./presentationslidecollection) | 表示 PowerPoint 文档中的一组幻灯片。 |
 | [PresentationSlideImageFillFormat](./presentationslideimagefillformat) | 表示 PowerPoint 文档中幻灯片的图像填充格式设置。 |
 | [PresentationWatermarkableImage](./presentationwatermarkableimage) | 表示 PowerPoint 文档中的图像。 |
 ## 接口

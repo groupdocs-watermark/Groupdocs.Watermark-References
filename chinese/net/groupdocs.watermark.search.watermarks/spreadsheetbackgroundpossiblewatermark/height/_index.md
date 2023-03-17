@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的高度SpreadsheetBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark以像素为单位
+description: 获取这个的高度SpreadsheetBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark以像素为单位.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/height/
 ---
 ## SpreadsheetBackgroundPossibleWatermark.Height property
 
-获取这个的高度[`SpreadsheetBackgroundPossibleWatermark`](../../spreadsheetbackgroundpossiblewatermark)以像素为单位。
+获取这个的高度[`SpreadsheetBackgroundPossibleWatermark`](../../spreadsheetbackgroundpossiblewatermark)以像素为单位.
 
 ```csharp
 public override double Height { get; }

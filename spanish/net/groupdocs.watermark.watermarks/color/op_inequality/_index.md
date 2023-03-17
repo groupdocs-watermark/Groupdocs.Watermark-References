@@ -16,8 +16,8 @@ public static bool operator !=(Color left, Color right)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| left | Color | los[`Color`](../../color) que está a la izquierda del operador de desigualdad. |
-| right | Color | los[`Color`](../../color) que está a la derecha del operador de desigualdad. |
+| left | Color | El[`Color`](../../color) que está a la izquierda del operador de desigualdad. |
+| right | Color | El[`Color`](../../color) que está a la derecha del operador de desigualdad. |
 
 ### Valor_devuelto
 

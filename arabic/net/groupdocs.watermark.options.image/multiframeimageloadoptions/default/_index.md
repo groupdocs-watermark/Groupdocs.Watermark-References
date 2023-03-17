@@ -16,7 +16,7 @@ public static MultiframeImageLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`MultiframeImageLoadOptions`](../../multiframeimageloadoptions) صف دراسي.
+القيمة الافتراضية لملف[`MultiframeImageLoadOptions`](../../multiframeimageloadoptions) فصل.
 
 ### أنظر أيضا
 

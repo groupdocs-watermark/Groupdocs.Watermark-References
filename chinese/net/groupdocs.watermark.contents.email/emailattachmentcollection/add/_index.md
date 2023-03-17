@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 将附件添加到EmailContentgroupdocs.watermark.contents.email/emailcontent.
+description: 添加附件到EmailContentgroupdocs.watermark.contents.email/emailcontent.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.email/emailattachmentcollection/add/
 ---
 ## EmailAttachmentCollection.Add method
 
-将附件添加到[`EmailContent`](../../emailcontent).
+添加附件到[`EmailContent`](../../emailcontent).
 
 ```csharp
 public void Add(byte[] fileContent, string name)

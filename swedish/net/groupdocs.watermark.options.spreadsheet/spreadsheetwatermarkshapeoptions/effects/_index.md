@@ -16,7 +16,7 @@ public ISpreadsheetWatermarkEffects Effects { get; set; }
 
 ### Fastighetsvärde
 
-Den[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) eller[`SpreadsheetTextEffects`](../../spreadsheettexteffects) för effects som ska tillämpas på vattenstämpeln.
+Den[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) eller[`SpreadsheetTextEffects`](../../spreadsheettexteffects)för effects som ska tillämpas på vattenstämpeln.
 
 ### Se även
 

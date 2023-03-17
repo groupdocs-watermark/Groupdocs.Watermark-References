@@ -1,14 +1,14 @@
 ---
 title: XObjects
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取this的所有XObjects的集合PdfPagegroupdocs.watermark.contents.pdf/pdfpage.
+description: 获取这个的所有XObjects的集合PdfPagegroupdocs.watermark.contents.pdf/pdfpage.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfpage/xobjects/
 ---
 ## PdfPage.XObjects property
 
-获取this的所有XObjects的集合[`PdfPage`](../../pdfpage).
+获取这个的所有XObjects的集合[`PdfPage`](../../pdfpage).
 
 ```csharp
 public PdfXObjectCollection XObjects { get; }
@@ -16,7 +16,7 @@ public PdfXObjectCollection XObjects { get; }
 
 ### 适当的价值
 
-this 的所有 XObjects 的集合[`PdfPage`](../../pdfpage).
+这个的所有 XObjects 的集合[`PdfPage`](../../pdfpage).
 
 ### 也可以看看
 

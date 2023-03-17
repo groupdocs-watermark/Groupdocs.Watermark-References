@@ -16,7 +16,7 @@ public static SpreadsheetLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions) classer.
+La valeur par défaut pour le[`SpreadsheetLoadOptions`](../../spreadsheetloadoptions) classe.
 
 ### Voir également
 

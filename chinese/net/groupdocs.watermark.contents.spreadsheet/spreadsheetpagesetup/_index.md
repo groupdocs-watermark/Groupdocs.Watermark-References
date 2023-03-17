@@ -18,11 +18,11 @@ public class SpreadsheetPageSetup
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BottomMargin](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/bottommargin) { get; } | 以磅为单位获取下边距的大小。 |
-| [Height](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/height) { get; } | 以磅为单位获取打印页面的高度。 |
-| [LeftMargin](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/leftmargin) { get; } | 以磅为单位获取左边距的大小。 |
-| [RightMargin](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/rightmargin) { get; } | 以磅为单位获取右边距的大小。 |
-| [TopMargin](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/topmargin) { get; } | 以磅为单位获取上边距的大小。 |
+| [BottomMargin](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/bottommargin) { get; } | 获取下边距的大小（以点为单位）。 |
+| [Height](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/height) { get; } | 获取打印页面的高度（以磅为单位）。 |
+| [LeftMargin](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/leftmargin) { get; } | 获取左边距的大小（以磅为单位）。 |
+| [RightMargin](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/rightmargin) { get; } | 获取右边距的大小（以点为单位）。 |
+| [TopMargin](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/topmargin) { get; } | 获取上边距的大小（以点为单位）。 |
 | [Width](../../groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/width) { get; } | 获取打印页面的宽度（以磅为单位）。 |
 
 ### 也可以看看

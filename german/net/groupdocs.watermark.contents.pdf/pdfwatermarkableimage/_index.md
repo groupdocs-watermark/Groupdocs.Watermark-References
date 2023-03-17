@@ -31,7 +31,7 @@ public class PdfWatermarkableImage : WatermarkableImage
 
 | Name | Beschreibung |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Fügt ein Wasserzeichen hinzu[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). Diese Methode geht davon aus, dass Offset und Größe des Wasserzeichens in Pixel gemessen werden (sofern zugewiesen). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Fügt ein Wasserzeichen hinzu[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage) . Diese Methode geht davon aus, dass Offset und Größe des Wasserzeichens in Pixel gemessen werden (sofern zugewiesen). |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | Findet alle Bilder im Inhalt. Die Suche wird in den angegebenen Objekten durchgeführt[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Findet Bilder nach den angegebenen Suchkriterien. Die Suche wird in den angegebenen Objekten durchgeführt[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | Ruft das Bild als Byte-Array ab. |

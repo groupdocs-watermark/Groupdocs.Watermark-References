@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetShape
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Excel 文档中的绘图形状
+description: 表示Excel文档中的绘图形状
 type: docs
 weight: 1190
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/
 ---
 ## SpreadsheetShape class
 
-表示 Excel 文档中的绘图形状。
+表示Excel文档中的绘图形状。
 
 ```csharp
 public class SpreadsheetShape : ShapeSearchAdapter, IRotatableTwoDObject
@@ -20,21 +20,21 @@ public class SpreadsheetShape : ShapeSearchAdapter, IRotatableTwoDObject
 | --- | --- |
 | [AlternativeText](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/alternativetext) { get; set; } | 获取或设置与此关联的描述性（替代）文本[`SpreadsheetShape`](../spreadsheetshape). |
 | [AutoShapeType](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/autoshapetype) { get; } | 获取自动形状类型。 |
-| [FormattedTextFragments](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`SpreadsheetShape`](../spreadsheetshape). |
-| [Height](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/height) { get; set; } | 获取或设置 this 的高度[`SpreadsheetShape`](../spreadsheetshape)以点为单位。 |
+| [FormattedTextFragments](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`SpreadsheetShape`](../spreadsheetshape). |
+| [Height](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/height) { get; set; } | 获取或设置此高度[`SpreadsheetShape`](../spreadsheetshape)点. |
 | [Hyperlink](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/hyperlink) { get; set; } | 获取或设置与此关联的超链接[`SpreadsheetShape`](../spreadsheetshape). |
-| [Id](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/id) { get; } | 获取这个的标识符[`SpreadsheetShape`](../spreadsheetshape). |
+| [Id](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/id) { get; } | 得到这个的标识符[`SpreadsheetShape`](../spreadsheetshape). |
 | [Image](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/image) { get; set; } | 获取或设置此图像[`SpreadsheetShape`](../spreadsheetshape). |
-| [ImageFillFormat](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/imagefillformat) { get; } | 获取此的图像填充格式设置[`SpreadsheetShape`](../spreadsheetshape). |
-| [IsWordArt](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/iswordart) { get; } | 获取一个值，该值指示这是否[`SpreadsheetShape`](../spreadsheetshape)是一个艺术字对象。 |
+| [ImageFillFormat](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/imagefillformat) { get; } | 获取this的图片填充格式设置[`SpreadsheetShape`](../spreadsheetshape). |
+| [IsWordArt](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/iswordart) { get; } | 获取一个值，指示是否这[`SpreadsheetShape`](../spreadsheetshape)是一个艺术字对象。 |
 | [MsoDrawingType](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/msodrawingtype) { get; } | 获取 mso 绘图类型。 |
-| [Name](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/name) { get; } | 获取此名称[`SpreadsheetShape`](../spreadsheetshape). |
-| [RotateAngle](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/rotateangle) { get; set; } | 获取或设置 this 的旋转角度[`SpreadsheetShape`](../spreadsheetshape)度数. |
-| [Text](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/text) { get; set; } | 获取或设置 this 的文本[`SpreadsheetShape`](../spreadsheetshape). |
-| [Width](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/width) { get; set; } | 获取或设置 this 的宽度[`SpreadsheetShape`](../spreadsheetshape)以点为单位。 |
-| [Worksheet](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/worksheet) { get; } | 获取此工作表的父工作表[`SpreadsheetShape`](../spreadsheetshape). |
-| [X](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/x) { get; set; } | 获取或设置 this 的水平偏移量[`SpreadsheetShape`](../spreadsheetshape)以点为单位的工作表左边框. |
-| [Y](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/y) { get; set; } | 获取或设置 this 的垂直偏移量[`SpreadsheetShape`](../spreadsheetshape)以点为单位的工作表顶部边框. |
+| [Name](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/name) { get; } | 获取这个的名字[`SpreadsheetShape`](../spreadsheetshape). |
+| [RotateAngle](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/rotateangle) { get; set; } | 获取或设置旋转角度[`SpreadsheetShape`](../spreadsheetshape)以度为单位. |
+| [Text](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/text) { get; set; } | 获取或设置此文本[`SpreadsheetShape`](../spreadsheetshape). |
+| [Width](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/width) { get; set; } | 获取或设置宽度[`SpreadsheetShape`](../spreadsheetshape)点. |
+| [Worksheet](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/worksheet) { get; } | 获取这个的父工作表[`SpreadsheetShape`](../spreadsheetshape). |
+| [X](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/x) { get; set; } | 获取或设置此的水平偏移量[`SpreadsheetShape`](../spreadsheetshape)从工作表左边框以点为单位. |
+| [Y](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshape/y) { get; set; } | 获取或设置此的垂直偏移量[`SpreadsheetShape`](../spreadsheetshape)从工作表顶部边框以点为单位. |
 
 ### 也可以看看
 

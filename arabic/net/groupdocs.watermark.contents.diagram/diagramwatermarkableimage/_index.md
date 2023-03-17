@@ -31,7 +31,7 @@ public class DiagramWatermarkableImage : WatermarkableImage
 
 | اسم | وصف |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | يضيف علامة مائية لهذا[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). تفترض هذه الطريقة أنه يتم قياس إزاحة العلامة المائية وحجمها بالبكسل (إذا تم تعيينها). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | يضيف علامة مائية لهذا[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage) . تفترض هذه الطريقة أنه يتم قياس إزاحة العلامة المائية وحجمها بالبكسل (إذا تم تعيينها). |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | البحث عن كافة الصور الموجودة في المحتوى. يتم إجراء البحث في الكائنات المحددة في[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | البحث عن الصور وفقًا لمعايير البحث المحددة . يتم إجراء البحث في الكائنات المحددة في[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | الحصول على الصورة كمصفوفة بايت. |

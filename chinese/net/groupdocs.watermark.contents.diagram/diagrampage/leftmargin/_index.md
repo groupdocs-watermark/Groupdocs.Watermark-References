@@ -1,14 +1,14 @@
 ---
 title: LeftMargin
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以磅为单位获取左边距的大小
+description: 获取左边距的大小以磅为单位
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.contents.diagram/diagrampage/leftmargin/
 ---
 ## DiagramPage.LeftMargin property
 
-以磅为单位获取左边距的大小。
+获取左边距的大小（以磅为单位）。
 
 ```csharp
 public double LeftMargin { get; }

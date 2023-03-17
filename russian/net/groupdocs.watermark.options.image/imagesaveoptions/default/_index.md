@@ -16,7 +16,7 @@ public static ImageSaveOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`ImageSaveOptions`](../../imagesaveoptions) учебный класс.
+Значение по умолчанию для[`ImageSaveOptions`](../../imagesaveoptions) сорт.
 
 ### Смотрите также
 

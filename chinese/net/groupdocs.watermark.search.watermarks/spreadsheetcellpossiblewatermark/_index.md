@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetCellPossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Excel 文档中可能存在的单元格水印
+description: 表示 Excel 文档中可能的单元格水印
 type: docs
 weight: 2960
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/
 ---
 ## SpreadsheetCellPossibleWatermark class
 
-表示 Excel 文档中可能存在的单元格水印。
+表示 Excel 文档中可能的单元格水印。
 
 ```csharp
 public class SpreadsheetCellPossibleWatermark : PossibleWatermark
@@ -18,16 +18,16 @@ public class SpreadsheetCellPossibleWatermark : PossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [FormattedTextFragments](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |
-| override [Height](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/height) { get; } | 获取这个的高度[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark)以点为单位。 |
+| override [FormattedTextFragments](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |
+| override [Height](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/height) { get; } | 获取这个的高度[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark)点. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/parent) { get; } | 获取这个的父级[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark)度数. |
-| override [Text](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |
-| override [Width](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/width) { get; } | 获取这个的宽度[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark)以点为单位。 |
-| override [X](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/x) { get; } | 获取 this 的水平偏移量[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark) 从内容左边界以点为单位。 |
-| override [Y](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/y) { get; } | 获取 this 的垂直偏移量[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark)从 content 上边界以点为单位。 |
+| override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark)以度为单位. |
+| override [Text](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/text) { get; set; } | 获取或设置此文本[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |
+| override [Width](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/width) { get; } | 得到这个的宽度[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark)点. |
+| override [X](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/x) { get; } | 得到这个的水平偏移量[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark) 从内容左边框以点为单位。 |
+| override [Y](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/y) { get; } | 获取此的垂直偏移量[`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark)从 content 以点为单位的顶部边界. |
 
 ### 也可以看看
 

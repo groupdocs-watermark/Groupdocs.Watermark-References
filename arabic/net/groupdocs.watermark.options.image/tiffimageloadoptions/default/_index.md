@@ -16,7 +16,7 @@ public static TiffImageLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لـ[`TiffImageLoadOptions`](../../tiffimageloadoptions) صف دراسي.
+القيمة الافتراضية لـ[`TiffImageLoadOptions`](../../tiffimageloadoptions) فصل.
 
 ### أنظر أيضا
 

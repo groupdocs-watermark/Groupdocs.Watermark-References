@@ -27,7 +27,7 @@ public class DiagramShape : ShapeSearchAdapter, IRotatableTwoDObject
 | [Page](../../groupdocs.watermark.contents.diagram/diagramshape/page) { get; } | Obtient la page parent de ce[`DiagramShape`](../diagramshape) . |
 | [RotateAngle](../../groupdocs.watermark.contents.diagram/diagramshape/rotateangle) { get; set; } | Obtient ou définit l'angle de rotation de ce[`DiagramShape`](../diagramshape) en degrés. |
 | [Text](../../groupdocs.watermark.contents.diagram/diagramshape/text) { get; set; } | Obtient ou définit le texte de ce[`DiagramShape`](../diagramshape) . |
-| [Width](../../groupdocs.watermark.contents.diagram/diagramshape/width) { get; set; } | Obtient ou définit la largeur de ce[`DiagramShape`](../diagramshape)en points. |
+| [Width](../../groupdocs.watermark.contents.diagram/diagramshape/width) { get; set; } | Obtient ou définit la largeur de cette[`DiagramShape`](../diagramshape)en points. |
 | [X](../../groupdocs.watermark.contents.diagram/diagramshape/x) { get; set; } | Obtient ou définit le décalage horizontal de ce[`DiagramShape`](../diagramshape) à partir de la bordure gauche de la page en points. |
 | [Y](../../groupdocs.watermark.contents.diagram/diagramshape/y) { get; set; } | Obtient ou définit le décalage vertical de ce[`DiagramShape`](../diagramshape) à partir de la bordure inférieure de la page en points. |
 

@@ -1,14 +1,14 @@
 ---
 title: ImageFrame
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示可以放置水印的图像帧
+description: 表示可以放置水印的图像框
 type: docs
 weight: 380
 url: /zh/net/groupdocs.watermark.contents.image/imageframe/
 ---
 ## ImageFrame class
 
-表示可以放置水印的图像帧。
+表示可以放置水印的图像框。
 
 ```csharp
 public class ImageFrame : ContentPart
@@ -18,17 +18,17 @@ public class ImageFrame : ContentPart
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Height](../../groupdocs.watermark.contents.image/imageframe/height) { get; } | 获取这个的高度[`ImageFrame`](../imageframe)以像素为单位。 |
-| [Width](../../groupdocs.watermark.contents.image/imageframe/width) { get; } | 获取这个的宽度[`ImageFrame`](../imageframe)以像素为单位。 |
+| [Height](../../groupdocs.watermark.contents.image/imageframe/height) { get; } | 获取这个的高度[`ImageFrame`](../imageframe)以像素为单位. |
+| [Width](../../groupdocs.watermark.contents.image/imageframe/width) { get; } | 得到这个的宽度[`ImageFrame`](../imageframe)以像素为单位. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ConsiderParentMargins
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值指示是否计算水印大小和坐标 考虑父边距
+description: 获取或设置一个值该值指示是否计算水印大小和坐标 考虑父页边距
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark/watermark/considerparentmargins/
 ---
 ## Watermark.ConsiderParentMargins property
 
-获取或设置一个值，指示是否计算水印大小和坐标 考虑父边距。
+获取或设置一个值，该值指示是否计算水印大小和坐标 考虑父页边距。
 
 ```csharp
 public bool ConsiderParentMargins { get; set; }
@@ -16,7 +16,7 @@ public bool ConsiderParentMargins { get; set; }
 
 ### 适当的价值
 
-如果值为true，则考虑父边距计算水印大小和坐标。 默认值为false，忽略父边距。
+如果该值为 true，水印大小和坐标将考虑父边距计算。 默认情况下，该值为 false，忽略父边距。
 
 ### 也可以看看
 

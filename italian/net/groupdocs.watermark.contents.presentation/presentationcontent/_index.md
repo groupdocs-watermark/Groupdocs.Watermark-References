@@ -42,7 +42,7 @@ public class PresentationContent : Content
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane ai documenti di presentazione](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 * [Lavorare con gli sfondi delle diapositive](https://docs.groupdocs.com/display/watermarknet/Working+with+slide+backgrounds)

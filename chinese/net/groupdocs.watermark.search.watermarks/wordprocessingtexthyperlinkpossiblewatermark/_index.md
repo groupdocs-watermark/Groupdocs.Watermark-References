@@ -1,14 +1,14 @@
 ---
 title: WordProcessingTextHyperlinkPossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Word 文档中可能存在的超链接水印
+description: 表示 Word 文档中可能的超链接水印
 type: docs
 weight: 3020
 url: /zh/net/groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/
 ---
 ## WordProcessingTextHyperlinkPossibleWatermark class
 
-表示 Word 文档中可能存在的超链接水印。
+表示 Word 文档中可能的超链接水印。
 
 ```csharp
 public class WordProcessingTextHyperlinkPossibleWatermark : HyperlinkPossibleWatermark
@@ -18,16 +18,16 @@ public class WordProcessingTextHyperlinkPossibleWatermark : HyperlinkPossibleWat
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/height) { get; } | 获取这个的高度[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/parent) { get; } | 获取这个的父级[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark)度数. |
+| override [RotateAngle](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark)以度为单位. |
 | override [Text](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/text) { get; set; } | 获取或设置 this 的 url[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
-| override [Width](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/width) { get; } | 获取这个的宽度[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
-| override [X](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/x) { get; } | 获取 x 坐标[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
-| override [Y](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/y) { get; } | 获取这个的 y 坐标[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
+| override [Width](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/width) { get; } | 得到这个的宽度[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
+| override [X](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/x) { get; } | 得到这个的x坐标[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
+| override [Y](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/y) { get; } | 得到这个的y坐标[`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
 
 ### 也可以看看
 

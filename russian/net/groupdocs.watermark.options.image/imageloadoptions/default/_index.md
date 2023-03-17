@@ -16,7 +16,7 @@ public static ImageLoadOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`ImageLoadOptions`](../../imageloadoptions) учебный класс.
+Значение по умолчанию для[`ImageLoadOptions`](../../imageloadoptions) сорт.
 
 ### Смотрите также
 

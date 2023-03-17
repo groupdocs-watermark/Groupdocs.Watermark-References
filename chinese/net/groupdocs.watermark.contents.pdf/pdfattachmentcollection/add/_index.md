@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 将附件添加到PdfContentgroupdocs.watermark.contents.pdf/pdfcontent.
+description: 添加附件到PdfContentgroupdocs.watermark.contents.pdf/pdfcontent.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add/
 ---
 ## PdfAttachmentCollection.Add method
 
-将附件添加到[`PdfContent`](../../pdfcontent).
+添加附件到[`PdfContent`](../../pdfcontent).
 
 ```csharp
 public void Add(byte[] fileContent, string name, string description)

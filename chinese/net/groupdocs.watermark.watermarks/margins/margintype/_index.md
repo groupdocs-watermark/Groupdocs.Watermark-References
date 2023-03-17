@@ -1,14 +1,14 @@
 ---
 title: MarginType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置边距类型为这个属性设置一个新值 自动将所有边距返回到它们的默认值零
+description: 获取或设置保证金类型为此属性设置一个新值 会自动将所有边距返回到它们的默认值零
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.watermarks/margins/margintype/
 ---
 ## Margins.MarginType property
 
-获取或设置边距类型。为这个属性设置一个新值 自动将所有边距返回到它们的默认值（零）。
+获取或设置保证金类型。为此属性设置一个新值 会自动将所有边距返回到它们的默认值（零）。
 
 ```csharp
 public MarginType MarginType { get; set; }
@@ -16,7 +16,7 @@ public MarginType MarginType { get; set; }
 
 ### 适当的价值
 
-指定如何解释边距的值。
+指定应如何解释边距的值。
 
 ### 评论
 

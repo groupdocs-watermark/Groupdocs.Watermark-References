@@ -1,14 +1,14 @@
 ---
 title: Script
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的脚本格式SpreadsheetHeaderFooterSectiongroupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection.
+description: 获取或设置此脚本格式SpreadsheetHeaderFooterSectiongroupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/script/
 ---
 ## SpreadsheetHeaderFooterSection.Script property
 
-获取或设置 this 的脚本格式[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection).
+获取或设置此脚本格式[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection).
 
 ```csharp
 public string Script { get; set; }
@@ -16,7 +16,7 @@ public string Script { get; set; }
 
 ### 适当的价值
 
-这个脚本内容[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection).
+这个的脚本内容[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection).
 
 ### 也可以看看
 

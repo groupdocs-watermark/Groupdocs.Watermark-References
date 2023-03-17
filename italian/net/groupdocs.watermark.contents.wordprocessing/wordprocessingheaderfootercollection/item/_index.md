@@ -20,7 +20,7 @@ public WordProcessingHeaderFooter this[OfficeHeaderFooterType headerFooterType] 
 
 ### Valore della proprietà
 
-Il[`WordProcessingHeaderFooter`](../../wordprocessingheaderfooter) di tipo specificato.
+IL[`WordProcessingHeaderFooter`](../../wordprocessingheaderfooter) di tipo specificato.
 
 ### Guarda anche
 

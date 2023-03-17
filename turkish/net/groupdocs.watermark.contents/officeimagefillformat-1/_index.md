@@ -24,7 +24,7 @@ public abstract class OfficeImageFillFormat<TWatermarkableImage>
 | İsim | Tanım |
 | --- | --- |
 | abstract [BackgroundImage](../../groupdocs.watermark.contents/officeimagefillformat-1/backgroundimage) { get; set; } | Arka plan görüntüsünü alır veya ayarlar. |
-| abstract [TileAsTexture](../../groupdocs.watermark.contents/officeimagefillformat-1/tileastexture) { get; set; } | Görüntünün arka plan boyunca döşenip döşenmediğini gösteren bir değer alır veya ayarlar. |
+| abstract [TileAsTexture](../../groupdocs.watermark.contents/officeimagefillformat-1/tileastexture) { get; set; } | Görüntünün arka plan boyunca döşenip döşenmediğini belirten bir değer alır veya ayarlar. |
 | abstract [Transparency](../../groupdocs.watermark.contents/officeimagefillformat-1/transparency) { get; set; } | Arka plan görüntüsünün şeffaflığını 0,0 (opak) ila 1,0 (tamamen şeffaf) arasında bir değer olarak alır veya ayarlar. |
 
 ### Ayrıca bakınız

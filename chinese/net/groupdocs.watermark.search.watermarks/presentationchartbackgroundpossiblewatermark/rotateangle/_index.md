@@ -1,14 +1,14 @@
 ---
 title: RotateAngle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的旋转角度PresentationChartBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark度数.
+description: 获取this的旋转角度PresentationChartBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark以度为单位.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/rotateangle/
 ---
 ## PresentationChartBackgroundPossibleWatermark.RotateAngle property
 
-获取 this 的旋转角度[`PresentationChartBackgroundPossibleWatermark`](../../presentationchartbackgroundpossiblewatermark)度数.
+获取this的旋转角度[`PresentationChartBackgroundPossibleWatermark`](../../presentationchartbackgroundpossiblewatermark)以度为单位.
 
 ```csharp
 public override double RotateAngle { get; }

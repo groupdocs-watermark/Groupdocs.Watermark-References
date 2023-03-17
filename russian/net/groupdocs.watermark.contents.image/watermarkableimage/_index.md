@@ -25,7 +25,7 @@ public abstract class WatermarkableImage : ContentPart
 
 | Имя | Описание |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Добавляет к этому водяной знак[`WatermarkableImage`](../watermarkableimage). Этот метод предполагает, что смещение и размер водяного знака измеряются в пикселях (если они назначены). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Добавляет к этому водяной знак[`WatermarkableImage`](../watermarkableimage) . Этот метод предполагает, что смещение и размер водяного знака измеряются в пикселях (если они назначены). |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | Находит все изображения в содержании. Поиск ведется в объектах, указанных в[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Находит изображения по заданным критериям поиска. Поиск ведется в объектах, указанных в[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | Получает изображение в виде массива байтов. |
@@ -34,7 +34,7 @@ public abstract class WatermarkableImage : ContentPart
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавление водяного знака к изображениям внутри документа](https://docs.groupdocs.com/display/watermarknet/Adding+watermark+to+images+inside+a+document)
 
@@ -51,7 +51,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\input.doc"))
     // Найти все изображения в содержимом.
     WatermarkableImageCollection images = watermarker.GetImages();
 
-    // Добавить водяной знак.
+    // Добавить водный знак.
     foreach (WatermarkableImage watermarkableImage in images)
     {
         watermarkableImage.Add(watermark);

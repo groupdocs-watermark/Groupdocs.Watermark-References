@@ -1,14 +1,14 @@
 ---
 title: TextWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化TextWatermarkgroupdocs.watermark.watermarks/textwatermark具有指定文本和字体的类
+description: 初始化一个新的实例TextWatermarkgroupdocs.watermark.watermarks/textwatermark具有指定文本和字体的类
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.watermarks/textwatermark/textwatermark/
 ---
 ## TextWatermark constructor
 
-初始化[`TextWatermark`](../../textwatermark)具有指定文本和字体的类。
+初始化一个新的实例[`TextWatermark`](../../textwatermark)具有指定文本和字体的类。
 
 ```csharp
 public TextWatermark(string text, Font font)

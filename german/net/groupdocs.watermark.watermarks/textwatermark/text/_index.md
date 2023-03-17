@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Watermark für .NET-API-Referenz
 description: Ruft den als Wasserzeichen zu verwendenden Text ab oder legt ihn fest.
 type: docs
-weight: 50
+weight: 60
 url: /de/net/groupdocs.watermark.watermarks/textwatermark/text/
 ---
 ## TextWatermark.Text property

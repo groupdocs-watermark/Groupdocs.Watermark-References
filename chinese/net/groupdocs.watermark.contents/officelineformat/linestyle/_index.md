@@ -1,14 +1,14 @@
 ---
 title: LineStyle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置线型
+description: 获取或设置线条样式
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents/officelineformat/linestyle/
 ---
 ## OfficeLineFormat.LineStyle property
 
-获取或设置线型。
+获取或设置线条样式。
 
 ```csharp
 public OfficeLineStyle LineStyle { get; set; }

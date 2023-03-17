@@ -20,19 +20,19 @@ public class PdfPage : ContentPart
 | --- | --- |
 | [Annotations](../../groupdocs.watermark.contents.pdf/pdfpage/annotations) { get; } | 获取this所有注解的集合[`PdfPage`](../pdfpage). |
 | [Artifacts](../../groupdocs.watermark.contents.pdf/pdfpage/artifacts) { get; } | 获取此所有工件的集合[`PdfPage`](../pdfpage). |
-| [Height](../../groupdocs.watermark.contents.pdf/pdfpage/height) { get; } | 获取这个的高度[`PdfPage`](../pdfpage)以点为单位。 |
-| [Width](../../groupdocs.watermark.contents.pdf/pdfpage/width) { get; } | 获取这个的宽度[`PdfPage`](../pdfpage)以点为单位。 |
-| [XObjects](../../groupdocs.watermark.contents.pdf/pdfpage/xobjects) { get; } | 获取this的所有XObjects的集合[`PdfPage`](../pdfpage). |
+| [Height](../../groupdocs.watermark.contents.pdf/pdfpage/height) { get; } | 获取这个的高度[`PdfPage`](../pdfpage)点. |
+| [Width](../../groupdocs.watermark.contents.pdf/pdfpage/width) { get; } | 得到这个的宽度[`PdfPage`](../pdfpage)点. |
+| [XObjects](../../groupdocs.watermark.contents.pdf/pdfpage/xobjects) { get; } | 获取这个的所有XObjects的集合[`PdfPage`](../pdfpage). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 | virtual [Rasterize](../../groupdocs.watermark.contents.pdf/pdfpage/rasterize)(int, int, PdfImageConversionFormat) | 将页面内容转换为图像。 |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 也可以看看
 

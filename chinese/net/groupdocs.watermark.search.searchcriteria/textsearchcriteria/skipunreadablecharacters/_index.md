@@ -1,14 +1,14 @@
 ---
 title: SkipUnreadableCharacters
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值指示在字符串比较过程中将跳过不可读的字符
+description: 获取或设置一个值表示在字符串比较过程中将跳过不可读字符
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.search.searchcriteria/textsearchcriteria/skipunreadablecharacters/
 ---
 ## TextSearchCriteria.SkipUnreadableCharacters property
 
-获取或设置一个值，指示在字符串比较过程中将跳过不可读的字符。
+获取或设置一个值，表示在字符串比较过程中将跳过不可读字符。
 
 ```csharp
 public bool SkipUnreadableCharacters { get; set; }
@@ -16,7 +16,7 @@ public bool SkipUnreadableCharacters { get; set; }
 
 ### 适当的价值
 
-一个值，表示在字符串比较期间将跳过不可读的字符。
+表示在字符串比较期间将跳过不可读字符的值。
 
 ### 也可以看看
 

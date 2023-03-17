@@ -1,14 +1,14 @@
 ---
 title: PresentationMasterNotesSlide
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 代表 PowerPoint 文档中所有笔记幻灯片的母版幻灯片
+description: 表示 PowerPoint 文档中所有备注幻灯片的母版幻灯片
 type: docs
 weight: 910
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationmasternotesslide/
 ---
 ## PresentationMasterNotesSlide class
 
-代表 PowerPoint 文档中所有笔记幻灯片的母版幻灯片。
+表示 PowerPoint 文档中所有备注幻灯片的母版幻灯片。
 
 ```csharp
 public class PresentationMasterNotesSlide : PresentationBaseSlide
@@ -18,18 +18,18 @@ public class PresentationMasterNotesSlide : PresentationBaseSlide
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Charts](../../groupdocs.watermark.contents.presentation/presentationbaseslide/charts) { get; } | 获取演示文稿上所有图表的集合。 |
+| [Charts](../../groupdocs.watermark.contents.presentation/presentationbaseslide/charts) { get; } | 获取演示文稿中所有图表的集合。 |
 | [ImageFillFormat](../../groupdocs.watermark.contents.presentation/presentationbaseslide/imagefillformat) { get; } | 获取演示文稿的图像填充格式设置。 |
-| [Shapes](../../groupdocs.watermark.contents.presentation/presentationbaseslide/shapes) { get; } | 获取演示文稿的所有形状的集合。 |
+| [Shapes](../../groupdocs.watermark.contents.presentation/presentationbaseslide/shapes) { get; } | 获取演示文稿所有形状的集合。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 也可以看看
 

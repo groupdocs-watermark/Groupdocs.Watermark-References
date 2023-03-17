@@ -1,14 +1,14 @@
 ---
 title: PresentationBackgroundPossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 PowerPoint 文档中可能存在的背景水印
+description: 表示 PowerPoint 文档中可能的背景水印
 type: docs
 weight: 2900
 url: /zh/net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/
 ---
 ## PresentationBackgroundPossibleWatermark class
 
-表示 PowerPoint 文档中可能存在的背景水印。
+表示 PowerPoint 文档中可能的背景水印。
 
 ```csharp
 public class PresentationBackgroundPossibleWatermark : PossibleWatermark
@@ -18,16 +18,16 @@ public class PresentationBackgroundPossibleWatermark : PossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| override [Height](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/height) { get; } | 获取这个的高度[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark)以点为单位。 |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [Height](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/height) { get; } | 获取这个的高度[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark)点. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/parent) { get; } | 获取这个的父级[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark)度数. |
-| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark). |
-| override [Width](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/width) { get; } | 获取这个的宽度[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark)以点为单位。 |
-| override [X](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/x) { get; } | 获取 this 的水平偏移量[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark) 从滑动左边框以点为单位。 |
-| override [Y](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/y) { get; } | 获取 this 的垂直偏移量[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark) 从幻灯片顶部边框以点为单位。 |
+| override [RotateAngle](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark)以度为单位. |
+| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置此文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark). |
+| override [Width](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/width) { get; } | 得到这个的宽度[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark)点. |
+| override [X](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/x) { get; } | 得到这个的水平偏移量[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark) 从幻灯片左边界点开始。 |
+| override [Y](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/y) { get; } | 获取此的垂直偏移量[`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark) 从幻灯片顶部边框开始。 |
 
 ### 也可以看看
 

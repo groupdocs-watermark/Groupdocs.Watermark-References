@@ -31,7 +31,7 @@ public sealed class SpreadsheetWatermarkModernWordArtOptions : SpreadsheetWaterm
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Tabellendokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 
@@ -46,8 +46,8 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.xls", loadO
     TextWatermark watermark = new TextWatermark("Test watermark", new Font("Arial", 36));
 
     SpreadsheetWatermarkModernWordArtOptions options = new SpreadsheetWatermarkModernWordArtOptions();
-    options.WorksheetIndex = -1; // Ursprünglich
-    options.IsLocked = false; // Ursprünglich
+    options.WorksheetIndex = -1; // Standard
+    options.IsLocked = false; // Standard
 
     watermarker.Add(watermark, options);
     watermarker.Save();

@@ -26,7 +26,7 @@ public SearchableObjects SearchableObjects { get; set; }
 
 ### 例子
 
-从 pdf 文档中删除所有 XObject 和工件。
+从 pdf 文档中删除所有 XObjects 和工件。
 
 ```csharp
 using (Watermarker watermarker = new Watermarker(@"D:\test.pdf"))

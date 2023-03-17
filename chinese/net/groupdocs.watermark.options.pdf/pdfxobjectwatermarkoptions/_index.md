@@ -1,14 +1,14 @@
 ---
 title: PdfXObjectWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示将 XObject 水印添加到 pdf 文档时添加水印的选项
+description: 表示给pdf文档添加XObject水印时添加水印的选项
 type: docs
 weight: 1920
 url: /zh/net/groupdocs.watermark.options.pdf/pdfxobjectwatermarkoptions/
 ---
 ## PdfXObjectWatermarkOptions class
 
-表示将 XObject 水印添加到 pdf 文档时添加水印的选项。
+表示给pdf文档添加XObject水印时添加水印的选项。
 
 ```csharp
 public sealed class PdfXObjectWatermarkOptions : PdfWatermarkOptions
@@ -18,7 +18,7 @@ public sealed class PdfXObjectWatermarkOptions : PdfWatermarkOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfXObjectWatermarkOptions](pdfxobjectwatermarkoptions)() | 初始化[`PdfXObjectWatermarkOptions`](../pdfxobjectwatermarkoptions)类. |
+| [PdfXObjectWatermarkOptions](pdfxobjectwatermarkoptions)() | 初始化一个新的实例[`PdfXObjectWatermarkOptions`](../pdfxobjectwatermarkoptions)类. |
 
 ## 特性
 
@@ -28,7 +28,7 @@ public sealed class PdfXObjectWatermarkOptions : PdfWatermarkOptions
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为 PDF 文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 

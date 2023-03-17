@@ -1,14 +1,14 @@
 ---
 title: Watermarker
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化Watermarkergroupdocs.watermark/watermarker具有指定文档路径的类
+description: 初始化一个新的实例Watermarkergroupdocs.watermark/watermarker具有指定文档路径的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark/watermarker/watermarker/
 ---
 ## Watermarker(string) {#constructor_4}
 
-初始化[`Watermarker`](../../watermarker)具有指定文档路径的类。
+初始化一个新的实例[`Watermarker`](../../watermarker)具有指定文档路径的类.
 
 ```csharp
 public Watermarker(string filePath)
@@ -27,7 +27,7 @@ public Watermarker(string filePath)
 
 ### 评论
 
-了解有关加载文档的更多信息： [加载文档](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+了解有关加载文档的更多信息： [载入文件](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
 
 ### 例子
 
@@ -37,7 +37,7 @@ public Watermarker(string filePath)
 // 从文件中加载内容。
 using (Watermarker watermarker = new Watermarker("D:\\input.pdf"))
 {
-    // 使用 Watermarker 类的方法添加、搜索或删除水印。
+    // 使用 Watermarker 类的方法来添加、搜索或删除水印。
 
     // 保存文档。
     watermarker.Save("D:\\output.pdf");
@@ -54,7 +54,7 @@ using (Watermarker watermarker = new Watermarker("D:\\input.pdf"))
 
 ## Watermarker(string, LoadOptions) {#constructor_5}
 
-初始化[`Watermarker`](../../watermarker)具有指定 文档路径和加载选项的类。
+初始化一个新的实例[`Watermarker`](../../watermarker)具有指定 文档路径和加载选项的类。
 
 ```csharp
 public Watermarker(string filePath, LoadOptions options)
@@ -63,7 +63,7 @@ public Watermarker(string filePath, LoadOptions options)
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 从中加载文档的文件路径。 |
-| options | LoadOptions | 加载文档时使用的其他选项。 |
+| options | LoadOptions | 加载文档时要使用的其他选项。 |
 
 ### 例外
 
@@ -74,7 +74,7 @@ public Watermarker(string filePath, LoadOptions options)
 
 ### 评论
 
-了解有关加载文档的更多信息： [加载文档](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+了解有关加载文档的更多信息： [载入文件](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
 
 ### 例子
 
@@ -100,7 +100,7 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.pdf", loadO
 
 ## Watermarker(string, WatermarkerSettings) {#constructor_7}
 
-初始化[`Watermarker`](../../watermarker)具有指定 文档路径和设置的类。
+初始化一个新的实例[`Watermarker`](../../watermarker)具有指定 文档路径和设置的类。
 
 ```csharp
 public Watermarker(string filePath, WatermarkerSettings settings)
@@ -120,11 +120,11 @@ public Watermarker(string filePath, WatermarkerSettings settings)
 
 ### 评论
 
-了解有关加载文档的更多信息： [加载文档](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+了解有关加载文档的更多信息： [载入文件](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
 
 ### 例子
 
-全局设置可搜索对象（之后将加载的所有文档）。
+全局设置可搜索对象（对于之后将加载的所有文档）。
 
 ```csharp
 WatermarkerSettings settings = new WatermarkerSettings();
@@ -161,7 +161,7 @@ foreach (string file in Directory.GetFiles(@"D:\files"))
 
 ## Watermarker(string, LoadOptions, WatermarkerSettings) {#constructor_6}
 
-初始化[`Watermarker`](../../watermarker)具有指定 文档路径、加载选项和设置的类。
+初始化一个新的实例[`Watermarker`](../../watermarker)具有指定 文档路径、加载选项和设置的类。
 
 ```csharp
 public Watermarker(string filePath, LoadOptions options, WatermarkerSettings settings)
@@ -170,7 +170,7 @@ public Watermarker(string filePath, LoadOptions options, WatermarkerSettings set
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | filePath | String | 从中加载文档的文件路径。 |
-| options | LoadOptions | 加载文档时使用的其他选项。 |
+| options | LoadOptions | 加载文档时要使用的其他选项。 |
 | settings | WatermarkerSettings | 处理加载的文档时要使用的其他设置。 |
 
 ### 例外
@@ -182,11 +182,11 @@ public Watermarker(string filePath, LoadOptions options, WatermarkerSettings set
 
 ### 评论
 
-了解有关加载文档的更多信息： [加载文档](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+了解有关加载文档的更多信息： [载入文件](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
 
 ### 例子
 
-在电子邮件正文/主题中查找特定的文本片段。
+在电子邮件正文/主题中查找特定文本片段。
 
 ```csharp
 WatermarkerSettings settings = new WatermarkerSettings();
@@ -200,7 +200,7 @@ EmailLoadOptions loadOptions = new EmailLoadOptions();
 using (Watermarker watermarker = new Watermarker(@"D:\test.msg", loadOptions, settings))
 {
     SearchCriteria criteria = new TextSearchCriteria("test", false);
-    // 注意，只有将 TextSearchCriteria 实例传递给 Search 方法时才会执行搜索
+    // 注意，仅当您将 TextSearchCriteria 实例传递给 Search 方法时才会执行搜索
     PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
     // 删除找到的文本片段
     watermarks.Clear();
@@ -221,7 +221,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.msg", loadOptions, se
 
 ## Watermarker(Stream) {#constructor}
 
-初始化[`Watermarker`](../../watermarker)具有指定流的类。
+初始化一个新的实例[`Watermarker`](../../watermarker)具有指定流的类。
 
 ```csharp
 public Watermarker(Stream document)
@@ -229,7 +229,7 @@ public Watermarker(Stream document)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | Stream | 要从中加载文档的流。 |
+| document | Stream | 从中加载文档的流。 |
 
 ### 例外
 
@@ -240,11 +240,11 @@ public Watermarker(Stream document)
 
 ### 评论
 
-了解有关加载文档的更多信息 [加载文档](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+了解有关加载文档的更多信息 [载入文件](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
 
 ### 例子
 
-加载并保存任何支持格式的文档。
+加载和保存任何支持格式的文档。
 
 ```csharp
 // 从流中加载内容。
@@ -252,7 +252,7 @@ using (FileStream inputStream = File.Open("D:\\input.pdf", FileMode.Open))
 using (FileStream outputStream = File.Open("D:\\output.pdf", FileMode.Create))
 using (Watermarker watermarker = new Watermarker(inputStream))
 {
-    // 使用 Watermarker 类的方法添加、搜索或删除水印。
+    // 使用 Watermarker 类的方法来添加、搜索或删除水印。
 
     // 保存更改。
     watermarker.Save(outputStream);
@@ -269,7 +269,7 @@ using (Watermarker watermarker = new Watermarker(inputStream))
 
 ## Watermarker(Stream, LoadOptions) {#constructor_1}
 
-初始化[`Watermarker`](../../watermarker)具有指定 stream 和加载选项的类。
+初始化一个新的实例[`Watermarker`](../../watermarker)具有指定 stream 和加载选项的类。
 
 ```csharp
 public Watermarker(Stream document, LoadOptions options)
@@ -277,8 +277,8 @@ public Watermarker(Stream document, LoadOptions options)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | Stream | 要从中加载文档的流。 |
-| options | LoadOptions | 加载文档时使用的其他选项。 |
+| document | Stream | 从中加载文档的流。 |
+| options | LoadOptions | 加载文档时要使用的其他选项。 |
 
 ### 例外
 
@@ -289,7 +289,7 @@ public Watermarker(Stream document, LoadOptions options)
 
 ### 评论
 
-了解有关加载文档的更多信息 [加载文档](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+了解有关加载文档的更多信息 [载入文件](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
 
 ### 例子
 
@@ -316,7 +316,7 @@ using (Watermarker watermarker = new Watermarker(fileStream, loadOptions))
 
 ## Watermarker(Stream, WatermarkerSettings) {#constructor_3}
 
-初始化[`Watermarker`](../../watermarker)具有指定 stream 和 settings. 的类
+初始化一个新的实例[`Watermarker`](../../watermarker)具有指定 stream 和 settings. 的类
 
 ```csharp
 public Watermarker(Stream document, WatermarkerSettings settings)
@@ -324,7 +324,7 @@ public Watermarker(Stream document, WatermarkerSettings settings)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | Stream | 要从中加载文档的流。 |
+| document | Stream | 从中加载文档的流。 |
 | settings | WatermarkerSettings | 处理加载的文档时要使用的其他设置。 |
 
 ### 例外
@@ -336,11 +336,11 @@ public Watermarker(Stream document, WatermarkerSettings settings)
 
 ### 评论
 
-了解有关加载文档的更多信息 [加载文档](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+了解有关加载文档的更多信息 [载入文件](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
 
 ### 例子
 
-全局设置可搜索对象（之后将加载的所有文档）。
+全局设置可搜索对象（对于之后将加载的所有文档）。
 
 ```csharp
 WatermarkerSettings settings = new WatermarkerSettings();
@@ -378,7 +378,7 @@ foreach (string file in Directory.GetFiles(@"D:\files"))
 
 ## Watermarker(Stream, LoadOptions, WatermarkerSettings) {#constructor_2}
 
-初始化[`Watermarker`](../../watermarker)具有指定流的类， 加载选项和设置。
+初始化一个新的实例[`Watermarker`](../../watermarker)具有指定流的类， 加载选项和设置。
 
 ```csharp
 public Watermarker(Stream document, LoadOptions options, WatermarkerSettings settings)
@@ -386,8 +386,8 @@ public Watermarker(Stream document, LoadOptions options, WatermarkerSettings set
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| document | Stream | 要从中加载文档的流。 |
-| options | LoadOptions | 加载文档时使用的其他选项。 |
+| document | Stream | 从中加载文档的流。 |
+| options | LoadOptions | 加载文档时要使用的其他选项。 |
 | settings | WatermarkerSettings | 处理加载的文档时要使用的其他设置。 |
 
 ### 例外
@@ -399,11 +399,11 @@ public Watermarker(Stream document, LoadOptions options, WatermarkerSettings set
 
 ### 评论
 
-了解有关加载文档的更多信息 [加载文档](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+了解有关加载文档的更多信息 [载入文件](https://docs.groupdocs.com/display/watermarknet/Loading+documents).
 
 ### 例子
 
-在电子邮件正文/主题中查找特定的文本片段。
+在电子邮件正文/主题中查找特定文本片段。
 
 ```csharp
 WatermarkerSettings settings = new WatermarkerSettings();
@@ -418,7 +418,7 @@ using (FileStream fileStream = File.Open(@"D:\test.msg", FileMode.Open))
 using (Watermarker watermarker = new Watermarker(fileStream, loadOptions, settings))
 {
     SearchCriteria criteria = new TextSearchCriteria("test", false);
-    // 注意，只有将 TextSearchCriteria 实例传递给 Search 方法时才会执行搜索
+    // 注意，仅当您将 TextSearchCriteria 实例传递给 Search 方法时才会执行搜索
     PossibleWatermarkCollection watermarks = watermarker.Search(criteria);
     // 删除找到的文本片段
     watermarks.Clear();

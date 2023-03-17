@@ -1,14 +1,14 @@
 ---
 title: Charts
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此所有图表的集合SpreadsheetWorksheetgroupdocs.watermark.contents.spreadsheet/spreadsheetworksheet.
+description: 获取本次所有图表的集合SpreadsheetWorksheetgroupdocs.watermark.contents.spreadsheet/spreadsheetworksheet.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/charts/
 ---
 ## SpreadsheetWorksheet.Charts property
 
-获取此所有图表的集合[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
+获取本次所有图表的集合[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
 
 ```csharp
 public SpreadsheetChartCollection Charts { get; }
@@ -16,7 +16,7 @@ public SpreadsheetChartCollection Charts { get; }
 
 ### 适当的价值
 
-这个的所有图表的集合[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
+本期所有图表合集[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public ISpreadsheetWatermarkEffects Effects { get; set; }
 
 ### Стоимость имущества
 
-[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) или же[`SpreadsheetTextEffects`](../../spreadsheettexteffects) для эффектов , которые должны быть применены к водяному знаку.
+[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) или[`SpreadsheetTextEffects`](../../spreadsheettexteffects)для эффектов , которые должны быть применены к водяному знаку.
 
 ### Смотрите также
 

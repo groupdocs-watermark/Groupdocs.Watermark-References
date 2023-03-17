@@ -1,14 +1,14 @@
 ---
 title: Trace
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 记录水印期间发生的事件
+description: 记录加水印期间发生的事件
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.options/ilogger/trace/
 ---
 ## ILogger.Trace method
 
-记录水印期间发生的事件。
+记录加水印期间发生的事件。
 
 ```csharp
 public void Trace(string message)

@@ -20,7 +20,7 @@ Le drapeau pour rendre la zone de données uniquement sans en-têtes, pieds de p
 
 ### Remarques
 
-Cet indicateur conduit à afficher toute la feuille de calcul sur une seule page. La valeur par défaut est`faux` .
+Cet indicateur conduit à afficher toute la feuille de calcul sur une seule page. La valeur par défaut est`FAUX` .
 
 ### Voir également
 

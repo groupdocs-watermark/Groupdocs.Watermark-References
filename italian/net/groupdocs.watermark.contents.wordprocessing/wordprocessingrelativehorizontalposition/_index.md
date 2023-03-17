@@ -24,7 +24,7 @@ public enum WordProcessingRelativeHorizontalPosition
 | Character | `3` | L'oggetto è posizionato rispetto al lato sinistro del paragrafo. |
 | LeftMargin | `4` | Specifica che il posizionamento orizzontale è relativo al margine sinistro della pagina. |
 | RightMargin | `5` | Specifica che il posizionamento orizzontale è relativo al margine destro della pagina. |
-| InsideMargin | `6` | Specifica che il posizionamento orizzontale è relativo al margine interno della pagina corrente (margine sinistro nelle pagine dispari, destro nelle pagine pari). |
+| InsideMargin | `6` | Specifica che il posizionamento orizzontale è relativo al margine interno della pagina corrente (margine sinistro nelle pagine dispari, margine destro nelle pagine pari). |
 | OutsideMargin | `7` | Specifica che il posizionamento orizzontale è relativo al margine esterno della pagina corrente (margine destro nelle pagine dispari, sinistro nelle pagine pari). |
 
 ### Guarda anche

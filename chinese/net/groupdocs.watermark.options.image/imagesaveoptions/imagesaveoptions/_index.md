@@ -1,14 +1,14 @@
 ---
 title: ImageSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化ImageSaveOptionsgroupdocs.watermark.options.image/imagesaveoptions类.
+description: 初始化一个新的实例ImageSaveOptionsgroupdocs.watermark.options.image/imagesaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.image/imagesaveoptions/imagesaveoptions/
 ---
 ## ImageSaveOptions constructor
 
-初始化[`ImageSaveOptions`](../../imagesaveoptions)类.
+初始化一个新的实例[`ImageSaveOptions`](../../imagesaveoptions)类.
 
 ```csharp
 public ImageSaveOptions()

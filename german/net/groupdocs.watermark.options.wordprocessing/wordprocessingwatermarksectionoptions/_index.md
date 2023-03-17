@@ -34,7 +34,7 @@ public sealed class WordProcessingWatermarkSectionOptions : WordProcessingWaterm
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Textverarbeitungsdokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents)
 

@@ -1,14 +1,14 @@
 ---
 title: ImageFillFormat
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Obtient les paramètres de format de remplissage dimage de cePresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape .
+description: Obtient les paramètres de format de remplissage dimage de cettePresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape .
 type: docs
 weight: 40
 url: /fr/net/groupdocs.watermark.contents.presentation/presentationbaseshape/imagefillformat/
 ---
 ## PresentationBaseShape.ImageFillFormat property
 
-Obtient les paramètres de format de remplissage d'image de ce[`PresentationBaseShape`](../../presentationbaseshape) .
+Obtient les paramètres de format de remplissage d'image de cette[`PresentationBaseShape`](../../presentationbaseshape) .
 
 ```csharp
 public PresentationImageFillFormat ImageFillFormat { get; }

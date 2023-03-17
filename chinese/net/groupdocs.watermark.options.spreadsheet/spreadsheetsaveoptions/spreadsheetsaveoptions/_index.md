@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetSaveOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions类.
+description: 初始化一个新的实例SpreadsheetSaveOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/spreadsheetsaveoptions/
 ---
 ## SpreadsheetSaveOptions constructor
 
-初始化[`SpreadsheetSaveOptions`](../../spreadsheetsaveoptions)类.
+初始化一个新的实例[`SpreadsheetSaveOptions`](../../spreadsheetsaveoptions)类.
 
 ```csharp
 public SpreadsheetSaveOptions()

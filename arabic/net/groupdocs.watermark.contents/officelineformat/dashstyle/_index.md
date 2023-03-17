@@ -16,7 +16,7 @@ public OfficeDashStyle DashStyle { get; set; }
 
 ### Property_Value
 
-النظام الأساسيSolid.
+القيمة الافتراضية هيSolid.
 
 ### أنظر أيضا
 

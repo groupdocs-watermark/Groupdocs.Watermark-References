@@ -1,14 +1,14 @@
 ---
 title: UnknownWatermarkOptionsTypeException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化UnknownWatermarkOptionsTypeExceptiongroupdocs.watermark.exceptions/unknownwatermarkoptionstypeexception类.
+description: 初始化一个新的实例UnknownWatermarkOptionsTypeExceptiongroupdocs.watermark.exceptions/unknownwatermarkoptionstypeexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/unknownwatermarkoptionstypeexception/unknownwatermarkoptionstypeexception/
 ---
 ## UnknownWatermarkOptionsTypeException constructor
 
-初始化[`UnknownWatermarkOptionsTypeException`](../../unknownwatermarkoptionstypeexception)类.
+初始化一个新的实例[`UnknownWatermarkOptionsTypeException`](../../unknownwatermarkoptionstypeexception)类.
 
 ```csharp
 public UnknownWatermarkOptionsTypeException()

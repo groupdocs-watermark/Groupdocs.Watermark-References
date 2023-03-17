@@ -18,16 +18,16 @@ public class DiagramCommentPossibleWatermark : PossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| override [Height](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/height) { get; } | 获取这个的高度[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark)以点为单位。 |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [Height](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/height) { get; } | 获取这个的高度[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark)点. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/parent) { get; } | 获取这个的父级[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark)度数. |
-| override [Text](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark). |
-| override [Width](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/width) { get; } | 获取这个的宽度[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark)以点为单位。 |
-| override [X](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/x) { get; } | 获取 this 的水平偏移量[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark) 从页面左边框开始，以点为单位。 |
-| override [Y](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/y) { get; } | 获取 this 的垂直偏移量[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark) 从页面底部边框开始，以点为单位。 |
+| override [RotateAngle](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark)以度为单位. |
+| override [Text](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/text) { get; set; } | 获取或设置此文本[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark). |
+| override [Width](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/width) { get; } | 得到这个的宽度[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark)点. |
+| override [X](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/x) { get; } | 得到这个的水平偏移量[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark) 从页面左边框开始，以点为单位。 |
+| override [Y](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/y) { get; } | 获取此的垂直偏移量[`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark) 从页面底部边框开始。 |
 
 ### 也可以看看
 

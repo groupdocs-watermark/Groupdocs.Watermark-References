@@ -1,14 +1,14 @@
 ---
 title: FlatOpc
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Office Open XML WordprocessingML gespeichert in einer flachen XMLDatei anstelle eines ZIPPakets .xml. Weitere Informationen zu diesem Dateiformathierhttps//en.wikipedia.org/wiki/Office_Open_XML .
+description: Office Open XML WordprocessingML gespeichert in einer flachen XMLDatei anstelle eines ZIPPakets .xml. Weitere Informationen zu diesem DateiformatHierhttps//en.wikipedia.org/wiki/Office_Open_XML .
 type: docs
 weight: 100
 url: /de/net/groupdocs.watermark.common/filetype/flatopc/
 ---
 ## FileType.FlatOpc field
 
-Office Open XML WordprocessingML, gespeichert in einer flachen XML-Datei anstelle eines ZIP-Pakets (.xml). Weitere Informationen zu diesem Dateiformat[hier](https://en.wikipedia.org/wiki/Office_Open_XML) .
+Office Open XML WordprocessingML, gespeichert in einer flachen XML-Datei anstelle eines ZIP-Pakets (.xml). Weitere Informationen zu diesem Dateiformat[Hier](https://en.wikipedia.org/wiki/Office_Open_XML) .
 
 ```csharp
 public static readonly FileType FlatOpc;

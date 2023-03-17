@@ -24,7 +24,7 @@ public class DiagramShape : ShapeSearchAdapter, IRotatableTwoDObject
 | [Id](../../groupdocs.watermark.contents.diagram/diagramshape/id) { get; } | Ottiene l'identificatore di this[`DiagramShape`](../diagramshape) . |
 | [Image](../../groupdocs.watermark.contents.diagram/diagramshape/image) { get; set; } | Ottiene o imposta l'immagine di this[`DiagramShape`](../diagramshape) . |
 | [Name](../../groupdocs.watermark.contents.diagram/diagramshape/name) { get; } | Ottiene il nome di this[`DiagramShape`](../diagramshape) . |
-| [Page](../../groupdocs.watermark.contents.diagram/diagramshape/page) { get; } | Ottiene la pagina principale di this[`DiagramShape`](../diagramshape) . |
+| [Page](../../groupdocs.watermark.contents.diagram/diagramshape/page) { get; } | Ottiene la pagina padre di this[`DiagramShape`](../diagramshape) . |
 | [RotateAngle](../../groupdocs.watermark.contents.diagram/diagramshape/rotateangle) { get; set; } | Ottiene o imposta l'angolo di rotazione di this[`DiagramShape`](../diagramshape) in gradi. |
 | [Text](../../groupdocs.watermark.contents.diagram/diagramshape/text) { get; set; } | Ottiene o imposta il testo di this[`DiagramShape`](../diagramshape) . |
 | [Width](../../groupdocs.watermark.contents.diagram/diagramshape/width) { get; set; } | Ottiene o imposta la larghezza di this[`DiagramShape`](../diagramshape)in punti. |

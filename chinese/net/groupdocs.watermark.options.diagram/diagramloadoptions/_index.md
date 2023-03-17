@@ -18,8 +18,8 @@ public sealed class DiagramLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [DiagramLoadOptions](diagramloadoptions#constructor)() | 初始化[`DiagramLoadOptions`](../diagramloadoptions)类. |
-| [DiagramLoadOptions](diagramloadoptions#constructor_1)(string) | 初始化[`DiagramLoadOptions`](../diagramloadoptions)具有指定密码的类。 |
+| [DiagramLoadOptions](diagramloadoptions#constructor)() | 初始化一个新的实例[`DiagramLoadOptions`](../diagramloadoptions)类. |
+| [DiagramLoadOptions](diagramloadoptions#constructor_1)(string) | 初始化一个新的实例[`DiagramLoadOptions`](../diagramloadoptions)具有指定密码的类. |
 
 ## 特性
 

@@ -16,7 +16,7 @@ public static PresentationLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`PresentationLoadOptions`](../../presentationloadoptions) classer.
+La valeur par défaut pour le[`PresentationLoadOptions`](../../presentationloadoptions) classe.
 
 ### Voir également
 

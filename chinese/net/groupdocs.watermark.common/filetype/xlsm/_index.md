@@ -1,14 +1,14 @@
 ---
 title: XLSM
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 带有 XLSM 扩展名的文件是一种支持宏的电子表格文件了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/specification/spreadsheet/xlsm/.
+description: 具有 XLSM 扩展名的文件是一种支持宏的 Spreasheet 文件详细了解此文件格式 这里https//wiki.fileformat.com/specification/spreadsheet/xlsm/.
 type: docs
 weight: 540
 url: /zh/net/groupdocs.watermark.common/filetype/xlsm/
 ---
 ## FileType.XLSM field
 
-带有 XLSM 扩展名的文件是一种支持宏的电子表格文件。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/specification/spreadsheet/xlsm/).
+具有 XLSM 扩展名的文件是一种支持宏的 Spreasheet 文件。详细了解此文件格式 [这里](https://wiki.fileformat.com/specification/spreadsheet/xlsm/).
 
 ```csharp
 public static readonly FileType XLSM;

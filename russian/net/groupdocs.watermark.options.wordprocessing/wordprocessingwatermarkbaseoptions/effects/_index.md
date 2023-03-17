@@ -16,7 +16,7 @@ public IWordProcessingWatermarkEffects Effects { get; set; }
 
 ### Стоимость имущества
 
-[`WordProcessingImageEffects`](../../wordprocessingimageeffects) или же[`WordProcessingTextEffects`](../../wordprocessingtexteffects) для эффектов, которые должны быть применены к водяному знаку.
+[`WordProcessingImageEffects`](../../wordprocessingimageeffects) или[`WordProcessingTextEffects`](../../wordprocessingtexteffects) для эффектов, которые должны быть применены к водяному знаку.
 
 ### Смотрите также
 

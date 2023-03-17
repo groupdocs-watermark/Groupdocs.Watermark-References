@@ -20,7 +20,7 @@ public bool IsLocked { get; set; }
 
 ### 评论
 
-默认情况下，该值为 false，可以在 Visio 中编辑形状。
+默认情况下，值为 false，可以在 Visio 中编辑形状。
 
 ### 也可以看看
 

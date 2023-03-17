@@ -38,7 +38,7 @@ public class SizeSearchCriteria : SearchCriteria
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Ricerca di filigrane](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

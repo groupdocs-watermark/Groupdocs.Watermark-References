@@ -1,14 +1,14 @@
 ---
 title: JPG
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: Un JPEG è un tipo di formato di immagine che viene salvato utilizzando il metodo di compressione con perdita. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/image/jpeg/ .
+description: Un JPEG è un tipo di formato di immagine che viene salvato utilizzando il metodo di compressione con perdita. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/image/jpeg/ .
 type: docs
 weight: 170
 url: /it/net/groupdocs.watermark.common/filetype/jpg/
 ---
 ## FileType.JPG field
 
-Un JPEG è un tipo di formato di immagine che viene salvato utilizzando il metodo di compressione con perdita. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/image/jpeg/) .
+Un JPEG è un tipo di formato di immagine che viene salvato utilizzando il metodo di compressione con perdita. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/image/jpeg/) .
 
 ```csharp
 public static readonly FileType JPG;

@@ -1,14 +1,14 @@
 ---
 title: Margins
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化Marginsgroupdocs.watermark.watermarks/margins类.
+description: 初始化一个新的实例Marginsgroupdocs.watermark.watermarks/margins类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.watermarks/margins/margins/
 ---
 ## Margins() {#constructor}
 
-初始化[`Margins`](../../margins)类.
+初始化一个新的实例[`Margins`](../../margins)类.
 
 ```csharp
 public Margins()
@@ -24,7 +24,7 @@ public Margins()
 
 ## Margins(MarginType, double, double, double, double) {#constructor_1}
 
-初始化[`Margins`](../../margins)具有指定类型、位置和大小的类。
+初始化一个新的实例[`Margins`](../../margins)具有指定类型、位置和大小的类。
 
 ```csharp
 public Margins(MarginType marginType, double left, double right, double top, double bottom)
@@ -32,11 +32,11 @@ public Margins(MarginType marginType, double left, double right, double top, dou
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| marginType | MarginType | 边距类型。指定应如何解释边距值。 |
+| marginType | MarginType | 保证金类型。指定应如何解释边距值。 |
 | left | Double | 左边距值。 |
 | right | Double | 右边距值。 |
-| top | Double | 上边距值。 |
-| bottom | Double | 下边距值。 |
+| top | Double | 最高保证金值。 |
+| bottom | Double | 底部边距值。 |
 
 ### 也可以看看
 

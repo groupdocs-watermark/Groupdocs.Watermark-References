@@ -1,14 +1,14 @@
 ---
 title: RotateAngle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以度为单位获取对象的旋转角度
+description: 获取对象的旋转角度以度为单位
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfshape/rotateangle/
 ---
 ## PdfShape.RotateAngle property
 
-以度为单位获取对象的旋转角度。
+获取对象的旋转角度（以度为单位）。
 
 ```csharp
 public abstract double RotateAngle { get; }
@@ -16,7 +16,7 @@ public abstract double RotateAngle { get; }
 
 ### 适当的价值
 
-对象的旋转角度，以度为单位。
+对象的旋转角度（以度为单位）。
 
 ### 也可以看看
 

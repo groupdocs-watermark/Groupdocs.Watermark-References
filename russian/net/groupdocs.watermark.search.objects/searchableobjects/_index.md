@@ -33,7 +33,7 @@ public class SearchableObjects
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Поиск водяных знаков](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

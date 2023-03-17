@@ -1,14 +1,14 @@
 ---
 title: PresentationTextEffects
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PresentationTextEffectsgroupdocs.watermark.options.presentation/presentationtexteffects类.
+description: 初始化一个新的实例PresentationTextEffectsgroupdocs.watermark.options.presentation/presentationtexteffects类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.presentation/presentationtexteffects/presentationtexteffects/
 ---
 ## PresentationTextEffects constructor
 
-初始化[`PresentationTextEffects`](../../presentationtexteffects)类.
+初始化一个新的实例[`PresentationTextEffects`](../../presentationtexteffects)类.
 
 ```csharp
 public PresentationTextEffects()

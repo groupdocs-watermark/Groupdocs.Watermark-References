@@ -31,7 +31,7 @@ public class SpreadsheetWatermarkableImage : WatermarkableImage
 
 | İsim | Tanım |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Buna filigran ekler[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). Bu yöntem, filigran ofsetinin ve boyutunun (atanmışlarsa) piksel cinsinden ölçüldüğünü varsayar. |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Buna filigran ekler[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage) . Bu yöntem, filigran ofsetinin ve boyutunun (atanmışlarsa) piksel cinsinden ölçüldüğünü varsayar. |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | İçerikteki tüm resimleri bulur. Arama, belirtilen nesnelerde gerçekleştirilir.[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Belirtilen arama kriterlerine göre görüntüleri bulur. Arama, belirtilen nesnelerde gerçekleştirilir.[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | Görüntüyü bayt dizisi olarak alır. |

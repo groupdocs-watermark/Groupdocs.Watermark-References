@@ -1,14 +1,14 @@
 ---
 title: PdfFormattedTextFragment
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 pdf 文档中格式化文本的片段
+description: 表示pdf文档中格式化文本的片段
 type: docs
 weight: 630
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfformattedtextfragment/
 ---
 ## PdfFormattedTextFragment class
 
-表示 pdf 文档中格式化文本的片段。
+表示pdf文档中格式化文本的片段。
 
 ```csharp
 public class PdfFormattedTextFragment : FormattedTextFragment
@@ -18,7 +18,7 @@ public class PdfFormattedTextFragment : FormattedTextFragment
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [BackgroundColor](../../groupdocs.watermark.contents.pdf/pdfformattedtextfragment/backgroundcolor) { get; } | 获取文本的背景颜色。 |
+| override [BackgroundColor](../../groupdocs.watermark.contents.pdf/pdfformattedtextfragment/backgroundcolor) { get; } | 获取文本的背景色。 |
 | override [Font](../../groupdocs.watermark.contents.pdf/pdfformattedtextfragment/font) { get; } | 获取文本的字体。 |
 | override [ForegroundColor](../../groupdocs.watermark.contents.pdf/pdfformattedtextfragment/foregroundcolor) { get; } | 获取文本的前景色。 |
 | override [Text](../../groupdocs.watermark.contents.pdf/pdfformattedtextfragment/text) { get; } | 获取片段文本。 |

@@ -1,14 +1,14 @@
 ---
 title: ToArgb
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的 32 位 ARGB 值Colorgroupdocs.watermark.watermarks/color结构.
+description: 得到这个的32位ARGB值Colorgroupdocs.watermark.watermarks/color结构.
 type: docs
 weight: 1540
 url: /zh/net/groupdocs.watermark.watermarks/color/toargb/
 ---
 ## Color.ToArgb method
 
-获取这个的 32 位 ARGB 值[`Color`](../../color)结构.
+得到这个的32位ARGB值[`Color`](../../color)结构.
 
 ```csharp
 public int ToArgb()
@@ -16,7 +16,7 @@ public int ToArgb()
 
 ### 返回值
 
-这个的 32 位 ARGB 值[`Color`](../../color)结构体。
+这个的32位ARGB值[`Color`](../../color)结构。
 
 ### 也可以看看
 

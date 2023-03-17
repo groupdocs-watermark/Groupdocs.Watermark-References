@@ -1,14 +1,14 @@
 ---
 title: Error
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 记录水印期间发生的错误
+description: 记录加水印期间发生的错误
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options/ilogger/error/
 ---
 ## ILogger.Error method
 
-记录水印期间发生的错误。
+记录加水印期间发生的错误。
 
 ```csharp
 public void Error(string message, Exception exception)
@@ -16,7 +16,7 @@ public void Error(string message, Exception exception)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| message | String | 错误消息。 |
+| message | String | 错误信息。 |
 | exception | Exception | 发生异常的实例。 |
 
 ### 也可以看看

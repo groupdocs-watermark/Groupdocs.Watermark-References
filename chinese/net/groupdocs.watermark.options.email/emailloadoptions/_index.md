@@ -18,7 +18,7 @@ public sealed class EmailLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [EmailLoadOptions](emailloadoptions)() | 初始化[`EmailLoadOptions`](../emailloadoptions)类. |
+| [EmailLoadOptions](emailloadoptions)() | 初始化一个新的实例[`EmailLoadOptions`](../emailloadoptions)类. |
 
 ## 特性
 

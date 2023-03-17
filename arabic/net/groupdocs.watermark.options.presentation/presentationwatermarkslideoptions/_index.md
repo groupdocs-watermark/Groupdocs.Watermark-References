@@ -51,10 +51,10 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.ppt", loadO
 
     PresentationWatermarkSlideOptions options = new PresentationWatermarkSlideOptions();
     options.SlideIndex = 0;
-    options.IsLocked = false; // إفتراضي
-    options.ProtectWithUnreadableCharacters = false; // إفتراضي
-    options.Name = null; // إفتراضي
-    options.AlternativeText = null; // إفتراضي
+    options.IsLocked = false; // تقصير
+    options.ProtectWithUnreadableCharacters = false; // تقصير
+    options.Name = null; // تقصير
+    options.AlternativeText = null; // تقصير
 
     watermarker.Add(watermark, options);
     watermarker.Save();

@@ -1,14 +1,14 @@
 ---
 title: Search
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 根据指定的搜索条件查找可能的水印 在指定的对象中进行搜索SearchableObjectsgroupdocs.watermark/watermarker/searchableobjects.
+description: 根据指定的搜索条件查找可能的水印 搜索在指定的对象中进行SearchableObjectsgroupdocs.watermark/watermarker/searchableobjects.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents/contentpart/search/
 ---
 ## Search(SearchCriteria) {#search_1}
 
-根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../../groupdocs.watermark/watermarker/searchableobjects).
+根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../../groupdocs.watermark/watermarker/searchableobjects).
 
 ```csharp
 public PossibleWatermarkCollection Search(SearchCriteria searchCriteria)
@@ -34,7 +34,7 @@ public PossibleWatermarkCollection Search(SearchCriteria searchCriteria)
 
 ## Search() {#search}
 
-查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../../groupdocs.watermark/watermarker/searchableobjects).
+查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../../groupdocs.watermark/watermarker/searchableobjects).
 
 ```csharp
 public PossibleWatermarkCollection Search()

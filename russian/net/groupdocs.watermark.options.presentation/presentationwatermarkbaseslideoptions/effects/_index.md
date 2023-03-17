@@ -16,7 +16,7 @@ public IPresentationWatermarkEffects Effects { get; set; }
 
 ### Стоимость имущества
 
-Значение[`PresentationImageEffects`](../../presentationimageeffects) или же[`PresentationTextEffects`](../../presentationtexteffects) для эффектов, которые должны быть применены к водяному знаку.
+Значение[`PresentationImageEffects`](../../presentationimageeffects) или[`PresentationTextEffects`](../../presentationtexteffects) для эффектов, которые должны быть применены к водяному знаку.
 
 ### Смотрите также
 

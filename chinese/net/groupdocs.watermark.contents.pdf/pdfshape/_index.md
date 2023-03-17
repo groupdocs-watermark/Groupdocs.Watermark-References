@@ -1,14 +1,14 @@
 ---
 title: PdfShape
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 为 XObjectsArtifacts 和 Annotations 提供基类
+description: 为 XObjects工件和注释提供基类
 type: docs
 weight: 700
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfshape/
 ---
 ## PdfShape class
 
-为 XObjects、Artifacts 和 Annotations 提供基类。
+为 XObjects、工件和注释提供基类。
 
 ```csharp
 public abstract class PdfShape : ShapeSearchAdapter, IRotatableTwoDObject
@@ -18,14 +18,14 @@ public abstract class PdfShape : ShapeSearchAdapter, IRotatableTwoDObject
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FormattedTextFragments](../../groupdocs.watermark.contents.pdf/pdfshape/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PdfShape`](../pdfshape). |
+| [FormattedTextFragments](../../groupdocs.watermark.contents.pdf/pdfshape/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PdfShape`](../pdfshape). |
 | abstract [Height](../../groupdocs.watermark.contents.pdf/pdfshape/height) { get; } | 获取对象的高度。 |
 | [Image](../../groupdocs.watermark.contents.pdf/pdfshape/image) { get; set; } | 获取或设置此图像[`PdfShape`](../pdfshape). |
-| abstract [RotateAngle](../../groupdocs.watermark.contents.pdf/pdfshape/rotateangle) { get; } | 以度为单位获取对象的旋转角度。 |
-| virtual [Text](../../groupdocs.watermark.contents.pdf/pdfshape/text) { get; set; } | 获取或设置 this 的文本[`PdfShape`](../pdfshape). |
+| abstract [RotateAngle](../../groupdocs.watermark.contents.pdf/pdfshape/rotateangle) { get; } | 获取对象的旋转角度（以度为单位）。 |
+| virtual [Text](../../groupdocs.watermark.contents.pdf/pdfshape/text) { get; set; } | 获取或设置此文本[`PdfShape`](../pdfshape). |
 | abstract [Width](../../groupdocs.watermark.contents.pdf/pdfshape/width) { get; } | 获取对象的宽度。 |
 | abstract [X](../../groupdocs.watermark.contents.pdf/pdfshape/x) { get; } | 获取对象的 x 坐标。 |
-| abstract [Y](../../groupdocs.watermark.contents.pdf/pdfshape/y) { get; } | 获取对象的 y 坐标。 |
+| abstract [Y](../../groupdocs.watermark.contents.pdf/pdfshape/y) { get; } | 获取对象的y坐标。 |
 
 ### 也可以看看
 

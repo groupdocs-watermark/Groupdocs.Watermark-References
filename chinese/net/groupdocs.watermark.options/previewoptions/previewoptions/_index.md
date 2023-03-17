@@ -1,14 +1,14 @@
 ---
 title: PreviewOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PreviewOptionsgroupdocs.watermark.options/previewoptions导致输出流关闭的类
+description: 初始化一个新的实例PreviewOptionsgroupdocs.watermark.options/previewoptions导致输出流关闭的类
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options/previewoptions/previewoptions/
 ---
 ## PreviewOptions(CreatePageStream) {#constructor}
 
-初始化[`PreviewOptions`](../../previewoptions)导致输出流关闭的类。
+初始化一个新的实例[`PreviewOptions`](../../previewoptions)导致输出流关闭的类。
 
 ```csharp
 public PreviewOptions(CreatePageStream createPageStream)
@@ -29,7 +29,7 @@ public PreviewOptions(CreatePageStream createPageStream)
 
 ## PreviewOptions(CreatePageStream, ReleasePageStream) {#constructor_1}
 
-初始化一个新的实例[`PreviewOptions`](../../previewoptions)类导致输出流返回 给客户端以供进一步使用。
+初始化一个新实例[`PreviewOptions`](../../previewoptions)导致输出流被返回 到客户端以供进一步使用的类。
 
 ```csharp
 public PreviewOptions(CreatePageStream createPageStream, ReleasePageStream releasePageStream)
@@ -38,7 +38,7 @@ public PreviewOptions(CreatePageStream createPageStream, ReleasePageStream relea
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | createPageStream | CreatePageStream | 为特定页面预览创建流。 |
-| releasePageStream | ReleasePageStream | 通知页面预览生成完成并获取输出流。 |
+| releasePageStream | ReleasePageStream | 通知页面预览生成已完成并获取输出流。 |
 
 ### 也可以看看
 

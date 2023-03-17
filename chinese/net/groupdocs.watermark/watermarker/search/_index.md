@@ -20,13 +20,13 @@ public PossibleWatermarkCollection Search()
 
 ### 评论
 
-搜索是在指定的对象中进行的[`SearchableObjects`](../searchableobjects).
+搜索在指定的对象中进行[`SearchableObjects`](../searchableobjects).
 
-了解有关搜索水印的更多信息 [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks).
+详细了解搜索水印 [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks).
 
 ### 例子
 
-计算任何支持类型的文档中可能出现的水印。
+计算任何支持类型的文档中可能的水印。
 
 ```csharp
 using (Watermarker watermarker = new Watermarker(@"D:\input.doc"))
@@ -63,13 +63,13 @@ public PossibleWatermarkCollection Search(SearchCriteria searchCriteria)
 
 ### 评论
 
-搜索是在指定的对象中进行的[`SearchableObjects`](../searchableobjects).
+搜索在指定的对象中进行[`SearchableObjects`](../searchableobjects).
 
-了解有关搜索水印的更多信息 [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks).
+详细了解搜索水印 [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks).
 
 ### 例子
 
-从任何受支持类型的文档 中查找并删除所有可能包含特定文本或图像的水印。
+从任何支持类型的文档 中查找并删除所有可能包含特定文本或图像的水印。
 
 ```csharp
 using (Watermarker watermarker = new Watermarker(@"D:\input.doc"))

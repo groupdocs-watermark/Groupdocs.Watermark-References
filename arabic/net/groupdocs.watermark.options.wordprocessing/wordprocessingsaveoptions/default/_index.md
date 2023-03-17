@@ -16,7 +16,7 @@ public static WordProcessingSaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`WordProcessingSaveOptions`](../../wordprocessingsaveoptions) صف دراسي.
+القيمة الافتراضية لملف[`WordProcessingSaveOptions`](../../wordprocessingsaveoptions) فصل.
 
 ### أنظر أيضا
 

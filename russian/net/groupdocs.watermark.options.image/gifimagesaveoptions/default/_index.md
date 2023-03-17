@@ -16,7 +16,7 @@ public static GifImageSaveOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`GifImageSaveOptions`](../../gifimagesaveoptions) учебный класс.
+Значение по умолчанию для[`GifImageSaveOptions`](../../gifimagesaveoptions) сорт.
 
 ### Смотрите также
 

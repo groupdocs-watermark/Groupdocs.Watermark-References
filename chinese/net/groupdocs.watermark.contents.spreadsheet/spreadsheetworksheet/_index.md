@@ -18,29 +18,29 @@ public class SpreadsheetWorksheet : ContentPart
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Attachments](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/attachments) { get; } | 获取此所有附件的集合[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
-| [BackgroundImage](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/backgroundimage) { get; set; } | 获取或设置 this 的背景图片[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
-| [Charts](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/charts) { get; } | 获取此所有图表的集合[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
-| [ContentAreaHeight](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/contentareaheight) { get; } | 以点为单位获取内容区域的高度。 |
+| [Attachments](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/attachments) { get; } | 获取本次所有附件的集合[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
+| [BackgroundImage](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/backgroundimage) { get; set; } | 获取或设置这个的背景图片[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
+| [Charts](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/charts) { get; } | 获取本次所有图表的集合[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
+| [ContentAreaHeight](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/contentareaheight) { get; } | 获取内容区域的高度（以磅为单位）。 |
 | [ContentAreaHeightPx](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/contentareaheightpx) { get; } | 获取内容区域的高度（以像素为单位）。 |
-| [ContentAreaWidth](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/contentareawidth) { get; } | 以点为单位获取内容区域的宽度。 |
+| [ContentAreaWidth](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/contentareawidth) { get; } | 获取内容区域的宽度（以磅为单位）。 |
 | [ContentAreaWidthPx](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/contentareawidthpx) { get; } | 获取内容区域的宽度（以像素为单位）。 |
 | [HeadersFooters](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/headersfooters) { get; } | 获取工作表页眉和页脚的集合。 |
 | [PageSetup](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/pagesetup) { get; } | 获取打印页面设置[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
-| [Shapes](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/shapes) { get; } | 获取这个所有形状的集合[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
+| [Shapes](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/shapes) { get; } | 获取this所有形状的集合[`SpreadsheetWorksheet`](../spreadsheetworksheet). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [GetColumnWidth](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getcolumnwidth)(int) | 获取指定列的宽度，以磅为单位。 |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [GetColumnWidth](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getcolumnwidth)(int) | 获取指定列的宽度（以磅为单位）。 |
 | [GetColumnWidthPx](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getcolumnwidthpx)(int) | 获取指定列的宽度（以像素为单位）。 |
-| [GetRowHeight](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheight)(int) | 以点为单位获取指定行的高度。 |
-| [GetRowHeightPx](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheightpx)(int) | 获取指定行的高度（以像素为单位）。 |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [GetRowHeight](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheight)(int) | 获取指定行的高度（以磅为单位）。 |
+| [GetRowHeightPx](../../groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheightpx)(int) | 获取指定行的像素高度。 |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 也可以看看
 

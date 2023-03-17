@@ -1,14 +1,14 @@
 ---
 title: WordProcessingShapeSettings
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化WordProcessingShapeSettingsgroupdocs.watermark.options.wordprocessing/wordprocessingshapesettings类.
+description: 初始化一个新的实例WordProcessingShapeSettingsgroupdocs.watermark.options.wordprocessing/wordprocessingshapesettings类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingshapesettings/wordprocessingshapesettings/
 ---
 ## WordProcessingShapeSettings constructor
 
-初始化[`WordProcessingShapeSettings`](../../wordprocessingshapesettings)类.
+初始化一个新的实例[`WordProcessingShapeSettings`](../../wordprocessingshapesettings)类.
 
 ```csharp
 public WordProcessingShapeSettings()

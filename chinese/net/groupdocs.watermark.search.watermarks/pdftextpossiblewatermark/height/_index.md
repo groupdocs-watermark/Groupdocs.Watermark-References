@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的高度PdfTextPossibleWatermarkgroupdocs.watermark.search.watermarks/pdftextpossiblewatermark以点为单位
+description: 获取这个的高度PdfTextPossibleWatermarkgroupdocs.watermark.search.watermarks/pdftextpossiblewatermark点.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/height/
 ---
 ## PdfTextPossibleWatermark.Height property
 
-获取这个的高度[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark)以点为单位。
+获取这个的高度[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark)点.
 
 ```csharp
 public override double Height { get; }
@@ -16,7 +16,7 @@ public override double Height { get; }
 
 ### 适当的价值
 
-这个高度[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark)在点。
+这个高度[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark)分。
 
 ### 也可以看看
 

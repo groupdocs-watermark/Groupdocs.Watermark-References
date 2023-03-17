@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetPreviewOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetPreviewOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions导致输出流关闭的类
+description: 初始化一个新的实例SpreadsheetPreviewOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions导致输出流关闭的类
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/spreadsheetpreviewoptions/
 ---
 ## SpreadsheetPreviewOptions(CreatePageStream) {#constructor}
 
-初始化[`SpreadsheetPreviewOptions`](../../spreadsheetpreviewoptions)导致输出流关闭的类。
+初始化一个新的实例[`SpreadsheetPreviewOptions`](../../spreadsheetpreviewoptions)导致输出流关闭的类。
 
 ```csharp
 public SpreadsheetPreviewOptions(CreatePageStream createPageStream)
@@ -29,7 +29,7 @@ public SpreadsheetPreviewOptions(CreatePageStream createPageStream)
 
 ## SpreadsheetPreviewOptions(CreatePageStream, ReleasePageStream) {#constructor_1}
 
-初始化一个新的实例[`SpreadsheetPreviewOptions`](../../spreadsheetpreviewoptions)类导致输出流返回 给客户端以供进一步使用。
+初始化一个新实例[`SpreadsheetPreviewOptions`](../../spreadsheetpreviewoptions)导致输出流被返回 到客户端以供进一步使用的类。
 
 ```csharp
 public SpreadsheetPreviewOptions(CreatePageStream createPageStream, 
@@ -39,7 +39,7 @@ public SpreadsheetPreviewOptions(CreatePageStream createPageStream,
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
 | createPageStream | CreatePageStream | 为特定页面预览创建流。 |
-| releasePageStream | ReleasePageStream | 通知页面预览生成完成并获取输出流。 |
+| releasePageStream | ReleasePageStream | 通知页面预览生成已完成并获取输出流。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: ContentId
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此内容的 idEmailAttachmentBasegroupdocs.watermark.contents.email/emailattachmentbase.
+description: 获取这个的内容idEmailAttachmentBasegroupdocs.watermark.contents.email/emailattachmentbase.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.email/emailattachmentbase/contentid/
 ---
 ## EmailAttachmentBase.ContentId property
 
-获取此内容的 id[`EmailAttachmentBase`](../../emailattachmentbase).
+获取这个的内容id[`EmailAttachmentBase`](../../emailattachmentbase).
 
 ```csharp
 public string ContentId { get; }
@@ -16,7 +16,7 @@ public string ContentId { get; }
 
 ### 适当的价值
 
-此内容的 id[`EmailAttachmentBase`](../../emailattachmentbase).
+这个的内容id[`EmailAttachmentBase`](../../emailattachmentbase).
 
 ### 也可以看看
 

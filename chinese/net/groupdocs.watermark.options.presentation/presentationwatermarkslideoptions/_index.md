@@ -18,7 +18,7 @@ public sealed class PresentationWatermarkSlideOptions : PresentationWatermarkBas
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PresentationWatermarkSlideOptions](presentationwatermarkslideoptions)() | 初始化[`PresentationWatermarkSlideOptions`](../presentationwatermarkslideoptions)类. |
+| [PresentationWatermarkSlideOptions](presentationwatermarkslideoptions)() | 初始化一个新的实例[`PresentationWatermarkSlideOptions`](../presentationwatermarkslideoptions)类. |
 
 ## 特性
 
@@ -28,18 +28,18 @@ public sealed class PresentationWatermarkSlideOptions : PresentationWatermarkBas
 | [Effects](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects) { get; set; } | 获取或设置一个值[`PresentationImageEffects`](../presentationimageeffects)or [`PresentationTextEffects`](../presentationtexteffects)对于应该应用于水印的效果。 |
 | [IsLocked](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/islocked) { get; set; } | 获取或设置一个值，该值指示是否禁止在 PowerPoint 中编辑形状。 |
 | [Name](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/name) { get; set; } | 获取或设置形状的名称。 |
-| [ProtectWithUnreadableCharacters](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/protectwithunreadablecharacters) { get; set; } | 获取或设置一个值，该值指示文本水印字符是否与不可读字符混合。 |
-| [SlideIndex](../../groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/slideindex) { get; set; } | 获取或设置要添加水印的幻灯片的索引。 |
+| [ProtectWithUnreadableCharacters](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/protectwithunreadablecharacters) { get; set; } | 获取或设置文本水印字符是否混有不可读字符的值。 |
+| [SlideIndex](../../groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/slideindex) { get; set; } | 获取或设置要添加水印的幻灯片索引。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [为演示文稿添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
+* [向演示文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 
 ### 例子
 
-为 Power Point 演示文稿的特定幻灯片添加水印。
+将水印添加到 Power Point 演示文稿的特定幻灯片。
 
 ```csharp
 PresentationLoadOptions loadOptions = new PresentationLoadOptions();

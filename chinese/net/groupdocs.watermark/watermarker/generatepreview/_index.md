@@ -16,7 +16,7 @@ public void GeneratePreview(PreviewOptions previewOptions)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| previewOptions | PreviewOptions | 生成预览图像时使用的其他选项。 |
+| previewOptions | PreviewOptions | 生成预览图像时要使用的其他选项。 |
 
 ### 例子
 

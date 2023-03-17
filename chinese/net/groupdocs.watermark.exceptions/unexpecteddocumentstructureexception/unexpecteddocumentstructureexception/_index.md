@@ -1,14 +1,14 @@
 ---
 title: UnexpectedDocumentStructureException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化UnexpectedDocumentStructureExceptiongroupdocs.watermark.exceptions/unexpecteddocumentstructureexception类.
+description: 初始化一个新的实例UnexpectedDocumentStructureExceptiongroupdocs.watermark.exceptions/unexpecteddocumentstructureexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/unexpecteddocumentstructureexception/unexpecteddocumentstructureexception/
 ---
 ## UnexpectedDocumentStructureException constructor
 
-初始化[`UnexpectedDocumentStructureException`](../../unexpecteddocumentstructureexception)类.
+初始化一个新的实例[`UnexpectedDocumentStructureException`](../../unexpecteddocumentstructureexception)类.
 
 ```csharp
 public UnexpectedDocumentStructureException()

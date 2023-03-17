@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度SpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart以点为单位
+description: 得到这个的宽度SpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart点.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/width/
 ---
 ## SpreadsheetChart.Width property
 
-获取这个的宽度[`SpreadsheetChart`](../../spreadsheetchart)以点为单位。
+得到这个的宽度[`SpreadsheetChart`](../../spreadsheetchart)点.
 
 ```csharp
 public double Width { get; }
@@ -16,7 +16,7 @@ public double Width { get; }
 
 ### 适当的价值
 
-这个宽度[`SpreadsheetChart`](../../spreadsheetchart)在点。
+这个的宽度[`SpreadsheetChart`](../../spreadsheetchart)分。
 
 ### 也可以看看
 

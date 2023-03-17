@@ -1,14 +1,14 @@
 ---
 title: Description
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置附件的描述信息
+description: 获取或设置附加文件的描述
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfattachment/description/
 ---
 ## PdfAttachment.Description property
 
-获取或设置附件的描述信息。
+获取或设置附加文件的描述。
 
 ```csharp
 public string Description { get; set; }

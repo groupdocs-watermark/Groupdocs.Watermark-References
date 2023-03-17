@@ -16,7 +16,7 @@ public static readonly WordProcessingTextEffects Default;
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`WordProcessingTextEffects`](../../wordprocessingtexteffects) учебный класс.
+Значение по умолчанию для[`WordProcessingTextEffects`](../../wordprocessingtexteffects) сорт.
 
 ### Смотрите также
 

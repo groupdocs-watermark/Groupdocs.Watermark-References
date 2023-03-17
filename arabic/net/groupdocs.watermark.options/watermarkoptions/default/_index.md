@@ -16,7 +16,7 @@ public static WatermarkOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`WatermarkOptions`](../../watermarkoptions) صف دراسي.
+القيمة الافتراضية لملف[`WatermarkOptions`](../../watermarkoptions) فصل.
 
 ### أنظر أيضا
 

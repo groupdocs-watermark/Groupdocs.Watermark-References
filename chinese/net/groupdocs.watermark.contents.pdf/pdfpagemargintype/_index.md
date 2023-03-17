@@ -1,14 +1,14 @@
 ---
 title: PdfPageMarginType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示添加水印期间要使用的 pdf 裁剪边距
+description: 表示在添加水印时要使用的 pdf crop 边距
 type: docs
 weight: 680
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfpagemargintype/
 ---
 ## PdfPageMarginType enumeration
 
-表示添加水印期间要使用的 pdf 裁剪边距。
+表示在添加水印时要使用的 pdf crop 边距。
 
 ```csharp
 public enum PdfPageMarginType

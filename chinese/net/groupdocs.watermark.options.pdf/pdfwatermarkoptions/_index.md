@@ -1,14 +1,14 @@
 ---
 title: PdfWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 为 pdf 文档添加选项的水印基类
+description: 向 pdf 文档添加水印选项的基类
 type: docs
 weight: 1910
 url: /zh/net/groupdocs.watermark.options.pdf/pdfwatermarkoptions/
 ---
 ## PdfWatermarkOptions class
 
-为 pdf 文档添加选项的水印基类。
+向 pdf 文档添加水印选项的基类。
 
 ```csharp
 public abstract class PdfWatermarkOptions : WatermarkOptions

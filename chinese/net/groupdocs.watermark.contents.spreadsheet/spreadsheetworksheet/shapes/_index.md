@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个所有形状的集合SpreadsheetWorksheetgroupdocs.watermark.contents.spreadsheet/spreadsheetworksheet.
+description: 获取this所有形状的集合SpreadsheetWorksheetgroupdocs.watermark.contents.spreadsheet/spreadsheetworksheet.
 type: docs
 weight: 100
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/shapes/
 ---
 ## SpreadsheetWorksheet.Shapes property
 
-获取这个所有形状的集合[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
+获取this所有形状的集合[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
 
 ```csharp
 public SpreadsheetShapeCollection Shapes { get; }
@@ -16,7 +16,7 @@ public SpreadsheetShapeCollection Shapes { get; }
 
 ### 适当的价值
 
-这一切形状的集合[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
+各种形状的集合[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
 
 ### 也可以看看
 

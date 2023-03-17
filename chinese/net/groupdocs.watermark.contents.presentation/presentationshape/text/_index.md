@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本PresentationShapegroupdocs.watermark.contents.presentation/presentationshape.
+description: 获取或设置此文本PresentationShapegroupdocs.watermark.contents.presentation/presentationshape.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationshape/text/
 ---
 ## PresentationShape.Text property
 
-获取或设置 this 的文本[`PresentationShape`](../../presentationshape).
+获取或设置此文本[`PresentationShape`](../../presentationshape).
 
 ```csharp
 public string Text { get; set; }
@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`PresentationShape`](../../presentationshape).
+这一段的正文[`PresentationShape`](../../presentationshape).
 
 ### 也可以看看
 

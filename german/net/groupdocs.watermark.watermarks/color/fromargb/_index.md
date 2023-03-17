@@ -20,7 +20,7 @@ public static Color FromArgb(int argb)
 
 ### Rückgabewert
 
-Das[`Color`](../../color) Struktur, die diese Methode erzeugt.
+Der[`Color`](../../color) Struktur, die diese Methode erzeugt.
 
 ### Siehe auch
 
@@ -41,11 +41,11 @@ public static Color FromArgb(int alpha, Color baseColor)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | alpha | Int32 | Der Alpha-Wert für das Neue[`Color`](../../color). Gültige Werte sind 0 bis 255. |
-| baseColor | Color | Das[`Color`](../../color) aus der das Neue entsteht[`Color`](../../color). |
+| baseColor | Color | Der[`Color`](../../color) aus der das Neue entsteht[`Color`](../../color). |
 
 ### Rückgabewert
 
-Das[`Color`](../../color) die diese Methode erstellt.
+Der[`Color`](../../color) die diese Methode erstellt.
 
 ### Ausnahmen
 
@@ -81,7 +81,7 @@ public static Color FromArgb(int red, int green, int blue)
 
 ### Rückgabewert
 
-Das[`Color`](../../color) die diese Methode erstellt.
+Der[`Color`](../../color) die diese Methode erstellt.
 
 ### Ausnahmen
 
@@ -118,7 +118,7 @@ public static Color FromArgb(int alpha, int red, int green, int blue)
 
 ### Rückgabewert
 
-Das[`Color`](../../color) die diese Methode erstellt.
+Der[`Color`](../../color) die diese Methode erstellt.
 
 ### Ausnahmen
 

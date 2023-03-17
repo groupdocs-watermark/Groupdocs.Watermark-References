@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的垂直偏移量SpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart以点为单位的工作表顶部边框.
+description: 获取此的垂直偏移量SpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart从工作表顶部边框以点为单位.
 type: docs
 weight: 100
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/y/
 ---
 ## SpreadsheetChart.Y property
 
-获取 this 的垂直偏移量[`SpreadsheetChart`](../../spreadsheetchart)以点为单位的工作表顶部边框.
+获取此的垂直偏移量[`SpreadsheetChart`](../../spreadsheetchart)从工作表顶部边框以点为单位.
 
 ```csharp
 public double Y { get; }

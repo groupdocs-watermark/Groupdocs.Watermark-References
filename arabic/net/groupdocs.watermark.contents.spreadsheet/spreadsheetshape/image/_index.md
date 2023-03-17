@@ -16,7 +16,7 @@ public SpreadsheetWatermarkableImage Image { get; set; }
 
 ### Property_Value
 
-صورة هذا[`SpreadsheetShape`](../../spreadsheetshape). تُرجع القيمة فارغة إذا كان الشكل لا يحتوي على صورة.
+صورة هذا[`SpreadsheetShape`](../../spreadsheetshape) . تُرجع القيمة فارغة إذا كان الشكل لا يحتوي على صورة.
 
 ### أنظر أيضا
 

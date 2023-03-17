@@ -1,14 +1,14 @@
 ---
 title: FooterMargin
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置文档页眉的边距
+description: 获取或设置文档页眉边距
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramheaderfooter/footermargin/
 ---
 ## DiagramHeaderFooter.FooterMargin property
 
-获取或设置文档页眉的边距。
+获取或设置文档页眉边距。
 
 ```csharp
 public double FooterMargin { get; set; }
@@ -16,7 +16,7 @@ public double FooterMargin { get; set; }
 
 ### 适当的价值
 
-文档页眉的边距。
+文件头的边距。
 
 ### 也可以看看
 

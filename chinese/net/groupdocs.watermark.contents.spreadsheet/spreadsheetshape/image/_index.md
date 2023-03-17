@@ -16,7 +16,7 @@ public SpreadsheetWatermarkableImage Image { get; set; }
 
 ### 适当的价值
 
-这个图片[`SpreadsheetShape`](../../spreadsheetshape). 如果形状没有图像，则返回 null。
+这个的图像[`SpreadsheetShape`](../../spreadsheetshape). 如果形状没有图像，则返回 null。
 
 ### 也可以看看
 

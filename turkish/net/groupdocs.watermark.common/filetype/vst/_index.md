@@ -1,14 +1,14 @@
 ---
 title: VST
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: VST uzantılı dosyalar Microsoft Visio ile oluşturulan vektör görüntü dosyalarıdır ve başka dosyalar oluşturmak için şablonu görevi görür. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/image/vst/ .
+description: VST uzantılı dosyalar Microsoft Visio ile oluşturulan vektör görüntü dosyalarıdır ve başka dosyalar oluşturmak için şablonu görevi görür. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/image/vst/ .
 type: docs
 weight: 460
 url: /tr/net/groupdocs.watermark.common/filetype/vst/
 ---
 ## FileType.VST field
 
-VST uzantılı dosyalar, Microsoft Visio ile oluşturulan vektör görüntü dosyalarıdır ve başka dosyalar oluşturmak için şablonu görevi görür. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/image/vst/) .
+VST uzantılı dosyalar, Microsoft Visio ile oluşturulan vektör görüntü dosyalarıdır ve başka dosyalar oluşturmak için şablonu görevi görür. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/image/vst/) .
 
 ```csharp
 public static readonly FileType VST;

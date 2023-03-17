@@ -16,7 +16,7 @@ public WordProcessingWatermarkableImage Image { get; set; }
 
 ### Стоимость имущества
 
-Образ этого[`WordProcessingShape`](../../wordprocessingshape). Возвращает ноль, если у фигуры нет изображения.
+Образ этого[`WordProcessingShape`](../../wordprocessingshape) . Возвращает ноль, если у фигуры нет изображения.
 
 ### Смотрите также
 

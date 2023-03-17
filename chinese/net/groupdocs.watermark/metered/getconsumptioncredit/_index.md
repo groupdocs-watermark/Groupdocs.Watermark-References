@@ -1,14 +1,14 @@
 ---
 title: GetConsumptionCredit
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 检索消耗的积分计数
+description: 检索消耗的积分数
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark/metered/getconsumptioncredit/
 ---
 ## Metered.GetConsumptionCredit method
 
-检索消耗的积分计数。
+检索消耗的积分数。
 
 ```csharp
 public static long GetConsumptionCredit()

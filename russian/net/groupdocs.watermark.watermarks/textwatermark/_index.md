@@ -33,6 +33,7 @@ public class TextWatermark : Watermark
 | [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | Получает или задает значение, указывающее, следует ли размещать водяной знак на фоне. |
 | [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | Получает или задает параметры полей этого[`Watermark`](../../groupdocs.watermark/watermark) . |
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Получает или задает непрозрачность этого[`Watermark`](../../groupdocs.watermark/watermark) . |
+| [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | Получает или задает параметры заполнения этого[`TextWatermark`](../textwatermark) . Это свойство применимо только к файлам изображений. |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Получает или задает угол поворота этого[`Watermark`](../../groupdocs.watermark/watermark) в градусах. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Получает или задает значение, определяющее зависимость размера водяного знака от размера родительского элемента. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Получает или задает значение, определяющее размер водяного знака. |
@@ -45,7 +46,7 @@ public class TextWatermark : Watermark
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавление текстовых водяных знаков](https://docs.groupdocs.com/display/watermarknet/Adding+text+watermarks)
 

@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的垂直偏移量PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapefrom 以点表示的顶部边框
+description: 获取或设置此的垂直偏移量PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape from presentation top border in points. 点数
 type: docs
 weight: 90
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationbaseshape/y/
 ---
 ## PresentationBaseShape.Y property
 
-获取或设置 this 的垂直偏移量[`PresentationBaseShape`](../../presentationbaseshape)from 以点表示的顶部边框。
+获取或设置此的垂直偏移量[`PresentationBaseShape`](../../presentationbaseshape) from presentation top border in points. 点数
 
 ```csharp
 public double Y { get; set; }

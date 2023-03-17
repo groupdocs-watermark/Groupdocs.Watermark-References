@@ -1,14 +1,14 @@
 ---
 title: IsLinkedToPrevious
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示此页眉/页脚是否链接到 上一节中的相应页眉/页脚
+description: 获取或设置一个值该值指示此页眉/页脚是否链接到 上一节中相应的页眉/页脚
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingheaderfooter/islinkedtoprevious/
 ---
 ## WordProcessingHeaderFooter.IsLinkedToPrevious property
 
-获取或设置一个值，该值指示此页眉/页脚是否链接到 上一节中的相应页眉/页脚。
+获取或设置一个值，该值指示此页眉/页脚是否链接到 上一节中相应的页眉/页脚。
 
 ```csharp
 public bool IsLinkedToPrevious { get; set; }
@@ -16,7 +16,7 @@ public bool IsLinkedToPrevious { get; set; }
 
 ### 适当的价值
 
-如果此页眉/页脚链接到上一节中的相应页眉/页脚，则为 true；否则为 false。
+如果此页眉/页脚链接到上一节中相应的页眉/页脚，则为 True；否则为 false。
 
 ### 评论
 

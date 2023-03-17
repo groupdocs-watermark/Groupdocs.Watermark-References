@@ -1,14 +1,14 @@
 ---
 title: EmailHtmlBodyTextPossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示电子邮件 html 正文中可能存在的水印
+description: 表示电子邮件 html 正文中可能的水印
 type: docs
 weight: 2810
 url: /zh/net/groupdocs.watermark.search.watermarks/emailhtmlbodytextpossiblewatermark/
 ---
 ## EmailHtmlBodyTextPossibleWatermark class
 
-表示电子邮件 html 正文中可能存在的水印。
+表示电子邮件 html 正文中可能的水印。
 
 ```csharp
 public class EmailHtmlBodyTextPossibleWatermark : EmailTextPossibleWatermark
@@ -18,16 +18,16 @@ public class EmailHtmlBodyTextPossibleWatermark : EmailTextPossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | virtual [Height](../../groupdocs.watermark.search/possiblewatermark/height) { get; } | 获取这个的高度[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/parent) { get; } | 获取这个的父级[`EmailTextPossibleWatermark`](../emailtextpossiblewatermark). |
-| virtual [RotateAngle](../../groupdocs.watermark.search/possiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark)度数. |
-| override [Text](../../groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`EmailTextPossibleWatermark`](../emailtextpossiblewatermark). |
-| virtual [UnitOfMeasurement](../../groupdocs.watermark.search/possiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| virtual [Width](../../groupdocs.watermark.search/possiblewatermark/width) { get; } | 获取这个的宽度[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| virtual [X](../../groupdocs.watermark.search/possiblewatermark/x) { get; } | 获取 x 坐标[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| virtual [Y](../../groupdocs.watermark.search/possiblewatermark/y) { get; } | 获取这个的 y 坐标[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [RotateAngle](../../groupdocs.watermark.search/possiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark)以度为单位. |
+| override [Text](../../groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/text) { get; set; } | 获取或设置此文本[`EmailTextPossibleWatermark`](../emailtextpossiblewatermark). |
+| virtual [UnitOfMeasurement](../../groupdocs.watermark.search/possiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [Width](../../groupdocs.watermark.search/possiblewatermark/width) { get; } | 得到这个的宽度[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [X](../../groupdocs.watermark.search/possiblewatermark/x) { get; } | 得到这个的x坐标[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [Y](../../groupdocs.watermark.search/possiblewatermark/y) { get; } | 得到这个的y坐标[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 
 ### 也可以看看
 

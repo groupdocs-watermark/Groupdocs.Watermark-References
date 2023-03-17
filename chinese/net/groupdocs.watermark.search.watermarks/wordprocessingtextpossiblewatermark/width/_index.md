@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark以点为单位
+description: 得到这个的宽度WordProcessingTextPossibleWatermarkgroupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark点.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/width/
 ---
 ## WordProcessingTextPossibleWatermark.Width property
 
-获取这个的宽度[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark)以点为单位。
+得到这个的宽度[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark)点.
 
 ```csharp
 public override double Width { get; }

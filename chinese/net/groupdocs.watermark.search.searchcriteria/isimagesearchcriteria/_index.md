@@ -1,14 +1,14 @@
 ---
 title: IsImageSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示仅过滤图像水印的搜索条件
+description: 表示只过滤图片水印的搜索条件
 type: docs
 weight: 2620
 url: /zh/net/groupdocs.watermark.search.searchcriteria/isimagesearchcriteria/
 ---
 ## IsImageSearchCriteria class
 
-表示仅过滤图像水印的搜索条件。
+表示只过滤图片水印的搜索条件。
 
 ```csharp
 public sealed class IsImageSearchCriteria : SearchCriteria
@@ -18,15 +18,15 @@ public sealed class IsImageSearchCriteria : SearchCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [IsImageSearchCriteria](isimagesearchcriteria)() | 初始化[`IsImageSearchCriteria`](../isimagesearchcriteria)类. |
+| [IsImageSearchCriteria](isimagesearchcriteria)() | 初始化一个新的实例[`IsImageSearchCriteria`](../isimagesearchcriteria)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)使用逻辑 AND 运算符的其他条件。 |
+| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑 AND 运算符. |
 | [Not](../../groupdocs.watermark.search.searchcriteria/searchcriteria/not)() | 否定这个[`SearchCriteria`](../searchcriteria). |
-| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与使用逻辑 OR 运算符的其他条件。 |
+| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑或运算符. |
 
 ### 也可以看看
 

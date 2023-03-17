@@ -18,7 +18,7 @@ public sealed class SpreadsheetTextEffects : OfficeTextEffects, ISpreadsheetWate
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetTextEffects](spreadsheettexteffects)() | 初始化[`SpreadsheetTextEffects`](../spreadsheettexteffects)类. |
+| [SpreadsheetTextEffects](spreadsheettexteffects)() | 初始化一个新的实例[`SpreadsheetTextEffects`](../spreadsheettexteffects)类. |
 
 ## 特性
 

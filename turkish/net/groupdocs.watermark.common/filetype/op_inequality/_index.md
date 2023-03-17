@@ -16,8 +16,8 @@ public static bool operator !=(FileType left, FileType right)
 
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
-| left | FileType | Ayrıldı[`FileType`](../../filetype) nesne. |
-| right | FileType | Doğru[`FileType`](../../filetype) nesne. |
+| left | FileType | Sol[`FileType`](../../filetype) nesne. |
+| right | FileType | Sağ[`FileType`](../../filetype) nesne. |
 
 ### Geri dönüş değeri
 

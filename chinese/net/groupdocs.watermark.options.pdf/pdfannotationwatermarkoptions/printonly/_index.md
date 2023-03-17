@@ -1,14 +1,14 @@
 ---
 title: PrintOnly
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置是否打印注释的值但在pdf查看应用程序中不显示 
+description: 获取或设置是否打印批注的值但不在 pdf 查看应用程序中显示
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/printonly/
 ---
 ## PdfAnnotationWatermarkOptions.PrintOnly property
 
-获取或设置是否打印注释的值，但在pdf查看应用程序中不显示 。
+获取或设置是否打印批注的值，但不在 pdf 查看应用程序中显示
 
 ```csharp
 public bool PrintOnly { get; set; }
@@ -16,7 +16,7 @@ public bool PrintOnly { get; set; }
 
 ### 适当的价值
 
-指示是否将打印注释的值，但不会在 pdf 查看应用程序中显示 。
+该值指示是否打印批注，但不在 pdf 查看应用程序中显示 。
 
 ### 也可以看看
 

@@ -19,9 +19,9 @@ public enum OfficeHeaderFooterType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | HeaderPrimary | `0` | 主标题，也用于奇数页。 |
-| HeaderEven | `1` | 偶数页的页眉。 |
+| HeaderEven | `1` | 偶数页的标题。 |
 | HeaderFirst | `2` | 第一页的页眉。 |
-| FooterPrimary | `3` | 主要页脚，也用于奇数页。 |
+| FooterPrimary | `3` | 主页脚，也用于奇数页。 |
 | FooterEven | `4` | 偶数页的页脚。 |
 | FooterFirst | `5` | 第一页的页脚。 |
 

@@ -1,14 +1,14 @@
 ---
 title: PdfLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PdfLoadOptionsgroupdocs.watermark.options.pdf/pdfloadoptions类.
+description: 初始化一个新的实例PdfLoadOptionsgroupdocs.watermark.options.pdf/pdfloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.pdf/pdfloadoptions/pdfloadoptions/
 ---
 ## PdfLoadOptions() {#constructor}
 
-初始化[`PdfLoadOptions`](../../pdfloadoptions)类.
+初始化一个新的实例[`PdfLoadOptions`](../../pdfloadoptions)类.
 
 ```csharp
 public PdfLoadOptions()
@@ -24,7 +24,7 @@ public PdfLoadOptions()
 
 ## PdfLoadOptions(string) {#constructor_1}
 
-初始化[`PdfLoadOptions`](../../pdfloadoptions)具有指定密码的类。
+初始化一个新的实例[`PdfLoadOptions`](../../pdfloadoptions)具有指定密码的类.
 
 ```csharp
 public PdfLoadOptions(string password)
@@ -32,7 +32,7 @@ public PdfLoadOptions(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 打开加密文档的密码。 |
+| password | String | 用于打开加密文档的密码。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: WatermarkerSettings
 second_title: GroupDocs.Watermark لـ .NET API Reference
-description: تهيئة مثيل جديد لـWatermarkerSettingsgroupdocs.watermark/watermarkersettings صف دراسي.
+description: تهيئة مثيل جديد لـWatermarkerSettingsgroupdocs.watermark/watermarkersettings فصل.
 type: docs
 weight: 10
 url: /ar/net/groupdocs.watermark/watermarkersettings/watermarkersettings/
 ---
 ## WatermarkerSettings constructor
 
-تهيئة مثيل جديد لـ[`WatermarkerSettings`](../../watermarkersettings) صف دراسي.
+تهيئة مثيل جديد لـ[`WatermarkerSettings`](../../watermarkersettings) فصل.
 
 ```csharp
 public WatermarkerSettings()

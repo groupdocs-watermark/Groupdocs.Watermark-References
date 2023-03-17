@@ -16,7 +16,7 @@ public static TiffImageSaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`TiffImageSaveOptions`](../../tiffimagesaveoptions) صف دراسي.
+القيمة الافتراضية لملف[`TiffImageSaveOptions`](../../tiffimagesaveoptions) فصل.
 
 ### أنظر أيضا
 

@@ -18,13 +18,13 @@ public class WordProcessingPageSetup
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BottomMargin](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/bottommargin) { get; } | 以磅为单位获取下边距的大小。 |
-| [DifferentFirstPageHeaderFooter](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/differentfirstpageheaderfooter) { get; set; } | 获取或设置一个值，该值指示是否将不同的页眉/页脚用于第一页。 |
-| [Height](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/height) { get; } | 以磅为单位获取打印页面的高度。 |
-| [LeftMargin](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/leftmargin) { get; } | 以磅为单位获取左边距的大小。 |
-| [OddAndEvenPagesHeaderFooter](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/oddandevenpagesheaderfooter) { get; set; } | 获取或设置一个值，该值指示奇数页和偶数页是否使用不同的页眉/页脚 页。 注意，更改此属性会影响内容中的所有部分。 |
-| [RightMargin](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/rightmargin) { get; } | 以磅为单位获取右边距的大小。 |
-| [TopMargin](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/topmargin) { get; } | 以磅为单位获取上边距的大小。 |
+| [BottomMargin](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/bottommargin) { get; } | 获取下边距的大小（以点为单位）。 |
+| [DifferentFirstPageHeaderFooter](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/differentfirstpageheaderfooter) { get; set; } | 获取或设置一个值，该值指示第一页是否使用不同的页眉/页脚。 |
+| [Height](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/height) { get; } | 获取打印页面的高度（以磅为单位）。 |
+| [LeftMargin](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/leftmargin) { get; } | 获取左边距的大小（以磅为单位）。 |
+| [OddAndEvenPagesHeaderFooter](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/oddandevenpagesheaderfooter) { get; set; } | 获取或设置一个值，该值指示奇数页和偶数页是否使用不同的页眉/页脚。 注意，更改此属性会影响内容中的所有部分。 |
+| [RightMargin](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/rightmargin) { get; } | 获取右边距的大小（以点为单位）。 |
+| [TopMargin](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/topmargin) { get; } | 获取上边距的大小（以点为单位）。 |
 | [Width](../../groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/width) { get; } | 获取打印页面的宽度（以磅为单位）。 |
 
 ### 也可以看看

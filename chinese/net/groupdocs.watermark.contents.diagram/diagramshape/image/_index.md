@@ -16,7 +16,7 @@ public DiagramWatermarkableImage Image { get; set; }
 
 ### 适当的价值
 
-这个形象[`DiagramShape`](../../diagramshape). 如果形状没有图像，则返回 null。
+这个的形象[`DiagramShape`](../../diagramshape). 如果形状没有图像，则返回 null。
 
 ### 也可以看看
 

@@ -30,7 +30,7 @@ public class Metered
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * Подробнее об ограниченном лицензировании: [Часто задаваемые вопросы об ограниченном лицензировании](https://purchase.groupdocs.com/faqs/licensing/metered)
 * Подробнее о**GroupDocs.Водяной знак** лицензирование: [Ограничения оценки и лицензирование](https://docs.groupdocs.com/display/watermarknet/Evaluation+Limitations+and+Licensing)

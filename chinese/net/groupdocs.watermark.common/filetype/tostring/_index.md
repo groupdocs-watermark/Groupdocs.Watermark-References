@@ -1,14 +1,14 @@
 ---
 title: ToString
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 返回代表当前对象的字符串
+description: 返回表示当前对象的字符串
 type: docs
 weight: 650
 url: /zh/net/groupdocs.watermark.common/filetype/tostring/
 ---
 ## FileType.ToString method
 
-返回代表当前对象的字符串。
+返回表示当前对象的字符串。
 
 ```csharp
 public override string ToString()

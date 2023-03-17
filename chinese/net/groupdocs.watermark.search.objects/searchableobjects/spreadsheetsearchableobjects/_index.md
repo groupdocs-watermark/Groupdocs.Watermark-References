@@ -16,7 +16,7 @@ public SpreadsheetSearchableObjects SpreadsheetSearchableObjects { get; set; }
 
 ### 适当的价值
 
-Excel 文档中要包含在水印搜索中的对象。
+要包含在水印搜索中的 Excel 文档中的对象。
 
 ### 也可以看看
 

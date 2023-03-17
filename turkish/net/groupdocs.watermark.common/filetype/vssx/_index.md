@@ -1,14 +1,14 @@
 ---
 title: VSSX
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: .VSSX uzantılı dosyalar Microsoft Visio 2013 ve üstü ile oluşturulan çizim kalıplarıdır. Bu dosya hakkında daha fazla bilgi edinin format buradahttps//wiki.fileformat.com/image/vssx/ .
+description: .VSSX uzantılı dosyalar Microsoft Visio 2013 ve üstü ile oluşturulan çizim kalıplarıdır. Bu dosya hakkında daha fazla bilgi edinin format Buradahttps//wiki.fileformat.com/image/vssx/ .
 type: docs
 weight: 450
 url: /tr/net/groupdocs.watermark.common/filetype/vssx/
 ---
 ## FileType.VSSX field
 
-.VSSX uzantılı dosyalar, Microsoft Visio 2013 ve üstü ile oluşturulan çizim kalıplarıdır. Bu dosya hakkında daha fazla bilgi edinin format [burada](https://wiki.fileformat.com/image/vssx/) .
+.VSSX uzantılı dosyalar, Microsoft Visio 2013 ve üstü ile oluşturulan çizim kalıplarıdır. Bu dosya hakkında daha fazla bilgi edinin format [Burada](https://wiki.fileformat.com/image/vssx/) .
 
 ```csharp
 public static readonly FileType VSSX;

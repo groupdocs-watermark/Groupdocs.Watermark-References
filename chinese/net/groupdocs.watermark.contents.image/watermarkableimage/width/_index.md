@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度WatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage以像素为单位
+description: 得到这个的宽度WatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage以像素为单位.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.image/watermarkableimage/width/
 ---
 ## WatermarkableImage.Width property
 
-获取这个的宽度[`WatermarkableImage`](../../watermarkableimage)以像素为单位。
+得到这个的宽度[`WatermarkableImage`](../../watermarkableimage)以像素为单位.
 
 ```csharp
 public int Width { get; }
@@ -16,7 +16,7 @@ public int Width { get; }
 
 ### 适当的价值
 
-这个宽度[`WatermarkableImage`](../../watermarkableimage)以像素为单位。
+这个的宽度[`WatermarkableImage`](../../watermarkableimage)以像素为单位。
 
 ### 也可以看看
 

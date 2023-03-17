@@ -1,14 +1,14 @@
 ---
 title: FontStrikeout
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示水印文本格式中使用的字体是否为删除线
+description: 获取或设置一个值该值指示用于水印文本格式化的字体是否为删除线
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontstrikeout/
 ---
 ## TextFormattingSearchCriteria.FontStrikeout property
 
-获取或设置一个值，该值指示水印文本格式中使用的字体是否为删除线。
+获取或设置一个值，该值指示用于水印文本格式化的字体是否为删除线。
 
 ```csharp
 public bool? FontStrikeout { get; set; }

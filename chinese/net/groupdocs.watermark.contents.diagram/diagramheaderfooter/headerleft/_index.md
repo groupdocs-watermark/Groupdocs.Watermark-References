@@ -1,14 +1,14 @@
 ---
 title: HeaderLeft
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置出现在文档标题左侧的文本字符串
+description: 获取或设置出现在文档标题左侧部分的文本字符串
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramheaderfooter/headerleft/
 ---
 ## DiagramHeaderFooter.HeaderLeft property
 
-获取或设置出现在文档标题左侧的文本字符串。
+获取或设置出现在文档标题左侧部分的文本字符串。
 
 ```csharp
 public string HeaderLeft { get; set; }
@@ -16,7 +16,7 @@ public string HeaderLeft { get; set; }
 
 ### 适当的价值
 
-出现在文档标题左侧的文本字符串。
+出现在文档页眉左侧部分的文本字符串。
 
 ### 也可以看看
 

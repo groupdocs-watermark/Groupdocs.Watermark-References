@@ -1,14 +1,14 @@
 ---
 title: HorizontalAlignment
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取指定形状如何水平定位的值
+description: 获取指定形状如何水平放置的值
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/horizontalalignment/
 ---
 ## WordProcessingShape.HorizontalAlignment property
 
-获取指定形状如何水平定位的值。
+获取指定形状如何水平放置的值。
 
 ```csharp
 public WordProcessingHorizontalAlignment HorizontalAlignment { get; }

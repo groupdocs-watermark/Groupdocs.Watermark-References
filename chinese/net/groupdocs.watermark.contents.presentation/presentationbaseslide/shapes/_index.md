@@ -1,14 +1,14 @@
 ---
 title: Shapes
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取演示文稿的所有形状的集合
+description: 获取演示文稿所有形状的集合
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationbaseslide/shapes/
 ---
 ## PresentationBaseSlide.Shapes property
 
-获取演示文稿的所有形状的集合。
+获取演示文稿所有形状的集合。
 
 ```csharp
 public PresentationShapeCollection Shapes { get; }

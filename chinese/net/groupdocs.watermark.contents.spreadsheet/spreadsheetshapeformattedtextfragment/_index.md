@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetShapeFormattedTextFragment
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Excel 文档形状中格式化文本的片段
+description: 表示Excel文档形状中格式化文本的片段
 type: docs
 weight: 1210
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetshapeformattedtextfragment/
 ---
 ## SpreadsheetShapeFormattedTextFragment class
 
-表示 Excel 文档形状中格式化文本的片段。
+表示Excel文档形状中格式化文本的片段。
 
 ```csharp
 public class SpreadsheetShapeFormattedTextFragment : FormattedTextFragment
@@ -18,7 +18,7 @@ public class SpreadsheetShapeFormattedTextFragment : FormattedTextFragment
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [BackgroundColor](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshapeformattedtextfragment/backgroundcolor) { get; } | 获取文本的背景颜色。 |
+| override [BackgroundColor](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshapeformattedtextfragment/backgroundcolor) { get; } | 获取文本的背景色。 |
 | override [Font](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshapeformattedtextfragment/font) { get; } | 获取文本的字体。 |
 | override [ForegroundColor](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshapeformattedtextfragment/foregroundcolor) { get; } | 获取文本的前景色。 |
 | override [Text](../../groupdocs.watermark.contents.spreadsheet/spreadsheetshapeformattedtextfragment/text) { get; } | 获取片段文本。 |

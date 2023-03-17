@@ -18,17 +18,17 @@ public abstract class EmailAttachmentBase : Attachment
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [Content](../../groupdocs.watermark.contents.email/emailattachmentbase/content) { get; set; } | 获取或设置附件内容。 |
-| [ContentId](../../groupdocs.watermark.contents.email/emailattachmentbase/contentid) { get; } | 获取此内容的 id[`EmailAttachmentBase`](../emailattachmentbase). |
-| [MediaType](../../groupdocs.watermark.contents.email/emailattachmentbase/mediatype) { get; } | 获取这个的媒体类型[`EmailAttachmentBase`](../emailattachmentbase). |
+| override [Content](../../groupdocs.watermark.contents.email/emailattachmentbase/content) { get; set; } | 获取或设置附加文件内容。 |
+| [ContentId](../../groupdocs.watermark.contents.email/emailattachmentbase/contentid) { get; } | 获取这个的内容id[`EmailAttachmentBase`](../emailattachmentbase). |
+| [MediaType](../../groupdocs.watermark.contents.email/emailattachmentbase/mediatype) { get; } | 得到这个的媒体类型[`EmailAttachmentBase`](../emailattachmentbase). |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)() | 从附件加载内容。 |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions) | 使用指定的加载选项从附件加载内容。 |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions, WatermarkerSettings) | 使用指定的加载选项和设置从附件加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)() | 从附件中加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions) | 使用指定的加载选项从附件中加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions, WatermarkerSettings) | 使用指定的加载选项和设置从附件中加载内容。 |
 | [GetDocumentInfo](../../groupdocs.watermark.common/attachment/getdocumentinfo)() | 获取有关存储在附件中的文档的信息。 |
 
 ### 也可以看看

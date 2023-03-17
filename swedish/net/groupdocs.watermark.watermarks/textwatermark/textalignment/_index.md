@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: GroupDocs.Watermark for .NET API-referens
 description: Hämtar eller ställer in vattenstämpelns textjustering.
 type: docs
-weight: 60
+weight: 70
 url: /sv/net/groupdocs.watermark.watermarks/textwatermark/textalignment/
 ---
 ## TextWatermark.TextAlignment property

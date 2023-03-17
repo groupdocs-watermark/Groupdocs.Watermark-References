@@ -1,14 +1,14 @@
 ---
 title: TwoDObjectPossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示任何支持格式的内容中的 2D 对象水印
+description: 表示任何支持格式的内容中的二维对象水印
 type: docs
 weight: 2730
 url: /zh/net/groupdocs.watermark.search/twodobjectpossiblewatermark/
 ---
 ## TwoDObjectPossibleWatermark class
 
-表示任何支持格式的内容中的 2D 对象水印。
+表示任何支持格式的内容中的二维对象水印。
 
 ```csharp
 public abstract class TwoDObjectPossibleWatermark : PossibleWatermark
@@ -18,16 +18,16 @@ public abstract class TwoDObjectPossibleWatermark : PossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../possiblewatermark). |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search/twodobjectpossiblewatermark/height) { get; } | 获取二维对象的高度。 |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../possiblewatermark). |
 | abstract [Parent](../../groupdocs.watermark.search/possiblewatermark/parent) { get; } | 获取这个的父级[`PossibleWatermark`](../possiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search/twodobjectpossiblewatermark/rotateangle) { get; } | 以度为单位获取 2D 对象的旋转角度。 |
-| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`PossibleWatermark`](../possiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search/twodobjectpossiblewatermark/unitofmeasurement) { get; } | 获取 2D 对象的测量单位。 |
+| override [RotateAngle](../../groupdocs.watermark.search/twodobjectpossiblewatermark/rotateangle) { get; } | 获取二维对象的旋转角度（以度为单位）。 |
+| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置此文本[`PossibleWatermark`](../possiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search/twodobjectpossiblewatermark/unitofmeasurement) { get; } | 获取二维对象的测量单位。 |
 | override [Width](../../groupdocs.watermark.search/twodobjectpossiblewatermark/width) { get; } | 获取二维对象的宽度。 |
-| override [X](../../groupdocs.watermark.search/twodobjectpossiblewatermark/x) { get; } | 获取 2D 对象的 x 坐标。 |
-| override [Y](../../groupdocs.watermark.search/twodobjectpossiblewatermark/y) { get; } | 获取 2D 对象的 y 坐标。 |
+| override [X](../../groupdocs.watermark.search/twodobjectpossiblewatermark/x) { get; } | 获取二维对象的 x 坐标。 |
+| override [Y](../../groupdocs.watermark.search/twodobjectpossiblewatermark/y) { get; } | 获取二维对象的y坐标。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Font
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 代表字体的类
+description: 表示字体的类
 type: docs
 weight: 3090
 url: /zh/net/groupdocs.watermark.watermarks/font/
 ---
 ## Font class
 
-代表字体的类。
+表示字体的类。
 
 ```csharp
 public sealed class Font
@@ -18,20 +18,20 @@ public sealed class Font
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Font](font#constructor)(string, float) | 初始化[`Font`](../font)具有指定字体系列名称和大小的类。 |
-| [Font](font#constructor_1)(string, float, FontStyle) | 初始化[`Font`](../font)具有指定字体系列名称、大小和样式的类。 |
+| [Font](font#constructor)(string, float) | 初始化一个新的实例[`Font`](../font)具有指定字体系列名称和大小的类。 |
+| [Font](font#constructor_1)(string, float, FontStyle) | 初始化一个新的实例[`Font`](../font)具有指定字体系列名称、大小和样式的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bold](../../groupdocs.watermark.watermarks/font/bold) { get; } | 获取表示字体是否为粗体的值。 |
-| [FamilyName](../../groupdocs.watermark.watermarks/font/familyname) { get; } | 获取此人的姓氏[`Font`](../font). |
-| [Italic](../../groupdocs.watermark.watermarks/font/italic) { get; } | 获取表示字体是否为斜体的值。 |
+| [Bold](../../groupdocs.watermark.watermarks/font/bold) { get; } | 获取字体是否为粗体的值。 |
+| [FamilyName](../../groupdocs.watermark.watermarks/font/familyname) { get; } | 获取这个的姓氏[`Font`](../font). |
+| [Italic](../../groupdocs.watermark.watermarks/font/italic) { get; } | 获取字体是否为斜体的值。 |
 | [Size](../../groupdocs.watermark.watermarks/font/size) { get; } | 获取这个的大小[`Font`](../font). |
-| [Strikeout](../../groupdocs.watermark.watermarks/font/strikeout) { get; } | 获取一个值，该值指示字体是否指定穿过字体的水平线。 |
-| [Style](../../groupdocs.watermark.watermarks/font/style) { get; } | 获取这个的样式信息[`Font`](../font). |
-| [Underline](../../groupdocs.watermark.watermarks/font/underline) { get; } | 获取一个值，该值指示字体是否带下划线。 |
+| [Strikeout](../../groupdocs.watermark.watermarks/font/strikeout) { get; } | 获取一个值，该值指示字体是否通过字体指定一条水平线。 |
+| [Style](../../groupdocs.watermark.watermarks/font/style) { get; } | 获取此的样式信息[`Font`](../font). |
+| [Underline](../../groupdocs.watermark.watermarks/font/underline) { get; } | 获取一个值，表示字体是否带下划线。 |
 
 ### 也可以看看
 

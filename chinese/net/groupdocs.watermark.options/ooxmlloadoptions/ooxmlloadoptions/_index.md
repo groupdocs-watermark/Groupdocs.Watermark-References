@@ -1,14 +1,14 @@
 ---
 title: OoxmlLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化OoxmlLoadOptionsgroupdocs.watermark.options/ooxmlloadoptions类.
+description: 初始化一个新的实例OoxmlLoadOptionsgroupdocs.watermark.options/ooxmlloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options/ooxmlloadoptions/ooxmlloadoptions/
 ---
 ## OoxmlLoadOptions() {#constructor}
 
-初始化[`OoxmlLoadOptions`](../../ooxmlloadoptions)类.
+初始化一个新的实例[`OoxmlLoadOptions`](../../ooxmlloadoptions)类.
 
 ```csharp
 public OoxmlLoadOptions()
@@ -24,7 +24,7 @@ public OoxmlLoadOptions()
 
 ## OoxmlLoadOptions(string) {#constructor_1}
 
-初始化[`OoxmlLoadOptions`](../../ooxmlloadoptions)具有指定密码的类。
+初始化一个新的实例[`OoxmlLoadOptions`](../../ooxmlloadoptions)具有指定密码的类.
 
 ```csharp
 public OoxmlLoadOptions(string password)

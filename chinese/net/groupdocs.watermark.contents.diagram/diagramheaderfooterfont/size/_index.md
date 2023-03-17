@@ -1,14 +1,14 @@
 ---
 title: Size
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置字体高度
+description: 获取或设置字体的高度
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/size/
 ---
 ## DiagramHeaderFooterFont.Size property
 
-获取或设置字体高度。
+获取或设置字体的高度。
 
 ```csharp
 public int Size { get; set; }

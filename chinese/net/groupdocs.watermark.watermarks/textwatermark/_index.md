@@ -1,14 +1,14 @@
 ---
 title: TextWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示文字水印
+description: 代表文字水印
 type: docs
 weight: 3160
 url: /zh/net/groupdocs.watermark.watermarks/textwatermark/
 ---
 ## TextWatermark class
 
-表示文字水印。
+代表文字水印。
 
 ```csharp
 public class TextWatermark : Watermark
@@ -18,40 +18,41 @@ public class TextWatermark : Watermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| [TextWatermark](textwatermark)(string, Font) | 初始化[`TextWatermark`](../textwatermark)具有指定文本和字体的类。 |
+| [TextWatermark](textwatermark)(string, Font) | 初始化一个新的实例[`TextWatermark`](../textwatermark)具有指定文本和字体的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackgroundColor](../../groupdocs.watermark.watermarks/textwatermark/backgroundcolor) { get; set; } | 获取或设置文本的背景颜色。 |
-| [ConsiderParentMargins](../../groupdocs.watermark/watermark/considerparentmargins) { get; set; } | 获取或设置一个值，指示是否计算水印大小和坐标 考虑父边距。 |
+| [BackgroundColor](../../groupdocs.watermark.watermarks/textwatermark/backgroundcolor) { get; set; } | 获取或设置文本的背景色。 |
+| [ConsiderParentMargins](../../groupdocs.watermark/watermark/considerparentmargins) { get; set; } | 获取或设置一个值，该值指示是否计算水印大小和坐标 考虑父页边距。 |
 | [Font](../../groupdocs.watermark.watermarks/textwatermark/font) { get; set; } | 获取或设置文本的字体。 |
 | [ForegroundColor](../../groupdocs.watermark.watermarks/textwatermark/foregroundcolor) { get; set; } | 获取或设置文本的前景色。 |
-| [Height](../../groupdocs.watermark/watermark/height) { get; set; } | 获取或设置 this 的期望高度[`Watermark`](../../groupdocs.watermark/watermark). |
-| [HorizontalAlignment](../../groupdocs.watermark/watermark/horizontalalignment) { get; set; } | 获取或设置 this 的水平对齐方式[`Watermark`](../../groupdocs.watermark/watermark). |
-| [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | 获取或设置一个值，该值指示水印是否应放置在背景中。 |
-| [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | 获取或设置这个的边距设置[`Watermark`](../../groupdocs.watermark/watermark). |
-| [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | 获取或设置 this 的不透明度[`Watermark`](../../groupdocs.watermark/watermark). |
-| [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | 获取或设置 this 的旋转角度[`Watermark`](../../groupdocs.watermark/watermark)度数. |
-| [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | 获取或设置一个值，该值定义水印大小如何取决于父大小。 |
-| [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | 获取或设置一个值，指定水印的大小。 |
+| [Height](../../groupdocs.watermark/watermark/height) { get; set; } | 获取或设置所需的高度[`Watermark`](../../groupdocs.watermark/watermark). |
+| [HorizontalAlignment](../../groupdocs.watermark/watermark/horizontalalignment) { get; set; } | 获取或设置此元素的水平对齐方式[`Watermark`](../../groupdocs.watermark/watermark). |
+| [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | 获取或设置一个值，指示水印是否应放置在背景中。 |
+| [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | 获取或设置此的边距设置[`Watermark`](../../groupdocs.watermark/watermark). |
+| [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | 获取或设置这个的不透明度[`Watermark`](../../groupdocs.watermark/watermark). |
+| [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | 获取或设置此的填充设置[`TextWatermark`](../textwatermark). 此属性仅适用于图像文件。 |
+| [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | 获取或设置旋转角度[`Watermark`](../../groupdocs.watermark/watermark)以度为单位. |
+| [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | 获取或设置一个值，该值定义水印大小如何取决于父级大小。 |
+| [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | 获取或设置指定水印大小的方式的值。 |
 | [Text](../../groupdocs.watermark.watermarks/textwatermark/text) { get; set; } | 获取或设置要用作水印的文本。 |
 | [TextAlignment](../../groupdocs.watermark.watermarks/textwatermark/textalignment) { get; set; } | 获取或设置水印文本对齐方式。 |
-| [VerticalAlignment](../../groupdocs.watermark/watermark/verticalalignment) { get; set; } | 获取或设置 this 的垂直对齐方式[`Watermark`](../../groupdocs.watermark/watermark). |
-| [Width](../../groupdocs.watermark/watermark/width) { get; set; } | 获取或设置此所需的宽度[`Watermark`](../../groupdocs.watermark/watermark). |
-| [X](../../groupdocs.watermark/watermark/x) { get; set; } | 获取或设置 this 的 x 坐标[`Watermark`](../../groupdocs.watermark/watermark). |
+| [VerticalAlignment](../../groupdocs.watermark/watermark/verticalalignment) { get; set; } | 获取或设置此的垂直对齐方式[`Watermark`](../../groupdocs.watermark/watermark). |
+| [Width](../../groupdocs.watermark/watermark/width) { get; set; } | 获取或设置所需的宽度[`Watermark`](../../groupdocs.watermark/watermark). |
+| [X](../../groupdocs.watermark/watermark/x) { get; set; } | 获取或设置此的 x 坐标[`Watermark`](../../groupdocs.watermark/watermark). |
 | [Y](../../groupdocs.watermark/watermark/y) { get; set; } | 获取或设置 this 的 y 坐标[`Watermark`](../../groupdocs.watermark/watermark). |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
-* [添加文本水印](https://docs.groupdocs.com/display/watermarknet/Adding+text+watermarks)
+* [添加文字水印](https://docs.groupdocs.com/display/watermarknet/Adding+text+watermarks)
 
 ### 例子
 
-根据父尺寸缩放文本水印。
+根据父大小缩放文本水印。
 
 ```csharp
 foreach (string file in Directory.GetFiles("C:\\test"))

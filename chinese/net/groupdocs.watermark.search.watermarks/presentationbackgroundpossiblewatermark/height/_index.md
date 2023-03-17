@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的高度PresentationBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark以点为单位
+description: 获取这个的高度PresentationBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark点.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/height/
 ---
 ## PresentationBackgroundPossibleWatermark.Height property
 
-获取这个的高度[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark)以点为单位。
+获取这个的高度[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark)点.
 
 ```csharp
 public override double Height { get; }
@@ -16,7 +16,7 @@ public override double Height { get; }
 
 ### 适当的价值
 
-这个高度[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark)在点。
+这个高度[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark)分。
 
 ### 也可以看看
 

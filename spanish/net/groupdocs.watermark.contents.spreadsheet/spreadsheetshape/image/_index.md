@@ -16,7 +16,7 @@ public SpreadsheetWatermarkableImage Image { get; set; }
 
 ### El valor de la propiedad
 
-La imagen de este[`SpreadsheetShape`](../../spreadsheetshape). Devuelve nulo si la forma no tiene imagen.
+La imagen de este[`SpreadsheetShape`](../../spreadsheetshape) . Devuelve nulo si la forma no tiene imagen.
 
 ### Ver también
 

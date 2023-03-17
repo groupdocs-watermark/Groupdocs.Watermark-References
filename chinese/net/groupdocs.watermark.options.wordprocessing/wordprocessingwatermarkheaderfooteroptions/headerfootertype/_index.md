@@ -1,14 +1,14 @@
 ---
 title: HeaderFooterType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置标识要添加水印的页眉或页脚类型的值
+description: 获取或设置标识要将水印添加到的页眉或页脚类型的值
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkheaderfooteroptions/headerfootertype/
 ---
 ## WordProcessingWatermarkHeaderFooterOptions.HeaderFooterType property
 
-获取或设置标识要添加水印的页眉或页脚类型的值。
+获取或设置标识要将水印添加到的页眉或页脚类型的值。
 
 ```csharp
 public OfficeHeaderFooterType HeaderFooterType { get; set; }
@@ -16,7 +16,7 @@ public OfficeHeaderFooterType HeaderFooterType { get; set; }
 
 ### 适当的价值
 
-标识要添加水印的页眉或页脚类型的值。
+标识要将水印添加到的页眉或页脚类型的值。
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public ISpreadsheetWatermarkEffects Effects { get; set; }
 
 ### Mülk değeri
 
-[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) veya[`SpreadsheetTextEffects`](../../spreadsheettexteffects) efektler için filigrana uygulanması gerekir.
+[`SpreadsheetImageEffects`](../../spreadsheetimageeffects) veya[`SpreadsheetTextEffects`](../../spreadsheettexteffects)efektler için filigrana uygulanması gerekir.
 
 ### Ayrıca bakınız
 

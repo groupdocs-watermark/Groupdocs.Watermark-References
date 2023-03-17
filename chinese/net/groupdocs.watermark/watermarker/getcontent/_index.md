@@ -1,14 +1,14 @@
 ---
 title: GetContent
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 返回Contentgroupdocs.watermark.contents/content加载文档的对象
+description: 返回Contentgroupdocs.watermark.contents/content加载文档的对象.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark/watermarker/getcontent/
 ---
 ## Watermarker.GetContent&lt;T&gt; method
 
-返回[`Content`](../../../groupdocs.watermark.contents/content)加载文档的对象。
+返回[`Content`](../../../groupdocs.watermark.contents/content)加载文档的对象.
 
 ```csharp
 public T GetContent<T>()
@@ -17,7 +17,7 @@ public T GetContent<T>()
 
 | 范围 | 描述 |
 | --- | --- |
-| T | 请求的类型[`Content`](../../../groupdocs.watermark.contents/content)目的。 |
+| T | 请求的类型 a[`Content`](../../../groupdocs.watermark.contents/content)目的。 |
 
 ### 返回值
 
@@ -25,7 +25,7 @@ public T GetContent<T>()
 
 ### 例子
 
-光栅化 pdf 文档页面并添加水印。
+栅格化带有添加水印的 pdf 文档页面。
 
 ```csharp
 PdfLoadOptions loadOptions = new PdfLoadOptions();

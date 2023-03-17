@@ -1,14 +1,14 @@
 ---
 title: POTX
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 带有 .POTX 扩展名的文件表示使用 Microsoft PowerPoint 2007 及更高版本创建的 Microsoft PowerPoint 模板演示文稿了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/presentation/potx/.
+description: 带有 .POTX 扩展名的文件表示使用 Microsoft PowerPoint 2007 及更高版本创建的 Microsoft PowerPoint 模板演示文稿详细了解此文件格式 这里https//wiki.fileformat.com/presentation/potx/.
 type: docs
 weight: 270
 url: /zh/net/groupdocs.watermark.common/filetype/potx/
 ---
 ## FileType.POTX field
 
-带有 .POTX 扩展名的文件表示使用 Microsoft PowerPoint 2007 及更高版本创建的 Microsoft PowerPoint 模板演示文稿。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/presentation/potx/).
+带有 .POTX 扩展名的文件表示使用 Microsoft PowerPoint 2007 及更高版本创建的 Microsoft PowerPoint 模板演示文稿。详细了解此文件格式 [这里](https://wiki.fileformat.com/presentation/potx/).
 
 ```csharp
 public static readonly FileType POTX;

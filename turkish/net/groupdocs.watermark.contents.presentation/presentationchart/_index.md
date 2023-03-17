@@ -26,7 +26,7 @@ public class PresentationChart : PresentationBaseShape
 | [Presentation](../../groupdocs.watermark.contents.presentation/presentationbaseshape/presentation) { get; } | Bunun ana sunumunu alır[`PresentationBaseShape`](../presentationbaseshape) . |
 | [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | Bunun genişliğini alır veya ayarlar[`PresentationBaseShape`](../presentationbaseshape)puan olarak. |
 | [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | Bunun yatay ofsetini alır veya ayarlar[`PresentationBaseShape`](../presentationbaseshape) sunumdan sol sınır nokta olarak. |
-| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Bunun dikey ofsetini alır veya ayarlar[`PresentationBaseShape`](../presentationbaseshape)from punto cinsinden sunumun üst sınırı. |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Bunun dikey ofsetini alır veya ayarlar[`PresentationBaseShape`](../presentationbaseshape) from punto cinsinden sunumun üst sınırı. |
 | [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | Bunun konumunu alır[`PresentationBaseShape`](../presentationbaseshape) z-sırasında. |
 
 ## yöntemler

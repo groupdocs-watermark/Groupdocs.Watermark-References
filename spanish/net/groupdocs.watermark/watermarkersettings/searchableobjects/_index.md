@@ -16,7 +16,7 @@ public SearchableObjects SearchableObjects { get; set; }
 
 ### El valor de la propiedad
 
-los`SearchableObjects` que se van a incluir en una búsqueda de marca de agua.
+El`SearchableObjects` que se van a incluir en una búsqueda de marca de agua.
 
 ### Ver también
 

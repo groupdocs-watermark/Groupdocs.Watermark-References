@@ -1,14 +1,14 @@
 ---
 title: UnitOfMeasurement
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此的度量单位SpreadsheetBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark.
+description: 得到这个的计量单位SpreadsheetBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/unitofmeasurement/
 ---
 ## SpreadsheetBackgroundPossibleWatermark.UnitOfMeasurement property
 
-获取此的度量单位[`SpreadsheetBackgroundPossibleWatermark`](../../spreadsheetbackgroundpossiblewatermark).
+得到这个的计量单位[`SpreadsheetBackgroundPossibleWatermark`](../../spreadsheetbackgroundpossiblewatermark).
 
 ```csharp
 public override UnitOfMeasurement UnitOfMeasurement { get; }

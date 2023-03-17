@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的水平偏移量DiagramCommentPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark 从页面左边框开始以点为单位
+description: 得到这个的水平偏移量DiagramCommentPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark 从页面左边框开始以点为单位
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/x/
 ---
 ## DiagramCommentPossibleWatermark.X property
 
-获取 this 的水平偏移量[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark) 从页面左边框开始，以点为单位。
+得到这个的水平偏移量[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark) 从页面左边框开始，以点为单位。
 
 ```csharp
 public override double X { get; }

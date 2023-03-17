@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Ajoute un filigrane à ceciWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage. Cette méthode suppose que le décalage et la taille du filigrane sont mesurés en pixels sils sont attribués.
+description: Ajoute un filigrane à ceciWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage . Cette méthode suppose que le décalage et la taille du filigrane sont mesurés en pixels sils sont attribués.
 type: docs
 weight: 30
 url: /fr/net/groupdocs.watermark.contents.image/watermarkableimage/add/
 ---
 ## WatermarkableImage.Add method
 
-Ajoute un filigrane à ceci[`WatermarkableImage`](../../watermarkableimage). Cette méthode suppose que le décalage et la taille du filigrane sont mesurés en pixels (s'ils sont attribués).
+Ajoute un filigrane à ceci[`WatermarkableImage`](../../watermarkableimage) . Cette méthode suppose que le décalage et la taille du filigrane sont mesurés en pixels (s'ils sont attribués).
 
 ```csharp
 public void Add(Watermark watermark)

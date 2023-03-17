@@ -1,14 +1,14 @@
 ---
 title: Enabled
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示一个形状是否会被描边
+description: 获取或设置一个值该值指示是否对形状进行描边
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents/officelineformat/enabled/
 ---
 ## OfficeLineFormat.Enabled property
 
-获取或设置一个值，该值指示一个形状是否会被描边。
+获取或设置一个值，该值指示是否对形状进行描边。
 
 ```csharp
 public bool Enabled { get; set; }

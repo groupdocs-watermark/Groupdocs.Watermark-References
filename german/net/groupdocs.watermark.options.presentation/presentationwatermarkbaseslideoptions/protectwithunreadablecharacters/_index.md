@@ -20,7 +20,7 @@ Ein Wert, der angibt, ob die Zeichen des Textwasserzeichens mit unlesbaren Zeich
 
 ### Bemerkungen
 
-Dieser Schutz gilt nur, wenn der Wert von[`IsLocked`](../islocked) Eigentum ist`Stimmt` .
+Dieser Schutz gilt nur, wenn der Wert von[`IsLocked`](../islocked) Eigentum ist`WAHR` .
 
 ### Siehe auch
 

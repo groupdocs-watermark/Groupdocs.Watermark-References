@@ -21,7 +21,7 @@ public void Protect(WordProcessingProtectionType protectionType, string password
 
 ### Observaciones
 
-Para que el contenido del documento sea editable, use el método apropiado para agregar una marca de agua con AllowOnlyFormFields o ReadOnlyWithEditableContent parámetro.
+Para que el contenido del documento sea editable, use el método apropiado para agregar una marca de agua con AllowOnlyFormFields or ReadOnlyWithEditableContent parámetro.
 
 ### Ver también
 

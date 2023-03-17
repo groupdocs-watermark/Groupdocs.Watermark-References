@@ -20,7 +20,7 @@ public double GetRowHeight(int row)
 
 ### Rückgabewert
 
-Die Höhe der Zeile in Punkt.
+Die Höhe der Zeile in Punkten.
 
 ### Siehe auch
 

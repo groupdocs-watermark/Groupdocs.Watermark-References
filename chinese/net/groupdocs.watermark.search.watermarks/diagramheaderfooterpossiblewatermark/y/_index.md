@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的垂直偏移量DiagramHeaderFooterPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark 从页面底部边框开始以点为单位
+description: 获取此的垂直偏移量DiagramHeaderFooterPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark 从页面底部边框开始
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/y/
 ---
 ## DiagramHeaderFooterPossibleWatermark.Y property
 
-获取 this 的垂直偏移量[`DiagramHeaderFooterPossibleWatermark`](../../diagramheaderfooterpossiblewatermark) 从页面底部边框开始，以点为单位。
+获取此的垂直偏移量[`DiagramHeaderFooterPossibleWatermark`](../../diagramheaderfooterpossiblewatermark) 从页面底部边框开始。
 
 ```csharp
 public override double Y { get; }

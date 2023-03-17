@@ -1,14 +1,14 @@
 ---
 title: PresentationSlideCollection
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 PowerPoint 文档中的幻灯片集合
+description: 表示 PowerPoint 文档中的一组幻灯片
 type: docs
 weight: 1000
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationslidecollection/
 ---
 ## PresentationSlideCollection class
 
-表示 PowerPoint 文档中的幻灯片集合。
+表示 PowerPoint 文档中的一组幻灯片。
 
 ```csharp
 public class PresentationSlideCollection : ReadOnlyListBase<PresentationSlide>
@@ -19,7 +19,7 @@ public class PresentationSlideCollection : ReadOnlyListBase<PresentationSlide>
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | 获取集合中包含的元素数。 |
-| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } | 获取一个值，该值指示该集合是否为只读。 |
+| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } | 获取一个值，指示集合是否为只读。 |
 | virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | 获取集合中指定索引处的元素。 |
 
 ## 方法
@@ -32,7 +32,7 @@ public class PresentationSlideCollection : ReadOnlyListBase<PresentationSlide>
 
 ### 评论
 
-此集合包含以下项目[`PresentationSlide`](../presentationslide)类型.
+此集合包含的项目[`PresentationSlide`](../presentationslide)类型.
 
 ### 也可以看看
 

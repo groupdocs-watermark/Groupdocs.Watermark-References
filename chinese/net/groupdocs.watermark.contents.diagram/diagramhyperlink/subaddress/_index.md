@@ -1,14 +1,14 @@
 ---
 title: SubAddress
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取目标内容中要链接到的位置
+description: 获取要链接到的目标内容中的位置
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramhyperlink/subaddress/
 ---
 ## DiagramHyperlink.SubAddress property
 
-获取目标内容中要链接到的位置。
+获取要链接到的目标内容中的位置。
 
 ```csharp
 public string SubAddress { get; }

@@ -33,6 +33,7 @@ public class TextWatermark : Watermark
 | [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | Hämtar eller ställer in ett värde som anger om vattenstämpeln ska placeras i bakgrunden. |
 | [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | Hämtar eller ställer in marginalinställningarna för detta[`Watermark`](../../groupdocs.watermark/watermark) . |
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Hämtar eller ställer in opaciteten för detta[`Watermark`](../../groupdocs.watermark/watermark) . |
+| [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | Hämtar eller ställer in utfyllnadsinställningarna för detta[`TextWatermark`](../textwatermark) . Den här egenskapen är endast tillämplig på bildfiler. |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Hämtar eller ställer in rotationsvinkeln för denna[`Watermark`](../../groupdocs.watermark/watermark) i grader. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Hämtar eller ställer in ett värde som definierar hur vattenstämpelns storlek beror på överordnad storlek. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Hämtar eller ställer in ett värde som anger hur vattenstämpeln ska dimensioneras. |

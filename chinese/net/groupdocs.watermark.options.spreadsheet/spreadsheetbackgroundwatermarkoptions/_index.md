@@ -18,19 +18,19 @@ public sealed class SpreadsheetBackgroundWatermarkOptions : SpreadsheetWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetBackgroundWatermarkOptions](spreadsheetbackgroundwatermarkoptions)() | 初始化[`SpreadsheetBackgroundWatermarkOptions`](../spreadsheetbackgroundwatermarkoptions)类. |
+| [SpreadsheetBackgroundWatermarkOptions](spreadsheetbackgroundwatermarkoptions)() | 初始化一个新的实例[`SpreadsheetBackgroundWatermarkOptions`](../spreadsheetbackgroundwatermarkoptions)类. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [BackgroundHeight](../../groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/backgroundheight) { get; set; } | 获取或设置背景图像的所需高度（以像素为单位）。 |
-| [BackgroundWidth](../../groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/backgroundwidth) { get; set; } | 获取或设置背景图像的所需宽度（以像素为单位）。 |
+| [BackgroundHeight](../../groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/backgroundheight) { get; set; } | 获取或设置所需的背景图像高度（以像素为单位）。 |
+| [BackgroundWidth](../../groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/backgroundwidth) { get; set; } | 获取或设置所需的背景图像宽度（以像素为单位）。 |
 | [WorksheetIndex](../../groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/worksheetindex) { get; set; } | 获取或设置要添加水印的工作表索引。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [向电子表格文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 

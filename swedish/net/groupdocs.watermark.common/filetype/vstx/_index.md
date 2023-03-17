@@ -1,14 +1,14 @@
 ---
 title: VSTX
 second_title: GroupDocs.Watermark for .NET API-referens
-description: Filer med VSTXtillägg är ritmallsfiler skapade med Microsoft Visio 2013 och högre. Läs mer om detta filformat härhttps//wiki.fileformat.com/image/vstx/ .
+description: Filer med VSTXtillägg är ritmallsfiler skapade med Microsoft Visio 2013 och senare. Läs mer om detta filformat härhttps//wiki.fileformat.com/image/vstx/ .
 type: docs
 weight: 480
 url: /sv/net/groupdocs.watermark.common/filetype/vstx/
 ---
 ## FileType.VSTX field
 
-Filer med VSTX-tillägg är ritmallsfiler skapade med Microsoft Visio 2013 och högre. Läs mer om detta filformat [här](https://wiki.fileformat.com/image/vstx/) .
+Filer med VSTX-tillägg är ritmallsfiler skapade med Microsoft Visio 2013 och senare. Läs mer om detta filformat [här](https://wiki.fileformat.com/image/vstx/) .
 
 ```csharp
 public static readonly FileType VSTX;

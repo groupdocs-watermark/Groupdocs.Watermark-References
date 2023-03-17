@@ -1,14 +1,14 @@
 ---
 title: WatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示向文档添加水印时添加水印的选项
+description: 表示给文档添加水印时添加水印的选项
 type: docs
 weight: 2240
 url: /zh/net/groupdocs.watermark.options/watermarkoptions/
 ---
 ## WatermarkOptions class
 
-表示向文档添加水印时添加水印的选项。
+表示给文档添加水印时添加水印的选项。
 
 ```csharp
 public class WatermarkOptions
@@ -18,7 +18,7 @@ public class WatermarkOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WatermarkOptions](watermarkoptions)() | 初始化[`WatermarkOptions`](../watermarkoptions)类. |
+| [WatermarkOptions](watermarkoptions)() | 初始化一个新的实例[`WatermarkOptions`](../watermarkoptions)类. |
 
 ## 特性
 

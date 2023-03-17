@@ -1,14 +1,14 @@
 ---
 title: WatermarkerSettings
 second_title: Référence de l'API GroupDocs.Watermark pour .NET
-description: Initialise la nouvelle instance deWatermarkerSettingsgroupdocs.watermark/watermarkersettings classer.
+description: Initialise la nouvelle instance deWatermarkerSettingsgroupdocs.watermark/watermarkersettings classe.
 type: docs
 weight: 10
 url: /fr/net/groupdocs.watermark/watermarkersettings/watermarkersettings/
 ---
 ## WatermarkerSettings constructor
 
-Initialise la nouvelle instance de[`WatermarkerSettings`](../../watermarkersettings) classer.
+Initialise la nouvelle instance de[`WatermarkerSettings`](../../watermarkersettings) classe.
 
 ```csharp
 public WatermarkerSettings()

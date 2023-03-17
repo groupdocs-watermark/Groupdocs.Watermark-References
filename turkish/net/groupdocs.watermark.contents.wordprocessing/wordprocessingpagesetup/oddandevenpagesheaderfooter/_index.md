@@ -1,14 +1,14 @@
 ---
 title: OddAndEvenPagesHeaderFooter
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: Tek sayılı ve çift sayılı sayfalar için farklı üstbilgilerin/altbilgilerin kullanılıp kullanılmadığını gösteren bir değer alır veya ayarlar . Bu özelliğin değiştirilmesi içerikteki tüm bölümleri etkiler.
+description: Tek numaralı ve çift numaralı sayfalar için farklı üstbilgi/altbilgi kullanılıp kullanılmadığını gösteren bir değer alır veya ayarlar . Bu özelliğin değiştirilmesi içerikteki tüm bölümleri etkiler.
 type: docs
 weight: 50
 url: /tr/net/groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/oddandevenpagesheaderfooter/
 ---
 ## WordProcessingPageSetup.OddAndEvenPagesHeaderFooter property
 
-Tek sayılı ve çift sayılı sayfalar için farklı üstbilgilerin/altbilgilerin kullanılıp kullanılmadığını gösteren bir değer alır veya ayarlar . Bu özelliğin değiştirilmesi içerikteki tüm bölümleri etkiler.
+Tek numaralı ve çift numaralı sayfalar için farklı üstbilgi/altbilgi kullanılıp kullanılmadığını gösteren bir değer alır veya ayarlar . Bu özelliğin değiştirilmesi içerikteki tüm bölümleri etkiler.
 
 ```csharp
 public bool OddAndEvenPagesHeaderFooter { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的水平偏移量PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape 从演示文稿左边框开始以点为单位
+description: 获取或设置此的水平偏移量PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape 来自演示文稿的左边框以点为单位.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationbaseshape/x/
 ---
 ## PresentationBaseShape.X property
 
-获取或设置 this 的水平偏移量[`PresentationBaseShape`](../../presentationbaseshape) 从演示文稿左边框开始，以点为单位。
+获取或设置此的水平偏移量[`PresentationBaseShape`](../../presentationbaseshape) 来自演示文稿的左边框（以点为单位）.
 
 ```csharp
 public double X { get; set; }

@@ -37,7 +37,7 @@ public TextSearchCriteria(string searchString, bool isMatchCase)
 | Parametre | Tip | Tanım |
 | --- | --- | --- |
 | searchString | String | Aranacak tam dize. |
-| isMatchCase | Boolean | karşılaştırma sırasında büyük/küçük harf durumunu yok saymak; aksi halde,. |
+| isMatchCase | Boolean | karşılaştırma sırasında büyük/küçük harf durumunu yok saymak; aksi takdirde,. |
 
 ### Ayrıca bakınız
 

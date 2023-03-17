@@ -1,14 +1,14 @@
 ---
 title: Pages
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此所有页面的集合PdfContentgroupdocs.watermark.contents.pdf/pdfcontent.
+description: 获取this所有页面的集合PdfContentgroupdocs.watermark.contents.pdf/pdfcontent.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfcontent/pages/
 ---
 ## PdfContent.Pages property
 
-获取此所有页面的集合[`PdfContent`](../../pdfcontent).
+获取this所有页面的集合[`PdfContent`](../../pdfcontent).
 
 ```csharp
 public PdfPageCollection Pages { get; }
@@ -16,7 +16,7 @@ public PdfPageCollection Pages { get; }
 
 ### 适当的价值
 
-这个的所有页面的集合[`PdfContent`](../../pdfcontent).
+所有页面的集合[`PdfContent`](../../pdfcontent).
 
 ### 也可以看看
 

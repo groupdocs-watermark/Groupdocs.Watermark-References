@@ -37,7 +37,7 @@ public class ImageDctHashSearchCriteria : ImageSearchCriteria
 
 ### Bemerkungen
 
-Dieses Suchkriterium verwendet DCT-basierten perzeptiven Bild-Hash zur Berechnung der Bildähnlichkeit. **Mehr erfahren:**
+Dieses Suchkriterium verwendet DCT-basierten perzeptiven Bild-Hash zur Berechnung der Bildähnlichkeit. **Erfahren Sie mehr:**
 
 * [Suche nach Wasserzeichen](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

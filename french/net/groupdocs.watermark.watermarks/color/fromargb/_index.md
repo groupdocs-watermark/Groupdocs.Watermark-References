@@ -20,7 +20,7 @@ public static Color FromArgb(int argb)
 
 ### Return_Value
 
-La[`Color`](../../color) structure créée par cette méthode.
+Le[`Color`](../../color) structure créée par cette méthode.
 
 ### Voir également
 
@@ -41,11 +41,11 @@ public static Color FromArgb(int alpha, Color baseColor)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | alpha | Int32 | La valeur alpha du nouveau[`Color`](../../color). Les valeurs valides sont comprises entre 0 et 255. |
-| baseColor | Color | La[`Color`](../../color) à partir de laquelle créer le nouveau[`Color`](../../color). |
+| baseColor | Color | Le[`Color`](../../color) à partir de laquelle créer le nouveau[`Color`](../../color). |
 
 ### Return_Value
 
-La[`Color`](../../color) que cette méthode crée.
+Le[`Color`](../../color) que cette méthode crée.
 
 ### Exceptions
 
@@ -81,7 +81,7 @@ public static Color FromArgb(int red, int green, int blue)
 
 ### Return_Value
 
-La[`Color`](../../color) que cette méthode crée.
+Le[`Color`](../../color) que cette méthode crée.
 
 ### Exceptions
 
@@ -118,7 +118,7 @@ public static Color FromArgb(int alpha, int red, int green, int blue)
 
 ### Return_Value
 
-La[`Color`](../../color) que cette méthode crée.
+Le[`Color`](../../color) que cette méthode crée.
 
 ### Exceptions
 

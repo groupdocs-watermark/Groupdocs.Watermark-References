@@ -18,26 +18,26 @@ public class Metered
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Metered](metered)() | 初始化[`Metered`](../metered)类. |
+| [Metered](metered)() | 初始化一个新的实例[`Metered`](../metered)类. |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SetMeteredKey](../../groupdocs.watermark/metered/setmeteredkey)(string, string) | 使用计量键激活产品。 |
-| static [GetConsumptionCredit](../../groupdocs.watermark/metered/getconsumptioncredit)() | 检索消耗的积分计数。 |
+| [SetMeteredKey](../../groupdocs.watermark/metered/setmeteredkey)(string, string) | 使用计量密钥激活产品。 |
+| static [GetConsumptionCredit](../../groupdocs.watermark/metered/getconsumptioncredit)() | 检索消耗的积分数。 |
 | static [GetConsumptionQuantity](../../groupdocs.watermark/metered/getconsumptionquantity)() | 检索已处理的 MB 数量。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * 有关计量许可的更多信息： [计量许可常见问题解答](https://purchase.groupdocs.com/faqs/licensing/metered)
-* 更多关于**GroupDocs.Watermark**许可： [评估限制和许可](https://docs.groupdocs.com/display/watermarknet/Evaluation+Limitations+and+Licensing)
+* 更多关于**GroupDocs.水印**许可： [评估限制和许可](https://docs.groupdocs.com/display/watermarknet/Evaluation+Limitations+and+Licensing)
 
 ### 例子
 
-以下示例演示了如何使用计量密钥激活产品。
+以下示例演示了如何使用 Metered 密钥激活产品。
 
 ```csharp
 string publicKey = "Public Key";

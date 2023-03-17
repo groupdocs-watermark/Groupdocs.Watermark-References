@@ -1,14 +1,14 @@
 ---
 title: OfficeImageFillFormatTWatermarkableImage
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示任何受支持的办公内容中的图像填充格式设置
+description: 表示任何支持的 office 内容中的图像填充格式设置
 type: docs
 weight: 470
 url: /zh/net/groupdocs.watermark.contents/officeimagefillformat-1/
 ---
 ## OfficeImageFillFormat&lt;TWatermarkableImage&gt; class
 
-表示任何受支持的办公内容中的图像填充格式设置。
+表示任何支持的 office 内容中的图像填充格式设置。
 
 ```csharp
 public abstract class OfficeImageFillFormat<TWatermarkableImage>
@@ -17,15 +17,15 @@ public abstract class OfficeImageFillFormat<TWatermarkableImage>
 
 | 范围 | 描述 |
 | --- | --- |
-| TWatermarkableImage | 用作背景的可水印图像的确切类型。 |
+| TWatermarkableImage | 用作背景的可加水印图像的确切类型。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [BackgroundImage](../../groupdocs.watermark.contents/officeimagefillformat-1/backgroundimage) { get; set; } | 获取或设置背景图片。 |
+| abstract [BackgroundImage](../../groupdocs.watermark.contents/officeimagefillformat-1/backgroundimage) { get; set; } | 获取或设置背景图像。 |
 | abstract [TileAsTexture](../../groupdocs.watermark.contents/officeimagefillformat-1/tileastexture) { get; set; } | 获取或设置一个值，该值指示图像是否平铺在背景上。 |
-| abstract [Transparency](../../groupdocs.watermark.contents/officeimagefillformat-1/transparency) { get; set; } | 获取或设置背景图像的透明度，取值范围为 0.0（不透明）到 1.0（完全透明）。 |
+| abstract [Transparency](../../groupdocs.watermark.contents/officeimagefillformat-1/transparency) { get; set; } | 获取或设置背景图像的透明度为从 0.0（不透明）到 1.0（完全透明）的值。 |
 
 ### 也可以看看
 

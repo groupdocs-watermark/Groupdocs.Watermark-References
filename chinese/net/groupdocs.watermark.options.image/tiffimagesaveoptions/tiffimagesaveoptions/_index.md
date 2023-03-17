@@ -1,14 +1,14 @@
 ---
 title: TiffImageSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化TiffImageSaveOptionsgroupdocs.watermark.options.image/tiffimagesaveoptions类.
+description: 初始化一个新的实例TiffImageSaveOptionsgroupdocs.watermark.options.image/tiffimagesaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.image/tiffimagesaveoptions/tiffimagesaveoptions/
 ---
 ## TiffImageSaveOptions constructor
 
-初始化[`TiffImageSaveOptions`](../../tiffimagesaveoptions)类.
+初始化一个新的实例[`TiffImageSaveOptions`](../../tiffimagesaveoptions)类.
 
 ```csharp
 public TiffImageSaveOptions()

@@ -16,7 +16,7 @@ public static LoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لـ[`LoadOptions`](../../loadoptions) صف دراسي.
+القيمة الافتراضية لـ[`LoadOptions`](../../loadoptions) فصل.
 
 ### أنظر أيضا
 

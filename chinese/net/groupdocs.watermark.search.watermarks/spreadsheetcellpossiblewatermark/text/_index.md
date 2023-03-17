@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本SpreadsheetCellPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark.
+description: 获取或设置此文本SpreadsheetCellPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/text/
 ---
 ## SpreadsheetCellPossibleWatermark.Text property
 
-获取或设置 this 的文本[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark).
+获取或设置此文本[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark).
 
 ```csharp
 public override string Text { get; set; }
@@ -16,7 +16,7 @@ public override string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark).
+这一段的正文[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark).
 
 ### 也可以看看
 

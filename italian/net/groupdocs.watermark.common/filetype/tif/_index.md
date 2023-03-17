@@ -1,14 +1,14 @@
 ---
 title: TIF
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: TIFF o TIF Tagged Image File Format rappresenta le immagini raster destinate allutilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file quihttps//wiki.fileformat.com/image/tiff/ .
+description: TIFF o TIF Tagged Image File Format rappresenta le immagini raster destinate allutilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file Quihttps//wiki.fileformat.com/image/tiff/ .
 type: docs
 weight: 350
 url: /it/net/groupdocs.watermark.common/filetype/tif/
 ---
 ## FileType.TIF field
 
-TIFF o TIF, Tagged Image File Format, rappresenta le immagini raster destinate all'utilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file [qui](https://wiki.fileformat.com/image/tiff/) .
+TIFF o TIF, Tagged Image File Format, rappresenta le immagini raster destinate all'utilizzo su una varietà di dispositivi conformi a questo standard di formato file. Ulteriori informazioni su questo formato di file [Qui](https://wiki.fileformat.com/image/tiff/) .
 
 ```csharp
 public static readonly FileType TIF;

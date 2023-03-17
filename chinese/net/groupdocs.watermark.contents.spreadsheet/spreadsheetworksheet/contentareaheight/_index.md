@@ -1,14 +1,14 @@
 ---
 title: ContentAreaHeight
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以点为单位获取内容区域的高度
+description: 获取内容区域的高度以磅为单位
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/contentareaheight/
 ---
 ## SpreadsheetWorksheet.ContentAreaHeight property
 
-以点为单位获取内容区域的高度。
+获取内容区域的高度（以磅为单位）。
 
 ```csharp
 public double ContentAreaHeight { get; }

@@ -16,8 +16,8 @@ public static bool operator ==(Color left, Color right)
 
 | Parámetro | Escribe | Descripción |
 | --- | --- | --- |
-| left | Color | los[`Color`](../../color) que está a la izquierda del operador de igualdad. |
-| right | Color | los[`Color`](../../color) que está a la derecha del operador de igualdad. |
+| left | Color | El[`Color`](../../color) que está a la izquierda del operador de igualdad. |
+| right | Color | El[`Color`](../../color) que está a la derecha del operador de igualdad. |
 
 ### Valor_devuelto
 

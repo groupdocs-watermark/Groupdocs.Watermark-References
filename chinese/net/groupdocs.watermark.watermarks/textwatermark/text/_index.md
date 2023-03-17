@@ -3,7 +3,7 @@ title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
 description: 获取或设置要用作水印的文本
 type: docs
-weight: 50
+weight: 60
 url: /zh/net/groupdocs.watermark.watermarks/textwatermark/text/
 ---
 ## TextWatermark.Text property

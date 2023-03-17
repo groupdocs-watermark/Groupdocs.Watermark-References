@@ -18,7 +18,7 @@ public enum PresentationHyperlinkActionType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| MouseClick | `0` | 鼠标点击时超链接被激活。 |
+| MouseClick | `0` | 单击鼠标激活超链接。 |
 | MouseOver | `1` | 鼠标悬停时激活超链接。 |
 
 ### 也可以看看

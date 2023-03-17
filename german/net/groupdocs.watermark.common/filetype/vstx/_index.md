@@ -1,14 +1,14 @@
 ---
 title: VSTX
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Dateien mit VSTXErweiterungen sind Zeichnungsvorlagendateien die mit Microsoft Visio 2013 und höher erstellt wurden. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/vstx/ .
+description: Dateien mit VSTXErweiterungen sind Zeichnungsvorlagendateien die mit Microsoft Visio 2013 und höher erstellt wurden. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/vstx/ .
 type: docs
 weight: 480
 url: /de/net/groupdocs.watermark.common/filetype/vstx/
 ---
 ## FileType.VSTX field
 
-Dateien mit VSTX-Erweiterungen sind Zeichnungsvorlagendateien, die mit Microsoft Visio 2013 und höher erstellt wurden. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/vstx/) .
+Dateien mit VSTX-Erweiterungen sind Zeichnungsvorlagendateien, die mit Microsoft Visio 2013 und höher erstellt wurden. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/vstx/) .
 
 ```csharp
 public static readonly FileType VSTX;

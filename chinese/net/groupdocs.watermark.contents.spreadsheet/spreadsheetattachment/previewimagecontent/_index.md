@@ -1,14 +1,14 @@
 ---
 title: PreviewImageContent
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置附件预览图为字节数组
+description: 获取或设置附件预览图像为字节数组
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/previewimagecontent/
 ---
 ## SpreadsheetAttachment.PreviewImageContent property
 
-获取或设置附件预览图为字节数组。
+获取或设置附件预览图像为字节数组。
 
 ```csharp
 public byte[] PreviewImageContent { get; set; }
@@ -16,7 +16,7 @@ public byte[] PreviewImageContent { get; set; }
 
 ### 适当的价值
 
-作为字节数组的附件预览图像。
+作为字节数组的附加文件预览图像。
 
 ### 也可以看看
 

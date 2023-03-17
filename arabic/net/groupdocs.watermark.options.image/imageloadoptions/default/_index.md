@@ -16,7 +16,7 @@ public static ImageLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`ImageLoadOptions`](../../imageloadoptions) صف دراسي.
+القيمة الافتراضية لملف[`ImageLoadOptions`](../../imageloadoptions) فصل.
 
 ### أنظر أيضا
 

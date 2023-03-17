@@ -1,14 +1,14 @@
 ---
 title: Weight
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置描边形状路径的画笔粗细
+description: 获取或设置描边形状路径的画笔厚度
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.contents/officelineformat/weight/
 ---
 ## OfficeLineFormat.Weight property
 
-获取或设置描边形状路径的画笔粗细。
+获取或设置描边形状路径的画笔厚度。
 
 ```csharp
 public double Weight { get; set; }
@@ -16,7 +16,7 @@ public double Weight { get; set; }
 
 ### 适当的价值
 
-以点为单位的线条粗细。默认值为 0.75。
+以磅为单位的线条粗细。默认值为 0.75。
 
 ### 也可以看看
 

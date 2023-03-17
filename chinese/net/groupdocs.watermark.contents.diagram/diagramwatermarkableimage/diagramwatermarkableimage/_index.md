@@ -1,14 +1,14 @@
 ---
 title: DiagramWatermarkableImage
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化DiagramWatermarkableImagegroupdocs.watermark.contents.diagram/diagramwatermarkableimage使用指定图像数据的类
+description: 初始化一个新的实例DiagramWatermarkableImagegroupdocs.watermark.contents.diagram/diagramwatermarkableimage使用指定图像数据的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramwatermarkableimage/diagramwatermarkableimage/
 ---
 ## DiagramWatermarkableImage constructor
 
-初始化[`DiagramWatermarkableImage`](../../diagramwatermarkableimage)使用指定图像数据的类。
+初始化一个新的实例[`DiagramWatermarkableImage`](../../diagramwatermarkableimage)使用指定图像数据的类.
 
 ```csharp
 public DiagramWatermarkableImage(byte[] imageData)
@@ -16,7 +16,7 @@ public DiagramWatermarkableImage(byte[] imageData)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| imageData | Byte[] | 从中创建 的无符号字节数组[`DiagramWatermarkableImage`](../../diagramwatermarkableimage). |
+| imageData | Byte[] | 从中创建 the 的无符号字节数组[`DiagramWatermarkableImage`](../../diagramwatermarkableimage). |
 
 ### 也可以看看
 

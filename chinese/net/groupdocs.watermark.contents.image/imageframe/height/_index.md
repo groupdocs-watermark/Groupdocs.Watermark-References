@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的高度ImageFramegroupdocs.watermark.contents.image/imageframe以像素为单位
+description: 获取这个的高度ImageFramegroupdocs.watermark.contents.image/imageframe以像素为单位.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.image/imageframe/height/
 ---
 ## ImageFrame.Height property
 
-获取这个的高度[`ImageFrame`](../../imageframe)以像素为单位。
+获取这个的高度[`ImageFrame`](../../imageframe)以像素为单位.
 
 ```csharp
 public int Height { get; }

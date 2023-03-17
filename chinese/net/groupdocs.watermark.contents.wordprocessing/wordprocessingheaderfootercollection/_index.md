@@ -19,7 +19,7 @@ public class WordProcessingHeaderFooterCollection : ReadOnlyListBase<WordProcess
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | 获取集合中包含的元素数。 |
-| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } | 获取一个值，该值指示该集合是否为只读。 |
+| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } | 获取一个值，指示集合是否为只读。 |
 | virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | 获取集合中指定索引处的元素。 |
 | [Item](../../groupdocs.watermark.contents.wordprocessing/wordprocessingheaderfootercollection/item) { get; } | 获取指定类型的页眉或页脚。 |
 
@@ -30,11 +30,11 @@ public class WordProcessingHeaderFooterCollection : ReadOnlyListBase<WordProcess
 | virtual [Contains](../../groupdocs.watermark.common/readonlylistbase-1/contains)(WordProcessingHeaderFooter) |  |
 | virtual [GetEnumerator](../../groupdocs.watermark.common/readonlylistbase-1/getenumerator)() |  |
 | virtual [IndexOf](../../groupdocs.watermark.common/readonlylistbase-1/indexof)(WordProcessingHeaderFooter) |  |
-| [LinkToPrevious](../../groupdocs.watermark.contents.wordprocessing/wordprocessingheaderfootercollection/linktoprevious)(bool) | 将所有页眉和页脚链接或取消链接到上一节中对应的 页眉和页脚。 |
+| [LinkToPrevious](../../groupdocs.watermark.contents.wordprocessing/wordprocessingheaderfootercollection/linktoprevious)(bool) | 将所有页眉和页脚链接或取消链接到上一节中相应的 页眉和页脚。 |
 
 ### 评论
 
-此集合包含以下项目[`WordProcessingHeaderFooter`](../wordprocessingheaderfooter)类型.
+此集合包含的项目[`WordProcessingHeaderFooter`](../wordprocessingheaderfooter)类型.
 
 ### 也可以看看
 

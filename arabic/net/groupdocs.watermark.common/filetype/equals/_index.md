@@ -52,7 +52,7 @@ public override bool Equals(object obj)
 
 ### قيمة الإرجاع
 
-إذا المعلمة[`FileType`](../../filetype) وهو نفسه الحالي[`FileType`](../../filetype) هدف؛ خلاف ذلك، .
+لو المعلمة[`FileType`](../../filetype) وهو نفسه الحالي[`FileType`](../../filetype) هدف؛ خلاف ذلك، .
 
 ```csharp
 true

@@ -1,14 +1,14 @@
 ---
 title: WordProcessingRelativeHorizontalPosition
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 指定对象的相对水平位置
+description: 指定对象的水平位置是相对的
 type: docs
 weight: 1350
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingrelativehorizontalposition/
 ---
 ## WordProcessingRelativeHorizontalPosition enumeration
 
-指定对象的相对水平位置。
+指定对象的水平位置是相对的。
 
 ```csharp
 public enum WordProcessingRelativeHorizontalPosition
@@ -22,10 +22,10 @@ public enum WordProcessingRelativeHorizontalPosition
 | Page | `1` | 对象相对于页面的左边缘定位。 |
 | Column | `2` | 对象相对于列的左侧定位。 |
 | Character | `3` | 对象相对于段落的左侧定位。 |
-| LeftMargin | `4` | 指定水平定位是相对于页面的左边距的。 |
-| RightMargin | `5` | 指定水平定位相对于页面的右边距。 |
+| LeftMargin | `4` | 指定水平定位是相对于页面的左边距。 |
+| RightMargin | `5` | 指定水平定位是相对于页面的右边距。 |
 | InsideMargin | `6` | 指定水平定位是相对于当前页的内边距 （奇数页左边距，偶数页右边距）。 |
-| OutsideMargin | `7` | 指定水平定位是相对于当前页的外边距 （奇数页右边距，偶数页左边距）。 |
+| OutsideMargin | `7` | 指定水平定位相对于当前页的外margin （奇数页右边距，偶数页左边距）。 |
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: BottomMargin
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以磅为单位获取下边距的大小
+description: 获取下边距的大小以点为单位
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.diagram/diagrampage/bottommargin/
 ---
 ## DiagramPage.BottomMargin property
 
-以磅为单位获取下边距的大小。
+获取下边距的大小（以点为单位）。
 
 ```csharp
 public double BottomMargin { get; }

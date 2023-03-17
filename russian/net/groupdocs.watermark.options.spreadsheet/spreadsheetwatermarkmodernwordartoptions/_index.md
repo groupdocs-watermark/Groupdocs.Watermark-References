@@ -31,7 +31,7 @@ public sealed class SpreadsheetWatermarkModernWordArtOptions : SpreadsheetWaterm
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в табличные документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 
@@ -46,8 +46,8 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.xls", loadO
     TextWatermark watermark = new TextWatermark("Test watermark", new Font("Arial", 36));
 
     SpreadsheetWatermarkModernWordArtOptions options = new SpreadsheetWatermarkModernWordArtOptions();
-    options.WorksheetIndex = -1; // дефолт
-    options.IsLocked = false; // дефолт
+    options.WorksheetIndex = -1; // по умолчанию
+    options.IsLocked = false; // по умолчанию
 
     watermarker.Add(watermark, options);
     watermarker.Save();

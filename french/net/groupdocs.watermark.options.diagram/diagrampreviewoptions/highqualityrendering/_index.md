@@ -20,7 +20,7 @@ Le drapeau pour un rendu de haute qualité.
 
 ### Remarques
 
-Le rendu de haute qualité utilise plus de ressources. La valeur par défaut est`faux` .
+Le rendu de haute qualité utilise plus de ressources. La valeur par défaut est`FAUX` .
 
 ### Voir également
 

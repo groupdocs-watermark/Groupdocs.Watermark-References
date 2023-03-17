@@ -1,14 +1,14 @@
 ---
 title: DiagramWatermarkPlacementType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 指定应添加水印的页面
+description: 指定应向哪些页面添加水印
 type: docs
 weight: 250
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramwatermarkplacementtype/
 ---
 ## DiagramWatermarkPlacementType enumeration
 
-指定应添加水印的页面。
+指定应向哪些页面添加水印。
 
 ```csharp
 public enum DiagramWatermarkPlacementType
@@ -18,11 +18,11 @@ public enum DiagramWatermarkPlacementType
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| ForegroundPages | `0` | 水印应仅添加到前台页面。 |
-| BackgroundPages | `1` | 水印应该只添加到背景页面。 |
-| AllPages | `2` | 应为所有页面添加水印。 |
+| ForegroundPages | `0` | 水印应仅添加到前景页面。 |
+| BackgroundPages | `1` | 水印应仅添加到背景页面。 |
+| AllPages | `2` | 所有页面都应添加水印。 |
 | SeparateBackgrounds | `3` | 应创建带有水印的单独背景页面并将其分配给所有没有背景的页面。 |
-| Default | `0` | 同ForegroundPages. |
+| Default | `0` | 与ForegroundPages. |
 
 ### 也可以看看
 

@@ -26,7 +26,7 @@ public class PresentationChart : PresentationBaseShape
 | [Presentation](../../groupdocs.watermark.contents.presentation/presentationbaseshape/presentation) { get; } | Ruft die übergeordnete Präsentation davon ab[`PresentationBaseShape`](../presentationbaseshape) . |
 | [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | Holt oder setzt die Breite davon[`PresentationBaseShape`](../presentationbaseshape)in Punkten. |
 | [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | Holt oder setzt den horizontalen Offset davon[`PresentationBaseShape`](../presentationbaseshape) vom linken Rand der Präsentation in Punkten. |
-| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Holt oder setzt den vertikalen Offset davon[`PresentationBaseShape`](../presentationbaseshape)from Oberer Rand der Präsentation in Punkten. |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Holt oder setzt den vertikalen Offset davon[`PresentationBaseShape`](../presentationbaseshape) from Oberer Rand der Präsentation in Punkten. |
 | [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | Ruft die Position davon ab[`PresentationBaseShape`](../presentationbaseshape) in der z-Reihenfolge. |
 
 ## Methoden

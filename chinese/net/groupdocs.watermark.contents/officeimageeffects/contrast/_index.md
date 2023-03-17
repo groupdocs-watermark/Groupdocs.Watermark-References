@@ -1,14 +1,14 @@
 ---
 title: Contrast
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置指定图片的对比度此属性 的值必须是从 0.0最小对比度到 1.0最大对比度的数字
+description: 获取或设置指定图片的对比度此属性 的值必须是从 0.0最小对比度到 1.0最大对比度之间的数字
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents/officeimageeffects/contrast/
 ---
 ## OfficeImageEffects.Contrast property
 
-获取或设置指定图片的对比度。此属性 的值必须是从 0.0（最小对比度）到 1.0（最大对比度）的数字。
+获取或设置指定图片的对比度。此属性 的值必须是从 0.0（最小对比度）到 1.0（最大对比度）之间的数字。
 
 ```csharp
 public double Contrast { get; set; }

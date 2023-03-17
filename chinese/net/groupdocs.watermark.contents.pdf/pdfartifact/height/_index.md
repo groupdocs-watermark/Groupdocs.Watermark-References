@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的高度PdfArtifactgroupdocs.watermark.contents.pdf/pdfartifact以点为单位
+description: 获取这个的高度PdfArtifactgroupdocs.watermark.contents.pdf/pdfartifact点.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfartifact/height/
 ---
 ## PdfArtifact.Height property
 
-获取这个的高度[`PdfArtifact`](../../pdfartifact)以点为单位。
+获取这个的高度[`PdfArtifact`](../../pdfartifact)点.
 
 ```csharp
 public override double Height { get; }
@@ -16,7 +16,7 @@ public override double Height { get; }
 
 ### 适当的价值
 
-这个高度[`PdfArtifact`](../../pdfartifact)在点。
+这个高度[`PdfArtifact`](../../pdfartifact)分。
 
 ### 也可以看看
 

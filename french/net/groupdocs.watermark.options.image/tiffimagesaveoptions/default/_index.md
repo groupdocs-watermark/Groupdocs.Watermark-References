@@ -16,7 +16,7 @@ public static TiffImageSaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`TiffImageSaveOptions`](../../tiffimagesaveoptions) classer.
+La valeur par défaut pour le[`TiffImageSaveOptions`](../../tiffimagesaveoptions) classe.
 
 ### Voir également
 

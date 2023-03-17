@@ -1,14 +1,14 @@
 ---
 title: Extension
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取文件名后缀包括句点. 例如.doc.
+description: 获取文件名后缀包括句点.例如.doc.
 type: docs
 weight: 600
 url: /zh/net/groupdocs.watermark.common/filetype/extension/
 ---
 ## FileType.Extension property
 
-获取文件名后缀（包括句点“.”） 例如，“.doc”.
+获取文件名后缀（包括句点“.”），例如，“.doc”.
 
 ```csharp
 public string Extension { get; }

@@ -19,7 +19,7 @@ public enum SizingType
 | Имя | Ценность | Описание |
 | --- | --- | --- |
 | Auto | `0` | Размер водяного знака должен автоматически изменяться в соответствии с его содержимым. |
-| Absolute | `1` | Размер водяного знака должен быть точным[`Width`](../../groupdocs.watermark/watermark/width) а также[`Height`](../../groupdocs.watermark/watermark/height) |
+| Absolute | `1` | Размер водяного знака должен быть точным[`Width`](../../groupdocs.watermark/watermark/width) и[`Height`](../../groupdocs.watermark/watermark/height) |
 | ScaleToParentDimensions | `2` | Водяной знак должен масштабироваться относительно родительских размеров с использованием указанного [`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) . |
 | ScaleToParentArea | `3` | Водяной знак должен быть масштабирован относительно родительской области с использованием указанного[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) |
 

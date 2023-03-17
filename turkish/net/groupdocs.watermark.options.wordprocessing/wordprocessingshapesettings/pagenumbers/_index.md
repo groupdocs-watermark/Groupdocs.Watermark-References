@@ -20,7 +20,7 @@ Filigranın ekleneceği sayfa numaraları.
 
 ### Notlar
 
-Tüm sayılar 1. 'den büyük veya eşit olmalıdır. Bu özellik yalnızca bir belgeye filigran eklerken kullanılır. Bu değer ise`hükümsüz` , filigran tüm sayfalara eklenir.
+Tüm sayılar 1. 'den büyük veya eşit olmalıdır. Bu özellik yalnızca bir belgeye filigran eklerken kullanılır. Bu değer ise`hükümsüz` filigran tüm sayfalara eklenir.
 
 ### Ayrıca bakınız
 

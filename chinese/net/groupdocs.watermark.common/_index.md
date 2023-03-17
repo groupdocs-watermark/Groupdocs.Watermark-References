@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Watermark.Common
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 命名空间提供帮助类
+description: 命名空间提供辅助类
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.common/
 ---
-命名空间提供帮助类。
+命名空间提供辅助类。
 
 ## 课程
 
@@ -14,10 +14,10 @@ url: /zh/net/groupdocs.watermark.common/
 | --- | --- |
 | [Attachment](./attachment) | 表示附加到文档的文件。 |
 | [AttachmentWatermarkableImage](./attachmentwatermarkableimage) | 表示任何受支持类型的内容中的附加图像。 |
-| [FileType](./filetype) | 表示文件类型。 |
-| [PageInfo](./pageinfo) | 表示文档页面描述。 |
+| [FileType](./filetype) | 代表文件类型。 |
+| [PageInfo](./pageinfo) | 代表一个文档页面描述。 |
 | [ReadOnlyListBase&lt;T&gt;](./readonlylistbase-1) | 为强类型只读列表提供抽象基类。 |
-| [RemoveOnlyListBase&lt;T&gt;](./removeonlylistbase-1) | 为强类型仅删除列表提供抽象基类。 |
+| [RemoveOnlyListBase&lt;T&gt;](./removeonlylistbase-1) | 为强类型只删除列表提供抽象基类。 |
 ## 接口
 
 | 界面 | 描述 |

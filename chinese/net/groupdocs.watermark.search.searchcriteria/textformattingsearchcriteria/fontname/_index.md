@@ -1,14 +1,14 @@
 ---
 title: FontName
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置用于可能的水印文本格式的字体名称
+description: 获取或设置在可能的水印文本格式中使用的字体名称
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/fontname/
 ---
 ## TextFormattingSearchCriteria.FontName property
 
-获取或设置用于可能的水印文本格式的字体名称。
+获取或设置在可能的水印文本格式中使用的字体名称。
 
 ```csharp
 public string FontName { get; set; }

@@ -1,14 +1,14 @@
 ---
 title: IsEmpty
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值指示是否只有空颜色在范围内
+description: 获取或设置一个值该值指示是否只有空颜色在范围内
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.search.searchcriteria/colorrange/isempty/
 ---
 ## ColorRange.IsEmpty property
 
-获取或设置一个值，指示是否只有空颜色在范围内。
+获取或设置一个值，该值指示是否只有空颜色在范围内。
 
 ```csharp
 public bool IsEmpty { get; set; }
@@ -16,7 +16,7 @@ public bool IsEmpty { get; set; }
 
 ### 适当的价值
 
-如果只有空颜色在范围内，则为真（忽略 HSB 范围）；否则为假。
+如果只有空颜色在范围内（忽略 HSB 范围），则为真；否则，假的。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本DiagramCommentPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark.
+description: 获取或设置此文本DiagramCommentPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/text/
 ---
 ## DiagramCommentPossibleWatermark.Text property
 
-获取或设置 this 的文本[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark).
+获取或设置此文本[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark).
 
 ```csharp
 public override string Text { get; set; }
@@ -16,7 +16,7 @@ public override string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark).
+这一段的正文[`DiagramCommentPossibleWatermark`](../../diagramcommentpossiblewatermark).
 
 ### 也可以看看
 

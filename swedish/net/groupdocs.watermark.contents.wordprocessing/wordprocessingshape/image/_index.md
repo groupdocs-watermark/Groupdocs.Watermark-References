@@ -16,7 +16,7 @@ public WordProcessingWatermarkableImage Image { get; set; }
 
 ### Fastighetsvärde
 
-Bilden av detta[`WordProcessingShape`](../../wordprocessingshape). Returnerar null om formen inte har någon bild.
+Bilden av detta[`WordProcessingShape`](../../wordprocessingshape) . Returnerar null om formen inte har någon bild.
 
 ### Se även
 

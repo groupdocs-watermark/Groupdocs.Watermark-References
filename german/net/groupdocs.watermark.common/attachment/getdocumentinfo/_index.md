@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Rückgabewert
 
-Das[`IDocumentInfo`](../../idocumentinfo) Instanz, die erkannte Informationen enthält
+Der[`IDocumentInfo`](../../idocumentinfo) Instanz, die erkannte Informationen enthält
 
 ### Siehe auch
 

@@ -18,7 +18,7 @@ public class SearchableObjects
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SearchableObjects](searchableobjects)() | 初始化[`SearchableObjects`](../searchableobjects)类. |
+| [SearchableObjects](searchableobjects)() | 初始化一个新的实例[`SearchableObjects`](../searchableobjects)类. |
 
 ## 特性
 
@@ -33,7 +33,7 @@ public class SearchableObjects
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

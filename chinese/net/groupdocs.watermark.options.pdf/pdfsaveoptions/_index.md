@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示保存 pdf 文档时的文档保存选项
+description: 表示保存pdf文档时的文档保存选项
 type: docs
 weight: 1900
 url: /zh/net/groupdocs.watermark.options.pdf/pdfsaveoptions/
 ---
 ## PdfSaveOptions class
 
-表示保存 pdf 文档时的文档保存选项。
+表示保存pdf文档时的文档保存选项。
 
 ```csharp
 public sealed class PdfSaveOptions : SaveOptions
@@ -18,7 +18,7 @@ public sealed class PdfSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PdfSaveOptions](pdfsaveoptions)() | 初始化[`PdfSaveOptions`](../pdfsaveoptions)类. |
+| [PdfSaveOptions](pdfsaveoptions)() | 初始化一个新的实例[`PdfSaveOptions`](../pdfsaveoptions)类. |
 
 ## 特性
 

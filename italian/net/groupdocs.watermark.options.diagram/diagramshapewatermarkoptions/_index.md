@@ -29,7 +29,7 @@ public sealed class DiagramShapeWatermarkOptions : DiagramWatermarkOptions
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane ai documenti del diagramma](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 

@@ -33,7 +33,7 @@ public sealed class PresentationWatermarkMasterNotesSlideOptions :
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane ai documenti di presentazione](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 

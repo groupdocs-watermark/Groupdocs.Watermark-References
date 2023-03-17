@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本PdfShapegroupdocs.watermark.contents.pdf/pdfshape.
+description: 获取或设置此文本PdfShapegroupdocs.watermark.contents.pdf/pdfshape.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfshape/text/
 ---
 ## PdfShape.Text property
 
-获取或设置 this 的文本[`PdfShape`](../../pdfshape).
+获取或设置此文本[`PdfShape`](../../pdfshape).
 
 ```csharp
 public virtual string Text { get; set; }
@@ -16,7 +16,7 @@ public virtual string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`PdfShape`](../../pdfshape).
+这一段的正文[`PdfShape`](../../pdfshape).
 
 ### 也可以看看
 

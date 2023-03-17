@@ -42,7 +42,7 @@ public class PresentationContent : Content
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в презентационные документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 * [Работа с фоном слайдов.](https://docs.groupdocs.com/display/watermarknet/Working+with+slide+backgrounds)

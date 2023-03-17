@@ -18,14 +18,14 @@ public enum VerticalAlignment
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不对齐（使用指定位置）。 |
-| Top | `1` | 与顶部对齐。 |
+| None | `0` | 没有对齐（使用指定位置）。 |
+| Top | `1` | 对齐到顶部. |
 | Center | `2` | 居中对齐。 |
-| Bottom | `3` | 与底部对齐。 |
+| Bottom | `3` | 底部对齐. |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [添加文字或图片水印](https://docs.groupdocs.com/display/watermarknet/Add+text+or+image+watermark)
 * [添加水印](https://docs.groupdocs.com/display/watermarknet/Adding+watermarks)

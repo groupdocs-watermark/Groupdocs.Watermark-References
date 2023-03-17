@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Holt oder setzt den vertikalen Offset davonPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapefrom Oberer Rand der Präsentation in Punkten.
+description: Holt oder setzt den vertikalen Offset davonPresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape from Oberer Rand der Präsentation in Punkten.
 type: docs
 weight: 90
 url: /de/net/groupdocs.watermark.contents.presentation/presentationbaseshape/y/
 ---
 ## PresentationBaseShape.Y property
 
-Holt oder setzt den vertikalen Offset davon[`PresentationBaseShape`](../../presentationbaseshape)from Oberer Rand der Präsentation in Punkten.
+Holt oder setzt den vertikalen Offset davon[`PresentationBaseShape`](../../presentationbaseshape) from Oberer Rand der Präsentation in Punkten.
 
 ```csharp
 public double Y { get; set; }

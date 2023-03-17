@@ -19,15 +19,15 @@ public class PresentationChart : PresentationBaseShape
 | 姓名 | 描述 |
 | --- | --- |
 | [AlternativeText](../../groupdocs.watermark.contents.presentation/presentationbaseshape/alternativetext) { get; set; } | 获取或设置与 this 关联的描述性（替代）文本[`PresentationBaseShape`](../presentationbaseshape). |
-| [Height](../../groupdocs.watermark.contents.presentation/presentationbaseshape/height) { get; set; } | 获取或设置 this 的高度[`PresentationBaseShape`](../presentationbaseshape)以点为单位。 |
-| [Id](../../groupdocs.watermark.contents.presentation/presentationbaseshape/id) { get; } | 获取这个的标识符[`PresentationBaseShape`](../presentationbaseshape). |
-| [ImageFillFormat](../../groupdocs.watermark.contents.presentation/presentationbaseshape/imagefillformat) { get; } | 获取此的图像填充格式设置[`PresentationBaseShape`](../presentationbaseshape). |
-| [Name](../../groupdocs.watermark.contents.presentation/presentationbaseshape/name) { get; } | 获取此名称[`PresentationBaseShape`](../presentationbaseshape). |
+| [Height](../../groupdocs.watermark.contents.presentation/presentationbaseshape/height) { get; set; } | 获取或设置此高度[`PresentationBaseShape`](../presentationbaseshape)点. |
+| [Id](../../groupdocs.watermark.contents.presentation/presentationbaseshape/id) { get; } | 得到这个的标识符[`PresentationBaseShape`](../presentationbaseshape). |
+| [ImageFillFormat](../../groupdocs.watermark.contents.presentation/presentationbaseshape/imagefillformat) { get; } | 获取this的图片填充格式设置[`PresentationBaseShape`](../presentationbaseshape). |
+| [Name](../../groupdocs.watermark.contents.presentation/presentationbaseshape/name) { get; } | 获取这个的名字[`PresentationBaseShape`](../presentationbaseshape). |
 | [Presentation](../../groupdocs.watermark.contents.presentation/presentationbaseshape/presentation) { get; } | 获取这个的父表示[`PresentationBaseShape`](../presentationbaseshape). |
-| [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | 获取或设置 this 的宽度[`PresentationBaseShape`](../presentationbaseshape)以点为单位。 |
-| [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | 获取或设置 this 的水平偏移量[`PresentationBaseShape`](../presentationbaseshape) 从演示文稿左边框开始，以点为单位。 |
-| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | 获取或设置 this 的垂直偏移量[`PresentationBaseShape`](../presentationbaseshape)from 以点表示的顶部边框。 |
-| [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | 获取这个的位置[`PresentationBaseShape`](../presentationbaseshape)在 z 顺序中。 |
+| [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | 获取或设置宽度[`PresentationBaseShape`](../presentationbaseshape)点. |
+| [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | 获取或设置此的水平偏移量[`PresentationBaseShape`](../presentationbaseshape) 来自演示文稿的左边框（以点为单位）. |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | 获取或设置此的垂直偏移量[`PresentationBaseShape`](../presentationbaseshape) from presentation top border in points. 点数 |
+| [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | 得到这个的位置[`PresentationBaseShape`](../presentationbaseshape)在 z-order. |
 
 ## 方法
 

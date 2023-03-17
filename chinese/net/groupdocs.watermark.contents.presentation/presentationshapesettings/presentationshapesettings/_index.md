@@ -1,14 +1,14 @@
 ---
 title: PresentationShapeSettings
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PresentationShapeSettingsgroupdocs.watermark.contents.presentation/presentationshapesettings类.
+description: 初始化一个新的实例PresentationShapeSettingsgroupdocs.watermark.contents.presentation/presentationshapesettings类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationshapesettings/presentationshapesettings/
 ---
 ## PresentationShapeSettings constructor
 
-初始化[`PresentationShapeSettings`](../../presentationshapesettings)类.
+初始化一个新的实例[`PresentationShapeSettings`](../../presentationshapesettings)类.
 
 ```csharp
 public PresentationShapeSettings()

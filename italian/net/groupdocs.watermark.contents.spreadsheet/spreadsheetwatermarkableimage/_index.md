@@ -31,7 +31,7 @@ public class SpreadsheetWatermarkableImage : WatermarkableImage
 
 | Nome | Descrizione |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Aggiunge una filigrana a questo[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). Questo metodo presuppone che l'offset e la dimensione della filigrana siano misurati in pixel (se assegnati). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Aggiunge una filigrana a questo[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage) . Questo metodo presuppone che l'offset e la dimensione della filigrana siano misurati in pixel (se assegnati). |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | Trova tutte le immagini nel contenuto. La ricerca viene condotta negli oggetti specificati in[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Trova le immagini in base ai criteri di ricerca specificati. La ricerca viene eseguita negli oggetti specificati in[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | Ottiene l'immagine come array di byte. |

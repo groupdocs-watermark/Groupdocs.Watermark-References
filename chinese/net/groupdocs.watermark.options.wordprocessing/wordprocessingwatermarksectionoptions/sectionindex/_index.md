@@ -1,14 +1,14 @@
 ---
 title: SectionIndex
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置要添加水印的节的索引
+description: 获取或设置要添加水印的部分的索引
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarksectionoptions/sectionindex/
 ---
 ## WordProcessingWatermarkSectionOptions.SectionIndex property
 
-获取或设置要添加水印的节的索引。
+获取或设置要添加水印的部分的索引。
 
 ```csharp
 public int SectionIndex { get; set; }

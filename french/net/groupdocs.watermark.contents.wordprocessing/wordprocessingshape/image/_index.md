@@ -16,7 +16,7 @@ public WordProcessingWatermarkableImage Image { get; set; }
 
 ### Valeur de la propriété
 
-L'image de ce[`WordProcessingShape`](../../wordprocessingshape). Renvoie null si la forme n'a pas d'image.
+L'image de ce[`WordProcessingShape`](../../wordprocessingshape) . Renvoie null si la forme n'a pas d'image.
 
 ### Voir également
 

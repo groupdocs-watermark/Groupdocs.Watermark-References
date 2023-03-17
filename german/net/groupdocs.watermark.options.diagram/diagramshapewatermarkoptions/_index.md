@@ -29,7 +29,7 @@ public sealed class DiagramShapeWatermarkOptions : DiagramWatermarkOptions
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Diagrammdokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 
@@ -45,7 +45,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.vsdx", loadOptions))
 
     DiagramShapeWatermarkOptions options = new DiagramShapeWatermarkOptions();
     options.IsLocked = true;
-    options.PlacementType = DiagramWatermarkPlacementType.AllPages; // Ursprünglich
+    options.PlacementType = DiagramWatermarkPlacementType.AllPages; // Standard
 
     watermarker.Add(watermark, options);
     watermarker.Save();

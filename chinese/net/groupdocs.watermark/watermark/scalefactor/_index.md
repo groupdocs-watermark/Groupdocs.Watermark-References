@@ -1,14 +1,14 @@
 ---
 title: ScaleFactor
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值定义水印大小如何取决于父大小
+description: 获取或设置一个值该值定义水印大小如何取决于父级大小
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark/watermark/scalefactor/
 ---
 ## Watermark.ScaleFactor property
 
-获取或设置一个值，该值定义水印大小如何取决于父大小。
+获取或设置一个值，该值定义水印大小如何取决于父级大小。
 
 ```csharp
 public double ScaleFactor { get; set; }
@@ -16,11 +16,11 @@ public double ScaleFactor { get; set; }
 
 ### 适当的价值
 
-这个比例因子[`Watermark`](../../watermark).
+这个的比例因子[`Watermark`](../../watermark).
 
 ### 评论
 
-值必须介于 0 和 1 之间。
+该值必须介于 0 和 1 之间。
 
 ### 也可以看看
 

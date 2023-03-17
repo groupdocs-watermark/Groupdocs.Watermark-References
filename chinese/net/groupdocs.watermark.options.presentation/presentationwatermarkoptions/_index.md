@@ -1,14 +1,14 @@
 ---
 title: PresentationWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 用于向演示文档添加选项的水印基类
+description: 用于向演示文稿文档添加选项的水印基类
 type: docs
 weight: 2050
 url: /zh/net/groupdocs.watermark.options.presentation/presentationwatermarkoptions/
 ---
 ## PresentationWatermarkOptions class
 
-用于向演示文档添加选项的水印基类。
+用于向演示文稿文档添加选项的水印基类。
 
 ```csharp
 public abstract class PresentationWatermarkOptions : WatermarkOptions

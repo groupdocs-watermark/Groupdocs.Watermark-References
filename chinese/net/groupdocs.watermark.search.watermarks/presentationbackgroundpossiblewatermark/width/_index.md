@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度PresentationBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark以点为单位
+description: 得到这个的宽度PresentationBackgroundPossibleWatermarkgroupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark点.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/width/
 ---
 ## PresentationBackgroundPossibleWatermark.Width property
 
-获取这个的宽度[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark)以点为单位。
+得到这个的宽度[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark)点.
 
 ```csharp
 public override double Width { get; }
@@ -16,7 +16,7 @@ public override double Width { get; }
 
 ### 适当的价值
 
-这个宽度[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark)在点。
+这个的宽度[`PresentationBackgroundPossibleWatermark`](../../presentationbackgroundpossiblewatermark)分。
 
 ### 也可以看看
 

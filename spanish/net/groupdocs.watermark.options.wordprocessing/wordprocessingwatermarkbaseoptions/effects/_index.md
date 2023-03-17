@@ -1,14 +1,14 @@
 ---
 title: Effects
 second_title: Referencia de API de GroupDocs.Watermark para .NET
-description: Obtiene o establece un valor deWordProcessingImageEffectsgroupdocs.watermark.options.wordprocessing/wordprocessingimageeffects o WordProcessingTextEffectsgroupdocs.watermark.options.wordprocessing/wordprocessingtexteffects para los efectos que deben aplicarse a la marca de agua.
+description: Obtiene o establece un valor deWordProcessingImageEffectsgroupdocs.watermark.options.wordprocessing/wordprocessingimageeffects or WordProcessingTextEffectsgroupdocs.watermark.options.wordprocessing/wordprocessingtexteffects para los efectos que deben aplicarse a la marca de agua.
 type: docs
 weight: 20
 url: /es/net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/effects/
 ---
 ## WordProcessingWatermarkBaseOptions.Effects property
 
-Obtiene o establece un valor de[`WordProcessingImageEffects`](../../wordprocessingimageeffects) o [`WordProcessingTextEffects`](../../wordprocessingtexteffects) para los efectos que deben aplicarse a la marca de agua.
+Obtiene o establece un valor de[`WordProcessingImageEffects`](../../wordprocessingimageeffects) or [`WordProcessingTextEffects`](../../wordprocessingtexteffects) para los efectos que deben aplicarse a la marca de agua.
 
 ```csharp
 public IWordProcessingWatermarkEffects Effects { get; set; }

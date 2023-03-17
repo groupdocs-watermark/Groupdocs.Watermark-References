@@ -18,7 +18,7 @@ public sealed class SpreadsheetShapeSettings : OfficeShapeSettings
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetShapeSettings](spreadsheetshapesettings)() | 初始化[`SpreadsheetShapeSettings`](../spreadsheetshapesettings)类. |
+| [SpreadsheetShapeSettings](spreadsheetshapesettings)() | 初始化一个新的实例[`SpreadsheetShapeSettings`](../spreadsheetshapesettings)类. |
 
 ## 特性
 

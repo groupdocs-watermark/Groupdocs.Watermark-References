@@ -1,14 +1,14 @@
 ---
 title: WordProcessingSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示保存 Word 文档时的文档保存选项
+description: 表示保存Word文档时的文档保存选项
 type: docs
 weight: 2310
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions class
 
-表示保存 Word 文档时的文档保存选项。
+表示保存Word文档时的文档保存选项。
 
 ```csharp
 public sealed class WordProcessingSaveOptions : SaveOptions
@@ -18,7 +18,7 @@ public sealed class WordProcessingSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [WordProcessingSaveOptions](wordprocessingsaveoptions)() | 初始化[`WordProcessingSaveOptions`](../wordprocessingsaveoptions)类. |
+| [WordProcessingSaveOptions](wordprocessingsaveoptions)() | 初始化一个新的实例[`WordProcessingSaveOptions`](../wordprocessingsaveoptions)类. |
 
 ## 特性
 

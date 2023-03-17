@@ -20,12 +20,12 @@ public enum WordProcessingRelativeVerticalPosition
 | --- | --- | --- |
 | Margin | `0` | 指定垂直定位是相对于页边距的。 |
 | Page | `1` | 对象相对于页面的上边缘定位。 |
-| Paragraph | `2` | 对象相对于包含锚的段落的顶部定位。 |
+| Paragraph | `2` | 对象相对于包含锚点的段落的顶部定位。 |
 | Line | `3` | 未记录的功能。 |
-| TopMargin | `4` | 指定垂直定位相对于 当前页面的上边距。 |
-| BottomMargin | `5` | 指定垂直定位是相对于当前页面的底边距 |
-| InsideMargin | `6` | 指定垂直定位是相对于当前页面的内边距 。 |
-| OutsideMargin | `7` | 指定垂直定位相对于当前页面的外边距 。 |
+| TopMargin | `4` | 指定垂直定位是相对于 当前页的上边距。 |
+| BottomMargin | `5` | 指定垂直定位是相对于当前页面的底部margin 。 |
+| InsideMargin | `6` | 指定垂直定位是相对于当前页的内边距 。 |
+| OutsideMargin | `7` | 指定垂直定位是相对于当前页的外margin 。 |
 
 ### 也可以看看
 

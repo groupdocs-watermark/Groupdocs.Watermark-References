@@ -1,14 +1,14 @@
 ---
 title: FormattedTextFragments
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此格式化文本片段的集合PresentationShapegroupdocs.watermark.contents.presentation/presentationshape.
+description: 获取此的格式化文本片段的集合PresentationShapegroupdocs.watermark.contents.presentation/presentationshape.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationshape/formattedtextfragments/
 ---
 ## PresentationShape.FormattedTextFragments property
 
-获取此格式化文本片段的集合[`PresentationShape`](../../presentationshape).
+获取此的格式化文本片段的集合[`PresentationShape`](../../presentationshape).
 
 ```csharp
 public FormattedTextFragmentCollection FormattedTextFragments { get; }
@@ -16,7 +16,7 @@ public FormattedTextFragmentCollection FormattedTextFragments { get; }
 
 ### 适当的价值
 
-this 的格式化文本片段集合[`PresentationShape`](../../presentationshape).
+格式化文本片段的集合[`PresentationShape`](../../presentationshape).
 
 ### 也可以看看
 

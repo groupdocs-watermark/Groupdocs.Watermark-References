@@ -20,7 +20,7 @@ public virtual int IndexOf(T item)
 
 ### 返回值
 
-指数*item*如果在集合中找到；否则，-1。
+的指数*item*如果在收藏中找到；否则，-1。
 
 ### 也可以看看
 

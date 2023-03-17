@@ -1,14 +1,14 @@
 ---
 title: BackgroundWidth
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置背景图像的所需宽度以像素为单位
+description: 获取或设置所需的背景图像宽度以像素为单位
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/backgroundwidth/
 ---
 ## SpreadsheetBackgroundWatermarkOptions.BackgroundWidth property
 
-获取或设置背景图像的所需宽度（以像素为单位）。
+获取或设置所需的背景图像宽度（以像素为单位）。
 
 ```csharp
 public int BackgroundWidth { get; set; }

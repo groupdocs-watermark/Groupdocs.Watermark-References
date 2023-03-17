@@ -16,8 +16,8 @@ public static bool operator ==(Color left, Color right)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| left | Color | Das[`Color`](../../color) das ist links vom Gleichheitsoperator. |
-| right | Color | Das[`Color`](../../color) das ist rechts vom Gleichheitsoperator. |
+| left | Color | Der[`Color`](../../color) das ist links vom Gleichheitsoperator. |
+| right | Color | Der[`Color`](../../color) das ist rechts vom Gleichheitsoperator. |
 
 ### Rückgabewert
 

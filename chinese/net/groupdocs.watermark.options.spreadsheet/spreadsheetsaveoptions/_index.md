@@ -18,7 +18,7 @@ public sealed class SpreadsheetSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetSaveOptions](spreadsheetsaveoptions)() | 初始化[`SpreadsheetSaveOptions`](../spreadsheetsaveoptions)类. |
+| [SpreadsheetSaveOptions](spreadsheetsaveoptions)() | 初始化一个新的实例[`SpreadsheetSaveOptions`](../spreadsheetsaveoptions)类. |
 
 ## 特性
 

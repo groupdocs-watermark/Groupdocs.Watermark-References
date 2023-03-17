@@ -1,14 +1,14 @@
 ---
 title: EmailSearchableObjects
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 指定表示要包含在水印搜索中的电子邮件对象的标志
+description: 指定表示要包含在水印搜索中的电子邮件消息对象的标志
 type: docs
 weight: 2480
 url: /zh/net/groupdocs.watermark.search.objects/emailsearchableobjects/
 ---
 ## EmailSearchableObjects enumeration
 
-指定表示要包含在水印搜索中的电子邮件对象的标志。
+指定表示要包含在水印搜索中的电子邮件消息对象的标志。
 
 ```csharp
 [Flags]
@@ -19,10 +19,10 @@ public enum EmailSearchableObjects
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不指定搜索对象。 |
+| None | `0` | 指定没有搜索对象。 |
 | Subject | `1` | 在邮件主题中搜索。 |
-| PlainTextBody | `2` | 在消息纯文本正文中搜索。 |
-| HtmlBody | `4` | 在消息 html 正文中搜索。 |
+| PlainTextBody | `2` | 在邮件纯文本正文中搜索。 |
+| HtmlBody | `4` | 在邮件 html 正文中搜索。 |
 | AttachedImages | `8` | 在附加图像中搜索。 |
 | EmbeddedImages | `10` | 在嵌入图像中搜索。 |
 | All | `1F` | 在所有电子邮件对象中搜索。 |

@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: Referencia de API de GroupDocs.Watermark para .NET
-description: Agrega una marca de agua a estoWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage. Este método asume que el desplazamiento y el tamaño de la marca de agua se miden en píxeles si están asignados.
+description: Agrega una marca de agua a estoWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage . Este método asume que el desplazamiento y el tamaño de la marca de agua se miden en píxeles si están asignados.
 type: docs
 weight: 30
 url: /es/net/groupdocs.watermark.contents.image/watermarkableimage/add/
 ---
 ## WatermarkableImage.Add method
 
-Agrega una marca de agua a esto[`WatermarkableImage`](../../watermarkableimage). Este método asume que el desplazamiento y el tamaño de la marca de agua se miden en píxeles (si están asignados).
+Agrega una marca de agua a esto[`WatermarkableImage`](../../watermarkableimage) . Este método asume que el desplazamiento y el tamaño de la marca de agua se miden en píxeles (si están asignados).
 
 ```csharp
 public void Add(Watermark watermark)

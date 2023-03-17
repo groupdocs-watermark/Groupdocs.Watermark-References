@@ -16,7 +16,7 @@ public PdfAnnotationCollection Annotations { get; }
 
 ### 适当的价值
 
-this的所有注释的集合[`PdfPage`](../../pdfpage).
+this所有注解的集合[`PdfPage`](../../pdfpage).
 
 ### 也可以看看
 

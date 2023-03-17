@@ -1,14 +1,14 @@
 ---
 title: Name
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此名称DiagramPagegroupdocs.watermark.contents.diagram/diagrampage.
+description: 获取这个的名字DiagramPagegroupdocs.watermark.contents.diagram/diagrampage.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.contents.diagram/diagrampage/name/
 ---
 ## DiagramPage.Name property
 
-获取此名称[`DiagramPage`](../../diagrampage).
+获取这个的名字[`DiagramPage`](../../diagrampage).
 
 ```csharp
 public string Name { get; }
@@ -16,7 +16,7 @@ public string Name { get; }
 
 ### 适当的价值
 
-这个名字[`DiagramPage`](../../diagrampage).
+这个的名字[`DiagramPage`](../../diagrampage).
 
 ### 也可以看看
 

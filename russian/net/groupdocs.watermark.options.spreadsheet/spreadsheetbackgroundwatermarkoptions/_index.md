@@ -30,7 +30,7 @@ public sealed class SpreadsheetBackgroundWatermarkOptions : SpreadsheetWatermark
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в табличные документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 
@@ -45,7 +45,7 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.xlsx", load
     TextWatermark watermark = new TextWatermark("Test watermark", new Font("Arial", 36));
 
     SpreadsheetBackgroundWatermarkOptions options = new SpreadsheetBackgroundWatermarkOptions();
-    options.WorksheetIndex = -1; // дефолт
+    options.WorksheetIndex = -1; // по умолчанию
     options.BackgroundWidth = 800;
     options.BackgroundHeight = 600;
 

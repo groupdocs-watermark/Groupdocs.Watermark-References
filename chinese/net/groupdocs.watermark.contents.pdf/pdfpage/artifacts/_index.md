@@ -16,7 +16,7 @@ public PdfArtifactCollection Artifacts { get; }
 
 ### 适当的价值
 
-本次所有神器合集[`PdfPage`](../../pdfpage).
+本次所有文物的集合[`PdfPage`](../../pdfpage).
 
 ### 也可以看看
 

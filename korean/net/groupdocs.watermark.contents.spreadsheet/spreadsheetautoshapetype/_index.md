@@ -1,0 +1,281 @@
+---
+title: SpreadsheetAutoShapeType
+second_title: .NET API 참조용 GroupDocs.Watermark
+description: 자동 모양 유형을 나타냅니다.
+type: docs
+weight: 1050
+url: /ko/net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/
+---
+## SpreadsheetAutoShapeType enumeration
+
+자동 모양 유형을 나타냅니다.
+
+```csharp
+public enum SpreadsheetAutoShapeType
+```
+
+### 가치
+
+| 이름 | 값 | 설명 |
+| --- | --- | --- |
+| NotPrimitive | `0` | 내장 자동 모양 유형. |
+| Rectangle | `1` | 내장 자동 모양 유형. |
+| RoundedRectangle | `2` | 내장 자동 모양 유형. |
+| Oval | `3` | 내장 자동 모양 유형. |
+| Diamond | `4` | 내장 자동 모양 유형. |
+| IsoscelesTriangle | `5` | 내장 자동 모양 유형. |
+| RightTriangle | `6` | 내장 자동 모양 유형. |
+| Parallelogram | `7` | 내장 자동 모양 유형. |
+| Trapezoid | `8` | 내장 자동 모양 유형. |
+| Hexagon | `9` | 내장 자동 모양 유형. |
+| Octagon | `10` | 내장 자동 모양 유형. |
+| Cross | `11` | 내장 자동 모양 유형. |
+| Star5 | `12` | 내장 자동 모양 유형. |
+| RightArrow | `13` | 내장 자동 모양 유형. |
+| HomePlate | `15` | 내장 자동 모양 유형. |
+| Cube | `16` | 내장 자동 모양 유형. |
+| Balloon | `17` | 내장 자동 모양 유형. |
+| Seal | `18` | 내장 자동 모양 유형. |
+| Arc | `19` | 내장 자동 모양 유형. |
+| Line | `20` | 내장 자동 모양 유형. |
+| Plaque | `21` | 내장 자동 모양 유형. |
+| Can | `22` | 내장 자동 모양 유형. |
+| Donut | `23` | 내장 자동 모양 유형. |
+| TextSimple | `24` | 내장 자동 모양 유형. |
+| TextOctagon | `25` | 내장 자동 모양 유형. |
+| TextHexagon | `26` | 내장 자동 모양 유형. |
+| TextCurve | `27` | 내장 자동 모양 유형. |
+| TextWave | `28` | 내장 자동 모양 유형. |
+| TextRing | `29` | 내장 자동 모양 유형. |
+| TextOnCurve | `30` | 내장 자동 모양 유형. |
+| TextOnRing | `31` | 내장 자동 모양 유형. |
+| StraightConnector | `32` | 내장 자동 모양 유형. |
+| BentConnector2 | `33` | 내장 자동 모양 유형. |
+| ElbowConnector | `34` | 내장 자동 모양 유형. |
+| BentConnector4 | `35` | 내장 자동 모양 유형. |
+| BentConnector5 | `36` | 내장 자동 모양 유형. |
+| CurvedConnector2 | `37` | 내장 자동 모양 유형. |
+| CurvedConnector | `38` | 내장 자동 모양 유형. |
+| CurvedConnector4 | `39` | 내장 자동 모양 유형. |
+| CurvedConnector5 | `40` | 내장 자동 모양 유형. |
+| LineCalloutNoBorder2 | `41` | 내장 자동 모양 유형. |
+| LineCalloutNoBorder3 | `42` | 내장 자동 모양 유형. |
+| LineCalloutNoBorder4 | `43` | 내장 자동 모양 유형. |
+| LineCalloutWithAccentBar2 | `44` | 내장 자동 모양 유형. |
+| LineCalloutWithAccentBar3 | `45` | 내장 자동 모양 유형. |
+| LineCalloutWithAccentBar4 | `46` | 내장 자동 모양 유형. |
+| LineCalloutWithBorder2 | `47` | 내장 자동 모양 유형. |
+| LineCalloutWithBorder3 | `48` | 내장 자동 모양 유형. |
+| LineCalloutWithBorder4 | `49` | 내장 자동 모양 유형. |
+| LineCalloutWithBorderAndAccentBar2 | `50` | 내장 자동 모양 유형. |
+| LineCalloutWithBorderAndAccentBar3 | `51` | 내장 자동 모양 유형. |
+| LineCalloutWithBorderAndAccentBar4 | `52` | 내장 자동 모양 유형. |
+| DownRibbon | `53` | 내장 자동 모양 유형. |
+| UpRibbon | `54` | 내장 자동 모양 유형. |
+| Chevron | `55` | 내장 자동 모양 유형. |
+| RegularPentagon | `56` | 내장 자동 모양 유형. |
+| NoSymbol | `57` | 내장 자동 모양 유형. |
+| Star8 | `58` | 내장 자동 모양 유형. |
+| Star16 | `59` | 내장 자동 모양 유형. |
+| Star32 | `60` | 내장 자동 모양 유형. |
+| RectangularCallout | `61` | 내장 자동 모양 유형. |
+| RoundedRectangularCallout | `62` | 내장 자동 모양 유형. |
+| OvalCallout | `63` | 내장 자동 모양 유형. |
+| Wave | `64` | 내장 자동 모양 유형. |
+| FoldedCorner | `65` | 내장 자동 모양 유형. |
+| LeftArrow | `66` | 내장 자동 모양 유형. |
+| DownArrow | `67` | 내장 자동 모양 유형. |
+| UpArrow | `68` | 내장 자동 모양 유형. |
+| LeftRightArrow | `69` | 내장 자동 모양 유형. |
+| UpDownArrow | `70` | 내장 자동 모양 유형. |
+| Explosion1 | `71` | 내장 자동 모양 유형. |
+| Explosion2 | `72` | 내장 자동 모양 유형. |
+| LightningBolt | `73` | 내장 자동 모양 유형. |
+| Heart | `74` | 내장 자동 모양 유형. |
+| PictureFrame | `75` | 내장 자동 모양 유형. |
+| QuadArrow | `76` | 내장 자동 모양 유형. |
+| LeftArrowCallout | `77` | 내장 자동 모양 유형. |
+| RightArrowCallout | `78` | 내장 자동 모양 유형. |
+| UpArrowCallout | `79` | 내장 자동 모양 유형. |
+| DownArrowCallout | `80` | 내장 자동 모양 유형. |
+| LeftRightArrowCallout | `81` | 내장 자동 모양 유형. |
+| UpDownArrowCallout | `82` | 내장 자동 모양 유형. |
+| QuadArrowCallout | `83` | 내장 자동 모양 유형. |
+| Bevel | `84` | 내장 자동 모양 유형. |
+| LeftBracket | `85` | 내장 자동 모양 유형. |
+| RightBracket | `86` | 내장 자동 모양 유형. |
+| LeftBrace | `87` | 내장 자동 모양 유형. |
+| RightBrace | `88` | 내장 자동 모양 유형. |
+| LeftUpArrow | `89` | 내장 자동 모양 유형. |
+| BentUpArrow | `90` | 내장 자동 모양 유형. |
+| BentArrow | `91` | 내장 자동 모양 유형. |
+| Star24 | `92` | 내장 자동 모양 유형. |
+| StripedRightArrow | `93` | 내장 자동 모양 유형. |
+| NotchedRightArrow | `94` | 내장 자동 모양 유형. |
+| BlockArc | `95` | 내장 자동 모양 유형. |
+| SmileyFace | `96` | 내장 자동 모양 유형. |
+| VerticalScroll | `97` | 내장 자동 모양 유형. |
+| HorizontalScroll | `98` | 내장 자동 모양 유형. |
+| CircularArrow | `99` | 내장 자동 모양 유형. |
+| NotchedCircularArrow | `100` | 내장 자동 모양 유형. |
+| UTurnArrow | `101` | 내장 자동 모양 유형. |
+| CurvedRightArrow | `102` | 내장 자동 모양 유형. |
+| CurvedLeftArrow | `103` | 내장 자동 모양 유형. |
+| CurvedUpArrow | `104` | 내장 자동 모양 유형. |
+| CurvedDownArrow | `105` | 내장 자동 모양 유형. |
+| CloudCallout | `106` | 내장 자동 모양 유형. |
+| CurvedDownRibbon | `107` | 내장 자동 모양 유형. |
+| CurvedUpRibbon | `108` | 내장 자동 모양 유형. |
+| FlowChartProcess | `109` | 내장 자동 모양 유형. |
+| FlowChartDecision | `110` | 내장 자동 모양 유형. |
+| FlowChartData | `111` | 내장 자동 모양 유형. |
+| FlowChartPredefinedProcess | `112` | 내장 자동 모양 유형. |
+| FlowChartInternalStorage | `113` | 내장 자동 모양 유형. |
+| FlowChartDocument | `114` | 내장 자동 모양 유형. |
+| FlowChartMultidocument | `115` | 내장 자동 모양 유형. |
+| FlowChartTerminator | `116` | 내장 자동 모양 유형. |
+| FlowChartPreparation | `117` | 내장 자동 모양 유형. |
+| FlowChartManualInput | `118` | 내장 자동 모양 유형. |
+| FlowChartManualOperation | `119` | 내장 자동 모양 유형. |
+| FlowChartConnector | `120` | 내장 자동 모양 유형. |
+| FlowChartCard | `121` | 내장 자동 모양 유형. |
+| FlowChartPunchedTape | `122` | 내장 자동 모양 유형. |
+| FlowChartSummingJunction | `123` | 내장 자동 모양 유형. |
+| FlowChartOr | `124` | 내장 자동 모양 유형. |
+| FlowChartCollate | `125` | 내장 자동 모양 유형. |
+| FlowChartSort | `126` | 내장 자동 모양 유형. |
+| FlowChartExtract | `127` | 내장 자동 모양 유형. |
+| FlowChartMerge | `128` | 내장 자동 모양 유형. |
+| FlowChartOfflineStorage | `129` | 내장 자동 모양 유형. |
+| FlowChartStoredData | `130` | 내장 자동 모양 유형. |
+| FlowChartSequentialAccessStorage | `131` | 내장 자동 모양 유형. |
+| FlowChartMagneticDisk | `132` | 내장 자동 모양 유형. |
+| FlowChartDirectAccessStorage | `133` | 내장 자동 모양 유형. |
+| FlowChartDisplay | `134` | 내장 자동 모양 유형. |
+| FlowChartDelay | `135` | 내장 자동 모양 유형. |
+| TextPlainText | `136` | 내장 자동 모양 유형. |
+| TextStop | `137` | 내장 자동 모양 유형. |
+| TextTriangle | `138` | 내장 자동 모양 유형. |
+| TextTriangleInverted | `139` | 내장 자동 모양 유형. |
+| TextChevron | `140` | 내장 자동 모양 유형. |
+| TextChevronInverted | `141` | 내장 자동 모양 유형. |
+| TextRingInside | `142` | 내장 자동 모양 유형. |
+| TextRingOutside | `143` | 내장 자동 모양 유형. |
+| TextArchUpCurve | `144` | 내장 자동 모양 유형. |
+| TextArchDownCurve | `145` | 내장 자동 모양 유형. |
+| TextCircleCurve | `146` | 내장 자동 모양 유형. |
+| TextButtonCurve | `147` | 내장 자동 모양 유형. |
+| TextArchUpPour | `148` | 내장 자동 모양 유형. |
+| TextArchDownPour | `149` | 내장 자동 모양 유형. |
+| TextCirclePour | `150` | 내장 자동 모양 유형. |
+| TextButtonPour | `151` | 내장 자동 모양 유형. |
+| TextCurveUp | `152` | 내장 자동 모양 유형. |
+| TextCurveDown | `153` | 내장 자동 모양 유형. |
+| TextCascadeUp | `154` | 내장 자동 모양 유형. |
+| TextCascadeDown | `155` | 내장 자동 모양 유형. |
+| TextWave1 | `156` | 내장 자동 모양 유형. |
+| TextWave2 | `157` | 내장 자동 모양 유형. |
+| TextDoubleWave1 | `158` | 내장 자동 모양 유형. |
+| TextDoubleWave2 | `159` | 내장 자동 모양 유형. |
+| TextInflate | `160` | 내장 자동 모양 유형. |
+| TextDeflate | `161` | 내장 자동 모양 유형. |
+| TextInflateBottom | `162` | 내장 자동 모양 유형. |
+| TextDeflateBottom | `163` | 내장 자동 모양 유형. |
+| TextInflateTop | `164` | 내장 자동 모양 유형. |
+| TextDeflateTop | `165` | 내장 자동 모양 유형. |
+| TextDeflateInflate | `166` | 내장 자동 모양 유형. |
+| TextDeflateInflateDeflate | `167` | 내장 자동 모양 유형. |
+| TextFadeRight | `168` | 내장 자동 모양 유형. |
+| TextFadeLeft | `169` | 내장 자동 모양 유형. |
+| TextFadeUp | `170` | 내장 자동 모양 유형. |
+| TextFadeDown | `171` | 내장 자동 모양 유형. |
+| TextSlantUp | `172` | 내장 자동 모양 유형. |
+| TextSlantDown | `173` | 내장 자동 모양 유형. |
+| TextCanUp | `174` | 내장 자동 모양 유형. |
+| TextCanDown | `175` | 내장 자동 모양 유형. |
+| FlowChartAlternateProcess | `176` | 내장 자동 모양 유형. |
+| FlowChartOffpageConnector | `177` | 내장 자동 모양 유형. |
+| LineCalloutNoBorder1 | `178` | 내장 자동 모양 유형. |
+| LineCalloutWithAccentBar1 | `179` | 내장 자동 모양 유형. |
+| LineCalloutWithBorder1 | `180` | 내장 자동 모양 유형. |
+| LineCalloutWithBorderAndAccentBar1 | `181` | 내장 자동 모양 유형. |
+| LeftRightUpArrow | `182` | 내장 자동 모양 유형. |
+| Sun | `183` | 내장 자동 모양 유형. |
+| Moon | `184` | 내장 자동 모양 유형. |
+| DoubleBracket | `185` | 내장 자동 모양 유형. |
+| DoubleBrace | `186` | 내장 자동 모양 유형. |
+| Star4 | `187` | 내장 자동 모양 유형. |
+| DoubleWave | `188` | 내장 자동 모양 유형. |
+| BlankActionButton | `189` | 내장 자동 모양 유형. |
+| HomeActionButton | `190` | 내장 자동 모양 유형. |
+| HelpActionButton | `191` | 내장 자동 모양 유형. |
+| InformationActionButton | `192` | 내장 자동 모양 유형. |
+| ForwardNextActionButton | `193` | 내장 자동 모양 유형. |
+| BackPreviousActionButton | `194` | 내장 자동 모양 유형. |
+| EndActionButton | `195` | 내장 자동 모양 유형. |
+| BeginningActionButton | `196` | 내장 자동 모양 유형. |
+| ReturnActionButton | `197` | 내장 자동 모양 유형. |
+| DocumentActionButton | `198` | 내장 자동 모양 유형. |
+| SoundActionButton | `199` | 내장 자동 모양 유형. |
+| MovieActionButton | `200` | 내장 자동 모양 유형. |
+| HostControl | `201` | 내장 자동 모양 유형. |
+| TextBox | `202` | 내장 자동 모양 유형. |
+| Heptagon | `2049` | 내장 자동 모양 유형. |
+| Decagon | `2050` | 내장 자동 모양 유형. |
+| Dodecagon | `2051` | 내장 자동 모양 유형. |
+| Star6 | `2052` | 내장 자동 모양 유형. |
+| Star7 | `2053` | 내장 자동 모양 유형. |
+| Star10 | `2054` | 내장 자동 모양 유형. |
+| Star12 | `2055` | 내장 자동 모양 유형. |
+| RoundSingleCornerRectangle | `2056` | 내장 자동 모양 유형. |
+| RoundSameSideCornerRectangle | `2057` | 내장 자동 모양 유형. |
+| RoundDiagonalCornerRectangle | `2058` | 내장 자동 모양 유형. |
+| SnipRoundSingleCornerRectangle | `2059` | 내장 자동 모양 유형. |
+| SnipSingleCornerRectangle | `2060` | 내장 자동 모양 유형. |
+| SnipSameSideCornerRectangle | `2061` | 내장 자동 모양 유형. |
+| SnipDiagonalCornerRectangle | `2062` | 내장 자동 모양 유형. |
+| Teardrop | `2063` | 내장 자동 모양 유형. |
+| Pie | `2064` | 내장 자동 모양 유형. |
+| HalfFrame | `2066` | 내장 자동 모양 유형. |
+| LShape | `2067` | 내장 자동 모양 유형. |
+| DiagonalStripe | `2068` | 내장 자동 모양 유형. |
+| Chord | `2069` | 내장 자동 모양 유형. |
+| Cloud | `2070` | 내장 자동 모양 유형. |
+| MathPlus | `2071` | 내장 자동 모양 유형. |
+| MathMinus | `2072` | 내장 자동 모양 유형. |
+| MathMultiply | `2073` | 내장 자동 모양 유형. |
+| MathDivide | `2074` | 내장 자동 모양 유형. |
+| MathEqual | `2075` | 내장 자동 모양 유형. |
+| MathNotEqual | `2076` | 내장 자동 모양 유형. |
+| LineInv | `2077` | 내장 자동 모양 유형. |
+| NonIsoscelesTrapezoid | `2078` | 내장 자동 모양 유형. |
+| PieWedge | `2079` | 내장 자동 모양 유형. |
+| LeftCircularArrow | `2080` | 내장 자동 모양 유형. |
+| LeftRightCircularArrow | `2081` | 내장 자동 모양 유형. |
+| SwooshArrow | `2082` | 내장 자동 모양 유형. |
+| LeftRightRibbon | `2083` | 내장 자동 모양 유형. |
+| TextNoShape | `2084` | 내장 자동 모양 유형. |
+| Gear6 | `2097` | 내장 자동 모양 유형. |
+| Gear9 | `2098` | 내장 자동 모양 유형. |
+| Funnel | `2099` | 내장 자동 모양 유형. |
+| CornerTabs | `2100` | 내장 자동 모양 유형. |
+| SquareTabs | `2101` | 내장 자동 모양 유형. |
+| PlaqueTabs | `2102` | 내장 자동 모양 유형. |
+| ChartX | `2103` | 내장 자동 모양 유형. |
+| ChartStar | `2104` | 내장 자동 모양 유형. |
+| ChartPlus | `2105` | 내장 자동 모양 유형. |
+| Frame | `2106` | 내장 자동 모양 유형. |
+| Model3D | `2107` | 내장 자동 모양 유형. |
+| RoundCallout | `2108` | 엑셀에는 그런 타입이 없습니다. |
+| TextArchLeftPour | `2109` | 엑셀에는 그런 타입이 없습니다. |
+| TextArchRightPour | `2110` | 엑셀에는 그런 타입이 없습니다. |
+| TextArchLeftCurve | `2111` | 엑셀에는 그런 타입이 없습니다. |
+| TextArchRightCurve | `2112` | 엑셀에는 그런 타입이 없습니다. |
+| Unknown | `4095` | 알 수 없는 자동 모양 유형입니다. |
+
+### 또한보십시오
+
+* 네임스페이스 [GroupDocs.Watermark.Contents.Spreadsheet](../../groupdocs.watermark.contents.spreadsheet)
+* 집회 [GroupDocs.Watermark](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Watermark.dll -->

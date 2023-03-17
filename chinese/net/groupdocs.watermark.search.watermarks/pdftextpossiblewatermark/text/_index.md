@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本PdfTextPossibleWatermarkgroupdocs.watermark.search.watermarks/pdftextpossiblewatermark.
+description: 获取或设置此文本PdfTextPossibleWatermarkgroupdocs.watermark.search.watermarks/pdftextpossiblewatermark.
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/text/
 ---
 ## PdfTextPossibleWatermark.Text property
 
-获取或设置 this 的文本[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark).
+获取或设置此文本[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark).
 
 ```csharp
 public override string Text { get; set; }
@@ -16,7 +16,7 @@ public override string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark).
+这一段的正文[`PdfTextPossibleWatermark`](../../pdftextpossiblewatermark).
 
 ### 也可以看看
 

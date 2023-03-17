@@ -25,7 +25,7 @@ public sealed class PresentationWatermarkSlideOptions : PresentationWatermarkBas
 | Nombre | Descripción |
 | --- | --- |
 | [AlternativeText](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/alternativetext) { get; set; } | Obtiene o establece el texto descriptivo (alternativo) que se asociará con una forma. |
-| [Effects](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects) { get; set; } | Obtiene o establece un valor de[`PresentationImageEffects`](../presentationimageeffects) o [`PresentationTextEffects`](../presentationtexteffects) para los efectos que deben aplicarse a la marca de agua. |
+| [Effects](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects) { get; set; } | Obtiene o establece un valor de[`PresentationImageEffects`](../presentationimageeffects) or [`PresentationTextEffects`](../presentationtexteffects) para los efectos que deben aplicarse a la marca de agua. |
 | [IsLocked](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/islocked) { get; set; } | Obtiene o establece un valor que indica si está prohibida la edición de la forma en PowerPoint. |
 | [Name](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/name) { get; set; } | Obtiene o establece el nombre de una forma. |
 | [ProtectWithUnreadableCharacters](../../groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/protectwithunreadablecharacters) { get; set; } | Obtiene o establece un valor que indica si los caracteres de la marca de agua de texto están mezclados con caracteres ilegibles. |
@@ -51,10 +51,10 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.ppt", loadO
 
     PresentationWatermarkSlideOptions options = new PresentationWatermarkSlideOptions();
     options.SlideIndex = 0;
-    options.IsLocked = false; // defecto
-    options.ProtectWithUnreadableCharacters = false; // defecto
-    options.Name = null; // defecto
-    options.AlternativeText = null; // defecto
+    options.IsLocked = false; // por defecto
+    options.ProtectWithUnreadableCharacters = false; // por defecto
+    options.Name = null; // por defecto
+    options.AlternativeText = null; // por defecto
 
     watermarker.Add(watermark, options);
     watermarker.Save();

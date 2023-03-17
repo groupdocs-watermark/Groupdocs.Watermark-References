@@ -1,14 +1,14 @@
 ---
 title: GetRowHeight
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以点为单位获取指定行的高度
+description: 获取指定行的高度以磅为单位
 type: docs
 weight: 130
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheight/
 ---
 ## SpreadsheetWorksheet.GetRowHeight method
 
-以点为单位获取指定行的高度。
+获取指定行的高度（以磅为单位）。
 
 ```csharp
 public double GetRowHeight(int row)

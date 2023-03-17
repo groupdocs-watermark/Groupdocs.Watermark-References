@@ -33,7 +33,7 @@ public sealed class PresentationWatermarkMasterSlideOptions : PresentationWaterm
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Präsentationsdokumenten Wasserzeichen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 

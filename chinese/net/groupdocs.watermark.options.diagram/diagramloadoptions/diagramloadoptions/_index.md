@@ -1,14 +1,14 @@
 ---
 title: DiagramLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化DiagramLoadOptionsgroupdocs.watermark.options.diagram/diagramloadoptions类.
+description: 初始化一个新的实例DiagramLoadOptionsgroupdocs.watermark.options.diagram/diagramloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.diagram/diagramloadoptions/diagramloadoptions/
 ---
 ## DiagramLoadOptions() {#constructor}
 
-初始化[`DiagramLoadOptions`](../../diagramloadoptions)类.
+初始化一个新的实例[`DiagramLoadOptions`](../../diagramloadoptions)类.
 
 ```csharp
 public DiagramLoadOptions()
@@ -24,7 +24,7 @@ public DiagramLoadOptions()
 
 ## DiagramLoadOptions(string) {#constructor_1}
 
-初始化[`DiagramLoadOptions`](../../diagramloadoptions)具有指定密码的类。
+初始化一个新的实例[`DiagramLoadOptions`](../../diagramloadoptions)具有指定密码的类.
 
 ```csharp
 public DiagramLoadOptions(string password)
@@ -32,7 +32,7 @@ public DiagramLoadOptions(string password)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| password | String | 打开加密的 Visio 文档的密码。 |
+| password | String | 用于打开加密的 Visio 文档的密码。 |
 
 ### 也可以看看
 

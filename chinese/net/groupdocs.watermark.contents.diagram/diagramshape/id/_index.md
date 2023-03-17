@@ -1,14 +1,14 @@
 ---
 title: Id
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的标识符DiagramShapegroupdocs.watermark.contents.diagram/diagramshape.
+description: 得到这个的标识符DiagramShapegroupdocs.watermark.contents.diagram/diagramshape.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramshape/id/
 ---
 ## DiagramShape.Id property
 
-获取这个的标识符[`DiagramShape`](../../diagramshape).
+得到这个的标识符[`DiagramShape`](../../diagramshape).
 
 ```csharp
 public long Id { get; }
@@ -16,7 +16,7 @@ public long Id { get; }
 
 ### 适当的价值
 
-这个标识符[`DiagramShape`](../../diagramshape).
+这个的标识符[`DiagramShape`](../../diagramshape).
 
 ### 也可以看看
 

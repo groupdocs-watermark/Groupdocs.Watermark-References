@@ -16,7 +16,7 @@ public bool Remove(T item)
 
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
-| item | T | Das Element, das aus der Sammlung entfernt werden soll. |
+| item | T | Das Element, das aus der Auflistung entfernt werden soll. |
 
 ### Rückgabewert
 

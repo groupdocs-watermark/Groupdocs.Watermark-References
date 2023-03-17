@@ -1,14 +1,14 @@
 ---
 title: Bottom
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置下边距
+description: 获取或设置底部边距
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.watermarks/margins/bottom/
 ---
 ## Margins.Bottom property
 
-获取或设置下边距。
+获取或设置底部边距。
 
 ```csharp
 public double Bottom { get; set; }
@@ -16,7 +16,7 @@ public double Bottom { get; set; }
 
 ### 适当的价值
 
-从父底部边框的水平偏移。
+从父级底部边框的水平偏移。
 
 ### 也可以看看
 

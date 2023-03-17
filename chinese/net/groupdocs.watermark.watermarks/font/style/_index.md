@@ -1,14 +1,14 @@
 ---
 title: Style
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的样式信息Fontgroupdocs.watermark.watermarks/font.
+description: 获取此的样式信息Fontgroupdocs.watermark.watermarks/font.
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark.watermarks/font/style/
 ---
 ## Font.Style property
 
-获取这个的样式信息[`Font`](../../font).
+获取此的样式信息[`Font`](../../font).
 
 ```csharp
 public FontStyle Style { get; }
@@ -16,7 +16,7 @@ public FontStyle Style { get; }
 
 ### 适当的价值
 
-这个风格[`Font`](../../font).
+这个的画风[`Font`](../../font).
 
 ### 评论
 

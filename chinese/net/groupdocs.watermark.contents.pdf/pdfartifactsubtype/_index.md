@@ -1,14 +1,14 @@
 ---
 title: PdfArtifactSubtype
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 枚举可能的工件子类型
+description: 可能的工件子类型的枚举
 type: docs
 weight: 570
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfartifactsubtype/
 ---
 ## PdfArtifactSubtype enumeration
 
-枚举可能的工件子类型。
+可能的工件子类型的枚举。
 
 ```csharp
 public enum PdfArtifactSubtype
@@ -22,7 +22,7 @@ public enum PdfArtifactSubtype
 | Footer | `1` | 页脚子类型。 |
 | Watermark | `2` | 水印子类型。 |
 | Background | `3` | 背景子类型. |
-| Undefined | `4` | 未定义文档子类型。 |
+| Undefined | `4` | UndefinedDocument 子类型。 |
 
 ### 也可以看看
 

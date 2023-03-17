@@ -22,7 +22,7 @@ public class SpreadsheetChart : ITwoDObject
 | [Height](../../groupdocs.watermark.contents.spreadsheet/spreadsheetchart/height) { get; } | Obtient la hauteur de ce[`SpreadsheetChart`](../spreadsheetchart)en points. |
 | [Hyperlink](../../groupdocs.watermark.contents.spreadsheet/spreadsheetchart/hyperlink) { get; set; } | Obtient ou définit le lien hypertexte associé à ce[`SpreadsheetChart`](../spreadsheetchart) . |
 | [Id](../../groupdocs.watermark.contents.spreadsheet/spreadsheetchart/id) { get; } | Obtient l'identifiant de ce[`SpreadsheetChart`](../spreadsheetchart) . |
-| [ImageFillFormat](../../groupdocs.watermark.contents.spreadsheet/spreadsheetchart/imagefillformat) { get; } | Obtient les paramètres de format de remplissage d'image de ce[`SpreadsheetChart`](../spreadsheetchart) . |
+| [ImageFillFormat](../../groupdocs.watermark.contents.spreadsheet/spreadsheetchart/imagefillformat) { get; } | Obtient les paramètres de format de remplissage d'image de cette[`SpreadsheetChart`](../spreadsheetchart) . |
 | [Name](../../groupdocs.watermark.contents.spreadsheet/spreadsheetchart/name) { get; } | Obtient le nom de ceci[`SpreadsheetChart`](../spreadsheetchart) . |
 | [Width](../../groupdocs.watermark.contents.spreadsheet/spreadsheetchart/width) { get; } | Obtient la largeur de ce[`SpreadsheetChart`](../spreadsheetchart)en points. |
 | [Worksheet](../../groupdocs.watermark.contents.spreadsheet/spreadsheetchart/worksheet) { get; } | Obtient la feuille de calcul parente de ce[`SpreadsheetChart`](../spreadsheetchart) . |

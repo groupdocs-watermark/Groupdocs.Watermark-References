@@ -25,7 +25,7 @@ public enum HorizontalAlignment
 
 ### Примечания
 
-**Учить больше**
+**Узнать больше**
 
 * [Добавить текстовый или графический водяной знак](https://docs.groupdocs.com/display/watermarknet/Add+text+or+image+watermark)
 * [Добавление водяных знаков](https://docs.groupdocs.com/display/watermarknet/Adding+watermarks)

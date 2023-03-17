@@ -33,6 +33,7 @@ public class TextWatermark : Watermark
 | [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | الحصول على أو تعيين قيمة تشير إلى ما إذا كان يجب وضع العلامة المائية في الخلفية. |
 | [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | الحصول على أو تعيين إعدادات الهامش لهذا[`Watermark`](../../groupdocs.watermark/watermark) . |
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | الحصول على أو تعيين تعتيم هذا[`Watermark`](../../groupdocs.watermark/watermark) . |
+| [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | الحصول على أو تعيين إعدادات المساحة المتروكة لهذا[`TextWatermark`](../textwatermark) . تنطبق هذه الخاصية فقط على ملفات الصور. |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | الحصول على أو تحديد زاوية الدوران لهذا[`Watermark`](../../groupdocs.watermark/watermark) بالدرجات . |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | الحصول على أو تعيين قيمة تحدد كيفية اعتماد حجم العلامة المائية على حجم الأصل. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | الحصول على أو تعيين قيمة تحدد طريقة تحديد حجم العلامة المائية. |

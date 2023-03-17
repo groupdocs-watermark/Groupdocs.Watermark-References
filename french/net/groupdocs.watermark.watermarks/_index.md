@@ -16,6 +16,7 @@ L'espace de noms fournit des classes pour spécifier les propriétés des filigr
 | [ImageWatermark](./imagewatermark) | Représente un filigrane d'image. |
 | [Margins](./margins) | Représente les paramètres de marge pour chaque bord d'un objet. |
 | [TextWatermark](./textwatermark) | Représente un filigrane de texte. |
+| [Thickness](./thickness) | Décrit l'épaisseur d'un cadre autour d'un rectangle. |
 ## Ouvrages
 
 | Structure | La description |

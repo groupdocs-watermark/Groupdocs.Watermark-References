@@ -1,14 +1,14 @@
 ---
 title: PdfSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化PdfSaveOptionsgroupdocs.watermark.options.pdf/pdfsaveoptions类.
+description: 初始化一个新的实例PdfSaveOptionsgroupdocs.watermark.options.pdf/pdfsaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.pdf/pdfsaveoptions/pdfsaveoptions/
 ---
 ## PdfSaveOptions constructor
 
-初始化[`PdfSaveOptions`](../../pdfsaveoptions)类.
+初始化一个新的实例[`PdfSaveOptions`](../../pdfsaveoptions)类.
 
 ```csharp
 public PdfSaveOptions()

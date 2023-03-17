@@ -16,7 +16,7 @@ public static Color Thistle { get; }
 
 ### Eigentumswert
 
-EIN[`Color`](../../color) eine systemdefinierte Farbe darstellt.
+A[`Color`](../../color) eine systemdefinierte Farbe darstellt.
 
 ### Siehe auch
 

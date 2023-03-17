@@ -1,14 +1,14 @@
 ---
 title: RemoveOnlyListBaseT
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 为强类型仅删除列表提供抽象基类
+description: 为强类型只删除列表提供抽象基类
 type: docs
 weight: 100
 url: /zh/net/groupdocs.watermark.common/removeonlylistbase-1/
 ---
 ## RemoveOnlyListBase&lt;T&gt; class
 
-为强类型仅删除列表提供抽象基类。
+为强类型只删除列表提供抽象基类。
 
 ```csharp
 public abstract class RemoveOnlyListBase<T> : ReadOnlyListBase<T>
@@ -23,7 +23,7 @@ public abstract class RemoveOnlyListBase<T> : ReadOnlyListBase<T>
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | 获取集合中包含的元素数。 |
-| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | 获取一个值，该值指示该集合是否为只读。 |
+| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | 获取一个值，指示集合是否为只读。 |
 | virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | 获取集合中指定索引处的元素。 |
 
 ## 方法
@@ -34,7 +34,7 @@ public abstract class RemoveOnlyListBase<T> : ReadOnlyListBase<T>
 | virtual [Contains](../../groupdocs.watermark.common/readonlylistbase-1/contains)(T) |  |
 | virtual [GetEnumerator](../../groupdocs.watermark.common/readonlylistbase-1/getenumerator)() |  |
 | virtual [IndexOf](../../groupdocs.watermark.common/readonlylistbase-1/indexof)(T) |  |
-| [Remove](../../groupdocs.watermark.common/removeonlylistbase-1/remove)(T) | 从集合中删除特定对象的第一个匹配项。 |
+| [Remove](../../groupdocs.watermark.common/removeonlylistbase-1/remove)(T) | 从集合中删除第一次出现的特定对象。 |
 | [RemoveAt](../../groupdocs.watermark.common/removeonlylistbase-1/removeat)(int) | 删除指定索引处的项目。 |
 
 ### 也可以看看

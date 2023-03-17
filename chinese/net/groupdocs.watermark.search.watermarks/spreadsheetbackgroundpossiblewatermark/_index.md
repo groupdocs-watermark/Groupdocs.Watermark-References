@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetBackgroundPossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Excel 文档中可能存在的背景水印
+description: 表示 Excel 文档中可能的背景水印
 type: docs
 weight: 2950
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/
 ---
 ## SpreadsheetBackgroundPossibleWatermark class
 
-表示 Excel 文档中可能存在的背景水印。
+表示 Excel 文档中可能的背景水印。
 
 ```csharp
 public class SpreadsheetBackgroundPossibleWatermark : PossibleWatermark
@@ -18,16 +18,16 @@ public class SpreadsheetBackgroundPossibleWatermark : PossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| override [Height](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/height) { get; } | 获取这个的高度[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)以像素为单位。 |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [Height](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/height) { get; } | 获取这个的高度[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)以像素为单位. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/parent) { get; } | 获取这个的父级[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)度数. |
-| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark). |
-| override [Width](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/width) { get; } | 获取这个的宽度[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)以像素为单位。 |
-| override [X](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/x) { get; } | 获取 this 的水平偏移量[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)从工作表左边界 以像素为单位。 |
-| override [Y](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/y) { get; } | 获取 this 的垂直偏移量[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)从工作表顶部边框 in 像素. |
+| override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)以度为单位. |
+| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置此文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark). |
+| override [Width](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/width) { get; } | 得到这个的宽度[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)以像素为单位. |
+| override [X](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/x) { get; } | 得到这个的水平偏移量[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)从工作表左 border 以像素为单位. |
+| override [Y](../../groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/y) { get; } | 获取此的垂直偏移量[`SpreadsheetBackgroundPossibleWatermark`](../spreadsheetbackgroundpossiblewatermark)从工作表顶部边框 in pixels. |
 
 ### 也可以看看
 

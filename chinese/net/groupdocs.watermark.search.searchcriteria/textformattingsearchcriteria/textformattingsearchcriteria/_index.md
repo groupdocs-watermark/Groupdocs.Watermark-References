@@ -1,14 +1,14 @@
 ---
 title: TextFormattingSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化TextFormattingSearchCriteriagroupdocs.watermark.search.searchcriteria/textformattingsearchcriteria类.
+description: 初始化一个新的实例TextFormattingSearchCriteriagroupdocs.watermark.search.searchcriteria/textformattingsearchcriteria类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/textformattingsearchcriteria/
 ---
 ## TextFormattingSearchCriteria constructor
 
-初始化[`TextFormattingSearchCriteria`](../../textformattingsearchcriteria)类.
+初始化一个新的实例[`TextFormattingSearchCriteria`](../../textformattingsearchcriteria)类.
 
 ```csharp
 public TextFormattingSearchCriteria()

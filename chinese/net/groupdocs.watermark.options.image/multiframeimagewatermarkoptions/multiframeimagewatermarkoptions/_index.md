@@ -1,14 +1,14 @@
 ---
 title: MultiframeImageWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化MultiframeImageWatermarkOptionsgroupdocs.watermark.options.image/multiframeimagewatermarkoptions类.
+description: 初始化一个新的实例MultiframeImageWatermarkOptionsgroupdocs.watermark.options.image/multiframeimagewatermarkoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/multiframeimagewatermarkoptions/
 ---
 ## MultiframeImageWatermarkOptions() {#constructor}
 
-初始化[`MultiframeImageWatermarkOptions`](../../multiframeimagewatermarkoptions)类.
+初始化一个新的实例[`MultiframeImageWatermarkOptions`](../../multiframeimagewatermarkoptions)类.
 
 ```csharp
 public MultiframeImageWatermarkOptions()
@@ -24,7 +24,7 @@ public MultiframeImageWatermarkOptions()
 
 ## MultiframeImageWatermarkOptions(int) {#constructor_1}
 
-初始化[`MultiframeImageWatermarkOptions`](../../multiframeimagewatermarkoptions) class 具有帧的指定索引。
+初始化一个新的实例[`MultiframeImageWatermarkOptions`](../../multiframeimagewatermarkoptions) class 具有指定索引的 frame.
 
 ```csharp
 public MultiframeImageWatermarkOptions(int frameIndex)
@@ -32,7 +32,7 @@ public MultiframeImageWatermarkOptions(int frameIndex)
 
 | 范围 | 类型 | 描述 |
 | --- | --- | --- |
-| frameIndex | Int32 | 添加水印的帧的索引。 |
+| frameIndex | Int32 | 添加水印的帧索引。 |
 
 ### 也可以看看
 

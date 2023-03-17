@@ -1,0 +1,49 @@
+---
+title: WordProcessingShape
+second_title: .NET API संदर्भ के लिए GroupDocs.Watermark
+description: एक वर्ड दस्तवेज़ में आरेखण आकर क प्रतनधत्व करत है
+type: docs
+weight: 1390
+url: /hi/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/
+---
+## WordProcessingShape class
+
+एक वर्ड दस्तावेज़ में आरेखण आकार का प्रतिनिधित्व करता है।
+
+```csharp
+public class WordProcessingShape : ShapeSearchAdapter, IRotatableTwoDObject
+```
+
+## गुण
+
+| नाम | विवरण |
+| --- | --- |
+| [AlternativeText](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/alternativetext) { get; set; } | इससे संबंधित वर्णनात्मक (वैकल्पिक) पाठ प्राप्त या सेट करता है[`WordProcessingShape`](../wordprocessingshape) . |
+| [BehindText](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/behindtext) { get; set; } | एक मान प्राप्त करता है या सेट करता है जो इंगित करता है कि आकार पाठ के ऊपर या पीछे है। |
+| [FormattedTextFragments](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/formattedtextfragments) { get; } | इसके स्वरूपित पाठ अंशों का संग्रह प्राप्त करता है[`WordProcessingShape`](../wordprocessingshape) . |
+| [HeaderFooter](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/headerfooter) { get; } | इसका पैरेंट हेडर/फ़ूटर प्राप्त करता है[`WordProcessingShape`](../wordprocessingshape) (यदि प्रस्तुत करता है). |
+| [Height](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/height) { get; set; } | इसकी ऊंचाई प्राप्त या सेट करता है[`WordProcessingShape`](../wordprocessingshape)अंकों में. |
+| [HorizontalAlignment](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/horizontalalignment) { get; } | यह निर्दिष्ट करने वाला मान प्राप्त करता है कि आकार क्षैतिज रूप से कैसे स्थित है। |
+| [Hyperlink](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/hyperlink) { get; set; } | इससे जुड़े हाइपरलिंक को प्राप्त या सेट करता है[`WordProcessingShape`](../wordprocessingshape) . |
+| [Image](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/image) { get; set; } | इसकी छवि प्राप्त या सेट करता है[`WordProcessingShape`](../wordprocessingshape) . |
+| [IsWordArt](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/iswordart) { get; } | यह इंगित करने वाला मान प्राप्त करता है कि क्या यह[`WordProcessingShape`](../wordprocessingshape) एक वर्डआर्ट ऑब्जेक्ट है. |
+| [Name](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/name) { get; } | इसका नाम मिलता है[`WordProcessingShape`](../wordprocessingshape) . |
+| [RelativeHorizontalPosition](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/relativehorizontalposition) { get; } | यह निर्दिष्ट करने वाला मान प्राप्त करता है कि आकार क्षैतिज रूप से क्या स्थित है। |
+| [RelativeVerticalPosition](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/relativeverticalposition) { get; } | यह निर्दिष्ट करने वाला मान प्राप्त करता है कि आकृति लंबवत रूप से किस स्थिति में है। |
+| [RotateAngle](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/rotateangle) { get; set; } | इसके रोटेट एंगल को प्राप्त या सेट करता है[`WordProcessingShape`](../wordprocessingshape) डिग्री में. |
+| [Section](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/section) { get; } | इसका मूल भाग प्राप्त करता है[`WordProcessingShape`](../wordprocessingshape) . |
+| [ShapeType](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/shapetype) { get; } | आकार प्रकार प्राप्त करता है। |
+| [Text](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/text) { get; set; } | इसका टेक्स्ट प्राप्त या सेट करता है[`WordProcessingShape`](../wordprocessingshape) . |
+| [VerticalAlignment](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/verticalalignment) { get; } | यह निर्दिष्ट करने वाला मान प्राप्त करता है कि आकृति लंबवत रूप से कैसे स्थित है। |
+| [Width](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/width) { get; set; } | इसकी चौड़ाई प्राप्त या सेट करता है[`WordProcessingShape`](../wordprocessingshape)अंकों में. |
+| [X](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/x) { get; set; } | इसका क्षैतिज ऑफसेट प्राप्त या सेट करता है[`WordProcessingShape`](../wordprocessingshape) पृष्ठ के बाएँ बॉर्डर से बिंदुओं में. |
+| [Y](../../groupdocs.watermark.contents.wordprocessing/wordprocessingshape/y) { get; set; } | इसका वर्टिकल ऑफसेट प्राप्त या सेट करता है[`WordProcessingShape`](../wordprocessingshape) पृष्ठ शीर्ष बॉर्डर से बिंदुओं में. |
+
+### यह सभी देखें
+
+* class [ShapeSearchAdapter](../../groupdocs.watermark.search/shapesearchadapter)
+* interface [IRotatableTwoDObject](../../groupdocs.watermark.search/irotatabletwodobject)
+* नाम स्थान [GroupDocs.Watermark.Contents.WordProcessing](../../groupdocs.watermark.contents.wordprocessing)
+* सभा [GroupDocs.Watermark](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Watermark.dll -->

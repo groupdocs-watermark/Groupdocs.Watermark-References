@@ -18,7 +18,7 @@ public class UnsupportedFileTypeException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UnsupportedFileTypeException](unsupportedfiletypeexception)() | 初始化[`UnsupportedFileTypeException`](../unsupportedfiletypeexception)类. |
+| [UnsupportedFileTypeException](unsupportedfiletypeexception)() | 初始化一个新的实例[`UnsupportedFileTypeException`](../unsupportedfiletypeexception)类. |
 
 ### 也可以看看
 

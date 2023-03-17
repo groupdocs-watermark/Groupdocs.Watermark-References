@@ -17,7 +17,7 @@ public SpreadsheetHeaderFooterSection this[
 
 | معامل | وصف |
 | --- | --- |
-| headerFooterSectionType | أ[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype)القيمة التي تحدد نوع القسم المطلوب الحصول عليه. |
+| headerFooterSectionType | أ[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype) القيمة التي تحدد نوع القسم المطلوب الحصول عليه. |
 
 ### Property_Value
 

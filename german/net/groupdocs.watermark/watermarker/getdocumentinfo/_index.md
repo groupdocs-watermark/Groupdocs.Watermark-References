@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Rückgabewert
 
-Das[`IDocumentInfo`](../../../groupdocs.watermark.common/idocumentinfo) Instanz, die erkannte Informationen enthält.
+Der[`IDocumentInfo`](../../../groupdocs.watermark.common/idocumentinfo) Instanz, die erkannte Informationen enthält.
 
 ### Bemerkungen
 

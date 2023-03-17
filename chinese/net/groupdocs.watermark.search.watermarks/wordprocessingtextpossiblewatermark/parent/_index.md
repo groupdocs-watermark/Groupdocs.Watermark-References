@@ -16,7 +16,7 @@ public override ContentPart Parent { get; }
 
 ### 适当的价值
 
-这个的家长[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark).
+这个的父[`WordProcessingTextPossibleWatermark`](../../wordprocessingtextpossiblewatermark).
 
 ### 也可以看看
 

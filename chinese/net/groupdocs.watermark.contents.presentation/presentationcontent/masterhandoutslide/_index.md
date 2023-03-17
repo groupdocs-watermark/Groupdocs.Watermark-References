@@ -16,7 +16,7 @@ public PresentationMasterHandoutSlide MasterHandoutSlide { get; }
 
 ### 适当的价值
 
-这个主讲义幻灯片[`PresentationContent`](../../presentationcontent).
+主讲义幻灯片[`PresentationContent`](../../presentationcontent).
 
 ### 也可以看看
 

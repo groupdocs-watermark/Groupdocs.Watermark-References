@@ -1,14 +1,14 @@
 ---
 title: POTX
 second_title: GroupDocs.Watermark لـ .NET API Reference
-description: تمثل الملفات ذات الامتداد .POTX العروض التقديمية لقوالب Microsoft PowerPoint التي تم إنشاؤها باستخدام Microsoft PowerPoint 2007 والإصدارات الأحدث. تعرف على المزيد حول هذا الملف format هناhttps//wiki.fileformat.com/presentation/potx/ .
+description: تمثل الملفات ذات الامتداد .POTX عروض تقديمية لقوالب Microsoft PowerPoint التي تم إنشاؤها باستخدام Microsoft PowerPoint 2007 والإصدارات الأحدث. تعرف على المزيد حول هذا الملف format هناhttps//wiki.fileformat.com/presentation/potx/ .
 type: docs
 weight: 270
 url: /ar/net/groupdocs.watermark.common/filetype/potx/
 ---
 ## FileType.POTX field
 
-تمثل الملفات ذات الامتداد .POTX العروض التقديمية لقوالب Microsoft PowerPoint التي تم إنشاؤها باستخدام Microsoft PowerPoint 2007 والإصدارات الأحدث. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/presentation/potx/) .
+تمثل الملفات ذات الامتداد .POTX عروض تقديمية لقوالب Microsoft PowerPoint التي تم إنشاؤها باستخدام Microsoft PowerPoint 2007 والإصدارات الأحدث. تعرف على المزيد حول هذا الملف format [هنا](https://wiki.fileformat.com/presentation/potx/) .
 
 ```csharp
 public static readonly FileType POTX;

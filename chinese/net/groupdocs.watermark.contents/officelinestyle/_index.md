@@ -1,14 +1,14 @@
 ---
 title: OfficeLineStyle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示一个复合线型OfficeLineFormat./officelineformat.
+description: 表示a的复合线型OfficeLineFormat./officelineformat.
 type: docs
 weight: 490
 url: /zh/net/groupdocs.watermark.contents/officelinestyle/
 ---
 ## OfficeLineStyle enumeration
 
-表示一个复合线型[`OfficeLineFormat`](../officelineformat).
+表示a的复合线型[`OfficeLineFormat`](../officelineformat).
 
 ```csharp
 public enum OfficeLineStyle
@@ -18,12 +18,12 @@ public enum OfficeLineStyle
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| Single | `0` | 单行。 |
+| Single | `0` | 单行. |
 | Default | `0` | 默认值为Single. |
-| Double | `1` | 等宽双线。 |
-| ThickThin | `2` | 双线，一粗，一细 |
-| ThinThick | `3` | 双线，一细一粗。 |
-| Triple | `4` | 三条线，细、粗、细。 |
+| Double | `1` | 等宽双线. |
+| ThickThin | `2` | 双线，一粗一细. |
+| ThinThick | `3` | 双线，一细一粗. |
+| Triple | `4` | 三行，细，粗，细。 |
 
 ### 也可以看看
 

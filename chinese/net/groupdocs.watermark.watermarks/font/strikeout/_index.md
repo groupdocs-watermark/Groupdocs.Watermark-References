@@ -1,14 +1,14 @@
 ---
 title: Strikeout
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取一个值该值指示字体是否指定穿过字体的水平线
+description: 获取一个值该值指示字体是否通过字体指定一条水平线
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.watermarks/font/strikeout/
 ---
 ## Font.Strikeout property
 
-获取一个值，该值指示字体是否指定穿过字体的水平线。
+获取一个值，该值指示字体是否通过字体指定一条水平线。
 
 ```csharp
 public bool Strikeout { get; }
@@ -16,7 +16,7 @@ public bool Strikeout { get; }
 
 ### 适当的价值
 
-如果此字体指定穿过字体的水平线，则为真；否则为假。
+如果此字体指定一条穿过字体的水平线，则为真；否则为真。否则，假的。
 
 ### 也可以看看
 

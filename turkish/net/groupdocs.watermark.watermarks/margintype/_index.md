@@ -20,7 +20,7 @@ public enum MarginType
 | --- | --- | --- |
 | Absolute | `0` | İçerik birimleri cinsinden ölçülen marj değeri. |
 | RelativeToParentDimensions | `1` | Marj değeri, uygun üst boyutun bir bölümü olarak yorumlanmalıdır. |
-| RelativeToParentMinDimension | `2` | Kenar boşluğu değeri, üst minimum boyutun bir kısmı olarak yorumlanmalıdır. |
+| RelativeToParentMinDimension | `2` | Kenar boşluğu değeri, üst minimum boyutun bir bölümü olarak yorumlanmalıdır. |
 
 ### Ayrıca bakınız
 

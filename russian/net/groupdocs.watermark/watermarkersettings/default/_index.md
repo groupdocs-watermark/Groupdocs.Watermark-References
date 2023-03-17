@@ -16,7 +16,7 @@ public static WatermarkerSettings Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`WatermarkerSettings`](../../watermarkersettings) учебный класс.
+Значение по умолчанию для[`WatermarkerSettings`](../../watermarkersettings) сорт.
 
 ### Смотрите также
 

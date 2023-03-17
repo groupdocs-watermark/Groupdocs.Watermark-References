@@ -1,14 +1,14 @@
 ---
 title: Encrypt
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 使用与用户密码和所有者密码相同的密码对文档进行加密
+description: 使用与用户密码和所有者密码相同的密码加密文档
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfcontent/encrypt/
 ---
 ## Encrypt(string) {#encrypt}
 
-使用与用户密码和所有者密码相同的密码对文档进行加密。
+使用与用户密码和所有者密码相同的密码加密文档。
 
 ```csharp
 public void Encrypt(string password)

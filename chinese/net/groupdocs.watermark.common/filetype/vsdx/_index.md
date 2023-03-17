@@ -1,14 +1,14 @@
 ---
 title: VSDX
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 带有 .VSDX 扩展名的文件代表从 Microsoft Office 2013 开始引入的 Microsoft Visio 文件格式了解有关此文件格式 的更多信息这里https//wiki.fileformat.com/image/vsdx/.
+description: 扩展名为 .VSDX 的文件代表从 Microsoft Office 2013 开始引入的 Microsoft Visio 文件格式详细了解此文件格式 这里https//wiki.fileformat.com/image/vsdx/.
 type: docs
 weight: 420
 url: /zh/net/groupdocs.watermark.common/filetype/vsdx/
 ---
 ## FileType.VSDX field
 
-带有 .VSDX 扩展名的文件代表从 Microsoft Office 2013 开始引入的 Microsoft Visio 文件格式。了解有关此文件格式 的更多信息[这里](https://wiki.fileformat.com/image/vsdx/).
+扩展名为 .VSDX 的文件代表从 Microsoft Office 2013 开始引入的 Microsoft Visio 文件格式。详细了解此文件格式 [这里](https://wiki.fileformat.com/image/vsdx/).
 
 ```csharp
 public static readonly FileType VSDX;

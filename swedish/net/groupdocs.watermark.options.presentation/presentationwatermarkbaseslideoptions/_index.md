@@ -45,7 +45,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.pptx", loadOptions))
     masterSlideOptions.MasterSlideIndex = -1; // standard
     watermarker.Add(watermark, masterSlideOptions);
 
-    // Lägg till vattenstämpel på alla layoutbilder
+    // Lägg till vattenstämpel till alla layoutbilder
     PresentationWatermarkLayoutSlideOptions layoutSlideOptions = new PresentationWatermarkLayoutSlideOptions();
     layoutSlideOptions.LayoutSlideIndex = -1; // standard
     watermarker.Add(watermark, layoutSlideOptions);
@@ -55,11 +55,11 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.pptx", loadOptions))
     noteSlideOptions.SlideIndex = -1; // standard
     watermarker.Add(watermark, noteSlideOptions);
 
-    // Lägg till vattenstämpel till handout master
+    // Lägg till vattenstämpel till handout-master
     PresentationWatermarkMasterHandoutSlideOptions masterHandoutSlideOptions = new PresentationWatermarkMasterHandoutSlideOptions();
     watermarker.Add(watermark, masterHandoutSlideOptions);
 
-    // Lägg till vattenstämpel till Notes Master
+    // Lägg till vattenstämpel till anteckningsmästaren
     PresentationWatermarkMasterNotesSlideOptions masterNotesSlideOptions = new PresentationWatermarkMasterNotesSlideOptions();
     watermarker.Add(watermark, masterNotesSlideOptions);
 

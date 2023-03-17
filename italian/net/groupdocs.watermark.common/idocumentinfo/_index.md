@@ -26,7 +26,7 @@ public interface IDocumentInfo
 
 ### Osservazioni
 
-**Scopri di più**
+**Saperne di più**
 
 * [Ottieni informazioni sul documento](https://docs.groupdocs.com/display/watermarknet/Get+document+info)
 

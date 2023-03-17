@@ -16,7 +16,7 @@ public SpreadsheetWatermarkableImage Image { get; set; }
 
 ### 适当的价值
 
-这个图片[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection). 如果该部分没有图像，则返回 null。
+这个的图像[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection). 如果该部分没有图像，则返回 null。
 
 ### 也可以看看
 

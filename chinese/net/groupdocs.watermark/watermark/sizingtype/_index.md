@@ -1,14 +1,14 @@
 ---
 title: SizingType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值指定水印的大小
+description: 获取或设置指定水印大小的方式的值
 type: docs
 weight: 90
 url: /zh/net/groupdocs.watermark/watermark/sizingtype/
 ---
 ## Watermark.SizingType property
 
-获取或设置一个值，指定水印的大小。
+获取或设置指定水印大小的方式的值。
 
 ```csharp
 public SizingType SizingType { get; set; }

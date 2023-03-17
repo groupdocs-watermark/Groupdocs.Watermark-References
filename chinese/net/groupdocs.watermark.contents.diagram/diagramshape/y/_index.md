@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的垂直偏移量DiagramShapegroupdocs.watermark.contents.diagram/diagramshape从页面底部边框以点为单位
+description: 获取或设置此的垂直偏移量DiagramShapegroupdocs.watermark.contents.diagram/diagramshape从页面底部边框开始.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramshape/y/
 ---
 ## DiagramShape.Y property
 
-获取或设置 this 的垂直偏移量[`DiagramShape`](../../diagramshape)从页面底部边框以点为单位。
+获取或设置此的垂直偏移量[`DiagramShape`](../../diagramshape)从页面底部边框开始.
 
 ```csharp
 public double Y { get; set; }

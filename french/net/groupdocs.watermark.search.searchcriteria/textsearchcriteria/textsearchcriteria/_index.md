@@ -37,7 +37,7 @@ public TextSearchCriteria(string searchString, bool isMatchCase)
 | Paramètre | Taper | La description |
 | --- | --- | --- |
 | searchString | String | La chaîne exacte à rechercher. |
-| isMatchCase | Boolean | ignorer la casse lors de la comparaison ; Par ailleurs,. |
+| isMatchCase | Boolean | ignorer la casse lors de la comparaison ; sinon,. |
 
 ### Voir également
 

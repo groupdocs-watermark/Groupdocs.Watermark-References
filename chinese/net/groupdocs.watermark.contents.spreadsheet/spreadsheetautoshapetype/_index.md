@@ -266,11 +266,11 @@ public enum SpreadsheetAutoShapeType
 | ChartPlus | `2105` | 内置自动形状类型。 |
 | Frame | `2106` | 内置自动形状类型。 |
 | Model3D | `2107` | 内置自动形状类型。 |
-| RoundCallout | `2108` | Excel中没有这种类型。 |
-| TextArchLeftPour | `2109` | Excel中没有这种类型。 |
-| TextArchRightPour | `2110` | Excel中没有这种类型。 |
-| TextArchLeftCurve | `2111` | Excel中没有这种类型。 |
-| TextArchRightCurve | `2112` | Excel中没有这种类型。 |
+| RoundCallout | `2108` | Excel中没有这个类型。 |
+| TextArchLeftPour | `2109` | Excel中没有这个类型。 |
+| TextArchRightPour | `2110` | Excel中没有这个类型。 |
+| TextArchLeftCurve | `2111` | Excel中没有这个类型。 |
+| TextArchRightCurve | `2112` | Excel中没有这个类型。 |
 | Unknown | `4095` | 未知的自动形状类型。 |
 
 ### 也可以看看

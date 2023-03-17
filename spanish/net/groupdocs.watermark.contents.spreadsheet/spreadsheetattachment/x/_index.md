@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: Referencia de API de GroupDocs.Watermark para .NET
-description: Obtiene o establece el desplazamiento horizontal del marco adjunto desde el borde izquierdo de la hoja de trabajo en puntos.
+description: Obtiene o establece el desplazamiento horizontal del marco adjunto desde el borde izquierdo de la hoja de cálculo en puntos.
 type: docs
 weight: 80
 url: /es/net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/x/
 ---
 ## SpreadsheetAttachment.X property
 
-Obtiene o establece el desplazamiento horizontal del marco adjunto desde el borde izquierdo de la hoja de trabajo en puntos.
+Obtiene o establece el desplazamiento horizontal del marco adjunto desde el borde izquierdo de la hoja de cálculo en puntos.
 
 ```csharp
 public double X { get; set; }

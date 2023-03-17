@@ -1,14 +1,14 @@
 ---
 title: PresentationSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示保存演示文稿文档时的文档保存选项
+description: 表示保存Presentation文档时的文档保存选项
 type: docs
 weight: 1970
 url: /zh/net/groupdocs.watermark.options.presentation/presentationsaveoptions/
 ---
 ## PresentationSaveOptions class
 
-表示保存演示文稿文档时的文档保存选项。
+表示保存Presentation文档时的文档保存选项。
 
 ```csharp
 public sealed class PresentationSaveOptions : SaveOptions
@@ -18,7 +18,7 @@ public sealed class PresentationSaveOptions : SaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [PresentationSaveOptions](presentationsaveoptions)() | 初始化[`PresentationSaveOptions`](../presentationsaveoptions)类. |
+| [PresentationSaveOptions](presentationsaveoptions)() | 初始化一个新的实例[`PresentationSaveOptions`](../presentationsaveoptions)类. |
 
 ## 特性
 

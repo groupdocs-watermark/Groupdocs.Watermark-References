@@ -1,14 +1,14 @@
 ---
 title: ImageFillFormat
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此的图像填充格式设置PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape.
+description: 获取this的图片填充格式设置PresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationbaseshape/imagefillformat/
 ---
 ## PresentationBaseShape.ImageFillFormat property
 
-获取此的图像填充格式设置[`PresentationBaseShape`](../../presentationbaseshape).
+获取this的图片填充格式设置[`PresentationBaseShape`](../../presentationbaseshape).
 
 ```csharp
 public PresentationImageFillFormat ImageFillFormat { get; }
@@ -16,7 +16,7 @@ public PresentationImageFillFormat ImageFillFormat { get; }
 
 ### 适当的价值
 
-这个的图像填充格式设置[`PresentationBaseShape`](../../presentationbaseshape).
+这个的图片填充格式设置[`PresentationBaseShape`](../../presentationbaseshape).
 
 ### 也可以看看
 

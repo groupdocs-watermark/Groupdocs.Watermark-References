@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度DiagramHeaderFooterPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark以点为单位
+description: 得到这个的宽度DiagramHeaderFooterPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark点.
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/width/
 ---
 ## DiagramHeaderFooterPossibleWatermark.Width property
 
-获取这个的宽度[`DiagramHeaderFooterPossibleWatermark`](../../diagramheaderfooterpossiblewatermark)以点为单位。
+得到这个的宽度[`DiagramHeaderFooterPossibleWatermark`](../../diagramheaderfooterpossiblewatermark)点.
 
 ```csharp
 public override double Width { get; }

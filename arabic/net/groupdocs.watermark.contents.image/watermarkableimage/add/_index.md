@@ -1,14 +1,14 @@
 ---
 title: Add
 second_title: GroupDocs.Watermark لـ .NET API Reference
-description: يضيف علامة مائية لهذاWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage. تفترض هذه الطريقة أنه يتم قياس إزاحة العلامة المائية وحجمها بالبكسل إذا تم تعيينها.
+description: يضيف علامة مائية لهذاWatermarkableImagegroupdocs.watermark.contents.image/watermarkableimage . تفترض هذه الطريقة أنه يتم قياس إزاحة العلامة المائية وحجمها بالبكسل إذا تم تعيينها.
 type: docs
 weight: 30
 url: /ar/net/groupdocs.watermark.contents.image/watermarkableimage/add/
 ---
 ## WatermarkableImage.Add method
 
-يضيف علامة مائية لهذا[`WatermarkableImage`](../../watermarkableimage). تفترض هذه الطريقة أنه يتم قياس إزاحة العلامة المائية وحجمها بالبكسل (إذا تم تعيينها).
+يضيف علامة مائية لهذا[`WatermarkableImage`](../../watermarkableimage) . تفترض هذه الطريقة أنه يتم قياس إزاحة العلامة المائية وحجمها بالبكسل (إذا تم تعيينها).
 
 ```csharp
 public void Add(Watermark watermark)

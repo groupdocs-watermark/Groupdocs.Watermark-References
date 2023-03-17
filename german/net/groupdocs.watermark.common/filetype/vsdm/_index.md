@@ -1,14 +1,14 @@
 ---
 title: VSDM
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Dateien mit der Erweiterung VSDM sind Zeichnungsdateien die mit der Microsoft VisioAnwendung erstellt wurden die Makros unterstützt. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/vsdm/ .
+description: Dateien mit der Erweiterung VSDM sind Zeichnungsdateien die mit der Microsoft VisioAnwendung erstellt wurden die Makros unterstützt. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/vsdm/ .
 type: docs
 weight: 410
 url: /de/net/groupdocs.watermark.common/filetype/vsdm/
 ---
 ## FileType.VSDM field
 
-Dateien mit der Erweiterung VSDM sind Zeichnungsdateien, die mit der Microsoft Visio-Anwendung erstellt wurden, die Makros unterstützt. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/vsdm/) .
+Dateien mit der Erweiterung VSDM sind Zeichnungsdateien, die mit der Microsoft Visio-Anwendung erstellt wurden, die Makros unterstützt. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/vsdm/) .
 
 ```csharp
 public static readonly FileType VSDM;

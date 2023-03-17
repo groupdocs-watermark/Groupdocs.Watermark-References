@@ -16,7 +16,7 @@ public string AlternativeText { get; set; }
 
 ### 适当的价值
 
-与此相关的描述性（替代）文本[`WordProcessingShape`](../../wordprocessingshape).
+与此关联的描述性（替代）文本[`WordProcessingShape`](../../wordprocessingshape).
 
 ### 也可以看看
 

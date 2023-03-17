@@ -17,11 +17,11 @@ public SpreadsheetHeaderFooterSection this[
 
 | Parámetro | Descripción |
 | --- | --- |
-| headerFooterSectionType | A[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype)valor que especifica el tipo de la sección a obtener. |
+| headerFooterSectionType | A[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype) valor que especifica el tipo de la sección a obtener. |
 
 ### El valor de la propiedad
 
-los[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection) de tipo especificado.
+El[`SpreadsheetHeaderFooterSection`](../../spreadsheetheaderfootersection) de tipo especificado.
 
 ### Ver también
 

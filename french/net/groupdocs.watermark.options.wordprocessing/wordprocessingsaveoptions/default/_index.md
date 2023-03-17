@@ -16,7 +16,7 @@ public static WordProcessingSaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`WordProcessingSaveOptions`](../../wordprocessingsaveoptions) classer.
+La valeur par défaut pour le[`WordProcessingSaveOptions`](../../wordprocessingsaveoptions) classe.
 
 ### Voir également
 

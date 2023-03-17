@@ -16,7 +16,7 @@ public WordProcessingHeaderFooter this[OfficeHeaderFooterType headerFooterType] 
 
 | 范围 | 描述 |
 | --- | --- |
-| headerFooterType | 一个[`OfficeHeaderFooterType`](../../../groupdocs.watermark.contents/officeheaderfootertype) value 指定要获取的页眉/页脚的类型。 |
+| headerFooterType | A[`OfficeHeaderFooterType`](../../../groupdocs.watermark.contents/officeheaderfootertype) value 指定要获取的页眉/页脚的类型。 |
 
 ### 适当的价值
 

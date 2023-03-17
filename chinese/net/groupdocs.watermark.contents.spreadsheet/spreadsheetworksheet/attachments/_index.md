@@ -1,14 +1,14 @@
 ---
 title: Attachments
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此所有附件的集合SpreadsheetWorksheetgroupdocs.watermark.contents.spreadsheet/spreadsheetworksheet.
+description: 获取本次所有附件的集合SpreadsheetWorksheetgroupdocs.watermark.contents.spreadsheet/spreadsheetworksheet.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/attachments/
 ---
 ## SpreadsheetWorksheet.Attachments property
 
-获取此所有附件的集合[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
+获取本次所有附件的集合[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
 
 ```csharp
 public SpreadsheetAttachmentCollection Attachments { get; }
@@ -16,7 +16,7 @@ public SpreadsheetAttachmentCollection Attachments { get; }
 
 ### 适当的价值
 
-本篇所有附件的合集[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
+本文所有附件合集[`SpreadsheetWorksheet`](../../spreadsheetworksheet).
 
 ### 也可以看看
 

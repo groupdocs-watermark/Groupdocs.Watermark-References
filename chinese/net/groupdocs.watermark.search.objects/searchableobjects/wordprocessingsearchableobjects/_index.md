@@ -16,7 +16,7 @@ public WordProcessingSearchableObjects WordProcessingSearchableObjects { get; se
 
 ### 适当的价值
 
-Word 文档中要包含在水印搜索中的对象。
+要包含在水印搜索中的 Word 文档中的对象。
 
 ### 也可以看看
 

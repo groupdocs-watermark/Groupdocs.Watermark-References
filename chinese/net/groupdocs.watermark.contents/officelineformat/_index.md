@@ -18,7 +18,7 @@ public sealed class OfficeLineFormat
 
 | 姓名 | 描述 |
 | --- | --- |
-| [OfficeLineFormat](officelineformat)() | 初始化[`OfficeLineFormat`](../officelineformat)类. |
+| [OfficeLineFormat](officelineformat)() | 初始化一个新的实例[`OfficeLineFormat`](../officelineformat)类. |
 
 ## 特性
 
@@ -26,10 +26,10 @@ public sealed class OfficeLineFormat
 | --- | --- |
 | [Color](../../groupdocs.watermark.contents/officelineformat/color) { get; set; } | 获取或设置线条的颜色。 |
 | [DashStyle](../../groupdocs.watermark.contents/officelineformat/dashstyle) { get; set; } | 获取或设置线条的点划线模式。 |
-| [Enabled](../../groupdocs.watermark.contents/officelineformat/enabled) { get; set; } | 获取或设置一个值，该值指示一个形状是否会被描边。 |
-| [LineStyle](../../groupdocs.watermark.contents/officelineformat/linestyle) { get; set; } | 获取或设置线型。 |
-| [Opacity](../../groupdocs.watermark.contents/officelineformat/opacity) { get; set; } | 获取或设置线条的不透明度。 |
-| [Weight](../../groupdocs.watermark.contents/officelineformat/weight) { get; set; } | 获取或设置描边形状路径的画笔粗细。 |
+| [Enabled](../../groupdocs.watermark.contents/officelineformat/enabled) { get; set; } | 获取或设置一个值，该值指示是否对形状进行描边。 |
+| [LineStyle](../../groupdocs.watermark.contents/officelineformat/linestyle) { get; set; } | 获取或设置线条样式。 |
+| [Opacity](../../groupdocs.watermark.contents/officelineformat/opacity) { get; set; } | 获取或设置线条不透明度。 |
+| [Weight](../../groupdocs.watermark.contents/officelineformat/weight) { get; set; } | 获取或设置描边形状路径的画笔厚度。 |
 
 ### 也可以看看
 

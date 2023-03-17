@@ -18,7 +18,7 @@ public abstract class FormattedTextFragment
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [BackgroundColor](../../groupdocs.watermark.search/formattedtextfragment/backgroundcolor) { get; } | 获取文本的背景颜色。 |
+| abstract [BackgroundColor](../../groupdocs.watermark.search/formattedtextfragment/backgroundcolor) { get; } | 获取文本的背景色。 |
 | abstract [Font](../../groupdocs.watermark.search/formattedtextfragment/font) { get; } | 获取文本的字体。 |
 | abstract [ForegroundColor](../../groupdocs.watermark.search/formattedtextfragment/foregroundcolor) { get; } | 获取文本的前景色。 |
 | abstract [Text](../../groupdocs.watermark.search/formattedtextfragment/text) { get; } | 获取片段文本。 |

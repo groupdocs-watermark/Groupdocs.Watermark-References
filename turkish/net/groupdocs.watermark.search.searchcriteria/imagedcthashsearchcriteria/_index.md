@@ -54,7 +54,7 @@ settings.SearchableObjects = new SearchableObjects
 PdfLoadOptions loadOptions = new PdfLoadOptions();
 using (Watermarker watermarker = new Watermarker(@"D:\test.pdf", loadOptions, settings))
 {
-    // Belge görüntülerini karşılaştırmak için örnek görüntü belirtin
+    // Belge resimlerini karşılaştırmak için örnek resim belirtin
     ImageSearchCriteria criteria = new ImageDctHashSearchCriteria(@"D:\sample.png");
     // Benzer görselleri ara
     PossibleWatermarkCollection possibleWatermarks = watermarker.Search(criteria);

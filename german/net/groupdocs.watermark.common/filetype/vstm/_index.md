@@ -1,14 +1,14 @@
 ---
 title: VSTM
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Dateien mit der Erweiterung VSTM sind Vorlagendateien die mit Microsoft Visio erstellt wurden und Makros unterstützen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vstm/ .
+description: Dateien mit der Erweiterung VSTM sind Vorlagendateien die mit Microsoft Visio erstellt wurden und Makros unterstützen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vstm/ .
 type: docs
 weight: 470
 url: /de/net/groupdocs.watermark.common/filetype/vstm/
 ---
 ## FileType.VSTM field
 
-Dateien mit der Erweiterung VSTM sind Vorlagendateien, die mit Microsoft Visio erstellt wurden und Makros unterstützen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vstm/) .
+Dateien mit der Erweiterung VSTM sind Vorlagendateien, die mit Microsoft Visio erstellt wurden und Makros unterstützen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vstm/) .
 
 ```csharp
 public static readonly FileType VSTM;

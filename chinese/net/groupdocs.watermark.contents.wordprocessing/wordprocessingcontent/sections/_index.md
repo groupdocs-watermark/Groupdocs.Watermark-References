@@ -1,14 +1,14 @@
 ---
 title: Sections
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此所有部分的集合WordProcessingContentgroupdocs.watermark.contents.wordprocessing/wordprocessingcontent.
+description: 获取此所有节的集合WordProcessingContentgroupdocs.watermark.contents.wordprocessing/wordprocessingcontent.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/sections/
 ---
 ## WordProcessingContent.Sections property
 
-获取此所有部分的集合[`WordProcessingContent`](../../wordprocessingcontent).
+获取此所有节的集合[`WordProcessingContent`](../../wordprocessingcontent).
 
 ```csharp
 public WordProcessingSectionCollection Sections { get; }
@@ -16,7 +16,7 @@ public WordProcessingSectionCollection Sections { get; }
 
 ### 适当的价值
 
-本篇所有部分的合集[`WordProcessingContent`](../../wordprocessingcontent).
+本节所有部分的集合[`WordProcessingContent`](../../wordprocessingcontent).
 
 ### 也可以看看
 

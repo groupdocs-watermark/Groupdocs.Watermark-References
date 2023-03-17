@@ -16,7 +16,7 @@ public static WordProcessingLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`WordProcessingLoadOptions`](../../wordprocessingloadoptions) صف دراسي.
+القيمة الافتراضية لملف[`WordProcessingLoadOptions`](../../wordprocessingloadoptions) فصل.
 
 ### أنظر أيضا
 

@@ -16,7 +16,7 @@ public static PresentationLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`PresentationLoadOptions`](../../presentationloadoptions) صف دراسي.
+القيمة الافتراضية لملف[`PresentationLoadOptions`](../../presentationloadoptions) فصل.
 
 ### أنظر أيضا
 

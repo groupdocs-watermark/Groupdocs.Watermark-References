@@ -1,14 +1,14 @@
 ---
 title: DifferentFirstPageHeaderFooter
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示是否将不同的页眉/页脚用于第一页
+description: 获取或设置一个值该值指示第一页是否使用不同的页眉/页脚
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/differentfirstpageheaderfooter/
 ---
 ## WordProcessingPageSetup.DifferentFirstPageHeaderFooter property
 
-获取或设置一个值，该值指示是否将不同的页眉/页脚用于第一页。
+获取或设置一个值，该值指示第一页是否使用不同的页眉/页脚。
 
 ```csharp
 public bool DifferentFirstPageHeaderFooter { get; set; }
@@ -16,7 +16,7 @@ public bool DifferentFirstPageHeaderFooter { get; set; }
 
 ### 适当的价值
 
-如果第一页使用了不同的页眉/页脚，则为真；否则为假。
+如果第一页使用不同的页眉/页脚，则为真；否则，假的。
 
 ### 也可以看看
 

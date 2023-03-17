@@ -47,7 +47,7 @@ public sealed class ImageWatermark : Watermark, IDisposable
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiunta di filigrane alle immagini](https://docs.groupdocs.com/display/watermarknet/Adding+image+watermarks)
 

@@ -1,14 +1,14 @@
 ---
 title: GifImageSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化GifImageSaveOptionsgroupdocs.watermark.options.image/gifimagesaveoptions类.
+description: 初始化一个新的实例GifImageSaveOptionsgroupdocs.watermark.options.image/gifimagesaveoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.image/gifimagesaveoptions/gifimagesaveoptions/
 ---
 ## GifImageSaveOptions constructor
 
-初始化[`GifImageSaveOptions`](../../gifimagesaveoptions)类.
+初始化一个新的实例[`GifImageSaveOptions`](../../gifimagesaveoptions)类.
 
 ```csharp
 public GifImageSaveOptions()

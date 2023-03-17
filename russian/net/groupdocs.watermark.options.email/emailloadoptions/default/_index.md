@@ -16,7 +16,7 @@ public static EmailLoadOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`EmailLoadOptions`](../../emailloadoptions) учебный класс.
+Значение по умолчанию для[`EmailLoadOptions`](../../emailloadoptions) сорт.
 
 ### Смотрите также
 

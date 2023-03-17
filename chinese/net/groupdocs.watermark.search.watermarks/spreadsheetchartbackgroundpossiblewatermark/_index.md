@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetChartBackgroundPossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 Excel 图表背景中可能存在的图像水印
+description: 表示Excel图表背景中可能出现的图片水印
 type: docs
 weight: 2970
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetchartbackgroundpossiblewatermark/
 ---
 ## SpreadsheetChartBackgroundPossibleWatermark class
 
-表示 Excel 图表背景中可能存在的图像水印。
+表示Excel图表背景中可能出现的图片水印。
 
 ```csharp
 public class SpreadsheetChartBackgroundPossibleWatermark : TwoDObjectPossibleWatermark
@@ -18,16 +18,16 @@ public class SpreadsheetChartBackgroundPossibleWatermark : TwoDObjectPossibleWat
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search/twodobjectpossiblewatermark/height) { get; } | 获取二维对象的高度。 |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/spreadsheetchartbackgroundpossiblewatermark/parent) { get; } | 获取这个的父级[`SpreadsheetChartBackgroundPossibleWatermark`](../spreadsheetchartbackgroundpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheetchartbackgroundpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`SpreadsheetChartBackgroundPossibleWatermark`](../spreadsheetchartbackgroundpossiblewatermark)度数. |
-| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/spreadsheetchartbackgroundpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`SpreadsheetChartBackgroundPossibleWatermark`](../spreadsheetchartbackgroundpossiblewatermark). |
+| override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheetchartbackgroundpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`SpreadsheetChartBackgroundPossibleWatermark`](../spreadsheetchartbackgroundpossiblewatermark)以度为单位. |
+| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置此文本[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/spreadsheetchartbackgroundpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`SpreadsheetChartBackgroundPossibleWatermark`](../spreadsheetchartbackgroundpossiblewatermark). |
 | override [Width](../../groupdocs.watermark.search/twodobjectpossiblewatermark/width) { get; } | 获取二维对象的宽度。 |
-| override [X](../../groupdocs.watermark.search/twodobjectpossiblewatermark/x) { get; } | 获取 2D 对象的 x 坐标。 |
-| override [Y](../../groupdocs.watermark.search/twodobjectpossiblewatermark/y) { get; } | 获取 2D 对象的 y 坐标。 |
+| override [X](../../groupdocs.watermark.search/twodobjectpossiblewatermark/x) { get; } | 获取二维对象的 x 坐标。 |
+| override [Y](../../groupdocs.watermark.search/twodobjectpossiblewatermark/y) { get; } | 获取二维对象的y坐标。 |
 
 ### 也可以看看
 

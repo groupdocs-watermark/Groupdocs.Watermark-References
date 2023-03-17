@@ -1,14 +1,14 @@
 ---
 title: PageCount
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取文档的页数
+description: 获取文档中的页数
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/pagecount/
 ---
 ## WordProcessingContent.PageCount property
 
-获取文档的页数。
+获取文档中的页数。
 
 ```csharp
 public int PageCount { get; }

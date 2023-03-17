@@ -1,14 +1,14 @@
 ---
 title: RelativeHorizontalPosition
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取指定形状水平位置的值
+description: 获取指定形状水平放置的值
 type: docs
 weight: 110
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/relativehorizontalposition/
 ---
 ## WordProcessingShape.RelativeHorizontalPosition property
 
-获取指定形状水平位置的值。
+获取指定形状水平放置的值。
 
 ```csharp
 public WordProcessingRelativeHorizontalPosition RelativeHorizontalPosition { get; }

@@ -19,11 +19,11 @@ public enum OfficeDashStyle
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Solid | `0` | 实心（连续）笔。 |
-| Default | `0` | 同Solid. |
+| Default | `0` | 与Solid. |
 | Dot | `1` | 点样式. |
 | Dash | `2` | 破折号样式. |
-| DashDot | `3` | 点划线样式。 |
-| DashDotDot | `4` | 点划线点样式。 |
+| DashDot | `3` | 划线点样式。 |
+| DashDotDot | `4` | Dash dot 点样式. |
 
 ### 也可以看看
 

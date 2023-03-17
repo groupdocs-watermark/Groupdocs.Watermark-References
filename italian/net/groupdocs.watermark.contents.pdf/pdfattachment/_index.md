@@ -33,7 +33,7 @@ public class PdfAttachment : Attachment
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Allegati nel documento PDF](https://docs.groupdocs.com/display/watermarknet/Attachments+in+PDF+document)
 

@@ -1,14 +1,14 @@
 ---
 title: GetRowHeight
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: Belirtilen satırın yüksekliğini punto olarak alır.
+description: Belirtilen satırın yüksekliğini punto cinsinden alır.
 type: docs
 weight: 130
 url: /tr/net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/getrowheight/
 ---
 ## SpreadsheetWorksheet.GetRowHeight method
 
-Belirtilen satırın yüksekliğini punto olarak alır.
+Belirtilen satırın yüksekliğini punto cinsinden alır.
 
 ```csharp
 public double GetRowHeight(int row)

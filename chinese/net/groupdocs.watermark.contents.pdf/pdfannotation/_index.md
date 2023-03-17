@@ -1,14 +1,14 @@
 ---
 title: PdfAnnotation
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 pdf 文档中的注释
+description: 表示pdf文档中的注释
 type: docs
 weight: 520
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfannotation/
 ---
 ## PdfAnnotation class
 
-表示 pdf 文档中的注释。
+表示pdf文档中的注释。
 
 ```csharp
 public class PdfAnnotation : PdfShape
@@ -19,19 +19,19 @@ public class PdfAnnotation : PdfShape
 | 姓名 | 描述 |
 | --- | --- |
 | [AnnotationType](../../groupdocs.watermark.contents.pdf/pdfannotation/annotationtype) { get; } | 获取 this 的类型[`PdfAnnotation`](../pdfannotation). |
-| [FormattedTextFragments](../../groupdocs.watermark.contents.pdf/pdfshape/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PdfShape`](../pdfshape). |
-| override [Height](../../groupdocs.watermark.contents.pdf/pdfannotation/height) { get; } | 获取这个的高度[`PdfAnnotation`](../pdfannotation)以点为单位。 |
+| [FormattedTextFragments](../../groupdocs.watermark.contents.pdf/pdfshape/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PdfShape`](../pdfshape). |
+| override [Height](../../groupdocs.watermark.contents.pdf/pdfannotation/height) { get; } | 获取这个的高度[`PdfAnnotation`](../pdfannotation)点. |
 | [Image](../../groupdocs.watermark.contents.pdf/pdfshape/image) { get; set; } | 获取或设置此图像[`PdfShape`](../pdfshape). |
 | [Page](../../groupdocs.watermark.contents.pdf/pdfannotation/page) { get; } | 获取这个的父页面[`PdfAnnotation`](../pdfannotation). |
-| override [RotateAngle](../../groupdocs.watermark.contents.pdf/pdfannotation/rotateangle) { get; } | 获取 this 的旋转角度[`PdfAnnotation`](../pdfannotation)度数. |
-| virtual [Text](../../groupdocs.watermark.contents.pdf/pdfshape/text) { get; set; } | 获取或设置 this 的文本[`PdfShape`](../pdfshape). |
-| override [Width](../../groupdocs.watermark.contents.pdf/pdfannotation/width) { get; } | 获取这个的宽度[`PdfAnnotation`](../pdfannotation)以点为单位。 |
-| override [X](../../groupdocs.watermark.contents.pdf/pdfannotation/x) { get; } | 获取 this 的水平偏移量[`PdfAnnotation`](../pdfannotation)从页面左边框开始。 |
-| override [Y](../../groupdocs.watermark.contents.pdf/pdfannotation/y) { get; } | 获取 this 的垂直偏移量[`PdfAnnotation`](../pdfannotation)以点为单位的工作表底部边框. |
+| override [RotateAngle](../../groupdocs.watermark.contents.pdf/pdfannotation/rotateangle) { get; } | 获取this的旋转角度[`PdfAnnotation`](../pdfannotation)以度为单位. |
+| virtual [Text](../../groupdocs.watermark.contents.pdf/pdfshape/text) { get; set; } | 获取或设置此文本[`PdfShape`](../pdfshape). |
+| override [Width](../../groupdocs.watermark.contents.pdf/pdfannotation/width) { get; } | 得到这个的宽度[`PdfAnnotation`](../pdfannotation)点. |
+| override [X](../../groupdocs.watermark.contents.pdf/pdfannotation/x) { get; } | 得到这个的水平偏移量[`PdfAnnotation`](../pdfannotation)从页面左边框开始. |
+| override [Y](../../groupdocs.watermark.contents.pdf/pdfannotation/y) { get; } | 获取此的垂直偏移量[`PdfAnnotation`](../pdfannotation)从工作表底部边框以点为单位. |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [使用注释](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithannotations)
 

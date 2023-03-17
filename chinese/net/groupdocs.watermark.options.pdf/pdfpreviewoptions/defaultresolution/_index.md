@@ -1,14 +1,14 @@
 ---
 title: DefaultResolution
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 以每英寸点数为单位的默认分辨率
+description: 默认分辨率以每英寸点数为单位.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.options.pdf/pdfpreviewoptions/defaultresolution/
 ---
 ## PdfPreviewOptions.DefaultResolution field
 
-以每英寸点数为单位的默认分辨率。
+默认分辨率（以每英寸点数为单位）.
 
 ```csharp
 public const int DefaultResolution;

@@ -45,7 +45,7 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.xlsx", load
     TextWatermark watermark = new TextWatermark("Test watermark", new Font("Arial", 36));
 
     SpreadsheetBackgroundWatermarkOptions options = new SpreadsheetBackgroundWatermarkOptions();
-    options.WorksheetIndex = -1; // defecto
+    options.WorksheetIndex = -1; // por defecto
     options.BackgroundWidth = 800;
     options.BackgroundHeight = 600;
 

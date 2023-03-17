@@ -16,7 +16,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### Valor_devuelto
 
-los[`IDocumentInfo`](../../idocumentinfo) instancia que contiene información detectada
+El[`IDocumentInfo`](../../idocumentinfo) instancia que contiene información detectada
 
 ### Ver también
 

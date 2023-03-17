@@ -18,16 +18,16 @@ public class WordProcessingTextPossibleWatermark : PossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [FormattedTextFragments](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark). |
-| override [Height](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/height) { get; } | 获取这个的高度[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark)以点为单位。 |
+| override [FormattedTextFragments](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark). |
+| override [Height](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/height) { get; } | 获取这个的高度[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark)点. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/parent) { get; } | 获取这个的父级[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark)度数. |
-| override [Text](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark). |
-| override [Width](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/width) { get; } | 获取这个的宽度[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark)以点为单位。 |
-| override [X](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/x) { get; } | 获取 this 的水平偏移量[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark) 从文档左边框开始，以点为单位。 |
-| override [Y](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/y) { get; } | 获取 this 的垂直偏移量[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark) 从文档顶部边框开始，以点为单位。 |
+| override [RotateAngle](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark)以度为单位. |
+| override [Text](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/text) { get; set; } | 获取或设置此文本[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark). |
+| override [Width](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/width) { get; } | 得到这个的宽度[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark)点. |
+| override [X](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/x) { get; } | 得到这个的水平偏移量[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark) 来自文档左边框（以点为单位）。 |
+| override [Y](../../groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/y) { get; } | 获取此的垂直偏移量[`WordProcessingTextPossibleWatermark`](../wordprocessingtextpossiblewatermark) 来自以点为单位的文档顶部边框。 |
 
 ### 也可以看看
 

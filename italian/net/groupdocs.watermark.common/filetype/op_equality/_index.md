@@ -16,8 +16,8 @@ public static bool operator ==(FileType left, FileType right)
 
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
-| left | FileType | Sono partiti[`FileType`](../../filetype) oggetto. |
-| right | FileType | Destra[`FileType`](../../filetype) oggetto. |
+| left | FileType | Sinistra[`FileType`](../../filetype) oggetto. |
+| right | FileType | Giusto[`FileType`](../../filetype) oggetto. |
 
 ### Valore di ritorno
 

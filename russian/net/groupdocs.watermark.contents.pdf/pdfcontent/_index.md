@@ -38,7 +38,7 @@ public class PdfContent : Content
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в документы PDF](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 * [Существующие объекты в документе PDF](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document)

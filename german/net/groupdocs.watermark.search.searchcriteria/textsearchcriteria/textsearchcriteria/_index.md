@@ -37,7 +37,7 @@ public TextSearchCriteria(string searchString, bool isMatchCase)
 | Parameter | Typ | Beschreibung |
 | --- | --- | --- |
 | searchString | String | Die genaue Zeichenfolge, nach der gesucht werden soll. |
-| isMatchCase | Boolean | Groß-/Kleinschreibung während des Vergleichs ignorieren; Andernfalls,. |
+| isMatchCase | Boolean | Groß-/Kleinschreibung während des Vergleichs ignorieren; ansonsten,. |
 
 ### Siehe auch
 

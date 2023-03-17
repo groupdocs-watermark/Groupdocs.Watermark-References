@@ -1,14 +1,14 @@
 ---
 title: ArtifactSubtype
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的子类型PdfArtifactgroupdocs.watermark.contents.pdf/pdfartifact.
+description: 得到这个的子类型PdfArtifactgroupdocs.watermark.contents.pdf/pdfartifact.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfartifact/artifactsubtype/
 ---
 ## PdfArtifact.ArtifactSubtype property
 
-获取 this 的子类型[`PdfArtifact`](../../pdfartifact).
+得到这个的子类型[`PdfArtifact`](../../pdfartifact).
 
 ```csharp
 public PdfArtifactSubtype ArtifactSubtype { get; }
@@ -16,7 +16,7 @@ public PdfArtifactSubtype ArtifactSubtype { get; }
 
 ### 适当的价值
 
-这个亚型[`PdfArtifact`](../../pdfartifact).
+这个的子类型[`PdfArtifact`](../../pdfartifact).
 
 ### 也可以看看
 

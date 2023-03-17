@@ -31,7 +31,7 @@ public class WordProcessingWatermarkableImage : WatermarkableImage
 
 | Nom | La description |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Ajoute un filigrane à ceci[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage). Cette méthode suppose que le décalage et la taille du filigrane sont mesurés en pixels (s'ils sont attribués). |
+| [Add](../../groupdocs.watermark.contents.image/watermarkableimage/add)(Watermark) | Ajoute un filigrane à ceci[`WatermarkableImage`](../../groupdocs.watermark.contents.image/watermarkableimage) . Cette méthode suppose que le décalage et la taille du filigrane sont mesurés en pixels (s'ils sont attribués). |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | Recherche toutes les images dans le contenu. La recherche est effectuée dans les objets spécifiés dans[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Trouve des images selon les critères de recherche spécifiés. La recherche est effectuée dans les objets spécifiés dans[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects) . |
 | [GetBytes](../../groupdocs.watermark.contents.image/watermarkableimage/getbytes)() | Obtient l'image sous forme de tableau d'octets. |

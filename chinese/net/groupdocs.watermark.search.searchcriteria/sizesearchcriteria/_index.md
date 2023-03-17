@@ -1,14 +1,14 @@
 ---
 title: SizeSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示允许按水印大小过滤的标准
+description: 表示允许按水印大小过滤的条件
 type: docs
 weight: 2680
 url: /zh/net/groupdocs.watermark.search.searchcriteria/sizesearchcriteria/
 ---
 ## SizeSearchCriteria class
 
-表示允许按水印大小过滤的标准。
+表示允许按水印大小过滤的条件。
 
 ```csharp
 public class SizeSearchCriteria : SearchCriteria
@@ -18,7 +18,7 @@ public class SizeSearchCriteria : SearchCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SizeSearchCriteria](sizesearchcriteria)(Dimension, double, double) | 初始化[`SizeSearchCriteria`](../sizesearchcriteria)class 具有指定的维度、起始值和结束值。 |
+| [SizeSearchCriteria](sizesearchcriteria)(Dimension, double, double) | 初始化一个新的实例[`SizeSearchCriteria`](../sizesearchcriteria)具有指定维度、起始值和结束值的 class 。 |
 
 ## 特性
 
@@ -32,13 +32,13 @@ public class SizeSearchCriteria : SearchCriteria
 
 | 姓名 | 描述 |
 | --- | --- |
-| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)使用逻辑 AND 运算符的其他条件。 |
+| [And](../../groupdocs.watermark.search.searchcriteria/searchcriteria/and)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑 AND 运算符. |
 | [Not](../../groupdocs.watermark.search.searchcriteria/searchcriteria/not)() | 否定这个[`SearchCriteria`](../searchcriteria). |
-| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与使用逻辑 OR 运算符的其他条件。 |
+| [Or](../../groupdocs.watermark.search.searchcriteria/searchcriteria/or)(SearchCriteria) | 结合这个[`SearchCriteria`](../searchcriteria)与其他标准使用逻辑或运算符. |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [搜索水印](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

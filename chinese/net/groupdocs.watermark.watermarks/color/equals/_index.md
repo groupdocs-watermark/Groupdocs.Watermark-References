@@ -1,14 +1,14 @@
 ---
 title: Equals
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 判断是否指定Colorgroupdocs.watermark.watermarks/color结构相当于这个Colorgroupdocs.watermark.watermarks/color结构.
+description: 判断指定的是否Colorgroupdocs.watermark.watermarks/color结构相当于这个Colorgroupdocs.watermark.watermarks/color结构.
 type: docs
 weight: 1490
 url: /zh/net/groupdocs.watermark.watermarks/color/equals/
 ---
 ## Equals(Color) {#equals}
 
-判断是否指定[`Color`](../../color)结构相当于这个[`Color`](../../color)结构.
+判断指定的是否[`Color`](../../color)结构相当于这个[`Color`](../../color)结构.
 
 ```csharp
 public bool Equals(Color other)
@@ -20,7 +20,7 @@ public bool Equals(Color other)
 
 ### 返回值
 
-如果 other 与此等效，则为真[`Color`](../../color)结构体;否则为假。
+如果其他等效于此，则为真[`Color`](../../color)结构;否则，假的。
 
 ### 也可以看看
 
@@ -32,7 +32,7 @@ public bool Equals(Color other)
 
 ## Equals(object) {#equals_1}
 
-判断指定对象是否为[`Color`](../../color)&gt; 结构和等价于 this[`Color`](../../color)结构.
+判断指定对象是否为[`Color`](../../color)&gt; 结构和相当于 这个[`Color`](../../color)结构.
 
 ```csharp
 public override bool Equals(object obj)
@@ -44,7 +44,7 @@ public override bool Equals(object obj)
 
 ### 返回值
 
-如果对象是一个[`Color`](../../color)相当于这个结构[`Color`](../../color)结构体;否则为假。
+如果对象是一个则为真[`Color`](../../color)相当于这个的结构[`Color`](../../color)结构;否则为 false.
 
 ### 也可以看看
 

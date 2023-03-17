@@ -16,7 +16,7 @@ public Dimension Dimension { get; }
 
 ### 适当的价值
 
-要搜索的水印的维度。
+要搜索的水印尺寸。
 
 ### 也可以看看
 

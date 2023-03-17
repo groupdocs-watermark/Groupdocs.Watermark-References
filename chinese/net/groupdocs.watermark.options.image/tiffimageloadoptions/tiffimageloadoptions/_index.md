@@ -1,14 +1,14 @@
 ---
 title: TiffImageLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化TiffImageLoadOptionsgroupdocs.watermark.options.image/tiffimageloadoptions类.
+description: 初始化一个新的实例TiffImageLoadOptionsgroupdocs.watermark.options.image/tiffimageloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.image/tiffimageloadoptions/tiffimageloadoptions/
 ---
 ## TiffImageLoadOptions constructor
 
-初始化[`TiffImageLoadOptions`](../../tiffimageloadoptions)类.
+初始化一个新的实例[`TiffImageLoadOptions`](../../tiffimageloadoptions)类.
 
 ```csharp
 public TiffImageLoadOptions()

@@ -34,7 +34,7 @@ public abstract class Watermark
 
 ### Bemerkungen
 
-**Mehr erfahren**
+**Erfahren Sie mehr**
 
 * Weitere Details zu Wasserzeicheneigenschaften: [Hinzufügen von Textwasserzeichen](https://docs.groupdocs.com/display/watermarknet/Adding+text+watermarks)
 * Weiterführende Wasserzeichenthemen: [Hinzufügen von Wasserzeichen](https://docs.groupdocs.com/display/watermarknet/Adding+watermarks)

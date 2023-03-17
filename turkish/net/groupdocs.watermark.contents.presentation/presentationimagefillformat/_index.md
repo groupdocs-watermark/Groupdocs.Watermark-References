@@ -19,7 +19,7 @@ public class PresentationImageFillFormat : OfficeImageFillFormat<PresentationWat
 | İsim | Tanım |
 | --- | --- |
 | override [BackgroundImage](../../groupdocs.watermark.contents.presentation/presentationimagefillformat/backgroundimage) { get; set; } | Arka plan görüntüsünü alır veya ayarlar. |
-| override [TileAsTexture](../../groupdocs.watermark.contents.presentation/presentationimagefillformat/tileastexture) { get; set; } | Görüntünün arka plan boyunca döşenip döşenmediğini gösteren bir değer alır veya ayarlar. |
+| override [TileAsTexture](../../groupdocs.watermark.contents.presentation/presentationimagefillformat/tileastexture) { get; set; } | Görüntünün arka plan boyunca döşenip döşenmediğini belirten bir değer alır veya ayarlar. |
 | override [Transparency](../../groupdocs.watermark.contents.presentation/presentationimagefillformat/transparency) { get; set; } | Arka plan görüntüsünün şeffaflığını 0,0 (opak) ile 1,0 (tamamen şeffaf) arasında bir değer olarak alır veya ayarlar. |
 
 ### Ayrıca bakınız

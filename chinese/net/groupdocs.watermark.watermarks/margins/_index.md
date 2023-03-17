@@ -1,14 +1,14 @@
 ---
 title: Margins
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示对象每条边的边距设置
+description: 表示对象每个边缘的边距设置
 type: docs
 weight: 3130
 url: /zh/net/groupdocs.watermark.watermarks/margins/
 ---
 ## Margins class
 
-表示对象每条边的边距设置。
+表示对象每个边缘的边距设置。
 
 ```csharp
 public class Margins
@@ -18,16 +18,16 @@ public class Margins
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Margins](margins#constructor)() | 初始化[`Margins`](../margins)类. |
-| [Margins](margins#constructor_1)(MarginType, double, double, double, double) | 初始化[`Margins`](../margins)具有指定类型、位置和大小的类。 |
+| [Margins](margins#constructor)() | 初始化一个新的实例[`Margins`](../margins)类. |
+| [Margins](margins#constructor_1)(MarginType, double, double, double, double) | 初始化一个新的实例[`Margins`](../margins)具有指定类型、位置和大小的类。 |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Bottom](../../groupdocs.watermark.watermarks/margins/bottom) { get; set; } | 获取或设置下边距。 |
+| [Bottom](../../groupdocs.watermark.watermarks/margins/bottom) { get; set; } | 获取或设置底部边距。 |
 | [Left](../../groupdocs.watermark.watermarks/margins/left) { get; set; } | 获取或设置左边距。 |
-| [MarginType](../../groupdocs.watermark.watermarks/margins/margintype) { get; set; } | 获取或设置边距类型。为这个属性设置一个新值 自动将所有边距返回到它们的默认值（零）。 |
+| [MarginType](../../groupdocs.watermark.watermarks/margins/margintype) { get; set; } | 获取或设置保证金类型。为此属性设置一个新值 会自动将所有边距返回到它们的默认值（零）。 |
 | [Right](../../groupdocs.watermark.watermarks/margins/right) { get; set; } | 获取或设置右边距。 |
 | [Top](../../groupdocs.watermark.watermarks/margins/top) { get; set; } | 获取或设置上边距。 |
 

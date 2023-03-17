@@ -16,6 +16,7 @@ url: /ru/net/groupdocs.watermark.watermarks/
 | [ImageWatermark](./imagewatermark) | Представляет водяной знак изображения. |
 | [Margins](./margins) | Представляет настройки полей для каждого края объекта. |
 | [TextWatermark](./textwatermark) | Представляет текстовый водяной знак. |
+| [Thickness](./thickness) | Описывает толщину рамки вокруг прямоугольника. |
 ## Структуры
 
 | Структура | Описание |

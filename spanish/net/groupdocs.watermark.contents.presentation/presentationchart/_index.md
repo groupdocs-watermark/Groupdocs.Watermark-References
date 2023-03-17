@@ -26,7 +26,7 @@ public class PresentationChart : PresentationBaseShape
 | [Presentation](../../groupdocs.watermark.contents.presentation/presentationbaseshape/presentation) { get; } | Obtiene la presentación principal de este[`PresentationBaseShape`](../presentationbaseshape) . |
 | [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | Obtiene o establece el ancho de este[`PresentationBaseShape`](../presentationbaseshape)en puntos. |
 | [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | Obtiene o establece el desplazamiento horizontal de este[`PresentationBaseShape`](../presentationbaseshape) del borde izquierdo de la presentación en puntos. |
-| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Obtiene o establece el desplazamiento vertical de este[`PresentationBaseShape`](../presentationbaseshape)from borde superior de presentación en puntos. |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Obtiene o establece el desplazamiento vertical de este[`PresentationBaseShape`](../presentationbaseshape) from borde superior de presentación en puntos. |
 | [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | Obtiene la posición de este[`PresentationBaseShape`](../presentationbaseshape) en el orden z. |
 
 ## Métodos

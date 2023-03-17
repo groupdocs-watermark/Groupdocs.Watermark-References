@@ -44,7 +44,7 @@ public class TextFormattingSearchCriteria : SearchCriteria
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Поиск водяных знаков](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 

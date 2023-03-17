@@ -16,7 +16,7 @@ public static TiffImageLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour[`TiffImageLoadOptions`](../../tiffimageloadoptions) classer.
+La valeur par défaut pour[`TiffImageLoadOptions`](../../tiffimageloadoptions) classe.
 
 ### Voir également
 

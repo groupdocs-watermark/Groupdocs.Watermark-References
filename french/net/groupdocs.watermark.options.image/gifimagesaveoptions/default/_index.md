@@ -16,7 +16,7 @@ public static GifImageSaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`GifImageSaveOptions`](../../gifimagesaveoptions) classer.
+La valeur par défaut pour le[`GifImageSaveOptions`](../../gifimagesaveoptions) classe.
 
 ### Voir également
 

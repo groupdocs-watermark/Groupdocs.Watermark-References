@@ -1,14 +1,14 @@
 ---
 title: GetDocumentInfo
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取加载文档的格式信息
+description: 获取有关加载文档格式的信息
 type: docs
 weight: 70
 url: /zh/net/groupdocs.watermark/watermarker/getdocumentinfo/
 ---
 ## Watermarker.GetDocumentInfo method
 
-获取加载文档的格式信息。
+获取有关加载文档格式的信息。
 
 ```csharp
 public IDocumentInfo GetDocumentInfo()
@@ -20,7 +20,7 @@ public IDocumentInfo GetDocumentInfo()
 
 ### 评论
 
-了解有关获取文档信息的更多信息 [获取文档信息](https://docs.groupdocs.com/display/watermarknet/Get+document+info).
+了解更多获取文档信息 [获取文档信息](https://docs.groupdocs.com/display/watermarknet/Get+document+info).
 
 ### 例子
 

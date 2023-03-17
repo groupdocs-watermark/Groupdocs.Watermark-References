@@ -16,7 +16,7 @@ public DiagramWatermarkPlacementType PlacementType { get; set; }
 
 ### 适当的价值
 
-指定应向哪些页面添加水印的值。
+该值指定应向哪些页面添加水印。
 
 ### 也可以看看
 

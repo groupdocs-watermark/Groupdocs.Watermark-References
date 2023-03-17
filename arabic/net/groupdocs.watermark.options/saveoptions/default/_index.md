@@ -16,7 +16,7 @@ public static SaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`SaveOptions`](../../saveoptions) صف دراسي.
+القيمة الافتراضية لملف[`SaveOptions`](../../saveoptions) فصل.
 
 ### أنظر أيضا
 

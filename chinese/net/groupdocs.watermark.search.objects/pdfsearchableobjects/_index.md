@@ -19,7 +19,7 @@ public enum PdfSearchableObjects
 
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
-| None | `0` | 不指定搜索对象。 |
+| None | `0` | 指定没有搜索对象。 |
 | XObjects | `1` | 在 XObjects 中搜索。 |
 | Artifacts | `2` | 在工件中搜索。 |
 | Annotations | `4` | 在注释中搜索。 |

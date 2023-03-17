@@ -1,14 +1,14 @@
 ---
 title: RotateAngle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的旋转角度SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape度数.
+description: 获取或设置旋转角度SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape以度为单位.
 type: docs
 weight: 120
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/rotateangle/
 ---
 ## SpreadsheetShape.RotateAngle property
 
-获取或设置 this 的旋转角度[`SpreadsheetShape`](../../spreadsheetshape)度数.
+获取或设置旋转角度[`SpreadsheetShape`](../../spreadsheetshape)以度为单位.
 
 ```csharp
 public double RotateAngle { get; set; }

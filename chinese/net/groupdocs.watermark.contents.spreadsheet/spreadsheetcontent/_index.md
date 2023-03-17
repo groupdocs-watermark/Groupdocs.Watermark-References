@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetContent
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示可以放置水印的 Excel 文档
+description: 表示可以放置水印的Excel文档
 type: docs
 weight: 1100
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/
 ---
 ## SpreadsheetContent class
 
-表示可以放置水印的 Excel 文档。
+表示可以放置水印的Excel文档。
 
 ```csharp
 public class SpreadsheetContent : Content
@@ -27,14 +27,14 @@ public class SpreadsheetContent : Content
 | [Decrypt](../../groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/decrypt)() | 解密文档。 |
 | [Dispose](../../groupdocs.watermark.contents/content/dispose)() | 处理当前实例。 |
 | [Encrypt](../../groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/encrypt)(string) | 加密内容。 |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [向电子表格文档添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 * [电子表格文档中的形状](https://docs.groupdocs.com/display/watermarknet/Shapes+in+spreadsheet+document)
@@ -50,7 +50,7 @@ public class SpreadsheetContent : Content
 SpreadsheetLoadOptions loadOptions = new SpreadsheetLoadOptions();
 using (Watermarker watermarker = new Watermarker(@"D:\input.xls", loadOptions))
 {
-    // 使用 Add 方法将水印添加到特定或所有工作表。
+    // 使用 Add 方法为特定或所有工作表添加水印。
 
     // 保存更改。
     watermarker.Save(@"D:\output.xls");

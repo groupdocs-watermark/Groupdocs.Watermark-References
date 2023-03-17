@@ -1,14 +1,14 @@
 ---
 title: BehindText
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值指示形状是在文本之上还是在文本之后
+description: 获取或设置一个值指示形状是在文本之上还是之后
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/behindtext/
 ---
 ## WordProcessingShape.BehindText property
 
-获取或设置一个值，指示形状是在文本之上还是在文本之后。
+获取或设置一个值，指示形状是在文本之上还是之后。
 
 ```csharp
 public bool BehindText { get; set; }
@@ -16,7 +16,7 @@ public bool BehindText { get; set; }
 
 ### 适当的价值
 
-指示形状是在文本之上还是在文本之后的值。 如果形状在文本之后，则为真；否则为假。
+表示形状是在文本上方还是在文本后面的值。 如果形状在文本后面则为真；否则为 false.
 
 ### 也可以看看
 

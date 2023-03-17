@@ -1,14 +1,14 @@
 ---
 title: TileAsTexture
 second_title: .NET API Başvurusu için GroupDocs.Watermark
-description: Görüntünün arka plan boyunca döşenip döşenmediğini gösteren bir değer alır veya ayarlar.
+description: Görüntünün arka plan boyunca döşenip döşenmediğini belirten bir değer alır veya ayarlar.
 type: docs
 weight: 20
 url: /tr/net/groupdocs.watermark.contents/officeimagefillformat-1/tileastexture/
 ---
 ## OfficeImageFillFormat&lt;TWatermarkableImage&gt;.TileAsTexture property
 
-Görüntünün arka plan boyunca döşenip döşenmediğini gösteren bir değer alır veya ayarlar.
+Görüntünün arka plan boyunca döşenip döşenmediğini belirten bir değer alır veya ayarlar.
 
 ```csharp
 public abstract bool TileAsTexture { get; set; }

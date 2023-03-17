@@ -47,7 +47,7 @@ public sealed class ImageWatermark : Watermark, IDisposable
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавление водяных знаков изображения](https://docs.groupdocs.com/display/watermarknet/Adding+image+watermarks)
 

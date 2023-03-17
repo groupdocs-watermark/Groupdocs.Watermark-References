@@ -16,7 +16,7 @@ public override ContentPart Parent { get; }
 
 ### 适当的价值
 
-这个的家长[`PresentationChartBackgroundPossibleWatermark`](../../presentationchartbackgroundpossiblewatermark).
+这个的父[`PresentationChartBackgroundPossibleWatermark`](../../presentationchartbackgroundpossiblewatermark).
 
 ### 也可以看看
 

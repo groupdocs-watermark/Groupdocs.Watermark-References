@@ -16,7 +16,7 @@ public bool IsLocked { get; set; }
 
 ### Mülk değeri
 
-Eğer değer`doğru` , şekil düzenleme yasaklanacaktır. Varsayılan olarak, değer şu şekildedir:`yanlış` , şekil Word. içinde düzenlenebilir
+Eğer değer`doğru` , şekil düzenleme yasaklanacaktır. Varsayılan olarak, değer şu şekildedir:`YANLIŞ` , şekil Word. içinde düzenlenebilir
 
 ### Ayrıca bakınız
 

@@ -100,7 +100,7 @@ public sealed class FileType : IEquatable<FileType>
 
 ### Примечания
 
-Этот класс предоставляет методы для получения списка всех типов файлов, поддерживаемых**GroupDocs.Водяной знак**.**Учить больше**
+Этот класс предоставляет методы для получения списка всех типов файлов, поддерживаемых**GroupDocs.Водяной знак**.**Узнать больше**
 
 * [Поддерживаемые форматы документов](https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats)
 * [Получить поддерживаемые форматы файлов](https://docs.groupdocs.com/display/watermarknet/Get+supported+file+formats)

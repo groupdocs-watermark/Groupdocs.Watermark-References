@@ -1,14 +1,14 @@
 ---
 title: GetHashCode
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此哈希码Colorgroupdocs.watermark.watermarks/color结构.
+description: 获取这个的哈希码Colorgroupdocs.watermark.watermarks/color结构.
 type: docs
 weight: 1510
 url: /zh/net/groupdocs.watermark.watermarks/color/gethashcode/
 ---
 ## Color.GetHashCode method
 
-获取此哈希码[`Color`](../../color)结构.
+获取这个的哈希码[`Color`](../../color)结构.
 
 ```csharp
 public override int GetHashCode()

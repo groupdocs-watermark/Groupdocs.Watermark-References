@@ -1,14 +1,14 @@
 ---
 title: Width
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的宽度PdfArtifactgroupdocs.watermark.contents.pdf/pdfartifact以点为单位
+description: 得到这个的宽度PdfArtifactgroupdocs.watermark.contents.pdf/pdfartifact点.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfartifact/width/
 ---
 ## PdfArtifact.Width property
 
-获取这个的宽度[`PdfArtifact`](../../pdfartifact)以点为单位。
+得到这个的宽度[`PdfArtifact`](../../pdfartifact)点.
 
 ```csharp
 public override double Width { get; }
@@ -16,7 +16,7 @@ public override double Width { get; }
 
 ### 适当的价值
 
-这个宽度[`PdfArtifact`](../../pdfartifact)在点。
+这个的宽度[`PdfArtifact`](../../pdfartifact)分。
 
 ### 也可以看看
 

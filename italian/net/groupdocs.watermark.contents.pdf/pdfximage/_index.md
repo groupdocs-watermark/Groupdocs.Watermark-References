@@ -21,7 +21,7 @@ public class PdfXImage : PdfXObject
 | [FormattedTextFragments](../../groupdocs.watermark.contents.pdf/pdfshape/formattedtextfragments) { get; } | Ottiene la raccolta di frammenti di testo formattati di this[`PdfShape`](../pdfshape) . |
 | override [Height](../../groupdocs.watermark.contents.pdf/pdfxobject/height) { get; } | Ottiene l'altezza di questo[`PdfXObject`](../pdfxobject)in punti. |
 | [Image](../../groupdocs.watermark.contents.pdf/pdfshape/image) { get; set; } | Ottiene o imposta l'immagine di this[`PdfShape`](../pdfshape) . |
-| [Page](../../groupdocs.watermark.contents.pdf/pdfxobject/page) { get; } | Ottiene la pagina principale di this[`PdfXObject`](../pdfxobject) . |
+| [Page](../../groupdocs.watermark.contents.pdf/pdfxobject/page) { get; } | Ottiene la pagina padre di this[`PdfXObject`](../pdfxobject) . |
 | override [RotateAngle](../../groupdocs.watermark.contents.pdf/pdfxobject/rotateangle) { get; } | Ottiene l'angolo di rotazione di this[`PdfXObject`](../pdfxobject) in gradi. |
 | virtual [Text](../../groupdocs.watermark.contents.pdf/pdfshape/text) { get; set; } | Ottiene o imposta il testo di this[`PdfShape`](../pdfshape) . |
 | override [Width](../../groupdocs.watermark.contents.pdf/pdfxobject/width) { get; } | Ottiene la larghezza di this[`PdfXObject`](../pdfxobject)in punti. |

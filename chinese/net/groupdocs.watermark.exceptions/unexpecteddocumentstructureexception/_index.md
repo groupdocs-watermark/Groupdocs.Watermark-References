@@ -1,14 +1,14 @@
 ---
 title: UnexpectedDocumentStructureException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 由于意外结构而无法解析内容时引发的异常
+description: 由于意外结构无法解析内容时抛出的异常
 type: docs
 weight: 1560
 url: /zh/net/groupdocs.watermark.exceptions/unexpecteddocumentstructureexception/
 ---
 ## UnexpectedDocumentStructureException class
 
-由于意外结构而无法解析内容时引发的异常。
+由于意外结构无法解析内容时抛出的异常。
 
 ```csharp
 public class UnexpectedDocumentStructureException : WatermarkException
@@ -18,7 +18,7 @@ public class UnexpectedDocumentStructureException : WatermarkException
 
 | 姓名 | 描述 |
 | --- | --- |
-| [UnexpectedDocumentStructureException](unexpecteddocumentstructureexception)() | 初始化[`UnexpectedDocumentStructureException`](../unexpecteddocumentstructureexception)类. |
+| [UnexpectedDocumentStructureException](unexpecteddocumentstructureexception)() | 初始化一个新的实例[`UnexpectedDocumentStructureException`](../unexpecteddocumentstructureexception)类. |
 
 ### 也可以看看
 

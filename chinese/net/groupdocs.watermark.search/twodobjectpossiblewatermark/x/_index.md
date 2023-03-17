@@ -1,14 +1,14 @@
 ---
 title: X
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 2D 对象的 x 坐标
+description: 获取二维对象的 x 坐标
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.search/twodobjectpossiblewatermark/x/
 ---
 ## TwoDObjectPossibleWatermark.X property
 
-获取 2D 对象的 x 坐标。
+获取二维对象的 x 坐标。
 
 ```csharp
 public override double X { get; }
@@ -16,7 +16,7 @@ public override double X { get; }
 
 ### 适当的价值
 
-2D 对象的 x 坐标。
+二维对象的 x 坐标。
 
 ### 也可以看看
 

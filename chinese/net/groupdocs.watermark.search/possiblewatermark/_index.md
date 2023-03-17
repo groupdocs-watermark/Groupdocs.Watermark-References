@@ -1,14 +1,14 @@
 ---
 title: PossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示文档中可能存在的水印
+description: 表示在文档中可能找到的水印
 type: docs
 weight: 2540
 url: /zh/net/groupdocs.watermark.search/possiblewatermark/
 ---
 ## PossibleWatermark class
 
-表示文档中可能存在的水印。
+表示在文档中可能找到的水印。
 
 ```csharp
 public abstract class PossibleWatermark
@@ -18,16 +18,16 @@ public abstract class PossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../possiblewatermark). |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../possiblewatermark). |
 | virtual [Height](../../groupdocs.watermark.search/possiblewatermark/height) { get; } | 获取这个的高度[`PossibleWatermark`](../possiblewatermark). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../possiblewatermark). |
 | abstract [Parent](../../groupdocs.watermark.search/possiblewatermark/parent) { get; } | 获取这个的父级[`PossibleWatermark`](../possiblewatermark). |
-| virtual [RotateAngle](../../groupdocs.watermark.search/possiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`PossibleWatermark`](../possiblewatermark)度数. |
-| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置 this 的文本[`PossibleWatermark`](../possiblewatermark). |
-| virtual [UnitOfMeasurement](../../groupdocs.watermark.search/possiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`PossibleWatermark`](../possiblewatermark). |
-| virtual [Width](../../groupdocs.watermark.search/possiblewatermark/width) { get; } | 获取这个的宽度[`PossibleWatermark`](../possiblewatermark). |
-| virtual [X](../../groupdocs.watermark.search/possiblewatermark/x) { get; } | 获取 x 坐标[`PossibleWatermark`](../possiblewatermark). |
-| virtual [Y](../../groupdocs.watermark.search/possiblewatermark/y) { get; } | 获取这个的 y 坐标[`PossibleWatermark`](../possiblewatermark). |
+| virtual [RotateAngle](../../groupdocs.watermark.search/possiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`PossibleWatermark`](../possiblewatermark)以度为单位. |
+| virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | 获取或设置此文本[`PossibleWatermark`](../possiblewatermark). |
+| virtual [UnitOfMeasurement](../../groupdocs.watermark.search/possiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`PossibleWatermark`](../possiblewatermark). |
+| virtual [Width](../../groupdocs.watermark.search/possiblewatermark/width) { get; } | 得到这个的宽度[`PossibleWatermark`](../possiblewatermark). |
+| virtual [X](../../groupdocs.watermark.search/possiblewatermark/x) { get; } | 得到这个的x坐标[`PossibleWatermark`](../possiblewatermark). |
+| virtual [Y](../../groupdocs.watermark.search/possiblewatermark/y) { get; } | 得到这个的y坐标[`PossibleWatermark`](../possiblewatermark). |
 
 ### 也可以看看
 

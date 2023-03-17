@@ -1,14 +1,14 @@
 ---
 title: GifImageSaveOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示保存 GIF 图像时的图像保存选项
+description: 表示保存GIF图片时的图片保存选项
 type: docs
 weight: 1750
 url: /zh/net/groupdocs.watermark.options.image/gifimagesaveoptions/
 ---
 ## GifImageSaveOptions class
 
-表示保存 GIF 图像时的图像保存选项。
+表示保存GIF图片时的图片保存选项。
 
 ```csharp
 public sealed class GifImageSaveOptions : ImageSaveOptions
@@ -18,7 +18,7 @@ public sealed class GifImageSaveOptions : ImageSaveOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [GifImageSaveOptions](gifimagesaveoptions)() | 初始化[`GifImageSaveOptions`](../gifimagesaveoptions)类. |
+| [GifImageSaveOptions](gifimagesaveoptions)() | 初始化一个新的实例[`GifImageSaveOptions`](../gifimagesaveoptions)类. |
 
 ## 特性
 

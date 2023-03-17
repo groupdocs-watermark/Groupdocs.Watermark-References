@@ -20,7 +20,7 @@ Yüksek kaliteli işleme için bayrak.
 
 ### Notlar
 
-Yüksek kaliteli işleme daha fazla kaynak kullanır. Varsayılan değer:`yanlış` .
+Yüksek kaliteli işleme daha fazla kaynak kullanır. Varsayılan değer:`YANLIŞ` .
 
 ### Ayrıca bakınız
 

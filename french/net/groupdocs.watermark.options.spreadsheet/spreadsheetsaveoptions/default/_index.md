@@ -16,7 +16,7 @@ public static SpreadsheetSaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`SpreadsheetSaveOptions`](../../spreadsheetsaveoptions) classer.
+La valeur par défaut pour le[`SpreadsheetSaveOptions`](../../spreadsheetsaveoptions) classe.
 
 ### Voir également
 

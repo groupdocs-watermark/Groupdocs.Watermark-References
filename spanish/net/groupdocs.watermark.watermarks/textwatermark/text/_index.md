@@ -3,7 +3,7 @@ title: Text
 second_title: Referencia de API de GroupDocs.Watermark para .NET
 description: Obtiene o establece el texto que se utilizará como marca de agua.
 type: docs
-weight: 50
+weight: 60
 url: /es/net/groupdocs.watermark.watermarks/textwatermark/text/
 ---
 ## TextWatermark.Text property

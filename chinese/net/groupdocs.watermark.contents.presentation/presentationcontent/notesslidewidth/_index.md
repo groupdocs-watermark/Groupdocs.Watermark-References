@@ -1,14 +1,14 @@
 ---
 title: NotesSlideWidth
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取笔记幻灯片的宽度以磅为单位
+description: 获取音符幻灯片的宽度以磅为单位
 type: docs
 weight: 60
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationcontent/notesslidewidth/
 ---
 ## PresentationContent.NotesSlideWidth property
 
-获取笔记幻灯片的宽度，以磅为单位。
+获取音符幻灯片的宽度（以磅为单位）。
 
 ```csharp
 public double NotesSlideWidth { get; }
@@ -16,7 +16,7 @@ public double NotesSlideWidth { get; }
 
 ### 适当的价值
 
-音符滑动的宽度以磅为单位。
+音符幻灯片的宽度（以磅为单位）。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetWatermarkModernWordArtOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetWatermarkModernWordArtOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetwatermarkmodernwordartoptions类.
+description: 初始化一个新的实例SpreadsheetWatermarkModernWordArtOptionsgroupdocs.watermark.options.spreadsheet/spreadsheetwatermarkmodernwordartoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkmodernwordartoptions/spreadsheetwatermarkmodernwordartoptions/
 ---
 ## SpreadsheetWatermarkModernWordArtOptions constructor
 
-初始化[`SpreadsheetWatermarkModernWordArtOptions`](../../spreadsheetwatermarkmodernwordartoptions)类.
+初始化一个新的实例[`SpreadsheetWatermarkModernWordArtOptions`](../../spreadsheetwatermarkmodernwordartoptions)类.
 
 ```csharp
 public SpreadsheetWatermarkModernWordArtOptions()

@@ -20,7 +20,7 @@ La bandera para renderizado de alta calidad.
 
 ### Observaciones
 
-El renderizado de alta calidad utiliza más recursos. El valor predeterminado es`falso` .
+El renderizado de alta calidad utiliza más recursos. El valor predeterminado es`FALSO` .
 
 ### Ver también
 

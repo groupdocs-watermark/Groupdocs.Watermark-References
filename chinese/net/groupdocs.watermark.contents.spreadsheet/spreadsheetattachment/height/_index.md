@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置附件框架的高度以磅为单位
+description: 获取或设置附件框的高度以磅为单位
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/height/
 ---
 ## SpreadsheetAttachment.Height property
 
-获取或设置附件框架的高度，以磅为单位。
+获取或设置附件框的高度（以磅为单位）。
 
 ```csharp
 public double Height { get; set; }

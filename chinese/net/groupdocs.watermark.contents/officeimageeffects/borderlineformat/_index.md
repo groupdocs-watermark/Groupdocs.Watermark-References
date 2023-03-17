@@ -16,7 +16,7 @@ public OfficeLineFormat BorderLineFormat { get; set; }
 
 ### 适当的价值
 
-实例[`OfficeLineFormat`](../../officelineformat)类，表示形状线格式。
+的实例[`OfficeLineFormat`](../../officelineformat)类，表示形状线格式。
 
 ### 也可以看看
 

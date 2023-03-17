@@ -1,14 +1,14 @@
 ---
 title: Strikeout
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示字体是否为删除线
+description: 获取或设置一个值指示字体是否为删除线
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/strikeout/
 ---
 ## DiagramHeaderFooterFont.Strikeout property
 
-获取或设置一个值，该值指示字体是否为删除线。
+获取或设置一个值，指示字体是否为删除线。
 
 ```csharp
 public bool Strikeout { get; set; }
@@ -16,7 +16,7 @@ public bool Strikeout { get; set; }
 
 ### 适当的价值
 
-如果此字体是三振，则为真；否则为假。
+如果此字体是删除线，则为真；否则，假的。
 
 ### 也可以看看
 

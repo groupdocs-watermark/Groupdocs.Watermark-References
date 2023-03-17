@@ -25,7 +25,7 @@ public enum FormatFamily
 | MultiframeImage | `4` | Çoklu çerçeve resim formatı ailesi. |
 | Pdf | `5` | PDF biçim ailesi. |
 | Presentation | `6` | Sunum biçimi ailesi. |
-| Spreadsheet | `7` | Elektronik tablo biçimi ailesi. |
+| Spreadsheet | `7` | Elektronik tablo biçim ailesi. |
 | WordProcessing | `8` | Kelime işlem biçimi ailesi. |
 
 ### Notlar

@@ -16,7 +16,7 @@ public string AlternativeText { get; set; }
 
 ### 适当的价值
 
-与 this 相关的描述性（替代）文本[`PresentationBaseShape`](../../presentationbaseshape).
+与 this 关联的描述性（替代）文本[`PresentationBaseShape`](../../presentationbaseshape).
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: WordProcessingFlipOrientation
 second_title: Справочник по API GroupDocs.Watermark для .NET
-description: Возможные значения для ориентации фигуры.
+description: Возможные значения для ориентации формы.
 type: docs
 weight: 2260
 url: /ru/net/groupdocs.watermark.options.wordprocessing/wordprocessingfliporientation/
 ---
 ## WordProcessingFlipOrientation enumeration
 
-Возможные значения для ориентации фигуры.
+Возможные значения для ориентации формы.
 
 ```csharp
 [Flags]

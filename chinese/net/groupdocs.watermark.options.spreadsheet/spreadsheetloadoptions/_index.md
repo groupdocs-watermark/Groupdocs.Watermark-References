@@ -18,8 +18,8 @@ public sealed class SpreadsheetLoadOptions : LoadOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [SpreadsheetLoadOptions](spreadsheetloadoptions#constructor)() | 初始化[`SpreadsheetLoadOptions`](../spreadsheetloadoptions)类. |
-| [SpreadsheetLoadOptions](spreadsheetloadoptions#constructor_1)(string) | 初始化[`SpreadsheetLoadOptions`](../spreadsheetloadoptions)具有指定密码的类。 |
+| [SpreadsheetLoadOptions](spreadsheetloadoptions#constructor)() | 初始化一个新的实例[`SpreadsheetLoadOptions`](../spreadsheetloadoptions)类. |
+| [SpreadsheetLoadOptions](spreadsheetloadoptions#constructor_1)(string) | 初始化一个新的实例[`SpreadsheetLoadOptions`](../spreadsheetloadoptions)具有指定密码的类. |
 
 ## 特性
 

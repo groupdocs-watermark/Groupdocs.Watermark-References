@@ -17,7 +17,7 @@ public SpreadsheetHeaderFooterSection this[
 
 | Parametre | Tanım |
 | --- | --- |
-| headerFooterSectionType | Bir[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype)alınacak bölümün türünü belirten değer. |
+| headerFooterSectionType | bir[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype) alınacak bölümün türünü belirten değer. |
 
 ### Mülk değeri
 

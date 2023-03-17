@@ -1,14 +1,14 @@
 ---
 title: Content
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置附件内容
+description: 获取或设置附加文件内容
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.email/emailattachmentbase/content/
 ---
 ## EmailAttachmentBase.Content property
 
-获取或设置附件内容。
+获取或设置附加文件内容。
 
 ```csharp
 public override byte[] Content { get; set; }
@@ -16,7 +16,7 @@ public override byte[] Content { get; set; }
 
 ### 适当的价值
 
-附加文件内容。
+附件文件内容。
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public OfficeLineStyle LineStyle { get; set; }
 
 ### Property_Value
 
-النظام الأساسيSingle.
+القيمة الافتراضية هيSingle.
 
 ### أنظر أيضا
 

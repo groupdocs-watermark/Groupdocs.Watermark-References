@@ -16,6 +16,7 @@ Lo spazio dei nomi fornisce classi per specificare le proprietà delle filigrane
 | [ImageWatermark](./imagewatermark) | Rappresenta una filigrana dell'immagine. |
 | [Margins](./margins) | Rappresenta le impostazioni dei margini per ciascun bordo di un oggetto. |
 | [TextWatermark](./textwatermark) | Rappresenta una filigrana di testo. |
+| [Thickness](./thickness) | Descrive lo spessore di una cornice attorno a un rettangolo. |
 ## Strutture
 
 | Struttura | Descrizione |

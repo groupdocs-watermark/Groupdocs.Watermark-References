@@ -41,7 +41,7 @@ public sealed class EmailContent : Content
 
 ### Bemerkungen
 
-**Mehr erfahren:**
+**Erfahren Sie mehr:**
 
 * [Fügen Sie Wasserzeichen zu E-Mail-Anhängen hinzu](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+email+attachments)
 * [E-Mail Anhänge](https://docs.groupdocs.com/display/watermarknet/Email+attachments)

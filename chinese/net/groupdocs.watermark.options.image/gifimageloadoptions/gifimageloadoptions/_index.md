@@ -1,14 +1,14 @@
 ---
 title: GifImageLoadOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化GifImageLoadOptionsgroupdocs.watermark.options.image/gifimageloadoptions类.
+description: 初始化一个新的实例GifImageLoadOptionsgroupdocs.watermark.options.image/gifimageloadoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.image/gifimageloadoptions/gifimageloadoptions/
 ---
 ## GifImageLoadOptions constructor
 
-初始化[`GifImageLoadOptions`](../../gifimageloadoptions)类.
+初始化一个新的实例[`GifImageLoadOptions`](../../gifimageloadoptions)类.
 
 ```csharp
 public GifImageLoadOptions()

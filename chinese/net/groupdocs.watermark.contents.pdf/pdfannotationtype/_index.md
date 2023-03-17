@@ -1,14 +1,14 @@
 ---
 title: PdfAnnotationType
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 注解类型的枚举
+description: 注释类型的枚举
 type: docs
 weight: 540
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfannotationtype/
 ---
 ## PdfAnnotationType enumeration
 
-注解类型的枚举。
+注释类型的枚举。
 
 ```csharp
 public enum PdfAnnotationType
@@ -19,15 +19,15 @@ public enum PdfAnnotationType
 | 姓名 | 价值 | 描述 |
 | --- | --- | --- |
 | Text | `0` | 文本注释类型。 |
-| Circle | `1` | 圆形标注类型。 |
+| Circle | `1` | 圆注释类型。 |
 | Polygon | `2` | 多边形注释类型。 |
 | PolyLine | `3` | 折线注释类型。 |
-| Line | `4` | 线标注类型。 |
-| Square | `5` | 方形标注类型。 |
+| Line | `4` | 线注释类型。 |
+| Square | `5` | 方形注释类型。 |
 | FreeText | `6` | 自由文本注释类型。 |
-| Highlight | `7` | 高亮标注类型。 |
+| Highlight | `7` | 突出显示注释类型。 |
 | Underline | `8` | 下划线注释类型。 |
-| Squiggly | `9` | 曲线注释类型。 |
+| Squiggly | `9` | Squiggle 注释类型。 |
 | StrikeOut | `10` | 删除线注释类型。 |
 | Caret | `11` | 插入符号注释类型。 |
 | Ink | `12` | 墨迹注释类型。 |
@@ -36,16 +36,17 @@ public enum PdfAnnotationType
 | FileAttachment | `15` | 文件附件注释类型。 |
 | Sound | `16` | 声音注释类型。 |
 | Movie | `17` | 电影注释类型。 |
-| Screen | `18` | 屏幕注释类型. |
+| Screen | `18` | 屏幕注释类型。 |
 | Widget | `19` | 小部件注释类型。 |
 | Watermark | `20` | 水印注释类型。 |
 | TrapNet | `21` | 陷阱网络注释类型。 |
 | PrinterMark | `22` | 打印机标记注释类型。 |
-| Redaction | `23` | 密文注释类型。 |
+| Redaction | `23` | 编辑注释类型。 |
 | Stamp | `24` | 橡皮图章注释类型。 |
 | RichMedia | `25` | RichMedia 注释类型。 |
 | Unknown | `26` | 未知注释。 |
-| Pdf3D | `27` | PDF3D 注释。 |
+| Pdf3D | `27` | PDF3D 注释. |
+| ColorBar | `28` | ColorBar 注释. |
 
 ### 也可以看看
 

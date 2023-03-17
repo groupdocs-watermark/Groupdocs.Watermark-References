@@ -1,14 +1,14 @@
 ---
 title: EmailContent
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示电子邮件消息
+description: 表示一封电子邮件
 type: docs
 weight: 330
 url: /zh/net/groupdocs.watermark.contents.email/emailcontent/
 ---
 ## EmailContent class
 
-表示电子邮件消息。
+表示一封电子邮件。
 
 ```csharp
 public sealed class EmailContent : Content
@@ -18,14 +18,14 @@ public sealed class EmailContent : Content
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Attachments](../../groupdocs.watermark.contents.email/emailcontent/attachments) { get; } | 获取电子邮件的所有附件的集合。 |
-| [Bcc](../../groupdocs.watermark.contents.email/emailcontent/bcc) { get; } | 获取电子邮件的密件抄送（密件抄送）收件人的集合。 |
-| [Body](../../groupdocs.watermark.contents.email/emailcontent/body) { get; set; } | 获取或设置消息正文的纯文本表示。 |
-| [BodyType](../../groupdocs.watermark.contents.email/emailcontent/bodytype) { get; } | 获取邮件正文的类型。 |
-| [Cc](../../groupdocs.watermark.contents.email/emailcontent/cc) { get; } | 获取电子邮件的抄送（抄送）收件人的集合。 |
+| [Attachments](../../groupdocs.watermark.contents.email/emailcontent/attachments) { get; } | 获取电子邮件所有附件的集合。 |
+| [Bcc](../../groupdocs.watermark.contents.email/emailcontent/bcc) { get; } | 获取电子邮件的 BCC（密件抄送）收件人集合。 |
+| [Body](../../groupdocs.watermark.contents.email/emailcontent/body) { get; set; } | 获取或设置消息正文的纯文本表示形式。 |
+| [BodyType](../../groupdocs.watermark.contents.email/emailcontent/bodytype) { get; } | 获取电子邮件正文的类型。 |
+| [Cc](../../groupdocs.watermark.contents.email/emailcontent/cc) { get; } | 获取电子邮件的 CC（抄送）收件人集合。 |
 | [EmbeddedObjects](../../groupdocs.watermark.contents.email/emailcontent/embeddedobjects) { get; } | 获取电子邮件的所有嵌入对象的集合。 |
 | [From](../../groupdocs.watermark.contents.email/emailcontent/from) { get; } | 获取电子邮件的发件人地址。 |
-| [HtmlBody](../../groupdocs.watermark.contents.email/emailcontent/htmlbody) { get; set; } | 获取或设置消息体的 html 表示形式。 |
+| [HtmlBody](../../groupdocs.watermark.contents.email/emailcontent/htmlbody) { get; set; } | 获取或设置消息正文的 html 表示。 |
 | [Subject](../../groupdocs.watermark.contents.email/emailcontent/subject) { get; set; } | 获取或设置电子邮件的主题。 |
 | [To](../../groupdocs.watermark.contents.email/emailcontent/to) { get; } | 获取电子邮件的收件人集合。 |
 
@@ -34,14 +34,14 @@ public sealed class EmailContent : Content
 | 姓名 | 描述 |
 | --- | --- |
 | [Dispose](../../groupdocs.watermark.contents/content/dispose)() | 处理当前实例。 |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
-| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 在指定的对象中进行搜索[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | 查找内容中的所有图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | 根据指定的搜索条件查找图像。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | 查找内容中所有可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | 根据指定的搜索条件查找可能的水印。 搜索在指定的对象中进行[`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为电子邮件附件添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+email+attachments)
 * [电子邮件附件](https://docs.groupdocs.com/display/watermarknet/Email+attachments)

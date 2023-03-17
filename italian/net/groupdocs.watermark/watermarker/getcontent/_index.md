@@ -21,7 +21,7 @@ public T GetContent<T>()
 
 ### Valore di ritorno
 
-Il[`Content`](../../../groupdocs.watermark.contents/content) oggetto per il documento caricato.
+IL[`Content`](../../../groupdocs.watermark.contents/content) oggetto per il documento caricato.
 
 ### Esempi
 

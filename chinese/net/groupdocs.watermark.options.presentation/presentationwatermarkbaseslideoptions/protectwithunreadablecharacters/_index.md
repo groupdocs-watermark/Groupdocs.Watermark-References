@@ -1,14 +1,14 @@
 ---
 title: ProtectWithUnreadableCharacters
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置一个值该值指示文本水印字符是否与不可读字符混合
+description: 获取或设置文本水印字符是否混有不可读字符的值
 type: docs
 weight: 50
 url: /zh/net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/protectwithunreadablecharacters/
 ---
 ## PresentationWatermarkBaseSlideOptions.ProtectWithUnreadableCharacters property
 
-获取或设置一个值，该值指示文本水印字符是否与不可读字符混合。
+获取或设置文本水印字符是否混有不可读字符的值。
 
 ```csharp
 public bool ProtectWithUnreadableCharacters { get; set; }
@@ -16,7 +16,7 @@ public bool ProtectWithUnreadableCharacters { get; set; }
 
 ### 适当的价值
 
-指示文本水印字符是否与不可读字符混合的值。
+文本水印字符是否混有不可读字符的值。
 
 ### 评论
 

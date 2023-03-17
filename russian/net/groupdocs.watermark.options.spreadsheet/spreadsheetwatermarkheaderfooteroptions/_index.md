@@ -28,7 +28,7 @@ public sealed class SpreadsheetWatermarkHeaderFooterOptions : SpreadsheetWaterma
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в табличные документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 

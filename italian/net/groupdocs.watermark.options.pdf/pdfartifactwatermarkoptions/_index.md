@@ -28,7 +28,7 @@ public sealed class PdfArtifactWatermarkOptions : PdfWatermarkOptions
 
 ### Osservazioni
 
-**Scopri di più:**
+**Saperne di più:**
 
 * [Aggiungi filigrane ai documenti PDF](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 

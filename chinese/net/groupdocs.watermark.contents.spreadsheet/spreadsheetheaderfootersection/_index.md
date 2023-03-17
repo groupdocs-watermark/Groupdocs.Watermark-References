@@ -18,9 +18,9 @@ public class SpreadsheetHeaderFooterSection
 
 | 姓名 | 描述 |
 | --- | --- |
-| [HeaderFooter](../../groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/headerfooter) { get; } | 获取它的父页眉/页脚[`SpreadsheetHeaderFooterSection`](../spreadsheetheaderfootersection). |
+| [HeaderFooter](../../groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/headerfooter) { get; } | 获取此的父页眉/页脚[`SpreadsheetHeaderFooterSection`](../spreadsheetheaderfootersection). |
 | [Image](../../groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/image) { get; set; } | 获取或设置此图像[`SpreadsheetHeaderFooterSection`](../spreadsheetheaderfootersection). |
-| [Script](../../groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/script) { get; set; } | 获取或设置 this 的脚本格式[`SpreadsheetHeaderFooterSection`](../spreadsheetheaderfootersection). |
+| [Script](../../groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/script) { get; set; } | 获取或设置此脚本格式[`SpreadsheetHeaderFooterSection`](../spreadsheetheaderfootersection). |
 | [SectionType](../../groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/sectiontype) { get; } | 获取 this 的类型[`SpreadsheetHeaderFooterSection`](../spreadsheetheaderfootersection). |
 
 ### 也可以看看

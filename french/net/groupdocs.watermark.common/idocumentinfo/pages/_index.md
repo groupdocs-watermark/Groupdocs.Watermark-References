@@ -16,7 +16,7 @@ public IList<PageInfo> Pages { get; }
 
 ### Valeur de la propriété
 
-La collection de descriptions de pages de documents.
+La collection de descriptions de pages de document.
 
 ### Voir également
 

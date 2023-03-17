@@ -1,14 +1,14 @@
 ---
 title: Effects
 second_title: Referencia de API de GroupDocs.Watermark para .NET
-description: Obtiene o establece un valor dePresentationImageEffectsgroupdocs.watermark.options.presentation/presentationimageeffects o PresentationTextEffectsgroupdocs.watermark.options.presentation/presentationtexteffects para los efectos que deben aplicarse a la marca de agua.
+description: Obtiene o establece un valor dePresentationImageEffectsgroupdocs.watermark.options.presentation/presentationimageeffects or PresentationTextEffectsgroupdocs.watermark.options.presentation/presentationtexteffects para los efectos que deben aplicarse a la marca de agua.
 type: docs
 weight: 20
 url: /es/net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects/
 ---
 ## PresentationWatermarkBaseSlideOptions.Effects property
 
-Obtiene o establece un valor de[`PresentationImageEffects`](../../presentationimageeffects) o [`PresentationTextEffects`](../../presentationtexteffects) para los efectos que deben aplicarse a la marca de agua.
+Obtiene o establece un valor de[`PresentationImageEffects`](../../presentationimageeffects) or [`PresentationTextEffects`](../../presentationtexteffects) para los efectos que deben aplicarse a la marca de agua.
 
 ```csharp
 public IPresentationWatermarkEffects Effects { get; set; }

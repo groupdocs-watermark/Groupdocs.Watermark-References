@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的高度SpreadsheetCellPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark以点为单位
+description: 获取这个的高度SpreadsheetCellPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark点.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/height/
 ---
 ## SpreadsheetCellPossibleWatermark.Height property
 
-获取这个的高度[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark)以点为单位。
+获取这个的高度[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark)点.
 
 ```csharp
 public override double Height { get; }
@@ -16,7 +16,7 @@ public override double Height { get; }
 
 ### 适当的价值
 
-这个高度[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark)在点。
+这个高度[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark)分。
 
 ### 也可以看看
 

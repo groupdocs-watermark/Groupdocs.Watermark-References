@@ -16,7 +16,7 @@ public static SpreadsheetSaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`SpreadsheetSaveOptions`](../../spreadsheetsaveoptions) صف دراسي.
+القيمة الافتراضية لملف[`SpreadsheetSaveOptions`](../../spreadsheetsaveoptions) فصل.
 
 ### أنظر أيضا
 

@@ -186,7 +186,7 @@ Weitere Informationen zum Laden von Dokumenten: [Dokumente laden](https://docs.g
 
 ### Beispiele
 
-Bestimmte Textfragmente im Text/Betreff der E-Mail-Nachricht suchen.
+Bestimmte Textfragmente im Text/Betreff der E-Mail-Nachricht finden.
 
 ```csharp
 WatermarkerSettings settings = new WatermarkerSettings();
@@ -403,7 +403,7 @@ Weitere Informationen zum Laden von Dokumenten [Dokumente laden](https://docs.gr
 
 ### Beispiele
 
-Bestimmte Textfragmente im Text/Betreff der E-Mail-Nachricht suchen.
+Bestimmte Textfragmente im Text/Betreff der E-Mail-Nachricht finden.
 
 ```csharp
 WatermarkerSettings settings = new WatermarkerSettings();

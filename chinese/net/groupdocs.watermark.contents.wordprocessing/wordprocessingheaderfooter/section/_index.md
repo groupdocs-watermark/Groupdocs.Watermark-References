@@ -1,14 +1,14 @@
 ---
 title: Section
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的父节WordProcessingHeaderFootergroupdocs.watermark.contents.wordprocessing/wordprocessingheaderfooter.
+description: 获取这个的父部分WordProcessingHeaderFootergroupdocs.watermark.contents.wordprocessing/wordprocessingheaderfooter.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingheaderfooter/section/
 ---
 ## WordProcessingHeaderFooter.Section property
 
-获取这个的父节[`WordProcessingHeaderFooter`](../../wordprocessingheaderfooter).
+获取这个的父部分[`WordProcessingHeaderFooter`](../../wordprocessingheaderfooter).
 
 ```csharp
 public WordProcessingSection Section { get; }

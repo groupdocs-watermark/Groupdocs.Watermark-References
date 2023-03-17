@@ -20,7 +20,7 @@ Die Seitenzahlen zum Hinzufügen des Wasserzeichens.
 
 ### Bemerkungen
 
-Alle Zahlen müssen größer oder gleich 1 sein. Diese Eigenschaft wird nur verwendet, wenn das Wasserzeichen zu einem Dokument hinzugefügt wird. Wenn dieser Wert ist`Null` oder leer, wird das Wasserzeichen allen Seiten hinzugefügt.
+Alle Zahlen müssen größer oder gleich 1 sein. Diese Eigenschaft wird nur verwendet, wenn das Wasserzeichen zu einem Dokument hinzugefügt wird. Wenn dieser Wert ist`Null`oder leer, wird das Wasserzeichen allen Seiten hinzugefügt.
 
 ### Siehe auch
 

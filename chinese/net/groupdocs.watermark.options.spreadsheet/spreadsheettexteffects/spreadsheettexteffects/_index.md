@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetTextEffects
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetTextEffectsgroupdocs.watermark.options.spreadsheet/spreadsheettexteffects类.
+description: 初始化一个新的实例SpreadsheetTextEffectsgroupdocs.watermark.options.spreadsheet/spreadsheettexteffects类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheettexteffects/spreadsheettexteffects/
 ---
 ## SpreadsheetTextEffects constructor
 
-初始化[`SpreadsheetTextEffects`](../../spreadsheettexteffects)类.
+初始化一个新的实例[`SpreadsheetTextEffects`](../../spreadsheettexteffects)类.
 
 ```csharp
 public SpreadsheetTextEffects()

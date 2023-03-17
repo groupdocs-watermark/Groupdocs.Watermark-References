@@ -3,7 +3,7 @@ title: Text
 second_title: Riferimento API GroupDocs.Watermark per .NET
 description: Ottiene o imposta il testo da utilizzare come filigrana.
 type: docs
-weight: 50
+weight: 60
 url: /it/net/groupdocs.watermark.watermarks/textwatermark/text/
 ---
 ## TextWatermark.Text property

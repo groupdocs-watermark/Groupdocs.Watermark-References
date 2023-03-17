@@ -1,14 +1,14 @@
 ---
 title: DOCM
 second_title: Riferimento API GroupDocs.Watermark per .NET
-description: I file DOCM sono documenti generati da Microsoft Word 2007 o versioni successive con la possibilità di eseguire macro. Ulteriori informazioni su questo formato di filequihttps//wiki.fileformat.com/wordprocessing/docm/ .
+description: I file DOCM sono documenti generati da Microsoft Word 2007 o versioni successive con la possibilità di eseguire macro. Ulteriori informazioni su questo formato di fileQuihttps//wiki.fileformat.com/wordprocessing/docm/ .
 type: docs
 weight: 30
 url: /it/net/groupdocs.watermark.common/filetype/docm/
 ---
 ## FileType.DOCM field
 
-I file DOCM sono documenti generati da Microsoft Word 2007 o versioni successive con la possibilità di eseguire macro. Ulteriori informazioni su questo formato di file[qui](https://wiki.fileformat.com/word-processing/docm/) .
+I file DOCM sono documenti generati da Microsoft Word 2007 o versioni successive con la possibilità di eseguire macro. Ulteriori informazioni su questo formato di file[Qui](https://wiki.fileformat.com/word-processing/docm/) .
 
 ```csharp
 public static readonly FileType DOCM;

@@ -19,7 +19,7 @@ public enum SizingType
 | İsim | Değer | Tanım |
 | --- | --- | --- |
 | Auto | `0` | Filigran, içeriğine göre otomatik olarak boyutlandırılmalıdır. |
-| Absolute | `1` | Filigran tam olarak boyutlandırılmalıdır[`Width`](../../groupdocs.watermark/watermark/width) ve[`Height`](../../groupdocs.watermark/watermark/height) |
+| Absolute | `1` | Filigran tam olarak boyutlandırılmalıdır[`Width`](../../groupdocs.watermark/watermark/width) Ve[`Height`](../../groupdocs.watermark/watermark/height) |
 | ScaleToParentDimensions | `2` | Filigran, belirtilen kullanılarak üst boyutlara göre ölçeklendirilmelidir[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) . |
 | ScaleToParentArea | `3` | Filigran, belirtilen kullanılarak üst alana göre ölçeklendirilmelidir[`ScaleFactor`](../../groupdocs.watermark/watermark/scalefactor) |
 

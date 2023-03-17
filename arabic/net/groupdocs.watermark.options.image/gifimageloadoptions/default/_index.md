@@ -16,7 +16,7 @@ public static GifImageLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لـ[`GifImageLoadOptions`](../../gifimageloadoptions) صف دراسي.
+القيمة الافتراضية لـ[`GifImageLoadOptions`](../../gifimageloadoptions) فصل.
 
 ### أنظر أيضا
 

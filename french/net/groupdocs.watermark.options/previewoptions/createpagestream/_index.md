@@ -16,7 +16,7 @@ public CreatePageStream CreatePageStream { get; set; }
 
 ### Valeur de la propriété
 
-Délégué de création de flux de page.
+Délégué de création de flux de pages.
 
 ### Voir également
 

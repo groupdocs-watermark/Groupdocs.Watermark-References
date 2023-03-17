@@ -16,7 +16,7 @@ public static EmailSaveOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`EmailSaveOptions`](../../emailsaveoptions) classer.
+La valeur par défaut pour le[`EmailSaveOptions`](../../emailsaveoptions) classe.
 
 ### Voir également
 

@@ -1,14 +1,14 @@
 ---
 title: PdfHyperlinkPossibleWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 pdf 文档中可能存在的超链接水印
+description: 表示pdf文档中可能的超链接水印
 type: docs
 weight: 2870
 url: /zh/net/groupdocs.watermark.search.watermarks/pdfhyperlinkpossiblewatermark/
 ---
 ## PdfHyperlinkPossibleWatermark class
 
-表示 pdf 文档中可能存在的超链接水印。
+表示pdf文档中可能的超链接水印。
 
 ```csharp
 public class PdfHyperlinkPossibleWatermark : HyperlinkPossibleWatermark
@@ -18,16 +18,16 @@ public class PdfHyperlinkPossibleWatermark : HyperlinkPossibleWatermark
 
 | 姓名 | 描述 |
 | --- | --- |
-| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | 获取此的格式化文本片段的集合[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/height) { get; } | 获取这个的高度[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | 获取或设置此图像[`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/parent) { get; } | 获取这个的父级[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/rotateangle) { get; } | 获取 this 的旋转角度[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark)度数. |
+| override [RotateAngle](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/rotateangle) { get; } | 获取this的旋转角度[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark)以度为单位. |
 | override [Text](../../groupdocs.watermark.search.watermarks/pdfhyperlinkpossiblewatermark/text) { get; set; } | 获取或设置 this 的 url[`PdfHyperlinkPossibleWatermark`](../pdfhyperlinkpossiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/unitofmeasurement) { get; } | 获取此的度量单位[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
-| override [Width](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/width) { get; } | 获取这个的宽度[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
-| override [X](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/x) { get; } | 获取 x 坐标[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
-| override [Y](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/y) { get; } | 获取这个的 y 坐标[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/unitofmeasurement) { get; } | 得到这个的计量单位[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
+| override [Width](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/width) { get; } | 得到这个的宽度[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
+| override [X](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/x) { get; } | 得到这个的x坐标[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
+| override [Y](../../groupdocs.watermark.search/hyperlinkpossiblewatermark/y) { get; } | 得到这个的y坐标[`HyperlinkPossibleWatermark`](../../groupdocs.watermark.search/hyperlinkpossiblewatermark). |
 
 ### 也可以看看
 

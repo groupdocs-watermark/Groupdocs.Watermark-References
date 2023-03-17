@@ -1,14 +1,14 @@
 ---
 title: MultiframeImageWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示向多帧图像添加水印时的水印添加选项
+description: 表示为多帧图片添加水印时添加水印的选项
 type: docs
 weight: 1800
 url: /zh/net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/
 ---
 ## MultiframeImageWatermarkOptions class
 
-表示向多帧图像添加水印时的水印添加选项。
+表示为多帧图片添加水印时添加水印的选项。
 
 ```csharp
 public class MultiframeImageWatermarkOptions : WatermarkOptions
@@ -18,24 +18,24 @@ public class MultiframeImageWatermarkOptions : WatermarkOptions
 
 | 姓名 | 描述 |
 | --- | --- |
-| [MultiframeImageWatermarkOptions](multiframeimagewatermarkoptions#constructor)() | 初始化[`MultiframeImageWatermarkOptions`](../multiframeimagewatermarkoptions)类. |
-| [MultiframeImageWatermarkOptions](multiframeimagewatermarkoptions#constructor_1)(int) | 初始化[`MultiframeImageWatermarkOptions`](../multiframeimagewatermarkoptions) class 具有帧的指定索引。 |
+| [MultiframeImageWatermarkOptions](multiframeimagewatermarkoptions#constructor)() | 初始化一个新的实例[`MultiframeImageWatermarkOptions`](../multiframeimagewatermarkoptions)类. |
+| [MultiframeImageWatermarkOptions](multiframeimagewatermarkoptions#constructor_1)(int) | 初始化一个新的实例[`MultiframeImageWatermarkOptions`](../multiframeimagewatermarkoptions) class 具有指定索引的 frame. |
 
 ## 特性
 
 | 姓名 | 描述 |
 | --- | --- |
-| [FrameIndex](../../groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frameindex) { get; set; } | 获取或设置要加水印的帧索引。 |
+| [FrameIndex](../../groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frameindex) { get; set; } | 获取或设置要添加水印的帧索引。 |
 
 ### 评论
 
-**学到更多：**
+**了解更多：**
 
 * [为图像添加水印](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
 
 ### 例子
 
-给多帧图像的特定帧添加水印。
+为多帧图像的特定帧添加水印。
 
 ```csharp
 ImageLoadOptions loadOptions = new ImageLoadOptions();

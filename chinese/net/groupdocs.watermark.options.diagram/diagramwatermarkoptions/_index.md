@@ -1,14 +1,14 @@
 ---
 title: DiagramWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 向 Visio 文档添加选项的水印基类
+description: 用于向 Visio 文档添加选项的水印基类
 type: docs
 weight: 1690
 url: /zh/net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/
 ---
 ## DiagramWatermarkOptions class
 
-向 Visio 文档添加选项的水印基类。
+用于向 Visio 文档添加选项的水印基类。
 
 ```csharp
 public abstract class DiagramWatermarkOptions : WatermarkOptions

@@ -1,14 +1,14 @@
 ---
 title: PdfAttachmentCollection
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示 pdf 文档中的附件集合
+description: 表示pdf文档中的附件集合
 type: docs
 weight: 600
 url: /zh/net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/
 ---
 ## PdfAttachmentCollection class
 
-表示 pdf 文档中的附件集合。
+表示pdf文档中的附件集合。
 
 ```csharp
 public class PdfAttachmentCollection : RemoveOnlyListBase<PdfAttachment>
@@ -19,14 +19,14 @@ public class PdfAttachmentCollection : RemoveOnlyListBase<PdfAttachment>
 | 姓名 | 描述 |
 | --- | --- |
 | virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | 获取集合中包含的元素数。 |
-| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | 获取一个值，该值指示该集合是否为只读。 |
+| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | 获取一个值，指示集合是否为只读。 |
 | virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | 获取集合中指定索引处的元素。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [Add](../../groupdocs.watermark.contents.pdf/pdfattachmentcollection/add)(byte[], string, string) | 将附件添加到[`PdfContent`](../pdfcontent). |
+| [Add](../../groupdocs.watermark.contents.pdf/pdfattachmentcollection/add)(byte[], string, string) | 添加附件到[`PdfContent`](../pdfcontent). |
 | [Clear](../../groupdocs.watermark.common/removeonlylistbase-1/clear)() |  |
 | virtual [Contains](../../groupdocs.watermark.common/readonlylistbase-1/contains)(PdfAttachment) |  |
 | virtual [GetEnumerator](../../groupdocs.watermark.common/readonlylistbase-1/getenumerator)() |  |
@@ -36,7 +36,7 @@ public class PdfAttachmentCollection : RemoveOnlyListBase<PdfAttachment>
 
 ### 评论
 
-此集合包含以下项目[`PdfAttachment`](../pdfattachment)类型.
+此集合包含的项目[`PdfAttachment`](../pdfattachment)类型.
 
 ### 也可以看看
 

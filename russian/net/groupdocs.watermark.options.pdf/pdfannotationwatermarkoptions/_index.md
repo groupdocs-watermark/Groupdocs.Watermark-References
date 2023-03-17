@@ -29,7 +29,7 @@ public sealed class PdfAnnotationWatermarkOptions : PdfWatermarkOptions
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в документы PDF](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 

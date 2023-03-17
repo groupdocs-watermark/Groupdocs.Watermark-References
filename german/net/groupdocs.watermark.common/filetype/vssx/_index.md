@@ -1,14 +1,14 @@
 ---
 title: VSSX
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Dateien mit der Erweiterung .VSSX sind Zeichnungsschablonen die mit Microsoft Visio 2013 und höher erstellt wurden. Weitere Informationen zu diesem Dateiformat hierhttps//wiki.fileformat.com/image/vssx/ .
+description: Dateien mit der Erweiterung .VSSX sind Zeichnungsschablonen die mit Microsoft Visio 2013 und höher erstellt wurden. Weitere Informationen zu diesem Dateiformat Hierhttps//wiki.fileformat.com/image/vssx/ .
 type: docs
 weight: 450
 url: /de/net/groupdocs.watermark.common/filetype/vssx/
 ---
 ## FileType.VSSX field
 
-Dateien mit der Erweiterung .VSSX sind Zeichnungsschablonen, die mit Microsoft Visio 2013 und höher erstellt wurden. Weitere Informationen zu diesem Dateiformat [hier](https://wiki.fileformat.com/image/vssx/) .
+Dateien mit der Erweiterung .VSSX sind Zeichnungsschablonen, die mit Microsoft Visio 2013 und höher erstellt wurden. Weitere Informationen zu diesem Dateiformat [Hier](https://wiki.fileformat.com/image/vssx/) .
 
 ```csharp
 public static readonly FileType VSSX;

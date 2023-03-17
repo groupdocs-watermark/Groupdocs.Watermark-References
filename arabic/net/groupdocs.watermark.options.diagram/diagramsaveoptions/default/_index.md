@@ -16,7 +16,7 @@ public static DiagramSaveOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`DiagramSaveOptions`](../../diagramsaveoptions) صف دراسي.
+القيمة الافتراضية لملف[`DiagramSaveOptions`](../../diagramsaveoptions) فصل.
 
 ### أنظر أيضا
 

@@ -16,7 +16,7 @@ public SearchableObjects SearchableObjects { get; set; }
 
 ### Valore della proprietà
 
-Il`SearchableObjects` che devono essere inclusi in una ricerca filigrana.
+IL`SearchableObjects` che devono essere inclusi in una ricerca filigrana.
 
 ### Guarda anche
 

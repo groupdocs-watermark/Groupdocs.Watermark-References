@@ -1,14 +1,14 @@
 ---
 title: FlatOpcMacroEnabled
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: Office Open XML WordprocessingML 启用宏的文档存储在平面 XML 文件而不是 ZIP 包 .xml 中 了解有关此文件格式的更多信息这里https//en.wikipedia.org/wiki/Office_Open_XML.
+description: Office Open XML WordprocessingML 启用宏的文档存储在平面 XML 文件中而不是 ZIP 包 .xml 了解有关此文件格式的更多信息这里https//en.wikipedia.org/wiki/Office_Open_XML.
 type: docs
 weight: 110
 url: /zh/net/groupdocs.watermark.common/filetype/flatopcmacroenabled/
 ---
 ## FileType.FlatOpcMacroEnabled field
 
-Office Open XML WordprocessingML 启用宏的文档存储在平面 XML 文件而不是 ZIP 包 (.xml) 中。 了解有关此文件格式的更多信息[这里](https://en.wikipedia.org/wiki/Office_Open_XML).
+Office Open XML WordprocessingML 启用宏的文档存储在平面 XML 文件中，而不是 ZIP 包 (.xml)。 了解有关此文件格式的更多信息[这里](https://en.wikipedia.org/wiki/Office_Open_XML).
 
 ```csharp
 public static readonly FileType FlatOpcMacroEnabled;

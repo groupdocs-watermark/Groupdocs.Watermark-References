@@ -1,14 +1,14 @@
 ---
 title: LayoutSlideIndex
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置要添加水印的布局幻灯片的索引
+description: 获取或设置要添加水印的布局幻灯片索引
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.options.presentation/presentationwatermarklayoutslideoptions/layoutslideindex/
 ---
 ## PresentationWatermarkLayoutSlideOptions.LayoutSlideIndex property
 
-获取或设置要添加水印的布局幻灯片的索引。
+获取或设置要添加水印的布局幻灯片索引。
 
 ```csharp
 public int LayoutSlideIndex { get; set; }

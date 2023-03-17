@@ -16,7 +16,7 @@ public static SaveOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`SaveOptions`](../../saveoptions) учебный класс.
+Значение по умолчанию для[`SaveOptions`](../../saveoptions) сорт.
 
 ### Смотрите также
 

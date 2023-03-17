@@ -1,14 +1,14 @@
 ---
 title: SizeSearchCriteria
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SizeSearchCriteriagroupdocs.watermark.search.searchcriteria/sizesearchcriteriaclass 具有指定的维度起始值和结束值
+description: 初始化一个新的实例SizeSearchCriteriagroupdocs.watermark.search.searchcriteria/sizesearchcriteria具有指定维度起始值和结束值的 class 
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.search.searchcriteria/sizesearchcriteria/sizesearchcriteria/
 ---
 ## SizeSearchCriteria constructor
 
-初始化[`SizeSearchCriteria`](../../sizesearchcriteria)class 具有指定的维度、起始值和结束值。
+初始化一个新的实例[`SizeSearchCriteria`](../../sizesearchcriteria)具有指定维度、起始值和结束值的 class 。
 
 ```csharp
 public SizeSearchCriteria(Dimension dimension, double min, double max)

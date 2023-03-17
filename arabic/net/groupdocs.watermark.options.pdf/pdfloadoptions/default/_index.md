@@ -16,7 +16,7 @@ public static PdfLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`PdfLoadOptions`](../../pdfloadoptions) صف دراسي.
+القيمة الافتراضية لملف[`PdfLoadOptions`](../../pdfloadoptions) فصل.
 
 ### أنظر أيضا
 

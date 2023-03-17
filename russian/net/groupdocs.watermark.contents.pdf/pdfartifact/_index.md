@@ -33,7 +33,7 @@ public class PdfArtifact : PdfShape
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Работа с артефактами](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithartifacts)
 

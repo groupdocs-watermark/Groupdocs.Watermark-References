@@ -16,7 +16,7 @@ public static PresentationLoadOptions Default { get; }
 
 ### Стоимость имущества
 
-Значение по умолчанию для[`PresentationLoadOptions`](../../presentationloadoptions) учебный класс.
+Значение по умолчанию для[`PresentationLoadOptions`](../../presentationloadoptions) сорт.
 
 ### Смотрите также
 

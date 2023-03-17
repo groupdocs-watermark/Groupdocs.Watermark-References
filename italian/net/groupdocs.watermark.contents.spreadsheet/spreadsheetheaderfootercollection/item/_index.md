@@ -20,7 +20,7 @@ public SpreadsheetHeaderFooter this[OfficeHeaderFooterType headerFooterType] { g
 
 ### Valore della proprietà
 
-Il[`SpreadsheetHeaderFooter`](../../spreadsheetheaderfooter) di tipo specificato.
+IL[`SpreadsheetHeaderFooter`](../../spreadsheetheaderfooter) di tipo specificato.
 
 ### Guarda anche
 

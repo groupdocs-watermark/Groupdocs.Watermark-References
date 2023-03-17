@@ -1,14 +1,14 @@
 ---
 title: Y
 second_title: Referencia de API de GroupDocs.Watermark para .NET
-description: Obtiene o establece el desplazamiento vertical de estePresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshapefrom borde superior de presentación en puntos.
+description: Obtiene o establece el desplazamiento vertical de estePresentationBaseShapegroupdocs.watermark.contents.presentation/presentationbaseshape from borde superior de presentación en puntos.
 type: docs
 weight: 90
 url: /es/net/groupdocs.watermark.contents.presentation/presentationbaseshape/y/
 ---
 ## PresentationBaseShape.Y property
 
-Obtiene o establece el desplazamiento vertical de este[`PresentationBaseShape`](../../presentationbaseshape)from borde superior de presentación en puntos.
+Obtiene o establece el desplazamiento vertical de este[`PresentationBaseShape`](../../presentationbaseshape) from borde superior de presentación en puntos.
 
 ```csharp
 public double Y { get; set; }

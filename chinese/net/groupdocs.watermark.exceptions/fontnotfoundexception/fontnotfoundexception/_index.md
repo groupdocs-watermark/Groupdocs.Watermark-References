@@ -1,14 +1,14 @@
 ---
 title: FontNotFoundException
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化FontNotFoundExceptiongroupdocs.watermark.exceptions/fontnotfoundexception类.
+description: 初始化一个新的实例FontNotFoundExceptiongroupdocs.watermark.exceptions/fontnotfoundexception类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.exceptions/fontnotfoundexception/fontnotfoundexception/
 ---
 ## FontNotFoundException() {#constructor}
 
-初始化[`FontNotFoundException`](../../fontnotfoundexception)类.
+初始化一个新的实例[`FontNotFoundException`](../../fontnotfoundexception)类.
 
 ```csharp
 public FontNotFoundException()
@@ -24,7 +24,7 @@ public FontNotFoundException()
 
 ## FontNotFoundException(string) {#constructor_1}
 
-初始化[`FontNotFoundException`](../../fontnotfoundexception)具有指定字体名称的类。
+初始化一个新的实例[`FontNotFoundException`](../../fontnotfoundexception)具有指定字体名称的类.
 
 ```csharp
 public FontNotFoundException(string fontName)

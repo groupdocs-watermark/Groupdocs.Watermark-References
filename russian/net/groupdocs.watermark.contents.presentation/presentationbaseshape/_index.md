@@ -27,7 +27,7 @@ public abstract class PresentationBaseShape : ShapeSearchAdapter, IPresentationH
 | [Presentation](../../groupdocs.watermark.contents.presentation/presentationbaseshape/presentation) { get; } | Получает родительскую презентацию этого[`PresentationBaseShape`](../presentationbaseshape) . |
 | [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | Получает или задает ширину этого[`PresentationBaseShape`](../presentationbaseshape)в пунктах. |
 | [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | Получает или задает горизонтальное смещение этого[`PresentationBaseShape`](../presentationbaseshape) от левой границы презентации в пунктах. |
-| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Получает или задает вертикальное смещение этого[`PresentationBaseShape`](../presentationbaseshape)from верхняя граница презентации в пунктах. |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Получает или задает вертикальное смещение этого[`PresentationBaseShape`](../presentationbaseshape) from верхняя граница презентации в пунктах. |
 | [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | Получает позицию этого[`PresentationBaseShape`](../presentationbaseshape) в z-порядке. |
 
 ## Методы

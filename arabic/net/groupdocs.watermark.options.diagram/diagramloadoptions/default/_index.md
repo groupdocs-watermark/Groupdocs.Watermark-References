@@ -16,7 +16,7 @@ public static DiagramLoadOptions Default { get; }
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`DiagramLoadOptions`](../../diagramloadoptions) صف دراسي.
+القيمة الافتراضية لملف[`DiagramLoadOptions`](../../diagramloadoptions) فصل.
 
 ### أنظر أيضا
 

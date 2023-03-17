@@ -1,14 +1,14 @@
 ---
 title: Slides
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此所有幻灯片的集合PresentationContentgroupdocs.watermark.contents.presentation/presentationcontent.
+description: 获取本次所有幻灯片的集合PresentationContentgroupdocs.watermark.contents.presentation/presentationcontent.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationcontent/slides/
 ---
 ## PresentationContent.Slides property
 
-获取此所有幻灯片的集合[`PresentationContent`](../../presentationcontent).
+获取本次所有幻灯片的集合[`PresentationContent`](../../presentationcontent).
 
 ```csharp
 public PresentationSlideCollection Slides { get; }
@@ -16,7 +16,7 @@ public PresentationSlideCollection Slides { get; }
 
 ### 适当的价值
 
-本次所有幻灯片的合集[`PresentationContent`](../../presentationcontent).
+本期所有幻灯片合集[`PresentationContent`](../../presentationcontent).
 
 ### 也可以看看
 

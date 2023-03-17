@@ -3,7 +3,7 @@ title: TextAlignment
 second_title: .NET API 参考的 GroupDocs.Watermark
 description: 获取或设置水印文本对齐方式
 type: docs
-weight: 60
+weight: 70
 url: /zh/net/groupdocs.watermark.watermarks/textwatermark/textalignment/
 ---
 ## TextWatermark.TextAlignment property
@@ -16,7 +16,7 @@ public TextAlignment TextAlignment { get; set; }
 
 ### 适当的价值
 
-水印文本对齐。
+水印文字对齐方式。
 
 ### 评论
 

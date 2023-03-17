@@ -26,7 +26,7 @@ public abstract class PresentationWatermarkBaseSlideOptions : PresentationWaterm
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавляйте водяные знаки в презентационные документы](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents)
 
@@ -42,17 +42,17 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.pptx", loadOptions))
 
     // Добавляем водяной знак ко всем мастер-слайдам
     PresentationWatermarkMasterSlideOptions masterSlideOptions = new PresentationWatermarkMasterSlideOptions();
-    masterSlideOptions.MasterSlideIndex = -1; // дефолт
+    masterSlideOptions.MasterSlideIndex = -1; // по умолчанию
     watermarker.Add(watermark, masterSlideOptions);
 
     // Добавляем водяной знак на все слайды макета
     PresentationWatermarkLayoutSlideOptions layoutSlideOptions = new PresentationWatermarkLayoutSlideOptions();
-    layoutSlideOptions.LayoutSlideIndex = -1; // дефолт
+    layoutSlideOptions.LayoutSlideIndex = -1; // по умолчанию
     watermarker.Add(watermark, layoutSlideOptions);
 
     // Добавляем водяной знак ко всем слайдам с заметками
     PresentationWatermarkNoteSlideOptions noteSlideOptions = new PresentationWatermarkNoteSlideOptions();
-    noteSlideOptions.SlideIndex = -1; // дефолт
+    noteSlideOptions.SlideIndex = -1; // по умолчанию
     watermarker.Add(watermark, noteSlideOptions);
 
     // Добавляем водяной знак к мастеру раздаточных материалов

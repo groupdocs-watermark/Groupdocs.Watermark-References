@@ -16,7 +16,7 @@ public static readonly OoxmlLoadOptions Default;
 
 ### Property_Value
 
-القيمة الافتراضية لملف[`OoxmlLoadOptions`](../../ooxmlloadoptions) صف دراسي.
+القيمة الافتراضية لملف[`OoxmlLoadOptions`](../../ooxmlloadoptions) فصل.
 
 ### أنظر أيضا
 

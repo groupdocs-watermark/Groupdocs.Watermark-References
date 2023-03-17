@@ -16,7 +16,7 @@ public IPresentationWatermarkEffects Effects { get; set; }
 
 ### 适当的价值
 
-的值[`PresentationImageEffects`](../../presentationimageeffects)或者[`PresentationTextEffects`](../../presentationtexteffects) 表示应应用于水印的效果。
+的值[`PresentationImageEffects`](../../presentationimageeffects)或者[`PresentationTextEffects`](../../presentationtexteffects) 用于应应用于水印的效果。
 
 ### 也可以看看
 

@@ -1,14 +1,14 @@
 ---
 title: MasterNotesSlide
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此所有笔记幻灯片的母版幻灯片PresentationContentgroupdocs.watermark.contents.presentation/presentationcontent.
+description: 获取此所有注释幻灯片的母版幻灯片PresentationContentgroupdocs.watermark.contents.presentation/presentationcontent.
 type: docs
 weight: 30
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationcontent/masternotesslide/
 ---
 ## PresentationContent.MasterNotesSlide property
 
-获取此所有笔记幻灯片的母版幻灯片[`PresentationContent`](../../presentationcontent).
+获取此所有注释幻灯片的母版幻灯片[`PresentationContent`](../../presentationcontent).
 
 ```csharp
 public PresentationMasterNotesSlide MasterNotesSlide { get; }
@@ -16,7 +16,7 @@ public PresentationMasterNotesSlide MasterNotesSlide { get; }
 
 ### 适当的价值
 
-本次所有笔记幻灯片的母版幻灯片[`PresentationContent`](../../presentationcontent).
+此所有注释幻灯片的母版幻灯片[`PresentationContent`](../../presentationcontent).
 
 ### 也可以看看
 

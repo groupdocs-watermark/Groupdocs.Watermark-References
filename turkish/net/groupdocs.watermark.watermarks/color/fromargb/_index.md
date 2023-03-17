@@ -55,7 +55,7 @@ bu[`Color`](../../color) bu yöntemin oluşturduğu.
 
 ### Notlar
 
-Bu yöntem, alfa değeri için 32 bitlik bir değerin geçmesine izin verse de, değer 8 bit ile sınırlıdır.
+Bu yöntem, alfa değeri için 32 bitlik bir değerin iletilmesine izin verse de, değer 8 bit ile sınırlıdır.
 
 ### Ayrıca bakınız
 

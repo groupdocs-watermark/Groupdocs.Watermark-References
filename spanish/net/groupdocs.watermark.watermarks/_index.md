@@ -16,6 +16,7 @@ El espacio de nombres proporciona clases para especificar las propiedades de las
 | [ImageWatermark](./imagewatermark) | Representa una marca de agua de imagen. |
 | [Margins](./margins) | Representa la configuración de márgenes para cada borde de un objeto. |
 | [TextWatermark](./textwatermark) | Representa una marca de agua de texto. |
+| [Thickness](./thickness) | Describe el grosor de un marco alrededor de un rectángulo. |
 ## Estructuras
 
 | Estructura | Descripción |

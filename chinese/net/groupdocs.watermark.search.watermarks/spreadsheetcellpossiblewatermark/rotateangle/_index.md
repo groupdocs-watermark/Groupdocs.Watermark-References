@@ -1,14 +1,14 @@
 ---
 title: RotateAngle
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取 this 的旋转角度SpreadsheetCellPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark度数.
+description: 获取this的旋转角度SpreadsheetCellPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark以度为单位.
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/rotateangle/
 ---
 ## SpreadsheetCellPossibleWatermark.RotateAngle property
 
-获取 this 的旋转角度[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark)度数.
+获取this的旋转角度[`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark)以度为单位.
 
 ```csharp
 public override double RotateAngle { get; }

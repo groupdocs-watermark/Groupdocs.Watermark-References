@@ -1,14 +1,14 @@
 ---
 title: Charts
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取演示文稿上所有图表的集合
+description: 获取演示文稿中所有图表的集合
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.presentation/presentationbaseslide/charts/
 ---
 ## PresentationBaseSlide.Charts property
 
-获取演示文稿上所有图表的集合。
+获取演示文稿中所有图表的集合。
 
 ```csharp
 public PresentationChartCollection Charts { get; }
@@ -16,7 +16,7 @@ public PresentationChartCollection Charts { get; }
 
 ### 适当的价值
 
-演示文稿上所有图表的集合。
+演示文稿中所有图表的集合。
 
 ### 也可以看看
 

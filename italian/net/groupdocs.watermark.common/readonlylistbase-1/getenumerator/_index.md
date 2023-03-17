@@ -16,7 +16,7 @@ public virtual IEnumerator<T> GetEnumerator()
 
 ### Valore di ritorno
 
-UnIEnumerator oggetto che può essere utilizzato per scorrere la raccolta.
+UNIEnumerator oggetto che può essere utilizzato per scorrere la raccolta.
 
 ### Guarda anche
 

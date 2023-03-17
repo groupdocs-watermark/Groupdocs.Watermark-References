@@ -20,7 +20,7 @@ public static Color FromArgb(int argb)
 
 ### Valore di ritorno
 
-Il[`Color`](../../color) struttura creata da questo metodo.
+IL[`Color`](../../color) struttura creata da questo metodo.
 
 ### Guarda anche
 
@@ -41,11 +41,11 @@ public static Color FromArgb(int alpha, Color baseColor)
 | Parametro | Tipo | Descrizione |
 | --- | --- | --- |
 | alpha | Int32 | Il valore alfa per il nuovo[`Color`](../../color). I valori validi sono da 0 a 255. |
-| baseColor | Color | Il[`Color`](../../color) da cui creare il nuovo[`Color`](../../color). |
+| baseColor | Color | IL[`Color`](../../color) da cui creare il nuovo[`Color`](../../color). |
 
 ### Valore di ritorno
 
-Il[`Color`](../../color) che questo metodo crea.
+IL[`Color`](../../color) che questo metodo crea.
 
 ### Eccezioni
 
@@ -81,7 +81,7 @@ public static Color FromArgb(int red, int green, int blue)
 
 ### Valore di ritorno
 
-Il[`Color`](../../color) che questo metodo crea.
+IL[`Color`](../../color) che questo metodo crea.
 
 ### Eccezioni
 
@@ -118,7 +118,7 @@ public static Color FromArgb(int alpha, int red, int green, int blue)
 
 ### Valore di ritorno
 
-Il[`Color`](../../color) che questo metodo crea.
+IL[`Color`](../../color) che questo metodo crea.
 
 ### Eccezioni
 

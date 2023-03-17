@@ -1,14 +1,14 @@
 ---
 title: ReleasePageStream
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 表示释放由CreatePageStream./createpagestream委托.
+description: 表示释放由创建的流的方法CreatePageStream./createpagestream代表.
 type: docs
 weight: 2090
 url: /zh/net/groupdocs.watermark.options/releasepagestream/
 ---
 ## ReleasePageStream delegate
 
-表示释放由[`CreatePageStream`](../createpagestream)委托.
+表示释放由创建的流的方法[`CreatePageStream`](../createpagestream)代表.
 
 ```csharp
 public delegate void ReleasePageStream(int pageNumber, Stream pageStream);

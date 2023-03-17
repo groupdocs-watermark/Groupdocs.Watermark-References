@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Watermark for .NET API-referens
 description: Hämtar eller ställer in texten som ska användas som vattenstämpel.
 type: docs
-weight: 50
+weight: 60
 url: /sv/net/groupdocs.watermark.watermarks/textwatermark/text/
 ---
 ## TextWatermark.Text property

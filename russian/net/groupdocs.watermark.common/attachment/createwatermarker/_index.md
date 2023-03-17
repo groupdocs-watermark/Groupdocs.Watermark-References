@@ -16,7 +16,7 @@ public Watermarker CreateWatermarker()
 
 ### Возвращаемое значение
 
-Экземпляр соответствующего потомка[`Content`](../../../groupdocs.watermark.contents/content) учебный класс.
+Экземпляр соответствующего потомка[`Content`](../../../groupdocs.watermark.contents/content) сорт.
 
 ### Смотрите также
 
@@ -41,7 +41,7 @@ public Watermarker CreateWatermarker(LoadOptions loadOptions)
 
 ### Возвращаемое значение
 
-Экземпляр соответствующего потомка[`Content`](../../../groupdocs.watermark.contents/content) учебный класс.
+Экземпляр соответствующего потомка[`Content`](../../../groupdocs.watermark.contents/content) сорт.
 
 ### Смотрите также
 
@@ -69,7 +69,7 @@ public Watermarker CreateWatermarker(LoadOptions loadOptions,
 
 ### Возвращаемое значение
 
-Экземпляр соответствующего потомка[`Content`](../../../groupdocs.watermark.contents/content) учебный класс.
+Экземпляр соответствующего потомка[`Content`](../../../groupdocs.watermark.contents/content) сорт.
 
 ### Смотрите также
 

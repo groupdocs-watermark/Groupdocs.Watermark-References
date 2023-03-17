@@ -16,7 +16,7 @@ public bool IsLocked { get; set; }
 
 ### Valeur de la propriété
 
-Si la valeur est`vrai` , l'édition de forme sera interdite. Par défaut, la valeur est`faux` , la forme peut être modifiée dans Word.
+Si la valeur est`vrai` , l'édition de forme sera interdite. Par défaut, la valeur est`FAUX` , la forme peut être modifiée dans Word.
 
 ### Voir également
 

@@ -17,7 +17,7 @@ public SpreadsheetHeaderFooterSection this[
 
 | Параметр | Описание |
 | --- | --- |
-| headerFooterSectionType | А[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype)значение, указывающее тип получаемого раздела. |
+| headerFooterSectionType | А[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype) значение, указывающее тип получаемого раздела. |
 
 ### Стоимость имущества
 

@@ -16,7 +16,7 @@ public static WordProcessingLoadOptions Default { get; }
 
 ### Valeur de la propriété
 
-La valeur par défaut pour le[`WordProcessingLoadOptions`](../../wordprocessingloadoptions) classer.
+La valeur par défaut pour le[`WordProcessingLoadOptions`](../../wordprocessingloadoptions) classe.
 
 ### Voir également
 

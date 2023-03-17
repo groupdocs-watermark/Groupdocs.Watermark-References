@@ -46,6 +46,7 @@ public enum PdfAnnotationType
 | RichMedia | `25` | RichMedia açıklama türü. |
 | Unknown | `26` | Bilinmeyen açıklama. |
 | Pdf3D | `27` | PDF3D açıklama. |
+| ColorBar | `28` | ColorBar notu. |
 
 ### Ayrıca bakınız
 

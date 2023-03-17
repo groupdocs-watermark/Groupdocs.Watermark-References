@@ -1,14 +1,14 @@
 ---
 title: SpreadsheetShapeSettings
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化SpreadsheetShapeSettingsgroupdocs.watermark.options.spreadsheet/spreadsheetshapesettings类.
+description: 初始化一个新的实例SpreadsheetShapeSettingsgroupdocs.watermark.options.spreadsheet/spreadsheetshapesettings类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/spreadsheetshapesettings/
 ---
 ## SpreadsheetShapeSettings constructor
 
-初始化[`SpreadsheetShapeSettings`](../../spreadsheetshapesettings)类.
+初始化一个新的实例[`SpreadsheetShapeSettings`](../../spreadsheetshapesettings)类.
 
 ```csharp
 public SpreadsheetShapeSettings()

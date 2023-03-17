@@ -1,14 +1,14 @@
 ---
 title: WordProcessingWatermarkOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 用于向 Word 文档添加选项的水印基类
+description: 向 Word 文档添加水印选项的基类
 type: docs
 weight: 2360
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkoptions/
 ---
 ## WordProcessingWatermarkOptions class
 
-用于向 Word 文档添加选项的水印基类。
+向 Word 文档添加水印选项的基类。
 
 ```csharp
 public abstract class WordProcessingWatermarkOptions : WatermarkOptions

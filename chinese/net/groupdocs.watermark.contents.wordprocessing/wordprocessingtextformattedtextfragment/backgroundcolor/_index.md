@@ -1,14 +1,14 @@
 ---
 title: BackgroundColor
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取文本的背景颜色
+description: 获取文本的背景色
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragment/backgroundcolor/
 ---
 ## WordProcessingTextFormattedTextFragment.BackgroundColor property
 
-获取文本的背景颜色。
+获取文本的背景色。
 
 ```csharp
 public override Color BackgroundColor { get; }

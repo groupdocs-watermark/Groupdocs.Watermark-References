@@ -17,7 +17,7 @@ public SpreadsheetHeaderFooterSection this[
 
 | Parameter | Beskrivning |
 | --- | --- |
-| headerFooterSectionType | A[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype)värde som anger typen av avsnittet som ska hämtas. |
+| headerFooterSectionType | A[`SpreadsheetHeaderFooterSectionType`](../../spreadsheetheaderfootersectiontype) värde som anger typen av avsnittet som ska hämtas. |
 
 ### Fastighetsvärde
 

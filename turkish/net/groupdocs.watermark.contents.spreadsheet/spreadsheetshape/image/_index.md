@@ -16,7 +16,7 @@ public SpreadsheetWatermarkableImage Image { get; set; }
 
 ### Mülk değeri
 
-Bunun görüntüsü[`SpreadsheetShape`](../../spreadsheetshape). Şeklin resmi yoksa null değerini döndürür.
+Bunun görüntüsü[`SpreadsheetShape`](../../spreadsheetshape) . Şeklin resmi yoksa null değerini döndürür.
 
 ### Ayrıca bakınız
 

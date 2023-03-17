@@ -16,6 +16,7 @@ Namnutrymmet tillhandahåller klasser för att specificera egenskaper för vatte
 | [ImageWatermark](./imagewatermark) | Representerar en bildvattenstämpel. |
 | [Margins](./margins) | Representerar marginalinställningar för varje kant av ett objekt. |
 | [TextWatermark](./textwatermark) | Representerar en textvattenstämpel. |
+| [Thickness](./thickness) | Beskriver tjockleken på en ram runt en rektangel. |
 ## Strukturer
 
 | Strukturera | Beskrivning |

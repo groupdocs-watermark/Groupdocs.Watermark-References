@@ -1,14 +1,14 @@
 ---
 title: Text
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置 this 的文本SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape.
+description: 获取或设置此文本SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape.
 type: docs
 weight: 130
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/text/
 ---
 ## SpreadsheetShape.Text property
 
-获取或设置 this 的文本[`SpreadsheetShape`](../../spreadsheetshape).
+获取或设置此文本[`SpreadsheetShape`](../../spreadsheetshape).
 
 ```csharp
 public string Text { get; set; }
@@ -16,7 +16,7 @@ public string Text { get; set; }
 
 ### 适当的价值
 
-这段文字[`SpreadsheetShape`](../../spreadsheetshape).
+这一段的正文[`SpreadsheetShape`](../../spreadsheetshape).
 
 ### 也可以看看
 

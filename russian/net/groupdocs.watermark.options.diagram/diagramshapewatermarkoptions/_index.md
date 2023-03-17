@@ -29,7 +29,7 @@ public sealed class DiagramShapeWatermarkOptions : DiagramWatermarkOptions
 
 ### Примечания
 
-**Учить больше:**
+**Узнать больше:**
 
 * [Добавление водяных знаков в документы диаграмм](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 
@@ -45,7 +45,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.vsdx", loadOptions))
 
     DiagramShapeWatermarkOptions options = new DiagramShapeWatermarkOptions();
     options.IsLocked = true;
-    options.PlacementType = DiagramWatermarkPlacementType.AllPages; // дефолт
+    options.PlacementType = DiagramWatermarkPlacementType.AllPages; // по умолчанию
 
     watermarker.Add(watermark, options);
     watermarker.Save();

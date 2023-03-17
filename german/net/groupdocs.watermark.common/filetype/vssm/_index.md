@@ -1,14 +1,14 @@
 ---
 title: VSSM
 second_title: GroupDocs.Watermark für .NET-API-Referenz
-description: Dateien mit der Erweiterung .VSSM sind Microsoft VisioSchablonendateien die Makros unterstützen. Erfahren Sie mehr über dieses Dateiformathierhttps//wiki.fileformat.com/image/vssm/ .
+description: Dateien mit der Erweiterung .VSSM sind Microsoft VisioSchablonendateien die Makros unterstützen. Erfahren Sie mehr über dieses DateiformatHierhttps//wiki.fileformat.com/image/vssm/ .
 type: docs
 weight: 440
 url: /de/net/groupdocs.watermark.common/filetype/vssm/
 ---
 ## FileType.VSSM field
 
-Dateien mit der Erweiterung .VSSM sind Microsoft Visio-Schablonendateien, die Makros unterstützen. Erfahren Sie mehr über dieses Dateiformat[hier](https://wiki.fileformat.com/image/vssm/) .
+Dateien mit der Erweiterung .VSSM sind Microsoft Visio-Schablonendateien, die Makros unterstützen. Erfahren Sie mehr über dieses Dateiformat[Hier](https://wiki.fileformat.com/image/vssm/) .
 
 ```csharp
 public static readonly FileType VSSM;

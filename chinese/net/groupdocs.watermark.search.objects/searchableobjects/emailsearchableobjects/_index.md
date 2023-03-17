@@ -16,7 +16,7 @@ public EmailSearchableObjects EmailSearchableObjects { get; set; }
 
 ### 适当的价值
 
-电子邮件中要包含在水印搜索中的对象。
+要包含在水印搜索中的电子邮件消息中的对象。
 
 ### 也可以看看
 

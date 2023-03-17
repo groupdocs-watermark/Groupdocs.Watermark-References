@@ -1,14 +1,14 @@
 ---
 title: SearchableObjects
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置SearchableObjectsgroupdocs.watermark/watermarkersettings/searchableobjects要包含在水印搜索中的内容
+description: 获取或设置SearchableObjectsgroupdocs.watermark/watermarkersettings/searchableobjects将包含在水印搜索中
 type: docs
 weight: 40
 url: /zh/net/groupdocs.watermark/watermarkersettings/searchableobjects/
 ---
 ## WatermarkerSettings.SearchableObjects property
 
-获取或设置`SearchableObjects`要包含在水印搜索中的内容。
+获取或设置`SearchableObjects`将包含在水印搜索中。
 
 ```csharp
 public SearchableObjects SearchableObjects { get; set; }

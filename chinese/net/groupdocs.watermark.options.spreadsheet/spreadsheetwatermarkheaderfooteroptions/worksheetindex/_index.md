@@ -1,14 +1,14 @@
 ---
 title: WorksheetIndex
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取或设置要添加水印的工作表的索引
+description: 获取或设置要添加水印的工作表索引
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/worksheetindex/
 ---
 ## SpreadsheetWatermarkHeaderFooterOptions.WorksheetIndex property
 
-获取或设置要添加水印的工作表的索引。
+获取或设置要添加水印的工作表索引。
 
 ```csharp
 public int WorksheetIndex { get; set; }
@@ -16,7 +16,7 @@ public int WorksheetIndex { get; set; }
 
 ### 适当的价值
 
-要添加水印的工作表的索引。
+要添加水印的工作表索引。
 
 ### 评论
 

@@ -18,20 +18,20 @@ public abstract class Attachment
 
 | 姓名 | 描述 |
 | --- | --- |
-| abstract [Content](../../groupdocs.watermark.common/attachment/content) { get; set; } | 获取或设置附件内容。 |
+| abstract [Content](../../groupdocs.watermark.common/attachment/content) { get; set; } | 获取或设置附加文件内容。 |
 
 ## 方法
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker#createwatermarker)() | 从附件加载内容。 |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker#createwatermarker_1)(LoadOptions) | 使用指定的加载选项从附件加载内容。 |
-| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker#createwatermarker_2)(LoadOptions, WatermarkerSettings) | 使用指定的加载选项和设置从附件加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker#createwatermarker)() | 从附件中加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker#createwatermarker_1)(LoadOptions) | 使用指定的加载选项从附件中加载内容。 |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker#createwatermarker_2)(LoadOptions, WatermarkerSettings) | 使用指定的加载选项和设置从附件中加载内容。 |
 | [GetDocumentInfo](../../groupdocs.watermark.common/attachment/getdocumentinfo)() | 获取有关存储在附件中的文档的信息。 |
 
 ### 评论
 
-**学到更多**
+**了解更多**
 
 * [电子邮件附件](https://docs.groupdocs.com/display/watermarknet/Email+attachments)
 * [PDF 文档中的附件](https://docs.groupdocs.com/display/watermarknet/Attachments+in+PDF+document)

@@ -16,6 +16,7 @@ Der Namensraum stellt Klassen bereit, um Eigenschaften von Wasserzeichen anzugeb
 | [ImageWatermark](./imagewatermark) | Stellt ein Bildwasserzeichen dar. |
 | [Margins](./margins) | Stellt Randeinstellungen für jede Kante eines Objekts dar. |
 | [TextWatermark](./textwatermark) | Stellt ein Textwasserzeichen dar. |
+| [Thickness](./thickness) | Beschreibt die Dicke eines Rahmens um ein Rechteck. |
 ## Structuren
 
 | Structuur | Beschreibung |

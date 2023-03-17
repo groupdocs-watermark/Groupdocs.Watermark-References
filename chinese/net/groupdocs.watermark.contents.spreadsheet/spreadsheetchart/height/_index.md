@@ -1,14 +1,14 @@
 ---
 title: Height
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取这个的高度SpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart以点为单位
+description: 获取这个的高度SpreadsheetChartgroupdocs.watermark.contents.spreadsheet/spreadsheetchart点.
 type: docs
 weight: 20
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/height/
 ---
 ## SpreadsheetChart.Height property
 
-获取这个的高度[`SpreadsheetChart`](../../spreadsheetchart)以点为单位。
+获取这个的高度[`SpreadsheetChart`](../../spreadsheetchart)点.
 
 ```csharp
 public double Height { get; }
@@ -16,7 +16,7 @@ public double Height { get; }
 
 ### 适当的价值
 
-这个高度[`SpreadsheetChart`](../../spreadsheetchart)在点。
+这个高度[`SpreadsheetChart`](../../spreadsheetchart)分。
 
 ### 也可以看看
 

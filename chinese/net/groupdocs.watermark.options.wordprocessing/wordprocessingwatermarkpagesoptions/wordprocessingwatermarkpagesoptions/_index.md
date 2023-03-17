@@ -1,14 +1,14 @@
 ---
 title: WordProcessingWatermarkPagesOptions
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化WordProcessingWatermarkPagesOptionsgroupdocs.watermark.options.wordprocessing/wordprocessingwatermarkpagesoptions类.
+description: 初始化一个新的实例WordProcessingWatermarkPagesOptionsgroupdocs.watermark.options.wordprocessing/wordprocessingwatermarkpagesoptions类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkpagesoptions/wordprocessingwatermarkpagesoptions/
 ---
 ## WordProcessingWatermarkPagesOptions constructor
 
-初始化[`WordProcessingWatermarkPagesOptions`](../../wordprocessingwatermarkpagesoptions)类.
+初始化一个新的实例[`WordProcessingWatermarkPagesOptions`](../../wordprocessingwatermarkpagesoptions)类.
 
 ```csharp
 public WordProcessingWatermarkPagesOptions()

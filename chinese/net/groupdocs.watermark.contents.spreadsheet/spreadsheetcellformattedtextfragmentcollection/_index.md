@@ -18,9 +18,9 @@ public class SpreadsheetCellFormattedTextFragmentCollection : FormattedTextFragm
 
 | 姓名 | 描述 |
 | --- | --- |
-| [CollectionType](../../groupdocs.watermark.search/formattedtextfragmentcollection/collectiontype) { get; } | 获取格式化的片段集合类型。 |
+| [CollectionType](../../groupdocs.watermark.search/formattedtextfragmentcollection/collectiontype) { get; } | 获取格式化片段集合类型。 |
 | virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | 获取集合中包含的元素数。 |
-| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | 获取一个值，该值指示该集合是否为只读。 |
+| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | 获取一个值，指示集合是否为只读。 |
 | virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | 获取集合中指定索引处的元素。 |
 
 ## 方法
@@ -35,16 +35,16 @@ public class SpreadsheetCellFormattedTextFragmentCollection : FormattedTextFragm
 | virtual [Contains](../../groupdocs.watermark.common/readonlylistbase-1/contains)(FormattedTextFragment) |  |
 | virtual [GetEnumerator](../../groupdocs.watermark.common/readonlylistbase-1/getenumerator)() |  |
 | virtual [IndexOf](../../groupdocs.watermark.common/readonlylistbase-1/indexof)(FormattedTextFragment) |  |
-| [Insert](../../groupdocs.watermark.search/formattedtextfragmentcollection/insert)(int, string) | 在给定索引处将格式化的文本片段插入集合中。 |
-| [Insert](../../groupdocs.watermark.search/formattedtextfragmentcollection/insert)(int, string, Font) | 在给定索引处将格式化的文本片段插入集合中。 |
-| [Insert](../../groupdocs.watermark.search/formattedtextfragmentcollection/insert)(int, string, Font, Color) | 在给定索引处将格式化的文本片段插入集合中。 |
-| [Insert](../../groupdocs.watermark.search/formattedtextfragmentcollection/insert)(int, string, Font, Color, Color) | 在给定索引处将格式化的文本片段插入集合中。 |
+| [Insert](../../groupdocs.watermark.search/formattedtextfragmentcollection/insert)(int, string) | 将格式化文本片段插入集合中给定索引处。 |
+| [Insert](../../groupdocs.watermark.search/formattedtextfragmentcollection/insert)(int, string, Font) | 将格式化文本片段插入集合中给定索引处。 |
+| [Insert](../../groupdocs.watermark.search/formattedtextfragmentcollection/insert)(int, string, Font, Color) | 将格式化文本片段插入集合中给定索引处。 |
+| [Insert](../../groupdocs.watermark.search/formattedtextfragmentcollection/insert)(int, string, Font, Color, Color) | 将格式化文本片段插入集合中给定索引处。 |
 | [Remove](../../groupdocs.watermark.common/removeonlylistbase-1/remove)(FormattedTextFragment) |  |
 | [RemoveAt](../../groupdocs.watermark.common/removeonlylistbase-1/removeat)(int) |  |
 
 ### 评论
 
-此集合包含以下项目[`SpreadsheetCellFormattedTextFragment`](../spreadsheetcellformattedtextfragment)类型.
+此集合包含的项目[`SpreadsheetCellFormattedTextFragment`](../spreadsheetcellformattedtextfragment)类型.
 
 ### 也可以看看
 

@@ -16,7 +16,7 @@ public byte[] ImageData { get; set; }
 
 ### 适当的价值
 
-这个形象[`PossibleWatermark`](../../possiblewatermark)如果水印没有图像，则返回 null。
+这个的形象[`PossibleWatermark`](../../possiblewatermark)如果水印没有图像，则为 null。
 
 ### 也可以看看
 

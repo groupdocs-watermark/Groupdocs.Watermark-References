@@ -19,7 +19,7 @@ public class PresentationFormattedTextFragment : FormattedTextFragment,
 
 | 姓名 | 描述 |
 | --- | --- |
-| override [BackgroundColor](../../groupdocs.watermark.contents.presentation/presentationformattedtextfragment/backgroundcolor) { get; } | 获取文本的背景颜色。 |
+| override [BackgroundColor](../../groupdocs.watermark.contents.presentation/presentationformattedtextfragment/backgroundcolor) { get; } | 获取文本的背景色。 |
 | override [Font](../../groupdocs.watermark.contents.presentation/presentationformattedtextfragment/font) { get; } | 获取文本的字体。 |
 | override [ForegroundColor](../../groupdocs.watermark.contents.presentation/presentationformattedtextfragment/foregroundcolor) { get; } | 获取文本的前景色。 |
 | override [Text](../../groupdocs.watermark.contents.presentation/presentationformattedtextfragment/text) { get; } | 获取片段文本。 |

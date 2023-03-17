@@ -1,14 +1,14 @@
 ---
 title: ImageFillFormat
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 获取此的图像填充格式设置SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape.
+description: 获取this的图片填充格式设置SpreadsheetShapegroupdocs.watermark.contents.spreadsheet/spreadsheetshape.
 type: docs
 weight: 80
 url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/imagefillformat/
 ---
 ## SpreadsheetShape.ImageFillFormat property
 
-获取此的图像填充格式设置[`SpreadsheetShape`](../../spreadsheetshape).
+获取this的图片填充格式设置[`SpreadsheetShape`](../../spreadsheetshape).
 
 ```csharp
 public SpreadsheetImageFillFormat ImageFillFormat { get; }
@@ -16,7 +16,7 @@ public SpreadsheetImageFillFormat ImageFillFormat { get; }
 
 ### 适当的价值
 
-这个的图像填充格式设置[`SpreadsheetShape`](../../spreadsheetshape).
+这个的图片填充格式设置[`SpreadsheetShape`](../../spreadsheetshape).
 
 ### 也可以看看
 

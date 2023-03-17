@@ -1,14 +1,14 @@
 ---
 title: ImageWatermark
 second_title: .NET API 参考的 GroupDocs.Watermark
-description: 初始化ImageWatermarkgroupdocs.watermark.watermarks/imagewatermark具有指定文件路径的类
+description: 初始化一个新的实例ImageWatermarkgroupdocs.watermark.watermarks/imagewatermark具有指定文件路径的类.
 type: docs
 weight: 10
 url: /zh/net/groupdocs.watermark.watermarks/imagewatermark/imagewatermark/
 ---
 ## ImageWatermark(string) {#constructor_1}
 
-初始化[`ImageWatermark`](../../imagewatermark)具有指定文件路径的类。
+初始化一个新的实例[`ImageWatermark`](../../imagewatermark)具有指定文件路径的类.
 
 ```csharp
 public ImageWatermark(string filePath)
@@ -28,7 +28,7 @@ public ImageWatermark(string filePath)
 
 ## ImageWatermark(Stream) {#constructor}
 
-初始化[`ImageWatermark`](../../imagewatermark)具有指定流的类。
+初始化一个新的实例[`ImageWatermark`](../../imagewatermark)具有指定流的类.
 
 ```csharp
 public ImageWatermark(Stream stream)
