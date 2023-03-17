@@ -1,0 +1,114 @@
+---
+title: FileType
+second_title: GroupDocs.Watermark για Αναφορά API .NET
+description: Αντιπροσωπεύει τον τύπο αρχείου.
+type: docs
+weight: 40
+url: /el/net/groupdocs.watermark.common/filetype/
+---
+## FileType class
+
+Αντιπροσωπεύει τον τύπο αρχείου.
+
+```csharp
+public sealed class FileType : IEquatable<FileType>
+```
+
+## Ιδιότητες
+
+| Ονομα | Περιγραφή |
+| --- | --- |
+| [Extension](../../groupdocs.watermark.common/filetype/extension) { get; } | Παίρνει το επίθημα ονόματος αρχείου (συμπεριλαμβανομένης της περιόδου ".") π.χ. ".doc". |
+| [FileFormatName](../../groupdocs.watermark.common/filetype/fileformatname) { get; } | Λαμβάνει το όνομα τύπου αρχείου, π.χ., "Microsoft Word Document". |
+| [FormatFamily](../../groupdocs.watermark.common/filetype/formatfamily) { get; } | Λαμβάνει την οικογένεια μορφών. |
+
+## Μέθοδοι
+
+| Ονομα | Περιγραφή |
+| --- | --- |
+| static [FromExtension](../../groupdocs.watermark.common/filetype/fromextension)(string) | Αντιστοιχίζει την επέκταση αρχείου στον τύπο αρχείου. |
+| [Equals](../../groupdocs.watermark.common/filetype/equals#equals)(FileType) | Καθορίζει εάν το ρεύμα[`FileType`](../filetype) είναι το ίδιο με το καθορισμένο[`FileType`](../filetype) αντικείμενο. |
+| override [Equals](../../groupdocs.watermark.common/filetype/equals#equals_1)(object) | Καθορίζει εάν το ρεύμα[`FileType`](../filetype) είναι το ίδιο με το καθορισμένο αντικείμενο. |
+| override [GetHashCode](../../groupdocs.watermark.common/filetype/gethashcode)() | Επιστρέφει έναν κωδικό κατακερματισμού για το τρέχον[`FileType`](../filetype) αντικείμενο. |
+| override [ToString](../../groupdocs.watermark.common/filetype/tostring)() | Επιστρέφει μια συμβολοσειρά που αντιπροσωπεύει το τρέχον αντικείμενο. |
+| static [GetSupportedFileTypes](../../groupdocs.watermark.common/filetype/getsupportedfiletypes)() | Ανακτά τους υποστηριζόμενους τύπους αρχείων. |
+| [operator ==](../../groupdocs.watermark.common/filetype/op_equality) | Καθορίζει αν δύο[`FileType`](../filetype) τα αντικείμενα είναι ίδια. |
+| [operator !=](../../groupdocs.watermark.common/filetype/op_inequality) | Καθορίζει αν δύο[`FileType`](../filetype) τα αντικείμενα δεν είναι ίδια. |
+
+## Πεδία
+
+| Ονομα | Περιγραφή |
+| --- | --- |
+| static readonly [BMP](../../groupdocs.watermark.common/filetype/bmp) | Τα αρχεία με επέκταση .BMP αντιπροσωπεύουν αρχεία εικόνας Bitmap που χρησιμοποιούνται για την αποθήκευση ψηφιακών εικόνων bitmap. Αυτές οι εικόνες είναι ανεξάρτητες από τον προσαρμογέα γραφικών και ονομάζονται επίσης μορφή αρχείου bitmap ανεξάρτητα από τη συσκευή (DIB) file . Μάθετε περισσότερα για αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/bmp/) . |
+| static readonly [DOC](../../groupdocs.watermark.common/filetype/doc) | Τα αρχεία με επέκταση .doc αντιπροσωπεύουν έγγραφα που δημιουργούνται από το Microsoft Word ή άλλα έγγραφα word processing σε δυαδική μορφή αρχείου. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/word-processing/doc/) . |
+| static readonly [DOCM](../../groupdocs.watermark.common/filetype/docm) | Τα αρχεία DOCM είναι έγγραφα του Microsoft Word 2007 ή νεότερης έκδοσης που δημιουργούνται με δυνατότητα εκτέλεσης μακροεντολών. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/word-processing/docm/) . |
+| static readonly [DOCX](../../groupdocs.watermark.common/filetype/docx) | Το Το DOCX είναι μια πολύ γνωστή μορφή για έγγραφα του Microsoft Word. Παρουσιάστηκε από το 2007 με την κυκλοφορία του Microsoft Office 2007, η δομή αυτής της νέας μορφής Εγγράφου άλλαξε από απλό binary σε συνδυασμό XML και δυαδικών αρχείων. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/word-processing/docx/) . |
+| static readonly [DOT](../../groupdocs.watermark.common/filetype/dot) | Τα αρχεία με επέκταση .DOT είναι αρχεία προτύπων που δημιουργήθηκαν από το Microsoft Word για να έχουν προδιαμορφωμένες ρυθμίσεις για τη δημιουργία περαιτέρω αρχείων DOC ή DOCX. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/word-processing/dot/) . |
+| static readonly [DOTM](../../groupdocs.watermark.common/filetype/dotm) | Ένα αρχείο με επέκταση DOTM αντιπροσωπεύει αρχείο προτύπου που δημιουργήθηκε με Microsoft Word 2007 ή νεότερη έκδοση. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/word-processing/dotm/) . |
+| static readonly [DOTX](../../groupdocs.watermark.common/filetype/dotx) | Τα αρχεία με επέκταση DOTX είναι αρχεία προτύπων που δημιουργήθηκαν από το Microsoft Word για να έχουν προδιαμορφωμένες ρυθμίσεις για τη δημιουργία περαιτέρω αρχείων DOCX. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/word-processing/dotx/) . |
+| static readonly [EML](../../groupdocs.watermark.common/filetype/eml) | Η μορφή αρχείου EML αντιπροσωπεύει μηνύματα email που είναι αποθηκευμένα με χρήση του Outlook και άλλων σχετικών εφαρμογών. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/email/eml/) . |
+| static readonly [EMLX](../../groupdocs.watermark.common/filetype/emlx) | Η μορφή αρχείου EMX υλοποιείται και αναπτύσσεται από την Apple. Η εφαρμογή Apple Mail χρησιμοποιεί τη μορφή αρχείου EMLX για την εξαγωγή των email. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/email/emlx/) . |
+| static readonly [FlatOpc](../../groupdocs.watermark.common/filetype/flatopc) | Office Open XML WordprocessingML αποθηκευμένο σε επίπεδο αρχείο XML αντί για πακέτο ZIP (.xml). Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://en.wikipedia.org/wiki/Office_Open_XML) . |
+| static readonly [FlatOpcMacroEnabled](../../groupdocs.watermark.common/filetype/flatopcmacroenabled) | Office Open XML WordprocessingML Έγγραφο με δυνατότητα μακροεντολής που είναι αποθηκευμένο σε επίπεδο αρχείο XML αντί για πακέτο ZIP (.xml). Μάθετε περισσότερα για αυτήν τη μορφή αρχείου[εδώ](https://en.wikipedia.org/wiki/Office_Open_XML) . |
+| static readonly [FlatOpcTemplate](../../groupdocs.watermark.common/filetype/flatopctemplate) | Πρότυπο Office Open XML WordprocessingML (χωρίς μακροεντολή) αποθηκευμένο σε επίπεδο αρχείο XML αντί για πακέτο ZIP (.xml). Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://en.wikipedia.org/wiki/Office_Open_XML) . |
+| static readonly [FlatOpcTemplateMacroEnabled](../../groupdocs.watermark.common/filetype/flatopctemplatemacroenabled) | Πρότυπο Office Open XML WordprocessingML με μακροεντολή που είναι αποθηκευμένο σε επίπεδο αρχείο XML αντί για πακέτο ZIP (.xml). Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://en.wikipedia.org/wiki/Office_Open_XML) . |
+| static readonly [GIF](../../groupdocs.watermark.common/filetype/gif) | Μια μορφή GIF ή Graphical Interchange Format είναι ένας τύπος υψηλής συμπίεσης εικόνας. Μάθετε περισσότερα για αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/gif/) . |
+| static readonly [JPEG](../../groupdocs.watermark.common/filetype/jpeg) | Το JPEG είναι ένας τύπος μορφής εικόνας που αποθηκεύεται χρησιμοποιώντας τη μέθοδο συμπίεσης με απώλειες. Μάθετε περισσότερα για αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/jpeg/) . |
+| static readonly [JPF](../../groupdocs.watermark.common/filetype/jpf) | Το Το JPEG 2000 (JPF) είναι ένα σύστημα κωδικοποίησης εικόνας και ένα προηγμένο πρότυπο συμπίεσης εικόνας. Σχεδιασμένο, χρησιμοποιώντας τεχνολογία wavelet JPEG 2000 μπορεί να κωδικοποιεί περιεχόμενο χωρίς απώλειες σε οποιαδήποτε ποιότητα ταυτόχρονα. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/jp2/) . |
+| static readonly [JPG](../../groupdocs.watermark.common/filetype/jpg) | Το JPEG είναι ένας τύπος μορφής εικόνας που αποθηκεύεται χρησιμοποιώντας τη μέθοδο συμπίεσης με απώλειες. Μάθετε περισσότερα για αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/jpeg/) . |
+| static readonly [JPM](../../groupdocs.watermark.common/filetype/jpm) | Το Το JPEG 2000 (JPM) είναι ένα σύστημα κωδικοποίησης εικόνας και ένα προηγμένο πρότυπο συμπίεσης εικόνας. Σχεδιασμένο, χρησιμοποιώντας τεχνολογία wavelet JPEG 2000 μπορεί να κωδικοποιεί περιεχόμενο χωρίς απώλειες σε οποιαδήποτε ποιότητα ταυτόχρονα. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/jp2/) . |
+| static readonly [JPX](../../groupdocs.watermark.common/filetype/jpx) | Το Το JPEG 2000 (JPX) είναι ένα σύστημα κωδικοποίησης εικόνας και ένα προηγμένο πρότυπο συμπίεσης εικόνας. Σχεδιασμένο, χρησιμοποιώντας τεχνολογία wavelet JPEG 2000 μπορεί να κωδικοποιεί περιεχόμενο χωρίς απώλειες σε οποιαδήποτε ποιότητα ταυτόχρονα. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/jp2/) . |
+| static readonly [MSG](../../groupdocs.watermark.common/filetype/msg) | Το MSG είναι μια μορφή αρχείου που χρησιμοποιείται από το Microsoft Outlook και το Exchange για την αποθήκευση μηνυμάτων email, επαφών, ραντεβού ή άλλων εργασιών. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/email/msg/) . |
+| static readonly [ODT](../../groupdocs.watermark.common/filetype/odt) | Τα αρχεία ODT είναι τύποι εγγράφων που δημιουργούνται με εφαρμογές επεξεργασίας κειμένου που βασίζονται στη μορφή αρχείου κειμένου OpenDocument . Αυτά δημιουργούνται με εφαρμογές επεξεργασίας κειμένου, όπως το δωρεάν OpenOffice Writer και το μπορεί να περιέχει περιεχόμενο όπως κείμενο, εικόνες, αντικείμενα και στυλ. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/word-processing/odt/) . |
+| static readonly [OFT](../../groupdocs.watermark.common/filetype/oft) | Τα αρχεία με επέκταση .OFT αντιπροσωπεύουν αρχεία προτύπων μηνυμάτων που δημιουργούνται χρησιμοποιώντας το Microsoft Outlook. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/email/oft/) . |
+| static readonly [OOXML](../../groupdocs.watermark.common/filetype/ooxml) | Ανοικτό αρχείο xml του Office (.ooxml). |
+| static readonly [PDF](../../groupdocs.watermark.common/filetype/pdf) | Το Portable Document Format (PDF) είναι ένας τύπος εγγράφου που δημιουργήθηκε από την Adobe στη δεκαετία του 1990. Ο σκοπός αυτής της μορφής αρχείου ήταν να εισαγάγει ένα πρότυπο για την αναπαράσταση εγγράφων και άλλου υλικού αναφοράς σε μια μορφή που είναι ανεξάρτητη από το λογισμικό εφαρμογής, το υλικό καθώς και το λειτουργικό σύστημα. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/view/pdf/) . |
+| static readonly [PNG](../../groupdocs.watermark.common/filetype/png) | Το PNG, Portable Network Graphics, αναφέρεται σε έναν τύπο μορφής αρχείου εικόνας ράστερ που χρησιμοποιεί συμπίεση χωρίς απώλειες. Μάθετε περισσότερα για αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/png/) . |
+| static readonly [POTM](../../groupdocs.watermark.common/filetype/potm) | Τα αρχεία με επέκταση POTM είναι αρχεία προτύπων του Microsoft PowerPoint με υποστήριξη για μακροεντολές. Τα αρχεία POTM δημιουργούνται με PowerPoint 2007 ή νεότερη έκδοση και περιέχουν προεπιλεγμένες ρυθμίσεις που μπορούν να χρησιμοποιηθούν για τη δημιουργία περαιτέρω αρχείων παρουσίασης. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/presentation/potm/) . |
+| static readonly [POTX](../../groupdocs.watermark.common/filetype/potx) | Τα αρχεία με επέκταση .POTX αντιπροσωπεύουν παρουσιάσεις προτύπων Microsoft PowerPoint που δημιουργούνται με Microsoft PowerPoint 2007 και μεταγενέστερη έκδοση. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/presentation/potx/) . |
+| static readonly [PPS](../../groupdocs.watermark.common/filetype/pps) | PPS, PowerPoint Slide Show, τα αρχεία δημιουργούνται χρησιμοποιώντας το Microsoft PowerPoint για σκοπούς προβολής διαφανειών. Η ανάγνωση και η δημιουργία αρχείων PPS υποστηρίζεται από το Microsoft PowerPoint 97-2003. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/presentation/pps/) . |
+| static readonly [PPSM](../../groupdocs.watermark.common/filetype/ppsm) | Τα αρχεία με επέκταση PPSM αντιπροσωπεύουν τη μορφή αρχείου Slide Show με δυνατότητα Macro που δημιουργήθηκε με Microsoft PowerPoint 2007 ή νεότερη έκδοση. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/presentation/ppsm/) . |
+| static readonly [PPSX](../../groupdocs.watermark.common/filetype/ppsx) | Το αρχείο PPSX, Power Point Slide Show, δημιουργείται χρησιμοποιώντας το Microsoft PowerPoint 2007 και νεότερη έκδοση για το σκοπό Slide Show. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/presentation/ppsx/) . |
+| static readonly [PPT](../../groupdocs.watermark.common/filetype/ppt) | Ένα αρχείο με επέκταση PPT αντιπροσωπεύει το αρχείο PowerPoint που αποτελείται από μια συλλογή διαφανειών για που εμφανίζεται ως SlideShow. Καθορίζει τη μορφή δυαδικού αρχείου που χρησιμοποιείται από το Microsoft PowerPoint 97-2003. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/presentation/ppt/) . |
+| static readonly [PPTM](../../groupdocs.watermark.common/filetype/pptm) | Τα αρχεία με επέκταση PPTM είναι αρχεία παρουσίασης με δυνατότητα μακροεντολής που δημιουργούνται με Microsoft PowerPoint 2007 ή νεότερες εκδόσεις. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/presentation/pptm/) . |
+| static readonly [PPTX](../../groupdocs.watermark.common/filetype/pptx) | Τα αρχεία με επέκταση PPTX είναι αρχεία παρουσίασης που δημιουργήθηκαν με τη δημοφιλή εφαρμογή Microsoft PowerPoint. Σε αντίθεση με την προηγούμενη έκδοση της μορφής αρχείου παρουσίασης PPT που ήταν δυαδική, η μορφή PPTX βασίζεται στη μορφή αρχείου παρουσίασης ανοιχτής XML του Microsoft PowerPoint. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/presentation/pptx/) . |
+| static readonly [RTF](../../groupdocs.watermark.common/filetype/rtf) | Παρουσιάστηκε και τεκμηριώθηκε από τη Microsoft, το Rich Text Format (RTF) αντιπροσωπεύει μια μέθοδο encoding μορφοποιημένων κειμένων και γραφικών για χρήση σε εφαρμογές. Η μορφή διευκολύνει την ανταλλαγή document μεταξύ πλατφορμών με άλλα Προϊόντα της Microsoft, εξυπηρετώντας έτσι το σκοπό της διαλειτουργικότητας. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/word-processing/rtf/) . |
+| static readonly [TIF](../../groupdocs.watermark.common/filetype/tif) | Το TIFF ή TIF, Μορφή αρχείου εικόνας με ετικέτα, αντιπροσωπεύει εικόνες ράστερ που προορίζονται για χρήση σε μια ποικιλία συσκευών που συμμορφώνονται με αυτό το πρότυπο μορφής αρχείου. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/image/tiff/) . |
+| static readonly [TIFF](../../groupdocs.watermark.common/filetype/tiff) | Το TIFF ή TIF, Μορφή αρχείου εικόνας με ετικέτα, αντιπροσωπεύει εικόνες ράστερ που προορίζονται για χρήση σε μια ποικιλία συσκευών που συμμορφώνονται με αυτό το πρότυπο μορφής αρχείου. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/image/tiff/) . |
+| static readonly [Unknown](../../groupdocs.watermark.common/filetype/unknown) | Αντιπροσωπεύει άγνωστο τύπο αρχείου. |
+| static readonly [VDW](../../groupdocs.watermark.common/filetype/vdw) | Το VDW είναι η μορφή αρχείου Visio Graphics Service που καθορίζει τις ροές και τις αποθήκες που απαιτούνται για την απόδοση ενός σχεδίου Web. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/web/vdw/) . |
+| static readonly [VDX](../../groupdocs.watermark.common/filetype/vdx) | Οποιοδήποτε σχέδιο ή γράφημα που δημιουργήθηκε στο Microsoft Visio, αλλά είναι αποθηκευμένο σε μορφή XML, έχει επέκταση .VDX. Μάθετε περισσότερα για αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/vdx/) . |
+| static readonly [VSD](../../groupdocs.watermark.common/filetype/vsd) | Τα αρχεία VSD είναι σχέδια που δημιουργήθηκαν με την εφαρμογή Microsoft Visio για να αναπαραστήσουν ποικιλία αντικειμένων γραφικών και τη διασύνδεση μεταξύ αυτών. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/image/vsd/) . |
+| static readonly [VSDM](../../groupdocs.watermark.common/filetype/vsdm) | Τα αρχεία με επέκταση VSDM είναι αρχεία σχεδίασης που έχουν δημιουργηθεί με την εφαρμογή Microsoft Visio που υποστηρίζει μακροεντολές. Μάθετε περισσότερα για αυτήν τη μορφή αρχείου [εδώ](https://wiki.fileformat.com/image/vsdm/) . |
+| static readonly [VSDX](../../groupdocs.watermark.common/filetype/vsdx) | Τα αρχεία με επέκταση .VSDX αντιπροσωπεύουν τη μορφή αρχείου Microsoft Visio που εισήχθη από το Microsoft Office 2013 και μετά. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/image/vsdx/) . |
+| static readonly [VSS](../../groupdocs.watermark.common/filetype/vss) | Τα VSS είναι αρχεία στένσιλ που δημιουργήθηκαν με το Microsoft Visio 2007 και παλαιότερες εκδόσεις. Τα αρχεία στένσιλ παρέχουν αντικείμενα drawing που μπορούν να συμπεριληφθούν σε ένα σχέδιο .VSD Visio. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/image/vss/) . |
+| static readonly [VSSM](../../groupdocs.watermark.common/filetype/vssm) | Τα αρχεία με επέκταση .VSSM είναι αρχεία Microsoft Visio Stencil που υποστηρίζουν την παροχή υποστήριξης για μακροεντολές. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/vssm/) . |
+| static readonly [VSSX](../../groupdocs.watermark.common/filetype/vssx) | Τα αρχεία με επέκταση .VSSX είναι στένσιλ σχεδίασης που έχουν δημιουργηθεί με το Microsoft Visio 2013 και άνω. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου [εδώ](https://wiki.fileformat.com/image/vssx/) . |
+| static readonly [VST](../../groupdocs.watermark.common/filetype/vst) | Τα αρχεία με επέκταση VST είναι διανυσματικά αρχεία εικόνας που δημιουργούνται με το Microsoft Visio και λειτουργούν ως πρότυπο για το που δημιουργεί περαιτέρω αρχεία. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/image/vst/) . |
+| static readonly [VSTM](../../groupdocs.watermark.common/filetype/vstm) | Τα αρχεία με επέκταση VSTM είναι αρχεία προτύπων που έχουν δημιουργηθεί με το Microsoft Visio και υποστηρίζουν μακροεντολές. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/vstm/) . |
+| static readonly [VSTX](../../groupdocs.watermark.common/filetype/vstx) | Τα αρχεία με επεκτάσεις VSTX είναι αρχεία προτύπων σχεδίασης που έχουν δημιουργηθεί με το Microsoft Visio 2013 και άνω. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου [εδώ](https://wiki.fileformat.com/image/vstx/) . |
+| static readonly [VSX](../../groupdocs.watermark.common/filetype/vsx) | Τα αρχεία με επέκταση .VSX αναφέρονται σε στένσιλ που αποτελούνται από σχέδια και σχήματα που χρησιμοποιούνται για τη δημιουργία διαγραμμάτων στο Microsoft Visio. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/image/vsx/) . |
+| static readonly [VTX](../../groupdocs.watermark.common/filetype/vtx) | Ένα αρχείο με επέκταση VTX είναι ένα πρότυπο σχεδίασης του Microsoft Visio που αποθηκεύεται σε δίσκο σε μορφή αρχείου XML. Μάθετε περισσότερα για αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/vtx/) . |
+| static readonly [WEBP](../../groupdocs.watermark.common/filetype/webp) | Το WebP, που εισήχθη από την Google, είναι μια σύγχρονη μορφή αρχείου εικόνας ιστού ράστερ που βασίζεται στη συμπίεση χωρίς απώλειες και . Παρέχει την ίδια ποιότητα εικόνας ενώ μειώνει σημαντικά το μέγεθος της εικόνας. Μάθετε περισσότερα για αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/image/webp/) . |
+| static readonly [XLS](../../groupdocs.watermark.common/filetype/xls) | Τα αρχεία με επέκταση XLS αντιπροσωπεύουν τη μορφή δυαδικού αρχείου του Excel. Τέτοια αρχεία μπορούν να δημιουργηθούν από το Microsoft Excel καθώς και από άλλα παρόμοια προγράμματα υπολογιστικών φύλλων όπως το OpenOffice Calc ή το Apple Numbers. Μάθετε περισσότερα σχετικά με αυτήν τη μορφή αρχείου[εδώ](https://wiki.fileformat.com/specification/spreadsheet/xls/) . |
+| static readonly [XLSB](../../groupdocs.watermark.common/filetype/xlsb) | Η μορφή αρχείου XLSB καθορίζει τη Μορφή δυαδικού αρχείου του Excel, η οποία είναι μια συλλογή εγγραφών και δομών που καθορίζουν το περιεχόμενο του βιβλίου εργασίας του Excel. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/specification/spreadsheet/xlsb/) . |
+| static readonly [XLSM](../../groupdocs.watermark.common/filetype/xlsm) | Τα αρχεία με επέκταση XLSM είναι ένας τύπος αρχείων υπολογιστικού φύλλου που υποστηρίζουν μακροεντολές. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/specification/spreadsheet/xlsm/) . |
+| static readonly [XLSX](../../groupdocs.watermark.common/filetype/xlsx) | Το XLSX είναι μια πολύ γνωστή μορφή για έγγραφα του Microsoft Excel που εισήχθη από τη Microsoft με την έκδοση του Microsoft Office 2007. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/specification/spreadsheet/xlsx/) . |
+| static readonly [XLT](../../groupdocs.watermark.common/filetype/xlt) | Τα αρχεία με επέκταση .XLT είναι αρχεία προτύπων που δημιουργούνται με το Microsoft Excel, το οποίο είναι μια εφαρμογή υπολογιστικού φύλλου που διατίθεται ως μέρος της σουίτας του Microsoft Office. Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/specification/spreadsheet/xlt/) . |
+| static readonly [XLTM](../../groupdocs.watermark.common/filetype/xltm) | Η επέκταση αρχείου XLTM αντιπροσωπεύει αρχεία που δημιουργούνται από το Microsoft Excel ως αρχεία προτύπων Macro-enabled . Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/specification/spreadsheet/xltm/) . |
+| static readonly [XLTX](../../groupdocs.watermark.common/filetype/xltx) | Τα αρχεία με επέκταση XLTX αντιπροσωπεύουν αρχεία προτύπου Microsoft Excel που βασίζονται στις προδιαγραφές μορφής αρχείου του Office OpenXML . Μάθετε περισσότερα για αυτό το αρχείο format [εδώ](https://wiki.fileformat.com/specification/spreadsheet/xltx/) . |
+
+### Παρατηρήσεις
+
+Αυτή η κλάση παρέχει μεθόδους για τη λήψη λίστας όλων των τύπων αρχείων που υποστηρίζονται από**GroupDocs.Υδατογράφημα**.**Μάθε περισσότερα**
+
+* [Υποστηριζόμενες μορφές εγγράφων](https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats)
+* [Λάβετε υποστηριζόμενες μορφές αρχείων](https://docs.groupdocs.com/display/watermarknet/Get+supported+file+formats)
+* [Λάβετε πληροφορίες εγγράφων](https://docs.groupdocs.com/display/watermarknet/Get+document+info)
+
+### Δείτε επίσης
+
+* χώρος ονομάτων [GroupDocs.Watermark.Common](../../groupdocs.watermark.common)
+* συνέλευση [GroupDocs.Watermark](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.Watermark.dll -->
