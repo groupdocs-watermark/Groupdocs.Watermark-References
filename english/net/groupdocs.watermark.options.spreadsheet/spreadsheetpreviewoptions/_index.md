@@ -3,7 +3,7 @@ title: SpreadsheetPreviewOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides options to sets requirements and stream delegates for preview generation of Spreadsheet document.
 type: docs
-weight: 2150
+weight: 2190
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/
 ---
 ## SpreadsheetPreviewOptions class

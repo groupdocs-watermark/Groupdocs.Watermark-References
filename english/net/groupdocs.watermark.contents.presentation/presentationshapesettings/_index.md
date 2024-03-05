@@ -3,7 +3,7 @@ title: PresentationShapeSettings
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents settings that can be applied to a shape watermark for a PowerPoint document.
 type: docs
-weight: 970
+weight: 990
 url: /net/groupdocs.watermark.contents.presentation/presentationshapesettings/
 ---
 ## PresentationShapeSettings class

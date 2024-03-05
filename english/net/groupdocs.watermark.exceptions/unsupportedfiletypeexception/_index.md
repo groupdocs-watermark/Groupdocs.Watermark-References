@@ -3,7 +3,7 @@ title: UnsupportedFileTypeException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when a file cannot be loaded.
 type: docs
-weight: 1590
+weight: 1610
 url: /net/groupdocs.watermark.exceptions/unsupportedfiletypeexception/
 ---
 ## UnsupportedFileTypeException class

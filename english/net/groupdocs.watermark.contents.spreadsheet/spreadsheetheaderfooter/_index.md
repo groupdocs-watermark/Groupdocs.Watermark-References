@@ -3,7 +3,7 @@ title: SpreadsheetHeaderFooter
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a header/footer in an Excel document.
 type: docs
-weight: 1110
+weight: 1130
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/
 ---
 ## SpreadsheetHeaderFooter class

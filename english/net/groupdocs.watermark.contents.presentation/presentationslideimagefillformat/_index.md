@@ -3,7 +3,7 @@ title: PresentationSlideImageFillFormat
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the image fill format settings for a slide in a PowerPoint document.
 type: docs
-weight: 1010
+weight: 1030
 url: /net/groupdocs.watermark.contents.presentation/presentationslideimagefillformat/
 ---
 ## PresentationSlideImageFillFormat class

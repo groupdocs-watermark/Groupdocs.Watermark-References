@@ -3,7 +3,7 @@ title: WordProcessingHorizontalAlignment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies horizontal alignment of a floating object.
 type: docs
-weight: 1320
+weight: 1340
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessinghorizontalalignment/
 ---
 ## WordProcessingHorizontalAlignment enumeration

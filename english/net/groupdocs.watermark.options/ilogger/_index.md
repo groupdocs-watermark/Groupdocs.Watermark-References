@@ -3,7 +3,7 @@ title: ILogger
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Defines the interface of a logger that is used for logging events and errors during watermarking.
 type: docs
-weight: 1730
+weight: 1770
 url: /net/groupdocs.watermark.options/ilogger/
 ---
 ## ILogger interface

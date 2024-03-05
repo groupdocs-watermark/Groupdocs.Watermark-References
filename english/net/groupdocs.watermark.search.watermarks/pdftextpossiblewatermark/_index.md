@@ -3,7 +3,7 @@ title: PdfTextPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in a pdf document text.
 type: docs
-weight: 2880
+weight: 2930
 url: /net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/
 ---
 ## PdfTextPossibleWatermark class

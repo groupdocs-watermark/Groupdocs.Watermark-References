@@ -3,7 +3,7 @@ title: SpreadsheetAttachment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a file attached to an Excel document.
 type: docs
-weight: 1030
+weight: 1050
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/
 ---
 ## SpreadsheetAttachment class

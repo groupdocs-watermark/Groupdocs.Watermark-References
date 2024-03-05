@@ -3,7 +3,7 @@ title: TwoDObjectPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents 2D object watermark in a content of any supported format.
 type: docs
-weight: 2730
+weight: 2780
 url: /net/groupdocs.watermark.search/twodobjectpossiblewatermark/
 ---
 ## TwoDObjectPossibleWatermark class

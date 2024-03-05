@@ -3,7 +3,7 @@ title: IRotatableTwoDObject
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents any rotatable two dimensional object in a content structure.
 type: docs
-weight: 2450
+weight: 2490
 url: /net/groupdocs.watermark.search/irotatabletwodobject/
 ---
 ## IRotatableTwoDObject interface

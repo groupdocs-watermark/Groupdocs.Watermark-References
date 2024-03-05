@@ -3,7 +3,7 @@ title: GroupDocs.Watermark.Search
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The namespace provides classes for searching editing and removing watermarks in documents of different types.
 type: docs
-weight: 200
+weight: 210
 url: /net/groupdocs.watermark.search/
 ---
 The namespace provides classes for searching, editing and removing watermarks in documents of different types.

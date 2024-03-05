@@ -3,7 +3,7 @@ title: SpreadsheetWatermarkableImage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an image inside an Excel document.
 type: docs
-weight: 1250
+weight: 1270
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetwatermarkableimage/
 ---
 ## SpreadsheetWatermarkableImage class

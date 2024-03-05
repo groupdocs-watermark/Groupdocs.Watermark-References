@@ -3,7 +3,7 @@ title: SaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document saving options when saving a document.
 type: docs
-weight: 2100
+weight: 2140
 url: /net/groupdocs.watermark.options/saveoptions/
 ---
 ## SaveOptions class

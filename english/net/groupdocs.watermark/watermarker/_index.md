@@ -3,7 +3,7 @@ title: Watermarker
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a class for watermark management in a document.
 type: docs
-weight: 3060
+weight: 3120
 url: /net/groupdocs.watermark/watermarker/
 ---
 ## Watermarker class

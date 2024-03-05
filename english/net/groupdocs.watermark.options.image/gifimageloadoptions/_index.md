@@ -3,7 +3,7 @@ title: GifImageLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents image loading options for a GIF image.
 type: docs
-weight: 1740
+weight: 1780
 url: /net/groupdocs.watermark.options.image/gifimageloadoptions/
 ---
 ## GifImageLoadOptions class

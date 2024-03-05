@@ -3,7 +3,7 @@ title: EmailPreviewOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides options to sets requirements and stream delegates for preview generation of Email document.
 type: docs
-weight: 1710
+weight: 1750
 url: /net/groupdocs.watermark.options.email/emailpreviewoptions/
 ---
 ## EmailPreviewOptions class

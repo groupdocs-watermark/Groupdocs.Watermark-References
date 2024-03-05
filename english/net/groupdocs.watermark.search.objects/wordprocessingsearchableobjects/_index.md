@@ -3,7 +3,7 @@ title: WordProcessingSearchableObjects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies flags representing Word content objects that are to be included in a watermark search.
 type: docs
-weight: 2530
+weight: 2570
 url: /net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/
 ---
 ## WordProcessingSearchableObjects enumeration

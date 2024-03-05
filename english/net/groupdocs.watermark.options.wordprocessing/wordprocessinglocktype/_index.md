@@ -3,7 +3,7 @@ title: WordProcessingLockType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies watermark lock type in Word document.
 type: docs
-weight: 2290
+weight: 2330
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessinglocktype/
 ---
 ## WordProcessingLockType enumeration

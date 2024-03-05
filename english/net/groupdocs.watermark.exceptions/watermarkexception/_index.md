@@ -3,7 +3,7 @@ title: WatermarkException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents base exception in GroupDocs.Watermark product.
 type: docs
-weight: 1600
+weight: 1620
 url: /net/groupdocs.watermark.exceptions/watermarkexception/
 ---
 ## WatermarkException class

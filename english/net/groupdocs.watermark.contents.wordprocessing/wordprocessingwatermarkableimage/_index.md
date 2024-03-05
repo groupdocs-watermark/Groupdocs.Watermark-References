@@ -3,7 +3,7 @@ title: WordProcessingWatermarkableImage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an image inside a Word document.
 type: docs
-weight: 1460
+weight: 1480
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingwatermarkableimage/
 ---
 ## WordProcessingWatermarkableImage class

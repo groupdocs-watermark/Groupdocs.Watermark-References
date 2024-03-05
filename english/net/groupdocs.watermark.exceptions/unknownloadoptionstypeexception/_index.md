@@ -3,7 +3,7 @@ title: UnknownLoadOptionsTypeException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when a document cannot be loaded with supplied LoadOptions../groupdocs.watermark.options/loadoptions.
 type: docs
-weight: 1570
+weight: 1590
 url: /net/groupdocs.watermark.exceptions/unknownloadoptionstypeexception/
 ---
 ## UnknownLoadOptionsTypeException class

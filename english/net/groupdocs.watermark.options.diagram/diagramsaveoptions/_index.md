@@ -3,7 +3,7 @@ title: DiagramSaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document saving options when saving a Visio document.
 type: docs
-weight: 1670
+weight: 1710
 url: /net/groupdocs.watermark.options.diagram/diagramsaveoptions/
 ---
 ## DiagramSaveOptions class

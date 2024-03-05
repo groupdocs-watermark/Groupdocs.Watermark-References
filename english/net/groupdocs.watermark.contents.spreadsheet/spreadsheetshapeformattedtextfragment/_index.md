@@ -3,7 +3,7 @@ title: SpreadsheetShapeFormattedTextFragment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a fragment of formatted text in Excel document shape.
 type: docs
-weight: 1210
+weight: 1230
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetshapeformattedtextfragment/
 ---
 ## SpreadsheetShapeFormattedTextFragment class

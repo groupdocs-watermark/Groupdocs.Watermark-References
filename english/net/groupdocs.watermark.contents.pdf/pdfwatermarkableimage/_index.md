@@ -3,7 +3,7 @@ title: PdfWatermarkableImage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an image inside a Pdf document.
 type: docs
-weight: 730
+weight: 750
 url: /net/groupdocs.watermark.contents.pdf/pdfwatermarkableimage/
 ---
 ## PdfWatermarkableImage class

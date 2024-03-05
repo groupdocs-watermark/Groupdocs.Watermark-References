@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark/watermarker/save/
 Saves the document data to the underlying stream.
 
 ```csharp
-public void Save()
+public WatermarkResult Save()
 ```
 
 ### Remarks
@@ -37,6 +37,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.msg"))
 
 ### See Also
 
+* class [WatermarkResult](../../../groupdocs.watermark.internal/watermarkresult)
 * class [Watermarker](../../watermarker)
 * namespace [GroupDocs.Watermark](../../watermarker)
 * assembly [GroupDocs.Watermark](../../../)
@@ -48,7 +49,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.msg"))
 Saves the document to the specified file location.
 
 ```csharp
-public void Save(string filePath)
+public WatermarkResult Save(string filePath)
 ```
 
 | Parameter | Type | Description |
@@ -74,6 +75,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 
 ### See Also
 
+* class [WatermarkResult](../../../groupdocs.watermark.internal/watermarkresult)
 * class [Watermarker](../../watermarker)
 * namespace [GroupDocs.Watermark](../../watermarker)
 * assembly [GroupDocs.Watermark](../../../)
@@ -85,7 +87,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 Saves the document to the specified stream.
 
 ```csharp
-public void Save(Stream document)
+public WatermarkResult Save(Stream document)
 ```
 
 | Parameter | Type | Description |
@@ -115,6 +117,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 
 ### See Also
 
+* class [WatermarkResult](../../../groupdocs.watermark.internal/watermarkresult)
 * class [Watermarker](../../watermarker)
 * namespace [GroupDocs.Watermark](../../watermarker)
 * assembly [GroupDocs.Watermark](../../../)
@@ -126,7 +129,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 Saves the document data to the underlying stream using save options.
 
 ```csharp
-public void Save(SaveOptions options)
+public WatermarkResult Save(SaveOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -152,6 +155,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 
 ### See Also
 
+* class [WatermarkResult](../../../groupdocs.watermark.internal/watermarkresult)
 * class [SaveOptions](../../../groupdocs.watermark.options/saveoptions)
 * class [Watermarker](../../watermarker)
 * namespace [GroupDocs.Watermark](../../watermarker)
@@ -164,7 +168,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 Saves the document to the specified file location using save options.
 
 ```csharp
-public void Save(string filePath, SaveOptions options)
+public WatermarkResult Save(string filePath, SaveOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -191,6 +195,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 
 ### See Also
 
+* class [WatermarkResult](../../../groupdocs.watermark.internal/watermarkresult)
 * class [SaveOptions](../../../groupdocs.watermark.options/saveoptions)
 * class [Watermarker](../../watermarker)
 * namespace [GroupDocs.Watermark](../../watermarker)
@@ -203,7 +208,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 Saves the document to the specified stream using save options.
 
 ```csharp
-public void Save(Stream document, SaveOptions options)
+public WatermarkResult Save(Stream document, SaveOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -234,6 +239,7 @@ using (Watermarker watermarker = new Watermarker("input.pdf"))
 
 ### See Also
 
+* class [WatermarkResult](../../../groupdocs.watermark.internal/watermarkresult)
 * class [SaveOptions](../../../groupdocs.watermark.options/saveoptions)
 * class [Watermarker](../../watermarker)
 * namespace [GroupDocs.Watermark](../../watermarker)

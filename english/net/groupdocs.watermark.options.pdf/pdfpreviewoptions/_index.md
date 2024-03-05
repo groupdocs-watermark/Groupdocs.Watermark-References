@@ -3,7 +3,7 @@ title: PdfPreviewOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides options to sets requirements and stream delegates for preview generation of PDF document.
 type: docs
-weight: 1890
+weight: 1930
 url: /net/groupdocs.watermark.options.pdf/pdfpreviewoptions/
 ---
 ## PdfPreviewOptions class

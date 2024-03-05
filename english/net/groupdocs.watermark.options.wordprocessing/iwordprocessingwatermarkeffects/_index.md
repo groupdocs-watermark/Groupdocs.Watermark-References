@@ -3,7 +3,7 @@ title: IWordProcessingWatermarkEffects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents interface for watermark effects that should be applied to the watermark.
 type: docs
-weight: 2250
+weight: 2290
 url: /net/groupdocs.watermark.options.wordprocessing/iwordprocessingwatermarkeffects/
 ---
 ## IWordProcessingWatermarkEffects interface

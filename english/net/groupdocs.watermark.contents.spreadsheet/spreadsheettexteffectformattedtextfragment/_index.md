@@ -3,7 +3,7 @@ title: SpreadsheetTextEffectFormattedTextFragment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a fragment of formatted text in Excel document WordArt shape.
 type: docs
-weight: 1230
+weight: 1250
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheettexteffectformattedtextfragment/
 ---
 ## SpreadsheetTextEffectFormattedTextFragment class

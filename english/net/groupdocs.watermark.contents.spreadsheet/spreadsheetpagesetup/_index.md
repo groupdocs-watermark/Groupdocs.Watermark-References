@@ -3,7 +3,7 @@ title: SpreadsheetPageSetup
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents printing page properties for a worksheet.
 type: docs
-weight: 1180
+weight: 1200
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/
 ---
 ## SpreadsheetPageSetup class

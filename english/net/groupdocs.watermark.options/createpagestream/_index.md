@@ -3,7 +3,7 @@ title: CreatePageStream
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a method that returns a stream to write page preview data.
 type: docs
-weight: 1630
+weight: 1670
 url: /net/groupdocs.watermark.options/createpagestream/
 ---
 ## CreatePageStream delegate

@@ -3,7 +3,7 @@ title: WordProcessingSectionCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of sections in a Word document.
 type: docs
-weight: 1380
+weight: 1400
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingsectioncollection/
 ---
 ## WordProcessingSectionCollection class
@@ -18,9 +18,9 @@ public class WordProcessingSectionCollection : ReadOnlyListBase<WordProcessingSe
 
 | Name | Description |
 | --- | --- |
-| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } |  |
-| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } |  |
-| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } |  |
+| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | Gets the number of elements contained in the collection. |
+| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } | Gets a value indicating whether the collection is read-only. |
+| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | Gets the element at the specified index in the collection. |
 
 ## Methods
 

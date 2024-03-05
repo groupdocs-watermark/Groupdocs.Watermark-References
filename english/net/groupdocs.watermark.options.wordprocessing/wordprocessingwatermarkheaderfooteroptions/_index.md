@@ -3,7 +3,7 @@ title: WordProcessingWatermarkHeaderFooterOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options when adding the watermark to a Word section header/footer.
 type: docs
-weight: 2350
+weight: 2390
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkheaderfooteroptions/
 ---
 ## WordProcessingWatermarkHeaderFooterOptions class

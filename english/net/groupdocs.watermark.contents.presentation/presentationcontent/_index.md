@@ -3,7 +3,7 @@ title: PresentationContent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a PowerPoint document where a watermark can be placed.
 type: docs
-weight: 830
+weight: 850
 url: /net/groupdocs.watermark.contents.presentation/presentationcontent/
 ---
 ## PresentationContent class

@@ -3,7 +3,7 @@ title: PresentationChart
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a chart in a PowerPoint document.
 type: docs
-weight: 810
+weight: 830
 url: /net/groupdocs.watermark.contents.presentation/presentationchart/
 ---
 ## PresentationChart class

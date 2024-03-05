@@ -3,7 +3,7 @@ title: DiagramShapePossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible shape watermark in a Visio document.
 type: docs
-weight: 2770
+weight: 2820
 url: /net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/
 ---
 ## DiagramShapePossibleWatermark class
@@ -18,12 +18,12 @@ public class DiagramShapePossibleWatermark : ShapePossibleWatermark<DiagramShape
 
 | Name | Description |
 | --- | --- |
-| override [FormattedTextFragments](../../groupdocs.watermark.search/shapepossiblewatermark-1/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [FormattedTextFragments](../../groupdocs.watermark.search/shapepossiblewatermark-1/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of the shape. |
 | override [Height](../../groupdocs.watermark.search/twodobjectpossiblewatermark/height) { get; } | Gets the height of the 2D object. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/parent) { get; } | Gets the parent of this [`DiagramShapePossibleWatermark`](../diagramshapepossiblewatermark). |
-| override [RotateAngle](../../groupdocs.watermark.search/shapepossiblewatermark-1/rotateangle) { get; } | Gets the rotate angle of the 2D object in degrees. |
-| override [Text](../../groupdocs.watermark.search/shapepossiblewatermark-1/text) { get; set; } | Gets or sets the text of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [RotateAngle](../../groupdocs.watermark.search/shapepossiblewatermark-1/rotateangle) { get; } | Gets the rotate angle of the shape in degrees. |
+| override [Text](../../groupdocs.watermark.search/shapepossiblewatermark-1/text) { get; set; } | Gets or sets the text of the shape. |
 | override [UnitOfMeasurement](../../groupdocs.watermark.search/twodobjectpossiblewatermark/unitofmeasurement) { get; } | Gets the unit of measurement of the 2D object. |
 | override [Width](../../groupdocs.watermark.search/twodobjectpossiblewatermark/width) { get; } | Gets the width of the 2D object. |
 | override [X](../../groupdocs.watermark.search/twodobjectpossiblewatermark/x) { get; } | Gets the x-coordinate of the 2D object. |

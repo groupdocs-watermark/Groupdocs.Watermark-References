@@ -3,7 +3,7 @@ title: PresentationWatermarkBaseSlideOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Base class for watermark adding options to a Presentation document.
 type: docs
-weight: 1990
+weight: 2030
 url: /net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/
 ---
 ## PresentationWatermarkBaseSlideOptions class

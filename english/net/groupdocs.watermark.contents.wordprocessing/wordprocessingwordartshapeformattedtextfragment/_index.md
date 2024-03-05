@@ -3,7 +3,7 @@ title: WordProcessingWordArtShapeFormattedTextFragment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a fragment of formatted text in a WordArt shape.
 type: docs
-weight: 1470
+weight: 1490
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingwordartshapeformattedtextfragment/
 ---
 ## WordProcessingWordArtShapeFormattedTextFragment class

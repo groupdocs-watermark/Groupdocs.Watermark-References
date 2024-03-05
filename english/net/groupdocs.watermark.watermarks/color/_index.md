@@ -3,7 +3,7 @@ title: Color
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Structure representing a color.
 type: docs
-weight: 3080
+weight: 3140
 url: /net/groupdocs.watermark.watermarks/color/
 ---
 ## Color structure

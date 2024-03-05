@@ -3,7 +3,7 @@ title: SpreadsheetChart
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a chart in an Excel document.
 type: docs
-weight: 1080
+weight: 1100
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/
 ---
 ## SpreadsheetChart class

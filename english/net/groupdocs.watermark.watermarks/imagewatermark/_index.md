@@ -3,7 +3,7 @@ title: ImageWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an image watermark.
 type: docs
-weight: 3110
+weight: 3170
 url: /net/groupdocs.watermark.watermarks/imagewatermark/
 ---
 ## ImageWatermark class
@@ -31,9 +31,11 @@ public sealed class ImageWatermark : Watermark, IDisposable
 | [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | Gets or sets a value indicating whether the watermark should be placed at background. |
 | [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | Gets or sets the margin settings of this [`Watermark`](../../groupdocs.watermark/watermark). |
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Gets or sets the opacity of this [`Watermark`](../../groupdocs.watermark/watermark). |
+| [PagesSetup](../../groupdocs.watermark/watermark/pagessetup) { get; set; } | Gets or sets the pages setup settings of this [`Watermark`](../../groupdocs.watermark/watermark). |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Gets or sets the rotate angle of this [`Watermark`](../../groupdocs.watermark/watermark) in degrees. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Gets or sets a value that defines how watermark size depends on parent size. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Gets or sets a value specifying a way watermark should be sized. |
+| [TileOptions](../../groupdocs.watermark/watermark/tileoptions) { get; set; } | Get or sets options to define repeated watermark |
 | [VerticalAlignment](../../groupdocs.watermark/watermark/verticalalignment) { get; set; } | Gets or sets the vertical alignment of this [`Watermark`](../../groupdocs.watermark/watermark). |
 | [Width](../../groupdocs.watermark/watermark/width) { get; set; } | Gets or sets the desired width of this [`Watermark`](../../groupdocs.watermark/watermark). |
 | [X](../../groupdocs.watermark/watermark/x) { get; set; } | Gets or sets the x-coordinate of this [`Watermark`](../../groupdocs.watermark/watermark). |

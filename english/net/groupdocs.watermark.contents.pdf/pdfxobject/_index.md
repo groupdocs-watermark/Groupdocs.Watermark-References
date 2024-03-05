@@ -3,7 +3,7 @@ title: PdfXObject
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an XObject in a pdf document.
 type: docs
-weight: 760
+weight: 780
 url: /net/groupdocs.watermark.contents.pdf/pdfxobject/
 ---
 ## PdfXObject class

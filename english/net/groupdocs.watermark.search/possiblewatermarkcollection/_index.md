@@ -3,7 +3,7 @@ title: PossibleWatermarkCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of possible watermarks found in a content.
 type: docs
-weight: 2550
+weight: 2590
 url: /net/groupdocs.watermark.search/possiblewatermarkcollection/
 ---
 ## PossibleWatermarkCollection class
@@ -18,9 +18,9 @@ public class PossibleWatermarkCollection : RemoveOnlyListBase<PossibleWatermark>
 
 | Name | Description |
 | --- | --- |
-| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } |  |
-| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } |  |
-| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } |  |
+| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | Gets the number of elements contained in the collection. |
+| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | Gets a value indicating whether the collection is read-only. |
+| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | Gets the element at the specified index in the collection. |
 
 ## Methods
 

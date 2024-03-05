@@ -3,7 +3,7 @@ title: PdfPageCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of pages in a pdf content.
 type: docs
-weight: 670
+weight: 690
 url: /net/groupdocs.watermark.contents.pdf/pdfpagecollection/
 ---
 ## PdfPageCollection class
@@ -18,9 +18,9 @@ public class PdfPageCollection : ReadOnlyListBase<PdfPage>
 
 | Name | Description |
 | --- | --- |
-| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } |  |
-| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } |  |
-| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } |  |
+| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | Gets the number of elements contained in the collection. |
+| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } | Gets a value indicating whether the collection is read-only. |
+| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | Gets the element at the specified index in the collection. |
 
 ## Methods
 

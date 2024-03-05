@@ -3,7 +3,7 @@ title: SizingType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets or sets a value specifying a way watermark should be sized.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.watermark/watermark/sizingtype/
 ---
 ## Watermark.SizingType property

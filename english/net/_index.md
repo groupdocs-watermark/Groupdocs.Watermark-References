@@ -5,6 +5,7 @@ weight: 10
 url: /net/
 description: GroupDocs.Watermark for .NET API References contain examples, code snippets, and API documentation. It provides namespaces, classes, interfaces, and other API details.
 is_root: true
+version:
 ---
 ## Namespaces
 
@@ -21,6 +22,7 @@ is_root: true
 | [GroupDocs.Watermark.Contents.Spreadsheet](./groupdocs.watermark.contents.spreadsheet) | The namespace provides classes for working with watermarks in Excel documents. |
 | [GroupDocs.Watermark.Contents.WordProcessing](./groupdocs.watermark.contents.wordprocessing) | The namespace provides classes for working with watermarks in Word documents. |
 | [GroupDocs.Watermark.Exceptions](./groupdocs.watermark.exceptions) | The namespace provides different exceptions classes. |
+| [GroupDocs.Watermark.Internal](./groupdocs.watermark.internal) | The namespace provides internal classes. |
 | [GroupDocs.Watermark.Options](./groupdocs.watermark.options) | The namespace provides classes to specify additional options when working with documents and watermarks. |
 | [GroupDocs.Watermark.Options.Diagram](./groupdocs.watermark.options.diagram) | The namespace provides classes to specify additional options when working with watermarks in Visio documents. |
 | [GroupDocs.Watermark.Options.Email](./groupdocs.watermark.options.email) | The namespace provides classes to specify additional options when loading and saving Email messages. |

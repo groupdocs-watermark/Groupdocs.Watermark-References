@@ -3,7 +3,7 @@ title: MultiframeImageLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents image loading options when loading a multiframe image.
 type: docs
-weight: 1790
+weight: 1830
 url: /net/groupdocs.watermark.options.image/multiframeimageloadoptions/
 ---
 ## MultiframeImageLoadOptions class
