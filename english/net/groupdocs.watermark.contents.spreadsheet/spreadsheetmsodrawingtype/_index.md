@@ -3,7 +3,7 @@ title: SpreadsheetMsoDrawingType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents office drawing object type.
 type: docs
-weight: 1170
+weight: 1190
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetmsodrawingtype/
 ---
 ## SpreadsheetMsoDrawingType enumeration
@@ -45,7 +45,8 @@ public enum SpreadsheetMsoDrawingType
 | WebExtension | `32` | Built-in drawing type. |
 | SmartArt | `33` | Built-in drawing type. |
 | CustomXml | `34` | Built-in drawing type. |
-| Model3D | `35` | Built-in drawing type. |
+| Timeline | `35` | Built-in drawing type. |
+| Model3D | `36` | Built-in drawing type. |
 
 ### See Also
 

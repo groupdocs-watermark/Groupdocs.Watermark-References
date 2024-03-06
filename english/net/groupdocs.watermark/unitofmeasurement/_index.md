@@ -3,7 +3,7 @@ title: UnitOfMeasurement
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents units of measurement.
 type: docs
-weight: 3040
+weight: 3100
 url: /net/groupdocs.watermark/unitofmeasurement/
 ---
 ## UnitOfMeasurement enumeration

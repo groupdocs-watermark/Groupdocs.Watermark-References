@@ -3,7 +3,7 @@ title: DiagramPreviewOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides options to sets requirements and stream delegates for preview generation of Diagram document.
 type: docs
-weight: 1660
+weight: 1700
 url: /net/groupdocs.watermark.options.diagram/diagrampreviewoptions/
 ---
 ## DiagramPreviewOptions class

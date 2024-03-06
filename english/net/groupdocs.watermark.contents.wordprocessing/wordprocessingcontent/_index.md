@@ -3,7 +3,7 @@ title: WordProcessingContent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Class representing Word document doc docx etc where watermark should be placed.
 type: docs
-weight: 1280
+weight: 1300
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/
 ---
 ## WordProcessingContent class

@@ -3,7 +3,7 @@ title: SpreadsheetWorksheet
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an Excel document worksheet.
 type: docs
-weight: 1260
+weight: 1280
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/
 ---
 ## SpreadsheetWorksheet class

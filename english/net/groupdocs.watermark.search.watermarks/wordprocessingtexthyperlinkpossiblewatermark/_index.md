@@ -3,7 +3,7 @@ title: WordProcessingTextHyperlinkPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible hyperlink watermark in a Word document.
 type: docs
-weight: 3020
+weight: 3080
 url: /net/groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/
 ---
 ## WordProcessingTextHyperlinkPossibleWatermark class

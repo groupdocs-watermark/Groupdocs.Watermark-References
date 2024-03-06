@@ -3,7 +3,7 @@ title: SpreadsheetImageFillFormat
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the image fill format settings in an Excel document.
 type: docs
-weight: 1160
+weight: 1180
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetimagefillformat/
 ---
 ## SpreadsheetImageFillFormat class

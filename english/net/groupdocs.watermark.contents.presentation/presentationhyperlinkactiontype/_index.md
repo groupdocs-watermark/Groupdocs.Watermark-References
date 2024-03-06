@@ -3,7 +3,7 @@ title: PresentationHyperlinkActionType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies hyperlink action type.
 type: docs
-weight: 860
+weight: 880
 url: /net/groupdocs.watermark.contents.presentation/presentationhyperlinkactiontype/
 ---
 ## PresentationHyperlinkActionType enumeration

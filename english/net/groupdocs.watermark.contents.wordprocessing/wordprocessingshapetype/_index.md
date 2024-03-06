@@ -3,7 +3,7 @@ title: WordProcessingShapeType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the type of a shape in a Word document.
 type: docs
-weight: 1420
+weight: 1440
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingshapetype/
 ---
 ## WordProcessingShapeType enumeration

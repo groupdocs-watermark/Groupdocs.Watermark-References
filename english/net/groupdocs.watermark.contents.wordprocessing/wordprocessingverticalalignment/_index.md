@@ -3,7 +3,7 @@ title: WordProcessingVerticalAlignment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies vertical alignment of a floating object.
 type: docs
-weight: 1450
+weight: 1470
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingverticalalignment/
 ---
 ## WordProcessingVerticalAlignment enumeration

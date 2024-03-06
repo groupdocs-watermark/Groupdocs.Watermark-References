@@ -3,7 +3,7 @@ title: PdfPageMarginType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents pdf crop margins to be used during watermark adding.
 type: docs
-weight: 680
+weight: 700
 url: /net/groupdocs.watermark.contents.pdf/pdfpagemargintype/
 ---
 ## PdfPageMarginType enumeration

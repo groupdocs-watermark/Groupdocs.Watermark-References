@@ -3,7 +3,7 @@ title: GroupDocs.Watermark.Options.Pdf
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The namespace provides classes to specify additional options when working with watermarks and PDF documents.
 type: docs
-weight: 160
+weight: 170
 url: /net/groupdocs.watermark.options.pdf/
 ---
 The namespace provides classes to specify additional options when working with watermarks and PDF documents.

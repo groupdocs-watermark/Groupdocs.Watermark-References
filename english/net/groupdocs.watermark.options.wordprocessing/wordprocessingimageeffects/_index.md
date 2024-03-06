@@ -3,7 +3,7 @@ title: WordProcessingImageEffects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents effects that can be applied to an image watermark for a Word document.
 type: docs
-weight: 2270
+weight: 2310
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingimageeffects/
 ---
 ## WordProcessingImageEffects class

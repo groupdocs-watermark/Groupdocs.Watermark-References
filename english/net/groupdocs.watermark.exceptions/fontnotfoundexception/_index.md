@@ -3,7 +3,7 @@ title: FontNotFoundException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when requested font is not found.
 type: docs
-weight: 1510
+weight: 1530
 url: /net/groupdocs.watermark.exceptions/fontnotfoundexception/
 ---
 ## FontNotFoundException class

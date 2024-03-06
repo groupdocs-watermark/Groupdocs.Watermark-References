@@ -3,7 +3,7 @@ title: PresentationSaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document saving options when saving a Presentation document.
 type: docs
-weight: 1970
+weight: 2010
 url: /net/groupdocs.watermark.options.presentation/presentationsaveoptions/
 ---
 ## PresentationSaveOptions class

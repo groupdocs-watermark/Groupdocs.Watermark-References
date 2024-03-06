@@ -3,7 +3,7 @@ title: PdfSearchableObjects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies flags representing pdf content objects that are to be included in a watermark search.
 type: docs
-weight: 2490
+weight: 2530
 url: /net/groupdocs.watermark.search.objects/pdfsearchableobjects/
 ---
 ## PdfSearchableObjects enumeration
@@ -26,7 +26,8 @@ public enum PdfSearchableObjects
 | Text | `8` | Search in content text. |
 | Hyperlinks | `10` | Search in hyperlinks. |
 | AttachedImages | `20` | Search in attached images. |
-| All | `3F` | Search in all content objects. |
+| Vector | `40` | Search in operators. |
+| All | `7F` | Search in all content objects. |
 
 ### See Also
 

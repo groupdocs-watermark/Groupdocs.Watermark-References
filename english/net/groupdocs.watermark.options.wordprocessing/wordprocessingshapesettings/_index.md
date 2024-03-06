@@ -3,7 +3,7 @@ title: WordProcessingShapeSettings
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents settings that can be applied to a shape watermark for a Word document.
 type: docs
-weight: 2320
+weight: 2360
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingshapesettings/
 ---
 ## WordProcessingShapeSettings class

@@ -3,7 +3,7 @@ title: IPresentationWatermarkEffects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents interface for watermark effects that should be applied to the watermark.
 type: docs
-weight: 1930
+weight: 1970
 url: /net/groupdocs.watermark.options.presentation/ipresentationwatermarkeffects/
 ---
 ## IPresentationWatermarkEffects interface

@@ -46,6 +46,7 @@ public enum PdfAnnotationType
 | RichMedia | `25` | RichMedia annotation type. |
 | Unknown | `26` | Unknown annotation. |
 | Pdf3D | `27` | PDF3D annotation. |
+| ColorBar | `28` | ColorBar annotation. |
 
 ### See Also
 

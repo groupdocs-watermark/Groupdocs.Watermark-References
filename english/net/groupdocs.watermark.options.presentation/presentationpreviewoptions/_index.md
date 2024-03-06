@@ -3,7 +3,7 @@ title: PresentationPreviewOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides options to sets requirements and stream delegates for preview generation of Presentation document.
 type: docs
-weight: 1960
+weight: 2000
 url: /net/groupdocs.watermark.options.presentation/presentationpreviewoptions/
 ---
 ## PresentationPreviewOptions class

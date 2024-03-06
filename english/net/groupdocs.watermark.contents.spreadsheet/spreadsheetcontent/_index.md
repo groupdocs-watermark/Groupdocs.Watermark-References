@@ -3,7 +3,7 @@ title: SpreadsheetContent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an Excel document where a watermark can be placed.
 type: docs
-weight: 1100
+weight: 1120
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/
 ---
 ## SpreadsheetContent class

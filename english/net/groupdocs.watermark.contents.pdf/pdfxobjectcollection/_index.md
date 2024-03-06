@@ -3,7 +3,7 @@ title: PdfXObjectCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of XObjects in a pdf document.
 type: docs
-weight: 770
+weight: 790
 url: /net/groupdocs.watermark.contents.pdf/pdfxobjectcollection/
 ---
 ## PdfXObjectCollection class
@@ -18,9 +18,9 @@ public class PdfXObjectCollection : RemoveOnlyListBase<PdfXObject>
 
 | Name | Description |
 | --- | --- |
-| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } |  |
-| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } |  |
-| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } |  |
+| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | Gets the number of elements contained in the collection. |
+| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | Gets a value indicating whether the collection is read-only. |
+| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | Gets the element at the specified index in the collection. |
 
 ## Methods
 

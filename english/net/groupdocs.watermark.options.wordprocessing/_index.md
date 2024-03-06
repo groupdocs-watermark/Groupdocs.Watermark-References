@@ -3,7 +3,7 @@ title: GroupDocs.Watermark.Options.WordProcessing
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The namespace provides classes to specify additional options when working with watermarks and Word documents.
 type: docs
-weight: 190
+weight: 200
 url: /net/groupdocs.watermark.options.wordprocessing/
 ---
 The namespace provides classes to specify additional options when working with watermarks and Word documents.

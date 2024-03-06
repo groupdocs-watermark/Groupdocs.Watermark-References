@@ -3,7 +3,7 @@ title: DiagramLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document loading options for a Visio document.
 type: docs
-weight: 1640
+weight: 1680
 url: /net/groupdocs.watermark.options.diagram/diagramloadoptions/
 ---
 ## DiagramLoadOptions class

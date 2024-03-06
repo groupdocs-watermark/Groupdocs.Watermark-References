@@ -3,7 +3,7 @@ title: WordProcessingSection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a Word document section.
 type: docs
-weight: 1370
+weight: 1390
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingsection/
 ---
 ## WordProcessingSection class

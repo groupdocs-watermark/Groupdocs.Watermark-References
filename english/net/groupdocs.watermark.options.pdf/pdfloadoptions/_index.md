@@ -3,7 +3,7 @@ title: PdfLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document loading options for a pdf document.
 type: docs
-weight: 1880
+weight: 1920
 url: /net/groupdocs.watermark.options.pdf/pdfloadoptions/
 ---
 ## PdfLoadOptions class

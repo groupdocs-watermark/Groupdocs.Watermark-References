@@ -3,7 +3,7 @@ title: SpreadsheetSaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document saving options when saving a Spreadsheet document.
 type: docs
-weight: 2160
+weight: 2200
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/
 ---
 ## SpreadsheetSaveOptions class

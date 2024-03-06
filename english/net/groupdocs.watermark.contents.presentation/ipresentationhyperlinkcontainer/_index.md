@@ -3,7 +3,7 @@ title: IPresentationHyperlinkContainer
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents PowerPoint document object that contains a hyperlink.
 type: docs
-weight: 780
+weight: 800
 url: /net/groupdocs.watermark.contents.presentation/ipresentationhyperlinkcontainer/
 ---
 ## IPresentationHyperlinkContainer interface

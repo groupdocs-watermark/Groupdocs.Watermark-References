@@ -3,7 +3,7 @@ title: EncryptionIsNotSupportedException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when content encryption is not supported.
 type: docs
-weight: 1500
+weight: 1520
 url: /net/groupdocs.watermark.exceptions/encryptionisnotsupportedexception/
 ---
 ## EncryptionIsNotSupportedException class

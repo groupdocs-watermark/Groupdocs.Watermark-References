@@ -3,7 +3,7 @@ title: GroupDocs.Watermark.Options.Email
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The namespace provides classes to specify additional options when loading and saving Email messages.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.watermark.options.email/
 ---
 The namespace provides classes to specify additional options when loading and saving Email messages.

@@ -3,7 +3,7 @@ title: GroupDocs.Watermark.Options.Diagram
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The namespace provides classes to specify additional options when working with watermarks in Visio documents.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.watermark.options.diagram/
 ---
 The namespace provides classes to specify additional options when working with watermarks in Visio documents.

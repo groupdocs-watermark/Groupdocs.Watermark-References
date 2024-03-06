@@ -3,7 +3,7 @@ title: SpreadsheetTextEffects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents effects that can be applied to a text watermark for an Excel document.
 type: docs
-weight: 2180
+weight: 2220
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheettexteffects/
 ---
 ## SpreadsheetTextEffects class

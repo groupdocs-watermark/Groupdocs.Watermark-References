@@ -3,7 +3,7 @@ title: SpreadsheetHeaderFooterSectionCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of header/footer sections.
 type: docs
-weight: 1140
+weight: 1160
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersectioncollection/
 ---
 ## SpreadsheetHeaderFooterSectionCollection class
@@ -19,9 +19,9 @@ public class SpreadsheetHeaderFooterSectionCollection :
 
 | Name | Description |
 | --- | --- |
-| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } |  |
-| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } |  |
-| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } |  |
+| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | Gets the number of elements contained in the collection. |
+| virtual [IsReadOnly](../../groupdocs.watermark.common/readonlylistbase-1/isreadonly) { get; } | Gets a value indicating whether the collection is read-only. |
+| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | Gets the element at the specified index in the collection. |
 | [Item](../../groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersectioncollection/item) { get; } | Gets the header/footer section of specified type. |
 
 ## Methods

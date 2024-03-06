@@ -3,7 +3,7 @@ title: PresentationSearchableObjects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies flags representing PowerPoint content objects that are to be included in a watermark search.
 type: docs
-weight: 2500
+weight: 2540
 url: /net/groupdocs.watermark.search.objects/presentationsearchableobjects/
 ---
 ## PresentationSearchableObjects enumeration

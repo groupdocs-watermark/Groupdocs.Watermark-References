@@ -3,7 +3,7 @@ title: ImageEffectsForTextWatermarkException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when OfficeImageEffects../groupdocs.watermark.contents/officeimageeffects is supplied for TextWatermark../groupdocs.watermark.watermarks/textwatermark.
 type: docs
-weight: 1520
+weight: 1540
 url: /net/groupdocs.watermark.exceptions/imageeffectsfortextwatermarkexception/
 ---
 ## ImageEffectsForTextWatermarkException class

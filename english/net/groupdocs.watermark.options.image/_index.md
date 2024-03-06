@@ -3,7 +3,7 @@ title: GroupDocs.Watermark.Options.Image
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The namespace provides classes to specify additional options when working with watermarks and images.
 type: docs
-weight: 150
+weight: 160
 url: /net/groupdocs.watermark.options.image/
 ---
 The namespace provides classes to specify additional options when working with watermarks and images.

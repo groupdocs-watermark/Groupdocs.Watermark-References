@@ -3,7 +3,7 @@ title: GroupDocs.Watermark.Search.Objects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The namespace provides classes for document objects that are to be included in a watermark search.
 type: docs
-weight: 210
+weight: 220
 url: /net/groupdocs.watermark.search.objects/
 ---
 The namespace provides classes for document objects that are to be included in a watermark search.

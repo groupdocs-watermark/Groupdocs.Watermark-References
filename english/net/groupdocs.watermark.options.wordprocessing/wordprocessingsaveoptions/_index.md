@@ -3,7 +3,7 @@ title: WordProcessingSaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document saving options when saving a Word document.
 type: docs
-weight: 2310
+weight: 2350
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingsaveoptions/
 ---
 ## WordProcessingSaveOptions class

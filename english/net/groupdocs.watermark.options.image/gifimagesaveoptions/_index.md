@@ -3,7 +3,7 @@ title: GifImageSaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents image saving options when saving a GIF image.
 type: docs
-weight: 1750
+weight: 1790
 url: /net/groupdocs.watermark.options.image/gifimagesaveoptions/
 ---
 ## GifImageSaveOptions class

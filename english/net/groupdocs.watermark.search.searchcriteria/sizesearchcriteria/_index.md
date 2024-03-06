@@ -3,7 +3,7 @@ title: SizeSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents criteria allowing filtering by watermark size.
 type: docs
-weight: 2680
+weight: 2720
 url: /net/groupdocs.watermark.search.searchcriteria/sizesearchcriteria/
 ---
 ## SizeSearchCriteria class

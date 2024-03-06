@@ -3,7 +3,7 @@ title: UnexpectedDocumentStructureException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when a content cannot be parsed due to unexpected structure.
 type: docs
-weight: 1560
+weight: 1580
 url: /net/groupdocs.watermark.exceptions/unexpecteddocumentstructureexception/
 ---
 ## UnexpectedDocumentStructureException class

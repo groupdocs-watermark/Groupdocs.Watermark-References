@@ -3,7 +3,7 @@ title: GroupDocs.Watermark.Options.Spreadsheet
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The namespace provides classes to specify additional options when working with watermarks and Excel documents.
 type: docs
-weight: 180
+weight: 190
 url: /net/groupdocs.watermark.options.spreadsheet/
 ---
 The namespace provides classes to specify additional options when working with watermarks and Excel documents.

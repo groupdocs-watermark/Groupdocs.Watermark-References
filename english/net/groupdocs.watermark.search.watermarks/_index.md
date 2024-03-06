@@ -3,7 +3,7 @@ title: GroupDocs.Watermark.Search.Watermarks
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The namespace provides classes of possible watermarks found in documents of different formats.
 type: docs
-weight: 230
+weight: 240
 url: /net/groupdocs.watermark.search.watermarks/
 ---
 The namespace provides classes of possible watermarks found in documents of different formats.
@@ -27,6 +27,7 @@ The namespace provides classes of possible watermarks found in documents of diff
 | [PdfAttachedImagePossibleWatermark](./pdfattachedimagepossiblewatermark) | Represents possible image watermark in pdf document attachment. |
 | [PdfHyperlinkPossibleWatermark](./pdfhyperlinkpossiblewatermark) | Represents possible hyperlink watermark in a pdf document. |
 | [PdfTextPossibleWatermark](./pdftextpossiblewatermark) | Represents possible watermark in a pdf document text. |
+| [PdfVectorPossibleWatermark](./pdfvectorpossiblewatermark) | Represents possible vector watermark in a pdf document. |
 | [PdfXObjectPossibleWatermark](./pdfxobjectpossiblewatermark) | Represents possible XObject watermark in a pdf content. |
 | [PresentationBackgroundPossibleWatermark](./presentationbackgroundpossiblewatermark) | Represents possible background watermark in a PowerPoint document. |
 | [PresentationChartBackgroundPossibleWatermark](./presentationchartbackgroundpossiblewatermark) | Represents possible background watermark in a PowerPoint chart. |

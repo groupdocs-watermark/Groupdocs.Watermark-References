@@ -21,6 +21,8 @@ The namespace provides classes for working with watermarks in pdf documents.
 | [PdfContent](./pdfcontent) | Represents a pdf document where a watermark can be placed. |
 | [PdfFormattedTextFragment](./pdfformattedtextfragment) | Represents a fragment of formatted text in a pdf document. |
 | [PdfFormattedTextFragmentCollection](./pdfformattedtextfragmentcollection) | Represents a collection of formatted text fragments in a pdf document. |
+| [PdfOperator](./pdfoperator) | Represents an operator of vector content in a pdf document. |
+| [PdfOperatorCollection](./pdfoperatorcollection) | Represents a collection of operators in a pdf content. |
 | [PdfPage](./pdfpage) | Represents pdf document page. |
 | [PdfPageCollection](./pdfpagecollection) | Represents a collection of pages in a pdf content. |
 | [PdfShape](./pdfshape) | Provides base class for XObjects, Artifacts and Annotations. |

@@ -3,7 +3,7 @@ title: FloatingAttachedImagePossibleWatermarkT
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents attached image watermark in a content of any supported format.
 type: docs
-weight: 2400
+weight: 2440
 url: /net/groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/
 ---
 ## FloatingAttachedImagePossibleWatermark&lt;T&gt; class
@@ -27,9 +27,9 @@ public class FloatingAttachedImagePossibleWatermark<T> : AttachedImagePossibleWa
 | override [Height](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/height) { get; } | Gets the height of this [`FloatingAttachedImagePossibleWatermark`](../floatingattachedimagepossiblewatermark-1). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../possiblewatermark). |
 | override [Parent](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/parent) { get; } | Gets the parent of this [`FloatingAttachedImagePossibleWatermark`](../floatingattachedimagepossiblewatermark-1). |
-| override [RotateAngle](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/rotateangle) { get; } | Gets the rotate angle of this [`PossibleWatermark`](../possiblewatermark) in degrees. |
+| override [RotateAngle](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/rotateangle) { get; } | Gets the rotate angle of this [`AttachedImagePossibleWatermark`](../attachedimagepossiblewatermark-1) in degrees. |
 | virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | Gets or sets the text of this [`PossibleWatermark`](../possiblewatermark). |
-| override [UnitOfMeasurement](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/unitofmeasurement) { get; } | Gets the unit of measurement of this [`PossibleWatermark`](../possiblewatermark). |
+| override [UnitOfMeasurement](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/unitofmeasurement) { get; } | Gets the unit of measurement of this [`AttachedImagePossibleWatermark`](../attachedimagepossiblewatermark-1). |
 | override [Width](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/width) { get; } | Gets the width of this [`FloatingAttachedImagePossibleWatermark`](../floatingattachedimagepossiblewatermark-1). |
 | override [X](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/x) { get; } | Gets the x-coordinate of this [`FloatingAttachedImagePossibleWatermark`](../floatingattachedimagepossiblewatermark-1). |
 | override [Y](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/y) { get; } | Gets the y-coordinate of this [`FloatingAttachedImagePossibleWatermark`](../floatingattachedimagepossiblewatermark-1). |

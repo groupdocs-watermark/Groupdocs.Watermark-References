@@ -3,7 +3,7 @@ title: SpreadsheetAutoShapeType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents auto shape type.
 type: docs
-weight: 1050
+weight: 1070
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/
 ---
 ## SpreadsheetAutoShapeType enumeration

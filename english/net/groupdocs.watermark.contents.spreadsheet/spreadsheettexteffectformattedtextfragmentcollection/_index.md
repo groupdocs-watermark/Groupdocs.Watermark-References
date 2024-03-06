@@ -3,7 +3,7 @@ title: SpreadsheetTextEffectFormattedTextFragmentCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of formatted text fragments in an Excel document WordArt shape.
 type: docs
-weight: 1240
+weight: 1260
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheettexteffectformattedtextfragmentcollection/
 ---
 ## SpreadsheetTextEffectFormattedTextFragmentCollection class
@@ -19,9 +19,9 @@ public class SpreadsheetTextEffectFormattedTextFragmentCollection : FormattedTex
 | Name | Description |
 | --- | --- |
 | [CollectionType](../../groupdocs.watermark.search/formattedtextfragmentcollection/collectiontype) { get; } | Gets the formatted fragment collection type. |
-| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } |  |
-| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } |  |
-| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } |  |
+| virtual [Count](../../groupdocs.watermark.common/readonlylistbase-1/count) { get; } | Gets the number of elements contained in the collection. |
+| override [IsReadOnly](../../groupdocs.watermark.common/removeonlylistbase-1/isreadonly) { get; } | Gets a value indicating whether the collection is read-only. |
+| virtual [Item](../../groupdocs.watermark.common/readonlylistbase-1/item) { get; } | Gets the element at the specified index in the collection. |
 
 ## Methods
 

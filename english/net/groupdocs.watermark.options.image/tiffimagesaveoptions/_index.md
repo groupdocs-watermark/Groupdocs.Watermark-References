@@ -3,7 +3,7 @@ title: TiffImageSaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents image saving options when saving a TIFF image.
 type: docs
-weight: 1820
+weight: 1860
 url: /net/groupdocs.watermark.options.image/tiffimagesaveoptions/
 ---
 ## TiffImageSaveOptions class

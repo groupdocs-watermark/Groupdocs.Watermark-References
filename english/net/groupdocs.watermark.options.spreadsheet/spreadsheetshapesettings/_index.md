@@ -3,7 +3,7 @@ title: SpreadsheetShapeSettings
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents settings that can be applied to a shape watermark for an Excel document.
 type: docs
-weight: 2170
+weight: 2210
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/
 ---
 ## SpreadsheetShapeSettings class

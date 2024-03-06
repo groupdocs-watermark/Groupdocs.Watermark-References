@@ -3,7 +3,7 @@ title: PdfXImage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an XImage in a pdf content.
 type: docs
-weight: 750
+weight: 770
 url: /net/groupdocs.watermark.contents.pdf/pdfximage/
 ---
 ## PdfXImage class
