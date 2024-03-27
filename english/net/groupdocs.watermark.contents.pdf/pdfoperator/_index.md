@@ -19,7 +19,6 @@ public class PdfOperator
 | Name | Description |
 | --- | --- |
 | [ForegroundColor](../../groupdocs.watermark.contents.pdf/pdfoperator/foregroundcolor) { get; } | Gets the foreground color of this [`PdfOperator`](../pdfoperator). |
-| [Operator](../../groupdocs.watermark.contents.pdf/pdfoperator/operator) { get; } | Gets the operator of this [`PdfOperator`](../pdfoperator). |
 
 ### See Also
 
