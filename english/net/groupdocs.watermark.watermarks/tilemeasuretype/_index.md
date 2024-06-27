@@ -20,6 +20,7 @@ public enum TileMeasureType
 | --- | --- | --- |
 | Pixel | `0` | Specifies that the unit of measurement is pixel. |
 | Percent | `1` | Specifies that the unit of measurement is percent. |
+| Points | `2` | Specifies that the unit of measurement is point. |
 
 ### See Also
 
