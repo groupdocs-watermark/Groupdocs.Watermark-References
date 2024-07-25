@@ -3,7 +3,7 @@ title: SpreadsheetWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Base class for watermark adding options to a Spreadsheet document.
 type: docs
-weight: 2260
+weight: 2250
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkoptions/
 ---
 ## SpreadsheetWatermarkOptions class

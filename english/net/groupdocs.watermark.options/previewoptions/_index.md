@@ -3,7 +3,7 @@ title: PreviewOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides options to sets requirements and stream delegates for preview generation.
 type: docs
-weight: 2110
+weight: 2100
 url: /net/groupdocs.watermark.options/previewoptions/
 ---
 ## PreviewOptions class

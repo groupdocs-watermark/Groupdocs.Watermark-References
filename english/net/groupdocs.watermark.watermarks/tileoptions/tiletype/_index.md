@@ -3,7 +3,7 @@ title: TileType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets or sets the type of tile alignment for watermarks.
 type: docs
-weight: 30
+weight: 40
 url: /net/groupdocs.watermark.watermarks/tileoptions/tiletype/
 ---
 ## TileOptions.TileType property

@@ -3,7 +3,7 @@ title: PresentationBackgroundPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible background watermark in a PowerPoint document.
 type: docs
-weight: 2960
+weight: 2950
 url: /net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/
 ---
 ## PresentationBackgroundPossibleWatermark class

@@ -3,7 +3,7 @@ title: TextFormattingSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents criteria allowing filtering by text formatting.
 type: docs
-weight: 2730
+weight: 2720
 url: /net/groupdocs.watermark.search.searchcriteria/textformattingsearchcriteria/
 ---
 ## TextFormattingSearchCriteria class

@@ -3,7 +3,7 @@ title: TiffImageLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents image loading options for a TIFF image.
 type: docs
-weight: 1850
+weight: 1840
 url: /net/groupdocs.watermark.options.image/tiffimageloadoptions/
 ---
 ## TiffImageLoadOptions class

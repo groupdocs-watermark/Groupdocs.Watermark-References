@@ -3,7 +3,7 @@ title: MultiframeImageWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents watermark adding options when adding watermark to a multiframe image.
 type: docs
-weight: 1840
+weight: 1830
 url: /net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/
 ---
 ## MultiframeImageWatermarkOptions class

@@ -3,7 +3,7 @@ title: PdfAnnotationWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents watermark adding options when adding annotation watermark to a pdf document.
 type: docs
-weight: 1900
+weight: 1890
 url: /net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/
 ---
 ## PdfAnnotationWatermarkOptions class

@@ -3,7 +3,7 @@ title: WatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents watermark adding options when adding watermark to a document.
 type: docs
-weight: 2280
+weight: 2270
 url: /net/groupdocs.watermark.options/watermarkoptions/
 ---
 ## WatermarkOptions class

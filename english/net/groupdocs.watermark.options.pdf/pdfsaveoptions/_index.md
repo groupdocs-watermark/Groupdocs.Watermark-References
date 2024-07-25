@@ -3,7 +3,7 @@ title: PdfSaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document saving options when saving a pdf document.
 type: docs
-weight: 1940
+weight: 1930
 url: /net/groupdocs.watermark.options.pdf/pdfsaveoptions/
 ---
 ## PdfSaveOptions class

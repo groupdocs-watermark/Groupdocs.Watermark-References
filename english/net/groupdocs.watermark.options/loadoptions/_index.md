@@ -3,7 +3,7 @@ title: LoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document loading options when loading a document.
 type: docs
-weight: 1880
+weight: 1870
 url: /net/groupdocs.watermark.options/loadoptions/
 ---
 ## LoadOptions class

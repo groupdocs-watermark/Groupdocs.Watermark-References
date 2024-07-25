@@ -3,7 +3,7 @@ title: PresentationWatermarkSlideOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options when adding watermark to a Presentation document slide.
 type: docs
-weight: 2100
+weight: 2090
 url: /net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/
 ---
 ## PresentationWatermarkSlideOptions class

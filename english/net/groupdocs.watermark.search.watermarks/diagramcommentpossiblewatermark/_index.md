@@ -3,7 +3,7 @@ title: DiagramCommentPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in a Visio document comment.
 type: docs
-weight: 2790
+weight: 2780
 url: /net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/
 ---
 ## DiagramCommentPossibleWatermark class

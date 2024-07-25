@@ -3,7 +3,7 @@ title: Thickness
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Describes the thickness of a frame around a rectangle.
 type: docs
-weight: 3250
+weight: 3300
 url: /net/groupdocs.watermark.watermarks/thickness/
 ---
 ## Thickness class

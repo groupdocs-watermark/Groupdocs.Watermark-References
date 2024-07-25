@@ -3,7 +3,7 @@ title: SpreadsheetBackgroundWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options when adding the watermark as a background to a Spreadsheet worksheet.
 type: docs
-weight: 2160
+weight: 2150
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/
 ---
 ## SpreadsheetBackgroundWatermarkOptions class

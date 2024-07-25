@@ -3,7 +3,7 @@ title: Metered
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides methods to license the component with Metered license.
 type: docs
-weight: 1660
+weight: 1650
 url: /net/groupdocs.watermark/metered/
 ---
 ## Metered class

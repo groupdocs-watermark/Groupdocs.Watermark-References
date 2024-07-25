@@ -3,7 +3,7 @@ title: DiagramShapePossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible shape watermark in a Visio document.
 type: docs
-weight: 2820
+weight: 2810
 url: /net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/
 ---
 ## DiagramShapePossibleWatermark class

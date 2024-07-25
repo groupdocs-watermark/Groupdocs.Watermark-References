@@ -3,7 +3,7 @@ title: MeasureValue
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a measurement value with a specific type and numerical value.
 type: docs
-weight: 3200
+weight: 3190
 url: /net/groupdocs.watermark.watermarks/measurevalue/
 ---
 ## MeasureValue class

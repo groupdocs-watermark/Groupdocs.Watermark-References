@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document loading options for a Presentation document.
 type: docs
-weight: 1990
+weight: 1980
 url: /net/groupdocs.watermark.options.presentation/presentationloadoptions/
 ---
 ## PresentationLoadOptions class

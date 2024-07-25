@@ -3,7 +3,7 @@ title: RotateAngleSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents criteria allowing filtering by watermark rotate angle.
 type: docs
-weight: 2700
+weight: 2690
 url: /net/groupdocs.watermark.search.searchcriteria/rotateanglesearchcriteria/
 ---
 ## RotateAngleSearchCriteria class

@@ -3,7 +3,7 @@ title: SpreadsheetCellPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible cell watermark in an Excel document.
 type: docs
-weight: 3020
+weight: 3010
 url: /net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/
 ---
 ## SpreadsheetCellPossibleWatermark class

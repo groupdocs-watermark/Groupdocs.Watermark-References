@@ -3,7 +3,7 @@ title: ImageThumbnailSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents search criteria for finding images in a content.
 type: docs
-weight: 2650
+weight: 2640
 url: /net/groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria/
 ---
 ## ImageThumbnailSearchCriteria class

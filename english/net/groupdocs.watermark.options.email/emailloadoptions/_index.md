@@ -3,7 +3,7 @@ title: EmailLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the document loading options for an email message.
 type: docs
-weight: 1740
+weight: 1730
 url: /net/groupdocs.watermark.options.email/emailloadoptions/
 ---
 ## EmailLoadOptions class

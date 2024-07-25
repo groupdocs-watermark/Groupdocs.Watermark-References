@@ -3,7 +3,7 @@ title: EmailAttachedImagePossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible image watermark in email message attachment.
 type: docs
-weight: 2830
+weight: 2820
 url: /net/groupdocs.watermark.search.watermarks/emailattachedimagepossiblewatermark/
 ---
 ## EmailAttachedImagePossibleWatermark class

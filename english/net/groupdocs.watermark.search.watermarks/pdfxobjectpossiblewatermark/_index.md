@@ -3,7 +3,7 @@ title: PdfXObjectPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible XObject watermark in a pdf content.
 type: docs
-weight: 2950
+weight: 2940
 url: /net/groupdocs.watermark.search.watermarks/pdfxobjectpossiblewatermark/
 ---
 ## PdfXObjectPossibleWatermark class

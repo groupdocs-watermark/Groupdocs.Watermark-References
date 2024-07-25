@@ -3,7 +3,7 @@ title: TiffImageWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents watermark adding options when adding watermark to a TIFF image.
 type: docs
-weight: 1870
+weight: 1860
 url: /net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/
 ---
 ## TiffImageWatermarkOptions class

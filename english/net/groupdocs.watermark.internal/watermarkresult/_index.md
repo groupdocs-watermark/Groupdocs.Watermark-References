@@ -3,7 +3,7 @@ title: WatermarkResult
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the result of watermarking operation including details such as document sizes processing time and the number of applied watermarks.
 type: docs
-weight: 1640
+weight: 1630
 url: /net/groupdocs.watermark.internal/watermarkresult/
 ---
 ## WatermarkResult class

@@ -3,7 +3,7 @@ title: License
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides methods to license the component.
 type: docs
-weight: 1650
+weight: 1640
 url: /net/groupdocs.watermark/license/
 ---
 ## License class

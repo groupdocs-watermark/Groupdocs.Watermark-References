@@ -3,7 +3,7 @@ title: FormattedTextFragment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides abstract base class for a fragment of formatted text in a content.
 type: docs
-weight: 2450
+weight: 2440
 url: /net/groupdocs.watermark.search/formattedtextfragment/
 ---
 ## FormattedTextFragment class

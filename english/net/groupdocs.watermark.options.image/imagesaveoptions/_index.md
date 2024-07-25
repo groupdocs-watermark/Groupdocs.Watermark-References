@@ -3,7 +3,7 @@ title: ImageSaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents image saving options when saving an image.
 type: docs
-weight: 1820
+weight: 1810
 url: /net/groupdocs.watermark.options.image/imagesaveoptions/
 ---
 ## ImageSaveOptions class

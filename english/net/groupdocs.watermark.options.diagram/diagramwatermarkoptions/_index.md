@@ -3,7 +3,7 @@ title: DiagramWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Base class for watermark adding options to a Visio document.
 type: docs
-weight: 1730
+weight: 1720
 url: /net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/
 ---
 ## DiagramWatermarkOptions class

@@ -3,7 +3,7 @@ title: DiagramPageWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents watermark adding options when adding shape watermark to a particular page of a Visio document.
 type: docs
-weight: 1690
+weight: 1680
 url: /net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/
 ---
 ## DiagramPageWatermarkOptions class

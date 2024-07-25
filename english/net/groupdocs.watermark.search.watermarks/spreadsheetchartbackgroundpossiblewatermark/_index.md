@@ -3,7 +3,7 @@ title: SpreadsheetChartBackgroundPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible image watermark in Excel chart background.
 type: docs
-weight: 3030
+weight: 3020
 url: /net/groupdocs.watermark.search.watermarks/spreadsheetchartbackgroundpossiblewatermark/
 ---
 ## SpreadsheetChartBackgroundPossibleWatermark class

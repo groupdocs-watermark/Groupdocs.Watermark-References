@@ -3,7 +3,7 @@ title: SpreadsheetWatermarkModernWordArtOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options when adding modern word art watermark to a Spreadsheet worksheet.
 type: docs
-weight: 2250
+weight: 2240
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkmodernwordartoptions/
 ---
 ## SpreadsheetWatermarkModernWordArtOptions class

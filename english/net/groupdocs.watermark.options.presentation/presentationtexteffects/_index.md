@@ -3,7 +3,7 @@ title: PresentationTextEffects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents effects that can be applied to a text watermark for a PowerPoint content.
 type: docs
-weight: 2020
+weight: 2010
 url: /net/groupdocs.watermark.options.presentation/presentationtexteffects/
 ---
 ## PresentationTextEffects class

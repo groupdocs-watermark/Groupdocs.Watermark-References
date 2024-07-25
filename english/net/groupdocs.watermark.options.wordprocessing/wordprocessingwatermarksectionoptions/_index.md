@@ -3,7 +3,7 @@ title: WordProcessingWatermarkSectionOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options when adding shape watermark to a Word document section.
 type: docs
-weight: 2420
+weight: 2410
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarksectionoptions/
 ---
 ## WordProcessingWatermarkSectionOptions class

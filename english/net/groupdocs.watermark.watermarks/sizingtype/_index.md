@@ -3,7 +3,7 @@ title: SizingType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies how watermark size should be calculated.
 type: docs
-weight: 3220
+weight: 3270
 url: /net/groupdocs.watermark.watermarks/sizingtype/
 ---
 ## SizingType enumeration

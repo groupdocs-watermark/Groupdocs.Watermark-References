@@ -3,7 +3,7 @@ title: PresentationImageEffects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents effects that can be applied to an image watermark for a PowerPoint document.
 type: docs
-weight: 1980
+weight: 1970
 url: /net/groupdocs.watermark.options.presentation/presentationimageeffects/
 ---
 ## PresentationImageEffects class

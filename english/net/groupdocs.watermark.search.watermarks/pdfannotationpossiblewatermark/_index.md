@@ -3,7 +3,7 @@ title: PdfAnnotationPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible annotation watermark in a pdf document.
 type: docs
-weight: 2890
+weight: 2880
 url: /net/groupdocs.watermark.search.watermarks/pdfannotationpossiblewatermark/
 ---
 ## PdfAnnotationPossibleWatermark class

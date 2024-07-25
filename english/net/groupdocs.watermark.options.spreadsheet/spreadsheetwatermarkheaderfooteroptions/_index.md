@@ -3,7 +3,7 @@ title: SpreadsheetWatermarkHeaderFooterOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options when adding the watermark to a Spreadsheet header/footer.
 type: docs
-weight: 2240
+weight: 2230
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/
 ---
 ## SpreadsheetWatermarkHeaderFooterOptions class

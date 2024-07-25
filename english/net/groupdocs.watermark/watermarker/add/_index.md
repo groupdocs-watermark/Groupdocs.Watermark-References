@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark/watermarker/add/
 Adds a watermark to the loaded document.
 
 ```csharp
-public void Add(Watermark watermark)
+public AddWatermarkResult Add(Watermark watermark)
 ```
 
 | Parameter | Type | Description |
@@ -54,6 +54,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\input.pdf"))
 
 ### See Also
 
+* class [AddWatermarkResult](../../../groupdocs.watermark.watermarks.results/addwatermarkresult)
 * class [Watermark](../../watermark)
 * class [Watermarker](../../watermarker)
 * namespace [GroupDocs.Watermark](../../../groupdocs.watermark)
@@ -66,7 +67,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\input.pdf"))
 Adds a watermark to the loaded document using watermark options.
 
 ```csharp
-public void Add(Watermark watermark, WatermarkOptions options)
+public AddWatermarkResult Add(Watermark watermark, WatermarkOptions options)
 ```
 
 | Parameter | Type | Description |
@@ -97,6 +98,7 @@ using (ImageWatermark watermark = new ImageWatermark(@"C:\watermark.png"))
 
 ### See Also
 
+* class [AddWatermarkResult](../../../groupdocs.watermark.watermarks.results/addwatermarkresult)
 * class [Watermark](../../watermark)
 * class [WatermarkOptions](../../../groupdocs.watermark.options/watermarkoptions)
 * class [Watermarker](../../watermarker)

@@ -3,7 +3,7 @@ title: SpreadsheetShapePossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible shape watermark in an Excel document.
 type: docs
-weight: 3060
+weight: 3050
 url: /net/groupdocs.watermark.search.watermarks/spreadsheetshapepossiblewatermark/
 ---
 ## SpreadsheetShapePossibleWatermark class
