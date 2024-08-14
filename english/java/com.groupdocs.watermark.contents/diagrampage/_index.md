@@ -199,7 +199,7 @@ public final void addWatermark(Watermark watermark, DiagramShapeSettings shapeSe
 | Parameter | Type | Description |
 | --- | --- | --- |
 | watermark | [Watermark](../../com.groupdocs.watermark/watermark) |  |
-| shapeSettings | com.groupdocs.watermark.internal.DiagramShapeSettings |  |
+| shapeSettings | [DiagramShapeSettings](../../com.groupdocs.watermark.internal/diagramshapesettings) |  |
 
 ### convertValueFromDrawingScaleToPageScale(DoubleValue value) {#convertValueFromDrawingScaleToPageScale-com.aspose.diagram.DoubleValue-}
 ```

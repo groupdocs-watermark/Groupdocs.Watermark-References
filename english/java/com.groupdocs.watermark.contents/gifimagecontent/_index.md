@@ -37,7 +37,7 @@ public GifImageContent(StreamContainer stream, StrategyManager<Integer> strategy
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.groupdocs.watermark.internal.StreamContainer |  |
+| stream | [StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer) |  |
 | strategyManager | com.groupdocs.watermark.internal.StrategyManager<java.lang.Integer> |  |
 | gifImageLoadOptions | [GifImageLoadOptions](../../com.groupdocs.watermark.options/gifimageloadoptions) |  |
 | watermarkerSettings | [WatermarkerSettings](../../com.groupdocs.watermark/watermarkersettings) |  |

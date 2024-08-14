@@ -28,10 +28,10 @@ Provides options to sets requirements and stream delegates for preview generatio
 
 | Method | Description |
 | --- | --- |
-| [getResolution()](#getResolution--) | Gets or sets the resolution for the generated images, in dots per inch. |
-| [setResolution(float value)](#setResolution-float-) | Gets or sets the resolution for the generated images, in dots per inch. |
-| [getHighQualityRendering()](#getHighQualityRendering--) | Gets or sets the flag for high quality rendering. |
-| [setHighQualityRendering(boolean value)](#setHighQualityRendering-boolean-) | Gets or sets the flag for high quality rendering. |
+| [getResolution()](#getResolution--) | Gets the resolution for the generated images, in dots per inch. |
+| [setResolution(float value)](#setResolution-float-) | Sets the resolution for the generated images, in dots per inch. |
+| [getHighQualityRendering()](#getHighQualityRendering--) | Gets the flag for high quality rendering. |
+| [setHighQualityRendering(boolean value)](#setHighQualityRendering-boolean-) | Sets the flag for high quality rendering. |
 ### DiagramPreviewOptions(ICreatePageStream createPageStream) {#DiagramPreviewOptions-com.groupdocs.watermark.options.ICreatePageStream-}
 ```
 public DiagramPreviewOptions(ICreatePageStream createPageStream)
@@ -73,30 +73,30 @@ public final float getResolution()
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
+Gets the resolution for the generated images, in dots per inch.
+
+**Returns:**
+float - The resolution for the generated images, in dots per inch.
 
 --------------------
 
 The default value is 300.
-
-**Returns:**
-float
 ### setResolution(float value) {#setResolution-float-}
 ```
 public final void setResolution(float value)
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
-
---------------------
-
-The default value is 300.
+Sets the resolution for the generated images, in dots per inch.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | float |  |
+| value | float | The resolution for the generated images, in dots per inch.
+
+--------------------
+
+The default value is 300. |
 
 ### getHighQualityRendering() {#getHighQualityRendering--}
 ```
@@ -104,28 +104,28 @@ public final boolean getHighQualityRendering()
 ```
 
 
-Gets or sets the flag for high quality rendering.
+Gets the flag for high quality rendering.
+
+**Returns:**
+boolean - The flag for high quality rendering.
 
 --------------------
 
 The high quality rendering uses more resources. The default value is  false .
-
-**Returns:**
-boolean
 ### setHighQualityRendering(boolean value) {#setHighQualityRendering-boolean-}
 ```
 public final void setHighQualityRendering(boolean value)
 ```
 
 
-Gets or sets the flag for high quality rendering.
-
---------------------
-
-The high quality rendering uses more resources. The default value is  false .
+Sets the flag for high quality rendering.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | The flag for high quality rendering.
+
+--------------------
+
+The high quality rendering uses more resources. The default value is  false . |
 

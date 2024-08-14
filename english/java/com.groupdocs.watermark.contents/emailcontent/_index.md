@@ -65,7 +65,7 @@ public EmailContent(StreamContainer stream, StrategyManager<Integer> strategyMan
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.groupdocs.watermark.internal.StreamContainer |  |
+| stream | [StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer) |  |
 | strategyManager | com.groupdocs.watermark.internal.StrategyManager<java.lang.Integer> |  |
 | fileFormatInfo | com.aspose.email.FileFormatInfo |  |
 | emailLoadOptions | [EmailLoadOptions](../../com.groupdocs.watermark.options/emailloadoptions) |  |

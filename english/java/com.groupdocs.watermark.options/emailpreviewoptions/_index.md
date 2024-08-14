@@ -28,8 +28,8 @@ Provides options to sets requirements and stream delegates for preview generatio
 
 | Method | Description |
 | --- | --- |
-| [getResolution()](#getResolution--) | Gets or sets the resolution for the generated images, in dots per inch. |
-| [setResolution(float value)](#setResolution-float-) | Gets or sets the resolution for the generated images, in dots per inch. |
+| [getResolution()](#getResolution--) | Gets the resolution for the generated images, in dots per inch. |
+| [setResolution(float value)](#setResolution-float-) | Sets the resolution for the generated images, in dots per inch. |
 ### EmailPreviewOptions(ICreatePageStream createPageStream) {#EmailPreviewOptions-com.groupdocs.watermark.options.ICreatePageStream-}
 ```
 public EmailPreviewOptions(ICreatePageStream createPageStream)
@@ -71,28 +71,28 @@ public final float getResolution()
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
+Gets the resolution for the generated images, in dots per inch.
+
+**Returns:**
+float - The resolution for the generated images, in dots per inch.
 
 --------------------
 
 The default value is 96.
-
-**Returns:**
-float
 ### setResolution(float value) {#setResolution-float-}
 ```
 public final void setResolution(float value)
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
-
---------------------
-
-The default value is 96.
+Sets the resolution for the generated images, in dots per inch.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | float |  |
+| value | float | The resolution for the generated images, in dots per inch.
+
+--------------------
+
+The default value is 96. |
 

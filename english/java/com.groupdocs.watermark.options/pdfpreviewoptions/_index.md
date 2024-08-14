@@ -28,8 +28,8 @@ Provides options to sets requirements and stream delegates for preview generatio
 
 | Method | Description |
 | --- | --- |
-| [getResolution()](#getResolution--) | Gets or sets the resolution for the generated images, in dots per inch. |
-| [setResolution(int value)](#setResolution-int-) | Gets or sets the resolution for the generated images, in dots per inch. |
+| [getResolution()](#getResolution--) | Gets the resolution for the generated images, in dots per inch. |
+| [setResolution(int value)](#setResolution-int-) | Sets the resolution for the generated images, in dots per inch. |
 ### PdfPreviewOptions(ICreatePageStream createPageStream) {#PdfPreviewOptions-com.groupdocs.watermark.options.ICreatePageStream-}
 ```
 public PdfPreviewOptions(ICreatePageStream createPageStream)
@@ -71,28 +71,28 @@ public final int getResolution()
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
+Gets the resolution for the generated images, in dots per inch.
+
+**Returns:**
+int - The resolution for the generated images, in dots per inch.
 
 --------------------
 
 The default value is 150.
-
-**Returns:**
-int
 ### setResolution(int value) {#setResolution-int-}
 ```
 public final void setResolution(int value)
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
-
---------------------
-
-The default value is 150.
+Sets the resolution for the generated images, in dots per inch.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The resolution for the generated images, in dots per inch.
+
+--------------------
+
+The default value is 150. |
 

@@ -3,7 +3,7 @@ title: WatermarkerSettings
 second_title: GroupDocs.Watermark for Java API Reference
 description: Defines settings for customizing Watermarker behaviour.
 type: docs
-weight: 13
+weight: 15
 url: /java/com.groupdocs.watermark/watermarkersettings/
 ---
 **Inheritance:**

@@ -10,7 +10,7 @@ url: /java/com.groupdocs.watermark.contents/wordprocessingcontent/
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 
 **All Implemented Interfaces:**
-com.groupdocs.watermark.internal.IEncryptable
+[com.groupdocs.watermark.internal.IEncryptable](../../com.groupdocs.watermark.internal/iencryptable)
 ```
 public class WordProcessingContent extends Content implements IEncryptable
 ```
@@ -87,8 +87,8 @@ public WordProcessingContent(StreamContainer stream, IStrategyManager strategyMa
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.groupdocs.watermark.internal.StreamContainer |  |
-| strategyManager | com.groupdocs.watermark.internal.IStrategyManager |  |
+| stream | [StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer) |  |
+| strategyManager | [IStrategyManager](../../com.groupdocs.watermark.internal/istrategymanager) |  |
 | fileFormatInfo | com.aspose.words.FileFormatInfo |  |
 | wordProcessingLoadOptions | [WordProcessingLoadOptions](../../com.groupdocs.watermark.options/wordprocessingloadoptions) |  |
 | watermarkerSettings | [WatermarkerSettings](../../com.groupdocs.watermark/watermarkersettings) |  |

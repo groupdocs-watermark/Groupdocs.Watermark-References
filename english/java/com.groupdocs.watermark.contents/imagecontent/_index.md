@@ -50,7 +50,7 @@ public ImageContent(StreamContainer stream, StrategyManager<Integer> strategyMan
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.groupdocs.watermark.internal.StreamContainer |  |
+| stream | [StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer) |  |
 | strategyManager | com.groupdocs.watermark.internal.StrategyManager<java.lang.Integer> |  |
 | fileType | [FileType](../../com.groupdocs.watermark.common/filetype) |  |
 | imageLoadOptions | [ImageLoadOptions](../../com.groupdocs.watermark.options/imageloadoptions) |  |

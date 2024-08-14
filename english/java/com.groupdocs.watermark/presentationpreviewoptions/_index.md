@@ -3,7 +3,7 @@ title: PresentationPreviewOptions
 second_title: GroupDocs.Watermark for Java API Reference
 description: Provides options to sets requirements and stream delegates for preview generation of Presentation document.
 type: docs
-weight: 10
+weight: 12
 url: /java/com.groupdocs.watermark/presentationpreviewoptions/
 ---
 **Inheritance:**
@@ -28,8 +28,8 @@ Provides options to sets requirements and stream delegates for preview generatio
 
 | Method | Description |
 | --- | --- |
-| [getResolution()](#getResolution--) | Gets or sets the resolution for the generated images, in dots per inch. |
-| [setResolution(long value)](#setResolution-long-) | Gets or sets the resolution for the generated images, in dots per inch. |
+| [getResolution()](#getResolution--) | Gets the resolution for the generated images, in dots per inch. |
+| [setResolution(long value)](#setResolution-long-) | Sets the resolution for the generated images, in dots per inch. |
 ### PresentationPreviewOptions(ICreatePageStream createPageStream) {#PresentationPreviewOptions-com.groupdocs.watermark.options.ICreatePageStream-}
 ```
 public PresentationPreviewOptions(ICreatePageStream createPageStream)
@@ -71,28 +71,20 @@ public final long getResolution()
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
-
---------------------
-
-The default value is 300.
+Gets the resolution for the generated images, in dots per inch.
 
 **Returns:**
-long
+long - The resolution for the generated images, in dots per inch.
 ### setResolution(long value) {#setResolution-long-}
 ```
 public final void setResolution(long value)
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
-
---------------------
-
-The default value is 300.
+Sets the resolution for the generated images, in dots per inch.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | long |  |
+| value | long | The resolution for the generated images, in dots per inch. |
 

@@ -58,8 +58,8 @@ public static DocumentSpecificSettingsCollection buildSettings(Watermark waterma
 | watermark | [Watermark](../../com.groupdocs.watermark/watermark) |  |
 | shapeSettings | [WordProcessingShapeSettings](../../com.groupdocs.watermark.options/wordprocessingshapesettings) |  |
 | effects | [IWordProcessingWatermarkEffects](../../com.groupdocs.watermark.options/iwordprocessingwatermarkeffects) |  |
-| placementSettings | com.groupdocs.watermark.internal.WordProcessingPlacementSettings |  |
+| placementSettings | [WordProcessingPlacementSettings](../../com.groupdocs.watermark.internal/wordprocessingplacementsettings) |  |
 | parent | [Content](../../com.groupdocs.watermark.contents/content) |  |
 
 **Returns:**
-com.groupdocs.watermark.internal.DocumentSpecificSettingsCollection
+[DocumentSpecificSettingsCollection](../../com.groupdocs.watermark.internal/documentspecificsettingscollection)

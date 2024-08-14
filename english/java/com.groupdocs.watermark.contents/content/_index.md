@@ -57,8 +57,8 @@ public Content(StreamContainer stream, IStrategyManager strategyManager, LoadOpt
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.groupdocs.watermark.internal.StreamContainer |  |
-| strategyManager | com.groupdocs.watermark.internal.IStrategyManager |  |
+| stream | [StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer) |  |
+| strategyManager | [IStrategyManager](../../com.groupdocs.watermark.internal/istrategymanager) |  |
 | loadOptions | [LoadOptions](../../com.groupdocs.watermark.options/loadoptions) |  |
 | watermarkerSettings | [WatermarkerSettings](../../com.groupdocs.watermark/watermarkersettings) |  |
 
@@ -124,7 +124,7 @@ public final StreamContainer getStream()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.StreamContainer
+[StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer)
 ### save(String filePath) {#save-java.lang.String-}
 ```
 public final void save(String filePath)
@@ -268,7 +268,7 @@ public static InfoInternal getInfo(String filePath)
 | filePath | java.lang.String |  |
 
 **Returns:**
-com.groupdocs.watermark.internal.InfoInternal
+[InfoInternal](../../com.groupdocs.watermark.internal/infointernal)
 ### getInfo(System.IO.Stream stream) {#getInfo-com.aspose.ms.System.IO.Stream-}
 ```
 public static InfoInternal getInfo(System.IO.Stream stream)
@@ -283,7 +283,7 @@ public static InfoInternal getInfo(System.IO.Stream stream)
 | stream | com.aspose.ms.System.IO.Stream |  |
 
 **Returns:**
-com.groupdocs.watermark.internal.InfoInternal
+[InfoInternal](../../com.groupdocs.watermark.internal/infointernal)
 ### close() {#close--}
 ```
 public final void close()

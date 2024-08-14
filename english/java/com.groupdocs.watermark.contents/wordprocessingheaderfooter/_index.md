@@ -42,8 +42,8 @@ public WordProcessingHeaderFooter(int headerFooterHeaderFooterType, WordProcessi
 | --- | --- | --- |
 | headerFooterHeaderFooterType | int |  |
 | parent | [WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection) |  |
-| strategyManager | com.groupdocs.watermark.internal.IStrategyManager |  |
-| wrapper | com.groupdocs.watermark.internal.WordProcessingHeaderFooterWrapper |  |
+| strategyManager | [IStrategyManager](../../com.groupdocs.watermark.internal/istrategymanager) |  |
+| wrapper | [WordProcessingHeaderFooterWrapper](../../com.groupdocs.watermark.internal/wordprocessingheaderfooterwrapper) |  |
 
 ### getWrapper() {#getWrapper--}
 ```
@@ -54,7 +54,7 @@ public final WordProcessingHeaderFooterWrapper getWrapper()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.WordProcessingHeaderFooterWrapper
+[WordProcessingHeaderFooterWrapper](../../com.groupdocs.watermark.internal/wordprocessingheaderfooterwrapper)
 ### getHeaderFooterType() {#getHeaderFooterType--}
 ```
 public final int getHeaderFooterType()

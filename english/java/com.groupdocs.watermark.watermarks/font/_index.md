@@ -19,10 +19,14 @@ Class representing a font.
 | --- | --- |
 | [Font(String fontFamilyName, float size)](#Font-java.lang.String-float-) | Initializes a new instance of the `[Font](../../com.groupdocs.watermark.watermarks/font)` class with a specified font family name and a size. |
 | [Font(String fontFamilyName, float size, int style)](#Font-java.lang.String-float-int-) | Initializes a new instance of the `[Font](../../com.groupdocs.watermark.watermarks/font)` class with a specified font family name, a size and a style. |
+| [Font(String fontFamilyName, String folderPath, float size)](#Font-java.lang.String-java.lang.String-float-) |  |
+| [Font(String fontFamilyName, String folderPath, float size, FontStyle style)](#Font-java.lang.String-java.lang.String-float-com.groupdocs.watermark.watermarks.FontStyle-) |  |
 ## Methods
 
 | Method | Description |
 | --- | --- |
+| [getFolderPath()](#getFolderPath--) |  |
+| [setFolderPath(String folderPath)](#setFolderPath-java.lang.String-) |  |
 | [getFamilyName()](#getFamilyName--) | Gets the family name of this `[Font](../../com.groupdocs.watermark.watermarks/font)`. |
 | [getSize()](#getSize--) | Gets the size of this `[Font](../../com.groupdocs.watermark.watermarks/font)`. |
 | [getStyle()](#getStyle--) | Gets the `[FontStyle](../../com.groupdocs.watermark.watermarks/fontstyle)` for this `[Font](../../com.groupdocs.watermark.watermarks/font)`. |
@@ -58,6 +62,56 @@ Initializes a new instance of the `[Font](../../com.groupdocs.watermark.watermar
 | fontFamilyName | java.lang.String | The font family name. |
 | size | float | The size of the new font. |
 | style | int | The `[FontStyle](../../com.groupdocs.watermark.watermarks/fontstyle)` of the new font. |
+
+### Font(String fontFamilyName, String folderPath, float size) {#Font-java.lang.String-java.lang.String-float-}
+```
+public Font(String fontFamilyName, String folderPath, float size)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontFamilyName | java.lang.String |  |
+| folderPath | java.lang.String |  |
+| size | float |  |
+
+### Font(String fontFamilyName, String folderPath, float size, FontStyle style) {#Font-java.lang.String-java.lang.String-float-com.groupdocs.watermark.watermarks.FontStyle-}
+```
+public Font(String fontFamilyName, String folderPath, float size, FontStyle style)
+```
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontFamilyName | java.lang.String |  |
+| folderPath | java.lang.String |  |
+| size | float |  |
+| style | [FontStyle](../../com.groupdocs.watermark.watermarks/fontstyle) |  |
+
+### getFolderPath() {#getFolderPath--}
+```
+public String getFolderPath()
+```
+
+
+
+
+**Returns:**
+java.lang.String
+### setFolderPath(String folderPath) {#setFolderPath-java.lang.String-}
+```
+public void setFolderPath(String folderPath)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| folderPath | java.lang.String |  |
 
 ### getFamilyName() {#getFamilyName--}
 ```

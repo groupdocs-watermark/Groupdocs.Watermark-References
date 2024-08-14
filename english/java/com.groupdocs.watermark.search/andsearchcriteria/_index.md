@@ -10,7 +10,7 @@ url: /java/com.groupdocs.watermark.search/andsearchcriteria/
 java.lang.Object, [com.groupdocs.watermark.search.SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria)
 
 **All Implemented Interfaces:**
-com.groupdocs.watermark.internal.IBinaryOperation
+[com.groupdocs.watermark.internal.IBinaryOperation](../../com.groupdocs.watermark.internal/ibinaryoperation)
 ```
 public class AndSearchCriteria extends SearchCriteria implements IBinaryOperation
 ```
@@ -70,5 +70,5 @@ public void accept(ICriteriaVisitor visitor)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | com.groupdocs.watermark.internal.ICriteriaVisitor |  |
+| visitor | [ICriteriaVisitor](../../com.groupdocs.watermark.internal/icriteriavisitor) |  |
 

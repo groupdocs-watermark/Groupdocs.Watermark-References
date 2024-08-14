@@ -10,7 +10,7 @@ url: /java/com.groupdocs.watermark.contents/spreadsheetcontent/
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 
 **All Implemented Interfaces:**
-com.groupdocs.watermark.internal.IEncryptable
+[com.groupdocs.watermark.internal.IEncryptable](../../com.groupdocs.watermark.internal/iencryptable)
 ```
 public class SpreadsheetContent extends Content implements IEncryptable
 ```
@@ -84,7 +84,7 @@ public SpreadsheetContent(StreamContainer stream, StrategyManager<Integer> strat
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.groupdocs.watermark.internal.StreamContainer |  |
+| stream | [StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer) |  |
 | strategyManager | com.groupdocs.watermark.internal.StrategyManager<java.lang.Integer> |  |
 | fileFormatInfo | com.aspose.cells.FileFormatInfo |  |
 | spreadsheetLoadOptions | [SpreadsheetLoadOptions](../../com.groupdocs.watermark.options/spreadsheetloadoptions) |  |

@@ -3,7 +3,7 @@ title: Watermark
 second_title: GroupDocs.Watermark for Java API Reference
 description: Represents a watermark to be added to a document.
 type: docs
-weight: 11
+weight: 13
 url: /java/com.groupdocs.watermark/watermark/
 ---
 **Inheritance:**
@@ -47,6 +47,8 @@ Represents a watermark to be added to a document.
 | [setBackground(boolean value)](#setBackground-boolean-) | Sets a value indicating whether the watermark should be placed at background. |
 | [getMargins()](#getMargins--) | Gets the margin settings of this `[Watermark](../../com.groupdocs.watermark/watermark)`. |
 | [setMargins(Margins value)](#setMargins-com.groupdocs.watermark.watermarks.Margins-) | Sets the margin settings of this `[Watermark](../../com.groupdocs.watermark/watermark)`. |
+| [getPagesSetup()](#getPagesSetup--) | Gets the pages setup settings of this `[Watermark](../../com.groupdocs.watermark/watermark)`. |
+| [setPagesSetup(PagesSetup value)](#setPagesSetup-com.groupdocs.watermark.PagesSetup-) | Sets the pages setup settings of this `[Watermark](../../com.groupdocs.watermark/watermark)`. |
 | [getHeight()](#getHeight--) | Gets the desired height of this `[Watermark](../../com.groupdocs.watermark/watermark)`. |
 | [setHeight(double value)](#setHeight-double-) | Sets the desired height of this `[Watermark](../../com.groupdocs.watermark/watermark)`. |
 | [getWidth()](#getWidth--) | Gets the desired width of this `[Watermark](../../com.groupdocs.watermark/watermark)`. |
@@ -61,6 +63,8 @@ Represents a watermark to be added to a document.
 | [isTextWatermark()](#isTextWatermark--) |  |
 | [getTransparency()](#getTransparency--) |  |
 | [getSize()](#getSize--) |  |
+| [getTileOptions()](#getTileOptions--) |  |
+| [setTileOptions(TileOptions tileOptions)](#setTileOptions-com.groupdocs.watermark.watermarks.TileOptions-) |  |
 | [copyPropertiesValues(Watermark source, Watermark destination)](#copyPropertiesValues-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.Watermark-) |  |
 | [deepClone()](#deepClone--) |  |
 | [hasSameValues(Watermark watermark)](#hasSameValues-com.groupdocs.watermark.Watermark-) |  |
@@ -269,6 +273,29 @@ Sets the margin settings of this `[Watermark](../../com.groupdocs.watermark/wate
 | --- | --- | --- |
 | value | [Margins](../../com.groupdocs.watermark.watermarks/margins) | The margin settings of this `[Watermark](../../com.groupdocs.watermark/watermark)`. |
 
+### getPagesSetup() {#getPagesSetup--}
+```
+public final PagesSetup getPagesSetup()
+```
+
+
+Gets the pages setup settings of this `[Watermark](../../com.groupdocs.watermark/watermark)`.
+
+**Returns:**
+[PagesSetup](../../com.groupdocs.watermark/pagessetup) - The pages setup settings of this `[Watermark](../../com.groupdocs.watermark/watermark)`.
+### setPagesSetup(PagesSetup value) {#setPagesSetup-com.groupdocs.watermark.PagesSetup-}
+```
+public final void setPagesSetup(PagesSetup value)
+```
+
+
+Sets the pages setup settings of this `[Watermark](../../com.groupdocs.watermark/watermark)`.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [PagesSetup](../../com.groupdocs.watermark/pagessetup) | The pages setup settings of this `[Watermark](../../com.groupdocs.watermark/watermark)`. |
+
 ### getHeight() {#getHeight--}
 ```
 public final double getHeight()
@@ -431,7 +458,30 @@ public abstract SizeD getSize()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.SizeD
+[SizeD](../../com.groupdocs.watermark.internal/sized)
+### getTileOptions() {#getTileOptions--}
+```
+public TileOptions getTileOptions()
+```
+
+
+
+
+**Returns:**
+[TileOptions](../../com.groupdocs.watermark.watermarks/tileoptions)
+### setTileOptions(TileOptions tileOptions) {#setTileOptions-com.groupdocs.watermark.watermarks.TileOptions-}
+```
+public void setTileOptions(TileOptions tileOptions)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| tileOptions | [TileOptions](../../com.groupdocs.watermark.watermarks/tileoptions) |  |
+
 ### copyPropertiesValues(Watermark source, Watermark destination) {#copyPropertiesValues-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.Watermark-}
 ```
 public static void copyPropertiesValues(Watermark source, Watermark destination)
@@ -482,7 +532,7 @@ public abstract WatermarkGeometry createGeometry(ContentPartGeometry parent)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parent | com.groupdocs.watermark.internal.ContentPartGeometry |  |
+| parent | [ContentPartGeometry](../../com.groupdocs.watermark.internal/contentpartgeometry) |  |
 
 **Returns:**
-com.groupdocs.watermark.internal.WatermarkGeometry
+[WatermarkGeometry](../../com.groupdocs.watermark.internal/watermarkgeometry)

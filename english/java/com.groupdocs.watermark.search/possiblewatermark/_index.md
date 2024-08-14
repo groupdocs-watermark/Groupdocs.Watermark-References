@@ -205,7 +205,7 @@ public final Size getImageSize()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.Size
+[Size](../../com.groupdocs.watermark.internal/size)
 ### getImageInternally() {#getImageInternally--}
 ```
 public WatermarkableImage getImageInternally()

@@ -17,6 +17,7 @@ Represents an Excel document worksheet.
 
 | Method | Description |
 | --- | --- |
+| [getSpreadsheetDataSizeInPoints()](#getSpreadsheetDataSizeInPoints--) |  |
 | [getPageSetup()](#getPageSetup--) | Gets the printing page setup for this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`. |
 | [getContentAreaWidth()](#getContentAreaWidth--) | Gets the width of the content area in points. |
 | [getContentAreaWidthPx()](#getContentAreaWidthPx--) | Gets the width of the content area in pixels. |
@@ -42,6 +43,16 @@ Represents an Excel document worksheet.
 | [getRowRangeHeight(int startRow, int endRow)](#getRowRangeHeight-int-int-) |  |
 | [getColumnRangeWidth(int startColumn, int endColumn)](#getColumnRangeWidth-int-int-) |  |
 | [resetBackgroundImageReference()](#resetBackgroundImageReference--) |  |
+### getSpreadsheetDataSizeInPoints() {#getSpreadsheetDataSizeInPoints--}
+```
+public Size getSpreadsheetDataSizeInPoints()
+```
+
+
+
+
+**Returns:**
+[Size](../../com.groupdocs.watermark.internal/size)
 ### getPageSetup() {#getPageSetup--}
 ```
 public final SpreadsheetPageSetup getPageSetup()
