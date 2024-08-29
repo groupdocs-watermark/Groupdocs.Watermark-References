@@ -3,7 +3,7 @@ title: MarginType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies how margin values should be interpreted.
 type: docs
-weight: 3170
+weight: 3160
 url: /net/groupdocs.watermark.watermarks/margintype/
 ---
 ## MarginType enumeration

@@ -3,7 +3,7 @@ title: NotSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents NOT composite search criteria.
 type: docs
-weight: 2670
+weight: 2660
 url: /net/groupdocs.watermark.search.searchcriteria/notsearchcriteria/
 ---
 ## NotSearchCriteria class

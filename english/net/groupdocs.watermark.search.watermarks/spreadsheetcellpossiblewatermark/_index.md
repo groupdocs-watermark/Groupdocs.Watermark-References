@@ -3,7 +3,7 @@ title: SpreadsheetCellPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible cell watermark in an Excel document.
 type: docs
-weight: 3010
+weight: 3000
 url: /net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/
 ---
 ## SpreadsheetCellPossibleWatermark class
@@ -21,6 +21,7 @@ public class SpreadsheetCellPossibleWatermark : PossibleWatermark
 | override [FormattedTextFragments](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |
 | override [Height](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/height) { get; } | Gets the height of this [`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark) in points. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/parent) { get; } | Gets the parent of this [`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark) in degrees. |
 | override [Text](../../groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/text) { get; set; } | Gets or sets the text of this [`SpreadsheetCellPossibleWatermark`](../spreadsheetcellpossiblewatermark). |

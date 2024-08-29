@@ -3,7 +3,7 @@ title: WordProcessingShapePossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible shape watermark in a Word document.
 type: docs
-weight: 3060
+weight: 3050
 url: /net/groupdocs.watermark.search.watermarks/wordprocessingshapepossiblewatermark/
 ---
 ## WordProcessingShapePossibleWatermark class
@@ -21,6 +21,7 @@ public class WordProcessingShapePossibleWatermark : ShapePossibleWatermark<WordP
 | override [FormattedTextFragments](../../groupdocs.watermark.search/shapepossiblewatermark-1/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of the shape. |
 | override [Height](../../groupdocs.watermark.search/twodobjectpossiblewatermark/height) { get; } | Gets the height of the 2D object. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| override [PageNumber](../../groupdocs.watermark.search/shapepossiblewatermark-1/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/wordprocessingshapepossiblewatermark/parent) { get; } | Gets the parent of this [`WordProcessingShapePossibleWatermark`](../wordprocessingshapepossiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search/shapepossiblewatermark-1/rotateangle) { get; } | Gets the rotate angle of the shape in degrees. |
 | override [Text](../../groupdocs.watermark.search/shapepossiblewatermark-1/text) { get; set; } | Gets or sets the text of the shape. |

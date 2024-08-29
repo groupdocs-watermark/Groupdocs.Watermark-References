@@ -3,7 +3,7 @@ title: PdfTextPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in a pdf document text.
 type: docs
-weight: 2920
+weight: 2910
 url: /net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/
 ---
 ## PdfTextPossibleWatermark class
@@ -21,6 +21,7 @@ public class PdfTextPossibleWatermark : PossibleWatermark
 | override [FormattedTextFragments](../../groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PdfTextPossibleWatermark`](../pdftextpossiblewatermark). |
 | override [Height](../../groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/height) { get; } | Gets the height of this [`PdfTextPossibleWatermark`](../pdftextpossiblewatermark) in points. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/parent) { get; } | Gets the parent of this [`PdfTextPossibleWatermark`](../pdftextpossiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`PdfTextPossibleWatermark`](../pdftextpossiblewatermark) in degrees. |
 | override [Text](../../groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/text) { get; set; } | Gets or sets the text of this [`PdfTextPossibleWatermark`](../pdftextpossiblewatermark). |

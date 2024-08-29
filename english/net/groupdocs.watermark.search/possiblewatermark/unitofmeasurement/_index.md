@@ -3,7 +3,7 @@ title: UnitOfMeasurement
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets the unit of measurement of this PossibleWatermarkgroupdocs.watermark.search/possiblewatermark.
 type: docs
-weight: 70
+weight: 80
 url: /net/groupdocs.watermark.search/possiblewatermark/unitofmeasurement/
 ---
 ## PossibleWatermark.UnitOfMeasurement property

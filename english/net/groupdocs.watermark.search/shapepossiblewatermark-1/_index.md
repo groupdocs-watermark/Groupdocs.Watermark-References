@@ -3,7 +3,7 @@ title: ShapePossibleWatermarkT
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents shape watermark in a content of any supported format.
 type: docs
-weight: 2750
+weight: 2740
 url: /net/groupdocs.watermark.search/shapepossiblewatermark-1/
 ---
 ## ShapePossibleWatermark&lt;T&gt; class
@@ -26,6 +26,7 @@ public abstract class ShapePossibleWatermark<T> : TwoDObjectPossibleWatermark
 | override [FormattedTextFragments](../../groupdocs.watermark.search/shapepossiblewatermark-1/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of the shape. |
 | override [Height](../../groupdocs.watermark.search/twodobjectpossiblewatermark/height) { get; } | Gets the height of the 2D object. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../possiblewatermark). |
+| override [PageNumber](../../groupdocs.watermark.search/shapepossiblewatermark-1/pagenumber) { get; } | Gets the page watermark is placed on. |
 | abstract [Parent](../../groupdocs.watermark.search/possiblewatermark/parent) { get; } | Gets the parent of this [`PossibleWatermark`](../possiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search/shapepossiblewatermark-1/rotateangle) { get; } | Gets the rotate angle of the shape in degrees. |
 | override [Text](../../groupdocs.watermark.search/shapepossiblewatermark-1/text) { get; set; } | Gets or sets the text of the shape. |

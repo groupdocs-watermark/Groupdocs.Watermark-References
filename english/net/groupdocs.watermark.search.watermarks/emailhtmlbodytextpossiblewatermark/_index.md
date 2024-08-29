@@ -3,7 +3,7 @@ title: EmailHtmlBodyTextPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in email message html body.
 type: docs
-weight: 2850
+weight: 2840
 url: /net/groupdocs.watermark.search.watermarks/emailhtmlbodytextpossiblewatermark/
 ---
 ## EmailHtmlBodyTextPossibleWatermark class
@@ -21,6 +21,7 @@ public class EmailHtmlBodyTextPossibleWatermark : EmailTextPossibleWatermark
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | virtual [Height](../../groupdocs.watermark.search/possiblewatermark/height) { get; } | Gets the height of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/parent) { get; } | Gets the parent of this [`EmailTextPossibleWatermark`](../emailtextpossiblewatermark). |
 | virtual [RotateAngle](../../groupdocs.watermark.search/possiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark) in degrees. |
 | override [Text](../../groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/text) { get; set; } | Gets or sets the text of this [`EmailTextPossibleWatermark`](../emailtextpossiblewatermark). |

@@ -3,7 +3,7 @@ title: OrSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents OR composite search criteria.
 type: docs
-weight: 2680
+weight: 2670
 url: /net/groupdocs.watermark.search.searchcriteria/orsearchcriteria/
 ---
 ## OrSearchCriteria class

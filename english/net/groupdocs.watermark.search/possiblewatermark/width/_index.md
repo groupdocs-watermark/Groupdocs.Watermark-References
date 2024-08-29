@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets the width of this PossibleWatermarkgroupdocs.watermark.search/possiblewatermark.
 type: docs
-weight: 80
+weight: 90
 url: /net/groupdocs.watermark.search/possiblewatermark/width/
 ---
 ## PossibleWatermark.Width property

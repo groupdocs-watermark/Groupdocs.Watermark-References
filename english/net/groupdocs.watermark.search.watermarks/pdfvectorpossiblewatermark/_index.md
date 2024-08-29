@@ -3,7 +3,7 @@ title: PdfVectorPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible vector watermark in a pdf document.
 type: docs
-weight: 2930
+weight: 2920
 url: /net/groupdocs.watermark.search.watermarks/pdfvectorpossiblewatermark/
 ---
 ## PdfVectorPossibleWatermark class
@@ -21,6 +21,7 @@ public class PdfVectorPossibleWatermark : PossibleWatermark
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | virtual [Height](../../groupdocs.watermark.search/possiblewatermark/height) { get; } | Gets the height of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/pdfvectorpossiblewatermark/parent) { get; } | Gets the parent of this [`PdfVectorPossibleWatermark`](../pdfvectorpossiblewatermark). |
 | [PdfOperatorCollection](../../groupdocs.watermark.search.watermarks/pdfvectorpossiblewatermark/pdfoperatorcollection) { get; } | Gets the collection of vector operators of this [`PdfVectorPossibleWatermark`](../pdfvectorpossiblewatermark). |
 | virtual [RotateAngle](../../groupdocs.watermark.search/possiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark) in degrees. |

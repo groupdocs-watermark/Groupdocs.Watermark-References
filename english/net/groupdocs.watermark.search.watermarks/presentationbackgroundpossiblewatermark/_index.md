@@ -3,7 +3,7 @@ title: PresentationBackgroundPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible background watermark in a PowerPoint document.
 type: docs
-weight: 2950
+weight: 2940
 url: /net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/
 ---
 ## PresentationBackgroundPossibleWatermark class
@@ -21,6 +21,7 @@ public class PresentationBackgroundPossibleWatermark : PossibleWatermark
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/height) { get; } | Gets the height of this [`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark) in points. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/parent) { get; } | Gets the parent of this [`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`PresentationBackgroundPossibleWatermark`](../presentationbackgroundpossiblewatermark) in degrees. |
 | virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | Gets or sets the text of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |

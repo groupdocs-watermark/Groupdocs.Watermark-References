@@ -3,7 +3,7 @@ title: WatermarkerSettings
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Defines settings for customizing Watermarker behaviour.
 type: docs
-weight: 3120
+weight: 3110
 url: /net/groupdocs.watermark/watermarkersettings/
 ---
 ## WatermarkerSettings class

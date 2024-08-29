@@ -3,7 +3,7 @@ title: Parent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets the parent of this PossibleWatermarkgroupdocs.watermark.search/possiblewatermark.
 type: docs
-weight: 40
+weight: 50
 url: /net/groupdocs.watermark.search/possiblewatermark/parent/
 ---
 ## PossibleWatermark.Parent property

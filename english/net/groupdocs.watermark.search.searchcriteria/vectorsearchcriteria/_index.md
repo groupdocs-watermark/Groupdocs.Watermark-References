@@ -3,7 +3,7 @@ title: VectorSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents criteria allowing filtering by watermark color.
 type: docs
-weight: 2740
+weight: 2730
 url: /net/groupdocs.watermark.search.searchcriteria/vectorsearchcriteria/
 ---
 ## VectorSearchCriteria class

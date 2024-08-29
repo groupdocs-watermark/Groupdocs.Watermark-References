@@ -3,7 +3,7 @@ title: FormattedTextFragmentCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a mutable collection of formatted text fragments.
 type: docs
-weight: 2450
+weight: 2440
 url: /net/groupdocs.watermark.search/formattedtextfragmentcollection/
 ---
 ## FormattedTextFragmentCollection class

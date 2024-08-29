@@ -3,7 +3,7 @@ title: WordProcessingWatermarkBaseOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Base class for watermark adding options to a Word document.
 type: docs
-weight: 2370
+weight: 2360
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingwatermarkbaseoptions/
 ---
 ## WordProcessingWatermarkBaseOptions class

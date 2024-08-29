@@ -3,7 +3,7 @@ title: ImageSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides base class for image search criteria.
 type: docs
-weight: 2630
+weight: 2620
 url: /net/groupdocs.watermark.search.searchcriteria/imagesearchcriteria/
 ---
 ## ImageSearchCriteria class

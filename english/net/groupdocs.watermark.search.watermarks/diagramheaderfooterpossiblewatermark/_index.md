@@ -3,7 +3,7 @@ title: DiagramHeaderFooterPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in a Visio document header/footer.
 type: docs
-weight: 2790
+weight: 2780
 url: /net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/
 ---
 ## DiagramHeaderFooterPossibleWatermark class
@@ -21,6 +21,7 @@ public class DiagramHeaderFooterPossibleWatermark : PossibleWatermark
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/height) { get; } | Gets the height of this [`DiagramHeaderFooterPossibleWatermark`](../diagramheaderfooterpossiblewatermark) in points. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/parent) { get; } | Gets the parent of this [`DiagramHeaderFooterPossibleWatermark`](../diagramheaderfooterpossiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`DiagramHeaderFooterPossibleWatermark`](../diagramheaderfooterpossiblewatermark) in degrees. |
 | override [Text](../../groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/text) { get; set; } | Gets or sets the text of this [`DiagramHeaderFooterPossibleWatermark`](../diagramheaderfooterpossiblewatermark). |

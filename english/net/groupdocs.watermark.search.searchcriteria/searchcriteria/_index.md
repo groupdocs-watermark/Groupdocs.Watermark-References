@@ -3,7 +3,7 @@ title: SearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Class that can be used to construct criteria when searching for watermarks.
 type: docs
-weight: 2700
+weight: 2690
 url: /net/groupdocs.watermark.search.searchcriteria/searchcriteria/
 ---
 ## SearchCriteria class

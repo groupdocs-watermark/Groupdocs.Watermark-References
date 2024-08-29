@@ -3,7 +3,7 @@ title: RotateAngle
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets the rotate angle of this PossibleWatermarkgroupdocs.watermark.search/possiblewatermark in degrees.
 type: docs
-weight: 50
+weight: 60
 url: /net/groupdocs.watermark.search/possiblewatermark/rotateangle/
 ---
 ## PossibleWatermark.RotateAngle property

@@ -3,7 +3,7 @@ title: ITwoDObject
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents any two dimensional object in a content structure.
 type: docs
-weight: 2490
+weight: 2480
 url: /net/groupdocs.watermark.search/itwodobject/
 ---
 ## ITwoDObject interface

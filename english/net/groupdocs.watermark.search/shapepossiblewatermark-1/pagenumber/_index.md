@@ -1,22 +1,18 @@
 ---
-title: Text
+title: PageNumber
 second_title: GroupDocs.Watermark for .NET API Reference
-description: Gets or sets the text of the shape.
+description: Gets the page watermark is placed on.
 type: docs
-weight: 40
-url: /net/groupdocs.watermark.search/shapepossiblewatermark-1/text/
+weight: 20
+url: /net/groupdocs.watermark.search/shapepossiblewatermark-1/pagenumber/
 ---
-## ShapePossibleWatermark&lt;T&gt;.Text property
+## ShapePossibleWatermark&lt;T&gt;.PageNumber property
 
-Gets or sets the text of the shape.
+Gets the page watermark is placed on.
 
 ```csharp
-public override string Text { get; set; }
+public override int? PageNumber { get; }
 ```
-
-### Property Value
-
-The text of the shape.
 
 ### See Also
 

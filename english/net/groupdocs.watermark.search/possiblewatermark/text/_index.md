@@ -3,7 +3,7 @@ title: Text
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets or sets the text of this PossibleWatermarkgroupdocs.watermark.search/possiblewatermark.
 type: docs
-weight: 60
+weight: 70
 url: /net/groupdocs.watermark.search/possiblewatermark/text/
 ---
 ## PossibleWatermark.Text property

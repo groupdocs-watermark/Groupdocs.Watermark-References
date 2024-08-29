@@ -3,7 +3,7 @@ title: WatermarkPosition
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Defines watermark position in the document layout
 type: docs
-weight: 3250
+weight: 3240
 url: /net/groupdocs.watermark.watermarks.results/watermarkposition/
 ---
 ## WatermarkPosition enumeration

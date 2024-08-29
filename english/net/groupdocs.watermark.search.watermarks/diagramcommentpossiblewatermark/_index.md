@@ -3,7 +3,7 @@ title: DiagramCommentPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in a Visio document comment.
 type: docs
-weight: 2780
+weight: 2770
 url: /net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/
 ---
 ## DiagramCommentPossibleWatermark class
@@ -21,6 +21,7 @@ public class DiagramCommentPossibleWatermark : PossibleWatermark
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/height) { get; } | Gets the height of this [`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark) in points. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/parent) { get; } | Gets the parent of this [`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark) in degrees. |
 | override [Text](../../groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/text) { get; set; } | Gets or sets the text of this [`DiagramCommentPossibleWatermark`](../diagramcommentpossiblewatermark). |

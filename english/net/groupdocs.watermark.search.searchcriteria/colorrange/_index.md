@@ -3,7 +3,7 @@ title: ColorRange
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a range of colors. Specifies ranges using HSB representation of RGB color.
 type: docs
-weight: 2600
+weight: 2590
 url: /net/groupdocs.watermark.search.searchcriteria/colorrange/
 ---
 ## ColorRange class

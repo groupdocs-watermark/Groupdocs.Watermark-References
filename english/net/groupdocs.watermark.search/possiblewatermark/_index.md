@@ -3,7 +3,7 @@ title: PossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark found in a document.
 type: docs
-weight: 2570
+weight: 2560
 url: /net/groupdocs.watermark.search/possiblewatermark/
 ---
 ## PossibleWatermark class
@@ -21,6 +21,7 @@ public abstract class PossibleWatermark
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../possiblewatermark). |
 | virtual [Height](../../groupdocs.watermark.search/possiblewatermark/height) { get; } | Gets the height of this [`PossibleWatermark`](../possiblewatermark). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | abstract [Parent](../../groupdocs.watermark.search/possiblewatermark/parent) { get; } | Gets the parent of this [`PossibleWatermark`](../possiblewatermark). |
 | virtual [RotateAngle](../../groupdocs.watermark.search/possiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`PossibleWatermark`](../possiblewatermark) in degrees. |
 | virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | Gets or sets the text of this [`PossibleWatermark`](../possiblewatermark). |

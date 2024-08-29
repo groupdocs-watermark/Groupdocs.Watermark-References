@@ -3,7 +3,7 @@ title: TwoDObjectPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents 2D object watermark in a content of any supported format.
 type: docs
-weight: 2770
+weight: 2760
 url: /net/groupdocs.watermark.search/twodobjectpossiblewatermark/
 ---
 ## TwoDObjectPossibleWatermark class
@@ -21,6 +21,7 @@ public abstract class TwoDObjectPossibleWatermark : PossibleWatermark
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search/twodobjectpossiblewatermark/height) { get; } | Gets the height of the 2D object. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | abstract [Parent](../../groupdocs.watermark.search/possiblewatermark/parent) { get; } | Gets the parent of this [`PossibleWatermark`](../possiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search/twodobjectpossiblewatermark/rotateangle) { get; } | Gets the rotate angle of the 2D object in degrees. |
 | virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | Gets or sets the text of this [`PossibleWatermark`](../possiblewatermark). |

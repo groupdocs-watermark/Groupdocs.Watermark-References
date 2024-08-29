@@ -3,7 +3,7 @@ title: PdfSearchableObjects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies flags representing pdf content objects that are to be included in a watermark search.
 type: docs
-weight: 2520
+weight: 2510
 url: /net/groupdocs.watermark.search.objects/pdfsearchableobjects/
 ---
 ## PdfSearchableObjects enumeration

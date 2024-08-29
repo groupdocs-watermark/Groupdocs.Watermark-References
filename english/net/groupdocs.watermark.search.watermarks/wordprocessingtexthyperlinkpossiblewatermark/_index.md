@@ -3,7 +3,7 @@ title: WordProcessingTextHyperlinkPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible hyperlink watermark in a Word document.
 type: docs
-weight: 3070
+weight: 3060
 url: /net/groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/
 ---
 ## WordProcessingTextHyperlinkPossibleWatermark class
@@ -21,6 +21,7 @@ public class WordProcessingTextHyperlinkPossibleWatermark : HyperlinkPossibleWat
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/height) { get; } | Gets the height of this [`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/parent) { get; } | Gets the parent of this [`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark) in degrees. |
 | override [Text](../../groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/text) { get; set; } | Gets or sets the url of this [`WordProcessingTextHyperlinkPossibleWatermark`](../wordprocessingtexthyperlinkpossiblewatermark). |

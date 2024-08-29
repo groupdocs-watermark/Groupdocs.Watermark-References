@@ -3,7 +3,7 @@ title: SpreadsheetAttachedImagePossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible image watermark in Excel document attachment.
 type: docs
-weight: 2990
+weight: 2980
 url: /net/groupdocs.watermark.search.watermarks/spreadsheetattachedimagepossiblewatermark/
 ---
 ## SpreadsheetAttachedImagePossibleWatermark class
@@ -22,6 +22,7 @@ public class SpreadsheetAttachedImagePossibleWatermark :
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/height) { get; } | Gets the height of this [`FloatingAttachedImagePossibleWatermark`](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/parent) { get; } | Gets the parent of this [`FloatingAttachedImagePossibleWatermark`](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1). |
 | override [RotateAngle](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/rotateangle) { get; } | Gets the rotate angle of this [`AttachedImagePossibleWatermark`](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1) in degrees. |
 | virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | Gets or sets the text of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |

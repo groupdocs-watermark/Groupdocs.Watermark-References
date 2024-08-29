@@ -3,7 +3,7 @@ title: SpreadsheetHeaderFooterPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in a header or footer of an Excel document.
 type: docs
-weight: 3030
+weight: 3020
 url: /net/groupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark/
 ---
 ## SpreadsheetHeaderFooterPossibleWatermark class
@@ -21,6 +21,7 @@ public class SpreadsheetHeaderFooterPossibleWatermark : PossibleWatermark
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark/height) { get; } | Gets the height of this [`SpreadsheetHeaderFooterPossibleWatermark`](../spreadsheetheaderfooterpossiblewatermark) in points. |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark/parent) { get; } | Gets the parent of this [`SpreadsheetHeaderFooterPossibleWatermark`](../spreadsheetheaderfooterpossiblewatermark). |
 | override [RotateAngle](../../groupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark/rotateangle) { get; } | Gets the rotate angle of this [`SpreadsheetHeaderFooterPossibleWatermark`](../spreadsheetheaderfooterpossiblewatermark) in degrees. |
 | override [Text](../../groupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark/text) { get; set; } | Gets or sets the text of this [`SpreadsheetHeaderFooterPossibleWatermark`](../spreadsheetheaderfooterpossiblewatermark). |

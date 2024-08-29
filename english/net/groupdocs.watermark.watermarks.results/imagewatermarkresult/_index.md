@@ -3,7 +3,7 @@ title: ImageWatermarkResult
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Contains Image watermark properties.
 type: docs
-weight: 3230
+weight: 3220
 url: /net/groupdocs.watermark.watermarks.results/imagewatermarkresult/
 ---
 ## ImageWatermarkResult class

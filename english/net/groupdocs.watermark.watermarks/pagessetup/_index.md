@@ -3,7 +3,7 @@ title: PagesSetup
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the setup for pages.
 type: docs
-weight: 3200
+weight: 3190
 url: /net/groupdocs.watermark.watermarks/pagessetup/
 ---
 ## PagesSetup class
