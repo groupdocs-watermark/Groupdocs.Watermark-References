@@ -3,7 +3,7 @@ title: ScaleFactor
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets or sets a value that defines how watermark size depends on parent size.
 type: docs
-weight: 90
+weight: 100
 url: /net/groupdocs.watermark/watermark/scalefactor/
 ---
 ## Watermark.ScaleFactor property

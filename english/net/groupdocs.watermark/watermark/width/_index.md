@@ -3,7 +3,7 @@ title: Width
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets or sets the desired width of this Watermarkgroupdocs.watermark/watermark.
 type: docs
-weight: 130
+weight: 140
 url: /net/groupdocs.watermark/watermark/width/
 ---
 ## Watermark.Width property

@@ -3,7 +3,7 @@ title: X
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets or sets the xcoordinate of this Watermarkgroupdocs.watermark/watermark.
 type: docs
-weight: 140
+weight: 150
 url: /net/groupdocs.watermark/watermark/x/
 ---
 ## Watermark.X property

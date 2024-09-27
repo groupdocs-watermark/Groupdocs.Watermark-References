@@ -26,6 +26,7 @@ public abstract class Watermark
 | [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Gets or sets the opacity of this [`Watermark`](../watermark). |
 | [PagesSetup](../../groupdocs.watermark/watermark/pagessetup) { get; set; } | Gets or sets the pages setup settings of this [`Watermark`](../watermark). |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Gets or sets the rotate angle of this [`Watermark`](../watermark) in degrees. |
+| [SaveResultInMetadata](../../groupdocs.watermark/watermark/saveresultinmetadata) { get; set; } | Gets or sets a value indicating whether to save information about added watermarks in the document metadata. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Gets or sets a value that defines how watermark size depends on parent size. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Gets or sets a value specifying a way watermark should be sized. |
 | [TileOptions](../../groupdocs.watermark/watermark/tileoptions) { get; set; } | Get or sets options to define repeated watermark |

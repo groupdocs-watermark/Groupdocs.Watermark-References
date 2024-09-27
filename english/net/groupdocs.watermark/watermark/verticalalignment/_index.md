@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets or sets the vertical alignment of this Watermarkgroupdocs.watermark/watermark.
 type: docs
-weight: 120
+weight: 130
 url: /net/groupdocs.watermark/watermark/verticalalignment/
 ---
 ## Watermark.VerticalAlignment property

@@ -36,6 +36,7 @@ public class TextWatermark : Watermark
 | [Padding](../../groupdocs.watermark.watermarks/textwatermark/padding) { get; set; } | Gets or sets the padding settings of this [`TextWatermark`](../textwatermark). This property is applicable only to image files. |
 | [PagesSetup](../../groupdocs.watermark/watermark/pagessetup) { get; set; } | Gets or sets the pages setup settings of this [`Watermark`](../../groupdocs.watermark/watermark). |
 | [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Gets or sets the rotate angle of this [`Watermark`](../../groupdocs.watermark/watermark) in degrees. |
+| [SaveResultInMetadata](../../groupdocs.watermark/watermark/saveresultinmetadata) { get; set; } | Gets or sets a value indicating whether to save information about added watermarks in the document metadata. |
 | [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Gets or sets a value that defines how watermark size depends on parent size. |
 | [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Gets or sets a value specifying a way watermark should be sized. |
 | [Text](../../groupdocs.watermark.watermarks/textwatermark/text) { get; set; } | Gets or sets the text to be used as watermark. |

@@ -3,7 +3,7 @@ title: TileOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Get or sets options to define repeated watermark
 type: docs
-weight: 110
+weight: 120
 url: /net/groupdocs.watermark/watermark/tileoptions/
 ---
 ## Watermark.TileOptions property
