@@ -162,7 +162,7 @@ public PdfXImageAppearance extractImageAppearance()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.PdfXImageAppearance
+[PdfXImageAppearance](../../com.groupdocs.watermark.internal/pdfximageappearance)
 ### getTextForSearch() {#getTextForSearch--}
 ```
 public String getTextForSearch()

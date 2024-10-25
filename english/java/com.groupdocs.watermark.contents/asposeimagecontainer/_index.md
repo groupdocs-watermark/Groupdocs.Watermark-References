@@ -132,7 +132,7 @@ public final StreamContainer getStreamContainer()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.StreamContainer
+[StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer)
 ### getAsTiffImage() {#getAsTiffImage--}
 ```
 public final TiffImage getAsTiffImage()

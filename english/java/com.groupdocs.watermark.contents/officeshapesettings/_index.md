@@ -10,7 +10,7 @@ url: /java/com.groupdocs.watermark.contents/officeshapesettings/
 java.lang.Object
 
 **All Implemented Interfaces:**
-com.groupdocs.watermark.internal.IDocumentSpecificSettings
+[com.groupdocs.watermark.internal.IDocumentSpecificSettings](../../com.groupdocs.watermark.internal/idocumentspecificsettings)
 ```
 public class OfficeShapeSettings implements IDocumentSpecificSettings
 ```

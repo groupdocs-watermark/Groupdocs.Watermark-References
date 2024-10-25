@@ -30,6 +30,8 @@ Represents a file attached to a pdf content.
 | [setDescription(String value)](#setDescription-java.lang.String-) | Sets the description of the attached file. |
 | [getContent()](#getContent--) | Gets the attached file content. |
 | [setContent(byte[] value)](#setContent-byte---) | Sets the attached file content. |
+| [setContentStream(System.IO.Stream stream)](#setContentStream-com.aspose.ms.System.IO.Stream-) |  |
+| [getContentStream()](#getContentStream--) |  |
 ### getName() {#getName--}
 ```
 public final String getName()
@@ -99,3 +101,26 @@ Sets the attached file content.
 | --- | --- | --- |
 | value | byte[] | The attached file content. |
 
+### setContentStream(System.IO.Stream stream) {#setContentStream-com.aspose.ms.System.IO.Stream-}
+```
+public void setContentStream(System.IO.Stream stream)
+```
+
+
+Updates attached file from a stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | com.aspose.ms.System.IO.Stream |  |
+
+### getContentStream() {#getContentStream--}
+```
+public System.IO.Stream getContentStream()
+```
+
+
+Gets a stream from the attached file.
+
+**Returns:**
+com.aspose.ms.System.IO.Stream

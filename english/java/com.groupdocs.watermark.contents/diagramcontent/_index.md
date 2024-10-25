@@ -58,7 +58,7 @@ public DiagramContent(StreamContainer stream, StrategyManager<Integer> strategyM
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.groupdocs.watermark.internal.StreamContainer |  |
+| stream | [StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer) |  |
 | strategyManager | com.groupdocs.watermark.internal.StrategyManager<java.lang.Integer> |  |
 | formatInfo | com.aspose.diagram.FileFormatInfo |  |
 | diagramLoadOptions | [DiagramLoadOptions](../../com.groupdocs.watermark.options/diagramloadoptions) |  |
@@ -107,7 +107,7 @@ public final void addWatermark(Watermark watermark, int watermarkPlacementType, 
 | --- | --- | --- |
 | watermark | [Watermark](../../com.groupdocs.watermark/watermark) |  |
 | watermarkPlacementType | int |  |
-| shapeSettings | com.groupdocs.watermark.internal.DiagramShapeSettings |  |
+| shapeSettings | [DiagramShapeSettings](../../com.groupdocs.watermark.internal/diagramshapesettings) |  |
 
 ### performSave(String filePath) {#performSave-java.lang.String-}
 ```

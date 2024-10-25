@@ -57,7 +57,7 @@ public final StreamContainer getStream()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.StreamContainer
+[StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer)
 ### getTrueImages() {#getTrueImages--}
 ```
 public final System.Collections.Generic.List<WatermarkableImage> getTrueImages()
@@ -104,7 +104,7 @@ public void accept(ICriteriaVisitor visitor)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | com.groupdocs.watermark.internal.ICriteriaVisitor |  |
+| visitor | [ICriteriaVisitor](../../com.groupdocs.watermark.internal/icriteriavisitor) |  |
 
 ### resetCache() {#resetCache--}
 ```

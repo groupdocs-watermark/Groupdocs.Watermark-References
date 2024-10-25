@@ -131,7 +131,7 @@ public final StreamContainer getStream()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.StreamContainer
+[StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer)
 ### getTransparentImageContainer() {#getTransparentImageContainer--}
 ```
 public final StreamContainer getTransparentImageContainer()
@@ -141,7 +141,7 @@ public final StreamContainer getTransparentImageContainer()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.StreamContainer
+[StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer)
 ### getSize() {#getSize--}
 ```
 public SizeD getSize()
@@ -151,7 +151,7 @@ public SizeD getSize()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.SizeD
+[SizeD](../../com.groupdocs.watermark.internal/sized)
 ### dispose() {#dispose--}
 ```
 public final void dispose()
@@ -196,10 +196,10 @@ public WatermarkGeometry createGeometry(ContentPartGeometry parent)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parent | com.groupdocs.watermark.internal.ContentPartGeometry |  |
+| parent | [ContentPartGeometry](../../com.groupdocs.watermark.internal/contentpartgeometry) |  |
 
 **Returns:**
-com.groupdocs.watermark.internal.WatermarkGeometry
+[WatermarkGeometry](../../com.groupdocs.watermark.internal/watermarkgeometry)
 ### close() {#close--}
 ```
 public final void close()

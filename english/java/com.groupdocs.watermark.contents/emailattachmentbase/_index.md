@@ -21,6 +21,8 @@ Provides a base class for email attachments.
 | [getMediaType()](#getMediaType--) | Gets the media type of this . |
 | [getContent()](#getContent--) | Gets the attached file content. |
 | [setContent(byte[] value)](#setContent-byte---) | Sets the attached file content. |
+| [getContentStream()](#getContentStream--) |  |
+| [setContentStream(System.IO.Stream stream)](#setContentStream-com.aspose.ms.System.IO.Stream-) |  |
 ### getContentId() {#getContentId--}
 ```
 public final String getContentId()
@@ -63,4 +65,27 @@ Sets the attached file content.
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | byte[] | The attached file content. |
+
+### getContentStream() {#getContentStream--}
+```
+public System.IO.Stream getContentStream()
+```
+
+
+Gets a stream from the attached file.
+
+**Returns:**
+com.aspose.ms.System.IO.Stream
+### setContentStream(System.IO.Stream stream) {#setContentStream-com.aspose.ms.System.IO.Stream-}
+```
+public void setContentStream(System.IO.Stream stream)
+```
+
+
+Updates attached file from a stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | com.aspose.ms.System.IO.Stream |  |
 

@@ -66,6 +66,8 @@ The following example demonstrates how to scale the text watermark depending on 
 | [getForegroundColorConsideringOpacity()](#getForegroundColorConsideringOpacity--) |  |
 | [getBackgroundColorConsideringOpacity()](#getBackgroundColorConsideringOpacity--) |  |
 | [getSize()](#getSize--) |  |
+| [getPadding()](#getPadding--) | Gets the padding settings of this `[TextWatermark](../../com.groupdocs.watermark.watermarks/textwatermark)`. |
+| [setPadding(Thickness value)](#setPadding-com.groupdocs.watermark.Thickness-) | Sets the padding settings of this `[TextWatermark](../../com.groupdocs.watermark.watermarks/textwatermark)`. |
 | [deepClone()](#deepClone--) |  |
 | [hasSameValues(Watermark watermark)](#hasSameValues-com.groupdocs.watermark.Watermark-) |  |
 | [createGeometry(ContentPartGeometry parent)](#createGeometry-com.groupdocs.watermark.internal.ContentPartGeometry-) |  |
@@ -251,7 +253,30 @@ public SizeD getSize()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.SizeD
+[SizeD](../../com.groupdocs.watermark.internal/sized)
+### getPadding() {#getPadding--}
+```
+public final Thickness getPadding()
+```
+
+
+Gets the padding settings of this `[TextWatermark](../../com.groupdocs.watermark.watermarks/textwatermark)`. This property is applicable only to image files.
+
+**Returns:**
+[Thickness](../../com.groupdocs.watermark/thickness) - The padding settings of this `[TextWatermark](../../com.groupdocs.watermark.watermarks/textwatermark)`.
+### setPadding(Thickness value) {#setPadding-com.groupdocs.watermark.Thickness-}
+```
+public final void setPadding(Thickness value)
+```
+
+
+Sets the padding settings of this `[TextWatermark](../../com.groupdocs.watermark.watermarks/textwatermark)`. This property is applicable only to image files.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| value | [Thickness](../../com.groupdocs.watermark/thickness) | The padding settings of this `[TextWatermark](../../com.groupdocs.watermark.watermarks/textwatermark)`. |
+
 ### deepClone() {#deepClone--}
 ```
 public Watermark deepClone()
@@ -288,7 +313,7 @@ public WatermarkGeometry createGeometry(ContentPartGeometry parent)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| parent | com.groupdocs.watermark.internal.ContentPartGeometry |  |
+| parent | [ContentPartGeometry](../../com.groupdocs.watermark.internal/contentpartgeometry) |  |
 
 **Returns:**
-com.groupdocs.watermark.internal.WatermarkGeometry
+[WatermarkGeometry](../../com.groupdocs.watermark.internal/watermarkgeometry)

@@ -39,7 +39,7 @@ public final IReadOnlyList<? extends ContentPart> getParts()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.IReadOnlyList<? extends com.groupdocs.watermark.contents.ContentPart>
+[IReadOnlyList](../../com.groupdocs.watermark.internal/ireadonlylist)
 ### setParts(IReadOnlyList<? extends ContentPart> value) {#setParts-com.groupdocs.watermark.internal.IReadOnlyList---extends-com.groupdocs.watermark.contents.ContentPart--}
 ```
 public final void setParts(IReadOnlyList<? extends ContentPart> value)
@@ -72,7 +72,7 @@ public final IStrategyManager getStrategyManager()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.IStrategyManager
+[IStrategyManager](../../com.groupdocs.watermark.internal/istrategymanager)
 ### findImages(ImageSearchCriteria searchCriteria) {#findImages-com.groupdocs.watermark.search.ImageSearchCriteria-}
 ```
 public final WatermarkableImageCollection findImages(ImageSearchCriteria searchCriteria)

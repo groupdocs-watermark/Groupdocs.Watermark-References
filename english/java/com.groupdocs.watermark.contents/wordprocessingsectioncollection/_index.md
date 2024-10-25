@@ -38,7 +38,7 @@ public WordProcessingSectionCollection(WordProcessingContent parent, SectionColl
 | --- | --- | --- |
 | parent | [WordProcessingContent](../../com.groupdocs.watermark.contents/wordprocessingcontent) |  |
 | sourceCollection | com.aspose.words.SectionCollection |  |
-| strategyManager | com.groupdocs.watermark.internal.IStrategyManager |  |
+| strategyManager | [IStrategyManager](../../com.groupdocs.watermark.internal/istrategymanager) |  |
 
 ### findSection(Section section) {#findSection-com.aspose.words.Section-}
 ```

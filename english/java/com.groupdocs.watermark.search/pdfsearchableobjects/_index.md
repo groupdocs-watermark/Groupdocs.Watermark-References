@@ -24,6 +24,7 @@ Specifies flags representing pdf content objects that are to be included in a wa
 | [Text](#Text) | Search in content text. |
 | [Hyperlinks](#Hyperlinks) | Search in hyperlinks. |
 | [AttachedImages](#AttachedImages) | Search in attached images. |
+| [Vector](#Vector) | Search in attached operators. |
 | [All](#All) | Search in all content objects. |
 ## Methods
 
@@ -85,6 +86,14 @@ public static final int AttachedImages
 
 
 Search in attached images.
+
+### Vector {#Vector}
+```
+public static final int Vector
+```
+
+
+Search in attached operators.
 
 ### All {#All}
 ```

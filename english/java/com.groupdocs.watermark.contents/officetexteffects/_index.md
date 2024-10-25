@@ -10,7 +10,7 @@ url: /java/com.groupdocs.watermark.contents/officetexteffects/
 java.lang.Object
 
 **All Implemented Interfaces:**
-com.groupdocs.watermark.internal.IDocumentSpecificSettings
+[com.groupdocs.watermark.internal.IDocumentSpecificSettings](../../com.groupdocs.watermark.internal/idocumentspecificsettings)
 ```
 public abstract class OfficeTextEffects implements IDocumentSpecificSettings
 ```

@@ -112,5 +112,5 @@ public void accept(ICriteriaVisitor visitor)
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| visitor | com.groupdocs.watermark.internal.ICriteriaVisitor |  |
+| visitor | [ICriteriaVisitor](../../com.groupdocs.watermark.internal/icriteriavisitor) |  |
 

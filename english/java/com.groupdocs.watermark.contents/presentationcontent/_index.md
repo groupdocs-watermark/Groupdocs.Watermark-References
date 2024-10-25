@@ -10,7 +10,7 @@ url: /java/com.groupdocs.watermark.contents/presentationcontent/
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 
 **All Implemented Interfaces:**
-com.groupdocs.watermark.internal.IEncryptable
+[com.groupdocs.watermark.internal.IEncryptable](../../com.groupdocs.watermark.internal/iencryptable)
 ```
 public class PresentationContent extends Content implements IEncryptable
 ```
@@ -85,7 +85,7 @@ public PresentationContent(StreamContainer stream, StrategyManager<Integer> stra
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | com.groupdocs.watermark.internal.StreamContainer |  |
+| stream | [StreamContainer](../../com.groupdocs.watermark.internal/streamcontainer) |  |
 | strategyManager | com.groupdocs.watermark.internal.StrategyManager<java.lang.Integer> |  |
 | presentationLoadOptions | [PresentationLoadOptions](../../com.groupdocs.watermark.options/presentationloadoptions) |  |
 | presentationInfo | com.aspose.slides.IPresentationInfo |  |

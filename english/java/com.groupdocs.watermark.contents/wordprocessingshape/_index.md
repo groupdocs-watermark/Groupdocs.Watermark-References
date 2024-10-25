@@ -258,7 +258,7 @@ public final WordProcessingImageFillFormat getImageFillFormat()
 
 
 **Returns:**
-com.groupdocs.watermark.internal.WordProcessingImageFillFormat
+[WordProcessingImageFillFormat](../../com.groupdocs.watermark.internal/wordprocessingimagefillformat)
 ### getAsposeWordsShape() {#getAsposeWordsShape--}
 ```
 public final Shape getAsposeWordsShape()

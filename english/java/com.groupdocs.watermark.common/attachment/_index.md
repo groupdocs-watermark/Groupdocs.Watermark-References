@@ -34,6 +34,8 @@ Represents a file attached to a document.
 | [createWatermarker()](#createWatermarker--) | Loads a content from the attached file. |
 | [createWatermarker(LoadOptions loadOptions)](#createWatermarker-com.groupdocs.watermark.options.LoadOptions-) | Loads a content from the attached file with the specified load options. |
 | [createWatermarker(LoadOptions loadOptions, WatermarkerSettings watermarkerSettings)](#createWatermarker-com.groupdocs.watermark.options.LoadOptions-com.groupdocs.watermark.WatermarkerSettings-) | Loads a content from the attached file with the specified load options and settings. |
+| [getContentStream()](#getContentStream--) | Gets a stream from the attached file. |
+| [setContentStream(System.IO.Stream stream)](#setContentStream-com.aspose.ms.System.IO.Stream-) | Updates attached file from a stream. |
 | [updateContent(Watermarker updatedVersion)](#updateContent-com.groupdocs.watermark.Watermarker-) | Updates the attached content. |
 ### getDocumentInfo() {#getDocumentInfo--}
 ```
@@ -109,6 +111,29 @@ Loads a content from the attached file with the specified load options and setti
 
 **Returns:**
 [Watermarker](../../com.groupdocs.watermark/watermarker) - The instance of appropriate descendant of `[Content](../../com.groupdocs.watermark.contents/content)` class.
+### getContentStream() {#getContentStream--}
+```
+public System.IO.Stream getContentStream()
+```
+
+
+Gets a stream from the attached file.
+
+**Returns:**
+com.aspose.ms.System.IO.Stream - The stream to read the file content from.
+### setContentStream(System.IO.Stream stream) {#setContentStream-com.aspose.ms.System.IO.Stream-}
+```
+public void setContentStream(System.IO.Stream stream)
+```
+
+
+Updates attached file from a stream.
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| stream | com.aspose.ms.System.IO.Stream | The stream to update attached file from. |
+
 ### updateContent(Watermarker updatedVersion) {#updateContent-com.groupdocs.watermark.Watermarker-}
 ```
 public final void updateContent(Watermarker updatedVersion)

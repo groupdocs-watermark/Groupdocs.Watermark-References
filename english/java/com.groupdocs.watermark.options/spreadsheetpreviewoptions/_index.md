@@ -28,10 +28,10 @@ Provides options to sets requirements and stream delegates for preview generatio
 
 | Method | Description |
 | --- | --- |
-| [getResolution()](#getResolution--) | Gets or sets the resolution for the generated images, in dots per inch. |
-| [setResolution(int value)](#setResolution-int-) | Gets or sets the resolution for the generated images, in dots per inch. |
-| [getOnlyDataArea()](#getOnlyDataArea--) | Gets or sets the flag for rendering the data area only without headers, footers, margins. |
-| [setOnlyDataArea(boolean value)](#setOnlyDataArea-boolean-) | Gets or sets the flag for rendering the data area only without headers, footers, margins. |
+| [getResolution()](#getResolution--) | Gets the resolution for the generated images, in dots per inch. |
+| [setResolution(int value)](#setResolution-int-) | Sets the resolution for the generated images, in dots per inch. |
+| [getOnlyDataArea()](#getOnlyDataArea--) | Gets the flag for rendering the data area only without headers, footers, margins. |
+| [setOnlyDataArea(boolean value)](#setOnlyDataArea-boolean-) | Sets the flag for rendering the data area only without headers, footers, margins. |
 ### SpreadsheetPreviewOptions(ICreatePageStream createPageStream) {#SpreadsheetPreviewOptions-com.groupdocs.watermark.options.ICreatePageStream-}
 ```
 public SpreadsheetPreviewOptions(ICreatePageStream createPageStream)
@@ -61,7 +61,7 @@ Initializes a new instance of `[SpreadsheetPreviewOptions](../../com.groupdocs.w
 
 ### DefaultResolution {#DefaultResolution}
 ```
-public int DefaultResolution
+public static final int DefaultResolution
 ```
 
 
@@ -73,30 +73,30 @@ public final int getResolution()
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
+Gets the resolution for the generated images, in dots per inch.
+
+**Returns:**
+int - The resolution for the generated images, in dots per inch.
 
 --------------------
 
 The default value is 96.
-
-**Returns:**
-int
 ### setResolution(int value) {#setResolution-int-}
 ```
 public final void setResolution(int value)
 ```
 
 
-Gets or sets the resolution for the generated images, in dots per inch.
-
---------------------
-
-The default value is 96.
+Sets the resolution for the generated images, in dots per inch.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int |  |
+| value | int | The resolution for the generated images, in dots per inch.
+
+--------------------
+
+The default value is 96. |
 
 ### getOnlyDataArea() {#getOnlyDataArea--}
 ```
@@ -104,28 +104,28 @@ public final boolean getOnlyDataArea()
 ```
 
 
-Gets or sets the flag for rendering the data area only without headers, footers, margins.
+Gets the flag for rendering the data area only without headers, footers, margins.
+
+**Returns:**
+boolean - The flag for rendering the data area only without headers, footers, margins.
 
 --------------------
 
 This flags leads to rendering the whole worksheet on one page. The default value is  false .
-
-**Returns:**
-boolean
 ### setOnlyDataArea(boolean value) {#setOnlyDataArea-boolean-}
 ```
 public final void setOnlyDataArea(boolean value)
 ```
 
 
-Gets or sets the flag for rendering the data area only without headers, footers, margins.
-
---------------------
-
-This flags leads to rendering the whole worksheet on one page. The default value is  false .
+Sets the flag for rendering the data area only without headers, footers, margins.
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | boolean |  |
+| value | boolean | The flag for rendering the data area only without headers, footers, margins.
+
+--------------------
+
+This flags leads to rendering the whole worksheet on one page. The default value is  false . |
 
