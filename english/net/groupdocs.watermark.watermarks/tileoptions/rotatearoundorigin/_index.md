@@ -1,22 +1,22 @@
 ---
-title: RotateAroundCenter
+title: RotateAroundOrigin
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets or sets a value indicating whether the repeated watermarks should be rotated around the center of the document.
 type: docs
 weight: 30
-url: /net/groupdocs.watermark.watermarks/tileoptions/rotatearoundcenter/
+url: /net/groupdocs.watermark.watermarks/tileoptions/rotatearoundorigin/
 ---
-## TileOptions.RotateAroundCenter property
+## TileOptions.RotateAroundOrigin property
 
 Gets or sets a value indicating whether the repeated watermarks should be rotated around the center of the document.
 
 ```csharp
-public bool RotateAroundCenter { get; set; }
+public bool RotateAroundOrigin { get; set; }
 ```
 
 ### Property Value
 
-`true` if the repeated watermarks should be rotated around the center; otherwise, `false`, in such case the rotation will be relative to the left edge of the document. The default is `false`.
+`true` if the repeated watermarks should be rotated around the bottom left point of the document; otherwise, `false`, in such case the rotation will be relative to the left edge of the document. The default is `false`.
 
 ### See Also
 

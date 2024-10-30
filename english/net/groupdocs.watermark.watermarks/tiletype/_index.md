@@ -20,6 +20,8 @@ public enum TileType
 | --- | --- | --- |
 | Straight | `0` | Represents straight tile alignment. |
 | Offset | `1` | Represents offset tile alignment. |
+| OneThirdOffset | `2` | Represents 1/3 offset tile alignment. |
+| BasketWeave | `3` | Represents basket weave tile pattern |
 
 ### See Also
 
