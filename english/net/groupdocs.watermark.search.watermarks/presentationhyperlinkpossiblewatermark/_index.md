@@ -3,7 +3,7 @@ title: PresentationHyperlinkPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible hyperlink watermark in a PowerPoint document.
 type: docs
-weight: 2960
+weight: 2950
 url: /net/groupdocs.watermark.search.watermarks/presentationhyperlinkpossiblewatermark/
 ---
 ## PresentationHyperlinkPossibleWatermark class

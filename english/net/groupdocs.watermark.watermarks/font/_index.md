@@ -3,7 +3,7 @@ title: Font
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Class representing a font.
 type: docs
-weight: 3130
+weight: 3120
 url: /net/groupdocs.watermark.watermarks/font/
 ---
 ## Font class

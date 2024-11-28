@@ -3,7 +3,7 @@ title: PagesSetup
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the setup for pages.
 type: docs
-weight: 3190
+weight: 3180
 url: /net/groupdocs.watermark.watermarks/pagessetup/
 ---
 ## PagesSetup class
@@ -30,7 +30,7 @@ public class PagesSetup
 | [FirstPage](../../groupdocs.watermark.watermarks/pagessetup/firstpage) { get; set; } | Gets or sets a value indicating whether to include the first page. |
 | [LastPage](../../groupdocs.watermark.watermarks/pagessetup/lastpage) { get; set; } | Gets or sets a value indicating whether to include the last page. |
 | [OddPages](../../groupdocs.watermark.watermarks/pagessetup/oddpages) { get; set; } | Gets or sets a value indicating whether to include odd pages. |
-| [PageNumber](../../groupdocs.watermark.watermarks/pagessetup/pagenumber) { get; set; } | Gets or sets the index of the page when considering only specified pages. |
+| [PageNumber](../../groupdocs.watermark.watermarks/pagessetup/pagenumber) { get; set; } | Gets or sets the page number when considering only specified pages. |
 | [Pages](../../groupdocs.watermark.watermarks/pagessetup/pages) { get; set; } | Gets or sets the list of specific page numbers to include. |
 | [Specified](../../groupdocs.watermark.watermarks/pagessetup/specified) { get; } | Gets a value indicating whether any specific pages are specified. |
 

@@ -22,6 +22,7 @@ The namespace provides classes that can be used to construct criteria when searc
 | [IsTextSearchCriteria](./istextsearchcriteria) | Represents search criteria for filtering text watermarks only. |
 | [NotSearchCriteria](./notsearchcriteria) | Represents NOT composite search criteria. |
 | [OrSearchCriteria](./orsearchcriteria) | Represents OR composite search criteria. |
+| [PageSearchCriteria](./pagesearchcriteria) | Represents criteria allowing filtering by page number |
 | [RotateAngleSearchCriteria](./rotateanglesearchcriteria) | Represents criteria allowing filtering by watermark rotate angle. |
 | [SearchCriteria](./searchcriteria) | Class that can be used to construct criteria when searching for watermarks. |
 | [SizeSearchCriteria](./sizesearchcriteria) | Represents criteria allowing filtering by watermark size. |

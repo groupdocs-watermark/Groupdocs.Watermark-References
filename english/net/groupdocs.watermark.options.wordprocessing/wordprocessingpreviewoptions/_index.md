@@ -3,7 +3,7 @@ title: WordProcessingPreviewOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides options to sets requirements and stream delegates for preview generation of WordProcessing document.
 type: docs
-weight: 2330
+weight: 2320
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingpreviewoptions/
 ---
 ## WordProcessingPreviewOptions class

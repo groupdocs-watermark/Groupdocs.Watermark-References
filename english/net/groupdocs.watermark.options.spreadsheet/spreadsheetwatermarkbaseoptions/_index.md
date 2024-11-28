@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoption
 Base class for watermark adding options to a Spreadsheet document.
 
 ```csharp
-public abstract class SpreadsheetWatermarkBaseOptions : SpreadsheetWatermarkOptions
+public abstract class SpreadsheetWatermarkBaseOptions : WatermarkOptions
 ```
 
 ## Properties
@@ -24,7 +24,7 @@ public abstract class SpreadsheetWatermarkBaseOptions : SpreadsheetWatermarkOpti
 
 ### See Also
 
-* class [SpreadsheetWatermarkOptions](../spreadsheetwatermarkoptions)
+* class [WatermarkOptions](../../groupdocs.watermark.options/watermarkoptions)
 * namespace [GroupDocs.Watermark.Options.Spreadsheet](../../groupdocs.watermark.options.spreadsheet)
 * assembly [GroupDocs.Watermark](../../)
 

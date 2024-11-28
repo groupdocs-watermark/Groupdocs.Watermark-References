@@ -3,7 +3,7 @@ title: SpreadsheetSearchableObjects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies flags representing Excel content objects that are to be included in a watermark search.
 type: docs
-weight: 2540
+weight: 2520
 url: /net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/
 ---
 ## SpreadsheetSearchableObjects enumeration

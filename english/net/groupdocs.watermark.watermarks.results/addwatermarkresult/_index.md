@@ -3,7 +3,7 @@ title: AddWatermarkResult
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the result of adding watermarks to a document.
 type: docs
-weight: 3200
+weight: 3190
 url: /net/groupdocs.watermark.watermarks.results/addwatermarkresult/
 ---
 ## AddWatermarkResult class

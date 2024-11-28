@@ -3,7 +3,7 @@ title: WordProcessingShapePossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible shape watermark in a Word document.
 type: docs
-weight: 3050
+weight: 3040
 url: /net/groupdocs.watermark.search.watermarks/wordprocessingshapepossiblewatermark/
 ---
 ## WordProcessingShapePossibleWatermark class

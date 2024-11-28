@@ -3,7 +3,7 @@ title: ShapeSearchAdapter
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides base class for a shape containing specific pieces of document that are to be included in watermark search.
 type: docs
-weight: 2750
+weight: 2740
 url: /net/groupdocs.watermark.search/shapesearchadapter/
 ---
 ## ShapeSearchAdapter class

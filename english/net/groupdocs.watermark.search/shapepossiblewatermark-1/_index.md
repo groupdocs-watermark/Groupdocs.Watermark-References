@@ -3,7 +3,7 @@ title: ShapePossibleWatermarkT
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents shape watermark in a content of any supported format.
 type: docs
-weight: 2740
+weight: 2730
 url: /net/groupdocs.watermark.search/shapepossiblewatermark-1/
 ---
 ## ShapePossibleWatermark&lt;T&gt; class

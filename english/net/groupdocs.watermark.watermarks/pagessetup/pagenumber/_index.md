@@ -1,14 +1,14 @@
 ---
 title: PageNumber
 second_title: GroupDocs.Watermark for .NET API Reference
-description: Gets or sets the index of the page when considering only specified pages.
+description: Gets or sets the page number when considering only specified pages.
 type: docs
 weight: 70
 url: /net/groupdocs.watermark.watermarks/pagessetup/pagenumber/
 ---
 ## PagesSetup.PageNumber property
 
-Gets or sets the index of the page when considering only specified pages.
+Gets or sets the page number when considering only specified pages.
 
 ```csharp
 public int? PageNumber { get; set; }

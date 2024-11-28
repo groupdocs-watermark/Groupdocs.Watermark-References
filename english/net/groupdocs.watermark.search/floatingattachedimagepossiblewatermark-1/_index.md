@@ -3,7 +3,7 @@ title: FloatingAttachedImagePossibleWatermarkT
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents attached image watermark in a content of any supported format.
 type: docs
-weight: 2420
+weight: 2400
 url: /net/groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/
 ---
 ## FloatingAttachedImagePossibleWatermark&lt;T&gt; class

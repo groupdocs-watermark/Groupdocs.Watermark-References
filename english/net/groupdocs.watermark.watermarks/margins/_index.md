@@ -3,7 +3,7 @@ title: Margins
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents margin settings for each edge of an object.
 type: docs
-weight: 3170
+weight: 3160
 url: /net/groupdocs.watermark.watermarks/margins/
 ---
 ## Margins class

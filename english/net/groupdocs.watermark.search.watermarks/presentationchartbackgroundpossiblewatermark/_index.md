@@ -3,7 +3,7 @@ title: PresentationChartBackgroundPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible background watermark in a PowerPoint chart.
 type: docs
-weight: 2950
+weight: 2940
 url: /net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/
 ---
 ## PresentationChartBackgroundPossibleWatermark class

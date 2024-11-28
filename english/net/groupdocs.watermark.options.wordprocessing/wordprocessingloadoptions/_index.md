@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document loading options for a Word document.
 type: docs
-weight: 2310
+weight: 2300
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class

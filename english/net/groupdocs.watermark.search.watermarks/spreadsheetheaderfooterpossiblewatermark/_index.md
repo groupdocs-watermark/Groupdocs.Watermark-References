@@ -3,7 +3,7 @@ title: SpreadsheetHeaderFooterPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in a header or footer of an Excel document.
 type: docs
-weight: 3020
+weight: 3010
 url: /net/groupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark/
 ---
 ## SpreadsheetHeaderFooterPossibleWatermark class

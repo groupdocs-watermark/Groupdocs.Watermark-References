@@ -3,7 +3,7 @@ title: WatermarkType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Defines supported types of watermarks for various processes
 type: docs
-weight: 3250
+weight: 3240
 url: /net/groupdocs.watermark.watermarks.results/watermarktype/
 ---
 ## WatermarkType enumeration

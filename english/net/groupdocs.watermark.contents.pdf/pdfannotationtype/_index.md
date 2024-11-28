@@ -47,6 +47,10 @@ public enum PdfAnnotationType
 | Unknown | `26` | Unknown annotation. |
 | Pdf3D | `27` | PDF3D annotation. |
 | ColorBar | `28` | ColorBar annotation. |
+| TrimMark | `29` | Trim mark annotation. |
+| BleedMark | `30` | Bleed mark annotation. |
+| RegistrationMark | `31` | Registration mark annotation. |
+| PageInformation | `32` | Page information annotation. |
 
 ### See Also
 

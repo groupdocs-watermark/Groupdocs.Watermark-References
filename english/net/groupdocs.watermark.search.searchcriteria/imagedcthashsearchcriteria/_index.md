@@ -3,7 +3,7 @@ title: ImageDctHashSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a search criteria for finding images in a document.
 type: docs
-weight: 2610
+weight: 2590
 url: /net/groupdocs.watermark.search.searchcriteria/imagedcthashsearchcriteria/
 ---
 ## ImageDctHashSearchCriteria class
@@ -26,6 +26,7 @@ public class ImageDctHashSearchCriteria : ImageSearchCriteria
 | Name | Description |
 | --- | --- |
 | [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | Gets or sets maximum allowed difference between images. |
+| [Pages](../../groupdocs.watermark.search.searchcriteria/pagesearchcriteria/pages) { get; set; } | Gets or sets the list of specific page numbers |
 
 ## Methods
 

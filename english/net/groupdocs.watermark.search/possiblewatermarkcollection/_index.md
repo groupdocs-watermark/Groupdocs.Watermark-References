@@ -3,7 +3,7 @@ title: PossibleWatermarkCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of possible watermarks found in a content.
 type: docs
-weight: 2570
+weight: 2550
 url: /net/groupdocs.watermark.search/possiblewatermarkcollection/
 ---
 ## PossibleWatermarkCollection class

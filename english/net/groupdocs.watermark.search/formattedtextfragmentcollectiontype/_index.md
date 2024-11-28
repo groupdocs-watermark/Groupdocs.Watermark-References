@@ -3,7 +3,7 @@ title: FormattedTextFragmentCollectionType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies the number of elements a formatted text fragment collection can contain.
 type: docs
-weight: 2450
+weight: 2430
 url: /net/groupdocs.watermark.search/formattedtextfragmentcollectiontype/
 ---
 ## FormattedTextFragmentCollectionType enumeration

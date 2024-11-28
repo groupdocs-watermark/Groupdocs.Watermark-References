@@ -3,7 +3,7 @@ title: FontStyle
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a font style.
 type: docs
-weight: 3140
+weight: 3130
 url: /net/groupdocs.watermark.watermarks/fontstyle/
 ---
 ## FontStyle enumeration

@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfoot
 Represents options when adding the watermark to a Spreadsheet header/footer.
 
 ```csharp
-public sealed class SpreadsheetWatermarkHeaderFooterOptions : SpreadsheetWatermarkOptions
+public sealed class SpreadsheetWatermarkHeaderFooterOptions : WatermarkOptions
 ```
 
 ## Constructors
@@ -52,7 +52,7 @@ using (Watermarker watermarker = new Watermarker(@"D:\test.xls", loadOptions))
 
 ### See Also
 
-* class [SpreadsheetWatermarkOptions](../spreadsheetwatermarkoptions)
+* class [WatermarkOptions](../../groupdocs.watermark.options/watermarkoptions)
 * namespace [GroupDocs.Watermark.Options.Spreadsheet](../../groupdocs.watermark.options.spreadsheet)
 * assembly [GroupDocs.Watermark](../../)
 

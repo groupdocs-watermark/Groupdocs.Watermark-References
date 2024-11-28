@@ -3,7 +3,7 @@ title: SpreadsheetBackgroundPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible background watermark in an Excel document.
 type: docs
-weight: 2990
+weight: 2980
 url: /net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/
 ---
 ## SpreadsheetBackgroundPossibleWatermark class

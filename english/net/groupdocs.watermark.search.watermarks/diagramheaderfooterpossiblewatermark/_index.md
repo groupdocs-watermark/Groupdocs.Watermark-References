@@ -3,7 +3,7 @@ title: DiagramHeaderFooterPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in a Visio document header/footer.
 type: docs
-weight: 2780
+weight: 2770
 url: /net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/
 ---
 ## DiagramHeaderFooterPossibleWatermark class

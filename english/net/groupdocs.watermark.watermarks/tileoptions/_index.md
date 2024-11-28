@@ -3,7 +3,7 @@ title: TileOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options for configuring watermarks in tile mode.
 type: docs
-weight: 3310
+weight: 3300
 url: /net/groupdocs.watermark.watermarks/tileoptions/
 ---
 ## TileOptions class

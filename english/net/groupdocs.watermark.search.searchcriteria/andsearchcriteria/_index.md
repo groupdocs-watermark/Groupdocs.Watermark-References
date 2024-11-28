@@ -3,7 +3,7 @@ title: AndSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents AND composite search criteria.
 type: docs
-weight: 2580
+weight: 2560
 url: /net/groupdocs.watermark.search.searchcriteria/andsearchcriteria/
 ---
 ## AndSearchCriteria class

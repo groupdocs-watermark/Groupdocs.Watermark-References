@@ -3,7 +3,7 @@ title: TextSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents criteria allowing filtering by watermark text.
 type: docs
-weight: 2720
+weight: 2710
 url: /net/groupdocs.watermark.search.searchcriteria/textsearchcriteria/
 ---
 ## TextSearchCriteria class
@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark.search.searchcriteria/textsearchcriteria/
 Represents criteria allowing filtering by watermark text.
 
 ```csharp
-public class TextSearchCriteria : SearchCriteria
+public class TextSearchCriteria : PageSearchCriteria
 ```
 
 ## Constructors
@@ -26,6 +26,7 @@ public class TextSearchCriteria : SearchCriteria
 
 | Name | Description |
 | --- | --- |
+| [Pages](../../groupdocs.watermark.search.searchcriteria/pagesearchcriteria/pages) { get; set; } | Gets or sets the list of specific page numbers |
 | [Pattern](../../groupdocs.watermark.search.searchcriteria/textsearchcriteria/pattern) { get; } | Gets the search pattern. |
 | [SkipUnreadableCharacters](../../groupdocs.watermark.search.searchcriteria/textsearchcriteria/skipunreadablecharacters) { get; set; } | Gets or sets a value indicating that unreadable characters will be skipped during string comparison. |
 
@@ -61,7 +62,7 @@ using (Watermarker watermarker = new Watermarker(@"C:\test.some_ext"))
 
 ### See Also
 
-* class [SearchCriteria](../searchcriteria)
+* class [PageSearchCriteria](../pagesearchcriteria)
 * namespace [GroupDocs.Watermark.Search.SearchCriteria](../../groupdocs.watermark.search.searchcriteria)
 * assembly [GroupDocs.Watermark](../../)
 

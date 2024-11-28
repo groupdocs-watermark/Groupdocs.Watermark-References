@@ -3,7 +3,7 @@ title: IsImageSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents search criteria for filtering image watermarks only.
 type: docs
-weight: 2640
+weight: 2620
 url: /net/groupdocs.watermark.search.searchcriteria/isimagesearchcriteria/
 ---
 ## IsImageSearchCriteria class

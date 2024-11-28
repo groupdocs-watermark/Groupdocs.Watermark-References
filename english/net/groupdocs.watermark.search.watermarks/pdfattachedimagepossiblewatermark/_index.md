@@ -3,7 +3,7 @@ title: PdfAttachedImagePossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible image watermark in pdf document attachment.
 type: docs
-weight: 2890
+weight: 2880
 url: /net/groupdocs.watermark.search.watermarks/pdfattachedimagepossiblewatermark/
 ---
 ## PdfAttachedImagePossibleWatermark class

@@ -3,7 +3,7 @@ title: ImageThumbnailSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents search criteria for finding images in a content.
 type: docs
-weight: 2630
+weight: 2610
 url: /net/groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria/
 ---
 ## ImageThumbnailSearchCriteria class
@@ -26,6 +26,7 @@ public class ImageThumbnailSearchCriteria : ImageSearchCriteria
 | Name | Description |
 | --- | --- |
 | [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | Gets or sets maximum allowed difference between images. |
+| [Pages](../../groupdocs.watermark.search.searchcriteria/pagesearchcriteria/pages) { get; set; } | Gets or sets the list of specific page numbers |
 | [ThumbnailSize](../../groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria/thumbnailsize) { get; set; } | Gets or sets thumbnail size. |
 
 ## Methods

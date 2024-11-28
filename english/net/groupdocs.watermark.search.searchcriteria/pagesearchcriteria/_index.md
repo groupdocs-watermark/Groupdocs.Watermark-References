@@ -1,24 +1,23 @@
 ---
-title: ImageSearchCriteria
+title: PageSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
-description: Provides base class for image search criteria.
+description: Represents criteria allowing filtering by page number
 type: docs
-weight: 2600
-url: /net/groupdocs.watermark.search.searchcriteria/imagesearchcriteria/
+weight: 2660
+url: /net/groupdocs.watermark.search.searchcriteria/pagesearchcriteria/
 ---
-## ImageSearchCriteria class
+## PageSearchCriteria class
 
-Provides base class for image search criteria.
+Represents criteria allowing filtering by page number
 
 ```csharp
-public abstract class ImageSearchCriteria : PageSearchCriteria
+public abstract class PageSearchCriteria : SearchCriteria
 ```
 
 ## Properties
 
 | Name | Description |
 | --- | --- |
-| [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | Gets or sets maximum allowed difference between images. |
 | [Pages](../../groupdocs.watermark.search.searchcriteria/pagesearchcriteria/pages) { get; set; } | Gets or sets the list of specific page numbers |
 
 ## Methods
@@ -31,7 +30,7 @@ public abstract class ImageSearchCriteria : PageSearchCriteria
 
 ### See Also
 
-* class [PageSearchCriteria](../pagesearchcriteria)
+* class [SearchCriteria](../searchcriteria)
 * namespace [GroupDocs.Watermark.Search.SearchCriteria](../../groupdocs.watermark.search.searchcriteria)
 * assembly [GroupDocs.Watermark](../../)
 
