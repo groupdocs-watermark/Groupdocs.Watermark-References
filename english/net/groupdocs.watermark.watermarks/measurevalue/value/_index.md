@@ -1,14 +1,14 @@
 ---
 title: Value
 second_title: GroupDocs.Watermark for .NET API Reference
-description: Gets or sets the numerical value of the measurement.
+description: Gets or sets the numerical value of the measurement. Value must be greater than 0.
 type: docs
 weight: 30
 url: /net/groupdocs.watermark.watermarks/measurevalue/value/
 ---
 ## MeasureValue.Value property
 
-Gets or sets the numerical value of the measurement.
+Gets or sets the numerical value of the measurement. Value must be greater than 0.
 
 ```csharp
 public double Value { get; set; }

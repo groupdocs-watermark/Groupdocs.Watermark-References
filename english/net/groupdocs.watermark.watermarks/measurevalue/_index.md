@@ -25,7 +25,7 @@ public class MeasureValue
 | Name | Description |
 | --- | --- |
 | [MeasureType](../../groupdocs.watermark.watermarks/measurevalue/measuretype) { get; set; } | Gets or sets the type of measurement. |
-| [Value](../../groupdocs.watermark.watermarks/measurevalue/value) { get; set; } | Gets or sets the numerical value of the measurement. |
+| [Value](../../groupdocs.watermark.watermarks/measurevalue/value) { get; set; } | Gets or sets the numerical value of the measurement. Value must be greater than 0. |
 
 ### See Also
 
