@@ -3,7 +3,7 @@ title: Password
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Gets or sets the password for opening an encrypted document.
 type: docs
-weight: 30
+weight: 50
 url: /net/groupdocs.watermark.options/loadoptions/password/
 ---
 ## LoadOptions.Password property
