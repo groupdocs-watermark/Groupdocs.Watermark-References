@@ -1,0 +1,18 @@
+﻿---
+title: pages property
+second_title: GroupDocs.Watermark for Python via .NET API References
+description: 
+type: docs
+url: /python-net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria/pages/
+is_root: false
+weight: 80
+---
+
+## pages property
+
+
+Gets or sets the list of specific page numbers
+
+### See Also
+* module [`groupdocs.watermark.search.searchcriteria`](../../)
+* class [`ImageColorHistogramSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria)

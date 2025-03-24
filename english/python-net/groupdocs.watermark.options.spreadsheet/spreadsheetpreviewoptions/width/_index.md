@@ -1,0 +1,18 @@
+﻿---
+title: width property
+second_title: GroupDocs.Watermark for Python via .NET API References
+description: 
+type: docs
+url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/width/
+is_root: false
+weight: 90
+---
+
+## width property
+
+
+Gets or sets the page preview width.
+
+### See Also
+* module [`groupdocs.watermark.options.spreadsheet`](../../)
+* class [`SpreadsheetPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions)
