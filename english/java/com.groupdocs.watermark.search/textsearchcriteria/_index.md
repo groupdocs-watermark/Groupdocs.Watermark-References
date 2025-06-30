@@ -7,9 +7,9 @@ weight: 67
 url: /java/com.groupdocs.watermark.search/textsearchcriteria/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.watermark.search.SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria)
+java.lang.Object, [com.groupdocs.watermark.search.SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria), [com.groupdocs.watermark.search.PageSearchCriteria](../../com.groupdocs.watermark.search/pagesearchcriteria)
 ```
-public class TextSearchCriteria extends SearchCriteria
+public class TextSearchCriteria extends PageSearchCriteria
 ```
 
 Represents criteria allowing filtering by watermark text.

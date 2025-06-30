@@ -7,9 +7,9 @@ weight: 32
 url: /java/com.groupdocs.watermark.search/imagesearchcriteria/
 ---
 **Inheritance:**
-java.lang.Object, [com.groupdocs.watermark.search.SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria)
+java.lang.Object, [com.groupdocs.watermark.search.SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria), [com.groupdocs.watermark.search.PageSearchCriteria](../../com.groupdocs.watermark.search/pagesearchcriteria)
 ```
-public abstract class ImageSearchCriteria extends SearchCriteria
+public abstract class ImageSearchCriteria extends PageSearchCriteria
 ```
 
 Provides base class for image search criteria.

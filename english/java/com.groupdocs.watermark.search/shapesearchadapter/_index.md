@@ -17,11 +17,22 @@ Provides base class for a shape containing specific pieces of document that are 
 
 | Method | Description |
 | --- | --- |
+| [getPageNumber()](#getPageNumber--) |  |
 | [getImageForSearch()](#getImageForSearch--) |  |
 | [getFormattedTextFragmentsForSearch()](#getFormattedTextFragmentsForSearch--) |  |
 | [getTextForSearch()](#getTextForSearch--) |  |
 | [setFoundWatermarkText(String value)](#setFoundWatermarkText-java.lang.String-) |  |
 | [setFoundWatermarkImage(byte[] imageData)](#setFoundWatermarkImage-byte---) |  |
+### getPageNumber() {#getPageNumber--}
+```
+public Integer getPageNumber()
+```
+
+
+
+
+**Returns:**
+java.lang.Integer
 ### getImageForSearch() {#getImageForSearch--}
 ```
 public WatermarkableImage getImageForSearch()

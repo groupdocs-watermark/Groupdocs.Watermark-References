@@ -36,7 +36,7 @@ Represents the setup for pages.
 | [getPages()](#getPages--) | Gets or sets the list of specific page numbers to include. |
 | [setPages(System.Collections.Generic.List<Integer> value)](#setPages-com.aspose.ms.System.Collections.Generic.List-java.lang.Integer--) | Gets or sets the list of specific page numbers to include. |
 | [getPageNumber()](#getPageNumber--) | Gets or sets the index of the page when considering only specified pages. |
-| [setPageNumber(System.Nullable<Integer> value)](#setPageNumber-com.aspose.ms.System.Nullable-java.lang.Integer--) | Gets or sets the index of the page when considering only specified pages. |
+| [setPageNumber(System.Nullable<Integer> value)](#setPageNumber-com.aspose.ms.System.Nullable-java.lang.Integer--) | Gets or sets the page number when considering only specified pages. |
 | [getSpecified()](#getSpecified--) | Gets a value indicating whether any specific pages are specified. |
 ### PagesSetup() {#PagesSetup--}
 ```
@@ -219,7 +219,7 @@ public final void setPageNumber(System.Nullable<Integer> value)
 ```
 
 
-Gets or sets the index of the page when considering only specified pages.
+Gets or sets the page number when considering only specified pages.
 
 **Parameters:**
 | Parameter | Type | Description |

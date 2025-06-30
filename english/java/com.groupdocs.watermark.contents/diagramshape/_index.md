@@ -20,6 +20,7 @@ Represents a drawing shape in a Visio document.
 
 | Method | Description |
 | --- | --- |
+| [getPageNumber()](#getPageNumber--) |  |
 | [getPage()](#getPage--) | Gets the parent page of this `[DiagramShape](../../com.groupdocs.watermark.contents/diagramshape)`. |
 | [getWidth()](#getWidth--) | Gets the width of this `[DiagramShape](../../com.groupdocs.watermark.contents/diagramshape)` in points. |
 | [setWidth(double value)](#setWidth-double-) | Sets the width of this `[DiagramShape](../../com.groupdocs.watermark.contents/diagramshape)` in points. |
@@ -45,6 +46,16 @@ Represents a drawing shape in a Visio document.
 | [setFoundWatermarkImage(byte[] imageData)](#setFoundWatermarkImage-byte---) |  |
 | [getTextForSearch()](#getTextForSearch--) |  |
 | [setFoundWatermarkText(String value)](#setFoundWatermarkText-java.lang.String-) |  |
+### getPageNumber() {#getPageNumber--}
+```
+public Integer getPageNumber()
+```
+
+
+
+
+**Returns:**
+java.lang.Integer
 ### getPage() {#getPage--}
 ```
 public final DiagramPage getPage()
