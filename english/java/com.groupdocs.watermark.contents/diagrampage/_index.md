@@ -17,6 +17,7 @@ Represents a Visio document page.
 
 | Method | Description |
 | --- | --- |
+| [getPageNumber()](#getPageNumber--) |  |
 | [getShapes()](#getShapes--) | Gets the collection of all shapes of the page. |
 | [isBackground()](#isBackground--) | Gets a value indicating whether the page is a background page. |
 | [getBackgroundPage()](#getBackgroundPage--) | Gets the background page for this . |
@@ -34,6 +35,16 @@ Represents a Visio document page.
 | [getPageToDrawingScale()](#getPageToDrawingScale--) |  |
 | [addWatermark(Watermark watermark, DiagramShapeSettings shapeSettings)](#addWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.internal.DiagramShapeSettings-) |  |
 | [convertValueFromDrawingScaleToPageScale(DoubleValue value)](#convertValueFromDrawingScaleToPageScale-com.aspose.diagram.DoubleValue-) |  |
+### getPageNumber() {#getPageNumber--}
+```
+public Integer getPageNumber()
+```
+
+
+
+
+**Returns:**
+java.lang.Integer
 ### getShapes() {#getShapes--}
 ```
 public final DiagramShapeCollection getShapes()

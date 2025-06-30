@@ -23,6 +23,7 @@ Represents possible watermark found in a document.
 | Method | Description |
 | --- | --- |
 | [getParent()](#getParent--) | Gets the parent of this `[PossibleWatermark](../../com.groupdocs.watermark.search/possiblewatermark)`. |
+| [getPageNumber()](#getPageNumber--) |  |
 | [getWidth()](#getWidth--) | Gets the width of this `[PossibleWatermark](../../com.groupdocs.watermark.search/possiblewatermark)`. |
 | [getHeight()](#getHeight--) | Gets the height of this `[PossibleWatermark](../../com.groupdocs.watermark.search/possiblewatermark)`. |
 | [getX()](#getX--) | Gets the x-coordinate of this `[PossibleWatermark](../../com.groupdocs.watermark.search/possiblewatermark)`. |
@@ -57,6 +58,16 @@ Gets the parent of this `[PossibleWatermark](../../com.groupdocs.watermark.searc
 
 **Returns:**
 [ContentPart](../../com.groupdocs.watermark.contents/contentpart) - The parent of this `[PossibleWatermark](../../com.groupdocs.watermark.search/possiblewatermark)`.
+### getPageNumber() {#getPageNumber--}
+```
+public Integer getPageNumber()
+```
+
+
+
+
+**Returns:**
+java.lang.Integer
 ### getWidth() {#getWidth--}
 ```
 public double getWidth()
