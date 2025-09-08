@@ -40,6 +40,10 @@ Represents document loading options when loading a document.
 | --- | --- |
 | [getPassword()](#getPassword--) | Gets the password for opening an encrypted document. |
 | [setPassword(String value)](#setPassword-java.lang.String-) | Sets the password for opening an encrypted document. |
+| [getFormatFamily()](#getFormatFamily--) | Get the format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). |
+| [setFormatFamily(int formatFamily)](#setFormatFamily-int-) | Set the format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). |
+| [getFileType()](#getFileType--) | Get the type of the file, indicating its type (e.g., docx, pdf, xlsx, etc.). |
+| [setFileType(FileType fileType)](#setFileType-com.groupdocs.watermark.common.FileType-) | Set the type of the file, indicating its type (e.g., docx, pdf, xlsx, etc.). |
 ### LoadOptions() {#LoadOptions--}
 ```
 public LoadOptions()
@@ -100,4 +104,50 @@ The following example demonstrates how to load a document protected with a passw
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | java.lang.String | The password for opening an encrypted document. |
+
+### getFormatFamily() {#getFormatFamily--}
+```
+public int getFormatFamily()
+```
+
+
+Get the format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.).
+
+**Returns:**
+int - formatFamily The file type.
+### setFormatFamily(int formatFamily) {#setFormatFamily-int-}
+```
+public void setFormatFamily(int formatFamily)
+```
+
+
+Set the format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| formatFamily | int | The file type. |
+
+### getFileType() {#getFileType--}
+```
+public FileType getFileType()
+```
+
+
+Get the type of the file, indicating its type (e.g., docx, pdf, xlsx, etc.).
+
+**Returns:**
+[FileType](../../com.groupdocs.watermark.common/filetype) - fileType The file type.
+### setFileType(FileType fileType) {#setFileType-com.groupdocs.watermark.common.FileType-}
+```
+public void setFileType(FileType fileType)
+```
+
+
+Set the type of the file, indicating its type (e.g., docx, pdf, xlsx, etc.).
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fileType | [FileType](../../com.groupdocs.watermark.common/filetype) | The file type. |
 
