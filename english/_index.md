@@ -20,6 +20,7 @@ Search, add or remove text or image watermarks from multitude of file formats wi
 These are links to some useful resources:
 
 - [GroupDocs.Watermark for .NET API Reference](/watermark/net/)
+- [Access additional details about the product](https://products.groupdocs.com/watermark/net/)
 
 
 ## GroupDocs.Watermark for Java
@@ -35,3 +36,20 @@ On Premise APIs for Java based applications to manipulate watermarks for MS Offi
 These are links to some useful resources:
 
 - [GroupDocs.Watermark for Java API Reference](/watermark/java/)
+- [Discover more about what the product offers](https://products.groupdocs.com/watermark/java/)
+
+
+## GroupDocs.Watermark for Python via .NET
+
+{{% alert color="primary" %}}
+
+![GroupDocs.Watermark for Python via .NET Product Logo](gdocs_python.png)
+
+Perform text and image watermark search, addition, and removal for a variety of file formats in your Python applications.
+
+{{% /alert %}}
+
+These are links to some useful resources:
+
+- [GroupDocs.Watermark for Python via .NET API Reference](/watermark/python-net/)
+- [Learn more about the product](https://products.groupdocs.com/watermark/python-net/)
