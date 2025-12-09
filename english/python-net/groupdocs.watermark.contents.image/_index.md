@@ -18,6 +18,8 @@ The namespace provides classes for adding watermarks to images of different form
 | [`ImageFrame`](/watermark/python-net/groupdocs.watermark.contents.image/imageframe) | Represents an image frame where a watermark can be placed. |
 | [`ImageFrameCollection`](/watermark/python-net/groupdocs.watermark.contents.image/imageframecollection) | Represents a collection of frames in multiframe image. |
 | [`MultiframeImageContent`](/watermark/python-net/groupdocs.watermark.contents.image/multiframeimagecontent) | Represents a multiframe image where a watermark can be placed. |
+| [`SystemDrawingImageFrame`](/watermark/python-net/groupdocs.watermark.contents.image/systemdrawingimageframe) |  |
+| [`SystemDrawingImageFrameCollection`](/watermark/python-net/groupdocs.watermark.contents.image/systemdrawingimageframecollection) |  |
 | [`TiffImageContent`](/watermark/python-net/groupdocs.watermark.contents.image/tiffimagecontent) | Represents a tiff image where a watermark can be placed. |
 | [`WatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage) | Represents an image inside a document. |
 | [`WatermarkableImageCollection`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimagecollection) | Represents a collection of images found in a document. |

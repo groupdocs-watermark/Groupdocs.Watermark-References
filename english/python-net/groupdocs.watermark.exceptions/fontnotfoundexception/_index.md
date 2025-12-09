@@ -25,7 +25,7 @@ The FontNotFoundException type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.exceptions/fontnotfoundexception/__init__/#) | Initializes a new instance of the [`FontNotFoundException`](/watermark/python-net/groupdocs.watermark.exceptions/fontnotfoundexception) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.exceptions/fontnotfoundexception/__init__/#str) | Initializes a new instance of the [`FontNotFoundException`](/watermark/python-net/groupdocs.watermark.exceptions/fontnotfoundexception) class with a specified font name. |
+| [__init__](/watermark/python-net/groupdocs.watermark.exceptions/fontnotfoundexception/__init__/#System.String) | Initializes a new instance of the [`FontNotFoundException`](/watermark/python-net/groupdocs.watermark.exceptions/fontnotfoundexception) class with a specified font name. |
 
 
 ### Properties

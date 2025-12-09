@@ -31,10 +31,10 @@ The PdfTextFormattedTextFragmentCollection type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdftextformattedtextfragmentcollection/add/#str) | Adds a formatted text fragment to the collection. |
-| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdftextformattedtextfragmentcollection/add/#str-groupdocs.watermark.watermarks.Font) | Adds a formatted text fragment to the collection. |
-| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdftextformattedtextfragmentcollection/add/#str-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
-| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdftextformattedtextfragmentcollection/add/#str-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdftextformattedtextfragmentcollection/add/#System.String) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdftextformattedtextfragmentcollection/add/#System.String-groupdocs.watermark.watermarks.Font) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdftextformattedtextfragmentcollection/add/#System.String-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdftextformattedtextfragmentcollection/add/#System.String-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
 
 
 

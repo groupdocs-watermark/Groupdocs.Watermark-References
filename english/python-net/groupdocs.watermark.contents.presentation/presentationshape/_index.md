@@ -46,7 +46,7 @@ The PresentationShape type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [get_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshape/get_hyperlink/#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType) | Gets the hyperlink associated with this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape). |
-| [set_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshape/set_hyperlink/#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType-str) | Sets the hyperlink associated with this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape). |
+| [set_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshape/set_hyperlink/#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType-System.String) | Sets the hyperlink associated with this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape). |
 
 
 

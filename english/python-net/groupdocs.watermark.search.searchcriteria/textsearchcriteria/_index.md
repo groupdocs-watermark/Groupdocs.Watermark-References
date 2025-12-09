@@ -25,8 +25,8 @@ The TextSearchCriteria type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/textsearchcriteria/__init__/#str-bool) | Initializes a new instance of the [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/textsearchcriteria) class<br/>with a search string and a flag for comparison. |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/textsearchcriteria/__init__/#str) | Initializes a new instance of the [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/textsearchcriteria) class with a search string. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/textsearchcriteria/__init__/#System.String-bool) | Initializes a new instance of the [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/textsearchcriteria) class<br/>with a search string and a flag for comparison. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/textsearchcriteria/__init__/#System.String) | Initializes a new instance of the [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/textsearchcriteria) class with a search string. |
 
 
 ### Properties

@@ -20,7 +20,7 @@ The LoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options/loadoptions/__init__/#) | Initializes a new instance of the [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/loadoptions/__init__/#str) | Initializes a new instance of the [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions) class with a specified password. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/loadoptions/__init__/#System.String) | Initializes a new instance of the [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions) class with a specified password. |
 
 
 ### Properties

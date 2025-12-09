@@ -19,7 +19,7 @@ The EmailEmbeddedObjectCollection type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add](/watermark/python-net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/add/#bytes-str) | Adds an embedded resource to the [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent). |
+| [add](/watermark/python-net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/add/#bytes-System.String) | Adds an embedded resource to the [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent). |
 
 
 

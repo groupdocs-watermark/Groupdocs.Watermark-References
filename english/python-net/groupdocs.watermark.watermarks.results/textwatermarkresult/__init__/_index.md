@@ -8,7 +8,7 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initialize TextWatermarkResult object with watermark identifier that was obtained after search process.
 This unique identifier is used to find additional properties for this watermark from document watermark information layer.
@@ -23,7 +23,7 @@ def __init__(self, watermark_id):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| watermark_id | str | Unique watermark identifier obtained by sign or search method. |
+| watermark_id | System.String | Unique watermark identifier obtained by sign or search method. |
 
 
 

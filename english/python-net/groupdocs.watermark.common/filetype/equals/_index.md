@@ -27,7 +27,7 @@ def equals(self, other):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype) | The object to compare with the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype) object. |
+| other | groupdocs.watermark.common.FileType | The object to compare with the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype) object. |
 
 
 

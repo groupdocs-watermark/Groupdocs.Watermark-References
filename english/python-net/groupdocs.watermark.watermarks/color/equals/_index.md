@@ -27,7 +27,7 @@ def equals(self, other):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color) | The color to test. |
+| other | groupdocs.watermark.watermarks.Color | The color to test. |
 
 
 

@@ -27,7 +27,7 @@ def both(self, other):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/searchcriteria) | Search criteria to combine with. |
+| other | groupdocs.watermark.search.searchcriteria.SearchCriteria | Search criteria to combine with. |
 
 
 

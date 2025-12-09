@@ -27,7 +27,7 @@ def save(self):
 Remove particular text fragments from the email message body/subject and save the email message.
 
 
-## save {#str}
+## save {#System.String}
 
 Saves the document to the specified file location.
 
@@ -41,7 +41,7 @@ def save(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to save the document data to. |
+| file_path | System.String | The file path to save the document data to. |
 
 ### Example 
 
@@ -93,7 +93,7 @@ def save(self, options):
 Add watermark and save the document with default [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions).
 
 
-## save {#str-groupdocs.watermark.options.SaveOptions}
+## save {#System.String-groupdocs.watermark.options.SaveOptions}
 
 Saves the document to the specified file location using save options.
 
@@ -107,7 +107,7 @@ def save(self, file_path, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to save the document data to. |
+| file_path | System.String | The file path to save the document data to. |
 | options | groupdocs.watermark.options.SaveOptions | Additional options to use when saving a document. |
 
 ### Example 

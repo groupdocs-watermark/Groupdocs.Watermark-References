@@ -19,10 +19,10 @@ The Font type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#str-float) | Initializes a new instance of the [`Font`](/watermark/python-net/groupdocs.watermark.watermarks/font) class with a specified font family name and a size. |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#str-float-groupdocs.watermark.watermarks.FontStyle) | Initializes a new instance of the [`Font`](/watermark/python-net/groupdocs.watermark.watermarks/font) class with a specified font family name, a size and a style. |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#str-str-float) | Initializes a new instance of the [`Font`](/watermark/python-net/groupdocs.watermark.watermarks/font) class with a specified custom font family name, folder path with a font and a size. |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#str-str-float-groupdocs.watermark.watermarks.FontStyle) | Initializes a new instance of the [`Font`](/watermark/python-net/groupdocs.watermark.watermarks/font) class with a specified custom font family name, folder path with a font and a size. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#System.String-float) | Initializes a new instance of the [`Font`](/watermark/python-net/groupdocs.watermark.watermarks/font) class with a specified font family name and a size. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#System.String-float-groupdocs.watermark.watermarks.FontStyle) | Initializes a new instance of the [`Font`](/watermark/python-net/groupdocs.watermark.watermarks/font) class with a specified font family name, a size and a style. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#System.String-System.String-float) | Initializes a new instance of the [`Font`](/watermark/python-net/groupdocs.watermark.watermarks/font) class with a specified custom font family name, folder path with a font and a size. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#System.String-System.String-float-groupdocs.watermark.watermarks.FontStyle) | Initializes a new instance of the [`Font`](/watermark/python-net/groupdocs.watermark.watermarks/font) class with a specified custom font family name, folder path with a font and a size. |
 
 
 ### Properties

@@ -86,7 +86,7 @@ The FileType type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [equals](/watermark/python-net/groupdocs.watermark.common/filetype/equals/#groupdocs.watermark.common.FileType) | Determines whether the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype) is the same as the specified [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype) object. |
-| [from_extension](/watermark/python-net/groupdocs.watermark.common/filetype/from_extension/#str) | Maps the file extension to the file type. |
+| [from_extension](/watermark/python-net/groupdocs.watermark.common/filetype/from_extension/#System.String) | Maps the file extension to the file type. |
 | [get_supported_file_types](/watermark/python-net/groupdocs.watermark.common/filetype/get_supported_file_types/#) | Retrieves the supported file types. |
 
 

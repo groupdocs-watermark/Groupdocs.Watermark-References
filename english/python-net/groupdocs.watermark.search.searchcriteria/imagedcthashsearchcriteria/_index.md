@@ -26,7 +26,7 @@ The ImageDctHashSearchCriteria type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagedcthashsearchcriteria/__init__/#str) | Initializes a new instance of the [`ImageDctHashSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagedcthashsearchcriteria) class with a specified file path. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagedcthashsearchcriteria/__init__/#System.String) | Initializes a new instance of the [`ImageDctHashSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagedcthashsearchcriteria) class with a specified file path. |
 | [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagedcthashsearchcriteria/__init__/#io.RawIOBase) | Initializes a new instance of the [`ImageDctHashSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagedcthashsearchcriteria) class with a specified stream. |
 
 

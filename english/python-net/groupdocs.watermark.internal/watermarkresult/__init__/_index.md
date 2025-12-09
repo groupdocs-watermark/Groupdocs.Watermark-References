@@ -22,9 +22,9 @@ def __init__(self):
 
 
 
-## __init__ {#int-TimeSpan-int-int}
+## __init__ {#int-System.TimeSpan-int-int}
 
-Constructs a new instance of WatermarkResult
+Initializes a new instance of the [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult) class with specific values.
 
 
 
@@ -36,10 +36,10 @@ def __init__(self, source_document_size, processing_time, final_document_size, n
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| source_document_size | int |  |
-| processing_time | TimeSpan |  |
-| final_document_size | int |  |
-| number_watermarks_applied | int |  |
+| source_document_size | int | The size of the source document in bytes. |
+| processing_time | System.TimeSpan | The processing time in milliseconds. |
+| final_document_size | int | The size of the final processed document in bytes. |
+| number_watermarks_applied | int | The total number of watermarks applied to the document. |
 
 
 

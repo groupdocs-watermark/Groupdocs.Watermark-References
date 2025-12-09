@@ -22,7 +22,7 @@ def add(self, watermark):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| watermark | [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark) | The watermark to add to the document. |
+| watermark | groupdocs.watermark.Watermark | The watermark to add to the document. |
 
 ### Example 
 
@@ -44,7 +44,7 @@ def add(self, watermark, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| watermark | [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark) | The watermark to add to the document. |
+| watermark | groupdocs.watermark.Watermark | The watermark to add to the document. |
 | options | groupdocs.watermark.options.WatermarkOptions | Additional options to use when adding the watermark. |
 
 ### Example 

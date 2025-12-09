@@ -8,7 +8,7 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified document path.
 
@@ -22,7 +22,7 @@ def __init__(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to load the document from. |
+| file_path | System.String | The file path to load the document from. |
 ### Exceptions
 | Exception | Description |
 | :- | :- |
@@ -66,7 +66,7 @@ def __init__(self, document):
 Load and save a document of any supported format.
 
 
-## __init__ {#str-groupdocs.watermark.options.LoadOptions}
+## __init__ {#System.String-groupdocs.watermark.options.LoadOptions}
 
 Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified
 document path and load options.
@@ -81,7 +81,7 @@ def __init__(self, file_path, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to load document from. |
+| file_path | System.String | The file path to load document from. |
 | options | groupdocs.watermark.options.LoadOptions | Additional options to use when loading a document. |
 ### Exceptions
 | Exception | Description |
@@ -97,7 +97,7 @@ def __init__(self, file_path, options):
 Load encrypted PDF document using password.
 
 
-## __init__ {#str-groupdocs.watermark.WatermarkerSettings}
+## __init__ {#System.String-groupdocs.watermark.WatermarkerSettings}
 
 Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified
 document path and settings.
@@ -112,8 +112,8 @@ def __init__(self, file_path, settings):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to load document from. |
-| settings | [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings) | Additional settings to use when working with loaded document. |
+| file_path | System.String | The file path to load document from. |
+| settings | groupdocs.watermark.WatermarkerSettings | Additional settings to use when working with loaded document. |
 ### Exceptions
 | Exception | Description |
 | :- | :- |
@@ -175,7 +175,7 @@ def __init__(self, document, settings):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | document | io.RawIOBase | The stream to load document from. |
-| settings | [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings) | Additional settings to use when working with loaded document. |
+| settings | groupdocs.watermark.WatermarkerSettings | Additional settings to use when working with loaded document. |
 ### Exceptions
 | Exception | Description |
 | :- | :- |
@@ -190,7 +190,7 @@ def __init__(self, document, settings):
 Set searchable objects globally (for all documents that will be loaded after that).
 
 
-## __init__ {#str-groupdocs.watermark.options.LoadOptions-groupdocs.watermark.WatermarkerSettings}
+## __init__ {#System.String-groupdocs.watermark.options.LoadOptions-groupdocs.watermark.WatermarkerSettings}
 
 Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified
 document path, load options and settings.
@@ -205,9 +205,9 @@ def __init__(self, file_path, options, settings):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to load document from. |
+| file_path | System.String | The file path to load document from. |
 | options | groupdocs.watermark.options.LoadOptions | Additional options to use when loading a document. |
-| settings | [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings) | Additional settings to use when working with loaded document. |
+| settings | groupdocs.watermark.WatermarkerSettings | Additional settings to use when working with loaded document. |
 ### Exceptions
 | Exception | Description |
 | :- | :- |
@@ -239,7 +239,7 @@ def __init__(self, document, options, settings):
 | :- | :- | :- |
 | document | io.RawIOBase | The stream to load document from. |
 | options | groupdocs.watermark.options.LoadOptions | Additional options to use when loading a document. |
-| settings | [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings) | Additional settings to use when working with loaded document. |
+| settings | groupdocs.watermark.WatermarkerSettings | Additional settings to use when working with loaded document. |
 ### Exceptions
 | Exception | Description |
 | :- | :- |

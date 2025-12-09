@@ -8,7 +8,7 @@ is_root: false
 weight: 50
 ---
 
-## protect {#groupdocs.watermark.contents.wordprocessing.WordProcessingProtectionType-str}
+## protect {#groupdocs.watermark.contents.wordprocessing.WordProcessingProtectionType-System.String}
 
 Protects the document from changes and sets a protection password.
 
@@ -22,8 +22,8 @@ def protect(self, protection_type, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| protection_type | [`WordProcessingProtectionType`](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingprotectiontype) | Specifies the protection type for the document. |
-| password | str | The password to protect the document with. |
+| protection_type | groupdocs.watermark.contents.wordprocessing.WordProcessingProtectionType | Specifies the protection type for the document. |
+| password | System.String | The password to protect the document with. |
 
 
 

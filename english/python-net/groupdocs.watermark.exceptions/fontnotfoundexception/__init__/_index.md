@@ -22,7 +22,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of the [`FontNotFoundException`](/watermark/python-net/groupdocs.watermark.exceptions/fontnotfoundexception) class with a specified font name.
 
@@ -36,7 +36,7 @@ def __init__(self, font_name):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| font_name | str | The requested font name. |
+| font_name | System.String | The requested font name. |
 
 
 

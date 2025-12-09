@@ -36,9 +36,9 @@ The WordProcessingContent type exposes the following members:
 | [find_images](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/find_images/#) | Finds all images in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
 | [search](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/search/#groupdocs.watermark.search.searchcriteria.SearchCriteria) | Finds possible watermarks according to specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
 | [search](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/search/#) | Finds all possible watermarks in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [encrypt](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/encrypt/#str) | Encrypts the document. |
+| [encrypt](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/encrypt/#System.String) | Encrypts the document. |
 | [decrypt](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/decrypt/#) | Decrypts the document. |
-| [protect](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/protect/#groupdocs.watermark.contents.wordprocessing.WordProcessingProtectionType-str) | Protects the document from changes and sets a protection password. |
+| [protect](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/protect/#groupdocs.watermark.contents.wordprocessing.WordProcessingProtectionType-System.String) | Protects the document from changes and sets a protection password. |
 | [unprotect](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingcontent/unprotect/#) | Removes protection from the document regardless of the password. |
 
 

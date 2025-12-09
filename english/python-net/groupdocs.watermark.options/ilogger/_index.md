@@ -19,8 +19,8 @@ The ILogger type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [trace](/watermark/python-net/groupdocs.watermark.options/ilogger/trace/#str) | Logs an event occurred during watermarking. |
-| [warning](/watermark/python-net/groupdocs.watermark.options/ilogger/warning/#str) | Logs a warning that occurred during watermarking. |
+| [trace](/watermark/python-net/groupdocs.watermark.options/ilogger/trace/#System.String) | Logs an event occurred during watermarking. |
+| [warning](/watermark/python-net/groupdocs.watermark.options/ilogger/warning/#System.String) | Logs a warning that occurred during watermarking. |
 
 
 

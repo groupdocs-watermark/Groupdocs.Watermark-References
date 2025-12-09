@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.watermark.contents.image/watermarkableimage/
 is_root: false
-weight: 70
+weight: 90
 ---
 
 ## WatermarkableImage class

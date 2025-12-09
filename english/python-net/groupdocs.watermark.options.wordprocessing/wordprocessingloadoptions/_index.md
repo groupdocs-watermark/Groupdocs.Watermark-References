@@ -25,7 +25,7 @@ The WordProcessingLoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.wordprocessing/wordprocessingloadoptions/__init__/#) | Initializes a new instance of the [`WordProcessingLoadOptions`](/watermark/python-net/groupdocs.watermark.options.wordprocessing/wordprocessingloadoptions) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.wordprocessing/wordprocessingloadoptions/__init__/#str) | Initializes a new instance of the [`WordProcessingLoadOptions`](/watermark/python-net/groupdocs.watermark.options.wordprocessing/wordprocessingloadoptions) class with a specified password. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.wordprocessing/wordprocessingloadoptions/__init__/#System.String) | Initializes a new instance of the [`WordProcessingLoadOptions`](/watermark/python-net/groupdocs.watermark.options.wordprocessing/wordprocessingloadoptions) class with a specified password. |
 
 
 ### Properties

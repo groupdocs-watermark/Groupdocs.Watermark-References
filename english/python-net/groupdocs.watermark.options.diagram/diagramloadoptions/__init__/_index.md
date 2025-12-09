@@ -22,7 +22,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of the [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions) class with a specified password.
 
@@ -36,7 +36,7 @@ def __init__(self, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| password | str | The password for opening an encrypted Visio document. |
+| password | System.String | The password for opening an encrypted Visio document. |
 
 
 

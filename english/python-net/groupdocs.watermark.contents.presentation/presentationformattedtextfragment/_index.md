@@ -34,7 +34,7 @@ The PresentationFormattedTextFragment type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [get_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/get_hyperlink/#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType) | Gets the hyperlink associated with the text. |
-| [set_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/set_hyperlink/#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType-str) | Sets the hyperlink associated with the text. |
+| [set_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/set_hyperlink/#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType-System.String) | Sets the hyperlink associated with the text. |
 
 
 

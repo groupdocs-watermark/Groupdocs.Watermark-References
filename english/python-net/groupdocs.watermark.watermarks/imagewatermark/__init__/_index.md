@@ -8,7 +8,7 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of the [`ImageWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/imagewatermark) class with a specified file path.
 
@@ -22,7 +22,7 @@ def __init__(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The path to the image that will be used as watermark. |
+| file_path | System.String | The path to the image that will be used as watermark. |
 
 
 ## __init__ {#io.RawIOBase}

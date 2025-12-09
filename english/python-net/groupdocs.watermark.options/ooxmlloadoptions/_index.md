@@ -25,7 +25,7 @@ The OoxmlLoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions/__init__/#) | Initializes a new instance of the [`OoxmlLoadOptions`](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions/__init__/#str) | Initializes a new instance of the [`OoxmlLoadOptions`](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions) class with a specified password. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions/__init__/#System.String) | Initializes a new instance of the [`OoxmlLoadOptions`](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions) class with a specified password. |
 
 
 ### Properties

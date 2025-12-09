@@ -8,7 +8,7 @@ is_root: false
 weight: 30
 ---
 
-## from_extension {#str}
+## from_extension {#System.String}
 
 Maps the file extension to the file type.
 
@@ -27,7 +27,7 @@ def from_extension(self, extension):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| extension | str | The file extension (including the period "."). |
+| extension | System.String | The file extension (including the period "."). |
 ### Exceptions
 | Exception | Description |
 | :- | :- |

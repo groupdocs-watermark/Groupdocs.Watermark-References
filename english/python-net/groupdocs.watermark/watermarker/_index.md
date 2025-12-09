@@ -19,10 +19,10 @@ The Watermarker type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#str) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified document path. |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#str-groupdocs.watermark.options.LoadOptions) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified<br/>document path and load options. |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#str-groupdocs.watermark.WatermarkerSettings) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified<br/>document path and settings. |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#str-groupdocs.watermark.options.LoadOptions-groupdocs.watermark.WatermarkerSettings) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified<br/>document path, load options and settings. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#System.String) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified document path. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#System.String-groupdocs.watermark.options.LoadOptions) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified<br/>document path and load options. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#System.String-groupdocs.watermark.WatermarkerSettings) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified<br/>document path and settings. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#System.String-groupdocs.watermark.options.LoadOptions-groupdocs.watermark.WatermarkerSettings) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified<br/>document path, load options and settings. |
 | [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#io.RawIOBase) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified stream. |
 | [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#io.RawIOBase-groupdocs.watermark.options.LoadOptions) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified stream<br/>and load options. |
 | [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#io.RawIOBase-groupdocs.watermark.WatermarkerSettings) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker) class with the specified stream<br/>and settings. |
@@ -43,10 +43,10 @@ The Watermarker type exposes the following members:
 | [remove](/watermark/python-net/groupdocs.watermark/watermarker/remove/#groupdocs.watermark.search.PossibleWatermark) | Removes watermark from the document. |
 | [remove](/watermark/python-net/groupdocs.watermark/watermarker/remove/#groupdocs.watermark.search.PossibleWatermarkCollection) | Removes all watermarks in the collection from the document. |
 | [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#) | Saves the document data to the underlying stream. |
-| [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#str) | Saves the document to the specified file location. |
+| [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#System.String) | Saves the document to the specified file location. |
 | [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#io.RawIOBase) | Saves the document to the specified stream. |
 | [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#groupdocs.watermark.options.SaveOptions) | Saves the document data to the underlying stream using save options. |
-| [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#str-groupdocs.watermark.options.SaveOptions) | Saves the document to the specified file location using save options. |
+| [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#System.String-groupdocs.watermark.options.SaveOptions) | Saves the document to the specified file location using save options. |
 | [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#io.RawIOBase-groupdocs.watermark.options.SaveOptions) | Saves the document to the specified stream using save options. |
 | [search](/watermark/python-net/groupdocs.watermark/watermarker/search/#) | Searches all possible watermarks in the document. |
 | [search](/watermark/python-net/groupdocs.watermark/watermarker/search/#groupdocs.watermark.search.searchcriteria.SearchCriteria) | Searches possible watermarks according to specified search criteria. |

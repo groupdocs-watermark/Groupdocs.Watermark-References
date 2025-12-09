@@ -24,7 +24,7 @@ The ImageWatermarkResult type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/__init__/#str) | Initialize ImageWatermarkResult object with watermark identifier that was obtained after search process.<br/>This unique identifier is used to find additional properties for this watermark from document watermark information layer. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/__init__/#System.String) | Initialize ImageWatermarkResult object with watermark identifier that was obtained after search process.<br/>This unique identifier is used to find additional properties for this watermark from document watermark information layer. |
 
 
 ### Properties

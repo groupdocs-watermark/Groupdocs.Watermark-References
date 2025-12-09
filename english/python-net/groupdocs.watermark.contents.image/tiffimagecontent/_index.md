@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.watermark.contents.image/tiffimagecontent/
 is_root: false
-weight: 60
+weight: 80
 ---
 
 ## TiffImageContent class

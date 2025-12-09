@@ -5,7 +5,7 @@ description:
 type: docs
 url: /python-net/groupdocs.watermark.search/irotatabletwodobject/rotate_angle/
 is_root: false
-weight: 40
+weight: 30
 ---
 
 ## rotate_angle property

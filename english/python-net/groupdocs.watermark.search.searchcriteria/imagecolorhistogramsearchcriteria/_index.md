@@ -26,7 +26,7 @@ The ImageColorHistogramSearchCriteria type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria/__init__/#str) | Initializes a new instance of the [`ImageColorHistogramSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria) class with a specified file path. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria/__init__/#System.String) | Initializes a new instance of the [`ImageColorHistogramSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria) class with a specified file path. |
 | [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria/__init__/#io.RawIOBase) | Initializes a new instance of the [`ImageColorHistogramSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria) class with a specified stream. |
 
 

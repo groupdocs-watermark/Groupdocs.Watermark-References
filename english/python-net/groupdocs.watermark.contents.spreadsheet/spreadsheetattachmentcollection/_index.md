@@ -19,8 +19,8 @@ The SpreadsheetAttachmentCollection type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add_attachment](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_attachment/#bytes-str-bytes-float-float-float-float) | Adds an attachment to the [`SpreadsheetWorksheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet). |
-| [add_link](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_link/#str-bytes-float-float-float-float) | Adds an attachment by a link (the document will not contain attached file content). |
+| [add_attachment](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_attachment/#bytes-System.String-bytes-float-float-float-float) | Adds an attachment to the [`SpreadsheetWorksheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet). |
+| [add_link](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_link/#System.String-bytes-float-float-float-float) | Adds an attachment by a link (the document will not contain attached file content). |
 
 
 

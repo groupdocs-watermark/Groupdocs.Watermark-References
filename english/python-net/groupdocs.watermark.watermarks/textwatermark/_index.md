@@ -24,7 +24,7 @@ The TextWatermark type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark/__init__/#str-groupdocs.watermark.watermarks.Font) | Initializes a new instance of the [`TextWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark) class with a specified text and a font. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark/__init__/#System.String-groupdocs.watermark.watermarks.Font) | Initializes a new instance of the [`TextWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark) class with a specified text and a font. |
 
 
 ### Properties

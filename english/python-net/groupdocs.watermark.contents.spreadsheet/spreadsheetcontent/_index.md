@@ -35,7 +35,7 @@ The SpreadsheetContent type exposes the following members:
 | [find_images](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/find_images/#) | Finds all images in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
 | [search](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/search/#groupdocs.watermark.search.searchcriteria.SearchCriteria) | Finds possible watermarks according to specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
 | [search](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/search/#) | Finds all possible watermarks in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [encrypt](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/encrypt/#str) | Encrypts the content. |
+| [encrypt](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/encrypt/#System.String) | Encrypts the content. |
 | [decrypt](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/decrypt/#) | Decrypts the document. |
 
 

@@ -31,10 +31,10 @@ The WordProcessingTextFormattedTextFragmentCollection type exposes the following
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragmentcollection/add/#str) | Adds a formatted text fragment to the collection. |
-| [add](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragmentcollection/add/#str-groupdocs.watermark.watermarks.Font) | Adds a formatted text fragment to the collection. |
-| [add](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragmentcollection/add/#str-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
-| [add](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragmentcollection/add/#str-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragmentcollection/add/#System.String) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragmentcollection/add/#System.String-groupdocs.watermark.watermarks.Font) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragmentcollection/add/#System.String-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragmentcollection/add/#System.String-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
 
 
 

@@ -8,7 +8,7 @@ is_root: false
 weight: 20
 ---
 
-## add {#bytes-str}
+## add {#bytes-System.String}
 
 Adds an embedded resource to the [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent).
 
@@ -23,7 +23,7 @@ def add(self, file_content, name):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | file_content | bytes | The content of the file to be added. |
-| name | str | The name of the file. |
+| name | System.String | The name of the file. |
 
 
 

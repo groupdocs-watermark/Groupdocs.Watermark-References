@@ -20,7 +20,7 @@ The WatermarkException type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.exceptions/watermarkexception/__init__/#) | Initializes a new instance of the [`WatermarkException`](/watermark/python-net/groupdocs.watermark.exceptions/watermarkexception) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.exceptions/watermarkexception/__init__/#str) | Initializes a new instance of the [`WatermarkException`](/watermark/python-net/groupdocs.watermark.exceptions/watermarkexception) class with a specified error message. |
+| [__init__](/watermark/python-net/groupdocs.watermark.exceptions/watermarkexception/__init__/#System.String) | Initializes a new instance of the [`WatermarkException`](/watermark/python-net/groupdocs.watermark.exceptions/watermarkexception) class with a specified error message. |
 
 
 

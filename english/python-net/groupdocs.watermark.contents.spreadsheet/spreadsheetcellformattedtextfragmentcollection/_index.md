@@ -30,10 +30,10 @@ The SpreadsheetCellFormattedTextFragmentCollection type exposes the following me
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragmentcollection/add/#str) | Adds a formatted text fragment to the collection. |
-| [add](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragmentcollection/add/#str-groupdocs.watermark.watermarks.Font) | Adds a formatted text fragment to the collection. |
-| [add](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragmentcollection/add/#str-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
-| [add](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragmentcollection/add/#str-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragmentcollection/add/#System.String) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragmentcollection/add/#System.String-groupdocs.watermark.watermarks.Font) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragmentcollection/add/#System.String-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragmentcollection/add/#System.String-groupdocs.watermark.watermarks.Font-groupdocs.watermark.watermarks.Color-groupdocs.watermark.watermarks.Color) | Adds a formatted text fragment to the collection. |
 
 
 

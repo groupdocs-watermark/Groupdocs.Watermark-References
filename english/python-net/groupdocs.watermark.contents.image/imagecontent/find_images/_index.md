@@ -55,3 +55,4 @@ def find_images(self, search_criteria):
 ### See Also
 * module [`groupdocs.watermark.contents.image`](../../)
 * class [`ImageContent`](/watermark/python-net/groupdocs.watermark.contents.image/imagecontent)
+* class [`WatermarkableImageCollection`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimagecollection)

@@ -8,7 +8,7 @@ is_root: false
 weight: 30
 ---
 
-## warning {#str}
+## warning {#System.String}
 
 Logs a warning that occurred during watermarking.
 
@@ -22,7 +22,7 @@ def warning(self, message):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| message | str | The warning message. |
+| message | System.String | The warning message. |
 
 
 

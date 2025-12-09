@@ -19,7 +19,7 @@ The EmailAttachmentCollection type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentcollection/add/#bytes-str) | Adds an attachment to the [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent). |
+| [add](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentcollection/add/#bytes-System.String) | Adds an attachment to the [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent). |
 
 
 

@@ -20,7 +20,7 @@ The WatermarkResult type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/__init__/#) | Initializes a new instance of the [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/__init__/#int-TimeSpan-int-int) | Constructs a new instance of WatermarkResult |
+| [__init__](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/__init__/#int-System.TimeSpan-int-int) | Initializes a new instance of the [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult) class with specific values. |
 
 
 ### Properties

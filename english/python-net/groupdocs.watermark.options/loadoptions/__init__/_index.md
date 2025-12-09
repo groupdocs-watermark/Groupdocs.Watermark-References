@@ -22,7 +22,7 @@ def __init__(self):
 
 
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of the [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions) class with a specified password.
 
@@ -36,7 +36,7 @@ def __init__(self, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| password | str | The password for opening an encrypted content. |
+| password | System.String | The password for opening an encrypted content. |
 
 
 

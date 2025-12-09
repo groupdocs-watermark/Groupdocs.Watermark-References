@@ -8,7 +8,7 @@ is_root: false
 weight: 40
 ---
 
-## set_metered_key {#str-str}
+## set_metered_key {#System.String-System.String}
 
 Activates product with Metered keys.
 
@@ -22,8 +22,8 @@ def set_metered_key(self, public_key, private_key):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| public_key | str | The public key. |
-| private_key | str | The private key. |
+| public_key | System.String | The public key. |
+| private_key | System.String | The private key. |
 
 
 

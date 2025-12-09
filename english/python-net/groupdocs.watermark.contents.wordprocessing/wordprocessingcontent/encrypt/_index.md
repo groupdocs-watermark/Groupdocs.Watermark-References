@@ -8,7 +8,7 @@ is_root: false
 weight: 30
 ---
 
-## encrypt {#str}
+## encrypt {#System.String}
 
 Encrypts the document.
 
@@ -22,7 +22,7 @@ def encrypt(self, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| password | str | The password that will be required to open the document. |
+| password | System.String | The password that will be required to open the document. |
 
 
 

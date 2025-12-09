@@ -8,7 +8,7 @@ is_root: false
 weight: 20
 ---
 
-## set_license {#str}
+## set_license {#System.String}
 
 Licenses the component.
 
@@ -22,7 +22,7 @@ def set_license(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | Absolute path to license file. |
+| file_path | System.String | Absolute path to license file. |
 
 
 ## set_license {#io.RawIOBase}

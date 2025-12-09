@@ -8,7 +8,7 @@ is_root: false
 weight: 30
 ---
 
-## set_hyperlink {#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType-str}
+## set_hyperlink {#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType-System.String}
 
 Sets the hyperlink associated with the text.
 
@@ -22,8 +22,8 @@ def set_hyperlink(self, action_type, url):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| action_type | [`PresentationHyperlinkActionType`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationhyperlinkactiontype) | The action that activates the hyperlink. |
-| url | str | The hyperlink url. |
+| action_type | groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType | The action that activates the hyperlink. |
+| url | System.String | The hyperlink url. |
 
 
 

@@ -24,7 +24,7 @@ def rasterize(self, horizontal_resolution, vertical_resolution, image_format):
 | :- | :- | :- |
 | horizontal_resolution | int | Horizontal image resolution. |
 | vertical_resolution | int | Vertical image resolution. |
-| image_format | [`PdfImageConversionFormat`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfimageconversionformat) | Image format. |
+| image_format | groupdocs.watermark.contents.pdf.PdfImageConversionFormat | Image format. |
 
 
 

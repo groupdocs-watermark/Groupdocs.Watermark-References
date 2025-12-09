@@ -69,7 +69,7 @@ def create_watermarker(self, load_options, watermarker_settings):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | load_options | groupdocs.watermark.options.LoadOptions | Additional options to use when loading an attachment content. |
-| watermarker_settings | [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings) | Additional settings to use when working with loaded document. |
+| watermarker_settings | groupdocs.watermark.WatermarkerSettings | Additional settings to use when working with loaded document. |
 
 
 
@@ -77,3 +77,4 @@ def create_watermarker(self, load_options, watermarker_settings):
 * module [`groupdocs.watermark.contents.email`](../../)
 * class [`Content`](/watermark/python-net/groupdocs.watermark.contents/content)
 * class [`EmailEmbeddedObject`](/watermark/python-net/groupdocs.watermark.contents.email/emailembeddedobject)
+* class [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker)

@@ -8,7 +8,7 @@ is_root: false
 weight: 30
 ---
 
-## encrypt {#str}
+## encrypt {#System.String}
 
 Encrypts the document using the same password as user password and owner password.
 
@@ -22,10 +22,10 @@ def encrypt(self, password):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| password | str | User and owner password. |
+| password | System.String | User and owner password. |
 
 
-## encrypt {#str-str-groupdocs.watermark.contents.pdf.PdfPermissions-groupdocs.watermark.contents.pdf.PdfCryptoAlgorithm}
+## encrypt {#System.String-System.String-groupdocs.watermark.contents.pdf.PdfPermissions-groupdocs.watermark.contents.pdf.PdfCryptoAlgorithm}
 
 Encrypts the content.
 
@@ -39,10 +39,10 @@ def encrypt(self, user_password, owner_password, permissions, crypto_algorithm):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| user_password | str | User password. |
-| owner_password | str | Owner password. |
-| permissions | [`PdfPermissions`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfpermissions) | Content permissions. |
-| crypto_algorithm | [`PdfCryptoAlgorithm`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcryptoalgorithm) | Cryptographic algorithm. |
+| user_password | System.String | User password. |
+| owner_password | System.String | Owner password. |
+| permissions | groupdocs.watermark.contents.pdf.PdfPermissions | Content permissions. |
+| crypto_algorithm | groupdocs.watermark.contents.pdf.PdfCryptoAlgorithm | Cryptographic algorithm. |
 
 
 

@@ -27,7 +27,7 @@ def get_hyperlink(self, action_type):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| action_type | [`PresentationHyperlinkActionType`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationhyperlinkactiontype) | The action that activates the hyperlink. |
+| action_type | groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType | The action that activates the hyperlink. |
 
 
 

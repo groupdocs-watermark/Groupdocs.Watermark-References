@@ -26,7 +26,7 @@ The ImageThumbnailSearchCriteria type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria/__init__/#str) | Initializes a new instance of the [`ImageThumbnailSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria) class with a specified file path. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria/__init__/#System.String) | Initializes a new instance of the [`ImageThumbnailSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria) class with a specified file path. |
 | [__init__](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria/__init__/#io.RawIOBase) | Initializes a new instance of the [`ImageThumbnailSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagethumbnailsearchcriteria) class with a specified stream. |
 
 

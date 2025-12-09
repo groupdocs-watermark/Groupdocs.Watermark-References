@@ -23,7 +23,7 @@ def add(self, watermark):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| watermark | [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark) | The watermark to add to the image. |
+| watermark | groupdocs.watermark.Watermark | The watermark to add to the image. |
 
 
 

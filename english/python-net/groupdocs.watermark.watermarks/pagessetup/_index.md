@@ -20,7 +20,7 @@ The PagesSetup type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/__init__/#) | Initializes a new instance of the [`PagesSetup`](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/__init__/#bool-bool-bool-bool-bool-System.Collections.Generic.List<int>-Nullable<int>) | Constructs a new instance of PagesSetup |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/__init__/#bool-bool-bool-bool-bool-System.Collections.Generic.List`1[[System.Int32]]-System.Nullable`1[[System.Int32]]) | Constructs a new instance of PagesSetup |
 
 
 ### Properties

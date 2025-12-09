@@ -36,7 +36,7 @@ def __init__(self, margin_type, left, right, top, bottom):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| margin_type | [`MarginType`](/watermark/python-net/groupdocs.watermark.watermarks/margintype) | The margin type. Specifies how margin values should be interpreted. |
+| margin_type | groupdocs.watermark.watermarks.MarginType | The margin type. Specifies how margin values should be interpreted. |
 | left | float | The left margin value. |
 | right | float | The right margin value. |
 | top | float | The top margin value. |

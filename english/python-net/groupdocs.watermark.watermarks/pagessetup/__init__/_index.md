@@ -22,7 +22,7 @@ def __init__(self):
 
 
 
-## __init__ {#bool-bool-bool-bool-bool-System.Collections.Generic.List<int>-Nullable<int>}
+## __init__ {#bool-bool-bool-bool-bool-System.Collections.Generic.List`1[[System.Int32]]-System.Nullable`1[[System.Int32]]}
 
 Constructs a new instance of PagesSetup
 
@@ -41,8 +41,8 @@ def __init__(self, all_pages, first_page, last_page, odd_pages, even_pages, page
 | last_page | bool |  |
 | odd_pages | bool |  |
 | even_pages | bool |  |
-| pages | System.Collections.Generic.List<int> |  |
-| page_number | Nullable<int> |  |
+| pages | System.Collections.Generic.List`1[[System.Int32]] |  |
+| page_number | System.Nullable`1[[System.Int32]] |  |
 
 
 

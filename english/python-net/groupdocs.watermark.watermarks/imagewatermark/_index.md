@@ -24,7 +24,7 @@ The ImageWatermark type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/imagewatermark/__init__/#str) | Initializes a new instance of the [`ImageWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/imagewatermark) class with a specified file path. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/imagewatermark/__init__/#System.String) | Initializes a new instance of the [`ImageWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/imagewatermark) class with a specified file path. |
 | [__init__](/watermark/python-net/groupdocs.watermark.watermarks/imagewatermark/__init__/#io.RawIOBase) | Initializes a new instance of the [`ImageWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/imagewatermark) class with a specified stream. |
 
 

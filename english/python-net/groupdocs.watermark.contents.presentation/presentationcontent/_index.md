@@ -43,7 +43,7 @@ The PresentationContent type exposes the following members:
 | [find_images](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/find_images/#) | Finds all images in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
 | [search](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/search/#groupdocs.watermark.search.searchcriteria.SearchCriteria) | Finds possible watermarks according to specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
 | [search](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/search/#) | Finds all possible watermarks in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [encrypt](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/encrypt/#str) | Encrypts the document. |
+| [encrypt](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/encrypt/#System.String) | Encrypts the document. |
 | [decrypt](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/decrypt/#) | Decrypts the document. |
 
 

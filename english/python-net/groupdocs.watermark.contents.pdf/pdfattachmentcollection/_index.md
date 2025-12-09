@@ -19,7 +19,7 @@ The PdfAttachmentCollection type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add/#bytes-str-str) | Adds an attachment to the [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent). |
+| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add/#bytes-System.String-System.String) | Adds an attachment to the [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent). |
 
 
 

@@ -8,7 +8,7 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#str}
+## __init__ {#System.String}
 
 Initializes a new instance of the [`ImageColorHistogramSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria) class with a specified file path.
 
@@ -22,7 +22,7 @@ def __init__(self, file_path):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | str | The file path to load image from. |
+| file_path | System.String | The file path to load image from. |
 
 
 ## __init__ {#io.RawIOBase}

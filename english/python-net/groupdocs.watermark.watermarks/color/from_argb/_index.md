@@ -51,7 +51,7 @@ def from_argb(self, alpha, base_color):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | alpha | int | The alpha value for the new [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color). Valid values are 0 through 255. |
-| base_color | [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color) | The [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color) from which to create the new [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color). |
+| base_color | groupdocs.watermark.watermarks.Color | The [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color) from which to create the new [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color). |
 ### Exceptions
 | Exception | Description |
 | :- | :- |
