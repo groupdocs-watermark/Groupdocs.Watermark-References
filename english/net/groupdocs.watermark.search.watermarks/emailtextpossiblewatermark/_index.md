@@ -3,7 +3,7 @@ title: EmailTextPossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible watermark in email message text fields.
 type: docs
-weight: 2850
+weight: 2890
 url: /net/groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/
 ---
 ## EmailTextPossibleWatermark class

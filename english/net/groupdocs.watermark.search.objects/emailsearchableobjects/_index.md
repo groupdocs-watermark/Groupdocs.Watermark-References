@@ -3,7 +3,7 @@ title: EmailSearchableObjects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies flags representing email message objects that are to be included in a watermark search.
 type: docs
-weight: 2480
+weight: 2520
 url: /net/groupdocs.watermark.search.objects/emailsearchableobjects/
 ---
 ## EmailSearchableObjects enumeration

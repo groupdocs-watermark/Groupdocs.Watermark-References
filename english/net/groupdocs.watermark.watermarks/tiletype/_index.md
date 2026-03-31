@@ -3,7 +3,7 @@ title: TileType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Enumeration representing different visual templates for arranging watermark tiles.
 type: docs
-weight: 3310
+weight: 3360
 url: /net/groupdocs.watermark.watermarks/tiletype/
 ---
 ## TileType enumeration

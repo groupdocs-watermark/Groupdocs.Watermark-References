@@ -3,7 +3,7 @@ title: DiagramPageCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of pages in a Visio document.
 type: docs
-weight: 220
+weight: 250
 url: /net/groupdocs.watermark.contents.diagram/diagrampagecollection/
 ---
 ## DiagramPageCollection class

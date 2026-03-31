@@ -3,7 +3,7 @@ title: EmailEmbeddedObjectCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of embedded objects in an email message.
 type: docs
-weight: 350
+weight: 380
 url: /net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/
 ---
 ## EmailEmbeddedObjectCollection class

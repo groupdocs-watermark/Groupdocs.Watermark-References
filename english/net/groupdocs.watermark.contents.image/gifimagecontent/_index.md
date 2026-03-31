@@ -3,7 +3,7 @@ title: GifImageContent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a gif image where a watermark can be placed.
 type: docs
-weight: 360
+weight: 390
 url: /net/groupdocs.watermark.contents.image/gifimagecontent/
 ---
 ## GifImageContent class
@@ -19,8 +19,8 @@ public sealed class GifImageContent : MultiframeImageContent
 | Name | Description |
 | --- | --- |
 | [Frames](../../groupdocs.watermark.contents.image/multiframeimagecontent/frames) { get; } | Gets the collection of all frames of the image. |
-| [Height](../../groupdocs.watermark.contents.image/imagecontent/height) { get; } | Gets the height of this [`ImageContent`](../imagecontent) in pixels. |
-| [Width](../../groupdocs.watermark.contents.image/imagecontent/width) { get; } | Gets the width of this [`ImageContent`](../imagecontent) in pixels. |
+| virtual [Height](../../groupdocs.watermark.contents.image/imagecontent/height) { get; } | Gets the height of this [`ImageContent`](../imagecontent) in pixels. |
+| virtual [Width](../../groupdocs.watermark.contents.image/imagecontent/width) { get; } | Gets the width of this [`ImageContent`](../imagecontent) in pixels. |
 
 ## Methods
 

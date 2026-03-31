@@ -3,7 +3,7 @@ title: UnknownWatermarkOptionsTypeException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when a watermark cannot be added with supplied WatermarkOptions../groupdocs.watermark.options/watermarkoptions.
 type: docs
-weight: 1600
+weight: 1640
 url: /net/groupdocs.watermark.exceptions/unknownwatermarkoptionstypeexception/
 ---
 ## UnknownWatermarkOptionsTypeException class

@@ -3,7 +3,7 @@ title: WatermarkableImage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an image inside a document.
 type: docs
-weight: 420
+weight: 470
 url: /net/groupdocs.watermark.contents.image/watermarkableimage/
 ---
 ## WatermarkableImage class

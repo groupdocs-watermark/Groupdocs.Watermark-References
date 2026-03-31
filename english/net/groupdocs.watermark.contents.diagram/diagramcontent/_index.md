@@ -3,7 +3,7 @@ title: DiagramContent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a Visio document.
 type: docs
-weight: 140
+weight: 170
 url: /net/groupdocs.watermark.contents.diagram/diagramcontent/
 ---
 ## DiagramContent class

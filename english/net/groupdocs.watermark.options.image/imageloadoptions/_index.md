@@ -3,7 +3,7 @@ title: ImageLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents image loading options when loading an image.
 type: docs
-weight: 1800
+weight: 1840
 url: /net/groupdocs.watermark.options.image/imageloadoptions/
 ---
 ## ImageLoadOptions class

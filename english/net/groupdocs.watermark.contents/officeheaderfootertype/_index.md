@@ -3,7 +3,7 @@ title: OfficeHeaderFooterType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Identifies the type of header or footer.
 type: docs
-weight: 450
+weight: 500
 url: /net/groupdocs.watermark.contents/officeheaderfootertype/
 ---
 ## OfficeHeaderFooterType enumeration

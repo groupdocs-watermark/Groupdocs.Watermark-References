@@ -3,7 +3,7 @@ title: PdfAnnotationType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Enumeration of annotation types.
 type: docs
-weight: 540
+weight: 590
 url: /net/groupdocs.watermark.contents.pdf/pdfannotationtype/
 ---
 ## PdfAnnotationType enumeration

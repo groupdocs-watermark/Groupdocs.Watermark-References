@@ -3,7 +3,7 @@ title: SpreadsheetChartCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of charts in an Excel document.
 type: docs
-weight: 1110
+weight: 1160
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetchartcollection/
 ---
 ## SpreadsheetChartCollection class

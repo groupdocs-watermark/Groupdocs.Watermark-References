@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Watermark.Options.Presentation
 second_title: GroupDocs.Watermark for .NET API Reference
-description: The namespace provides classes to specify additional options when working with watermarks and PowerPoint documents.
+description: The namespace provides classes to specify additional options when working witharks and PowerPoint documents.
 type: docs
 weight: 180
 url: /net/groupdocs.watermark.options.presentation/
 ---
-The namespace provides classes to specify additional options when working with watermarks and PowerPoint documents.
+The namespace provides classes to specify additional options when working witharks and PowerPoint documents.
 
 ## Classes
 

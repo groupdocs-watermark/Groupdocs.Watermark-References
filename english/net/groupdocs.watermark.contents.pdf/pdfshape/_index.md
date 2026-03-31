@@ -3,7 +3,7 @@ title: PdfShape
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides base class for XObjects Artifacts and Annotations.
 type: docs
-weight: 720
+weight: 770
 url: /net/groupdocs.watermark.contents.pdf/pdfshape/
 ---
 ## PdfShape class

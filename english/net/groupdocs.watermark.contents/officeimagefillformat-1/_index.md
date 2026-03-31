@@ -3,7 +3,7 @@ title: OfficeImageFillFormatTWatermarkableImage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the image fill format settings in any supported office content.
 type: docs
-weight: 470
+weight: 520
 url: /net/groupdocs.watermark.contents/officeimagefillformat-1/
 ---
 ## OfficeImageFillFormat&lt;TWatermarkableImage&gt; class

@@ -3,7 +3,7 @@ title: SpreadsheetMsoDrawingType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents office drawing object type.
 type: docs
-weight: 1190
+weight: 1240
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetmsodrawingtype/
 ---
 ## SpreadsheetMsoDrawingType enumeration

@@ -3,7 +3,7 @@ title: PdfArtifactType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Enumeration of possible artifact types.
 type: docs
-weight: 580
+weight: 630
 url: /net/groupdocs.watermark.contents.pdf/pdfartifacttype/
 ---
 ## PdfArtifactType enumeration

@@ -3,7 +3,7 @@ title: PdfXObjectWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents watermark adding options when adding XObject watermark to a pdf document.
 type: docs
-weight: 1950
+weight: 1990
 url: /net/groupdocs.watermark.options.pdf/pdfxobjectwatermarkoptions/
 ---
 ## PdfXObjectWatermarkOptions class

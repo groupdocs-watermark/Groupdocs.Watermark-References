@@ -3,7 +3,7 @@ title: PresentationFormattedTextFragment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a fragment of formatted text in a PowerPoint document.
 type: docs
-weight: 860
+weight: 910
 url: /net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/
 ---
 ## PresentationFormattedTextFragment class

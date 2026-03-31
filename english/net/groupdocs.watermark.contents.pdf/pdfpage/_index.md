@@ -3,7 +3,7 @@ title: PdfPage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents pdf document page.
 type: docs
-weight: 680
+weight: 730
 url: /net/groupdocs.watermark.contents.pdf/pdfpage/
 ---
 ## PdfPage class

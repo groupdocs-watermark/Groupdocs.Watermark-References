@@ -3,7 +3,7 @@ title: PdfArtifactCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of artifacts in a pdf content.
 type: docs
-weight: 560
+weight: 610
 url: /net/groupdocs.watermark.contents.pdf/pdfartifactcollection/
 ---
 ## PdfArtifactCollection class

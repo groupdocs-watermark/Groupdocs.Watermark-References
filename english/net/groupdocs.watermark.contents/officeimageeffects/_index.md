@@ -3,7 +3,7 @@ title: OfficeImageEffects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents effects that can be applied to an image watermark for an office content.
 type: docs
-weight: 460
+weight: 510
 url: /net/groupdocs.watermark.contents/officeimageeffects/
 ---
 ## OfficeImageEffects class

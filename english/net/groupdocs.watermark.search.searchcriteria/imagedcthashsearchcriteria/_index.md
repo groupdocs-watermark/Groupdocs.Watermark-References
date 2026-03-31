@@ -3,7 +3,7 @@ title: ImageDctHashSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a search criteria for finding images in a document.
 type: docs
-weight: 2590
+weight: 2630
 url: /net/groupdocs.watermark.search.searchcriteria/imagedcthashsearchcriteria/
 ---
 ## ImageDctHashSearchCriteria class

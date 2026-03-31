@@ -3,7 +3,7 @@ title: OfficeDashStyle
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a dashed line style.
 type: docs
-weight: 440
+weight: 490
 url: /net/groupdocs.watermark.contents/officedashstyle/
 ---
 ## OfficeDashStyle enumeration

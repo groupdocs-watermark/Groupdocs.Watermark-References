@@ -3,7 +3,7 @@ title: PresentationWatermarkableImage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an image inside a PowerPoint document.
 type: docs
-weight: 1040
+weight: 1090
 url: /net/groupdocs.watermark.contents.presentation/presentationwatermarkableimage/
 ---
 ## PresentationWatermarkableImage class

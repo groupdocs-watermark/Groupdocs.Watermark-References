@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark.contents.image/imagecontent/width/
 Gets the width of this [`ImageContent`](../../imagecontent) in pixels.
 
 ```csharp
-public int Width { get; }
+public virtual int Width { get; }
 ```
 
 ### Property Value

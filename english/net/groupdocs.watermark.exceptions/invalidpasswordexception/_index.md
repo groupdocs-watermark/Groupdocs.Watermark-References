@@ -3,7 +3,7 @@ title: InvalidPasswordException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when supplied password is incorrect.
 type: docs
-weight: 1550
+weight: 1590
 url: /net/groupdocs.watermark.exceptions/invalidpasswordexception/
 ---
 ## InvalidPasswordException class

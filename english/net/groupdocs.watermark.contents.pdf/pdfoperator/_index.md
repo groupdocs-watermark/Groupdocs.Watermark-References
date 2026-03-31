@@ -3,7 +3,7 @@ title: PdfOperator
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an operator of vector content in a pdf document.
 type: docs
-weight: 660
+weight: 710
 url: /net/groupdocs.watermark.contents.pdf/pdfoperator/
 ---
 ## PdfOperator class

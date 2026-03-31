@@ -3,7 +3,7 @@ title: WordProcessingSectionCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of sections in a Word document.
 type: docs
-weight: 1400
+weight: 1440
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingsectioncollection/
 ---
 ## WordProcessingSectionCollection class

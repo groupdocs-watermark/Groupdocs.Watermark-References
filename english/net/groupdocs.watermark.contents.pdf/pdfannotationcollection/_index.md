@@ -3,7 +3,7 @@ title: PdfAnnotationCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of annotations in a pdf document.
 type: docs
-weight: 530
+weight: 580
 url: /net/groupdocs.watermark.contents.pdf/pdfannotationcollection/
 ---
 ## PdfAnnotationCollection class

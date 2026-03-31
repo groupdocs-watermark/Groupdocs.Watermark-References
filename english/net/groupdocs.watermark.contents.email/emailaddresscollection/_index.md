@@ -3,7 +3,7 @@ title: EmailAddressCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of addresses in an email message.
 type: docs
-weight: 280
+weight: 310
 url: /net/groupdocs.watermark.contents.email/emailaddresscollection/
 ---
 ## EmailAddressCollection class

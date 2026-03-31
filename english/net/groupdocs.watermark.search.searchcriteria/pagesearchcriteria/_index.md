@@ -3,7 +3,7 @@ title: PageSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents criteria allowing filtering by page number
 type: docs
-weight: 2660
+weight: 2700
 url: /net/groupdocs.watermark.search.searchcriteria/pagesearchcriteria/
 ---
 ## PageSearchCriteria class

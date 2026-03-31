@@ -3,7 +3,7 @@ title: BaseWatermarkResult
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Describes base class for watermark result
 type: docs
-weight: 3200
+weight: 3250
 url: /net/groupdocs.watermark.watermarks.results/basewatermarkresult/
 ---
 ## BaseWatermarkResult class

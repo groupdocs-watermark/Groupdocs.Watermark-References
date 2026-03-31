@@ -3,7 +3,7 @@ title: SpreadsheetImageEffects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents effects that can be applied to an image watermark for an Excel document.
 type: docs
-weight: 2160
+weight: 2200
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetimageeffects/
 ---
 ## SpreadsheetImageEffects class

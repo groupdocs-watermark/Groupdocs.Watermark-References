@@ -3,7 +3,7 @@ title: SpreadsheetLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document loading options for a Spreadsheet document.
 type: docs
-weight: 2170
+weight: 2210
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions/
 ---
 ## SpreadsheetLoadOptions class

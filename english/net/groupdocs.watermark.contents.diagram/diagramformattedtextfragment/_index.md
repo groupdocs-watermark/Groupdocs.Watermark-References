@@ -3,7 +3,7 @@ title: DiagramFormattedTextFragment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a fragment of formatted text in a Visio document.
 type: docs
-weight: 150
+weight: 180
 url: /net/groupdocs.watermark.contents.diagram/diagramformattedtextfragment/
 ---
 ## DiagramFormattedTextFragment class

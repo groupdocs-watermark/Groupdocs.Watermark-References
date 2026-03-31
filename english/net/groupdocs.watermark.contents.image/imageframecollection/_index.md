@@ -3,7 +3,7 @@ title: ImageFrameCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of frames in multiframe image.
 type: docs
-weight: 390
+weight: 420
 url: /net/groupdocs.watermark.contents.image/imageframecollection/
 ---
 ## ImageFrameCollection class

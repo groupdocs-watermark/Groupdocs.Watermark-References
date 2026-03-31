@@ -3,7 +3,7 @@ title: PdfImageConversionFormat
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents image formats that can be used for pdf document pages rasterization.
 type: docs
-weight: 650
+weight: 700
 url: /net/groupdocs.watermark.contents.pdf/pdfimageconversionformat/
 ---
 ## PdfImageConversionFormat enumeration

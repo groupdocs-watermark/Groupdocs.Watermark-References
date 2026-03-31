@@ -3,7 +3,7 @@ title: PresentationLayoutSlide
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a PowerPoint content layout slide.
 type: docs
-weight: 900
+weight: 950
 url: /net/groupdocs.watermark.contents.presentation/presentationlayoutslide/
 ---
 ## PresentationLayoutSlide class

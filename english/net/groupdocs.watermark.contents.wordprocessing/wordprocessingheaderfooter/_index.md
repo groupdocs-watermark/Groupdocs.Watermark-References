@@ -3,7 +3,7 @@ title: WordProcessingHeaderFooter
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a header/footer in a Word document.
 type: docs
-weight: 1320
+weight: 1360
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingheaderfooter/
 ---
 ## WordProcessingHeaderFooter class

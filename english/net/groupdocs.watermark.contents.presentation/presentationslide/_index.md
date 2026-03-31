@@ -3,7 +3,7 @@ title: PresentationSlide
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a PowerPoint document slide.
 type: docs
-weight: 1010
+weight: 1060
 url: /net/groupdocs.watermark.contents.presentation/presentationslide/
 ---
 ## PresentationSlide class

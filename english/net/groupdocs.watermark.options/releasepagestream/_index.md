@@ -3,7 +3,7 @@ title: ReleasePageStream
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a method which releases the stream created by the CreatePageStream./createpagestream delegate.
 type: docs
-weight: 2120
+weight: 2160
 url: /net/groupdocs.watermark.options/releasepagestream/
 ---
 ## ReleasePageStream delegate

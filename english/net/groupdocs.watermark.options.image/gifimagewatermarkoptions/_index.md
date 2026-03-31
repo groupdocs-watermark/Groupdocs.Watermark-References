@@ -3,7 +3,7 @@ title: GifImageWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents watermark adding options when adding watermark to a GIF image.
 type: docs
-weight: 1790
+weight: 1830
 url: /net/groupdocs.watermark.options.image/gifimagewatermarkoptions/
 ---
 ## GifImageWatermarkOptions class

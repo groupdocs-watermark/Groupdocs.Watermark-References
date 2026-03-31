@@ -3,7 +3,7 @@ title: OfficeShapeSettings
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents settings that can be applied to a shape watermark for an office content.
 type: docs
-weight: 500
+weight: 550
 url: /net/groupdocs.watermark.contents/officeshapesettings/
 ---
 ## OfficeShapeSettings class

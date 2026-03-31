@@ -3,7 +3,7 @@ title: EmailSaveOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the document saving options when saving an email message.
 type: docs
-weight: 1750
+weight: 1790
 url: /net/groupdocs.watermark.options.email/emailsaveoptions/
 ---
 ## EmailSaveOptions class

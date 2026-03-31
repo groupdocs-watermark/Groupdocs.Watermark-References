@@ -3,7 +3,7 @@ title: PdfXForm
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an XForm in a pdf content.
 type: docs
-weight: 760
+weight: 810
 url: /net/groupdocs.watermark.contents.pdf/pdfxform/
 ---
 ## PdfXForm class

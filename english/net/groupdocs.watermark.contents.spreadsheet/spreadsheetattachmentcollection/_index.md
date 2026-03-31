@@ -3,7 +3,7 @@ title: SpreadsheetAttachmentCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of attachments in an Excel document.
 type: docs
-weight: 1060
+weight: 1110
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/
 ---
 ## SpreadsheetAttachmentCollection class

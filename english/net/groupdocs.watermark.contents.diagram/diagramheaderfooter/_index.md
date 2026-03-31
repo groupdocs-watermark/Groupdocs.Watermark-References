@@ -3,7 +3,7 @@ title: DiagramHeaderFooter
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a header/footer in a Visio document.
 type: docs
-weight: 170
+weight: 200
 url: /net/groupdocs.watermark.contents.diagram/diagramheaderfooter/
 ---
 ## DiagramHeaderFooter class

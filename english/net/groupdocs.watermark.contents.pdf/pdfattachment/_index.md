@@ -3,7 +3,7 @@ title: PdfAttachment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a file attached to a pdf content.
 type: docs
-weight: 590
+weight: 640
 url: /net/groupdocs.watermark.contents.pdf/pdfattachment/
 ---
 ## PdfAttachment class

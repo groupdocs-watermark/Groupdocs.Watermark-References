@@ -3,7 +3,7 @@ title: OoxmlLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document loading options for a OOXML document.
 type: docs
-weight: 1880
+weight: 1920
 url: /net/groupdocs.watermark.options/ooxmlloadoptions/
 ---
 ## OoxmlLoadOptions class

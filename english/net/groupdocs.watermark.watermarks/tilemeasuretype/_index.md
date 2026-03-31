@@ -3,7 +3,7 @@ title: TileMeasureType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents measure types
 type: docs
-weight: 3290
+weight: 3340
 url: /net/groupdocs.watermark.watermarks/tilemeasuretype/
 ---
 ## TileMeasureType enumeration

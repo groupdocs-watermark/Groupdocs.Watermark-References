@@ -3,7 +3,7 @@ title: TiffImageContent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a tiff image where a watermark can be placed.
 type: docs
-weight: 410
+weight: 460
 url: /net/groupdocs.watermark.contents.image/tiffimagecontent/
 ---
 ## TiffImageContent class
@@ -19,8 +19,8 @@ public class TiffImageContent : MultiframeImageContent
 | Name | Description |
 | --- | --- |
 | [Frames](../../groupdocs.watermark.contents.image/multiframeimagecontent/frames) { get; } | Gets the collection of all frames of the image. |
-| [Height](../../groupdocs.watermark.contents.image/imagecontent/height) { get; } | Gets the height of this [`ImageContent`](../imagecontent) in pixels. |
-| [Width](../../groupdocs.watermark.contents.image/imagecontent/width) { get; } | Gets the width of this [`ImageContent`](../imagecontent) in pixels. |
+| virtual [Height](../../groupdocs.watermark.contents.image/imagecontent/height) { get; } | Gets the height of this [`ImageContent`](../imagecontent) in pixels. |
+| virtual [Width](../../groupdocs.watermark.contents.image/imagecontent/width) { get; } | Gets the width of this [`ImageContent`](../imagecontent) in pixels. |
 
 ## Methods
 

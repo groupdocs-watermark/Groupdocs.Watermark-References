@@ -3,7 +3,7 @@ title: PresentationWatermarkMasterHandoutSlideOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options when adding watermark to a Presentation document master handout slide.
 type: docs
-weight: 2040
+weight: 2080
 url: /net/groupdocs.watermark.options.presentation/presentationwatermarkmasterhandoutslideoptions/
 ---
 ## PresentationWatermarkMasterHandoutSlideOptions class

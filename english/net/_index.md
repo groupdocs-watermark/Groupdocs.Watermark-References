@@ -28,7 +28,7 @@ version:
 | [GroupDocs.Watermark.Options.Email](./groupdocs.watermark.options.email) | The namespace provides classes to specify additional options when loading and saving Email messages. |
 | [GroupDocs.Watermark.Options.Image](./groupdocs.watermark.options.image) | The namespace provides classes to specify additional options when working with watermarks and images. |
 | [GroupDocs.Watermark.Options.Pdf](./groupdocs.watermark.options.pdf) | The namespace provides classes to specify additional options when working with watermarks and PDF documents. |
-| [GroupDocs.Watermark.Options.Presentation](./groupdocs.watermark.options.presentation) | The namespace provides classes to specify additional options when working with watermarks and PowerPoint documents. |
+| [GroupDocs.Watermark.Options.Presentation](./groupdocs.watermark.options.presentation) | The namespace provides classes to specify additional options when working witharks and PowerPoint documents. |
 | [GroupDocs.Watermark.Options.Spreadsheet](./groupdocs.watermark.options.spreadsheet) | The namespace provides classes to specify additional options when working with watermarks and Excel documents. |
 | [GroupDocs.Watermark.Options.WordProcessing](./groupdocs.watermark.options.wordprocessing) | The namespace provides classes to specify additional options when working with watermarks and Word documents. |
 | [GroupDocs.Watermark.Search](./groupdocs.watermark.search) | The namespace provides classes for searching, editing and removing watermarks in documents of different types. |

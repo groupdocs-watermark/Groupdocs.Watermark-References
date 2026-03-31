@@ -3,7 +3,7 @@ title: SearchableObjects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies document objects that are to be included in a watermark search.
 type: docs
-weight: 2510
+weight: 2550
 url: /net/groupdocs.watermark.search.objects/searchableobjects/
 ---
 ## SearchableObjects class

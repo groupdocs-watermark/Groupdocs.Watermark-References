@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark.contents.image/imagecontent/height/
 Gets the height of this [`ImageContent`](../../imagecontent) in pixels.
 
 ```csharp
-public int Height { get; }
+public virtual int Height { get; }
 ```
 
 ### Property Value

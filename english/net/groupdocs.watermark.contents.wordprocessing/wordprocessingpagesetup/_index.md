@@ -3,7 +3,7 @@ title: WordProcessingPageSetup
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents printing page properties for a section of a Word document.
 type: docs
-weight: 1350
+weight: 1390
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingpagesetup/
 ---
 ## WordProcessingPageSetup class

@@ -3,7 +3,7 @@ title: SpreadsheetWorksheetCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of worksheets in an Excel document.
 type: docs
-weight: 1290
+weight: 1340
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheetcollection/
 ---
 ## SpreadsheetWorksheetCollection class

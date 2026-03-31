@@ -3,7 +3,7 @@ title: TextWatermarkResult
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Contains Text watermark properties.
 type: docs
-weight: 3220
+weight: 3270
 url: /net/groupdocs.watermark.watermarks.results/textwatermarkresult/
 ---
 ## TextWatermarkResult class

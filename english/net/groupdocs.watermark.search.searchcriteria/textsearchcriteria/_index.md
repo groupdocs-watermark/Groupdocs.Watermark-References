@@ -3,7 +3,7 @@ title: TextSearchCriteria
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents criteria allowing filtering by watermark text.
 type: docs
-weight: 2710
+weight: 2750
 url: /net/groupdocs.watermark.search.searchcriteria/textsearchcriteria/
 ---
 ## TextSearchCriteria class

@@ -3,7 +3,7 @@ title: WordProcessingHeaderFooterCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of headers and footers in a Word document.
 type: docs
-weight: 1330
+weight: 1370
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingheaderfootercollection/
 ---
 ## WordProcessingHeaderFooterCollection class

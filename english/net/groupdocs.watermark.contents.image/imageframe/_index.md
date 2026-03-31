@@ -3,7 +3,7 @@ title: ImageFrame
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an image frame where a watermark can be placed.
 type: docs
-weight: 380
+weight: 410
 url: /net/groupdocs.watermark.contents.image/imageframe/
 ---
 ## ImageFrame class

@@ -3,7 +3,7 @@ title: WatermarkableImageCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of images found in a document.
 type: docs
-weight: 430
+weight: 480
 url: /net/groupdocs.watermark.contents.image/watermarkableimagecollection/
 ---
 ## WatermarkableImageCollection class

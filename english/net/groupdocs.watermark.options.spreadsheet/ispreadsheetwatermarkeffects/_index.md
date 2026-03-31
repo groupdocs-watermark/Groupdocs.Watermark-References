@@ -3,7 +3,7 @@ title: ISpreadsheetWatermarkEffects
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents interface for watermark effects that should be applied to the watermark.
 type: docs
-weight: 2140
+weight: 2180
 url: /net/groupdocs.watermark.options.spreadsheet/ispreadsheetwatermarkeffects/
 ---
 ## ISpreadsheetWatermarkEffects interface

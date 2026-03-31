@@ -3,7 +3,7 @@ title: PresentationShapePossibleWatermark
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents possible shape watermark in a PowerPoint document.
 type: docs
-weight: 2960
+weight: 3010
 url: /net/groupdocs.watermark.search.watermarks/presentationshapepossiblewatermark/
 ---
 ## PresentationShapePossibleWatermark class

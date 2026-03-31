@@ -3,7 +3,7 @@ title: DiagramShape
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a drawing shape in a Visio document.
 type: docs
-weight: 230
+weight: 260
 url: /net/groupdocs.watermark.contents.diagram/diagramshape/
 ---
 ## DiagramShape class

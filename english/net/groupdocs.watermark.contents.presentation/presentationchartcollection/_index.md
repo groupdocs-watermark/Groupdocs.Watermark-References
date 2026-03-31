@@ -3,7 +3,7 @@ title: PresentationChartCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of charts in a PowerPoint document.
 type: docs
-weight: 840
+weight: 890
 url: /net/groupdocs.watermark.contents.presentation/presentationchartcollection/
 ---
 ## PresentationChartCollection class

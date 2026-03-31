@@ -22,6 +22,7 @@ The namespace provides classes of possible watermarks found in documents of diff
 | [EmailHtmlBodyTextPossibleWatermark](./emailhtmlbodytextpossiblewatermark) | Represents possible watermark in email message html body. |
 | [EmailSubjectTextPossibleWatermark](./emailsubjecttextpossiblewatermark) | Represents possible watermark in email message subject. |
 | [EmailTextPossibleWatermark](./emailtextpossiblewatermark) | Represents possible watermark in email message text fields. |
+| [ImageInpaintingPossibleWatermark](./imageinpaintingpossiblewatermark) | Represents a manually specified image region that should be inpainted (filled using surrounding pixels). |
 | [PdfAnnotationPossibleWatermark](./pdfannotationpossiblewatermark) | Represents possible annotation watermark in a pdf document. |
 | [PdfArtifactPossibleWatermark](./pdfartifactpossiblewatermark) | Represents possible artifact watermark in a pdf content. |
 | [PdfAttachedImagePossibleWatermark](./pdfattachedimagepossiblewatermark) | Represents possible image watermark in pdf document attachment. |

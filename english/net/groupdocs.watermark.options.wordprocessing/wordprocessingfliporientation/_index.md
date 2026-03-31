@@ -3,7 +3,7 @@ title: WordProcessingFlipOrientation
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Possible values for the orientation of a shape.
 type: docs
-weight: 2280
+weight: 2320
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingfliporientation/
 ---
 ## WordProcessingFlipOrientation enumeration

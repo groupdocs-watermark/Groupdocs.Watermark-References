@@ -3,7 +3,7 @@ title: VerticalAlignment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Enumeration of possible vertical alignment values.
 type: docs
-weight: 110
+weight: 140
 url: /net/groupdocs.watermark.common/verticalalignment/
 ---
 ## VerticalAlignment enumeration

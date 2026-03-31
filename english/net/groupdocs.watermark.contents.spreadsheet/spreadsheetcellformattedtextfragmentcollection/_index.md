@@ -3,7 +3,7 @@ title: SpreadsheetCellFormattedTextFragmentCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of formatted text fragments in an Excel document cell.
 type: docs
-weight: 1090
+weight: 1140
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragmentcollection/
 ---
 ## SpreadsheetCellFormattedTextFragmentCollection class
