@@ -25,6 +25,7 @@ public class AsposeImageContainer extends ContentPart
 | Method | Description |
 | --- | --- |
 | [getAsposeImage()](#getAsposeImage--) |  |
+| [replaceImage(Image newImage)](#replaceImage-com.aspose.imaging.Image-) |  |
 | [getStreamContainer()](#getStreamContainer--) |  |
 | [getAsTiffImage()](#getAsTiffImage--) |  |
 | [getAsTiffFrame()](#getAsTiffFrame--) |  |
@@ -123,6 +124,19 @@ public final Image getAsposeImage()
 
 **Returns:**
 com.aspose.imaging.Image
+### replaceImage(Image newImage) {#replaceImage-com.aspose.imaging.Image-}
+```
+public final void replaceImage(Image newImage)
+```
+
+
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| newImage | com.aspose.imaging.Image |  |
+
 ### getStreamContainer() {#getStreamContainer--}
 ```
 public final StreamContainer getStreamContainer()

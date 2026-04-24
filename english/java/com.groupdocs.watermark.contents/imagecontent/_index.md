@@ -31,6 +31,7 @@ Represents an image where a watermark can be placed.
 | --- | --- |
 | [getHeight()](#getHeight--) | Gets the height of this `[ImageContent](../../com.groupdocs.watermark.contents/imagecontent)` in pixels. |
 | [getWidth()](#getWidth--) | Gets the width of this `[ImageContent](../../com.groupdocs.watermark.contents/imagecontent)` in pixels. |
+| [getAsposeImageContainer()](#getAsposeImageContainer--) | Gets underlying  GroupDocs.Watermark.Internal.AsposeImageContainer . |
 | [getDocumentInfo()](#getDocumentInfo--) |  |
 | [getFileType()](#getFileType--) |  |
 | [performSave(String filePath)](#performSave-java.lang.String-) |  |
@@ -80,6 +81,16 @@ Returns the width of the active frame for a multiframe image.
 
 **Returns:**
 int - The width of this `[ImageContent](../../com.groupdocs.watermark.contents/imagecontent)` in pixels.
+### getAsposeImageContainer() {#getAsposeImageContainer--}
+```
+public final AsposeImageContainer getAsposeImageContainer()
+```
+
+
+Gets underlying  GroupDocs.Watermark.Internal.AsposeImageContainer .
+
+**Returns:**
+[AsposeImageContainer](../../com.groupdocs.watermark.contents/asposeimagecontainer)
 ### getDocumentInfo() {#getDocumentInfo--}
 ```
 public IDocumentInfo getDocumentInfo()

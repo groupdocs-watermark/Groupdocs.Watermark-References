@@ -129,7 +129,7 @@ public final Rectangle getPageRectangle()
 
 
 **Returns:**
-com.aspose.pdf.Rectangle
+[Rectangle](../../com.aspose.pdf/rectangle)
 ### addArtifactWatermark(Watermark watermark) {#addArtifactWatermark-com.groupdocs.watermark.Watermark-}
 ```
 public final void addArtifactWatermark(Watermark watermark)
