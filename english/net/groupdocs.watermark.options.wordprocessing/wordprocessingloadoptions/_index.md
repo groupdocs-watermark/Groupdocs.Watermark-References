@@ -3,7 +3,7 @@ title: WordProcessingLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document loading options for a Word document.
 type: docs
-weight: 2320
+weight: 2340
 url: /net/groupdocs.watermark.options.wordprocessing/wordprocessingloadoptions/
 ---
 ## WordProcessingLoadOptions class
@@ -26,6 +26,8 @@ public sealed class WordProcessingLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | static [Default](../../groupdocs.watermark.options.wordprocessing/wordprocessingloadoptions/default) { get; } | Gets the default value for the [`WordProcessingLoadOptions`](../wordprocessingloadoptions) class. |
+| [FileType](../../groupdocs.watermark.options/loadoptions/filetype) { get; set; } | Gets or sets the type of the file, indicating its type (e.g., docx, pdf, xlsx, etc.). |
+| [FormatFamily](../../groupdocs.watermark.options/loadoptions/formatfamily) { get; set; } | Gets or sets the format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). |
 | [Password](../../groupdocs.watermark.options/loadoptions/password) { get; set; } | Gets or sets the password for opening an encrypted document. |
 
 ### See Also

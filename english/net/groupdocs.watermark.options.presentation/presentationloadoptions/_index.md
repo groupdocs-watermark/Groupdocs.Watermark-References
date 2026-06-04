@@ -3,7 +3,7 @@ title: PresentationLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents document loading options for a Presentation document.
 type: docs
-weight: 1990
+weight: 2020
 url: /net/groupdocs.watermark.options.presentation/presentationloadoptions/
 ---
 ## PresentationLoadOptions class
@@ -26,6 +26,8 @@ public sealed class PresentationLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | static [Default](../../groupdocs.watermark.options.presentation/presentationloadoptions/default) { get; } | Gets the default value for the [`PresentationLoadOptions`](../presentationloadoptions) class. |
+| [FileType](../../groupdocs.watermark.options/loadoptions/filetype) { get; set; } | Gets or sets the type of the file, indicating its type (e.g., docx, pdf, xlsx, etc.). |
+| [FormatFamily](../../groupdocs.watermark.options/loadoptions/formatfamily) { get; set; } | Gets or sets the format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). |
 | [Password](../../groupdocs.watermark.options/loadoptions/password) { get; set; } | Gets or sets the password for opening an encrypted document. |
 
 ### See Also

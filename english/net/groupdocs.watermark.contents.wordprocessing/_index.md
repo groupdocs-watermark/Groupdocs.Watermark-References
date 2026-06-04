@@ -12,7 +12,6 @@ The namespace provides classes for working with watermarks in Word documents.
 
 | Class | Description |
 | --- | --- |
-| [WordProcessingContent](./wordprocessingcontent) | Class representing Word document (doc, docx etc) where watermark should be placed. |
 | [WordProcessingFormattedTextFragmentCollection](./wordprocessingformattedtextfragmentcollection) | Represents a collection of formatted text fragments in a Word document. |
 | [WordProcessingHeaderFooter](./wordprocessingheaderfooter) | Represents a header/footer in a Word document. |
 | [WordProcessingHeaderFooterCollection](./wordprocessingheaderfootercollection) | Represents a collection of headers and footers in a Word document. |

@@ -3,7 +3,7 @@ title: PresentationShapeCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of drawing shapes in a PowerPoint document.
 type: docs
-weight: 980
+weight: 1030
 url: /net/groupdocs.watermark.contents.presentation/presentationshapecollection/
 ---
 ## PresentationShapeCollection class

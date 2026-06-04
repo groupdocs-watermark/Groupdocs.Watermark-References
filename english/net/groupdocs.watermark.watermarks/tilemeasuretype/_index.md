@@ -3,7 +3,7 @@ title: TileMeasureType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents measure types
 type: docs
-weight: 3260
+weight: 3340
 url: /net/groupdocs.watermark.watermarks/tilemeasuretype/
 ---
 ## TileMeasureType enumeration
@@ -20,6 +20,7 @@ public enum TileMeasureType
 | --- | --- | --- |
 | Pixel | `0` | Specifies that the unit of measurement is pixel. |
 | Percent | `1` | Specifies that the unit of measurement is percent. |
+| Points | `2` | Specifies that the unit of measurement is point. |
 
 ### See Also
 

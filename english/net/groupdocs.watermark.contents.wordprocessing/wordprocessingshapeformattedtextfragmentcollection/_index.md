@@ -3,7 +3,7 @@ title: WordProcessingShapeFormattedTextFragmentCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of formatted text fragments in a Word document shape.
 type: docs
-weight: 1430
+weight: 1470
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingshapeformattedtextfragmentcollection/
 ---
 ## WordProcessingShapeFormattedTextFragmentCollection class

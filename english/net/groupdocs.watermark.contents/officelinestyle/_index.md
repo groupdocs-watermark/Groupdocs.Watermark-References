@@ -3,7 +3,7 @@ title: OfficeLineStyle
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents the compound line style of a OfficeLineFormat./officelineformat.
 type: docs
-weight: 490
+weight: 540
 url: /net/groupdocs.watermark.contents/officelinestyle/
 ---
 ## OfficeLineStyle enumeration

@@ -3,7 +3,7 @@ title: WordProcessingTextFormattedTextFragment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a fragment of formatted text in a Word document.
 type: docs
-weight: 1450
+weight: 1490
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingtextformattedtextfragment/
 ---
 ## WordProcessingTextFormattedTextFragment class

@@ -3,7 +3,7 @@ title: PdfFormattedTextFragment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a fragment of formatted text in a pdf document.
 type: docs
-weight: 630
+weight: 680
 url: /net/groupdocs.watermark.contents.pdf/pdfformattedtextfragment/
 ---
 ## PdfFormattedTextFragment class

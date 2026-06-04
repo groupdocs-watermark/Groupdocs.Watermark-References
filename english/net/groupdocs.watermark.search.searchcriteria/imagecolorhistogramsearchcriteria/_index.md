@@ -27,6 +27,7 @@ public class ImageColorHistogramSearchCriteria : ImageSearchCriteria
 | --- | --- |
 | [BinsCount](../../groupdocs.watermark.search.searchcriteria/imagecolorhistogramsearchcriteria/binscount) { get; set; } | Gets or sets a count of bins that will be used for building color histograms. |
 | [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | Gets or sets maximum allowed difference between images. |
+| [Pages](../../groupdocs.watermark.search.searchcriteria/pagesearchcriteria/pages) { get; set; } | Gets or sets the list of specific page numbers |
 
 ## Methods
 

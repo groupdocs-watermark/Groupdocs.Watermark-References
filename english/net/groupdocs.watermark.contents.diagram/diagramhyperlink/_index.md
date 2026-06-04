@@ -3,7 +3,7 @@ title: DiagramHyperlink
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a hyperlink in a Visio document.
 type: docs
-weight: 190
+weight: 220
 url: /net/groupdocs.watermark.contents.diagram/diagramhyperlink/
 ---
 ## DiagramHyperlink class

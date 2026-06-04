@@ -3,7 +3,7 @@ title: DiagramWatermarkPlacementType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies to what pages a watermark should be added.
 type: docs
-weight: 250
+weight: 280
 url: /net/groupdocs.watermark.contents.diagram/diagramwatermarkplacementtype/
 ---
 ## DiagramWatermarkPlacementType enumeration

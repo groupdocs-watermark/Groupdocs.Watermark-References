@@ -3,7 +3,7 @@ title: PdfAnnotationType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Enumeration of annotation types.
 type: docs
-weight: 540
+weight: 590
 url: /net/groupdocs.watermark.contents.pdf/pdfannotationtype/
 ---
 ## PdfAnnotationType enumeration
@@ -47,6 +47,10 @@ public enum PdfAnnotationType
 | Unknown | `26` | Unknown annotation. |
 | Pdf3D | `27` | PDF3D annotation. |
 | ColorBar | `28` | ColorBar annotation. |
+| TrimMark | `29` | Trim mark annotation. |
+| BleedMark | `30` | Bleed mark annotation. |
+| RegistrationMark | `31` | Registration mark annotation. |
+| PageInformation | `32` | Page information annotation. |
 
 ### See Also
 

@@ -3,7 +3,7 @@ title: DiagramWatermarkableImage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an image inside a Visio document.
 type: docs
-weight: 260
+weight: 290
 url: /net/groupdocs.watermark.contents.diagram/diagramwatermarkableimage/
 ---
 ## DiagramWatermarkableImage class

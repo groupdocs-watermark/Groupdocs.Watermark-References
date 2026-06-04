@@ -16,11 +16,9 @@ The namespace provides classes to specify additional options when working with w
 | [WordProcessingLoadOptions](./wordprocessingloadoptions) | Represents document loading options for a Word document. |
 | [WordProcessingPreviewOptions](./wordprocessingpreviewoptions) | Provides options to sets requirements and stream delegates for preview generation of WordProcessing document. |
 | [WordProcessingSaveOptions](./wordprocessingsaveoptions) | Represents document saving options when saving a Word document. |
-| [WordProcessingShapeSettings](./wordprocessingshapesettings) | Represents settings that can be applied to a shape watermark for a Word document. |
 | [WordProcessingTextEffects](./wordprocessingtexteffects) | Represents effects that can be applied to a text watermark for a Word document. |
 | [WordProcessingWatermarkBaseOptions](./wordprocessingwatermarkbaseoptions) | Base class for watermark adding options to a Word document. |
 | [WordProcessingWatermarkHeaderFooterOptions](./wordprocessingwatermarkheaderfooteroptions) | Represents options when adding the watermark to a Word section header/footer. |
-| [WordProcessingWatermarkOptions](./wordprocessingwatermarkoptions) | Base class for watermark adding options to a Word document. |
 | [WordProcessingWatermarkPagesOptions](./wordprocessingwatermarkpagesoptions) | Represents options when adding watermark to Word document pages. |
 | [WordProcessingWatermarkSectionOptions](./wordprocessingwatermarksectionoptions) | Represents options when adding shape watermark to a Word document section. |
 ## Interfaces

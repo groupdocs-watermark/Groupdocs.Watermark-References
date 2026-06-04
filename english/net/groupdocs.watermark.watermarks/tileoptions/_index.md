@@ -3,7 +3,7 @@ title: TileOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options for configuring watermarks in tile mode.
 type: docs
-weight: 3270
+weight: 3350
 url: /net/groupdocs.watermark.watermarks/tileoptions/
 ---
 ## TileOptions class
@@ -25,6 +25,7 @@ public class TileOptions
 | Name | Description |
 | --- | --- |
 | [LineSpacing](../../groupdocs.watermark.watermarks/tileoptions/linespacing) { get; set; } | Gets or sets the spacing between lines for watermarks in tile mode. |
+| [RotateAroundOrigin](../../groupdocs.watermark.watermarks/tileoptions/rotatearoundorigin) { get; set; } | Gets or sets a value indicating whether the repeated watermarks should be rotated around the center of the document. |
 | [TileType](../../groupdocs.watermark.watermarks/tileoptions/tiletype) { get; set; } | Gets or sets the type of tile alignment for watermarks. |
 | [WatermarkSpacing](../../groupdocs.watermark.watermarks/tileoptions/watermarkspacing) { get; set; } | Gets or sets the spacing between serials for watermarks in tile mode. |
 

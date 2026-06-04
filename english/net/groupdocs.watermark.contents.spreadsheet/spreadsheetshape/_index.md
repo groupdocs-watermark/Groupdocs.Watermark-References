@@ -3,7 +3,7 @@ title: SpreadsheetShape
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a drawing shape in an Excel document.
 type: docs
-weight: 1210
+weight: 1260
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/
 ---
 ## SpreadsheetShape class

@@ -3,7 +3,7 @@ title: ReadOnlyListBaseT
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides the abstract base class for a strongly typed readonly list.
 type: docs
-weight: 90
+weight: 110
 url: /net/groupdocs.watermark.common/readonlylistbase-1/
 ---
 ## ReadOnlyListBase&lt;T&gt; class

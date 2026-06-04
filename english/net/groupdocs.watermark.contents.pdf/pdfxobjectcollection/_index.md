@@ -3,7 +3,7 @@ title: PdfXObjectCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of XObjects in a pdf document.
 type: docs
-weight: 790
+weight: 840
 url: /net/groupdocs.watermark.contents.pdf/pdfxobjectcollection/
 ---
 ## PdfXObjectCollection class

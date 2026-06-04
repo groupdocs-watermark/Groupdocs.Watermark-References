@@ -3,7 +3,7 @@ title: WordProcessingShapeCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of shapes in a Word document.
 type: docs
-weight: 1420
+weight: 1460
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingshapecollection/
 ---
 ## WordProcessingShapeCollection class

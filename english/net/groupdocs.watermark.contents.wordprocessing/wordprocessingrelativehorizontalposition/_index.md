@@ -3,7 +3,7 @@ title: WordProcessingRelativeHorizontalPosition
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies to what the horizontal position of an object is relative.
 type: docs
-weight: 1370
+weight: 1410
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingrelativehorizontalposition/
 ---
 ## WordProcessingRelativeHorizontalPosition enumeration

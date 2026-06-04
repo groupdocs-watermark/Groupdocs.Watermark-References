@@ -3,7 +3,7 @@ title: PdfPermissions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents users permissions for a pdf document.
 type: docs
-weight: 710
+weight: 760
 url: /net/groupdocs.watermark.contents.pdf/pdfpermissions/
 ---
 ## PdfPermissions enumeration

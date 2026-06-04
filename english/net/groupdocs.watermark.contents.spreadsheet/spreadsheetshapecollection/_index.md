@@ -3,7 +3,7 @@ title: SpreadsheetShapeCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of drawing shapes in an Excel document.
 type: docs
-weight: 1220
+weight: 1270
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetshapecollection/
 ---
 ## SpreadsheetShapeCollection class

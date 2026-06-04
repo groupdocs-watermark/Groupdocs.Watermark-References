@@ -3,7 +3,7 @@ title: OfficeLineFormat
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a shape line format.
 type: docs
-weight: 480
+weight: 530
 url: /net/groupdocs.watermark.contents/officelineformat/
 ---
 ## OfficeLineFormat class

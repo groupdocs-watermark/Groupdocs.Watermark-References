@@ -22,7 +22,6 @@ The namespace provides classes to specify additional options when working with w
 | [SpreadsheetWatermarkBaseOptions](./spreadsheetwatermarkbaseoptions) | Base class for watermark adding options to a Spreadsheet document. |
 | [SpreadsheetWatermarkHeaderFooterOptions](./spreadsheetwatermarkheaderfooteroptions) | Represents options when adding the watermark to a Spreadsheet header/footer. |
 | [SpreadsheetWatermarkModernWordArtOptions](./spreadsheetwatermarkmodernwordartoptions) | Represents options when adding modern word art watermark to a Spreadsheet worksheet. |
-| [SpreadsheetWatermarkOptions](./spreadsheetwatermarkoptions) | Base class for watermark adding options to a Spreadsheet document. |
 | [SpreadsheetWatermarkShapeOptions](./spreadsheetwatermarkshapeoptions) | Represents options when adding shape watermark to a Spreadsheet worksheet. |
 ## Interfaces
 

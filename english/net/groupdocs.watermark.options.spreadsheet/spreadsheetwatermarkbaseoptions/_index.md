@@ -3,7 +3,7 @@ title: SpreadsheetWatermarkBaseOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Base class for watermark adding options to a Spreadsheet document.
 type: docs
-weight: 2230
+weight: 2260
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/
 ---
 ## SpreadsheetWatermarkBaseOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoption
 Base class for watermark adding options to a Spreadsheet document.
 
 ```csharp
-public abstract class SpreadsheetWatermarkBaseOptions : SpreadsheetWatermarkOptions
+public abstract class SpreadsheetWatermarkBaseOptions : WatermarkOptions
 ```
 
 ## Properties
@@ -24,7 +24,7 @@ public abstract class SpreadsheetWatermarkBaseOptions : SpreadsheetWatermarkOpti
 
 ### See Also
 
-* class [SpreadsheetWatermarkOptions](../spreadsheetwatermarkoptions)
+* class [WatermarkOptions](../../groupdocs.watermark.options/watermarkoptions)
 * namespace [GroupDocs.Watermark.Options.Spreadsheet](../../groupdocs.watermark.options.spreadsheet)
 * assembly [GroupDocs.Watermark](../../)
 

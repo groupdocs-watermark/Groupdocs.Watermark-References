@@ -3,7 +3,7 @@ title: WordProcessingShape
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a drawing shape in a Word document.
 type: docs
-weight: 1410
+weight: 1450
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingshape/
 ---
 ## WordProcessingShape class

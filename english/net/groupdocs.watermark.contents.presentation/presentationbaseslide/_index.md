@@ -3,7 +3,7 @@ title: PresentationBaseSlide
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides the abstract base class for slides of all types in a PowerPoint document.
 type: docs
-weight: 820
+weight: 870
 url: /net/groupdocs.watermark.contents.presentation/presentationbaseslide/
 ---
 ## PresentationBaseSlide class

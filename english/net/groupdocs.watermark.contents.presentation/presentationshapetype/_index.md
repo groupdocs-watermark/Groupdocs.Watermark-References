@@ -3,7 +3,7 @@ title: PresentationShapeType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a shape geometry preset type.
 type: docs
-weight: 1000
+weight: 1050
 url: /net/groupdocs.watermark.contents.presentation/presentationshapetype/
 ---
 ## PresentationShapeType enumeration

@@ -3,7 +3,7 @@ title: PresentationMasterNotesSlide
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a master slide for all notes slides in a PowerPoint document.
 type: docs
-weight: 930
+weight: 980
 url: /net/groupdocs.watermark.contents.presentation/presentationmasternotesslide/
 ---
 ## PresentationMasterNotesSlide class

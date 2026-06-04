@@ -3,7 +3,7 @@ title: Font
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Class representing a font.
 type: docs
-weight: 3150
+weight: 3170
 url: /net/groupdocs.watermark.watermarks/font/
 ---
 ## Font class
@@ -20,6 +20,8 @@ public sealed class Font
 | --- | --- |
 | [Font](font#constructor)(string, float) | Initializes a new instance of the [`Font`](../font) class with a specified font family name and a size. |
 | [Font](font#constructor_1)(string, float, FontStyle) | Initializes a new instance of the [`Font`](../font) class with a specified font family name, a size and a style. |
+| [Font](font#constructor_2)(string, string, float) | Initializes a new instance of the [`Font`](../font) class with a specified custom font family name, folder path with a font and a size. |
+| [Font](font#constructor_3)(string, string, float, FontStyle) | Initializes a new instance of the [`Font`](../font) class with a specified custom font family name, folder path with a font and a size. |
 
 ## Properties
 
@@ -27,6 +29,7 @@ public sealed class Font
 | --- | --- |
 | [Bold](../../groupdocs.watermark.watermarks/font/bold) { get; } | Gets a value indicating whether the font is bold. |
 | [FamilyName](../../groupdocs.watermark.watermarks/font/familyname) { get; } | Gets the family name of this [`Font`](../font). |
+| [FolderPath](../../groupdocs.watermark.watermarks/font/folderpath) { get; } | Represents the folder that contains TrueType font files. |
 | [Italic](../../groupdocs.watermark.watermarks/font/italic) { get; } | Gets a value indicating whether the font is italic. |
 | [Size](../../groupdocs.watermark.watermarks/font/size) { get; } | Gets the size of this [`Font`](../font). |
 | [Strikeout](../../groupdocs.watermark.watermarks/font/strikeout) { get; } | Gets a value indicating whether the font specifies a horizontal line through the font. |

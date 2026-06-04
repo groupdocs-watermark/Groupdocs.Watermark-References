@@ -3,7 +3,7 @@ title: WordProcessingProtectionType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents protection type for a Word document.
 type: docs
-weight: 1360
+weight: 1400
 url: /net/groupdocs.watermark.contents.wordprocessing/wordprocessingprotectiontype/
 ---
 ## WordProcessingProtectionType enumeration

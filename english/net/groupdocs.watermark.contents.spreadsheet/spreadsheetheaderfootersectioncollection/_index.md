@@ -3,7 +3,7 @@ title: SpreadsheetHeaderFooterSectionCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of header/footer sections.
 type: docs
-weight: 1160
+weight: 1210
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersectioncollection/
 ---
 ## SpreadsheetHeaderFooterSectionCollection class

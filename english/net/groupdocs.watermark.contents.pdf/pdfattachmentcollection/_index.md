@@ -3,7 +3,7 @@ title: PdfAttachmentCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of attachments in a pdf document.
 type: docs
-weight: 600
+weight: 650
 url: /net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/
 ---
 ## PdfAttachmentCollection class

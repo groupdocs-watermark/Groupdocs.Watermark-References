@@ -3,7 +3,7 @@ title: PdfOperatorCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of operators in a pdf content.
 type: docs
-weight: 670
+weight: 720
 url: /net/groupdocs.watermark.contents.pdf/pdfoperatorcollection/
 ---
 ## PdfOperatorCollection class

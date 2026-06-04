@@ -26,6 +26,7 @@ public class ImageDctHashSearchCriteria : ImageSearchCriteria
 | Name | Description |
 | --- | --- |
 | [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | Gets or sets maximum allowed difference between images. |
+| [Pages](../../groupdocs.watermark.search.searchcriteria/pagesearchcriteria/pages) { get; set; } | Gets or sets the list of specific page numbers |
 
 ## Methods
 

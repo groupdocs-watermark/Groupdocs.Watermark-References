@@ -3,7 +3,7 @@ title: PresentationSlideCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of slides in a PowerPoint document.
 type: docs
-weight: 1020
+weight: 1070
 url: /net/groupdocs.watermark.contents.presentation/presentationslidecollection/
 ---
 ## PresentationSlideCollection class

@@ -3,7 +3,7 @@ title: MeasureValue
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a measurement value with a specific type and numerical value.
 type: docs
-weight: 3200
+weight: 3220
 url: /net/groupdocs.watermark.watermarks/measurevalue/
 ---
 ## MeasureValue class
@@ -25,7 +25,7 @@ public class MeasureValue
 | Name | Description |
 | --- | --- |
 | [MeasureType](../../groupdocs.watermark.watermarks/measurevalue/measuretype) { get; set; } | Gets or sets the type of measurement. |
-| [Value](../../groupdocs.watermark.watermarks/measurevalue/value) { get; set; } | Gets or sets the numerical value of the measurement. |
+| [Value](../../groupdocs.watermark.watermarks/measurevalue/value) { get; set; } | Gets or sets the numerical value of the measurement. Value must be greater than 0. |
 
 ### See Also
 

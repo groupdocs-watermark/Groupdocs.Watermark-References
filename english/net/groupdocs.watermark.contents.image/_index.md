@@ -17,6 +17,8 @@ The namespace provides classes for adding watermarks to images of different form
 | [ImageFrame](./imageframe) | Represents an image frame where a watermark can be placed. |
 | [ImageFrameCollection](./imageframecollection) | Represents a collection of frames in multiframe image. |
 | [MultiframeImageContent](./multiframeimagecontent) | Represents a multiframe image where a watermark can be placed. |
+| [SystemDrawingImageFrame](./systemdrawingimageframe) | Represents an image frame where a watermark can be placed (System.Drawing implementation). |
+| [SystemDrawingImageFrameCollection](./systemdrawingimageframecollection) | Represents a collection of frames in multiframe image. |
 | [TiffImageContent](./tiffimagecontent) | Represents a tiff image where a watermark can be placed. |
 | [WatermarkableImage](./watermarkableimage) | Represents an image inside a document. |
 | [WatermarkableImageCollection](./watermarkableimagecollection) | Represents a collection of images found in a document. |

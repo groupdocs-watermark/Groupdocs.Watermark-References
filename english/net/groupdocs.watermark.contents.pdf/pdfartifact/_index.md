@@ -3,7 +3,7 @@ title: PdfArtifact
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an artifact in a pdf content.
 type: docs
-weight: 550
+weight: 600
 url: /net/groupdocs.watermark.contents.pdf/pdfartifact/
 ---
 ## PdfArtifact class

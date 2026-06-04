@@ -3,7 +3,7 @@ title: Content
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a content where a watermark can be placed.
 type: docs
-weight: 120
+weight: 150
 url: /net/groupdocs.watermark.contents/content/
 ---
 ## Content class

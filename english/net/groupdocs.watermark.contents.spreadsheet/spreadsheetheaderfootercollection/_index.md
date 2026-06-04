@@ -3,7 +3,7 @@ title: SpreadsheetHeaderFooterCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of headers and footers in an Excel document.
 type: docs
-weight: 1140
+weight: 1190
 url: /net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootercollection/
 ---
 ## SpreadsheetHeaderFooterCollection class

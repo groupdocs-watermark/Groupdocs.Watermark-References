@@ -3,7 +3,7 @@ title: PdfPageCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of pages in a pdf content.
 type: docs
-weight: 690
+weight: 740
 url: /net/groupdocs.watermark.contents.pdf/pdfpagecollection/
 ---
 ## PdfPageCollection class

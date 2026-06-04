@@ -3,7 +3,7 @@ title: PdfCryptoAlgorithm
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represent type of cryptographic algorithm that used in encryption routine.
 type: docs
-weight: 620
+weight: 670
 url: /net/groupdocs.watermark.contents.pdf/pdfcryptoalgorithm/
 ---
 ## PdfCryptoAlgorithm enumeration

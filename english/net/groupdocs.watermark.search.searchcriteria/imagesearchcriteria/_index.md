@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark.search.searchcriteria/imagesearchcriteria/
 Provides base class for image search criteria.
 
 ```csharp
-public abstract class ImageSearchCriteria : SearchCriteria
+public abstract class ImageSearchCriteria : PageSearchCriteria
 ```
 
 ## Properties
@@ -19,6 +19,7 @@ public abstract class ImageSearchCriteria : SearchCriteria
 | Name | Description |
 | --- | --- |
 | [MaxDifference](../../groupdocs.watermark.search.searchcriteria/imagesearchcriteria/maxdifference) { get; set; } | Gets or sets maximum allowed difference between images. |
+| [Pages](../../groupdocs.watermark.search.searchcriteria/pagesearchcriteria/pages) { get; set; } | Gets or sets the list of specific page numbers |
 
 ## Methods
 
@@ -30,7 +31,7 @@ public abstract class ImageSearchCriteria : SearchCriteria
 
 ### See Also
 
-* class [SearchCriteria](../searchcriteria)
+* class [PageSearchCriteria](../pagesearchcriteria)
 * namespace [GroupDocs.Watermark.Search.SearchCriteria](../../groupdocs.watermark.search.searchcriteria)
 * assembly [GroupDocs.Watermark](../../)
 

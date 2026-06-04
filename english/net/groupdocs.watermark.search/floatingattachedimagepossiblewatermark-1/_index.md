@@ -26,6 +26,7 @@ public class FloatingAttachedImagePossibleWatermark<T> : AttachedImagePossibleWa
 | virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Gets the collection of formatted text fragments of this [`PossibleWatermark`](../possiblewatermark). |
 | override [Height](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/height) { get; } | Gets the height of this [`FloatingAttachedImagePossibleWatermark`](../floatingattachedimagepossiblewatermark-1). |
 | [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Gets or sets the image of this [`PossibleWatermark`](../possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Gets the page watermark is placed on. |
 | override [Parent](../../groupdocs.watermark.search/floatingattachedimagepossiblewatermark-1/parent) { get; } | Gets the parent of this [`FloatingAttachedImagePossibleWatermark`](../floatingattachedimagepossiblewatermark-1). |
 | override [RotateAngle](../../groupdocs.watermark.search/attachedimagepossiblewatermark-1/rotateangle) { get; } | Gets the rotate angle of this [`AttachedImagePossibleWatermark`](../attachedimagepossiblewatermark-1) in degrees. |
 | virtual [Text](../../groupdocs.watermark.search/possiblewatermark/text) { get; set; } | Gets or sets the text of this [`PossibleWatermark`](../possiblewatermark). |

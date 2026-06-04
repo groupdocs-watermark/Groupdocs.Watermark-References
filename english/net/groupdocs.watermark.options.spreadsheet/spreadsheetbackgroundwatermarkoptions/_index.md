@@ -3,7 +3,7 @@ title: SpreadsheetBackgroundWatermarkOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents options when adding the watermark as a background to a Spreadsheet worksheet.
 type: docs
-weight: 2160
+weight: 2190
 url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/
 ---
 ## SpreadsheetBackgroundWatermarkOptions class
@@ -11,7 +11,7 @@ url: /net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermark
 Represents options when adding the watermark as a background to a Spreadsheet worksheet.
 
 ```csharp
-public sealed class SpreadsheetBackgroundWatermarkOptions : SpreadsheetWatermarkOptions
+public sealed class SpreadsheetBackgroundWatermarkOptions : WatermarkOptions
 ```
 
 ## Constructors
@@ -56,7 +56,7 @@ using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.xlsx", load
 
 ### See Also
 
-* class [SpreadsheetWatermarkOptions](../spreadsheetwatermarkoptions)
+* class [WatermarkOptions](../../groupdocs.watermark.options/watermarkoptions)
 * namespace [GroupDocs.Watermark.Options.Spreadsheet](../../groupdocs.watermark.options.spreadsheet)
 * assembly [GroupDocs.Watermark](../../)
 

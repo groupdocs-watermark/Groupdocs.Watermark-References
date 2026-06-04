@@ -3,7 +3,7 @@ title: TileType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Enumeration representing different visual templates for arranging watermark tiles.
 type: docs
-weight: 3280
+weight: 3360
 url: /net/groupdocs.watermark.watermarks/tiletype/
 ---
 ## TileType enumeration
@@ -20,6 +20,8 @@ public enum TileType
 | --- | --- | --- |
 | Straight | `0` | Represents straight tile alignment. |
 | Offset | `1` | Represents offset tile alignment. |
+| OneThirdOffset | `2` | Represents 1/3 offset tile alignment. |
+| BasketWeave | `3` | Represents basket weave tile pattern |
 
 ### See Also
 

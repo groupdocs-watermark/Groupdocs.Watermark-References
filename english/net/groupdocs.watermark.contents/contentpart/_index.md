@@ -3,7 +3,7 @@ title: ContentPart
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents any logical part of a content page frame header or a whole content where watermark can be placed.
 type: docs
-weight: 130
+weight: 160
 url: /net/groupdocs.watermark.contents/contentpart/
 ---
 ## ContentPart class

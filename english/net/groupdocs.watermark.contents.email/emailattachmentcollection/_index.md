@@ -3,7 +3,7 @@ title: EmailAttachmentCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of attachments in an email message.
 type: docs
-weight: 310
+weight: 340
 url: /net/groupdocs.watermark.contents.email/emailattachmentcollection/
 ---
 ## EmailAttachmentCollection class

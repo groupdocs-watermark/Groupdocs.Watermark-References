@@ -3,7 +3,7 @@ title: ImageLoadOptions
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents image loading options when loading an image.
 type: docs
-weight: 1810
+weight: 1840
 url: /net/groupdocs.watermark.options.image/imageloadoptions/
 ---
 ## ImageLoadOptions class
@@ -25,6 +25,8 @@ public class ImageLoadOptions : LoadOptions
 | Name | Description |
 | --- | --- |
 | static [Default](../../groupdocs.watermark.options.image/imageloadoptions/default) { get; } | Gets the default value for the [`ImageLoadOptions`](../imageloadoptions) class. |
+| [FileType](../../groupdocs.watermark.options/loadoptions/filetype) { get; set; } | Gets or sets the type of the file, indicating its type (e.g., docx, pdf, xlsx, etc.). |
+| [FormatFamily](../../groupdocs.watermark.options/loadoptions/formatfamily) { get; set; } | Gets or sets the format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). |
 | [Password](../../groupdocs.watermark.options/loadoptions/password) { get; set; } | Gets or sets the password for opening an encrypted document. |
 
 ### See Also

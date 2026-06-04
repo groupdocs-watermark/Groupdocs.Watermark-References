@@ -3,7 +3,7 @@ title: PdfContent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a pdf document where a watermark can be placed.
 type: docs
-weight: 610
+weight: 660
 url: /net/groupdocs.watermark.contents.pdf/pdfcontent/
 ---
 ## PdfContent class

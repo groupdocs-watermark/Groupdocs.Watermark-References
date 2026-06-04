@@ -3,7 +3,7 @@ title: PresentationBaseShape
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides the abstract base class for shapes of all types in a PowerPoint document.
 type: docs
-weight: 810
+weight: 860
 url: /net/groupdocs.watermark.contents.presentation/presentationbaseshape/
 ---
 ## PresentationBaseShape class

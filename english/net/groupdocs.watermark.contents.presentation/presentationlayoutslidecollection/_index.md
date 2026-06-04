@@ -3,7 +3,7 @@ title: PresentationLayoutSlideCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of layout slides in a PowerPoint document.
 type: docs
-weight: 910
+weight: 960
 url: /net/groupdocs.watermark.contents.presentation/presentationlayoutslidecollection/
 ---
 ## PresentationLayoutSlideCollection class
