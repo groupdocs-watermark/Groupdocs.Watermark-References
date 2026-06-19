@@ -12,15 +12,20 @@ lead: "Add, find, edit, and remove watermarks in documents, images, and PDFs."
 
 platforms:
   - name: ".NET"
+    version: "26.4.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.watermark/26.4.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Watermark"
   - name: "Java"
+    version: "26.4"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/26.4/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-watermark"
   - name: "Python via .NET"
     version: "25.12"
+    versionUrl: "https://pypi.org/project/groupdocs-watermark-net/25.12/"
     key: python
     ref: "/python-net/"
     install: "pip install groupdocs-watermark-net"
