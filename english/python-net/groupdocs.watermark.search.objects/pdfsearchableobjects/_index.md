@@ -1,35 +1,30 @@
-﻿---
-title: PdfSearchableObjects enumeration
+---
+title: PdfSearchableObjects class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/
 is_root: false
-weight: 40
+weight: 30
 ---
 
-## PdfSearchableObjects enumeration
 
-Specifies flags representing pdf content objects that are to be included in a watermark search.
-
-
+## PdfSearchableObjects class
 
 The PdfSearchableObjects type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| NONE | Specifies no search objects. |
-| X_OBJECTS | Search in XObjects. |
-| ARTIFACTS | Search in artifacts. |
-| ANNOTATIONS | Search in annotations. |
-| TEXT | Search in content text. |
-| HYPERLINKS | Search in hyperlinks. |
-| ATTACHED_IMAGES | Search in attached images. |
-| VECTOR | Search in operators. |
-| ALL | Search in all content objects. |
-
-
+| [NONE](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/none/) | Specifies no search objects. |
+| [XOBJECTS](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/xobjects/) | Search in XObjects. |
+| [ARTIFACTS](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/artifacts/) | Search in artifacts. |
+| [ANNOTATIONS](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/annotations/) | Search in annotations. |
+| [TEXT](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/text/) | Search in content text. |
+| [HYPERLINKS](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/hyperlinks/) | Search in hyperlinks. |
+| [ATTACHED_IMAGES](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/attached_images/) | Search in attached images. |
+| [VECTOR](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/vector/) | Search in operators. |
+| [ALL](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/all/) | Search in all content objects. |
 
 ### See Also
-* module [`groupdocs.watermark.search.objects`](..)
+* module [`groupdocs.watermark.search.objects`](/watermark/python-net/groupdocs.watermark.search.objects/)

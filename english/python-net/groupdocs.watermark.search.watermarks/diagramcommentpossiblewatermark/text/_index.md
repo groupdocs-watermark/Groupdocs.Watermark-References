@@ -1,17 +1,18 @@
-﻿---
+---
 title: text property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/text/
 is_root: false
-weight: 90
+weight: 2040
 ---
+
 
 ## text property
 
+The text of this [`DiagramCommentPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/).
 
-Gets or sets the text of this [`DiagramCommentPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark).
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def text(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`DiagramCommentPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark)
+* class [`DiagramCommentPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/)

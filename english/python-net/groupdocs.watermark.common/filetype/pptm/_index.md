@@ -1,20 +1,17 @@
-﻿---
-title: PPTM property
+---
+title: PPTM field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/pptm/
 is_root: false
-weight: 370
+weight: 3360
 ---
 
-## PPTM property
 
+## PPTM field
 
-Files with PPTM extension are Macro-enabled Presentation files that are created with
-Microsoft PowerPoint 2007 or higher versions. Learn more about this file format
-[here](https://wiki.fileformat.com/presentation/pptm/).
+Files with PPTM extension are Macro-enabled Presentation files that are created with Microsoft PowerPoint 2007 or higher versions. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

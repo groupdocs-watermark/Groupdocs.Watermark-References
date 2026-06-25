@@ -1,5 +1,5 @@
-﻿---
-title: SpreadsheetWatermarkableImage constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,25 +8,28 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#bytes}
 
-Initializes a new instance of the [`SpreadsheetWatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetwatermarkableimage) class
-using specified image data.
+## __init__ {#image_data}
 
-
+Initializes a new SpreadsheetWatermarkableImage instance using the provided image data.
 
 ```python
 def __init__(self, image_data):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_data | bytes | The array of unsigned bytes from which to create the [`SpreadsheetWatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetwatermarkableimage). |
+| image_data | `list[int]` | The array of unsigned bytes from which to create the SpreadsheetWatermarkableImage. |
 
+### Example
 
+```python
+import groupdocs.watermark.contents.spreadsheet as gwc_xls
+
+with open("test.png", "rb") as f:
+    image = gwc_xls.SpreadsheetWatermarkableImage(f.read())
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.spreadsheet`](../../)
-* class [`SpreadsheetWatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetwatermarkableimage)
+* class [`SpreadsheetWatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetwatermarkableimage/)

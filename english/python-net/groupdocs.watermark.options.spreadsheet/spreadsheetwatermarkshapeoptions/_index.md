@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetWatermarkShapeOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,54 +8,50 @@ is_root: false
 weight: 120
 ---
 
+
 ## SpreadsheetWatermarkShapeOptions class
 
-Represents options when adding shape watermark to a Spreadsheet worksheet.
+Represents options when adding a shape watermark to a Spreadsheet worksheet.
 
-
-
-**Inheritance:** [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions) → 
-[`SpreadsheetWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions) → 
-[`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
-
-
+Learn more:
+- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents
 
 The SpreadsheetWatermarkShapeOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/__init__/#) | Initializes a new instance of the [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions) class. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/__init__/) | Initializes a new instance of the [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/default) | Gets the default value for the [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions) class. |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/is_locked) | Gets or sets a value indicating whether an editing of the shape in Excel is forbidden. |
-| [name](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/name) | Gets or sets the name a shape. |
-| [alternative_text](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/alternative_text) | Gets or sets the descriptive (alternative) text that will be associated with a shape. |
-| [worksheet_index](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/worksheet_index) | Gets or sets the index of worksheet to add the watermark to. |
-| [effects](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/effects) | Gets or sets a value of [`SpreadsheetImageEffects`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetimageeffects) or<br/>[`SpreadsheetTextEffects`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheettexteffects) for effects that should be applied to the watermark. |
+| [effects](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/effects/) | The effects to apply to the watermark, specified as a SpreadsheetImageEffects or SpreadsheetTextEffects instance. |
+| [worksheet_index](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/worksheet_index/) | The index of the worksheet to add the watermark to. |
+| [alternative_text](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/alternative_text/) | The descriptive (alternative) text that will be associated with a shape. (inherited from [`SpreadsheetWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/)) |
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/is_locked/) | The `is_locked` property indicates whether editing of the shape in Excel is forbidden. If set to True, shape editing is prohibited; by default it is False, allowing editing. (inherited from [`SpreadsheetWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/)) |
+| [name](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/name/) | The name of the shape. (inherited from [`SpreadsheetWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/)) |
 
+### Fields
+| Field | Description |
+| :- | :- |
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/default/) | Gets the default value for the class. (inherited from [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/)) |
 
+### Example
 
-### Remarks 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.watermarks as gww
+import groupdocs.watermark.options.spreadsheet as gwo_xls
 
-
-**Learn more:** |
-|
- |
-
-### Example 
-
-
-Add watermark to a particular worksheet of an Excel document.
+load_options = gw.SpreadsheetLoadOptions()
+with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
+    text_watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 36))
+    opts = gwo_xls.SpreadsheetWatermarkShapeOptions()
+    opts.worksheet_index = 0
+    watermarker.add(text_watermark, opts)
+    watermarker.save("spreadsheet.xlsx")
+```
 
 ### See Also
-* module [`groupdocs.watermark.options.spreadsheet`](..)
-* class [`SpreadsheetImageEffects`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetimageeffects)
-* class [`SpreadsheetTextEffects`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheettexteffects)
-* class [`SpreadsheetWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions)
-* class [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions)
-* class [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
+* module [`groupdocs.watermark.options.spreadsheet`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/)

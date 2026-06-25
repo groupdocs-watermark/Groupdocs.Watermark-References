@@ -1,20 +1,17 @@
-﻿---
-title: XLT property
+---
+title: XLT field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/xlt/
 is_root: false
-weight: 610
+weight: 3460
 ---
 
-## XLT property
 
+## XLT field
 
-Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet
-application which comes as part of Microsoft Office suite. Learn more about this file format
-[here](https://wiki.fileformat.com/specification/spreadsheet/xlt/).
+Files with .XLT extension are template files created with Microsoft Excel which is a spreadsheet application which comes as part of Microsoft Office suite. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

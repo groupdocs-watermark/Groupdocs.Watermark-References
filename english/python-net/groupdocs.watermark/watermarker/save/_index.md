@@ -1,147 +1,173 @@
-﻿---
+---
 title: save method
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/save/
 is_root: false
-weight: 70
+weight: 1130
 ---
 
-## save {#}
+
+## save
 
 Saves the document data to the underlying stream.
 
-
+Learn more about saving the documents.
 
 ```python
 def save(self):
     ...
 ```
 
+### Example
 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.search.searchcriteria as gws_sc
 
-### Example 
+with gw.Watermarker("document.pdf") as watermarker:
+    criteria = gws_sc.TextSearchCriteria("test", False)
+    possible = watermarker.search(criteria)
+    for wm in possible:
+        try:
+            wm.text = "passed"
+        except Exception:
+            pass
+    watermarker.save("document.pdf")
+```
 
-
-Remove particular text fragments from the email message body/subject and save the email message.
-
-
-## save {#System.String}
+## save {#file_path}
 
 Saves the document to the specified file location.
 
-
+Learn more about saving the documents at https://docs.groupdocs.com/display/watermarknet/Saving+documents.
 
 ```python
 def save(self, file_path):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The file path to save the document data to. |
+| file_path | `str` | The file path to save the document data to. |
 
-### Example 
+### Example
 
+```python
+    import groupdocs.watermark as gw
 
-Add the watermark and save the document to another file.
+    with gw.Watermarker("input.pdf") as watermarker:
+        watermark = gw.TextWatermark("top secret", gw.Font("Arial", 36))
+        watermarker.add(watermark)
+        watermarker.save("output.pdf")
+    ```
 
-
-## save {#io.RawIOBase}
+## save {#document}
 
 Saves the document to the specified stream.
 
-
+Learn more about saving the documents at https://docs.groupdocs.com/display/watermarknet/Saving+documents.
 
 ```python
 def save(self, document):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | io.RawIOBase | The stream to save the document data to. |
+| document | `io.RawIOBase` | The stream to save the document data to. |
 
-### Example 
-
-
-Add watermark and save the document to the memory stream.
-
-
-## save {#groupdocs.watermark.options.SaveOptions}
+## save {#options}
 
 Saves the document data to the underlying stream using save options.
 
-
+Learn more about saving the documents.
 
 ```python
 def save(self, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| options | groupdocs.watermark.options.SaveOptions | Additional options to use when saving a document. |
+| options | `SaveOptions` | Additional options to use when saving a document. |
 
-### Example 
+### Example
 
+```python
+import groupdocs.watermark as gw
+from groupdocs.watermark import TextWatermark, Font
 
-Add watermark and save the document with default [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions).
+with gw.Watermarker("input.pdf") as watermarker:
+    watermark = TextWatermark("top secret", Font("Arial", 36))
+    watermarker.add(watermark)
+    # Save the document with default options
+    watermarker.save("output.pdf")
+```
 
-
-## save {#System.String-groupdocs.watermark.options.SaveOptions}
+## save {#file_path-options}
 
 Saves the document to the specified file location using save options.
 
-
+Learn more about saving the documents.
 
 ```python
 def save(self, file_path, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_path | System.String | The file path to save the document data to. |
-| options | groupdocs.watermark.options.SaveOptions | Additional options to use when saving a document. |
+| file_path | `str` | The file path to save the document data to. |
+| options | `SaveOptions` | Additional options to use when saving a document. |
 
-### Example 
+### Example
 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.search.searchcriteria as gws_sc
 
-Add the watermark and save the document to another file with default [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions).
+with gw.Watermarker("document.pdf") as watermarker:
+    criteria = gws_sc.TextSearchCriteria("test", False)
+    for wm in watermarker.search(criteria):
+        try:
+            wm.text = "passed"
+        except Exception:
+            pass
+    watermarker.save("document.pdf")
+```
 
-
-## save {#io.RawIOBase-groupdocs.watermark.options.SaveOptions}
+## save {#document-options}
 
 Saves the document to the specified stream using save options.
 
-
+Learn more about saving the documents at the GroupDocs documentation.
 
 ```python
 def save(self, document, options):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | io.RawIOBase | The stream to save the document data to. |
-| options | groupdocs.watermark.options.SaveOptions | Additional options to use when saving a document. |
+| document | `io.RawIOBase` | The stream to save the document data to. |
+| options | `SaveOptions` | Additional options to use when saving a document. |
 
-### Example 
+### Example
 
+```python
+import groupdocs.watermark as gw
+from io import BytesIO
+from groupdocs.watermark.options import SaveOptions
 
-Add watermark and save the document to the memory stream with default [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions).
-
-
+with gw.Watermarker("input.pdf") as watermarker:
+    watermark = gw.TextWatermark("top secret", gw.Font("Arial", 36))
+    watermarker.add(watermark)
+    stream = BytesIO()
+    watermarker.save(stream, SaveOptions())
+    # stream now contains the saved document
+```
 
 ### See Also
-* module [`groupdocs.watermark`](../../)
-* class [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions)
-* class [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult)
-* class [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker)
+* class [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/)

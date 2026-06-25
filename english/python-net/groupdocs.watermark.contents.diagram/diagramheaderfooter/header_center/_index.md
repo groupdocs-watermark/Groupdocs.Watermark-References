@@ -1,17 +1,18 @@
-﻿---
+---
 title: header_center property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/header_center/
 is_root: false
-weight: 80
+weight: 2060
 ---
+
 
 ## header_center property
 
+The text string that appears in the center portion of document header.
 
-Gets or sets the text string that appears in the center portion of document header.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def header_center(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.diagram`](../../)
-* class [`DiagramHeaderFooter`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter)
+* class [`DiagramHeaderFooter`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/)

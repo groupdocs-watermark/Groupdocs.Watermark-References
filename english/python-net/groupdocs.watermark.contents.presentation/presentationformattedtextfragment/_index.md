@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresentationFormattedTextFragment class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,37 +8,30 @@ is_root: false
 weight: 70
 ---
 
+
 ## PresentationFormattedTextFragment class
 
 Represents a fragment of formatted text in a PowerPoint document.
 
-
-
-**Inheritance:** [`PresentationFormattedTextFragment`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment) → 
-[`FormattedTextFragment`](/watermark/python-net/groupdocs.watermark.search/formattedtextfragment)
-
-
-
 The PresentationFormattedTextFragment type exposes the following members:
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [text](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/text) | Gets the fragment text. |
-| [font](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/font) | Gets the font of the text. |
-| [foreground_color](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/foreground_color) | Gets the foreground color of the text. |
-| [background_color](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/background_color) | Gets the background color of the text. |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [get_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/get_hyperlink/#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType) | Gets the hyperlink associated with the text. |
-| [set_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/set_hyperlink/#groupdocs.watermark.contents.presentation.PresentationHyperlinkActionType-System.String) | Sets the hyperlink associated with the text. |
+| [get_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/get_hyperlink/#action_type) | Retrieves the hyperlink associated with the text. |
+| [get_hyperlink_presentation_hyperlink_action_type](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/get_hyperlink_presentation_hyperlink_action_type/) |  |
+| [set_hyperlink](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/set_hyperlink/#action_type-url) | Sets the hyperlink associated with the text. |
+| [set_hyperlink_file](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/set_hyperlink_file/) |  |
+| [set_hyperlink_presentation_hyperlink_action_type](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/set_hyperlink_presentation_hyperlink_action_type/) |  |
+| [set_hyperlink_string](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/set_hyperlink_string/) |  |
 
-
+### Properties
+| Property | Description |
+| :- | :- |
+| [background_color](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/background_color/) | The background color of the text. |
+| [font](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/font/) | The font of the text. |
+| [foreground_color](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/foreground_color/) | The foreground color of the text. |
+| [text](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/text/) | The fragment text. |
 
 ### See Also
-* module [`groupdocs.watermark.contents.presentation`](..)
-* class [`FormattedTextFragment`](/watermark/python-net/groupdocs.watermark.search/formattedtextfragment)
-* class [`PresentationFormattedTextFragment`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment)
+* module [`groupdocs.watermark.contents.presentation`](/watermark/python-net/groupdocs.watermark.contents.presentation/)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: TiffImageLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,40 +8,45 @@ is_root: false
 weight: 80
 ---
 
+
 ## TiffImageLoadOptions class
 
 Represents image loading options for a TIFF image.
-
-
-
-**Inheritance:** [`TiffImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions) → 
-[`MultiframeImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimageloadoptions) → 
-[`ImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/imageloadoptions) → 
-[`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions)
-
-
 
 The TiffImageLoadOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/__init__/#) | Initializes a new instance of the [`TiffImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions) class. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/__init__/) | Initializes a new instance of the [`TiffImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [password](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/password) | Gets or sets the password for opening an encrypted document. |
-| [format_family](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/format_family) | Gets or sets the format family of the document, <br/>indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). |
-| [file_type](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/file_type) | Gets or sets the type of the file, <br/>indicating its type (e.g., docx, pdf, xlsx, etc.). |
-| [default](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/default) | Gets the default value for [`TiffImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions) class. |
+| [file_type](/watermark/python-net/groupdocs.watermark.options/loadoptions/file_type/) | The file type, indicating its format (e.g., docx, pdf, xlsx, etc.). (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
+| [format_family](/watermark/python-net/groupdocs.watermark.options/loadoptions/format_family/) | The format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
+| [password](/watermark/python-net/groupdocs.watermark.options/loadoptions/password/) | The password for opening an encrypted document. (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
 
+### Fields
+| Field | Description |
+| :- | :- |
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/default/) | Gets the default value for class. |
 
+### Example
+
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.watermarks as gww
+import groupdocs.watermark.options.image as gwo_img
+
+load_options = gw.TiffImageLoadOptions()
+with gw.Watermarker("image.tiff", load_options) as watermarker:
+    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
+    options = gwo_img.TiffImageWatermarkOptions()
+    options.frame_index = 0
+    watermarker.add(watermark, options)
+    watermarker.save("image.tiff")
+```
 
 ### See Also
-* module [`groupdocs.watermark.options.image`](..)
-* class [`ImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/imageloadoptions)
-* class [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions)
-* class [`MultiframeImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimageloadoptions)
-* class [`TiffImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions)
+* module [`groupdocs.watermark.options.image`](/watermark/python-net/groupdocs.watermark.options.image/)

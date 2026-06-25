@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,33 +8,22 @@ is_root: false
 weight: 60
 ---
 
+
 ## SpreadsheetSaveOptions class
 
 Represents document saving options when saving a Spreadsheet document.
-
-
-
-**Inheritance:** [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions) → 
-[`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions)
-
-
 
 The SpreadsheetSaveOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/__init__/#) | Initializes a new instance of the [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/__init__/) | Initializes a new [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/) instance. |
 
-
-### Properties
-| Property | Description |
+### Fields
+| Field | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/default) | Gets the default value for the [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions) class. |
-
-
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/default/) | Gets the default value for the class. |
 
 ### See Also
-* module [`groupdocs.watermark.options.spreadsheet`](..)
-* class [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions)
-* class [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions)
+* module [`groupdocs.watermark.options.spreadsheet`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/)

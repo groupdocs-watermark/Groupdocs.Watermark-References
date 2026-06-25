@@ -1,17 +1,18 @@
-﻿---
+---
 title: top property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/top/
 is_root: false
-weight: 80
+weight: 2060
 ---
+
 
 ## top property
 
+The top position of the watermark.
 
-Specifies top position of watermark.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def top(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.watermarks.results`](../../)
-* class [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult)
+* class [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)

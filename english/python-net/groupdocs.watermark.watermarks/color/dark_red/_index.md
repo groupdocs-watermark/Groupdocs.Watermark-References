@@ -1,18 +1,17 @@
-﻿---
-title: dark_red property
+---
+title: DARK_RED field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/dark_red/
 is_root: false
-weight: 420
+weight: 3340
 ---
 
-## dark_red property
 
+## DARK_RED field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

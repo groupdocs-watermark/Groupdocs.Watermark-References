@@ -1,17 +1,18 @@
-﻿---
+---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/height/
 is_root: false
-weight: 60
+weight: 2040
 ---
+
 
 ## height property
 
+The height of this SpreadsheetShape in points.
 
-Gets or sets the height of this [`SpreadsheetShape`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape) in points.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def height(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.spreadsheet`](../../)
-* class [`SpreadsheetShape`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape)
+* class [`SpreadsheetShape`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/)

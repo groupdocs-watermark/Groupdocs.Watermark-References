@@ -1,17 +1,18 @@
-﻿---
+---
 title: enabled property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelineformat/enabled/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## enabled property
 
+The enabled flag indicates whether a shape will be stroked. The default value is False.
 
-Gets or sets a value indicating whether a shape will be stroked.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def enabled(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents`](../../)
-* class [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat)
+* class [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/)

@@ -1,5 +1,5 @@
-﻿---
-title: PresentationShapeSettings constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`PresentationShapeSettings`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapesettings) class.
+## __init__
 
-
+Initializes a new instance of PresentationShapeSettings.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.watermark.contents.presentation`](../../)
-* class [`PresentationShapeSettings`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapesettings)
+* class [`PresentationShapeSettings`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapesettings/)

@@ -1,5 +1,5 @@
-﻿---
-title: TileOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,13 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Constructs a new instance of TileOptions
-
-
+## __init__
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`TileOptions`](/watermark/python-net/groupdocs.watermark.watermarks/tileoptions)
+* class [`TileOptions`](/watermark/python-net/groupdocs.watermark.watermarks/tileoptions/)

@@ -1,5 +1,5 @@
-﻿---
-title: TextWatermark constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,25 +8,33 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#System.String-groupdocs.watermark.watermarks.Font}
 
-Initializes a new instance of the [`TextWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark) class with a specified text and a font.
+## __init__ {#text-font}
 
-
+Initializes a new instance of the TextWatermark class with a specified text and a font.
 
 ```python
 def __init__(self, text, font):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| text | System.String | The text to be used as watermark. |
-| font | groupdocs.watermark.watermarks.Font | The font of the text. |
+| text | `str` | The text to be used as watermark. |
+| font | `Font` | The font of the text. |
 
+### Example
 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.watermarks as gww
+
+with gw.Watermarker("image.png") as watermarker:
+    font = gww.Font("Calibri", 12.0)
+    watermark = gww.TextWatermark("This is a test watermark", font)
+    watermarker.add(watermark)
+    watermarker.save("image.png")
+```
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`TextWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark)
+* class [`TextWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark/)

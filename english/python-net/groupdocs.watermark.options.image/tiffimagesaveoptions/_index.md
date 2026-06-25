@@ -1,4 +1,4 @@
-﻿---
+---
 title: TiffImageSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,35 +8,22 @@ is_root: false
 weight: 90
 ---
 
+
 ## TiffImageSaveOptions class
 
 Represents image saving options when saving a TIFF image.
-
-
-
-**Inheritance:** [`TiffImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions) → 
-[`ImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/imagesaveoptions) → 
-[`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions)
-
-
 
 The TiffImageSaveOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/__init__/#) | Initializes a new instance of the [`TiffImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/__init__/) | Initializes a new [`TiffImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/) instance. |
 
-
-### Properties
-| Property | Description |
+### Fields
+| Field | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/default) | Gets the default value for the [`TiffImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions) class. |
-
-
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/default/) | Gets the default value for the class. |
 
 ### See Also
-* module [`groupdocs.watermark.options.image`](..)
-* class [`ImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/imagesaveoptions)
-* class [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions)
-* class [`TiffImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions)
+* module [`groupdocs.watermark.options.image`](/watermark/python-net/groupdocs.watermark.options.image/)

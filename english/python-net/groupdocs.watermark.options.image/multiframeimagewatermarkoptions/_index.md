@@ -1,4 +1,4 @@
-﻿---
+---
 title: MultiframeImageWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,47 +8,45 @@ is_root: false
 weight: 70
 ---
 
+
 ## MultiframeImageWatermarkOptions class
 
-Represents watermark adding options when adding watermark to a multi-frame image.
+Represents watermark adding options when adding a watermark to a multi-frame image.
 
-
-
-**Inheritance:** [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions) → 
-[`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
-
-
+Learn more:
+- [Add watermarks to images](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
 
 The MultiframeImageWatermarkOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/__init__/#) | Initializes a new instance of the [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/__init__/#int) | Initializes a new instance of the [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions) class<br/>with a specified index of the frame. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/__init__/) | Initializes a new instance of the [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/__init__/#frame_index) | Initializes a new instance of the [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/) class with a specified frame index. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/default) | Gets the default value for the [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions) class. |
-| [frame_index](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frame_index) | Gets or sets the index of frame to add watermark. |
+| [frame_index](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frame_index/) | The index of the frame to add a watermark. |
 
+### Fields
+| Field | Description |
+| :- | :- |
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/default/) | Gets the default value for the class. (inherited from [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/)) |
 
+### Example
 
-### Remarks 
+```python
+from groupdocs.watermark import Watermarker, ImageLoadOptions, TextWatermark, Font, MultiframeImageWatermarkOptions
 
-
-**Learn more:** |
-|
- |
-
-### Example 
-
-
-Add watermark to a particular frame of multi-frame image.
+load_options = ImageLoadOptions()
+with Watermarker(r"C:\test.gif", load_options) as watermarker:
+    watermark = TextWatermark("Test", Font("Arial", 12))
+    options = MultiframeImageWatermarkOptions()
+    options.frame_index = 0
+    watermarker.add(watermark, options)
+    watermarker.save()
+```
 
 ### See Also
-* module [`groupdocs.watermark.options.image`](..)
-* class [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions)
-* class [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
+* module [`groupdocs.watermark.options.image`](/watermark/python-net/groupdocs.watermark.options.image/)

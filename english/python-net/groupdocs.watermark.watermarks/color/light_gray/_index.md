@@ -1,18 +1,17 @@
-﻿---
-title: light_gray property
+---
+title: LIGHT_GRAY field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/light_gray/
 is_root: false
-weight: 810
+weight: 3700
 ---
 
-## light_gray property
 
+## LIGHT_GRAY field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

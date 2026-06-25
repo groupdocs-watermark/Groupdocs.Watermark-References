@@ -1,17 +1,18 @@
-﻿---
+---
 title: rotate_angle property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search/irotatabletwodobject/rotate_angle/
 is_root: false
-weight: 30
+weight: 2020
 ---
+
 
 ## rotate_angle property
 
+The rotate angle of the object in degrees.
 
-Gets the rotate angle of the object in degrees.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def rotate_angle(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search`](../../)
-* class [`IRotatableTwoDObject`](/watermark/python-net/groupdocs.watermark.search/irotatabletwodobject)
+* class [`IRotatableTwoDObject`](/watermark/python-net/groupdocs.watermark.search/irotatabletwodobject/)

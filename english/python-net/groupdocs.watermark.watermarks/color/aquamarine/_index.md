@@ -1,18 +1,17 @@
-﻿---
-title: aquamarine property
+---
+title: AQUAMARINE field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/aquamarine/
 is_root: false
-weight: 130
+weight: 3060
 ---
 
-## aquamarine property
 
+## AQUAMARINE field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

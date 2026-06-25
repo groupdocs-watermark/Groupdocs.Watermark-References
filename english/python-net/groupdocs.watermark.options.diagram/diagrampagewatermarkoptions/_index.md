@@ -1,4 +1,4 @@
-﻿---
+---
 title: DiagramPageWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,49 +8,45 @@ is_root: false
 weight: 20
 ---
 
+
 ## DiagramPageWatermarkOptions class
 
-Represents watermark adding options when adding shape watermark to a particular page of a Visio document.
+Represents watermark adding options when adding a shape watermark to a particular page of a Visio document.
 
-
-
-**Inheritance:** [`DiagramPageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions) → 
-[`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions) → 
-[`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
-
-
+Learn more: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents
 
 The DiagramPageWatermarkOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/__init__/#) | Initializes a new instance of the [`DiagramPageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions) class. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/__init__/) | Initializes a new instance of the [`DiagramPageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/default) | Gets the default value for the [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions) class. |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/is_locked) | Gets or sets a value indicating whether an editing of the shape in Visio is forbidden. |
-| [page_index](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/page_index) | Gets or sets the page index to add watermark to. |
+| [page_index](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/page_index/) | The page index to add watermark to. |
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If true, shape editing is forbidden. (inherited from [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/)) |
 
+### Fields
+| Field | Description |
+| :- | :- |
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/default/) | Gets the default value for the class. (inherited from [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/)) |
 
+### Example
 
-### Remarks 
+```python
+from groupdocs.watermark import Watermarker, DiagramLoadOptions, TextWatermark, DiagramPageWatermarkOptions, Font
 
-
-**Learn more:** |
-|
- |
-
-### Example 
-
-
-Add a protected watermark to the first page of a Visio document.
+load_options = DiagramLoadOptions()
+with Watermarker(r"D:\test.vsdx", load_options) as watermarker:
+    watermark = TextWatermark("watermark test", Font("Arial", 42))
+    options = DiagramPageWatermarkOptions()
+    options.is_locked = True
+    options.page_index = 0
+    watermarker.add(watermark, options)
+    watermarker.save()
+```
 
 ### See Also
-* module [`groupdocs.watermark.options.diagram`](..)
-* class [`DiagramPageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions)
-* class [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions)
-* class [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
+* module [`groupdocs.watermark.options.diagram`](/watermark/python-net/groupdocs.watermark.options.diagram/)

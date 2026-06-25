@@ -1,18 +1,17 @@
-﻿---
-title: indigo property
+---
+title: INDIGO field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/indigo/
 is_root: false
-weight: 690
+weight: 3590
 ---
 
-## indigo property
 
+## INDIGO field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

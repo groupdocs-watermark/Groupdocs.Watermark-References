@@ -1,19 +1,24 @@
-﻿---
+---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfxform/x/
 is_root: false
-weight: 100
+weight: 2040
 ---
+
 
 ## x property
 
+The x-coordinate of the object.
 
-Gets the horizontal offset of this [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject) from page left border in points.
+### Definition:
+```python
+@property
+def x(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.pdf`](../../)
-* class [`PdfXForm`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxform)
-* class [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject)
+* class [`PdfXForm`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxform/)

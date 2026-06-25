@@ -1,0 +1,20 @@
+---
+title: TEXT_DEFLATE field
+second_title: GroupDocs.Watermark for Python via .NET API References
+description: 
+type: docs
+url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate/
+is_root: false
+weight: 4610
+---
+
+
+## TEXT_DEFLATE field
+
+Built-in auto shape type.
+
+### Value
+`161`
+
+### See Also
+* class [`SpreadsheetAutoShapeType`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/)

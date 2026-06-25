@@ -1,39 +1,34 @@
-﻿---
+---
 title: OfficeLineFormat class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelineformat/
 is_root: false
-weight: 40
+weight: 70
 ---
+
 
 ## OfficeLineFormat class
 
 Represents a shape line format.
-
-
 
 The OfficeLineFormat type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.contents/officelineformat/__init__/#) | Initializes a new instance of the [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat) class. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.contents/officelineformat/__init__/) | Initializes a new instance of the [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [weight](/watermark/python-net/groupdocs.watermark.contents/officelineformat/weight) | Gets or sets the brush thickness that strokes the path of a shape. |
-| [color](/watermark/python-net/groupdocs.watermark.contents/officelineformat/color) | Gets or sets the color of the line. |
-| [opacity](/watermark/python-net/groupdocs.watermark.contents/officelineformat/opacity) | Gets or sets the line opacity. |
-| [enabled](/watermark/python-net/groupdocs.watermark.contents/officelineformat/enabled) | Gets or sets a value indicating whether a shape will be stroked. |
-| [dash_style](/watermark/python-net/groupdocs.watermark.contents/officelineformat/dash_style) | Gets or sets the dot and dash pattern for a line. |
-| [line_style](/watermark/python-net/groupdocs.watermark.contents/officelineformat/line_style) | Gets or sets the line style. |
-
-
+| [color](/watermark/python-net/groupdocs.watermark.contents/officelineformat/color/) | The color of the line. |
+| [dash_style](/watermark/python-net/groupdocs.watermark.contents/officelineformat/dash_style/) | The dot and dash pattern for a line. |
+| [enabled](/watermark/python-net/groupdocs.watermark.contents/officelineformat/enabled/) | The enabled flag indicates whether a shape will be stroked. The default value is False. |
+| [line_style](/watermark/python-net/groupdocs.watermark.contents/officelineformat/line_style/) | The line style. The default value is `OfficeLineStyle.single`. |
+| [opacity](/watermark/python-net/groupdocs.watermark.contents/officelineformat/opacity/) | The line opacity. |
+| [weight](/watermark/python-net/groupdocs.watermark.contents/officelineformat/weight/) | The line thickness in points that strokes the path of a shape. The default value is 0.75. |
 
 ### See Also
-* module [`groupdocs.watermark.contents`](..)
-* class [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat)
+* module [`groupdocs.watermark.contents`](/watermark/python-net/groupdocs.watermark.contents/)

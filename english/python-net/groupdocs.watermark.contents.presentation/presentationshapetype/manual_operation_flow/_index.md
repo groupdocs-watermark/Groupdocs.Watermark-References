@@ -1,0 +1,20 @@
+---
+title: MANUAL_OPERATION_FLOW field
+second_title: GroupDocs.Watermark for Python via .NET API References
+description: 
+type: docs
+url: /python-net/groupdocs.watermark.contents.presentation/presentationshapetype/manual_operation_flow/
+is_root: false
+weight: 4430
+---
+
+
+## MANUAL_OPERATION_FLOW field
+
+Built-in shape geometry preset type.
+
+### Value
+`142`
+
+### See Also
+* class [`PresentationShapeType`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/)

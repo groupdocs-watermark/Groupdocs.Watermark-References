@@ -1,33 +1,27 @@
-﻿---
+---
 title: add method
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailattachmentcollection/add/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## add {#bytes-System.String}
 
-Adds an attachment to the [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent).
+## add {#file_content-name}
 
-
+Adds an attachment to the EmailContent.
 
 ```python
 def add(self, file_content, name):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_content | bytes | The content of the file to be attached. |
-| name | System.String | The name of the file. |
-
-
+| file_content | `list[int]` | The content of the file to be attached. |
+| name | `str` | The name of the file. |
 
 ### See Also
-* module [`groupdocs.watermark.contents.email`](../../)
-* class [`EmailAttachmentCollection`](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentcollection)
-* class [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent)
+* class [`EmailAttachmentCollection`](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentcollection/)

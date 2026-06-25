@@ -1,5 +1,5 @@
-﻿---
-title: WatermarkPosition enumeration
+---
+title: WatermarkPosition class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,22 +8,22 @@ is_root: false
 weight: 50
 ---
 
-## WatermarkPosition enumeration
 
-Defines watermark position in the document layout
-
-
+## WatermarkPosition class
 
 The WatermarkPosition type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| DEFAULT | The Watermark is placed in the document body |
-| HEADER_FOOTER | The Watermark is placed in the document header or footer |
-| BACKGROUND | The watermark is placed as the background of the document |
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.watermarks.results/watermarkposition/default/) | The Watermark is placed in the document body |
+| [HEADER_FOOTER](/watermark/python-net/groupdocs.watermark.watermarks.results/watermarkposition/header_footer/) | The Watermark is placed in the document header or footer |
+| [BACKGROUND](/watermark/python-net/groupdocs.watermark.watermarks.results/watermarkposition/background/) | The watermark is placed as the background of the document |
 
+### Guides
+Task guides that use `WatermarkPosition`:
 
+* [Result of added watermarks](/watermark/python-net/guides/result-of-added-watermarks/)
 
 ### See Also
-* module [`groupdocs.watermark.watermarks.results`](..)
+* module [`groupdocs.watermark.watermarks.results`](/watermark/python-net/groupdocs.watermark.watermarks.results/)

@@ -1,20 +1,17 @@
-﻿---
-title: VSDM property
+---
+title: VSDM field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/vsdm/
 is_root: false
-weight: 460
+weight: 3070
 ---
 
-## VSDM property
 
+## VSDM field
 
-Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros.
-Learn more about this file format
-[here](https://wiki.fileformat.com/image/vsdm/).
+Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

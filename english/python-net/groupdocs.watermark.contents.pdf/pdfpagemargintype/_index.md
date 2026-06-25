@@ -1,29 +1,24 @@
-﻿---
-title: PdfPageMarginType enumeration
+---
+title: PdfPageMarginType class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfpagemargintype/
 is_root: false
-weight: 270
+weight: 190
 ---
 
-## PdfPageMarginType enumeration
 
-Represents pdf crop margins to be used during watermark adding.
-
-
+## PdfPageMarginType class
 
 The PdfPageMarginType type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| BLEED_BOX | Pdf BleedBox is used as watermarking area. |
-| TRIM_BOX | Pdf TrimBox is used as watermarking area. |
-| ART_BOX | Pdf ArtBox is used as watermarking area. |
-
-
+| [BLEED_BOX](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfpagemargintype/bleed_box/) | Pdf BleedBox is used as watermarking area. |
+| [TRIM_BOX](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfpagemargintype/trim_box/) | Pdf TrimBox is used as watermarking area. |
+| [ART_BOX](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfpagemargintype/art_box/) | Pdf ArtBox is used as watermarking area. |
 
 ### See Also
-* module [`groupdocs.watermark.contents.pdf`](..)
+* module [`groupdocs.watermark.contents.pdf`](/watermark/python-net/groupdocs.watermark.contents.pdf/)

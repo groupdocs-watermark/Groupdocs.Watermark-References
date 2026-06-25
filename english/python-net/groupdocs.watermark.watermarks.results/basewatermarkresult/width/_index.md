@@ -1,17 +1,18 @@
-﻿---
+---
 title: width property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/width/
 is_root: false
-weight: 120
+weight: 2100
 ---
+
 
 ## width property
 
+The width of the watermark.
 
-Specifies width of watermark.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def width(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.watermarks.results`](../../)
-* class [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult)
+* class [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)

@@ -1,5 +1,5 @@
-﻿---
-title: TextWatermarkResult constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,25 +8,21 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#System.String}
 
-Initialize TextWatermarkResult object with watermark identifier that was obtained after search process.
-This unique identifier is used to find additional properties for this watermark from document watermark information layer.
+## __init__ {#watermark_id}
 
+Initializes a TextWatermarkResult object with the watermark identifier obtained after a search process.
 
+This unique identifier is used to find additional properties for this watermark from the document watermark information layer.
 
 ```python
 def __init__(self, watermark_id):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| watermark_id | System.String | Unique watermark identifier obtained by sign or search method. |
-
-
+| watermark_id | `str` | Unique watermark identifier obtained by sign or search method. |
 
 ### See Also
-* module [`groupdocs.watermark.watermarks.results`](../../)
-* class [`TextWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult)
+* class [`TextWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: SpreadsheetShapeSettings class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,35 +8,24 @@ is_root: false
 weight: 70
 ---
 
+
 ## SpreadsheetShapeSettings class
 
 Represents settings that can be applied to a shape watermark for an Excel document.
-
-
-
-**Inheritance:** [`SpreadsheetShapeSettings`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings) → 
-[`OfficeShapeSettings`](/watermark/python-net/groupdocs.watermark.contents/officeshapesettings)
-
-
 
 The SpreadsheetShapeSettings type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/__init__/#) | Initializes a new instance of the [`SpreadsheetShapeSettings`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings) class. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/__init__/) | Initializes a new instance of the [`SpreadsheetShapeSettings`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [name](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/name) | Gets or sets the name a shape. |
-| [alternative_text](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/alternative_text) | Gets or sets the descriptive (alternative) text that will be associated with a shape. |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/is_locked) | Gets or sets a value indicating whether an editing of the shape in Excel is forbidden. |
-
-
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/is_locked/) | The shape editing lock state for Excel. If True, shape editing is forbidden; by default False, the shape can be edited. |
+| [alternative_text](/watermark/python-net/groupdocs.watermark.contents/officeshapesettings/alternative_text/) | The descriptive (alternative) text that will be associated with a shape. (inherited from [`OfficeShapeSettings`](/watermark/python-net/groupdocs.watermark.contents/officeshapesettings/)) |
+| [name](/watermark/python-net/groupdocs.watermark.contents/officeshapesettings/name/) | The name of the shape. (inherited from [`OfficeShapeSettings`](/watermark/python-net/groupdocs.watermark.contents/officeshapesettings/)) |
 
 ### See Also
-* module [`groupdocs.watermark.options.spreadsheet`](..)
-* class [`OfficeShapeSettings`](/watermark/python-net/groupdocs.watermark.contents/officeshapesettings)
-* class [`SpreadsheetShapeSettings`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings)
+* module [`groupdocs.watermark.options.spreadsheet`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/)

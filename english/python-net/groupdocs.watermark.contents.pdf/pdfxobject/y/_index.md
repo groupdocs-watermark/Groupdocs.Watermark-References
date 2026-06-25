@@ -1,17 +1,20 @@
-﻿---
+---
 title: y property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfxobject/y/
 is_root: false
-weight: 110
+weight: 2060
 ---
+
 
 ## y property
 
+The vertical offset of this [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/) from the page bottom border in points.
 
-Gets the vertical offset of this [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject) from page bottom border in points.
+The y-coordinate of this [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/).
+
 ### Definition:
 ```python
 @property
@@ -20,5 +23,4 @@ def y(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.pdf`](../../)
-* class [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject)
+* class [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/)

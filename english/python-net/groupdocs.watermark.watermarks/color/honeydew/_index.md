@@ -1,18 +1,17 @@
-﻿---
-title: honeydew property
+---
+title: HONEYDEW field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/honeydew/
 is_root: false
-weight: 660
+weight: 3560
 ---
 
-## honeydew property
 
+## HONEYDEW field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

@@ -1,39 +1,38 @@
-﻿---
+---
 title: get_document_info method
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/get_document_info/
 is_root: false
-weight: 40
+weight: 1070
 ---
 
-## get_document_info {#}
 
-Gets the information about the format of the loaded document.
+## get_document_info
 
+Gets information about the format of the loaded document.
 
-### Returns 
-
-
-The [`IDocumentInfo`](/watermark/python-net/groupdocs.watermark.common/idocumentinfo) instance that contains detected information.
-
+Learn more about getting the document information.
 
 ```python
 def get_document_info(self):
     ...
 ```
 
+**Returns:** IDocumentInfo: An instance that contains detected information.
 
+### Example
 
-### Example 
+```python
+import groupdocs.watermark as gw
 
-
-Get information about a document of any supported type.
-
-
+with gw.Watermarker("source.docx") as watermarker:
+    info = watermarker.get_document_info()
+    print("File type:", info.file_type)
+    print("Number of pages:", info.page_count)
+    print("Document size:", info.size)
+```
 
 ### See Also
-* module [`groupdocs.watermark`](../../)
-* class [`IDocumentInfo`](/watermark/python-net/groupdocs.watermark.common/idocumentinfo)
-* class [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker)
+* class [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/)

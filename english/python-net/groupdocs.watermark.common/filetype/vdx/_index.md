@@ -1,19 +1,17 @@
-﻿---
-title: VDX property
+---
+title: VDX field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/vdx/
 is_root: false
-weight: 440
+weight: 3150
 ---
 
-## VDX property
 
+## VDX field
 
-Any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension.
-Learn more about this file format [here](https://wiki.fileformat.com/image/vdx/).
+Any drawing or chart created in Microsoft Visio, but saved in XML format have .VDX extension. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

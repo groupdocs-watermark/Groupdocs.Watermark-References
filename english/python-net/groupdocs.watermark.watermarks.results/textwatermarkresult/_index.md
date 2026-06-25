@@ -1,4 +1,4 @@
-﻿---
+---
 title: TextWatermarkResult class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,43 +8,32 @@ is_root: false
 weight: 40
 ---
 
+
 ## TextWatermarkResult class
 
 Contains Text watermark properties.
-
-
-
-**Inheritance:** [`TextWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult) → 
-[`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult)
-
-
 
 The TextWatermarkResult type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/__init__/#System.String) | Initialize TextWatermarkResult object with watermark identifier that was obtained after search process.<br/>This unique identifier is used to find additional properties for this watermark from document watermark information layer. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/__init__/#watermark_id) | Initializes a TextWatermarkResult object with the watermark identifier obtained after a search process. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [watermark_type](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/watermark_type) | Specifies the type of watermark. |
-| [watermark_position](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/watermark_position) | Specifies watermark position |
-| [page_number](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/page_number) | Specifies the page watermark was placed on. |
-| [watermark_id](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/watermark_id) | Unique watermark identifier to modify watermark in the document over Update or Delete methods.<br/>This property will be set automatically after Add method being called.<br/>If this property was saved before it can be set manually to manipulate the watermark. |
-| [created_on](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/created_on) | Get or set the watermark creation date. |
-| [modified_on](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/modified_on) | Get or set the watermark modification date. |
-| [top](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/top) | Specifies top position of watermark. |
-| [left](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/left) | Specifies left position of watermark. |
-| [width](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/width) | Specifies width of watermark. |
-| [height](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/height) | Specifies height of watermark. |
-| [text](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/text) | Specifies text in watermark. |
-
-
+| [text](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/text/) | The text in the watermark. |
+| [created_on](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/created_on/) | The creation date of the watermark. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [height](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/height/) | The height of the watermark. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [left](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/left/) | The left position of the watermark. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [modified_on](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/modified_on/) | The watermark modification date. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [page_number](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/page_number/) | The page number where the watermark was placed. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [top](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/top/) | The top position of the watermark. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [watermark_id](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_id/) | The unique identifier of the watermark, used to modify the watermark via Update or Delete methods. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [watermark_position](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_position/) | The watermark position. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [watermark_type](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_type/) | The type of watermark. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [width](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/width/) | The width of the watermark. (inherited from [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
 
 ### See Also
-* module [`groupdocs.watermark.watermarks.results`](..)
-* class [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult)
-* class [`TextWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult)
+* module [`groupdocs.watermark.watermarks.results`](/watermark/python-net/groupdocs.watermark.watermarks.results/)

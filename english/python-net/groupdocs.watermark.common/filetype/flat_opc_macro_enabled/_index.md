@@ -1,19 +1,17 @@
-﻿---
-title: FLAT_OPC_MACRO_ENABLED property
+---
+title: FLAT_OPC_MACRO_ENABLED field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/flat_opc_macro_enabled/
 is_root: false
-weight: 160
+weight: 3560
 ---
 
-## FLAT_OPC_MACRO_ENABLED property
 
+## FLAT_OPC_MACRO_ENABLED field
 
-Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package (.xml).
-Learn more about this file format [here](https://en.wikipedia.org/wiki/Office_Open_XML).
+Office Open XML WordprocessingML Macro-Enabled Document stored in a flat XML file instead of a ZIP package (.xml). Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

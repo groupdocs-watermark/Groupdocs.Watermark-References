@@ -1,18 +1,18 @@
-﻿---
+---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/x/
 is_root: false
-weight: 120
+weight: 2070
 ---
+
 
 ## x property
 
+The x-coordinate of this [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/), representing the horizontal offset from the worksheet left border in points.
 
-Gets the horizontal offset of this [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark) from
-worksheet left border in points.
 ### Definition:
 ```python
 @property
@@ -21,5 +21,4 @@ def x(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark)
+* class [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/)

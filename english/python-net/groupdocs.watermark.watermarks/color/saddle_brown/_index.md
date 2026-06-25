@@ -1,18 +1,17 @@
-﻿---
-title: saddle_brown property
+---
+title: SADDLE_BROWN field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/saddle_brown/
 is_root: false
-weight: 1310
+weight: 4190
 ---
 
-## saddle_brown property
 
+## SADDLE_BROWN field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

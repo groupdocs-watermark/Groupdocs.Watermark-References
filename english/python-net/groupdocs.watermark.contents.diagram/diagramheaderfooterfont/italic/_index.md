@@ -1,17 +1,20 @@
-﻿---
+---
 title: italic property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/italic/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## italic property
 
+The font is italic.
 
-Gets or sets a value indicating whether the font is italic.
+True if the font is italic; otherwise, False.
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def italic(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.diagram`](../../)
-* class [`DiagramHeaderFooterFont`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont)
+* class [`DiagramHeaderFooterFont`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/)

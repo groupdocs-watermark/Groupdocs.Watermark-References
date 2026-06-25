@@ -1,19 +1,24 @@
-﻿---
+---
 title: rotate_angle property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfxform/rotate_angle/
 is_root: false
-weight: 70
+weight: 2020
 ---
+
 
 ## rotate_angle property
 
+The rotate angle of the object in degrees.
 
-Gets the rotate angle of this [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject) in degrees.
+### Definition:
+```python
+@property
+def rotate_angle(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.pdf`](../../)
-* class [`PdfXForm`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxform)
-* class [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject)
+* class [`PdfXForm`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxform/)

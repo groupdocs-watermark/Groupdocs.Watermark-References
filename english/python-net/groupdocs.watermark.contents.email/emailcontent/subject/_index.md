@@ -1,17 +1,18 @@
-﻿---
+---
 title: subject property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailcontent/subject/
 is_root: false
-weight: 130
+weight: 2090
 ---
+
 
 ## subject property
 
+The subject of the email message.
 
-Gets or sets the subject of the email message.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def subject(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.email`](../../)
-* class [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent)
+* class [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/)

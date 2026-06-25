@@ -1,36 +1,43 @@
-﻿---
+---
 title: equals method
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/equals/
 is_root: false
-weight: 20
+weight: 1010
 ---
 
-## equals {#groupdocs.watermark.watermarks.Color}
 
-Determines whether the specified [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color) structure is equivalent to this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color) structure.
+## equals {#other}
 
-
-### Returns 
-
-
-True if other is equivalent to this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color) structure; otherwise, false.
-
+Determines whether the specified [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure is equivalent to this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure.
 
 ```python
 def equals(self, other):
     ...
 ```
 
+| Parameter | Type | Description |
+| :- | :- | :- |
+| other | `Color` | The color to test. |
+
+**Returns:** bool: True if `other` is equivalent to this `Color` structure; otherwise, False.
+
+## equals {#obj}
+
+Determines whether the specified object is a [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure and is equivalent to this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure.
+
+```python
+def equals(self, obj):
+    ...
+```
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| other | groupdocs.watermark.watermarks.Color | The color to test. |
+| obj | `Any` | The object to test. |
 
-
+**Returns:** True if object is a `Color` structure equivalent to this `Color` structure; otherwise, False.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

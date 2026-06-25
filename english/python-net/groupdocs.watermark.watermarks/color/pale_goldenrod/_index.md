@@ -1,18 +1,17 @@
-﻿---
-title: pale_goldenrod property
+---
+title: PALE_GOLDENROD field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/pale_goldenrod/
 is_root: false
-weight: 1160
+weight: 4050
 ---
 
-## pale_goldenrod property
 
+## PALE_GOLDENROD field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

@@ -1,18 +1,17 @@
-﻿---
-title: cornflower_blue property
+---
+title: CORNFLOWER_BLUE field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/cornflower_blue/
 is_root: false
-weight: 280
+weight: 3200
 ---
 
-## cornflower_blue property
 
+## CORNFLOWER_BLUE field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

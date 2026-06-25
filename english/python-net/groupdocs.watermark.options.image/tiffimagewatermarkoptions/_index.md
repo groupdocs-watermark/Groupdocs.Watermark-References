@@ -1,4 +1,4 @@
-﻿---
+---
 title: TiffImageWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,49 +8,47 @@ is_root: false
 weight: 100
 ---
 
+
 ## TiffImageWatermarkOptions class
 
-Represents watermark adding options when adding watermark to a TIFF image.
+Represents watermark adding options when adding a watermark to a TIFF image.
 
-
-
-**Inheritance:** [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions) → 
-[`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions) → 
-[`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
-
-
+Learn more:
+- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images
 
 The TiffImageWatermarkOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/#) | Initializes a new instance of the [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/#int) | Initializes a new instance of the [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions) class<br/>with a specified index of the frame. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/) | Initializes a new instance of the [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/#frame_index) | Initializes a new instance of the [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) class with a specified frame index. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/default) | Gets the default value for the [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions) class. |
-| [frame_index](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/frame_index) | Gets or sets the index of frame to add watermark. |
+| [frame_index](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frame_index/) | The index of the frame to add a watermark. (inherited from [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/)) |
 
+### Fields
+| Field | Description |
+| :- | :- |
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/default/) | Gets the default value for the class. (inherited from [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/)) |
 
+### Example
 
-### Remarks 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.watermarks as gww
+import groupdocs.watermark.options.image as gwo_img
 
-
-**Learn more:** |
-|
- |
-
-### Example 
-
-
-Add watermark to a particular frame of TIFF image.
+load_options = gw.TiffImageLoadOptions()
+with gw.Watermarker("image.tiff", load_options) as watermarker:
+    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
+    options = gwo_img.TiffImageWatermarkOptions()
+    options.frame_index = 0
+    watermarker.add(watermark, options)
+    watermarker.save("image.tiff")
+```
 
 ### See Also
-* module [`groupdocs.watermark.options.image`](..)
-* class [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions)
-* class [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions)
-* class [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
+* module [`groupdocs.watermark.options.image`](/watermark/python-net/groupdocs.watermark.options.image/)

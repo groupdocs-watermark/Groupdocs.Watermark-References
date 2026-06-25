@@ -1,5 +1,5 @@
-﻿---
-title: SpreadsheetWatermarkHeaderFooterOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,24 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`SpreadsheetWatermarkHeaderFooterOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions) class.
+## __init__
 
-
+Initializes a new instance of the SpreadsheetWatermarkHeaderFooterOptions class.
 
 ```python
 def __init__(self):
     ...
 ```
 
+### Example
 
+```python
+import groupdocs.watermark.options.spreadsheet as gwo_xls
 
-
+options = gwo_xls.SpreadsheetWatermarkHeaderFooterOptions()
+options.worksheet_index = 0
+```
 
 ### See Also
-* module [`groupdocs.watermark.options.spreadsheet`](../../)
-* class [`SpreadsheetWatermarkHeaderFooterOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions)
+* class [`SpreadsheetWatermarkHeaderFooterOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/)

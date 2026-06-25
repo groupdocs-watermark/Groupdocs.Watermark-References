@@ -1,19 +1,17 @@
-﻿---
-title: GIF property
+---
+title: GIF field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/gif/
 is_root: false
-weight: 190
+weight: 3250
 ---
 
-## GIF property
 
+## GIF field
 
-A GIF or Graphical Interchange Format is a type of highly compressed image.
-Learn more about this file format [here](https://wiki.fileformat.com/image/gif/).
+A GIF or Graphical Interchange Format is a type of highly compressed image. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

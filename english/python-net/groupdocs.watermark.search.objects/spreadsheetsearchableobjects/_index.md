@@ -1,5 +1,5 @@
-﻿---
-title: SpreadsheetSearchableObjects enumeration
+---
+title: SpreadsheetSearchableObjects class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,28 +8,23 @@ is_root: false
 weight: 60
 ---
 
-## SpreadsheetSearchableObjects enumeration
 
-Specifies flags representing Excel content objects that are to be included in a watermark search.
-
-
+## SpreadsheetSearchableObjects class
 
 The SpreadsheetSearchableObjects type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| NONE | Specifies no search objects. |
-| SHAPES | Search in shapes. |
-| CHARTS_BACKGROUNDS | Search in charts backgrounds. |
-| HEADERS_FOOTERS | Search in headers and footers. |
-| WORKSHEET_BACKGROUNDS | Search in worksheets backgrounds. |
-| CELLS | Search in cells. |
-| HYPERLINKS | Search in hyperlinks. |
-| ATTACHED_IMAGES | Search in attached images. |
-| ALL | Search in all content objects. |
-
-
+| [NONE](/watermark/python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/none/) | Specifies no search objects. |
+| [SHAPES](/watermark/python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/shapes/) | Search in shapes. |
+| [CHARTS_BACKGROUNDS](/watermark/python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/charts_backgrounds/) | Search in charts backgrounds. |
+| [HEADERS_FOOTERS](/watermark/python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/headers_footers/) | Search in headers and footers. |
+| [WORKSHEET_BACKGROUNDS](/watermark/python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/worksheet_backgrounds/) | Search in worksheets backgrounds. |
+| [CELLS](/watermark/python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/cells/) | Search in cells. |
+| [HYPERLINKS](/watermark/python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/hyperlinks/) | Search in hyperlinks. |
+| [ATTACHED_IMAGES](/watermark/python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/attached_images/) | Search in attached images. |
+| [ALL](/watermark/python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/all/) | Search in all content objects. |
 
 ### See Also
-* module [`groupdocs.watermark.search.objects`](..)
+* module [`groupdocs.watermark.search.objects`](/watermark/python-net/groupdocs.watermark.search.objects/)

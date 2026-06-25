@@ -1,4 +1,4 @@
-﻿---
+---
 title: EmailPreviewOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,32 +8,34 @@ is_root: false
 weight: 20
 ---
 
+
 ## EmailPreviewOptions class
 
-Provides options to sets requirements and stream delegates for preview generation of Email document.
-
-
-
-**Inheritance:** [`EmailPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions) → 
-[`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions)
-
-
+Provides options to set requirements and stream delegates for preview generation of an email document.
 
 The EmailPreviewOptions type exposes the following members:
+
+### Constructors
+| Constructor | Description |
+| :- | :- |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/__init__/#create_page_stream) | Initializes a new EmailPreviewOptions instance that closes the output stream. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new EmailPreviewOptions instance that returns the output stream to the client for further use. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [width](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/width) | Gets or sets the page preview width. |
-| [height](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/height) | Gets or sets the page preview height. |
-| [page_numbers](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/page_numbers) | Gets or sets an array of page numbers to generate previews. |
-| [preview_format](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/preview_format) | Gets or sets the preview image format. |
-| [resolution](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/resolution) | Gets or sets the resolution for the generated images, in dots per inch. |
-| [DEFAULT_RESOLUTION](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/default_resolution) | Default resolution in dots per inch. |
+| [resolution](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/resolution/) | The resolution for the generated images, in dots per inch. |
+| [create_page_stream](/watermark/python-net/groupdocs.watermark.options/previewoptions/create_page_stream/) | The page stream creation delegate. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [height](/watermark/python-net/groupdocs.watermark.options/previewoptions/height/) | The page preview height. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [page_numbers](/watermark/python-net/groupdocs.watermark.options/previewoptions/page_numbers/) | The array of page numbers to generate previews. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [preview_format](/watermark/python-net/groupdocs.watermark.options/previewoptions/preview_format/) | The preview image format. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [release_page_stream](/watermark/python-net/groupdocs.watermark.options/previewoptions/release_page_stream/) | The page preview completion delegate. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [width](/watermark/python-net/groupdocs.watermark.options/previewoptions/width/) | The page preview width. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
 
-
+### Fields
+| Field | Description |
+| :- | :- |
+| [DEFAULT_RESOLUTION](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/default_resolution/) | Default resolution in dots per inch. |
 
 ### See Also
-* module [`groupdocs.watermark.options.email`](..)
-* class [`EmailPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions)
-* class [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions)
+* module [`groupdocs.watermark.options.email`](/watermark/python-net/groupdocs.watermark.options.email/)

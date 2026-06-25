@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresentationSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,33 +8,22 @@ is_root: false
 weight: 50
 ---
 
+
 ## PresentationSaveOptions class
 
 Represents document saving options when saving a Presentation document.
-
-
-
-**Inheritance:** [`PresentationSaveOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationsaveoptions) → 
-[`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions)
-
-
 
 The PresentationSaveOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.presentation/presentationsaveoptions/__init__/#) | Initializes a new instance of the [`PresentationSaveOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationsaveoptions) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.presentation/presentationsaveoptions/__init__/) | Initializes a new PresentationSaveOptions instance. |
 
-
-### Properties
-| Property | Description |
+### Fields
+| Field | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.presentation/presentationsaveoptions/default) | Gets the default value for the [`PresentationSaveOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationsaveoptions) class. |
-
-
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options.presentation/presentationsaveoptions/default/) | Gets the default value for the class. |
 
 ### See Also
-* module [`groupdocs.watermark.options.presentation`](..)
-* class [`PresentationSaveOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationsaveoptions)
-* class [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions)
+* module [`groupdocs.watermark.options.presentation`](/watermark/python-net/groupdocs.watermark.options.presentation/)

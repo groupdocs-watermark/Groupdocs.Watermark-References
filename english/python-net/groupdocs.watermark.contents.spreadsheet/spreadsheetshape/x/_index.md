@@ -1,17 +1,18 @@
-﻿---
+---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/x/
 is_root: false
-weight: 180
+weight: 2160
 ---
+
 
 ## x property
 
+The horizontal offset of this SpreadsheetShape from worksheet left border in points. The x-coordinate of this SpreadsheetShape.
 
-Gets or sets the horizontal offset of this [`SpreadsheetShape`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape) from worksheet left border in points.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def x(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.spreadsheet`](../../)
-* class [`SpreadsheetShape`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape)
+* class [`SpreadsheetShape`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/)

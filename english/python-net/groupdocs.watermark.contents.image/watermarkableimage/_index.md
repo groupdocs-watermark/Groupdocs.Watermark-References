@@ -1,4 +1,4 @@
-﻿---
+---
 title: WatermarkableImage class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,51 +8,45 @@ is_root: false
 weight: 90
 ---
 
+
 ## WatermarkableImage class
 
 Represents an image inside a document.
 
-
-
-**Inheritance:** [`WatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage) → 
-[`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-
-
+Learn more:
+- Adding watermark to images inside a document (https://docs.groupdocs.com/display/watermarknet/Adding+watermark+to+images+inside+a+document)
 
 The WatermarkableImage type exposes the following members:
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [height](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/height) | Gets the height of this [`WatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage) in pixels. |
-| [width](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/width) | Gets the width of this [`WatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage) in pixels. |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/find_images/#groupdocs.watermark.search.searchcriteria.ImageSearchCriteria) | Finds images according to the specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/find_images/#) | Finds all images in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/search/#groupdocs.watermark.search.searchcriteria.SearchCriteria) | Finds possible watermarks according to specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/search/#) | Finds all possible watermarks in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [add](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/add/#groupdocs.watermark.Watermark) | Adds a watermark to this [`WatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage).<br/>This method assumes that watermark offset and size are measured in pixels (if they are assigned). |
-| [get_bytes](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/get_bytes/#) | Gets the image as byte array. |
+| [add](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/add/#watermark) | Adds a watermark to this [`WatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/). Assumes that watermark offset and size are measured in pixels (if they are assigned). |
+| [add_watermark](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/add_watermark/) |  |
+| [get_bytes](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/get_bytes/) | Gets the image as a byte array. |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
+### Properties
+| Property | Description |
+| :- | :- |
+| [height](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/height/) | The height of this WatermarkableImage in pixels. |
+| [width](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/width/) | The width of this WatermarkableImage in pixels. |
 
+### Example
 
-### Remarks 
+```python
+from groupdocs.watermark import Watermarker, TextWatermark, Font
 
-
-**Learn more:** |
-|
- |
-
-### Example 
-
-
-Add watermark to all images inside a document of any supported type.
+with Watermarker(r"D:\input.doc") as watermarker:
+    watermark = TextWatermark("DRAFT", Font("Arial", 19))
+    images = watermarker.get_images()
+    for img in images:
+        img.add(watermark)
+    watermarker.save(r"D:\output.doc")
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.image`](..)
-* class [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-* class [`WatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage)
+* module [`groupdocs.watermark.contents.image`](/watermark/python-net/groupdocs.watermark.contents.image/)

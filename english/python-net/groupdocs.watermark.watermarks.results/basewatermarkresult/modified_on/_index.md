@@ -1,17 +1,18 @@
-﻿---
+---
 title: modified_on property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/modified_on/
 is_root: false
-weight: 60
+weight: 2040
 ---
+
 
 ## modified_on property
 
+The watermark modification date.
 
-Get or set the watermark modification date.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def modified_on(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.watermarks.results`](../../)
-* class [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult)
+* class [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)

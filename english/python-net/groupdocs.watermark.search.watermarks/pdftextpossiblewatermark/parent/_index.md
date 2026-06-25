@@ -1,17 +1,18 @@
-﻿---
+---
 title: parent property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/parent/
 is_root: false
-weight: 70
+weight: 2030
 ---
+
 
 ## parent property
 
+The parent of this PdfTextPossibleWatermark.
 
-Gets the parent of this [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark).
 ### Definition:
 ```python
 @property
@@ -20,6 +21,4 @@ def parent(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-* class [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark)
+* class [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/)

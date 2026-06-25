@@ -1,18 +1,17 @@
-﻿---
-title: lavender property
+---
+title: LAVENDER field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/lavender/
 is_root: false
-weight: 730
+weight: 3620
 ---
 
-## lavender property
 
+## LAVENDER field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

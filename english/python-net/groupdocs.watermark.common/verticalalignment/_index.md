@@ -1,38 +1,25 @@
-﻿---
-title: VerticalAlignment enumeration
+---
+title: VerticalAlignment class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/verticalalignment/
 is_root: false
-weight: 90
+weight: 110
 ---
 
-## VerticalAlignment enumeration
 
-Enumeration of possible vertical alignment values.
-
-
+## VerticalAlignment class
 
 The VerticalAlignment type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| NONE | No alignment (use specified position). |
-| TOP | Align to top. |
-| CENTER | Center alignment. |
-| BOTTOM | Align to bottom. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
+| [NONE](/watermark/python-net/groupdocs.watermark.common/verticalalignment/none/) | No alignment (use specified position). |
+| [TOP](/watermark/python-net/groupdocs.watermark.common/verticalalignment/top/) | Align to top. |
+| [CENTER](/watermark/python-net/groupdocs.watermark.common/verticalalignment/center/) | Center alignment. |
+| [BOTTOM](/watermark/python-net/groupdocs.watermark.common/verticalalignment/bottom/) | Align to bottom. |
 
 ### See Also
-* module [`groupdocs.watermark.common`](..)
+* module [`groupdocs.watermark.common`](/watermark/python-net/groupdocs.watermark.common/)

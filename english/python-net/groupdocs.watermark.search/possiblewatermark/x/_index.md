@@ -1,17 +1,18 @@
-﻿---
+---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search/possiblewatermark/x/
 is_root: false
-weight: 120
+weight: 2100
 ---
+
 
 ## x property
 
+The x-coordinate of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/).
 
-Gets the x-coordinate of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark).
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def x(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search`](../../)
-* class [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark)
+* class [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)

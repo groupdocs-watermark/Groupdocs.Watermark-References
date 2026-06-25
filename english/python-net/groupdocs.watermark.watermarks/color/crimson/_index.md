@@ -1,18 +1,17 @@
-﻿---
-title: crimson property
+---
+title: CRIMSON field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/crimson/
 is_root: false
-weight: 300
+weight: 3220
 ---
 
-## crimson property
 
+## CRIMSON field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

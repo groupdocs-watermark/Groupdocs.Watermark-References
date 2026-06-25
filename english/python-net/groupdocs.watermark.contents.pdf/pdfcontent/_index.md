@@ -1,61 +1,61 @@
-﻿---
+---
 title: PdfContent class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfcontent/
 is_root: false
-weight: 70
+weight: 100
 ---
+
 
 ## PdfContent class
 
-Represents a pdf document where a watermark can be placed.
+Represents a PDF document where a watermark can be placed.
 
-
-
-**Inheritance:** [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent) → 
-[`Content`](/watermark/python-net/groupdocs.watermark.contents/content) → 
-[`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-
-
+Learn more:
+- [Add watermarks to PDF documents](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
+- [Existing objects in PDF document](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document)
+- [Rasterize document or page](https://docs.groupdocs.com/display/watermarknet/Rasterize+document+or+page)
+- [Watermarks in PDF document](https://docs.groupdocs.com/display/watermarknet/Watermarks+in+PDF+document)
 
 The PdfContent type exposes the following members:
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [pages](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/pages) | Gets the collection of all pages of this [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent). |
-| [attachments](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/attachments) | Gets the collection of all attachments of this [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent). |
-| [page_margin_type](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/page_margin_type) | Gets or sets pdf page margins to be used during watermark adding. |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/find_images/#groupdocs.watermark.search.searchcriteria.ImageSearchCriteria) | Finds images according to the specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/find_images/#) | Finds all images in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/search/#groupdocs.watermark.search.searchcriteria.SearchCriteria) | Finds possible watermarks according to specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/search/#) | Finds all possible watermarks in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [encrypt](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/encrypt/#System.String) | Encrypts the document using the same password as user password and owner password. |
-| [encrypt](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/encrypt/#System.String-System.String-groupdocs.watermark.contents.pdf.PdfPermissions-groupdocs.watermark.contents.pdf.PdfCryptoAlgorithm) | Encrypts the content. |
-| [decrypt](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/decrypt/#) | Decrypts the content. |
-| [rasterize](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/rasterize/#int-int-groupdocs.watermark.contents.pdf.PdfImageConversionFormat) | Converts all content pages into images. |
+| [decrypt](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/decrypt/) | Decrypts the content. |
+| [encrypt](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/encrypt/#password) | Encrypts the document using the same password for both user and owner. |
+| [encrypt](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/encrypt/#user_password-owner_password-permissions-crypto_algorithm) | Encrypts the content. |
+| [encrypt_file](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/encrypt_file/) |  |
+| [encrypt_string](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/encrypt_string/) |  |
+| [rasterize](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/rasterize/#horizontal_resolution-vertical_resolution-image_format) | Converts all content pages into images. |
+| [rasterize_int32](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/rasterize_int32/) |  |
+| [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
+### Properties
+| Property | Description |
+| :- | :- |
+| [attachments](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/attachments/) | The collection of all attachments of this [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/). |
+| [page_margin_type](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/page_margin_type/) | The PDF page margins to be used during watermark adding. |
+| [pages](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/pages/) | The collection of all pages of this [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/). |
 
+### Example
 
-### Remarks 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.pdf as gwc_pdf
 
-
-**Learn more:** |
-|
- |
- |
- |
- |
+load_options = gw.PdfLoadOptions()
+with gw.Watermarker("document.pdf", load_options) as watermarker:
+    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+    print(pdf_content.pages[0].width)
+    print(pdf_content.pages[0].height)
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.pdf`](..)
-* class [`Content`](/watermark/python-net/groupdocs.watermark.contents/content)
-* class [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-* class [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent)
+* module [`groupdocs.watermark.contents.pdf`](/watermark/python-net/groupdocs.watermark.contents.pdf/)

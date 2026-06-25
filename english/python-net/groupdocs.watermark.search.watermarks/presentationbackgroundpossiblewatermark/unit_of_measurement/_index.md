@@ -1,17 +1,18 @@
-﻿---
+---
 title: unit_of_measurement property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/unit_of_measurement/
 is_root: false
-weight: 100
+weight: 2040
 ---
+
 
 ## unit_of_measurement property
 
+The unit of measurement of this PresentationBackgroundPossibleWatermark.
 
-Gets the unit of measurement of this [`PresentationBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark).
 ### Definition:
 ```python
 @property
@@ -20,6 +21,4 @@ def unit_of_measurement(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`PresentationBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark)
-* class [`UnitOfMeasurement`](/watermark/python-net/groupdocs.watermark/unitofmeasurement)
+* class [`PresentationBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/)

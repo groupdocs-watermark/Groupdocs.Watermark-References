@@ -1,17 +1,18 @@
-﻿---
+---
 title: hyperlink property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/hyperlink/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## hyperlink property
 
+The hyperlink associated with this SpreadsheetChart.
 
-Gets or sets the hyperlink associated with this [`SpreadsheetChart`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart).
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def hyperlink(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.spreadsheet`](../../)
-* class [`SpreadsheetChart`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart)
+* class [`SpreadsheetChart`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/)

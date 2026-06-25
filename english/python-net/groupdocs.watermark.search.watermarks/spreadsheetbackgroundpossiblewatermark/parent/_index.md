@@ -1,17 +1,18 @@
-﻿---
+---
 title: parent property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/parent/
 is_root: false
-weight: 70
+weight: 2020
 ---
+
 
 ## parent property
 
+The parent of this SpreadsheetBackgroundPossibleWatermark.
 
-Gets the parent of this [`SpreadsheetBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark).
 ### Definition:
 ```python
 @property
@@ -20,6 +21,4 @@ def parent(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-* class [`SpreadsheetBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark)
+* class [`SpreadsheetBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/)

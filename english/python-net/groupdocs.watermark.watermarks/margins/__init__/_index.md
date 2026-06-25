@@ -1,5 +1,5 @@
-﻿---
-title: Margins constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,42 +8,32 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`Margins`](/watermark/python-net/groupdocs.watermark.watermarks/margins) class.
+## __init__
 
-
+Initializes a new instance of the [`Margins`](/watermark/python-net/groupdocs.watermark.watermarks/margins/) class.
 
 ```python
 def __init__(self):
     ...
 ```
 
+## __init__ {#margin_type-left-right-top-bottom}
 
-
-
-## __init__ {#groupdocs.watermark.watermarks.MarginType-float-float-float-float}
-
-Initializes a new instance of the [`Margins`](/watermark/python-net/groupdocs.watermark.watermarks/margins) class with the specified type, location and size.
-
-
+Initializes a new instance of the [`Margins`](/watermark/python-net/groupdocs.watermark.watermarks/margins/) class with the specified type, location and size.
 
 ```python
 def __init__(self, margin_type, left, right, top, bottom):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| margin_type | groupdocs.watermark.watermarks.MarginType | The margin type. Specifies how margin values should be interpreted. |
-| left | float | The left margin value. |
-| right | float | The right margin value. |
-| top | float | The top margin value. |
-| bottom | float | The bottom margin value. |
-
-
+| margin_type | `MarginType` | The margin type. Specifies how margin values should be interpreted. |
+| left | `float` | The left margin value. |
+| right | `float` | The right margin value. |
+| top | `float` | The top margin value. |
+| bottom | `float` | The bottom margin value. |
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Margins`](/watermark/python-net/groupdocs.watermark.watermarks/margins)
+* class [`Margins`](/watermark/python-net/groupdocs.watermark.watermarks/margins/)

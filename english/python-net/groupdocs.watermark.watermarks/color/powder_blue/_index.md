@@ -1,18 +1,17 @@
-﻿---
-title: powder_blue property
+---
+title: POWDER_BLUE field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/powder_blue/
 is_root: false
-weight: 1250
+weight: 4140
 ---
 
-## powder_blue property
 
+## POWDER_BLUE field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

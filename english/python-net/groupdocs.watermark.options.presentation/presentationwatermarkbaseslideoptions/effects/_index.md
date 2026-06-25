@@ -1,18 +1,18 @@
-﻿---
+---
 title: effects property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects/
 is_root: false
-weight: 50
+weight: 2020
 ---
+
 
 ## effects property
 
+The effects applied to the watermark, specified as a [`PresentationImageEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationimageeffects/) or [`PresentationTextEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationtexteffects/) instance.
 
-Gets or sets a value of [`PresentationImageEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationimageeffects) or
-[`PresentationTextEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationtexteffects) for effects that should be applied to the watermark.
 ### Definition:
 ```python
 @property
@@ -24,8 +24,4 @@ def effects(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.options.presentation`](../../)
-* class [`IPresentationWatermarkEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/ipresentationwatermarkeffects)
-* class [`PresentationImageEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationimageeffects)
-* class [`PresentationTextEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationtexteffects)
-* class [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions)
+* class [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/)

@@ -1,18 +1,17 @@
-﻿---
-title: teal property
+---
+title: TEAL field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/teal/
 is_root: false
-weight: 1450
+weight: 4330
 ---
 
-## teal property
 
+## TEAL field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresentationContent class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,61 +8,55 @@ is_root: false
 weight: 60
 ---
 
+
 ## PresentationContent class
 
 Represents a PowerPoint document where a watermark can be placed.
 
-
-
-**Inheritance:** [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent) → 
-[`Content`](/watermark/python-net/groupdocs.watermark.contents/content) → 
-[`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-
-
+Learn more:
+- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+presentation+documents
+- https://docs.groupdocs.com/display/watermarknet/Working+with+slide+backgrounds
 
 The PresentationContent type exposes the following members:
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [slide_width](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/slide_width) | Gets the width of a slide in points. |
-| [slide_height](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/slide_height) | Gets the height of a slide in points. |
-| [notes_slide_width](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/notes_slide_width) | Gets the width of a notes slide in points. |
-| [notes_slide_height](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/notes_slide_height) | Gets the height of a notes slide in points. |
-| [slides](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/slides) | Gets the collection of all slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent). |
-| [master_slides](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/master_slides) | Gets the collection of all master slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent). |
-| [layout_slides](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/layout_slides) | Gets the collection of all layout slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent). |
-| [master_notes_slide](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/master_notes_slide) | Gets the master slide for all notes slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent). |
-| [master_handout_slide](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/master_handout_slide) | Gets the master handout slide of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent). |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/find_images/#groupdocs.watermark.search.searchcriteria.ImageSearchCriteria) | Finds images according to the specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/find_images/#) | Finds all images in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/search/#groupdocs.watermark.search.searchcriteria.SearchCriteria) | Finds possible watermarks according to specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/search/#) | Finds all possible watermarks in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [encrypt](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/encrypt/#System.String) | Encrypts the document. |
-| [decrypt](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/decrypt/#) | Decrypts the document. |
+| [decrypt](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/decrypt/) | Decrypts the document. |
+| [encrypt](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/encrypt/#password) | Encrypts the document. |
+| [encrypt_file](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/encrypt_file/) |  |
+| [encrypt_string](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/encrypt_string/) |  |
+| [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
+### Properties
+| Property | Description |
+| :- | :- |
+| [layout_slides](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/layout_slides/) | The collection of all layout slides of this PresentationContent. |
+| [master_handout_slide](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/master_handout_slide/) | The master handout slide of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/). |
+| [master_notes_slide](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/master_notes_slide/) | The master slide for all notes slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/). |
+| [master_slides](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/master_slides/) | The collection of all master slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/). |
+| [notes_slide_height](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/notes_slide_height/) | The height of a notes slide in points. |
+| [notes_slide_width](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/notes_slide_width/) | The width of a notes slide in points. |
+| [slide_height](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/slide_height/) | The height of a slide in points. |
+| [slide_width](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/slide_width/) | The width of a slide in points. |
+| [slides](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/slides/) | The collection of all slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/). |
 
+### Example
 
-### Remarks 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.presentation as gwc_ppt
 
-
-**Learn more:** |
-|
- |
- |
-
-### Example 
-
-
-Load and save PowerPoint document of any supported type.
+load_options = gw.PresentationLoadOptions()
+with gw.Watermarker("presentation.pptx", load_options) as watermarker:
+    content = watermarker.get_content(gwc_ppt.PresentationContent)
+    print(content.slide_width)
+    print(content.slide_height)
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.presentation`](..)
-* class [`Content`](/watermark/python-net/groupdocs.watermark.contents/content)
-* class [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-* class [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent)
+* module [`groupdocs.watermark.contents.presentation`](/watermark/python-net/groupdocs.watermark.contents.presentation/)

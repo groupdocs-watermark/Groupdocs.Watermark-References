@@ -1,18 +1,17 @@
-﻿---
-title: papaya_whip property
+---
+title: PAPAYA_WHIP field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/papaya_whip/
 is_root: false
-weight: 1200
+weight: 4090
 ---
 
-## papaya_whip property
 
+## PAPAYA_WHIP field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

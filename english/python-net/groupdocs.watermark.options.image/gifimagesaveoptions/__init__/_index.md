@@ -1,5 +1,5 @@
-﻿---
-title: GifImageSaveOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`GifImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagesaveoptions) class.
+## __init__
 
-
+Initializes a new [`GifImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagesaveoptions/) instance.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.watermark.options.image`](../../)
-* class [`GifImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagesaveoptions)
+* class [`GifImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagesaveoptions/)

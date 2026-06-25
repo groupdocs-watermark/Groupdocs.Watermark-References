@@ -1,18 +1,17 @@
-﻿---
-title: gainsboro property
+---
+title: GAINSBORO field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/gainsboro/
 is_root: false
-weight: 590
+weight: 3490
 ---
 
-## gainsboro property
 
+## GAINSBORO field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

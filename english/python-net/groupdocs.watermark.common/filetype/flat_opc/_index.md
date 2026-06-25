@@ -1,19 +1,17 @@
-﻿---
-title: FLAT_OPC property
+---
+title: FLAT_OPC field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/flat_opc/
 is_root: false
-weight: 150
+weight: 3550
 ---
 
-## FLAT_OPC property
 
+## FLAT_OPC field
 
-Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package (.xml).
-Learn more about this file format [here](https://en.wikipedia.org/wiki/Office_Open_XML).
+Office Open XML WordprocessingML stored in a flat XML file instead of a ZIP package (.xml). Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

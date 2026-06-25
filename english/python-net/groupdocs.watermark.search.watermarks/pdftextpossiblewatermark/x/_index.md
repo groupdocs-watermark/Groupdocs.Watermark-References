@@ -1,18 +1,20 @@
-﻿---
+---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/x/
 is_root: false
-weight: 120
+weight: 2080
 ---
+
 
 ## x property
 
+The horizontal offset of this PdfTextPossibleWatermark from the page left border in points.
 
-Gets the horizontal offset of this [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark)
-from page left border in points.
+The x-coordinate of this PdfTextPossibleWatermark.
+
 ### Definition:
 ```python
 @property
@@ -21,5 +23,4 @@ def x(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark)
+* class [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/)

@@ -1,18 +1,17 @@
-﻿---
-title: orchid property
+---
+title: ORCHID field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/orchid/
 is_root: false
-weight: 1150
+weight: 4040
 ---
 
-## orchid property
 
+## ORCHID field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

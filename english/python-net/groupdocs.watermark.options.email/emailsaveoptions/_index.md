@@ -1,4 +1,4 @@
-﻿---
+---
 title: EmailSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,33 +8,22 @@ is_root: false
 weight: 30
 ---
 
+
 ## EmailSaveOptions class
 
 Represents the document saving options when saving an email message.
-
-
-
-**Inheritance:** [`EmailSaveOptions`](/watermark/python-net/groupdocs.watermark.options.email/emailsaveoptions) → 
-[`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions)
-
-
 
 The EmailSaveOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.email/emailsaveoptions/__init__/#) | Initializes a new instance of the [`EmailSaveOptions`](/watermark/python-net/groupdocs.watermark.options.email/emailsaveoptions) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.email/emailsaveoptions/__init__/) | Initializes a new instance of the [`EmailSaveOptions`](/watermark/python-net/groupdocs.watermark.options.email/emailsaveoptions/) class. |
 
-
-### Properties
-| Property | Description |
+### Fields
+| Field | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.email/emailsaveoptions/default) | Gets the default value for the [`EmailSaveOptions`](/watermark/python-net/groupdocs.watermark.options.email/emailsaveoptions) class. |
-
-
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options.email/emailsaveoptions/default/) | Gets the default value for the class. |
 
 ### See Also
-* module [`groupdocs.watermark.options.email`](..)
-* class [`EmailSaveOptions`](/watermark/python-net/groupdocs.watermark.options.email/emailsaveoptions)
-* class [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions)
+* module [`groupdocs.watermark.options.email`](/watermark/python-net/groupdocs.watermark.options.email/)

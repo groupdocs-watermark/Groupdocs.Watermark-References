@@ -1,19 +1,17 @@
-﻿---
-title: EML property
+---
+title: EML field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/eml/
 is_root: false
-weight: 130
+weight: 3170
 ---
 
-## EML property
 
+## EML field
 
-EML file format represents email messages saved using Outlook and other relevant applications.
-Learn more about this file format [here](https://wiki.fileformat.com/email/eml/).
+EML file format represents email messages saved using Outlook and other relevant applications. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

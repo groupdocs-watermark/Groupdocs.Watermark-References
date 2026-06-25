@@ -1,18 +1,17 @@
-﻿---
-title: peru property
+---
+title: PERU field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/peru/
 is_root: false
-weight: 1220
+weight: 4110
 ---
 
-## peru property
 
+## PERU field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

@@ -1,4 +1,4 @@
-﻿---
+---
 title: PdfAnnotationWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,49 +8,56 @@ is_root: false
 weight: 10
 ---
 
+
 ## PdfAnnotationWatermarkOptions class
 
-Represents watermark adding options when adding annotation watermark to a pdf document.
+Represents watermark adding options when adding annotation watermark to a PDF document.
 
-
-
-**Inheritance:** [`PdfAnnotationWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions) → 
-[`PdfWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfwatermarkoptions) → 
-[`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
-
-
+Learn more: Add watermarks to PDF documents (https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents).
 
 The PdfAnnotationWatermarkOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/__init__/#) | Initializes a new instance of the [`PdfAnnotationWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions) class. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/__init__/) | Initializes a new instance of the [`PdfAnnotationWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/default) | Gets the default value for the [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions) class. |
-| [page_index](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/page_index) | Gets or sets the page index to add watermark to. |
-| [print_only](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/print_only) | Get or sets the value indicating whether annotation will be printed, but not displayed<br/>in pdf viewing application. |
+| [page_index](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/page_index/) | The page index to add watermark to. |
+| [print_only](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/print_only/) | The value indicating whether annotation will be printed, but not displayed in PDF viewing applications. |
 
+### Fields
+| Field | Description |
+| :- | :- |
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/default/) | Gets the default value for the class. (inherited from [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/)) |
 
+### Example
 
-### Remarks 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.watermarks as gww
+import groupdocs.watermark.options.pdf as gwo_pdf
+import groupdocs.watermark.common as gwc
 
+load_options = gw.PdfLoadOptions()
+with gw.Watermarker("document.pdf", load_options) as watermarker:
+    options = gwo_pdf.PdfAnnotationWatermarkOptions()
+    options.page_index = -1  # default - all pages
 
-**Learn more:** |
-|
- |
+    text_watermark = gww.TextWatermark("Annotation watermark", gww.Font("Arial", 8.0))
+    text_watermark.horizontal_alignment = gwc.HorizontalAlignment.LEFT
+    text_watermark.vertical_alignment = gwc.VerticalAlignment.TOP
+    watermarker.add(text_watermark, options)
 
-### Example 
+    with gww.ImageWatermark("protect.jpg") as image_watermark:
+        image_watermark.horizontal_alignment = gwc.HorizontalAlignment.RIGHT
+        image_watermark.vertical_alignment = gwc.VerticalAlignment.TOP
+        watermarker.add(image_watermark, options)
 
-
-Add an image annotation watermark to a PDF document.
+    watermarker.save("document.pdf")
+```
 
 ### See Also
-* module [`groupdocs.watermark.options.pdf`](..)
-* class [`PdfAnnotationWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions)
-* class [`PdfWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfwatermarkoptions)
-* class [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
+* module [`groupdocs.watermark.options.pdf`](/watermark/python-net/groupdocs.watermark.options.pdf/)

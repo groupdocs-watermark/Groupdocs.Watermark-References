@@ -1,18 +1,17 @@
-﻿---
-title: sea_shell property
+---
+title: SEA_SHELL field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/sea_shell/
 is_root: false
-weight: 1350
+weight: 4230
 ---
 
-## sea_shell property
 
+## SEA_SHELL field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

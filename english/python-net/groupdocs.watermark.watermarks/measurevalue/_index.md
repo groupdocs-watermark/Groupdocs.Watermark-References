@@ -1,34 +1,39 @@
-﻿---
+---
 title: MeasureValue class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/measurevalue/
 is_root: false
-weight: 50
+weight: 70
 ---
+
 
 ## MeasureValue class
 
 Represents a measurement value with a specific type and numerical value.
-
-
 
 The MeasureValue type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/measurevalue/__init__/#) | Constructs a new instance of MeasureValue |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/measurevalue/__init__/) |  |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [measure_type](/watermark/python-net/groupdocs.watermark.watermarks/measurevalue/measure_type) | Gets or sets the type of measurement. |
-| [value](/watermark/python-net/groupdocs.watermark.watermarks/measurevalue/value) | Gets or sets the numerical value of the measurement.<br/>Value must be greater than 0. |
+| [measure_type](/watermark/python-net/groupdocs.watermark.watermarks/measurevalue/measure_type/) | The type of measurement. |
+| [value](/watermark/python-net/groupdocs.watermark.watermarks/measurevalue/value/) | The numerical value of the measurement. Must be greater than 0. |
 
+### Example
 
+```python
+import groupdocs.watermark.watermarks as gww
+
+# Create a measurement of 12 percent
+value = gww.MeasureValue(gww.TileMeasureType.PERCENT, 12)
+```
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](..)
+* module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

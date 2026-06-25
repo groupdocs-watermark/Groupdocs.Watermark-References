@@ -1,18 +1,17 @@
-﻿---
-title: medium_blue property
+---
+title: MEDIUM_BLUE field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/medium_blue/
 is_root: false
-weight: 960
+weight: 3850
 ---
 
-## medium_blue property
 
+## MEDIUM_BLUE field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

@@ -1,18 +1,17 @@
-﻿---
-title: khaki property
+---
+title: KHAKI field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/khaki/
 is_root: false
-weight: 720
+weight: 3610
 ---
 
-## khaki property
 
+## KHAKI field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

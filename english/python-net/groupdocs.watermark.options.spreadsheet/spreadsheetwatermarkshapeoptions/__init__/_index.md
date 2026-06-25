@@ -1,5 +1,5 @@
-﻿---
-title: SpreadsheetWatermarkShapeOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,23 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions) class.
+## __init__
 
-
+Initializes a new instance of the [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/) class.
 
 ```python
 def __init__(self):
     ...
 ```
 
+### Example
 
+```python
+import groupdocs.watermark.options.spreadsheet as gwo_xls
 
-
+options = gwo_xls.SpreadsheetWatermarkShapeOptions()
+```
 
 ### See Also
-* module [`groupdocs.watermark.options.spreadsheet`](../../)
-* class [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions)
+* class [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/)

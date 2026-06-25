@@ -1,17 +1,18 @@
-﻿---
+---
 title: page_index property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/page_index/
 is_root: false
-weight: 40
+weight: 2010
 ---
+
 
 ## page_index property
 
+The page index to add the watermark to.
 
-Gets or sets the page index to add watermark to.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def page_index(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.options.pdf`](../../)
-* class [`PdfArtifactWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions)
+* class [`PdfArtifactWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/)

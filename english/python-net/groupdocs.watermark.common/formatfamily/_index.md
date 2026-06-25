@@ -1,44 +1,30 @@
-﻿---
-title: FormatFamily enumeration
+---
+title: FormatFamily class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/formatfamily/
 is_root: false
-weight: 70
+weight: 50
 ---
 
-## FormatFamily enumeration
 
-Enumeration of supported format families.
-
-
+## FormatFamily class
 
 The FormatFamily type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| UNKNOWN | Unknown format family. |
-| DIAGRAM | Diagram format family. |
-| EMAIL | Email format family. |
-| IMAGE | Image format family. |
-| MULTIFRAME_IMAGE | Multi frame image format family. |
-| PDF | PDF format family. |
-| PRESENTATION | Presentation format family. |
-| SPREADSHEET | Spreadsheet format family. |
-| WORD_PROCESSING | Word processing format family. |
-
-
-
-### Remarks 
-
-
-**Learn more** |
-|
- |
- |
- |
+| [UNKNOWN](/watermark/python-net/groupdocs.watermark.common/formatfamily/unknown/) | Unknown format family. |
+| [DIAGRAM](/watermark/python-net/groupdocs.watermark.common/formatfamily/diagram/) | Diagram format family. |
+| [EMAIL](/watermark/python-net/groupdocs.watermark.common/formatfamily/email/) | Email format family. |
+| [IMAGE](/watermark/python-net/groupdocs.watermark.common/formatfamily/image/) | Image format family. |
+| [MULTIFRAME_IMAGE](/watermark/python-net/groupdocs.watermark.common/formatfamily/multiframe_image/) | Multi frame image format family. |
+| [PDF](/watermark/python-net/groupdocs.watermark.common/formatfamily/pdf/) | PDF format family. |
+| [PRESENTATION](/watermark/python-net/groupdocs.watermark.common/formatfamily/presentation/) | Presentation format family. |
+| [SPREADSHEET](/watermark/python-net/groupdocs.watermark.common/formatfamily/spreadsheet/) | Spreadsheet format family. |
+| [WORD_PROCESSING](/watermark/python-net/groupdocs.watermark.common/formatfamily/word_processing/) | Word processing format family. |
 
 ### See Also
-* module [`groupdocs.watermark.common`](..)
+* module [`groupdocs.watermark.common`](/watermark/python-net/groupdocs.watermark.common/)

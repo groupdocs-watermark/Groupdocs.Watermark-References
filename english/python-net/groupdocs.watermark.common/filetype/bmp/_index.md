@@ -1,20 +1,17 @@
-﻿---
-title: BMP property
+---
+title: BMP field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/bmp/
 is_root: false
-weight: 60
+weight: 3260
 ---
 
-## BMP property
 
+## BMP field
 
-Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images.
-These images are independent of graphics adapter and are also called device independent bitmap (DIB) file
-format. Learn more about this file format [here](https://wiki.fileformat.com/image/bmp/).
+Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images. These images are independent of graphics adapter and are also called device independent bitmap (DIB) file format. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

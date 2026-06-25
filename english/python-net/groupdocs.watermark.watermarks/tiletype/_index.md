@@ -1,5 +1,5 @@
-﻿---
-title: TileType enumeration
+---
+title: TileType class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,23 +8,18 @@ is_root: false
 weight: 150
 ---
 
-## TileType enumeration
 
-Enumeration representing different visual templates for arranging watermark tiles.
-
-
+## TileType class
 
 The TileType type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| STRAIGHT | Represents straight tile alignment. |
-| OFFSET | Represents offset tile alignment. |
-| ONE_THIRD_OFFSET | Represents 1/3 offset tile alignment. |
-| BASKET_WEAVE | Represents basket weave tile pattern |
-
-
+| [STRAIGHT](/watermark/python-net/groupdocs.watermark.watermarks/tiletype/straight/) | Represents straight tile alignment. |
+| [OFFSET](/watermark/python-net/groupdocs.watermark.watermarks/tiletype/offset/) | Represents offset tile alignment. |
+| [ONE_THIRD_OFFSET](/watermark/python-net/groupdocs.watermark.watermarks/tiletype/one_third_offset/) | Represents 1/3 offset tile alignment. |
+| [BASKET_WEAVE](/watermark/python-net/groupdocs.watermark.watermarks/tiletype/basket_weave/) | Represents basket weave tile pattern |
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](..)
+* module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

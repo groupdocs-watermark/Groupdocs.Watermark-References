@@ -1,17 +1,18 @@
-﻿---
+---
 title: image_data property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search/possiblewatermark/image_data/
 is_root: false
-weight: 50
+weight: 2030
 ---
+
 
 ## image_data property
 
+The image of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/) or None if the watermark has no image.
 
-Gets or sets the image of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark).
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def image_data(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search`](../../)
-* class [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark)
+* class [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)

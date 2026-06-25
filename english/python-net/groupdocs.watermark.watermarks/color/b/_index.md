@@ -1,17 +1,18 @@
-﻿---
+---
 title: b property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/b/
 is_root: false
-weight: 150
+weight: 2020
 ---
+
 
 ## b property
 
+The blue component of the color. Valid values are 0 through 255.
 
-Gets the blue component value of the color.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def b(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

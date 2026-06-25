@@ -1,17 +1,20 @@
-﻿---
+---
 title: name property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeshapesettings/name/
 is_root: false
-weight: 40
+weight: 2020
 ---
+
 
 ## name property
 
+The name of the shape.
 
-Gets or sets the name a shape.
+The shape name.
+
 ### Definition:
 ```python
 @property
@@ -23,5 +26,4 @@ def name(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents`](../../)
-* class [`OfficeShapeSettings`](/watermark/python-net/groupdocs.watermark.contents/officeshapesettings)
+* class [`OfficeShapeSettings`](/watermark/python-net/groupdocs.watermark.contents/officeshapesettings/)

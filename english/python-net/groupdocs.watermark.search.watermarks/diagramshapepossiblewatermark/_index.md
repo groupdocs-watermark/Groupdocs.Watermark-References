@@ -1,4 +1,4 @@
-﻿---
+---
 title: DiagramShapePossibleWatermark class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,39 +8,27 @@ is_root: false
 weight: 40
 ---
 
+
 ## DiagramShapePossibleWatermark class
 
 Represents possible shape watermark in a Visio document.
-
-
-
-**Inheritance:** [`DiagramShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark) → 
-[`TwoDObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark) → 
-[`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark)
-
-
 
 The DiagramShapePossibleWatermark type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [parent](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/parent) | Gets the parent of this [`DiagramShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark). |
-| [page_number](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/page_number) | Gets the page watermark is placed on. |
-| [width](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/width) | Gets the width of the 2D object. |
-| [height](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/height) | Gets the height of the 2D object. |
-| [x](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/x) | Gets the x-coordinate of the 2D object. |
-| [y](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/y) | Gets the y-coordinate of the 2D object. |
-| [rotate_angle](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/rotate_angle) | Gets the rotate angle of the 2D object in degrees. |
-| [text](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/text) | Gets or sets the text of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark). |
-| [formatted_text_fragments](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/formatted_text_fragments) | Gets the collection of formatted text fragments of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark). |
-| [image_data](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/image_data) | Gets or sets the image of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark). |
-| [unit_of_measurement](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/unit_of_measurement) | Gets the unit of measurement of the 2D object. |
-
-
+| [parent](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/parent/) | The parent of this DiagramShapePossibleWatermark. |
+| [formatted_text_fragments](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/formatted_text_fragments/) |  (inherited from [`ShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/)) |
+| [height](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/height/) | The height of the 2D object. (inherited from [`TwoDObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/)) |
+| [image_data](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/image_data/) | The image of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/) or None if the watermark has no image. (inherited from [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)) |
+| [page_number](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/page_number/) |  (inherited from [`ShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/)) |
+| [rotate_angle](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/rotate_angle/) |  (inherited from [`ShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/)) |
+| [text](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/text/) |  (inherited from [`ShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/)) |
+| [unit_of_measurement](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/unit_of_measurement/) | The unit of measurement of the 2D object. (inherited from [`TwoDObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/)) |
+| [width](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/width/) | The width of the 2D object. (inherited from [`TwoDObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/)) |
+| [x](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/x/) | The x-coordinate of the 2D object. (inherited from [`TwoDObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/)) |
+| [y](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/y/) | The y-coordinate of the 2D object. (inherited from [`TwoDObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/)) |
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](..)
-* class [`DiagramShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark)
-* class [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark)
-* class [`TwoDObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark)
+* module [`groupdocs.watermark.search.watermarks`](/watermark/python-net/groupdocs.watermark.search.watermarks/)

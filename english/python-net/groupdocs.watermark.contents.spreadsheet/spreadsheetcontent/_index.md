@@ -1,63 +1,57 @@
-﻿---
+---
 title: SpreadsheetContent class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/
 is_root: false
-weight: 70
+weight: 80
 ---
+
 
 ## SpreadsheetContent class
 
 Represents an Excel document where a watermark can be placed.
 
-
-
-**Inheritance:** [`SpreadsheetContent`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent) → 
-[`Content`](/watermark/python-net/groupdocs.watermark.contents/content) → 
-[`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-
-
+Learn more:
+- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents
+- https://docs.groupdocs.com/display/watermarknet/Shapes+in+spreadsheet+document
+- https://docs.groupdocs.com/display/watermarknet/Working+with+spreadsheet+document+attachments
+- https://docs.groupdocs.com/display/watermarknet/Working+with+worksheet+backgrounds
+- https://docs.groupdocs.com/display/watermarknet/Working+with+worksheet+headers+and+footers
 
 The SpreadsheetContent type exposes the following members:
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [worksheets](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/worksheets) | Gets the collection of all worksheets of this [`SpreadsheetContent`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent). |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/find_images/#groupdocs.watermark.search.searchcriteria.ImageSearchCriteria) | Finds images according to the specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/find_images/#) | Finds all images in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/search/#groupdocs.watermark.search.searchcriteria.SearchCriteria) | Finds possible watermarks according to specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/search/#) | Finds all possible watermarks in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [encrypt](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/encrypt/#System.String) | Encrypts the content. |
-| [decrypt](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/decrypt/#) | Decrypts the document. |
+| [decrypt](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/decrypt/) | Decrypts the document. |
+| [encrypt](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/encrypt/#password) | Encrypts the content. |
+| [encrypt_file](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/encrypt_file/) |  |
+| [encrypt_string](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/encrypt_string/) |  |
+| [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
+### Properties
+| Property | Description |
+| :- | :- |
+| [worksheets](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/worksheets/) | The collection of all worksheets of this [`SpreadsheetContent`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/). |
 
+### Example
 
-### Remarks 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.spreadsheet as gwc_xls
 
-
-**Learn more:** |
-|
- |
- |
- |
- |
- |
-
-### Example 
-
-
-Load and save Excel document of any supported type.
+load_options = gw.SpreadsheetLoadOptions()
+with gw.Watermarker("input.xls", load_options) as watermarker:
+    content = watermarker.get_content(gwc_xls.SpreadsheetContent)
+    # perform watermark operations on content here
+    watermarker.save("output.xls")
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.spreadsheet`](..)
-* class [`Content`](/watermark/python-net/groupdocs.watermark.contents/content)
-* class [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-* class [`SpreadsheetContent`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent)
+* module [`groupdocs.watermark.contents.spreadsheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/)

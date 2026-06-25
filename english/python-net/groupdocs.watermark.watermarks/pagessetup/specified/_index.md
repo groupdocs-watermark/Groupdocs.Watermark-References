@@ -1,17 +1,18 @@
-﻿---
+---
 title: specified property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/pagessetup/specified/
 is_root: false
-weight: 100
+weight: 2080
 ---
+
 
 ## specified property
 
+The value indicates whether any specific pages are specified.
 
-Gets a value indicating whether any specific pages are specified.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def specified(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`PagesSetup`](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup)
+* class [`PagesSetup`](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/)

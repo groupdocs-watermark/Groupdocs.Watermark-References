@@ -1,44 +1,44 @@
-﻿---
+---
 title: IDocumentInfo class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/idocumentinfo/
 is_root: false
-weight: 40
+weight: 70
 ---
+
 
 ## IDocumentInfo class
 
-Defines the methods that are required for getting the basic document information.
+Provides methods required for retrieving basic document information.
 
+Learn more:
 
+- Get document info (https://docs.groupdocs.com/display/watermarknet/Get+document+info)
 
 The IDocumentInfo type exposes the following members:
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [file_type](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/file_type) | Gets the file format description. |
-| [page_count](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/page_count) | Gets the total page count. |
-| [pages](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/pages) | Gets the collection of document pages descriptions. |
-| [size](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/size) | Gets the document size in bytes. |
-| [is_encrypted](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/is_encrypted) | Gets a value indicating whether the document is encrypted and requires a password to open. |
+| [file_type](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/file_type/) | The file format description. |
+| [is_encrypted](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/is_encrypted/) | The document is encrypted and requires a password to open; returns True if encrypted, otherwise False. |
+| [page_count](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/page_count/) | The total page count. |
+| [pages](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/pages/) | The collection of document pages descriptions. |
+| [size](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/size/) | The document size in bytes. |
 
+### Example
 
+```python
+from groupdocs.watermark import Watermarker
 
-### Remarks 
-
-
-**Learn more** |
-|
- |
-
-### Example 
-
-
-The following example demonstrates how to retrieve the general document information using [`IDocumentInfo`](/watermark/python-net/groupdocs.watermark.common/idocumentinfo).
+with Watermarker(r"D:\input.pdf") as watermarker:
+    doc_info = watermarker.get_document_info()
+    print(f"Document size: {doc_info.size}")
+    print(f"Document format: {doc_info.file_type.file_format}")
+    print(f"Document contains {doc_info.page_count} pages")
+```
 
 ### See Also
-* module [`groupdocs.watermark.common`](..)
-* class [`IDocumentInfo`](/watermark/python-net/groupdocs.watermark.common/idocumentinfo)
+* module [`groupdocs.watermark.common`](/watermark/python-net/groupdocs.watermark.common/)

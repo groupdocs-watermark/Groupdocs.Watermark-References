@@ -1,17 +1,18 @@
-﻿---
+---
 title: rotate_angle property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/rotate_angle/
 is_root: false
-weight: 80
+weight: 2020
 ---
+
 
 ## rotate_angle property
 
+The rotate angle of this PresentationChartBackgroundPossibleWatermark in degrees.
 
-Gets the rotate angle of this [`PresentationChartBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark) in degrees.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def rotate_angle(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`PresentationChartBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark)
+* class [`PresentationChartBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/)

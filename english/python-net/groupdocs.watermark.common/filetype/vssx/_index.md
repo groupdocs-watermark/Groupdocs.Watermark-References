@@ -1,20 +1,17 @@
-﻿---
-title: VSSX property
+---
+title: VSSX field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/vssx/
 is_root: false
-weight: 500
+weight: 3060
 ---
 
-## VSSX property
 
+## VSSX field
 
-Files with .VSSX extension are drawing stencils created with Microsoft Visio 2013 and above.
-Learn more about this file format
-[here](https://wiki.fileformat.com/image/vssx/).
+Files with .VSSX extension are drawing stencils created with Microsoft Visio 2013 and above. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

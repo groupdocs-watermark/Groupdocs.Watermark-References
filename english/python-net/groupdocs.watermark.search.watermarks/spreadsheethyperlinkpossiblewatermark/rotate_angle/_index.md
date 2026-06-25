@@ -1,17 +1,18 @@
-﻿---
+---
 title: rotate_angle property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/rotate_angle/
 is_root: false
-weight: 80
+weight: 2030
 ---
+
 
 ## rotate_angle property
 
+The rotate angle of this SpreadsheetHyperlinkPossibleWatermark in degrees. The value is always 0 for this type of possible watermark.
 
-Gets the rotate angle of this [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark) in degrees.
 ### Definition:
 ```python
 @property
@@ -20,5 +21,4 @@ def rotate_angle(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark)
+* class [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/)

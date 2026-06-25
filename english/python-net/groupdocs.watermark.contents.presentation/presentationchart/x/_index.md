@@ -1,20 +1,24 @@
-﻿---
+---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationchart/x/
 is_root: false
-weight: 120
+weight: 2030
 ---
+
 
 ## x property
 
+The x-coordinate of the object.
 
-Gets or sets the horizontal offset of this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape)
-from presentation left border in points.
+### Definition:
+```python
+@property
+def x(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.presentation`](../../)
-* class [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape)
-* class [`PresentationChart`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationchart)
+* class [`PresentationChart`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationchart/)

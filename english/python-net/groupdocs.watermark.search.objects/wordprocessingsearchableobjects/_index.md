@@ -1,5 +1,5 @@
-﻿---
-title: WordProcessingSearchableObjects enumeration
+---
+title: WordProcessingSearchableObjects class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,24 +8,19 @@ is_root: false
 weight: 70
 ---
 
-## WordProcessingSearchableObjects enumeration
 
-Specifies flags representing Word content objects that are to be included in a watermark search.
-
-
+## WordProcessingSearchableObjects class
 
 The WordProcessingSearchableObjects type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| NONE | Specifies no search objects. |
-| SHAPES | Search in shapes. |
-| TEXT | Search in content text. |
-| HYPERLINKS | Search in hyperlinks. |
-| ALL | Search in all content objects. |
-
-
+| [NONE](/watermark/python-net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/none/) | Specifies no search objects. |
+| [SHAPES](/watermark/python-net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/shapes/) | Search in shapes. |
+| [TEXT](/watermark/python-net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/text/) | Search in content text. |
+| [HYPERLINKS](/watermark/python-net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/hyperlinks/) | Search in hyperlinks. |
+| [ALL](/watermark/python-net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/all/) | Search in all content objects. |
 
 ### See Also
-* module [`groupdocs.watermark.search.objects`](..)
+* module [`groupdocs.watermark.search.objects`](/watermark/python-net/groupdocs.watermark.search.objects/)

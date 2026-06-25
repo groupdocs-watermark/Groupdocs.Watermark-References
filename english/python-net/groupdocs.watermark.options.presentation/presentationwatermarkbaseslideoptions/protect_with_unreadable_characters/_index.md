@@ -1,22 +1,20 @@
-﻿---
+---
 title: protect_with_unreadable_characters property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/protect_with_unreadable_characters/
 is_root: false
-weight: 80
+weight: 2050
 ---
+
 
 ## protect_with_unreadable_characters property
 
+The property indicates whether the text watermark characters are mixed with unreadable characters.
 
-Gets or sets a value indicating whether the text watermark characters are mixed with unreadable characters.
+This protection applies only when the value of [`PresentationWatermarkBaseSlideOptions.IsLocked`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/is_locked/) property is True.
 
-### Remarks 
-
-
-This protection applies only when the value of [`PresentationWatermarkBaseSlideOptions.is_locked`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions#is_locked) property is `true`.
 ### Definition:
 ```python
 @property
@@ -28,5 +26,4 @@ def protect_with_unreadable_characters(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.options.presentation`](../../)
-* class [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions)
+* class [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/)

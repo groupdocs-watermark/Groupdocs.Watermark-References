@@ -1,17 +1,18 @@
-﻿---
+---
 title: parent property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/presentationshapepossiblewatermark/parent/
 is_root: false
-weight: 70
+weight: 2010
 ---
+
 
 ## parent property
 
+The parent of this PresentationShapePossibleWatermark.
 
-Gets the parent of this [`PresentationShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationshapepossiblewatermark).
 ### Definition:
 ```python
 @property
@@ -20,6 +21,4 @@ def parent(self):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-* class [`PresentationShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationshapepossiblewatermark)
+* class [`PresentationShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationshapepossiblewatermark/)

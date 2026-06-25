@@ -1,18 +1,17 @@
-﻿---
-title: gold property
+---
+title: GOLD field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/gold/
 is_root: false
-weight: 610
+weight: 3510
 ---
 
-## gold property
 
+## GOLD field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

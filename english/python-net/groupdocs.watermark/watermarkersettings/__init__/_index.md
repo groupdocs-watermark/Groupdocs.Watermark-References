@@ -1,5 +1,5 @@
-﻿---
-title: WatermarkerSettings constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes new instance of [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings) class.
+## __init__
 
-
+Initializes a new instance of [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings/).
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.watermark`](../../)
-* class [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings)
+* class [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings/)

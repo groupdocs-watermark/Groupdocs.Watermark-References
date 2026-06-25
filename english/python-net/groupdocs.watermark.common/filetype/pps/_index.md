@@ -1,20 +1,17 @@
-﻿---
-title: PPS property
+---
+title: PPS field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/pps/
 is_root: false
-weight: 330
+weight: 3340
 ---
 
-## PPS property
 
+## PPS field
 
-PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose.
-PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. Learn more about this file format
-[here](https://wiki.fileformat.com/presentation/pps/).
+PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose. PPS file reading and creation is supported by Microsoft PowerPoint 97-2003. Learn more about this file format here.
 
 ### See Also
-* module [`groupdocs.watermark.common`](../../)
-* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype)
+* class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

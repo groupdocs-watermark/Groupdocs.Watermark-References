@@ -1,17 +1,18 @@
-﻿---
+---
 title: text property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/pdfhyperlinkpossiblewatermark/text/
 is_root: false
-weight: 90
+weight: 2010
 ---
+
 
 ## text property
 
+The url of this PdfHyperlinkPossibleWatermark.
 
-Gets or sets the url of this [`PdfHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfhyperlinkpossiblewatermark).
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def text(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.search.watermarks`](../../)
-* class [`PdfHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfhyperlinkpossiblewatermark)
+* class [`PdfHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfhyperlinkpossiblewatermark/)

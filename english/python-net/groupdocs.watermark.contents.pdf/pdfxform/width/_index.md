@@ -1,19 +1,24 @@
-﻿---
+---
 title: width property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfxform/width/
 is_root: false
-weight: 90
+weight: 2030
 ---
+
 
 ## width property
 
+The width of the object.
 
-Gets the width of this [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject) in points.
+### Definition:
+```python
+@property
+def width(self):
+    ...
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.pdf`](../../)
-* class [`PdfXForm`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxform)
-* class [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject)
+* class [`PdfXForm`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxform/)

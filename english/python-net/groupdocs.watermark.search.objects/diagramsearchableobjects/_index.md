@@ -1,32 +1,27 @@
-﻿---
-title: DiagramSearchableObjects enumeration
+---
+title: DiagramSearchableObjects class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/diagramsearchableobjects/
 is_root: false
-weight: 20
+weight: 10
 ---
 
-## DiagramSearchableObjects enumeration
 
-Specifies flags representing Visio document objects that are to be included in a watermark search.
-
-
+## DiagramSearchableObjects class
 
 The DiagramSearchableObjects type exposes the following members:
 
 ### Fields
 | Field | Description |
 | :- | :- |
-| NONE | Specifies no search objects. |
-| SHAPES | Search in shapes. |
-| COMMENTS | Search in comments. |
-| HEADERS_FOOTERS | Search in headers and footers. |
-| HYPERLINKS | Search in hyperlinks. |
-| ALL | Search in all content objects. |
-
-
+| [NONE](/watermark/python-net/groupdocs.watermark.search.objects/diagramsearchableobjects/none/) | Specifies no search objects. |
+| [SHAPES](/watermark/python-net/groupdocs.watermark.search.objects/diagramsearchableobjects/shapes/) | Search in shapes. |
+| [COMMENTS](/watermark/python-net/groupdocs.watermark.search.objects/diagramsearchableobjects/comments/) | Search in comments. |
+| [HEADERS_FOOTERS](/watermark/python-net/groupdocs.watermark.search.objects/diagramsearchableobjects/headers_footers/) | Search in headers and footers. |
+| [HYPERLINKS](/watermark/python-net/groupdocs.watermark.search.objects/diagramsearchableobjects/hyperlinks/) | Search in hyperlinks. |
+| [ALL](/watermark/python-net/groupdocs.watermark.search.objects/diagramsearchableobjects/all/) | Search in all content objects. |
 
 ### See Also
-* module [`groupdocs.watermark.search.objects`](..)
+* module [`groupdocs.watermark.search.objects`](/watermark/python-net/groupdocs.watermark.search.objects/)

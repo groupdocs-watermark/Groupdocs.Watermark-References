@@ -1,60 +1,72 @@
-﻿---
+---
 title: remove method
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/remove/
 is_root: false
-weight: 60
+weight: 1100
 ---
 
-## remove {#groupdocs.watermark.search.PossibleWatermark}
 
-Removes watermark from the document.
+## remove {#possible_watermark}
 
+Removes a watermark from the document.
 
+Learn more about removing watermarks: Removing found watermarks.
 
 ```python
 def remove(self, possible_watermark):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| possible_watermark | groupdocs.watermark.search.PossibleWatermark | The watermark to remove. |
+| possible_watermark | `PossibleWatermark` | The watermark to remove. |
 
-### Example 
+**Returns:** None.
 
+### Example
 
-Find and remove the first possible watermark containing particular text or image from a document
-of any supported type.
+```python
+import groupdocs.watermark as gw
 
+with gw.Watermarker("document.pdf") as watermarker:
+    possible = watermarker.search()
+    if possible.count > 0:
+        watermarker.remove(possible[0])
+    watermarker.save("document.pdf")
+```
 
-## remove {#groupdocs.watermark.search.PossibleWatermarkCollection}
+## remove {#possible_watermarks}
 
 Removes all watermarks in the collection from the document.
 
-
+Learn more about removing watermarks at the GroupDocs documentation: https://docs.groupdocs.com/display/watermarknet/Removing+found+watermarks.
 
 ```python
 def remove(self, possible_watermarks):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| possible_watermarks | groupdocs.watermark.search.PossibleWatermarkCollection | The collection of watermarks to remove. |
+| possible_watermarks | `PossibleWatermarkCollection` | The collection of watermarks to remove. |
 
-### Example 
+**Returns:** None.
 
+### Example
 
-Find and remove all possible watermarks containing particular text or image from a document
-of any supported type.
+```python
+import groupdocs.watermark as gw
 
-
+with gw.Watermarker("input.doc") as watermarker:
+    # Find watermarks matching specific criteria
+    watermarks = watermarker.search()
+    # Remove all found watermarks from the document
+    watermarker.remove(watermarks)
+    watermarker.save("output.doc")
+```
 
 ### See Also
-* module [`groupdocs.watermark`](../../)
-* class [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker)
+* class [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/)

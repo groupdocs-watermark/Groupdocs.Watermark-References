@@ -1,18 +1,17 @@
-﻿---
-title: ivory property
+---
+title: IVORY field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/ivory/
 is_root: false
-weight: 710
+weight: 3600
 ---
 
-## ivory property
 
+## IVORY field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

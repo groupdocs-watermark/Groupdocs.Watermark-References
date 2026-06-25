@@ -1,18 +1,17 @@
-﻿---
-title: violet property
+---
+title: VIOLET field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/violet/
 is_root: false
-weight: 1500
+weight: 4370
 ---
 
-## violet property
 
+## VIOLET field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

@@ -1,18 +1,17 @@
-﻿---
-title: mint_cream property
+---
+title: MINT_CREAM field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/mint_cream/
 is_root: false
-weight: 1050
+weight: 3940
 ---
 
-## mint_cream property
 
+## MINT_CREAM field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

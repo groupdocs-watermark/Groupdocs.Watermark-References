@@ -1,36 +1,41 @@
-﻿---
+---
 title: get_row_height method
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/get_row_height/
 is_root: false
-weight: 50
+weight: 1050
 ---
 
-## get_row_height {#int}
 
-Gets the height of the specified row in points.
+## get_row_height {#row}
 
-
-### Returns 
-
-
-The height of the row in points.
-
+Returns the height of the specified row in points.
 
 ```python
 def get_row_height(self, row):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| row | int | The row index. |
+| row | `int` | The row index. |
 
+**Returns:** float: The height of the row in points.
 
+### Example
+
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.spreadsheet as gwc_xls
+
+load_options = gw.SpreadsheetLoadOptions()
+with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
+    content = watermarker.get_content(gwc_xls.SpreadsheetContent)
+    height = content.worksheets[0].get_row_height(0)
+    print(height)
+```
 
 ### See Also
-* module [`groupdocs.watermark.contents.spreadsheet`](../../)
-* class [`SpreadsheetWorksheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet)
+* class [`SpreadsheetWorksheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/)

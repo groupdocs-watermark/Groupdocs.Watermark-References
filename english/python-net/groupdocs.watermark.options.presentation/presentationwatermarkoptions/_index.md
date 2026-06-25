@@ -1,4 +1,4 @@
-﻿---
+---
 title: PresentationWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,27 +8,17 @@ is_root: false
 weight: 130
 ---
 
+
 ## PresentationWatermarkOptions class
 
-Base class for watermark adding options to a Presentation document.
-
-
-
-**Inheritance:** [`PresentationWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkoptions) → 
-[`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
-
-
+Represents the base class for watermark adding options to a Presentation document.
 
 The PresentationWatermarkOptions type exposes the following members:
 
-### Properties
-| Property | Description |
+### Fields
+| Field | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkoptions/default) | Gets the default value for the [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions) class. |
-
-
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/default/) | Gets the default value for the class. (inherited from [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/)) |
 
 ### See Also
-* module [`groupdocs.watermark.options.presentation`](..)
-* class [`PresentationWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkoptions)
-* class [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
+* module [`groupdocs.watermark.options.presentation`](/watermark/python-net/groupdocs.watermark.options.presentation/)

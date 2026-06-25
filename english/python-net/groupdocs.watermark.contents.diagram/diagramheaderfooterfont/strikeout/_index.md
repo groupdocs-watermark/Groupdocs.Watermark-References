@@ -1,17 +1,18 @@
-﻿---
+---
 title: strikeout property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/strikeout/
 is_root: false
-weight: 70
+weight: 2050
 ---
+
 
 ## strikeout property
 
+The font is strikeout. True if this font is strikeout; otherwise False.
 
-Gets or sets a value indicating whether the font is strikeout.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def strikeout(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.diagram`](../../)
-* class [`DiagramHeaderFooterFont`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont)
+* class [`DiagramHeaderFooterFont`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/)

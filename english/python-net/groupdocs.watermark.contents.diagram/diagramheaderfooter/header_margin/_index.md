@@ -1,17 +1,18 @@
-﻿---
+---
 title: header_margin property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/header_margin/
 is_root: false
-weight: 100
+weight: 2080
 ---
+
 
 ## header_margin property
 
+The margin of document header.
 
-Gets or sets the margin of document header.
 ### Definition:
 ```python
 @property
@@ -23,5 +24,4 @@ def header_margin(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.diagram`](../../)
-* class [`DiagramHeaderFooter`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter)
+* class [`DiagramHeaderFooter`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/)

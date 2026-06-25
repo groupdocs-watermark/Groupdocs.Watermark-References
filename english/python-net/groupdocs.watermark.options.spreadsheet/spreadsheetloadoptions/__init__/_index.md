@@ -1,5 +1,5 @@
-﻿---
-title: SpreadsheetLoadOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,38 +8,28 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`SpreadsheetLoadOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions) class.
+## __init__
 
-
+Initializes a new instance of SpreadsheetLoadOptions.
 
 ```python
 def __init__(self):
     ...
 ```
 
+## __init__ {#password}
 
-
-
-## __init__ {#System.String}
-
-Initializes a new instance of the [`SpreadsheetLoadOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions) class with a specified password.
-
-
+Initializes a new instance of the SpreadsheetLoadOptions class with a specified password.
 
 ```python
 def __init__(self, password):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| password | System.String | The password for opening an encrypted content. |
-
-
+| password | `str` | The password for opening an encrypted content. |
 
 ### See Also
-* module [`groupdocs.watermark.options.spreadsheet`](../../)
-* class [`SpreadsheetLoadOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions)
+* class [`SpreadsheetLoadOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions/)

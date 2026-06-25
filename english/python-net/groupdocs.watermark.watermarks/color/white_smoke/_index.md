@@ -1,18 +1,17 @@
-﻿---
-title: white_smoke property
+---
+title: WHITE_SMOKE field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/white_smoke/
 is_root: false
-weight: 1530
+weight: 4400
 ---
 
-## white_smoke property
 
+## WHITE_SMOKE field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

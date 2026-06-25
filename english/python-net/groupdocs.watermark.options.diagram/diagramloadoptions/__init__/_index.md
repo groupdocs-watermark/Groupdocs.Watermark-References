@@ -1,5 +1,5 @@
-﻿---
-title: DiagramLoadOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,38 +8,28 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions) class.
+## __init__
 
-
+Initializes a new instance of the DiagramLoadOptions class.
 
 ```python
 def __init__(self):
     ...
 ```
 
+## __init__ {#password}
 
-
-
-## __init__ {#System.String}
-
-Initializes a new instance of the [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions) class with a specified password.
-
-
+Initializes a new instance of the DiagramLoadOptions class with a specified password.
 
 ```python
 def __init__(self, password):
     ...
 ```
 
-
 | Parameter | Type | Description |
 | :- | :- | :- |
-| password | System.String | The password for opening an encrypted Visio document. |
-
-
+| password | `str` | The password for opening an encrypted Visio document. |
 
 ### See Also
-* module [`groupdocs.watermark.options.diagram`](../../)
-* class [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions)
+* class [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/)

@@ -1,18 +1,17 @@
-﻿---
-title: rosy_brown property
+---
+title: ROSY_BROWN field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/rosy_brown/
 is_root: false
-weight: 1290
+weight: 4170
 ---
 
-## rosy_brown property
 
+## ROSY_BROWN field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

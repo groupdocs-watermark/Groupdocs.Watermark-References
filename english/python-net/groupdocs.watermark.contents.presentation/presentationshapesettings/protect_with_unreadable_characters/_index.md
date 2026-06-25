@@ -1,22 +1,20 @@
-﻿---
+---
 title: protect_with_unreadable_characters property
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationshapesettings/protect_with_unreadable_characters/
 is_root: false
-weight: 60
+weight: 2020
 ---
+
 
 ## protect_with_unreadable_characters property
 
+The property indicating whether the text watermark characters are mixed with unreadable characters.
 
-Gets or sets a value indicating whether the text watermark characters are mixed with unreadable characters.
+This protection applies only when [`PresentationShapeSettings.is_locked`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapesettings/is_locked/) is True.
 
-### Remarks 
-
-
-This protection applies only when the value of [`PresentationShapeSettings.is_locked`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapesettings#is_locked) property is `true`.
 ### Definition:
 ```python
 @property
@@ -28,5 +26,4 @@ def protect_with_unreadable_characters(self, value):
 ```
 
 ### See Also
-* module [`groupdocs.watermark.contents.presentation`](../../)
-* class [`PresentationShapeSettings`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapesettings)
+* class [`PresentationShapeSettings`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapesettings/)

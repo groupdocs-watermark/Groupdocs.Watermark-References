@@ -1,18 +1,17 @@
-﻿---
-title: spring_green property
+---
+title: SPRING_GREEN field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/spring_green/
 is_root: false
-weight: 1420
+weight: 4300
 ---
 
-## spring_green property
 
+## SPRING_GREEN field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

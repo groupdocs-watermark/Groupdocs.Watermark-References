@@ -1,18 +1,17 @@
-﻿---
-title: alice_blue property
+---
+title: ALICE_BLUE field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/alice_blue/
 is_root: false
-weight: 100
+weight: 3030
 ---
 
-## alice_blue property
 
+## ALICE_BLUE field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

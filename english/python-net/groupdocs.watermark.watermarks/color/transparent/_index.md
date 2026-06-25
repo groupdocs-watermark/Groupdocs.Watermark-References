@@ -1,18 +1,17 @@
-﻿---
-title: transparent property
+---
+title: TRANSPARENT field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/transparent/
 is_root: false
-weight: 1480
+weight: 3020
 ---
 
-## transparent property
 
+## TRANSPARENT field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

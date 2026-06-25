@@ -1,5 +1,5 @@
-﻿---
-title: SpreadsheetSaveOptions constructor
+---
+title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
@@ -8,21 +8,15 @@ is_root: false
 weight: 10
 ---
 
-## __init__ {#}
 
-Initializes a new instance of the [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions) class.
+## __init__
 
-
+Initializes a new [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/) instance.
 
 ```python
 def __init__(self):
     ...
 ```
 
-
-
-
-
 ### See Also
-* module [`groupdocs.watermark.options.spreadsheet`](../../)
-* class [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions)
+* class [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/)

@@ -1,18 +1,17 @@
-﻿---
-title: indian_red property
+---
+title: INDIAN_RED field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/indian_red/
 is_root: false
-weight: 680
+weight: 3580
 ---
 
-## indian_red property
 
+## INDIAN_RED field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

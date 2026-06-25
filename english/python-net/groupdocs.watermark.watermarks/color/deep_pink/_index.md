@@ -1,18 +1,17 @@
-﻿---
-title: deep_pink property
+---
+title: DEEP_PINK field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/deep_pink/
 is_root: false
-weight: 490
+weight: 3410
 ---
 
-## deep_pink property
 
+## DEEP_PINK field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

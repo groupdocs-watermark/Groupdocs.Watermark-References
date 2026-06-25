@@ -1,4 +1,4 @@
-﻿---
+---
 title: GifImageWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,49 +8,47 @@ is_root: false
 weight: 30
 ---
 
+
 ## GifImageWatermarkOptions class
 
 Represents watermark adding options when adding watermark to a GIF image.
 
-
-
-**Inheritance:** [`GifImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions) → 
-[`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions) → 
-[`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
-
-
+Learn more:
+- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images
 
 The GifImageWatermarkOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/__init__/#) | Initializes a new instance of the [`GifImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/__init__/#int) | Initializes a new instance of the [`GifImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions) class with a specified index of a frame. |
-
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/__init__/) | Initializes a new instance of the GifImageWatermarkOptions class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/__init__/#frame_index) | Initializes a new GifImageWatermarkOptions with a specified frame index. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [default](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/default) | Gets the default value for the [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions) class. |
-| [frame_index](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/frame_index) | Gets or sets the index of frame to add watermark. |
+| [frame_index](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frame_index/) | The index of the frame to add a watermark. (inherited from [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/)) |
 
+### Fields
+| Field | Description |
+| :- | :- |
+| [DEFAULT](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/default/) | Gets the default value for the class. (inherited from [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions/)) |
 
+### Example
 
-### Remarks 
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.watermarks as gww
+import groupdocs.watermark.options.image as gwo_img
 
-
-**Learn more:** |
-|
- |
-
-### Example 
-
-
-Add a watermark to a particular frame of GIF image.
+load_options = gw.GifImageLoadOptions()
+with gw.Watermarker("test.gif", load_options) as watermarker:
+    watermark = gww.TextWatermark("Test", gww.Font("Arial", 12))
+    options = gwo_img.GifImageWatermarkOptions()
+    options.frame_index = 0
+    watermarker.add(watermark, options)
+    watermarker.save()
+```
 
 ### See Also
-* module [`groupdocs.watermark.options.image`](..)
-* class [`GifImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions)
-* class [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions)
-* class [`WatermarkOptions`](/watermark/python-net/groupdocs.watermark.options/watermarkoptions)
+* module [`groupdocs.watermark.options.image`](/watermark/python-net/groupdocs.watermark.options.image/)

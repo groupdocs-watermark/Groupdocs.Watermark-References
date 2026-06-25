@@ -1,18 +1,17 @@
-﻿---
-title: slate_blue property
+---
+title: SLATE_BLUE field
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/slate_blue/
 is_root: false
-weight: 1390
+weight: 4270
 ---
 
-## slate_blue property
 
+## SLATE_BLUE field
 
 Gets a system-defined color.
 
 ### See Also
-* module [`groupdocs.watermark.watermarks`](../../)
-* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color)
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

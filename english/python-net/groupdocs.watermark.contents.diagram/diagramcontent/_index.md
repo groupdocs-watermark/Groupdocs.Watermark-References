@@ -1,4 +1,4 @@
-﻿---
+---
 title: DiagramContent class
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: 
@@ -8,47 +8,32 @@ is_root: false
 weight: 10
 ---
 
+
 ## DiagramContent class
 
 Represents a Visio document.
 
+Learn more:
 
-
-**Inheritance:** [`DiagramContent`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent) → 
-[`Content`](/watermark/python-net/groupdocs.watermark.contents/content) → 
-[`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-
-
+- Add watermarks to diagram documents: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents
+- Existing objects in diagram document: https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+diagram+document
 
 The DiagramContent type exposes the following members:
-
-### Properties
-| Property | Description |
-| :- | :- |
-| [pages](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent/pages) | Gets the collection of all pages of this [`DiagramContent`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent). |
-| [header_footer](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent/header_footer) | Gets the header and footer of this [`DiagramContent`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent). |
-
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent/find_images/#groupdocs.watermark.search.searchcriteria.ImageSearchCriteria) | Finds images according to the specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent/find_images/#) | Finds all images in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent/search/#groupdocs.watermark.search.searchcriteria.SearchCriteria) | Finds possible watermarks according to specified search criteria.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
-| [search](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent/search/#) | Finds all possible watermarks in the content.<br/>The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker#searchable_objects). |
+| [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
-
-
-### Remarks 
-
-
-**Learn more:** |
-|
- |
- |
+### Properties
+| Property | Description |
+| :- | :- |
+| [header_footer](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent/header_footer/) | The header and footer of this DiagramContent. |
+| [pages](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent/pages/) | The collection of all pages of this [`DiagramContent`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent/). |
 
 ### See Also
-* module [`groupdocs.watermark.contents.diagram`](..)
-* class [`Content`](/watermark/python-net/groupdocs.watermark.contents/content)
-* class [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart)
-* class [`DiagramContent`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramcontent)
+* module [`groupdocs.watermark.contents.diagram`](/watermark/python-net/groupdocs.watermark.contents.diagram/)
