@@ -31,6 +31,8 @@ platforms:
     install: "pip install groupdocs-watermark-net"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Images", "Email"]
+formatsCount: "50+"
+formatsNote: "…and 40+ more document and image formats."
 
 capabilities:
   - "Add text & image watermarks"
