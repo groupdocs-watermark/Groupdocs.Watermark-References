@@ -1,7 +1,7 @@
 ---
 title: OUTSIDE_MARGIN field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Specifies that the horizontal positioning is relative to the outside margin of the current page (the right margin on odd pages, left on even pages)."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativehorizontalposition/outside_margin/
 is_root: false

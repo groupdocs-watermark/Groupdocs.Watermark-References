@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The height of this DiagramShape in points."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramshape/height/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2020
 
 ## height property
 
-The height of this [`DiagramShape`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramshape/) in points.
+The height of this DiagramShape in points.
 
 ### Definition:
 ```python

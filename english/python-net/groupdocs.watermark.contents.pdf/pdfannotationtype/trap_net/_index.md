@@ -1,7 +1,7 @@
 ---
 title: TRAP_NET field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Trap network annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/trap_net/
 is_root: false

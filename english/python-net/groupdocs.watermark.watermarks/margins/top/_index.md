@@ -1,7 +1,7 @@
 ---
 title: top property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The top margin, expressed as the horizontal offset from the parent top border."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/margins/top/
 is_root: false

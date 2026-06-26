@@ -1,7 +1,7 @@
 ---
 title: display_name property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The display name associated with the address."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailaddress/display_name/
 is_root: false

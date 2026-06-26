@@ -1,7 +1,7 @@
 ---
 title: DOUBLE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Double lines of equal width."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelinestyle/double/
 is_root: false

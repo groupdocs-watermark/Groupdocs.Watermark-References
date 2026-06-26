@@ -1,7 +1,7 @@
 ---
 title: value property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The numerical value of the measurement."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/measurevalue/value/
 is_root: false
@@ -11,7 +11,9 @@ weight: 2020
 
 ## value property
 
-The numerical value of the measurement. Must be greater than 0.
+The numerical value of the measurement.
+
+Must be greater than 0.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: sizing_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The sizing type specifying how the watermark should be sized."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/sizing_type/
 is_root: false

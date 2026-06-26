@@ -1,7 +1,7 @@
 ---
 title: TEXT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The Text type"
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/watermarktype/text/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: foreground_color property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The foreground color of this PdfOperator."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfoperator/foreground_color/
 is_root: false

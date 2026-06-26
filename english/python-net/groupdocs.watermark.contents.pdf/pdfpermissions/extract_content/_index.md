@@ -1,7 +1,7 @@
 ---
 title: EXTRACT_CONTENT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Copy or otherwise extract text and graphics from the document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfpermissions/extract_content/
 is_root: false

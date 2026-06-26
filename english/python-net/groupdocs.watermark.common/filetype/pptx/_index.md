@@ -1,7 +1,7 @@
 ---
 title: PPTX field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files with PPTX extension are presentation files created with popular Microsoft PowerPoint application."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/pptx/
 is_root: false

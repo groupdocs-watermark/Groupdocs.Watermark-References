@@ -1,7 +1,7 @@
 ---
 title: UnitOfMeasurement class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "UnitOfMeasurement enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark/unitofmeasurement/
 is_root: false

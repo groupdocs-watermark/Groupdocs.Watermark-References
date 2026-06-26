@@ -1,7 +1,7 @@
 ---
 title: text_alignment property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The watermark text alignment."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/textwatermark/text_alignment/
 is_root: false

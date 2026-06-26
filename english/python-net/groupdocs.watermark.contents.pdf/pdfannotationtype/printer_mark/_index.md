@@ -1,7 +1,7 @@
 ---
 title: PRINTER_MARK field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Printer mark annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/printer_mark/
 is_root: false

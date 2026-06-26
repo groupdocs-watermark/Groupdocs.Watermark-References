@@ -1,7 +1,7 @@
 ---
 title: worksheet property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The parent worksheet of this SpreadsheetShape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/worksheet/
 is_root: false

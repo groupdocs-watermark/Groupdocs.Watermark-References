@@ -1,7 +1,7 @@
 ---
 title: PdfSearchableObjects class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PdfSearchableObjects enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/
 is_root: false
@@ -25,6 +25,11 @@ The PdfSearchableObjects type exposes the following members:
 | [ATTACHED_IMAGES](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/attached_images/) | Search in attached images. |
 | [VECTOR](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/vector/) | Search in operators. |
 | [ALL](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/all/) | Search in all content objects. |
+
+### Guides
+Task guides that use `PdfSearchableObjects`:
+
+* [Searching watermarks](/watermark/python-net/guides/searching-watermarks/)
 
 ### See Also
 * module [`groupdocs.watermark.search.objects`](/watermark/python-net/groupdocs.watermark.search.objects/)

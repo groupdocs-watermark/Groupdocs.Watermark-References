@@ -1,7 +1,7 @@
 ---
 title: pages property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The list of specific page numbers."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/pagesearchcriteria/pages/
 is_root: false

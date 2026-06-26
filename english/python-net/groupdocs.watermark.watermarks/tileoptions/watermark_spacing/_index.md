@@ -1,7 +1,7 @@
 ---
 title: watermark_spacing property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The spacing between serials for watermarks in tile mode."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/tileoptions/watermark_spacing/
 is_root: false

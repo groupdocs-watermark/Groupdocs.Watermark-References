@@ -1,7 +1,7 @@
 ---
 title: WordProcessingSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document saving options when saving a Word document."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingsaveoptions/
 is_root: false
@@ -18,7 +18,7 @@ The WordProcessingSaveOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingsaveoptions/__init__/) | Initializes a new [`WordProcessingSaveOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingsaveoptions/) instance. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingsaveoptions/__init__/) | Initializes a new instance of the [`WordProcessingSaveOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingsaveoptions/) class. |
 
 ### Fields
 | Field | Description |

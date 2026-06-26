@@ -1,7 +1,7 @@
 ---
 title: INLINE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Not documented."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingverticalalignment/inline/
 is_root: false

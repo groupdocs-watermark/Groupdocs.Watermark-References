@@ -1,7 +1,7 @@
 ---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The x-coordinate of the attachment frame in points, representing the horizontal offset from the worksheet left border."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/x/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2080
 
 ## x property
 
-The horizontal offset of the attachment frame from the worksheet left border in points, representing the x-coordinate of the attachment frame.
+The x-coordinate of the attachment frame in points, representing the horizontal offset from the worksheet left border.
 
 ### Definition:
 ```python

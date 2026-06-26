@@ -1,7 +1,7 @@
 ---
 title: PPT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "A file with PPT extension represents PowerPoint file that consists of a collection of slides for displaying as SlideShow."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/ppt/
 is_root: false

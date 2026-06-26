@@ -1,7 +1,7 @@
 ---
 title: is_word_art property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The property indicates whether the SpreadsheetShape is a WordArt object."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/is_word_art/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: page_setup property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The printing page setup for this WordProcessingSection."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingsection/page_setup/
 is_root: false

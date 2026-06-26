@@ -1,7 +1,7 @@
 ---
 title: SLIDES_BACKGROUNDS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in slides backgrounds."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/presentationsearchableobjects/slides_backgrounds/
 is_root: false

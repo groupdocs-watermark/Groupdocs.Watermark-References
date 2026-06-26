@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetAttachmentCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of attachments in an Excel document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/
 is_root: false
@@ -24,7 +24,7 @@ The SpreadsheetAttachmentCollection type exposes the following members:
 | [add_attachment_bytes](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_attachment_bytes/) |  |
 | [add_attachment_file](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_attachment_file/) |  |
 | [add_attachment_string](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_attachment_string/) |  |
-| [add_link](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_link/#source_full_name-preview_image_content-x-y-width-height) | Adds an attachment by a link (the document will not contain attached file content). |
+| [add_link](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_link/#source_full_name-preview_image_content-x-y-width-height) | Adds an attachment by a link; the document will not contain the attached file content. |
 | [add_link_bytes](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_link_bytes/) |  |
 | [add_link_file](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_link_file/) |  |
 | [add_link_string](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_link_string/) |  |

@@ -1,7 +1,7 @@
 ---
 title: frame_index property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The index of the frame to add a watermark."
 type: docs
 url: /python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/frame_index/
 is_root: false
@@ -13,7 +13,7 @@ weight: 2010
 
 The index of the frame to add a watermark.
 
--1 means all frames.
+A value of -1 indicates that the watermark should be applied to all frames.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: is_locked property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The lock state of the shape in Excel."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetshapesettings/is_locked/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2010
 
 ## is_locked property
 
-The shape editing lock state for Excel. If True, shape editing is forbidden; by default False, the shape can be edited.
+The lock state of the shape in Excel. If True, editing the shape is forbidden; otherwise the shape can be edited. By default, the value is False.
 
 ### Definition:
 ```python

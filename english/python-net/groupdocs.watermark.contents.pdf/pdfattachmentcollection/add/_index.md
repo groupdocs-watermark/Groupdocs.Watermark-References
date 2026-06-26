@@ -1,7 +1,7 @@
 ---
 title: add method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Adds an attachment to the PdfContent."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1010
 
 ## add {#file_content-name-description}
 
-Adds an attachment to the [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/).
+Adds an attachment to the PdfContent.
 
 ```python
 def add(self, file_content, name, description):

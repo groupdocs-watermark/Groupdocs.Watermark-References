@@ -1,7 +1,7 @@
 ---
 title: left property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The left position of the watermark."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/left/
 is_root: false

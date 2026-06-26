@@ -1,7 +1,7 @@
 ---
 title: Margins class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents margin settings for each edge of an object."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/margins/
 is_root: false
@@ -24,10 +24,10 @@ The Margins type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [bottom](/watermark/python-net/groupdocs.watermark.watermarks/margins/bottom/) | The bottom margin, expressed as the horizontal offset from the parent bottom border. |
+| [bottom](/watermark/python-net/groupdocs.watermark.watermarks/margins/bottom/) | The bottom margin, expressed as a horizontal offset from the parent bottom border. |
 | [left](/watermark/python-net/groupdocs.watermark.watermarks/margins/left/) | The left margin, expressed as the horizontal offset from the parent left border. |
-| [margin_type](/watermark/python-net/groupdocs.watermark.watermarks/margins/margin_type/) | The margin type, specifying how margins should be interpreted. Setting a new value automatically resets all margins to their default values (zero). |
-| [right](/watermark/python-net/groupdocs.watermark.watermarks/margins/right/) | The right margin, expressed as the horizontal offset from the parent right border. |
+| [margin_type](/watermark/python-net/groupdocs.watermark.watermarks/margins/margin_type/) | The margin type. Setting a new value automatically resets all margins to their default values (zero). |
+| [right](/watermark/python-net/groupdocs.watermark.watermarks/margins/right/) | The right margin. Horizontal offset from parent right border. |
 | [top](/watermark/python-net/groupdocs.watermark.watermarks/margins/top/) | The top margin, expressed as the horizontal offset from the parent top border. |
 
 ### See Also

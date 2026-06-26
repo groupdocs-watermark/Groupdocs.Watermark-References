@@ -1,7 +1,7 @@
 ---
 title: UnsupportedFileTypeException class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The exception that is thrown when a file cannot be loaded."
 type: docs
 url: /python-net/groupdocs.watermark/unsupportedfiletypeexception/
 is_root: false

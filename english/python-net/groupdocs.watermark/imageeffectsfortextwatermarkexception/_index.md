@@ -1,7 +1,7 @@
 ---
 title: ImageEffectsForTextWatermarkException class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The exception that is thrown when is supplied for ."
 type: docs
 url: /python-net/groupdocs.watermark/imageeffectsfortextwatermarkexception/
 is_root: false

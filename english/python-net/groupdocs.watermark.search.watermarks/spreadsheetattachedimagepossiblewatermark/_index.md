@@ -1,11 +1,11 @@
 ---
 title: SpreadsheetAttachedImagePossibleWatermark class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents possible image watermark in Excel document attachment."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/spreadsheetattachedimagepossiblewatermark/
 is_root: false
-weight: 220
+weight: 230
 ---
 
 

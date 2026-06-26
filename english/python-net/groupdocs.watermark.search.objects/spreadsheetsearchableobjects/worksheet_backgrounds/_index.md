@@ -1,7 +1,7 @@
 ---
 title: WORKSHEET_BACKGROUNDS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in worksheets backgrounds."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/worksheet_backgrounds/
 is_root: false

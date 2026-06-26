@@ -1,7 +1,7 @@
 ---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The x-coordinate of this WordProcessingTextHyperlinkPossibleWatermark."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/x/
 is_root: false

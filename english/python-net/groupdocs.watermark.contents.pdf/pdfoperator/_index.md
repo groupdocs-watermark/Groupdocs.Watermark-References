@@ -1,7 +1,7 @@
 ---
 title: PdfOperator class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents an operator of vector content in a pdf document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfoperator/
 is_root: false

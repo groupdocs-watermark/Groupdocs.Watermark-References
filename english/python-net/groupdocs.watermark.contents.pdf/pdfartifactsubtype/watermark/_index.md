@@ -1,7 +1,7 @@
 ---
 title: WATERMARK field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Watermark subtype."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifactsubtype/watermark/
 is_root: false

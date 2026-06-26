@@ -1,7 +1,7 @@
 ---
 title: warning method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Logs a warning that occurred during watermarking."
 type: docs
 url: /python-net/groupdocs.watermark.options/ilogger/warning/
 is_root: false

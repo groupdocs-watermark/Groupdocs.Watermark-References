@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a TextWatermarkResult object with the watermark identifier obtained after a search process."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/__init__/
 is_root: false

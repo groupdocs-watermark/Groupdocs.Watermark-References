@@ -1,7 +1,7 @@
 ---
 title: save method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Saves the document data to the underlying stream."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/save/
 is_root: false
@@ -13,7 +13,7 @@ weight: 1130
 
 Saves the document data to the underlying stream.
 
-Learn more about saving the documents.
+Learn more about saving documents at the GroupDocs documentation.
 
 ```python
 def save(self):
@@ -26,22 +26,18 @@ def save(self):
 import groupdocs.watermark as gw
 import groupdocs.watermark.search.searchcriteria as gws_sc
 
-with gw.Watermarker("document.pdf") as watermarker:
+with gw.Watermarker("email.msg") as watermarker:
     criteria = gws_sc.TextSearchCriteria("test", False)
-    possible = watermarker.search(criteria)
-    for wm in possible:
-        try:
-            wm.text = "passed"
-        except Exception:
-            pass
-    watermarker.save("document.pdf")
+    watermarks = watermarker.search(criteria)
+    watermarker.remove(watermarks)
+    watermarker.save()
 ```
 
 ## save {#file_path}
 
 Saves the document to the specified file location.
 
-Learn more about saving the documents at https://docs.groupdocs.com/display/watermarknet/Saving+documents.
+Learn more about saving the documents.
 
 ```python
 def save(self, file_path):
@@ -55,19 +51,21 @@ def save(self, file_path):
 ### Example
 
 ```python
-    import groupdocs.watermark as gw
+import groupdocs.watermark as gw
+from groupdocs.watermark.contents import TextWatermark
+from System.Drawing import Font
 
-    with gw.Watermarker("input.pdf") as watermarker:
-        watermark = gw.TextWatermark("top secret", gw.Font("Arial", 36))
-        watermarker.add(watermark)
-        watermarker.save("output.pdf")
-    ```
+with gw.Watermarker("input.pdf") as watermarker:
+    watermark = TextWatermark("top secret", Font("Arial", 36))
+    watermarker.add(watermark)
+    watermarker.save("output.pdf")
+```
 
 ## save {#document}
 
 Saves the document to the specified stream.
 
-Learn more about saving the documents at https://docs.groupdocs.com/display/watermarknet/Saving+documents.
+Learn more about saving the documents at the Saving documents page.
 
 ```python
 def save(self, document):
@@ -78,11 +76,27 @@ def save(self, document):
 | :- | :- | :- |
 | document | `io.RawIOBase` | The stream to save the document data to. |
 
+### Example
+
+```python
+import io
+import groupdocs.watermark as gw
+from groupdocs.watermark.contents import TextWatermark
+from groupdocs.watermark.font import Font
+
+with gw.Watermarker("input.pdf") as watermarker:
+    watermark = TextWatermark("top secret", Font("Arial", 36))
+    watermarker.add(watermark)
+    stream = io.BytesIO()
+    watermarker.save(stream)
+    # stream now contains the saved document data
+```
+
 ## save {#options}
 
-Saves the document data to the underlying stream using save options.
+Saves the document data to the underlying stream using the specified save options.
 
-Learn more about saving the documents.
+Learn more about saving documents.
 
 ```python
 def save(self, options):
@@ -93,24 +107,24 @@ def save(self, options):
 | :- | :- | :- |
 | options | `SaveOptions` | Additional options to use when saving a document. |
 
+**Returns:** None.
+
 ### Example
 
 ```python
 import groupdocs.watermark as gw
-from groupdocs.watermark import TextWatermark, Font
 
 with gw.Watermarker("input.pdf") as watermarker:
-    watermark = TextWatermark("top secret", Font("Arial", 36))
+    watermark = gw.TextWatermark("top secret", gw.Font("Arial", 36))
     watermarker.add(watermark)
-    # Save the document with default options
-    watermarker.save("output.pdf")
+    watermarker.save()
 ```
 
 ## save {#file_path-options}
 
 Saves the document to the specified file location using save options.
 
-Learn more about saving the documents.
+Learn more about saving the documents at https://docs.groupdocs.com/display/watermarknet/Saving+documents.
 
 ```python
 def save(self, file_path, options):
@@ -126,23 +140,19 @@ def save(self, file_path, options):
 
 ```python
 import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import TextWatermark, Font
 
-with gw.Watermarker("document.pdf") as watermarker:
-    criteria = gws_sc.TextSearchCriteria("test", False)
-    for wm in watermarker.search(criteria):
-        try:
-            wm.text = "passed"
-        except Exception:
-            pass
-    watermarker.save("document.pdf")
+with gw.Watermarker("input.pdf") as watermarker:
+    watermark = TextWatermark("top secret", Font("Arial", 36))
+    watermarker.add(watermark)
+    watermarker.save("output.pdf")
 ```
 
 ## save {#document-options}
 
 Saves the document to the specified stream using save options.
 
-Learn more about saving the documents at the GroupDocs documentation.
+Learn more about saving the documents at the GroupDocs documentation site.
 
 ```python
 def save(self, document, options):
@@ -157,16 +167,18 @@ def save(self, document, options):
 ### Example
 
 ```python
+import io
 import groupdocs.watermark as gw
-from io import BytesIO
-from groupdocs.watermark.options import SaveOptions
+from groupdocs.watermark import TextWatermark, SaveOptions
+from System.Drawing import Font
 
 with gw.Watermarker("input.pdf") as watermarker:
-    watermark = gw.TextWatermark("top secret", gw.Font("Arial", 36))
+    watermark = TextWatermark("top secret", Font("Arial", 36))
     watermarker.add(watermark)
-    stream = BytesIO()
-    watermarker.save(stream, SaveOptions())
-    # stream now contains the saved document
+
+    with io.BytesIO() as stream:
+        watermarker.save(stream, SaveOptions())
+        # stream now contains the saved document bytes
 ```
 
 ### See Also

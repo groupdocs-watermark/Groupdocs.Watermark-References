@@ -1,7 +1,7 @@
 ---
 title: link_to_previous_boolean method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "WordProcessingHeaderFooterCollection.link_to_previous_boolean method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfootercollection/link_to_previous_boolean/
 is_root: false

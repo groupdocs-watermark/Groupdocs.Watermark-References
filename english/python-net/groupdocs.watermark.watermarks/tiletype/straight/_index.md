@@ -1,7 +1,7 @@
 ---
 title: STRAIGHT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents straight tile alignment."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/tiletype/straight/
 is_root: false

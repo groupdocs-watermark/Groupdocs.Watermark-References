@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The height of a printing page in points."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/height/
 is_root: false

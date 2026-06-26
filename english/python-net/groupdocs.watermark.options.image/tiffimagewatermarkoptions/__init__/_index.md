@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the TiffImageWatermarkOptions class."
 type: docs
 url: /python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/
 is_root: false
@@ -36,7 +36,7 @@ with gw.Watermarker("image.tiff", load_options) as watermarker:
 
 ## __init__ {#frame_index}
 
-Initializes a new instance of the [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) class with a specified frame index.
+Initializes a new instance of [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) with a specified frame index.
 
 ```python
 def __init__(self, frame_index):
@@ -45,23 +45,7 @@ def __init__(self, frame_index):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| frame_index | `int` | The index of the frame to add watermark. |
-
-### Example
-
-```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.image as gwo_img
-
-load_options = gw.TiffImageLoadOptions()
-with gw.Watermarker("image.tiff", load_options) as watermarker:
-    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
-    options = gwo_img.TiffImageWatermarkOptions()
-    options.frame_index = 0
-    watermarker.add(watermark, options)
-    watermarker.save("image.tiff")
-```
+| frame_index | `int` | The index of the frame to add the watermark. |
 
 ### See Also
 * class [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/)

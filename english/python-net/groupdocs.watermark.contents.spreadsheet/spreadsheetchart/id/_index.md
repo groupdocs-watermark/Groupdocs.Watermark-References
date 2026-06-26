@@ -1,7 +1,7 @@
 ---
 title: id property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The identifier of this SpreadsheetChart."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/id/
 is_root: false

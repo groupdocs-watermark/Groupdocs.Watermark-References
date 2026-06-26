@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the SpreadsheetPreviewOptions class causing the output stream to be closed."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#create_page_stream}
 
-Initializes a new instance of the SpreadsheetPreviewOptions class causing the output stream to be closed.
+Initializes a new instance of the [`SpreadsheetPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/) class causing the output stream to be closed.
 
 ```python
 def __init__(self, create_page_stream):
@@ -24,7 +24,7 @@ def __init__(self, create_page_stream):
 
 ## __init__ {#create_page_stream-release_page_stream}
 
-Initializes a new instance of [`SpreadsheetPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/) that returns the output stream to the client for further use.
+Initializes a new instance of SpreadsheetPreviewOptions class causing the output stream to be returned to the client for further use.
 
 ```python
 def __init__(self, create_page_stream, release_page_stream):

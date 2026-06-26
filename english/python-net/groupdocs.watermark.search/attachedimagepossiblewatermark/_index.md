@@ -1,7 +1,7 @@
 ---
 title: AttachedImagePossibleWatermark class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "AttachedImagePossibleWatermark class — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.search/attachedimagepossiblewatermark/
 is_root: false
@@ -24,7 +24,7 @@ The AttachedImagePossibleWatermark type exposes the following members:
 | [x](/watermark/python-net/groupdocs.watermark.search/attachedimagepossiblewatermark/x/) |  |
 | [y](/watermark/python-net/groupdocs.watermark.search/attachedimagepossiblewatermark/y/) |  |
 | [formatted_text_fragments](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/formatted_text_fragments/) | The collection of formatted text fragments of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/). (inherited from [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)) |
-| [image_data](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/image_data/) | The image of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/) or None if the watermark has no image. (inherited from [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)) |
+| [image_data](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/image_data/) | The image of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/), or `None` if the watermark has no image. (inherited from [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)) |
 | [page_number](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/page_number/) | The page number where the watermark is placed. (inherited from [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)) |
 | [text](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/text/) | The text of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/). (inherited from [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)) |
 

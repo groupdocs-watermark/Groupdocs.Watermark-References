@@ -1,7 +1,7 @@
 ---
 title: header_footer property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The parent header/footer of this WordProcessingShape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshape/header_footer/
 is_root: false

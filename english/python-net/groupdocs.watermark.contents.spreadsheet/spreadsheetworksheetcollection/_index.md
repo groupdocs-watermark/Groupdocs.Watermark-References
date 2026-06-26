@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetWorksheetCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of worksheets in an Excel document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheetcollection/
 is_root: false

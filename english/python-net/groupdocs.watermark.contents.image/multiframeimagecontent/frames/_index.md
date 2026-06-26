@@ -1,7 +1,7 @@
 ---
 title: frames property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of all frames of the image."
 type: docs
 url: /python-net/groupdocs.watermark.contents.image/multiframeimagecontent/frames/
 is_root: false

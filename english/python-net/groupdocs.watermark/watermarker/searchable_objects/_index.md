@@ -1,7 +1,7 @@
 ---
 title: searchable_objects property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The objects that are to be included in a watermark search."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/searchable_objects/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the SearchableObjects class."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/searchableobjects/__init__/
 is_root: false
@@ -24,7 +24,8 @@ def __init__(self):
 import groupdocs.watermark as gw
 import groupdocs.watermark.search as gws
 
-searchable = gws.SearchableObjects(
+settings = gw.WatermarkerSettings()
+settings.searchable_objects = gws.SearchableObjects(
     word_processing_searchable_objects=gws.WordProcessingSearchableObjects.HYPERLINKS
     | gws.WordProcessingSearchableObjects.TEXT,
     spreadsheet_searchable_objects=gws.SpreadsheetSearchableObjects.HEADERS_FOOTERS,

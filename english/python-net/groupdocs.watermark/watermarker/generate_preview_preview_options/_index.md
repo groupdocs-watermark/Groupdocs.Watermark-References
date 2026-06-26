@@ -1,7 +1,7 @@
 ---
 title: generate_preview_preview_options method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Watermarker.generate_preview_preview_options method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/generate_preview_preview_options/
 is_root: false

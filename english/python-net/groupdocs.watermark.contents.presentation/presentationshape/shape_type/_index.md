@@ -1,7 +1,7 @@
 ---
 title: shape_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The geometry preset type of the shape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationshape/shape_type/
 is_root: false

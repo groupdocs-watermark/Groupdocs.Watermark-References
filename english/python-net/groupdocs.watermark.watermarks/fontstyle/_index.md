@@ -1,7 +1,7 @@
 ---
 title: FontStyle class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "FontStyle enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/fontstyle/
 is_root: false
@@ -21,6 +21,11 @@ The FontStyle type exposes the following members:
 | [ITALIC](/watermark/python-net/groupdocs.watermark.watermarks/fontstyle/italic/) | Italic text. |
 | [UNDERLINE](/watermark/python-net/groupdocs.watermark.watermarks/fontstyle/underline/) | Underlined text. |
 | [STRIKEOUT](/watermark/python-net/groupdocs.watermark.watermarks/fontstyle/strikeout/) | Text with a line through the middle. |
+
+### Guides
+Task guides that use `FontStyle`:
+
+* [Modifying found watermark properties](/watermark/python-net/guides/modifying-found-watermark-properties/)
 
 ### See Also
 * module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

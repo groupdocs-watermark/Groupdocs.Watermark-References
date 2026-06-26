@@ -1,7 +1,7 @@
 ---
 title: POLYGON field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Polygon annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/polygon/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: tile_as_texture property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The tileastexture property indicates whether the image is tiled across the background."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationimagefillformat/tile_as_texture/
 is_root: false
@@ -11,9 +11,7 @@ weight: 2020
 
 ## tile_as_texture property
 
-The property indicating whether the image is tiled across the background.
-
-True if the image is tiled across the background; otherwise, False (the image is stretched). The default value is False.
+The tile_as_texture property indicates whether the image is tiled across the background. True if the image is tiled across the background; otherwise, False (the image is stretched). The default value is False.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the ImageDctHashSearchCriteria class with a specified file path."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/imagedcthashsearchcriteria/__init__/
 is_root: false
@@ -25,7 +25,6 @@ def __init__(self, file_path):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
 import groupdocs.watermark.search.searchcriteria as gws_sc
 
 criteria = gws_sc.ImageDctHashSearchCriteria("logo.png")

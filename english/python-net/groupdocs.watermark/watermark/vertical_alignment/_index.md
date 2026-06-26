@@ -1,7 +1,7 @@
 ---
 title: vertical_alignment property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The vertical alignment of this Watermark."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/vertical_alignment/
 is_root: false

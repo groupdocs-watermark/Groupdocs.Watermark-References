@@ -1,7 +1,7 @@
 ---
 title: opacity property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The line opacity."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelineformat/opacity/
 is_root: false

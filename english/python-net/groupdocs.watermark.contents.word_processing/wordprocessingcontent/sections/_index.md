@@ -1,7 +1,7 @@
 ---
 title: sections property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of all sections of this WordProcessingContent."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingcontent/sections/
 is_root: false

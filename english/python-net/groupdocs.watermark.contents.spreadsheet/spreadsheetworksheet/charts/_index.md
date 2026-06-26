@@ -1,7 +1,7 @@
 ---
 title: charts property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of all charts of this SpreadsheetWorksheet."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/charts/
 is_root: false

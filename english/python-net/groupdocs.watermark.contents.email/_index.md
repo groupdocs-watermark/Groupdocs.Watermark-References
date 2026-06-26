@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.contents.email
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.contents.email."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/
 is_root: false

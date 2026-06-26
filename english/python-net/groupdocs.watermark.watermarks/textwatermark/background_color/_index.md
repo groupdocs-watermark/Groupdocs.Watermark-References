@@ -1,7 +1,7 @@
 ---
 title: background_color property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The background color of the text."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/textwatermark/background_color/
 is_root: false

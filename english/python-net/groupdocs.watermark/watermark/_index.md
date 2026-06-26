@@ -1,7 +1,7 @@
 ---
 title: Watermark class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a watermark to be added to a document."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/
 is_root: false
@@ -23,16 +23,16 @@ The Watermark type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [consider_parent_margins](/watermark/python-net/groupdocs.watermark/watermark/consider_parent_margins/) | The consider_parent_margins property indicates whether the watermark size and coordinates are calculated considering parent margins. If set to True, margins are taken into account; otherwise (default False) they are ignored. |
+| [consider_parent_margins](/watermark/python-net/groupdocs.watermark/watermark/consider_parent_margins/) | The property indicating whether the watermark size and coordinates are calculated considering parent margins. If set to True, calculations consider parent margins; otherwise, margins are ignored (default is False). |
 | [height](/watermark/python-net/groupdocs.watermark/watermark/height/) | The desired height of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/). |
-| [horizontal_alignment](/watermark/python-net/groupdocs.watermark/watermark/horizontal_alignment/) | The horizontal alignment of this Watermark. |
-| [is_background](/watermark/python-net/groupdocs.watermark/watermark/is_background/) | The watermark is placed in the background when True; otherwise it is placed in the foreground (top). The default is False. |
-| [margins](/watermark/python-net/groupdocs.watermark/watermark/margins/) | The margin settings of this Watermark. |
+| [horizontal_alignment](/watermark/python-net/groupdocs.watermark/watermark/horizontal_alignment/) | The horizontal alignment of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/). |
+| [is_background](/watermark/python-net/groupdocs.watermark/watermark/is_background/) | The watermark is placed in the background when True; otherwise it appears in the foreground (top). The default is False. |
+| [margins](/watermark/python-net/groupdocs.watermark/watermark/margins/) | The margin settings of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/). |
 | [opacity](/watermark/python-net/groupdocs.watermark/watermark/opacity/) | The opacity of this Watermark. |
-| [pages_setup](/watermark/python-net/groupdocs.watermark/watermark/pages_setup/) | The pages setup settings of this Watermark. |
+| [pages_setup](/watermark/python-net/groupdocs.watermark/watermark/pages_setup/) | The pages setup settings of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/). |
 | [rotate_angle](/watermark/python-net/groupdocs.watermark/watermark/rotate_angle/) | The rotate angle of this Watermark in degrees. |
-| [save_result_in_metadata](/watermark/python-net/groupdocs.watermark/watermark/save_result_in_metadata/) | The flag indicating whether information about added watermarks is saved in the document metadata. |
-| [scale_factor](/watermark/python-net/groupdocs.watermark/watermark/scale_factor/) | The scale factor of this Watermark, defining how the watermark size depends on the parent size. |
+| [save_result_in_metadata](/watermark/python-net/groupdocs.watermark/watermark/save_result_in_metadata/) | The property indicates whether to save information about added watermarks in the document metadata. |
+| [scale_factor](/watermark/python-net/groupdocs.watermark/watermark/scale_factor/) | The scale factor of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/). |
 | [sizing_type](/watermark/python-net/groupdocs.watermark/watermark/sizing_type/) | The sizing type specifying how the watermark should be sized. |
 | [tile_options](/watermark/python-net/groupdocs.watermark/watermark/tile_options/) | The options to define a repeated watermark. |
 | [vertical_alignment](/watermark/python-net/groupdocs.watermark/watermark/vertical_alignment/) | The vertical alignment of this Watermark. |
@@ -43,8 +43,8 @@ The Watermark type exposes the following members:
 ### Guides
 Task guides that use `Watermark`:
 
-* [Locking watermark in word processing document](/watermark/python-net/guides/locking-watermark-in-word-processing-document/)
-* [Adding repeated watermarks](/watermark/python-net/guides/adding-repeated-watermarks/)
+* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
+* [Hello, World!](/watermark/python-net/guides/hello-world/)
 
 ### See Also
 * module [`groupdocs.watermark`](/watermark/python-net/groupdocs.watermark/)

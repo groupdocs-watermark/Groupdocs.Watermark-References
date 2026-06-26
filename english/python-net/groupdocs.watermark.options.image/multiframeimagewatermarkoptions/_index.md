@@ -1,7 +1,7 @@
 ---
 title: MultiframeImageWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents watermark adding options when adding watermark to a multi-frame image."
 type: docs
 url: /python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/
 is_root: false
@@ -11,10 +11,10 @@ weight: 70
 
 ## MultiframeImageWatermarkOptions class
 
-Represents watermark adding options when adding a watermark to a multi-frame image.
+Represents watermark adding options when adding watermark to a multi-frame image.
 
 Learn more:
-- [Add watermarks to images](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
+- Add watermarks to images: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images
 
 The MultiframeImageWatermarkOptions type exposes the following members:
 
@@ -22,7 +22,7 @@ The MultiframeImageWatermarkOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/__init__/) | Initializes a new instance of the [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/__init__/#frame_index) | Initializes a new instance of the [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/) class with a specified frame index. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/__init__/#frame_index) | Initializes a new instance of the MultiframeImageWatermarkOptions class with a specified index of the frame. |
 
 ### Properties
 | Property | Description |
@@ -37,7 +37,7 @@ The MultiframeImageWatermarkOptions type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.watermark import Watermarker, ImageLoadOptions, TextWatermark, Font, MultiframeImageWatermarkOptions
+from groupdocs.watermark import Watermarker, ImageLoadOptions, TextWatermark, MultiframeImageWatermarkOptions, Font
 
 load_options = ImageLoadOptions()
 with Watermarker(r"C:\test.gif", load_options) as watermarker:

@@ -1,7 +1,7 @@
 ---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The x-coordinate of the object."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationchart/x/
 is_root: false

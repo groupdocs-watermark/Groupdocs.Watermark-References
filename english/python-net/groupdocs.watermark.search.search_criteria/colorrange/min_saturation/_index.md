@@ -1,7 +1,7 @@
 ---
 title: min_saturation property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The starting saturation value."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/colorrange/min_saturation/
 is_root: false

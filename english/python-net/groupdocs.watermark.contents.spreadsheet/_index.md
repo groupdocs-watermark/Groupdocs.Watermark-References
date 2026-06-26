@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.contents.spreadsheet
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.contents.spreadsheet."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/
 is_root: false

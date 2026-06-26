@@ -1,7 +1,7 @@
 ---
 title: PdfArtifactWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents watermark adding options when adding an artifact watermark to a PDF document."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/
 is_root: false
@@ -26,7 +26,7 @@ The PdfArtifactWatermarkOptions type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [page_index](/watermark/python-net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/page_index/) | The page index to add the watermark to. |
+| [page_index](/watermark/python-net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/page_index/) | The page index to add watermark to. |
 
 ### Fields
 | Field | Description |
@@ -48,11 +48,16 @@ with gw.Watermarker("document.pdf", load_options) as watermarker:
     watermark.vertical_alignment = gwc.VerticalAlignment.BOTTOM
 
     options = gwo_pdf.PdfArtifactWatermarkOptions()
-    options.page_index = -1  # default - all pages
+    options.page_index = -1  # default: all pages
 
     watermarker.add(watermark, options)
     watermarker.save("document.pdf")
 ```
+
+### Guides
+Task guides that use `PdfArtifactWatermarkOptions`:
+
+* [Watermarks in PDF document](/watermark/python-net/guides/watermarks-in-pdf-document/)
 
 ### See Also
 * module [`groupdocs.watermark.options.pdf`](/watermark/python-net/groupdocs.watermark.options.pdf/)

@@ -1,7 +1,7 @@
 ---
 title: is_locked property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The property indicates whether editing of the shape in PowerPoint is forbidden."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/is_locked/
 is_root: false
@@ -11,9 +11,7 @@ weight: 2030
 
 ## is_locked property
 
-The shape editing lock state for a PowerPoint slide.
-
-If True, editing the shape in PowerPoint is forbidden; otherwise the shape can be edited. By default the value is False.
+The property indicates whether editing of the shape in PowerPoint is forbidden. If True, shape editing is forbidden; by default False, the shape can be edited.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: rotate_angle property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The rotate angle of this PresentationChartBackgroundPossibleWatermark in degrees."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/rotate_angle/
 is_root: false

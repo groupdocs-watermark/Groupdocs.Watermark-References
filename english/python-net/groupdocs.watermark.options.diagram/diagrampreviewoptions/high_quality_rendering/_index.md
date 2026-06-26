@@ -1,7 +1,7 @@
 ---
 title: high_quality_rendering property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The flag for high quality rendering."
 type: docs
 url: /python-net/groupdocs.watermark.options.diagram/diagrampreviewoptions/high_quality_rendering/
 is_root: false

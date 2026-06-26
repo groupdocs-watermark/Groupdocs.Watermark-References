@@ -1,7 +1,7 @@
 ---
 title: LoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document loading options when loading a document."
 type: docs
 url: /python-net/groupdocs.watermark.options/loadoptions/
 is_root: false
@@ -27,7 +27,7 @@ The LoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options/loadoptions/__init__/) | Initializes a new instance of the LoadOptions class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/loadoptions/__init__/#password) | Initializes a new instance of the [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/) class with a specified password. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/loadoptions/__init__/#password) | Initializes a new LoadOptions instance with a specified password. |
 
 ### Properties
 | Property | Description |

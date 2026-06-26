@@ -1,82 +1,127 @@
 ---
 title: Modifying found watermark properties
+linkTitle: "Modifying found"
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search for existing watermarks and update their text, formatted text, or image using GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/guides/modifying-found-watermark-properties/
 is_root: false
-weight: 190
+weight: 200
 ---
 
 
-GroupDocs.Watermark lets you replace text or images in watermarks that already exist in a document.
+GroupDocs.Watermark lets you replace the text or image of watermarks that already exist in a document. Search for the watermarks first, then assign a new value to each match.
 
-## Replacing text
+## Replace text
 
-Loop through found watermarks and set the `text` property.
+The example below opens a document that contains a "CONFIDENTIAL" watermark, finds it, and replaces the text with "APPROVED".
 
+  
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    criteria = gws_sc.TextSearchCriteria("test", False)
-    possible = watermarker.search(criteria)
-    for wm in possible:
-        try:
-            wm.text = "passed"
-        except Exception:
-            # Entity may not support text editing or the value is invalid
-            pass
-    watermarker.save("document.pdf")
+def modify_watermark():
+    with Watermarker("./watermarked-document.pdf") as watermarker:
+        possible = watermarker.search(TextSearchCriteria("CONFIDENTIAL"))
+        for wm in possible:
+            try:
+                wm.text = "APPROVED"
+            except Exception:
+                # The entity may not support text editing, or the value is invalid
+                pass
+        watermarker.save("./output.pdf")
+
+if __name__ == "__main__":
+    modify_watermark()
 ```
 
-## Replacing text with formatting
+  
 
-Use `formatted_text_fragments` to set styled text.
+`watermarked-document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/modifying-found-watermark-properties/watermarked-document.pdf) to download it.
 
+  
+```text
+Binary file (PDF, 479 KB)
+```
+[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/modifying-found-watermark-properties/modify_watermark/output.pdf)
+
+## Replace text with formatting
+
+Use `formatted_text_fragments` to replace the text with styled fragments — choose the font, foreground color, and background color.
+
+  
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
-import groupdocs.watermark.watermarks as gww
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import Font, FontStyle, Color
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    criteria = gws_sc.TextSearchCriteria("test", False)
-    possible = watermarker.search(criteria)
-    for wm in possible:
-        try:
-            wm.formatted_text_fragments.clear()
-            wm.formatted_text_fragments.add(
-                "passed",
-                gww.Font("Calibri", 19.0, gww.FontStyle.BOLD),
-                gww.Color.red,
-                gww.Color.aqua,
-            )
-        except Exception:
-            # Entity may not support formatted text or values may be invalid
-            pass
-    watermarker.save("document.pdf")
+def modify_watermark_with_formatting():
+    with Watermarker("./watermarked-document.pdf") as watermarker:
+        possible = watermarker.search(TextSearchCriteria("CONFIDENTIAL"))
+        for wm in possible:
+            try:
+                wm.formatted_text_fragments.clear()
+                wm.formatted_text_fragments.add(
+                    "APPROVED",
+                    Font("Calibri", 19.0, FontStyle.BOLD),
+                    Color.red,
+                    Color.aqua,
+                )
+            except Exception:
+                # The entity may not support formatted text, or values may be invalid
+                pass
+        watermarker.save("./output.pdf")
+
+if __name__ == "__main__":
+    modify_watermark_with_formatting()
 ```
 
-## Replacing image
+  
 
-Swap the image data of matched watermarks.
+`watermarked-document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/modifying-found-watermark-properties/watermarked-document.pdf) to download it.
 
-```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
-
-with open("image.png", "rb") as f:
-    image_data = f.read()
-
-with gw.Watermarker("document.pdf") as watermarker:
-    criteria = gws_sc.ImageDctHashSearchCriteria("logo.bmp")
-    possible = watermarker.search(criteria)
-    for wm in possible:
-        try:
-            wm.image_data = image_data
-        except Exception:
-            # Entity may not support image replacement or image format is invalid
-            pass
-    watermarker.save("document.pdf")
+  
+```text
+Binary file (PDF, 662 KB)
 ```
+[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/modifying-found-watermark-properties/modify_watermark_with_formatting/output.pdf)
+
+## Replace image
+
+Swap the image data of matched watermarks by assigning new bytes to `image_data`.
+
+  
+```python
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import ImageDctHashSearchCriteria
+
+def replace_watermark_image():
+    with open("./stamp.png", "rb") as f:
+        image_data = f.read()
+
+    with Watermarker("./watermarked-document.docx") as watermarker:
+        criteria = ImageDctHashSearchCriteria("./logo.png")
+        criteria.max_difference = 0.9
+        possible = watermarker.search(criteria)
+        for wm in possible:
+            try:
+                wm.image_data = image_data
+            except Exception:
+                # The entity may not support image replacement, or the image format is invalid
+                pass
+        watermarker.save("./output.docx")
+
+if __name__ == "__main__":
+    replace_watermark_image()
+```
+
+  
+
+`watermarked-document.docx`, `logo.png`, and `stamp.png` are the sample files used in this example. Download [watermarked-document.docx](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/modifying-found-watermark-properties/watermarked-document.docx), [logo.png](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/modifying-found-watermark-properties/logo.png), and [stamp.png](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/modifying-found-watermark-properties/stamp.png).
+
+  
+```text
+Binary file (DOCX, 18 KB)
+```
+[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/modifying-found-watermark-properties/replace_watermark_image/output.docx)

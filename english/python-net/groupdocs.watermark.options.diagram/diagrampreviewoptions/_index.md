@@ -1,7 +1,7 @@
 ---
 title: DiagramPreviewOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Provides options to set requirements and stream delegates for preview generation of Diagram document."
 type: docs
 url: /python-net/groupdocs.watermark.options.diagram/diagrampreviewoptions/
 is_root: false
@@ -11,14 +11,14 @@ weight: 30
 
 ## DiagramPreviewOptions class
 
-Provides options to set requirements and stream delegates for preview generation of a Diagram document.
+Provides options to set requirements and stream delegates for preview generation of Diagram document.
 
 The DiagramPreviewOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampreviewoptions/__init__/#create_page_stream) | Initializes a new DiagramPreviewOptions instance that causes the output stream to be closed. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampreviewoptions/__init__/#create_page_stream) | Initializes a new instance of the [`DiagramPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampreviewoptions/) class causing the output stream to be closed. |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampreviewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new instance of [`DiagramPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampreviewoptions/) class causing the output stream to be returned to the client for further use. |
 
 ### Properties

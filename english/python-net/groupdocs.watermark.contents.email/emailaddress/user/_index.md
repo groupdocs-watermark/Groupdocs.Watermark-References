@@ -1,7 +1,7 @@
 ---
 title: user property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The username."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailaddress/user/
 is_root: false

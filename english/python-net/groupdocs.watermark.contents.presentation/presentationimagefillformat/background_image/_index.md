@@ -1,7 +1,7 @@
 ---
 title: background_image property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The background image."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationimagefillformat/background_image/
 is_root: false
@@ -11,9 +11,7 @@ weight: 2010
 
 ## background_image property
 
-The background image.
-
-Returns None if the image is not set.
+The background image. Returns None if the image is not set.
 
 ### Definition:
 ```python

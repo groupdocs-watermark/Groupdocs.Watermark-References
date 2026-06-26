@@ -1,7 +1,7 @@
 ---
 title: max_difference property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The maximum allowed difference between images."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/imagesearchcriteria/max_difference/
 is_root: false

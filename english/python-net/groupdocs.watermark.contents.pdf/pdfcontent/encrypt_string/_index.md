@@ -1,7 +1,7 @@
 ---
 title: encrypt_string method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PdfContent.encrypt_string method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfcontent/encrypt_string/
 is_root: false

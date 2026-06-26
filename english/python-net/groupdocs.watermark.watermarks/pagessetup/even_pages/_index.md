@@ -1,7 +1,7 @@
 ---
 title: even_pages property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The value indicating whether to include even pages."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/pagessetup/even_pages/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2020
 
 ## even_pages property
 
-The flag indicating whether to include even pages.
+The value indicating whether to include even pages.
 
 ### Definition:
 ```python

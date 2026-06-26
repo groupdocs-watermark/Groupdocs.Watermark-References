@@ -1,7 +1,7 @@
 ---
 title: minimum property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The starting value."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/sizesearchcriteria/minimum/
 is_root: false

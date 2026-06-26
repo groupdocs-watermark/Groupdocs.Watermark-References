@@ -1,7 +1,7 @@
 ---
 title: set_hyperlink method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Sets the hyperlink associated with this PresentationBaseShape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/set_hyperlink/
 is_root: false

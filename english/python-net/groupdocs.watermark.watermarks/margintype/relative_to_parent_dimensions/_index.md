@@ -1,7 +1,7 @@
 ---
 title: RELATIVE_TO_PARENT_DIMENSIONS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Margin value should be interpreted as a portion of appropriate parent dimension."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/margintype/relative_to_parent_dimensions/
 is_root: false

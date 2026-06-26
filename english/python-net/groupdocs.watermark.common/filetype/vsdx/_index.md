@@ -1,7 +1,7 @@
 ---
 title: VSDX field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files with .VSDX extension represent Microsoft Visio file format introduced from Microsoft Office 2013 onwards."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/vsdx/
 is_root: false

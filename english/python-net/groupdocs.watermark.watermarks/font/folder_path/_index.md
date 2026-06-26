@@ -1,7 +1,7 @@
 ---
 title: folder_path property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The folder that contains TrueType font files."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/font/folder_path/
 is_root: false

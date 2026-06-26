@@ -1,7 +1,7 @@
 ---
 title: get_hyperlink method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Retrieves the hyperlink associated with this IPresentationHyperlinkContainer."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/ipresentationhyperlinkcontainer/get_hyperlink/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1010
 
 ## get_hyperlink {#action_type}
 
-Gets the hyperlink associated with this [`IPresentationHyperlinkContainer`](/watermark/python-net/groupdocs.watermark.contents.presentation/ipresentationhyperlinkcontainer/).
+Retrieves the hyperlink associated with this [`IPresentationHyperlinkContainer`](/watermark/python-net/groupdocs.watermark.contents.presentation/ipresentationhyperlinkcontainer/).
 
 ```python
 def get_hyperlink(self, action_type):
@@ -22,7 +22,7 @@ def get_hyperlink(self, action_type):
 | :- | :- | :- |
 | action_type | `PresentationHyperlinkActionType` | The action that activates the hyperlink. |
 
-**Returns:** The url of the hyperlink that is activated on specified action.
+**Returns:** str: The url of the hyperlink that is activated on specified action.
 
 ### See Also
 * class [`IPresentationHyperlinkContainer`](/watermark/python-net/groupdocs.watermark.contents.presentation/ipresentationhyperlinkcontainer/)

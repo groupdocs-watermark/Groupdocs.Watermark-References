@@ -1,7 +1,7 @@
 ---
 title: content_area_height_px property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The height of the content area in pixels."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/content_area_height_px/
 is_root: false

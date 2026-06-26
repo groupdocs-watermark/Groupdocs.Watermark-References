@@ -1,7 +1,7 @@
 ---
 title: HEADER_FOOTER field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The Watermark is placed in the document header or footer"
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/watermarkposition/header_footer/
 is_root: false

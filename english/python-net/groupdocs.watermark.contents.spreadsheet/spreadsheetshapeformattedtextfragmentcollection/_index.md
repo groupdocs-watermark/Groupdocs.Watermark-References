@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetShapeFormattedTextFragmentCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of formatted text fragments in an Excel document text shape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshapeformattedtextfragmentcollection/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: REGULAR field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Normal text."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/fontstyle/regular/
 is_root: false

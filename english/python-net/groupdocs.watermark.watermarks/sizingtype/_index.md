@@ -1,7 +1,7 @@
 ---
 title: SizingType class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "SizingType enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/sizingtype/
 is_root: false
@@ -20,6 +20,16 @@ The SizingType type exposes the following members:
 | [ABSOLUTE](/watermark/python-net/groupdocs.watermark.watermarks/sizingtype/absolute/) | Watermark should be sized to an exact and |
 | [SCALE_TO_PARENT_DIMENSIONS](/watermark/python-net/groupdocs.watermark.watermarks/sizingtype/scale_to_parent_dimensions/) | Watermark should be scaled relative to parent dimensions using specified . |
 | [SCALE_TO_PARENT_AREA](/watermark/python-net/groupdocs.watermark.watermarks/sizingtype/scale_to_parent_area/) | Watermark should be scaled relative to parent area using specified |
+
+### Guides
+Task guides that use `SizingType`:
+
+* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
+* [Adding watermark to images inside a document](/watermark/python-net/guides/adding-watermark-to-images-inside-a-document/)
+* [Adding image watermarks](/watermark/python-net/guides/adding-image-watermarks/)
+* [Adding text watermarks](/watermark/python-net/guides/adding-text-watermarks/)
+* [Customize watermarks](/watermark/python-net/guides/customize/)
+* [GroupDocs.Watermark for Python via .NET Overview](/watermark/python-net/guides/product-overview/)
 
 ### See Also
 * module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

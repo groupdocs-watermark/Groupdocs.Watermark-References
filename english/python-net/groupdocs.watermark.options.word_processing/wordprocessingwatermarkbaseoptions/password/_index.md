@@ -1,7 +1,7 @@
 ---
 title: password property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The password used to lock the watermark."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/password/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: trace method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Logs an event that occurred during watermarking."
 type: docs
 url: /python-net/groupdocs.watermark.options/ilogger/trace/
 is_root: false

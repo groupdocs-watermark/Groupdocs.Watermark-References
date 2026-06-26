@@ -1,7 +1,7 @@
 ---
 title: WordProcessingFlipOrientation class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "WordProcessingFlipOrientation enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingfliporientation/
 is_root: false

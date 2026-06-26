@@ -1,12 +1,12 @@
 ---
 title: GroupDocs.Watermark for Python via .NET
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "API reference for GroupDocs.Watermark for Python via .NET — namespaces, classes, methods, properties, and runnable examples."
 type: docs
 url: /python-net/
 is_root: true
-weight: 10
-version: 25.11.0
+weight: 40
+version: 26.6.0
 ---
 
 

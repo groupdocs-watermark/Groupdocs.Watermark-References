@@ -1,7 +1,7 @@
 ---
 title: LAVENDER_BLUSH field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Gets a system-defined color."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/lavender_blush/
 is_root: false

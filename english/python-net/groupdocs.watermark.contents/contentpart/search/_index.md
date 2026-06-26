@@ -1,7 +1,7 @@
 ---
 title: search method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Finds possible watermarks according to the specified search criteria."
 type: docs
 url: /python-net/groupdocs.watermark.contents/contentpart/search/
 is_root: false
@@ -28,7 +28,9 @@ def search(self, search_criteria):
 
 ## search
 
-Finds all possible watermarks in the content. The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/).
+Finds all possible watermarks in the content.
+
+The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/).
 
 ```python
 def search(self):

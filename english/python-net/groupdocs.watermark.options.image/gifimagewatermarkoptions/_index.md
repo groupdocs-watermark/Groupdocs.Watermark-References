@@ -1,7 +1,7 @@
 ---
 title: GifImageWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents watermark adding options when adding watermark to a GIF image."
 type: docs
 url: /python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/
 is_root: false
@@ -14,15 +14,15 @@ weight: 30
 Represents watermark adding options when adding watermark to a GIF image.
 
 Learn more:
-- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images
+- [Add watermarks to images](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
 
 The GifImageWatermarkOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/__init__/) | Initializes a new instance of the GifImageWatermarkOptions class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/__init__/#frame_index) | Initializes a new GifImageWatermarkOptions with a specified frame index. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/__init__/) | Initializes a new instance of the [`GifImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/__init__/#frame_index) | Initializes a new instance of [`GifImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/) with a specified frame index. |
 
 ### Properties
 | Property | Description |

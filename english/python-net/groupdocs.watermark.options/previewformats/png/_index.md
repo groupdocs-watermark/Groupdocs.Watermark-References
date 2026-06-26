@@ -1,7 +1,7 @@
 ---
 title: PNG field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PreviewFormats.PNG — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.options/previewformats/png/
 is_root: false

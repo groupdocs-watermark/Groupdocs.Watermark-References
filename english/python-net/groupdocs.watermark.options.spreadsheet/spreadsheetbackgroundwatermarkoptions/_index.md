@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetBackgroundWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents options when adding the watermark as a background to a Spreadsheet worksheet."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/
 is_root: false
@@ -13,6 +13,8 @@ weight: 20
 
 Represents options when adding the watermark as a background to a Spreadsheet worksheet.
 
+Use this class to specify the target worksheet (via `worksheet_index`) and the size of the background area (via `background_width` and `background_height`) for a watermark.
+
 - Learn more: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents
 
 The SpreadsheetBackgroundWatermarkOptions type exposes the following members:
@@ -20,7 +22,7 @@ The SpreadsheetBackgroundWatermarkOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/__init__/) | Initializes a new instance of the SpreadsheetBackgroundWatermarkOptions class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/__init__/) | Initializes a new instance of the [`SpreadsheetBackgroundWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/) class. |
 
 ### Properties
 | Property | Description |
@@ -43,9 +45,13 @@ import groupdocs.watermark.options.spreadsheet as gwo_xls
 
 load_options = gw.SpreadsheetLoadOptions()
 with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
-    with gww.ImageWatermark("logo.gif") as watermark:
-        options = gwo_xls.SpreadsheetBackgroundWatermarkOptions()
-        watermarker.add(watermark, options)
+    watermark = gww.ImageWatermark("logo.gif")
+    options = gwo_xls.SpreadsheetBackgroundWatermarkOptions()
+    # Apply to the first worksheet (index 0) with default size
+    options.worksheet_index = 0
+    options.background_width = 800
+    options.background_height = 600
+    watermarker.add(watermark, options)
     watermarker.save("spreadsheet.xlsx")
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: WORD_PROCESSING field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Word processing format family."
 type: docs
 url: /python-net/groupdocs.watermark.common/formatfamily/word_processing/
 is_root: false

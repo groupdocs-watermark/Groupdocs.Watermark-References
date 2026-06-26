@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The width of this PresentationBaseShape in points."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/width/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2070
 
 ## width property
 
-The width of this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/) in points.
+The width of this PresentationBaseShape in points.
 
 ### Definition:
 ```python

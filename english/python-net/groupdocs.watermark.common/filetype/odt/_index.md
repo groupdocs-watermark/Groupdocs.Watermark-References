@@ -1,7 +1,7 @@
 ---
 title: ODT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "ODT files are type of documents created with word processing applications that are based on OpenDocument Text File format."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/odt/
 is_root: false

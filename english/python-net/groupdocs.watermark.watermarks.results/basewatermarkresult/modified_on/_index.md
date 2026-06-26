@@ -1,7 +1,7 @@
 ---
 title: modified_on property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The watermark modification date."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/modified_on/
 is_root: false

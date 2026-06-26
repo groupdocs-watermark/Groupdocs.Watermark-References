@@ -1,7 +1,7 @@
 ---
 title: is_empty property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The flag indicating whether only the empty color is in range."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/colorrange/is_empty/
 is_root: false

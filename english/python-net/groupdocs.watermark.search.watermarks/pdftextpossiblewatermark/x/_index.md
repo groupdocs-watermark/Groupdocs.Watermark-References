@@ -1,7 +1,7 @@
 ---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The horizontal offset of this PdfTextPossibleWatermark from the page left border in points."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/x/
 is_root: false

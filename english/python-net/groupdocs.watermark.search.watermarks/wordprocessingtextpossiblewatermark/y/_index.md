@@ -1,7 +1,7 @@
 ---
 title: y property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The vertical offset of this WordProcessingTextPossibleWatermark from the document top border in points."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/y/
 is_root: false

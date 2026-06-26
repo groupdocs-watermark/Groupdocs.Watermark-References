@@ -1,7 +1,7 @@
 ---
 title: IDocumentInfo class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Provides methods required for retrieving basic document information."
 type: docs
 url: /python-net/groupdocs.watermark.common/idocumentinfo/
 is_root: false
@@ -13,9 +13,9 @@ weight: 70
 
 Provides methods required for retrieving basic document information.
 
-Learn more:
+Learn more
 
-- Get document info (https://docs.groupdocs.com/display/watermarknet/Get+document+info)
+- [Get document info](https://docs.groupdocs.com/display/watermarknet/Get+document+info)
 
 The IDocumentInfo type exposes the following members:
 
@@ -39,6 +39,11 @@ with Watermarker(r"D:\input.pdf") as watermarker:
     print(f"Document format: {doc_info.file_type.file_format}")
     print(f"Document contains {doc_info.page_count} pages")
 ```
+
+### Guides
+Task guides that use `IDocumentInfo`:
+
+* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
 
 ### See Also
 * module [`groupdocs.watermark.common`](/watermark/python-net/groupdocs.watermark.common/)

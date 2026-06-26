@@ -1,7 +1,7 @@
 ---
 title: NONE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Coordinates are not flipped."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingfliporientation/none/
 is_root: false

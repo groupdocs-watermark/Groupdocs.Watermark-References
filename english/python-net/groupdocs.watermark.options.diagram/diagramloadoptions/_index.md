@@ -1,7 +1,7 @@
 ---
 title: DiagramLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document loading options for a Visio document."
 type: docs
 url: /python-net/groupdocs.watermark.options.diagram/diagramloadoptions/
 is_root: false
@@ -18,7 +18,7 @@ The DiagramLoadOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/__init__/) | Initializes a new instance of the DiagramLoadOptions class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/__init__/) | Initializes a new instance of the [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/) class. |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/__init__/#password) | Initializes a new instance of the DiagramLoadOptions class with a specified password. |
 
 ### Properties
@@ -42,7 +42,7 @@ import groupdocs.watermark.contents.diagram as gwc_vsdx
 load_options = gw.DiagramLoadOptions()
 with gw.Watermarker("diagram.vsdx", load_options) as watermarker:
     content = watermarker.get_content(gwc_vsdx.DiagramContent)
-    # manipulate shapes, e.g., replace text or images
+    # manipulate shapes here
     watermarker.save("diagram.vsdx")
 ```
 

@@ -1,7 +1,7 @@
 ---
 title: name property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The name of the attached file."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfattachment/name/
 is_root: false

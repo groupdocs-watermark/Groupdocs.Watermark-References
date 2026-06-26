@@ -1,7 +1,7 @@
 ---
 title: BOTTOM field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Align to bottom."
 type: docs
 url: /python-net/groupdocs.watermark.common/verticalalignment/bottom/
 is_root: false

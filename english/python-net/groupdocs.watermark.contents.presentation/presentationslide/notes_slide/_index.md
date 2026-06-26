@@ -1,7 +1,7 @@
 ---
 title: notes_slide property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The notes slide for this PresentationSlide."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationslide/notes_slide/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2030
 
 ## notes_slide property
 
-The notes slide for this PresentationSlide.
+The notes slide for this [`PresentationSlide`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/).
 
 ### Definition:
 ```python

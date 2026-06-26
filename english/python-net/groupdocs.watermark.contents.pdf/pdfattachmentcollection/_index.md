@@ -1,7 +1,7 @@
 ---
 title: PdfAttachmentCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of attachments in a pdf document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/
 is_root: false
@@ -20,7 +20,7 @@ The PdfAttachmentCollection type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add/#file_content-name-description) | Adds an attachment to the [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/). |
+| [add](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add/#file_content-name-description) | Adds an attachment to the PdfContent. |
 | [add_bytes](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add_bytes/) |  |
 | [add_file](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add_file/) |  |
 | [add_string](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add_string/) |  |

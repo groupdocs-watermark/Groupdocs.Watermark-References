@@ -1,7 +1,7 @@
 ---
 title: html_body property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The HTML representation of the message body."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailcontent/html_body/
 is_root: false

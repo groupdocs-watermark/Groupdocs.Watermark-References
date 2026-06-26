@@ -1,7 +1,7 @@
 ---
 title: WIDGET field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Widget annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/widget/
 is_root: false

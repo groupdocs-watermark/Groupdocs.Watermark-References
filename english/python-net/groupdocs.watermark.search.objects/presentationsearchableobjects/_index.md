@@ -1,7 +1,7 @@
 ---
 title: PresentationSearchableObjects class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PresentationSearchableObjects enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/presentationsearchableobjects/
 is_root: false

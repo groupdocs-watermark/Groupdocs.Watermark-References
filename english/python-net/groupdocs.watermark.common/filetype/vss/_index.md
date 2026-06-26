@@ -1,7 +1,7 @@
 ---
 title: VSS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "VSS are stencil files created with Microsoft Visio 2007 and earlier."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/vss/
 is_root: false

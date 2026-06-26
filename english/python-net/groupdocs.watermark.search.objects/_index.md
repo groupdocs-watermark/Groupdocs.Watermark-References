@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.search.objects
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.search.objects."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/
 is_root: false

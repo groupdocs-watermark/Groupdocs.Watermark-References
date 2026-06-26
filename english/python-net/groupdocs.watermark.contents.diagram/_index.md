@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.contents.diagram
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.contents.diagram."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/
 is_root: false

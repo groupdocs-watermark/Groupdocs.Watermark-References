@@ -1,7 +1,7 @@
 ---
 title: PDF field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PDF format family."
 type: docs
 url: /python-net/groupdocs.watermark.common/formatfamily/pdf/
 is_root: false

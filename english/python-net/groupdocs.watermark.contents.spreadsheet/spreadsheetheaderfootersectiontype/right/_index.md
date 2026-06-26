@@ -1,7 +1,7 @@
 ---
 title: RIGHT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Right section."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersectiontype/right/
 is_root: false

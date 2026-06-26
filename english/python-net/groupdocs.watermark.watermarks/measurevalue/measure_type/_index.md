@@ -1,7 +1,7 @@
 ---
 title: measure_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The type of measurement."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/measurevalue/measure_type/
 is_root: false

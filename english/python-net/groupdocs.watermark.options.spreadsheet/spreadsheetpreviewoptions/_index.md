@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetPreviewOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Provides options to set requirements and stream delegates for preview generation of spreadsheet documents."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/
 is_root: false
@@ -11,15 +11,15 @@ weight: 50
 
 ## SpreadsheetPreviewOptions class
 
-Provides options to set requirements and stream delegates for preview generation of a spreadsheet document.
+Provides options to set requirements and stream delegates for preview generation of spreadsheet documents.
 
 The SpreadsheetPreviewOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/__init__/#create_page_stream) | Initializes a new instance of the SpreadsheetPreviewOptions class causing the output stream to be closed. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new instance of [`SpreadsheetPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/) that returns the output stream to the client for further use. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/__init__/#create_page_stream) | Initializes a new instance of the [`SpreadsheetPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/) class causing the output stream to be closed. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new instance of SpreadsheetPreviewOptions class causing the output stream to be returned to the client for further use. |
 
 ### Properties
 | Property | Description |

@@ -1,7 +1,7 @@
 ---
 title: PdfLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document loading options for a PDF document."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfloadoptions/
 is_root: false
@@ -38,8 +38,23 @@ The PdfLoadOptions type exposes the following members:
 ```python
 import groupdocs.watermark as gw
 
+# Create default PDF load options
 load_options = gw.PdfLoadOptions()
+
+# Use the options when opening a PDF with Watermarker
+with gw.Watermarker("document.pdf", load_options) as watermarker:
+    # perform watermark operations here
+    pass
 ```
+
+### Guides
+Task guides that use `PdfLoadOptions`:
+
+* [Adding watermark to images inside a document](/watermark/python-net/guides/adding-watermark-to-images-inside-a-document/)
+* [Attachments in PDF document](/watermark/python-net/guides/attachments-in-pdf-document/)
+* [Existing objects in PDF document](/watermark/python-net/guides/existing-objects-in-pdf-document/)
+* [Rasterize document or page](/watermark/python-net/guides/rasterize-document-or-page/)
+* [Watermarks in PDF document](/watermark/python-net/guides/watermarks-in-pdf-document/)
 
 ### See Also
 * module [`groupdocs.watermark.options.pdf`](/watermark/python-net/groupdocs.watermark.options.pdf/)

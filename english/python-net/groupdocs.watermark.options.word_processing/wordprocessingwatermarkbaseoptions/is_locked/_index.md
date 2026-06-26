@@ -1,7 +1,7 @@
 ---
 title: is_locked property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The property indicates whether editing of the shape in Word is forbidden."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/is_locked/
 is_root: false
@@ -13,7 +13,7 @@ weight: 2030
 
 The property indicates whether editing of the shape in Word is forbidden.
 
-If set to True, shape editing will be forbidden. By default it is False, allowing the shape to be edited in Word.
+If set to `True`, shape editing will be forbidden; by default the value is `False`, allowing shape editing in Word.
 
 ### Definition:
 ```python

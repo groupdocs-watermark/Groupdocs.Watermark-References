@@ -1,7 +1,7 @@
 ---
 title: preview_format property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The preview image format."
 type: docs
 url: /python-net/groupdocs.watermark.options/previewoptions/preview_format/
 is_root: false

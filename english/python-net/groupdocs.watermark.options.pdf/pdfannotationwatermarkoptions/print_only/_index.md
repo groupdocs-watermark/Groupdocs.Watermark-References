@@ -1,7 +1,7 @@
 ---
 title: print_only property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The value indicating whether annotation will be printed, but not displayed in pdf viewing application."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/print_only/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2020
 
 ## print_only property
 
-The value indicating whether annotation will be printed, but not displayed in PDF viewing applications.
+The value indicating whether annotation will be printed, but not displayed in pdf viewing application.
 
 ### Definition:
 ```python

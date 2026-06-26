@@ -1,7 +1,7 @@
 ---
 title: POINTS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Specifies that the unit of measurement is point."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/tilemeasuretype/points/
 is_root: false

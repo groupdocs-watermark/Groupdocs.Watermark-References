@@ -1,7 +1,7 @@
 ---
 title: SUBJECT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in message subject."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/emailsearchableobjects/subject/
 is_root: false

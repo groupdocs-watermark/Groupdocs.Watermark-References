@@ -1,7 +1,7 @@
 ---
 title: EML field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "EML file format represents email messages saved using Outlook and other relevant applications."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/eml/
 is_root: false

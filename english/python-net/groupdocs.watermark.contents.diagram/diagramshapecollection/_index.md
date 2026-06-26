@@ -1,7 +1,7 @@
 ---
 title: DiagramShapeCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of drawing shapes in a Visio document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramshapecollection/
 is_root: false

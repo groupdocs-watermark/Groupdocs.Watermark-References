@@ -1,7 +1,7 @@
 ---
 title: equals method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Determines whether the specified Color structure is equivalent to this Color structure."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/equals/
 is_root: false
@@ -22,7 +22,7 @@ def equals(self, other):
 | :- | :- | :- |
 | other | `Color` | The color to test. |
 
-**Returns:** bool: True if `other` is equivalent to this `Color` structure; otherwise, False.
+**Returns:** bool: True if other is equivalent to this `Color` structure; otherwise, False.
 
 ## equals {#obj}
 
@@ -37,7 +37,7 @@ def equals(self, obj):
 | :- | :- | :- |
 | obj | `Any` | The object to test. |
 
-**Returns:** True if object is a `Color` structure equivalent to this `Color` structure; otherwise, False.
+**Returns:** bool: True if object is a `Color` structure equivalent to this `Color` structure; otherwise, False.
 
 ### See Also
 * class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

@@ -1,7 +1,7 @@
 ---
 title: section property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The parent section of this WordProcessingShape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshape/section/
 is_root: false

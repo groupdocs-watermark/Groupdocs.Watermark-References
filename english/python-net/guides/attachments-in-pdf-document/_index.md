@@ -1,7 +1,8 @@
 ---
 title: Attachments in PDF document
+linkTitle: "Attachments in PDF"
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Extract, add, and remove PDF attachments, and watermark them, using GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/guides/attachments-in-pdf-document/
 is_root: false
@@ -9,74 +10,63 @@ weight: 40
 ---
 
 
-## Extract all attachments from PDF document
-This sample extracts every embedded file from a PDF, prints basic metadata (name, description, file type), and writes the attachment bytes to an output folder.
+A PDF can carry embedded file attachments. `Watermarker.get_content()` returns a [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/) whose `attachments` collection lets you add, extract, and remove them — and you can even open an attachment in its own [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/) to watermark it.
+
+## Add an attachment
+
+The example embeds a Word document into the PDF as an attachment.
+
+  
+```python
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.pdf import PdfLoadOptions
+
+def add_attachment():
+    with Watermarker("./document.pdf", PdfLoadOptions()) as watermarker:
+        content = watermarker.get_content()
+        with open("./sample.docx", "rb") as f:
+            data = f.read()
+        content.attachments.add(data, "sample.docx", "Attached Word document")
+        watermarker.save("./output.pdf")
+
+if __name__ == "__main__":
+    add_attachment()
+```
+
+  
+
+`document.pdf` and `sample.docx` are the sample files used in this example. Download [document.pdf](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/attachments-in-pdf-document/document.pdf) and [sample.docx](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/attachments-in-pdf-document/sample.docx).
+
+  
+```text
+Binary file (PDF, 512 KB)
+```
+[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-pdf-documents/attachments-in-pdf-document/add_attachment/output.pdf)
+
+## Extract attachments
+
+Iterate the `attachments` collection to read each attachment's metadata and content.
 
 ```python
-import os
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.pdf as gwc_pdf
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.pdf import PdfLoadOptions
 
-output_dir = os.path.join("SampleFiles", "Output")
-os.makedirs(output_dir, exist_ok=True)
-
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
-    for attachment in pdf_content.attachments:
-        print("Name:", attachment.name)
-        print("Description:", attachment.description)
-        print("File type:", attachment.get_document_info().file_type)
-
-        with open(os.path.join(output_dir, attachment.name), "wb") as f:
+with Watermarker("./document.pdf", PdfLoadOptions()) as watermarker:
+    content = watermarker.get_content()
+    print("Attachments:", len(content.attachments))
+    for attachment in content.attachments:
+        info = attachment.get_document_info()
+        print(f"- name={attachment.name!r} type={info.file_type} size={len(attachment.content)} bytes")
+        # Save the attachment's bytes to disk
+        with open(f"./{attachment.name}", "wb") as f:
             f.write(attachment.content)
 ```
 
-## Add an attachment to PDF document
-This sample embeds an external file into the PDF as an attachment, assigning a display name and description, and then saves the updated document.
+For the example PDF produced above, this prints:
 
-```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.pdf as gwc_pdf
-
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
-    with open("sample.docx", "rb") as f:
-        pdf_content.attachments.add(f.read(), "sample doc", "sample doc as attachment")
-
-    watermarker.save("document.pdf")
+```text
+Attachments: 1
+- name='sample.docx' type=Docx (.docx) - WordProcessing size=14752 bytes
 ```
 
-## Remove attachment from PDF document
-This sample finds and removes attachments that match custom criteria (for example, a name containing "sample" and the DOCX file type), and then saves the PDF.
-
-```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.pdf as gwc_pdf
-from groupdocs.watermark.common import FileType
-
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
-    for i in range(pdf_content.attachments.count - 1, -1, -1):
-        attachment = pdf_content.attachments[i]
-        if ("sample" in attachment.name) and (attachment.get_document_info().file_type == FileType.DOCX):
-            pdf_content.attachments.remove_at(i)
-
-    watermarker.save("document.pdf")
-```
-
-## Search for images attachments
-This sample limits the search scope to images inside attachments and returns the found image collection for further processing or inspection.
-
-```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.common as gwc
-
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    watermarker.searchable_objects.pdf_searchable_objects = gwc.PdfSearchableObjects.ATTACHED_IMAGES
-    images = watermarker.get_images()
-    print("Found", images.count, "image(s).")
-```
+Use `content.attachments.remove_at(index)` or `content.attachments.remove(attachment)` to delete an attachment, and open an attachment in its own [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/) (from its `content` bytes) to add a watermark to the attached document itself.

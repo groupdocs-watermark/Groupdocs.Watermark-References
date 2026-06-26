@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.options.pdf
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.options.pdf."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/
 is_root: false

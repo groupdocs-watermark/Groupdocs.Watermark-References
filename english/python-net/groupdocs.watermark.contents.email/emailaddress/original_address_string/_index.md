@@ -1,7 +1,7 @@
 ---
 title: original_address_string property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The original address string."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailaddress/original_address_string/
 is_root: false

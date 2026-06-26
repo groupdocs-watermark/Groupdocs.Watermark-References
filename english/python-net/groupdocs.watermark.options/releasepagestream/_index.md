@@ -1,7 +1,7 @@
 ---
 title: ReleasePageStream class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a method which releases the stream created by the CreatePageStream delegate."
 type: docs
 url: /python-net/groupdocs.watermark.options/releasepagestream/
 is_root: false

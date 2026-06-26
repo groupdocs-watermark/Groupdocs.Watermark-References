@@ -1,7 +1,7 @@
 ---
 title: WatermarkException class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents base exception in GroupDocs.Watermark product."
 type: docs
 url: /python-net/groupdocs.watermark/watermarkexception/
 is_root: false

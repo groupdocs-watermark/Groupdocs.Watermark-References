@@ -1,7 +1,7 @@
 ---
 title: processing_time property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The processing time for the watermarking operation."
 type: docs
 url: /python-net/groupdocs.watermark.internal/watermarkresult/processing_time/
 is_root: false

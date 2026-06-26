@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.watermarks.results
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Result types produced by converter and processor methods."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/
 is_root: false
@@ -15,9 +15,9 @@ Result types produced by converter and processor methods.
 | Class | Description |
 | :- | :- |
 | [`AddWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/addwatermarkresult/) | Represents the result of adding watermarks to a document. |
-| [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) | Describes the base class for watermark result. |
+| [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) | Represents the base class for a watermark result. |
 | [`ImageWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/) | Contains image watermark properties. |
-| [`TextWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/) | Contains Text watermark properties. |
+| [`TextWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/) | Contains text watermark properties. |
 
 ### Enumerations
 | Enum | Description |

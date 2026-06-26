@@ -1,11 +1,11 @@
 ---
 title: RemoveOnlyListBase class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "RemoveOnlyListBase class — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.common/removeonlylistbase/
 is_root: false
-weight: 100
+weight: 130
 ---
 
 

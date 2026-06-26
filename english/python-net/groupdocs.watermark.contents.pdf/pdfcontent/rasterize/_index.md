@@ -1,7 +1,7 @@
 ---
 title: rasterize method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Converts all content pages into images."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfcontent/rasterize/
 is_root: false

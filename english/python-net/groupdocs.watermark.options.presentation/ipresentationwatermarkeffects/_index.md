@@ -1,7 +1,7 @@
 ---
 title: IPresentationWatermarkEffects class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents interface for watermark effects that should be applied to the watermark."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/ipresentationwatermarkeffects/
 is_root: false

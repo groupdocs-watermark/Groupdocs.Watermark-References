@@ -1,7 +1,7 @@
 ---
 title: top property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The width of the top side of the bounding rectangle."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/thickness/top/
 is_root: false

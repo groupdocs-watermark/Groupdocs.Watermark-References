@@ -1,7 +1,7 @@
 ---
 title: PdfAttachment class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a file attached to a pdf content."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfattachment/
 is_root: false
@@ -23,7 +23,7 @@ The PdfAttachment type exposes the following members:
 | :- | :- |
 | [create_watermarker](/watermark/python-net/groupdocs.watermark.common/attachment/create_watermarker/) | Loads a content from the attached file. (inherited from [`Attachment`](/watermark/python-net/groupdocs.watermark.common/attachment/)) |
 | [create_watermarker_load_options](/watermark/python-net/groupdocs.watermark.common/attachment/create_watermarker_load_options/) |  (inherited from [`Attachment`](/watermark/python-net/groupdocs.watermark.common/attachment/)) |
-| [get_document_info](/watermark/python-net/groupdocs.watermark.common/attachment/get_document_info/) | Gets the information about a document stored in the attached file. (inherited from [`Attachment`](/watermark/python-net/groupdocs.watermark.common/attachment/)) |
+| [get_document_info](/watermark/python-net/groupdocs.watermark.common/attachment/get_document_info/) | Retrieves information about the document stored in the attached file. (inherited from [`Attachment`](/watermark/python-net/groupdocs.watermark.common/attachment/)) |
 
 ### Properties
 | Property | Description |

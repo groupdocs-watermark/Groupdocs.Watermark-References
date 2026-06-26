@@ -1,7 +1,7 @@
 ---
 title: ITwoDObject class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents any two dimensional object in a content structure."
 type: docs
 url: /python-net/groupdocs.watermark.search/itwodobject/
 is_root: false

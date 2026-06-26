@@ -1,7 +1,7 @@
 ---
 title: OUTSIDE_MARGIN field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Specifies that the vertical positioning is relative to the outside margin of the current page."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativeverticalposition/outside_margin/
 is_root: false

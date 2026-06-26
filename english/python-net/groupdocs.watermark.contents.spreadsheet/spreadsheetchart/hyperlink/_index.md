@@ -1,7 +1,7 @@
 ---
 title: hyperlink property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The hyperlink associated with this SpreadsheetChart."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/hyperlink/
 is_root: false

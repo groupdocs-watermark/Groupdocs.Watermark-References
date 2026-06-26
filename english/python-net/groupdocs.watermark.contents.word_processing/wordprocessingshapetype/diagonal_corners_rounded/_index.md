@@ -1,7 +1,7 @@
 ---
 title: DIAGONAL_CORNERS_ROUNDED field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in shape type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/diagonal_corners_rounded/
 is_root: false

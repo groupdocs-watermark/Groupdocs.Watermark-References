@@ -1,7 +1,7 @@
 ---
 title: JPX field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "JPEG 2000 (JPX) is an image coding system and state-of-the-art image compression standard."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/jpx/
 is_root: false

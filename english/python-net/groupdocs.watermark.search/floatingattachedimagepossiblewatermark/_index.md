@@ -1,7 +1,7 @@
 ---
 title: FloatingAttachedImagePossibleWatermark class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "FloatingAttachedImagePossibleWatermark class — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.search/floatingattachedimagepossiblewatermark/
 is_root: false

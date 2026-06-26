@@ -1,7 +1,7 @@
 ---
 title: size property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The size of this Font."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/font/size/
 is_root: false

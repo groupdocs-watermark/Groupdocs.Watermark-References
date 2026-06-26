@@ -1,7 +1,7 @@
 ---
 title: dispose method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Disposes the current instance."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/dispose/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: PresentationWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents the base class for watermark adding options to a Presentation document."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationwatermarkoptions/
 is_root: false

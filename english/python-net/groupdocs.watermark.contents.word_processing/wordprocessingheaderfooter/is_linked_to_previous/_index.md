@@ -1,7 +1,7 @@
 ---
 title: is_linked_to_previous property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The header/footer is linked to the corresponding header/footer in the previous section."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfooter/is_linked_to_previous/
 is_root: false
@@ -14,6 +14,8 @@ weight: 2020
 The header/footer is linked to the corresponding header/footer in the previous section.
 
 Default is True. Note that when you link a header or footer, its contents are cleared.
+
+True if linked; False otherwise.
 
 ### Definition:
 ```python

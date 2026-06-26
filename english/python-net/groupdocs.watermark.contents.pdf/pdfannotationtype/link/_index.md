@@ -1,7 +1,7 @@
 ---
 title: LINK field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Link annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/link/
 is_root: false

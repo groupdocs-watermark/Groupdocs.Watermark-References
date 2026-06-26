@@ -1,7 +1,7 @@
 ---
 title: SystemDrawingImageFrameCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of frames in multiframe image."
 type: docs
 url: /python-net/groupdocs.watermark.contents.image/systemdrawingimageframecollection/
 is_root: false

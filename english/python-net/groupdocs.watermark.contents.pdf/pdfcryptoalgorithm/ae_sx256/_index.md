@@ -1,7 +1,7 @@
 ---
 title: AE_SX256 field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "AES with key length 256."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfcryptoalgorithm/ae_sx256/
 is_root: false

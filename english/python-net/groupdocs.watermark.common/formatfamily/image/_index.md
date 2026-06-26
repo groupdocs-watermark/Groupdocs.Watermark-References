@@ -1,7 +1,7 @@
 ---
 title: IMAGE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Image format family."
 type: docs
 url: /python-net/groupdocs.watermark.common/formatfamily/image/
 is_root: false

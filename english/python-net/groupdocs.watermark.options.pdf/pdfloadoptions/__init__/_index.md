@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the PdfLoadOptions class."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfloadoptions/__init__/
 is_root: false
@@ -22,8 +22,13 @@ def __init__(self):
 
 ```python
 import groupdocs.watermark as gw
+import groupdocs.watermark.contents.pdf as gwc_pdf
 
 load_options = gw.PdfLoadOptions()
+with gw.Watermarker("document.pdf", load_options) as watermarker:
+    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+    print(pdf_content.pages[0].width)
+    print(pdf_content.pages[0].height)
 ```
 
 ## __init__ {#password}

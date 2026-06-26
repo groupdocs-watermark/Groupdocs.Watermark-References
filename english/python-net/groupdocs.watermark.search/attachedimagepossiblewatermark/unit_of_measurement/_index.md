@@ -1,7 +1,7 @@
 ---
 title: unit_of_measurement property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "AttachedImagePossibleWatermark.unit_of_measurement property — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.search/attachedimagepossiblewatermark/unit_of_measurement/
 is_root: false

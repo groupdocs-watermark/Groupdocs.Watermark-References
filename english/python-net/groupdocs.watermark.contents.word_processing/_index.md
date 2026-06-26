@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.contents.word_processing
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.contents.wordprocessing."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/
 is_root: false

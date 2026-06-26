@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The height of this SpreadsheetHyperlinkPossibleWatermark in points."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/height/
 is_root: false

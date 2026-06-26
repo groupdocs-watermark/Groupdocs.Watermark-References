@@ -1,7 +1,7 @@
 ---
 title: resolution property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The resolution for the generated images, in dots per inch."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/resolution/
 is_root: false

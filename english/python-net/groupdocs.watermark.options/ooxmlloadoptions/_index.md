@@ -1,7 +1,7 @@
 ---
 title: OoxmlLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document loading options for a OOXML document."
 type: docs
 url: /python-net/groupdocs.watermark.options/ooxmlloadoptions/
 is_root: false
@@ -11,7 +11,7 @@ weight: 40
 
 ## OoxmlLoadOptions class
 
-Represents document loading options for an OOXML document.
+Represents document loading options for a OOXML document.
 
 The OoxmlLoadOptions type exposes the following members:
 
@@ -19,7 +19,7 @@ The OoxmlLoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions/__init__/) | Initializes a new instance of the [`OoxmlLoadOptions`](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions/) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions/__init__/#password) | Initializes a new instance of the [`OoxmlLoadOptions`](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions/) class with a specified password. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/ooxmlloadoptions/__init__/#password) | Initializes a new OoxmlLoadOptions instance with a specified password. |
 
 ### Properties
 | Property | Description |

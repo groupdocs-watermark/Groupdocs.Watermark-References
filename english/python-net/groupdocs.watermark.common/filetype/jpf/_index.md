@@ -1,7 +1,7 @@
 ---
 title: JPF field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "JPEG 2000 (JPF) is an image coding system and state-of-the-art image compression standard."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/jpf/
 is_root: false

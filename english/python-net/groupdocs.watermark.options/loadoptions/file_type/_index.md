@@ -1,7 +1,7 @@
 ---
 title: file_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The file type, indicating its format (e.g., docx, pdf, xlsx, etc.)."
 type: docs
 url: /python-net/groupdocs.watermark.options/loadoptions/file_type/
 is_root: false

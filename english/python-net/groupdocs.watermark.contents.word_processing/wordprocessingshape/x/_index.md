@@ -1,7 +1,7 @@
 ---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The horizontal offset of this WordProcessingShape from the page left border in points."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshape/x/
 is_root: false

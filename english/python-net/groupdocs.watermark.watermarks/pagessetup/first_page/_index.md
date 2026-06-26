@@ -1,7 +1,7 @@
 ---
 title: first_page property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The firstpage property indicates whether to include the first page."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/pagessetup/first_page/
 is_root: false

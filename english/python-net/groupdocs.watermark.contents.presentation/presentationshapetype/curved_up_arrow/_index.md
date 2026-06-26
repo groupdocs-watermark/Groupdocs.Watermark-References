@@ -1,7 +1,7 @@
 ---
 title: CURVED_UP_ARROW field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in shape geometry preset type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_up_arrow/
 is_root: false

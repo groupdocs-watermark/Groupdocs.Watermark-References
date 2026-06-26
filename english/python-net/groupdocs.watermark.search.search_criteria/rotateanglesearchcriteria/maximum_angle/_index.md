@@ -1,7 +1,7 @@
 ---
 title: maximum_angle property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The ending angle in degrees."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/rotateanglesearchcriteria/maximum_angle/
 is_root: false

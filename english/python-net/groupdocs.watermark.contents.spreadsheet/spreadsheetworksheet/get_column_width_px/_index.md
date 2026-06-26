@@ -1,7 +1,7 @@
 ---
 title: get_column_width_px method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Returns the width of the specified column in pixels."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/get_column_width_px/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1030
 
 ## get_column_width_px {#column}
 
-Gets the width of the specified column in pixels.
+Returns the width of the specified column in pixels.
 
 ```python
 def get_column_width_px(self, column):

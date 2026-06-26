@@ -1,7 +1,7 @@
 ---
 title: GifImageLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents image loading options for a GIF image."
 type: docs
 url: /python-net/groupdocs.watermark.options.image/gifimageloadoptions/
 is_root: false
@@ -18,7 +18,7 @@ The GifImageLoadOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimageloadoptions/__init__/) | Initializes a new [`GifImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimageloadoptions/) instance. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/gifimageloadoptions/__init__/) | Initializes a new instance of [`GifImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimageloadoptions/). |
 
 ### Properties
 | Property | Description |

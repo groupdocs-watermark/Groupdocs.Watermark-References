@@ -1,7 +1,7 @@
 ---
 title: font property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The font used for header and footer text."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/font/
 is_root: false

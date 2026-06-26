@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the ColorRange class."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/colorrange/__init__/
 is_root: false
@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#exact_color}
 
-Initializes a new ColorRange with the specified exact color.
+Initializes a new instance of the [`ColorRange`](/watermark/python-net/groupdocs.watermark.search.search_criteria/colorrange/) class with a specified exact color.
 
 ```python
 def __init__(self, exact_color):

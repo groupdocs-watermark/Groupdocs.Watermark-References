@@ -1,7 +1,7 @@
 ---
 title: NAVY field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Gets a system-defined color."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/navy/
 is_root: false

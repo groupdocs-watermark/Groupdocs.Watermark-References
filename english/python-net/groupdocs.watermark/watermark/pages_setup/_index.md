@@ -1,7 +1,7 @@
 ---
 title: pages_setup property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The pages setup settings of this Watermark."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/pages_setup/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2070
 
 ## pages_setup property
 
-The pages setup settings of this Watermark.
+The pages setup settings of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: dash_style property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The dot and dash pattern for a line."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelineformat/dash_style/
 is_root: false

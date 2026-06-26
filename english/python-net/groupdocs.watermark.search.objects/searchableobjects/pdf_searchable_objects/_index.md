@@ -1,7 +1,7 @@
 ---
 title: pdf_searchable_objects property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The objects inside a PDF document that are to be included in a watermark search."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/searchableobjects/pdf_searchable_objects/
 is_root: false

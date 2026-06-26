@@ -1,7 +1,7 @@
 ---
 title: artifact_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The type of this PdfArtifact."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifact/artifact_type/
 is_root: false

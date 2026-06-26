@@ -1,7 +1,7 @@
 ---
 title: PLAIN_TEXT_BODY field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in message plain text body."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/emailsearchableobjects/plain_text_body/
 is_root: false

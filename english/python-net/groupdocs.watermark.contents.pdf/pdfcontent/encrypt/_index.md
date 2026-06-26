@@ -1,7 +1,7 @@
 ---
 title: encrypt method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Encrypts the document using the same password as user password and owner password."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfcontent/encrypt/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1020
 
 ## encrypt {#password}
 
-Encrypts the document using the same password for both user and owner.
+Encrypts the document using the same password as user password and owner password.
 
 ```python
 def encrypt(self, password):

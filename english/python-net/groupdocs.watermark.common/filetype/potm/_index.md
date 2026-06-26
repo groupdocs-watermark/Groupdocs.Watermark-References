@@ -1,7 +1,7 @@
 ---
 title: POTM field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files with POTM extension are Microsoft PowerPoint template files with support for Macros."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/potm/
 is_root: false

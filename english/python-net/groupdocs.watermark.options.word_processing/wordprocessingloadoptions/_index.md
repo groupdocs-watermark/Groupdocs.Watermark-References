@@ -1,7 +1,7 @@
 ---
 title: WordProcessingLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document loading options for a Word document."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingloadoptions/
 is_root: false
@@ -19,7 +19,7 @@ The WordProcessingLoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingloadoptions/__init__/) | Initializes a new instance of the [`WordProcessingLoadOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingloadoptions/) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingloadoptions/__init__/#password) | Initializes a new instance of [`gw.WordProcessingLoadOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingloadoptions/) with a specified password. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingloadoptions/__init__/#password) | Initializes a new instance of the [`WordProcessingLoadOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingloadoptions/) class with a specified password. |
 
 ### Properties
 | Property | Description |
@@ -37,9 +37,22 @@ The WordProcessingLoadOptions type exposes the following members:
 
 ```python
 import groupdocs.watermark as gw
+import groupdocs.watermark.contents.wordprocessing as gwc_wp
 
 load_options = gw.WordProcessingLoadOptions()
+with gw.Watermarker("document.docx", load_options) as watermarker:
+    content = watermarker.get_content(gwc_wp.WordProcessingContent)
+    # perform operations on the document, e.g., unprotect, edit shapes, etc.
+    watermarker.save("document.docx")
 ```
+
+### Guides
+Task guides that use `WordProcessingLoadOptions`:
+
+* [Existing objects in word processing document](/watermark/python-net/guides/existing-objects-in-word-processing-document/)
+* [Locking watermark in word processing document](/watermark/python-net/guides/locking-watermark-in-word-processing-document/)
+* [Protecting word processing documents](/watermark/python-net/guides/protecting-word-processing-documents/)
+* [Watermarks in word processing document](/watermark/python-net/guides/watermarks-in-word-processing-document/)
 
 ### See Also
 * module [`groupdocs.watermark.options.word_processing`](/watermark/python-net/groupdocs.watermark.options.word_processing/)

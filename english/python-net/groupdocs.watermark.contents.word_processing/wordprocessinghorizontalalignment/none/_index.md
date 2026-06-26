@@ -1,7 +1,7 @@
 ---
 title: NONE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Object is explicitly positioned using its x-coordinate."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessinghorizontalalignment/none/
 is_root: false

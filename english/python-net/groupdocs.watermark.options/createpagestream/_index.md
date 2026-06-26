@@ -1,7 +1,7 @@
 ---
 title: CreatePageStream class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a method that returns a stream to write page preview data."
 type: docs
 url: /python-net/groupdocs.watermark.options/createpagestream/
 is_root: false

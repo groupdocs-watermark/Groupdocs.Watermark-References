@@ -1,7 +1,7 @@
 ---
 title: PdfXObjectWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents watermark adding options when adding XObject watermark to a pdf document."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfxobjectwatermarkoptions/
 is_root: false
@@ -14,7 +14,7 @@ weight: 70
 Represents watermark adding options when adding XObject watermark to a pdf document.
 
 Learn more:
-- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents
+- [Add watermarks to PDF documents](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
 
 The PdfXObjectWatermarkOptions type exposes the following members:
 
@@ -26,7 +26,7 @@ The PdfXObjectWatermarkOptions type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [page_index](/watermark/python-net/groupdocs.watermark.options.pdf/pdfxobjectwatermarkoptions/page_index/) | The page index to add the watermark to. |
+| [page_index](/watermark/python-net/groupdocs.watermark.options.pdf/pdfxobjectwatermarkoptions/page_index/) | The page index to add watermark to. |
 
 ### Fields
 | Field | Description |
@@ -36,7 +36,7 @@ The PdfXObjectWatermarkOptions type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.watermark import Watermarker, ImageWatermark, PdfLoadOptions, PdfXObjectWatermarkOptions
+from groupdocs.watermark import Watermarker, PdfLoadOptions, ImageWatermark, PdfXObjectWatermarkOptions
 
 load_options = PdfLoadOptions()
 with Watermarker(r"C:\doc.pdf", load_options) as watermarker:

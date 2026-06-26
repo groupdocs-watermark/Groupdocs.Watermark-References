@@ -1,7 +1,7 @@
 ---
 title: EmailSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents the document saving options when saving an email message."
 type: docs
 url: /python-net/groupdocs.watermark.options.email/emailsaveoptions/
 is_root: false

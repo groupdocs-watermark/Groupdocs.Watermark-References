@@ -1,7 +1,7 @@
 ---
 title: LEFT_RIGHT_RIBBON field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in auto shape type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_ribbon/
 is_root: false

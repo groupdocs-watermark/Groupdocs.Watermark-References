@@ -1,7 +1,7 @@
 ---
 title: WatermarkerSettings class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Defines settings for customizing Watermarker behaviour."
 type: docs
 url: /python-net/groupdocs.watermark/watermarkersettings/
 is_root: false
@@ -23,8 +23,8 @@ The WatermarkerSettings type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [logger](/watermark/python-net/groupdocs.watermark/watermarkersettings/logger/) | The logger used for logging events and errors during watermarking. Must be an instance implementing [`ILogger`](/watermark/python-net/groupdocs.watermark.options/ilogger/). |
-| [searchable_objects](/watermark/python-net/groupdocs.watermark/watermarkersettings/searchable_objects/) | The [`SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/) that are to be included in a watermark search. |
+| [logger](/watermark/python-net/groupdocs.watermark/watermarkersettings/logger/) | The logger used for logging events and errors during watermarking. |
+| [searchable_objects](/watermark/python-net/groupdocs.watermark/watermarkersettings/searchable_objects/) | The searchable objects that are included in a watermark search. |
 
 ### Fields
 | Field | Description |
@@ -39,17 +39,21 @@ import groupdocs.watermark.search as gws
 
 settings = gw.WatermarkerSettings()
 settings.searchable_objects = gws.SearchableObjects(
-    word_processing_searchable_objects=gws.WordProcessingSearchableObjects.HYPERLINKS | gws.WordProcessingSearchableObjects.TEXT,
+    word_processing_searchable_objects=gws.WordProcessingSearchableObjects.HYPERLINKS
+    | gws.WordProcessingSearchableObjects.TEXT,
     spreadsheet_searchable_objects=gws.SpreadsheetSearchableObjects.HEADERS_FOOTERS,
-    presentation_searchable_objects=gws.PresentationSearchableObjects.SLIDES_BACKGROUNDS | gws.PresentationSearchableObjects.SHAPES,
+    presentation_searchable_objects=gws.PresentationSearchableObjects.SLIDES_BACKGROUNDS
+    | gws.PresentationSearchableObjects.SHAPES,
     diagram_searchable_objects=gws.DiagramSearchableObjects.NONE,
     pdf_searchable_objects=gws.PdfSearchableObjects.ALL,
 )
-
-with gw.Watermarker("document.docx", settings) as watermarker:
-    possible = watermarker.search()
-    print(f"Found {possible.count} possible watermark(s).")
 ```
+
+### Guides
+Task guides that use `WatermarkerSettings`:
+
+* [Email messages](/watermark/python-net/guides/email-messages/)
+* [Searching watermarks](/watermark/python-net/guides/searching-watermarks/)
 
 ### See Also
 * module [`groupdocs.watermark`](/watermark/python-net/groupdocs.watermark/)

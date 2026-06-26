@@ -1,7 +1,7 @@
 ---
 title: and_search_criteria method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "SearchCriteria.and_search_criteria method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_search_criteria/
 is_root: false

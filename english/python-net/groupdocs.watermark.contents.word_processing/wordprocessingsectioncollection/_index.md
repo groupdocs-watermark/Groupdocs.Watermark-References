@@ -1,7 +1,7 @@
 ---
 title: WordProcessingSectionCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of sections in a Word document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingsectioncollection/
 is_root: false

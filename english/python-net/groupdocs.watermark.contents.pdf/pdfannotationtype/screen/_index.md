@@ -1,7 +1,7 @@
 ---
 title: SCREEN field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Screen annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/screen/
 is_root: false

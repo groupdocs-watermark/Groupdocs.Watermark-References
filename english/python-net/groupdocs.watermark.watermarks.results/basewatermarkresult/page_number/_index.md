@@ -1,7 +1,7 @@
 ---
 title: page_number property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The page number where the watermark was placed."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/page_number/
 is_root: false

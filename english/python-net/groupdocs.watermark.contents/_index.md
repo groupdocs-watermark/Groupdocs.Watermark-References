@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.contents
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.contents."
 type: docs
 url: /python-net/groupdocs.watermark.contents/
 is_root: false
@@ -15,7 +15,7 @@ Types under `groupdocs.watermark.contents`.
 | Class | Description |
 | :- | :- |
 | [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/) | Represents a content where a watermark can be placed. |
-| [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/) | Represents any logical part of a content (page, frame, header, or a whole content) where a watermark can be placed. |
+| [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/) | Represents any logical part of a content (page, frame, header or a whole content) where watermark can be placed. |
 | [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/) | Represents effects that can be applied to an image watermark for an office content. |
 | [`OfficeImageFillFormat`](/watermark/python-net/groupdocs.watermark.contents/officeimagefillformat/) |  |
 | [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/) | Represents a shape line format. |

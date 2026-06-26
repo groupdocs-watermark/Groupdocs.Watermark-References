@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The desired height of this Watermark."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/height/
 is_root: false

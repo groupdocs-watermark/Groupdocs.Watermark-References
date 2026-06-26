@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.common
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.common."
 type: docs
 url: /python-net/groupdocs.watermark.common/
 is_root: false
@@ -18,7 +18,9 @@ Types under `groupdocs.watermark.common`.
 | [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) | Represents file type. |
 | [`IDocumentInfo`](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/) | Provides methods required for retrieving basic document information. |
 | [`PageInfo`](/watermark/python-net/groupdocs.watermark.common/pageinfo/) | Represents a document page description. |
+| [`Point`](/watermark/python-net/groupdocs.watermark.common/point/) | Represents a point with integer pixel coordinates. |
 | [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/) |  |
+| [`Rectangle`](/watermark/python-net/groupdocs.watermark.common/rectangle/) | Represents a rectangle with integer pixel coordinates. |
 | [`RemoveOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/removeonlylistbase/) |  |
 
 ### Enumerations
@@ -28,4 +30,5 @@ Types under `groupdocs.watermark.common`.
 | [`Dimension`](/watermark/python-net/groupdocs.watermark.common/dimension/) |  |
 | [`FormatFamily`](/watermark/python-net/groupdocs.watermark.common/formatfamily/) |  |
 | [`HorizontalAlignment`](/watermark/python-net/groupdocs.watermark.common/horizontalalignment/) |  |
+| [`InpaintingMethod`](/watermark/python-net/groupdocs.watermark.common/inpaintingmethod/) |  |
 | [`VerticalAlignment`](/watermark/python-net/groupdocs.watermark.common/verticalalignment/) |  |

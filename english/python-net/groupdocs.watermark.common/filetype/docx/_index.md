@@ -1,7 +1,7 @@
 ---
 title: DOCX field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "DOCX is a well-known format for Microsoft Word documents."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/docx/
 is_root: false

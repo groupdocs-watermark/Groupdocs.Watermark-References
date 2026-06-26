@@ -1,11 +1,11 @@
 ---
 title: ReadOnlyListBase class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "ReadOnlyListBase class — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.common/readonlylistbase/
 is_root: false
-weight: 90
+weight: 110
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: PDF field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Portable Document Format (PDF) is a type of document created by Adobe back in 1990s."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/pdf/
 is_root: false

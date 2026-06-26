@@ -1,7 +1,7 @@
 ---
 title: JPM field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "JPEG 2000 (JPM) is an image coding system and state-of-the-art image compression standard."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/jpm/
 is_root: false

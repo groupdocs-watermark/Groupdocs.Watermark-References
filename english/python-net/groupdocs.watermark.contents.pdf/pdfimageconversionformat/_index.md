@@ -1,7 +1,7 @@
 ---
 title: PdfImageConversionFormat class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PdfImageConversionFormat enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfimageconversionformat/
 is_root: false
@@ -19,6 +19,11 @@ The PdfImageConversionFormat type exposes the following members:
 | [JPEG](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfimageconversionformat/jpeg/) | Jpeg image. |
 | [PNG](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfimageconversionformat/png/) | Png image. |
 | [GIF](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfimageconversionformat/gif/) | Gif image. |
+
+### Guides
+Task guides that use `PdfImageConversionFormat`:
+
+* [Rasterize document or page](/watermark/python-net/guides/rasterize-document-or-page/)
 
 ### See Also
 * module [`groupdocs.watermark.contents.pdf`](/watermark/python-net/groupdocs.watermark.contents.pdf/)

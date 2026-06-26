@@ -1,7 +1,7 @@
 ---
 title: MODIFY_TEXT_ANNOTATIONS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Add or modify text annotations."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfpermissions/modify_text_annotations/
 is_root: false

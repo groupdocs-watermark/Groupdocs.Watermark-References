@@ -1,7 +1,7 @@
 ---
 title: BLEED_MARK field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Bleed mark annotation."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/bleed_mark/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: PdfSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document saving options when saving a pdf document."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfsaveoptions/
 is_root: false
@@ -18,7 +18,7 @@ The PdfSaveOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfsaveoptions/__init__/) | Initializes a new instance of the [`PdfSaveOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfsaveoptions/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfsaveoptions/__init__/) | Initializes a new [`PdfSaveOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfsaveoptions/) instance. |
 
 ### Fields
 | Field | Description |

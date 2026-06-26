@@ -1,7 +1,7 @@
 ---
 title: HIGHLIGHT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Highlight annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/highlight/
 is_root: false

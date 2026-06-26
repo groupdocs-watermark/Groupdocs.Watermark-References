@@ -1,7 +1,7 @@
 ---
 title: content property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The attached file content."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/content/
 is_root: false

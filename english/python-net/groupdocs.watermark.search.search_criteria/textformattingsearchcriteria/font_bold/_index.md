@@ -1,7 +1,7 @@
 ---
 title: font_bold property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The font used in watermark text formatting is bold."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/textformattingsearchcriteria/font_bold/
 is_root: false

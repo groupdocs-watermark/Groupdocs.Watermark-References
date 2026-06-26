@@ -1,7 +1,7 @@
 ---
 title: EmailAttachmentCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of attachments in an email message."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailattachmentcollection/
 is_root: false

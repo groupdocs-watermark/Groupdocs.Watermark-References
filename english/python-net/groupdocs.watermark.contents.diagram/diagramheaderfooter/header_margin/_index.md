@@ -1,7 +1,7 @@
 ---
 title: header_margin property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The margin of the document header."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/header_margin/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2080
 
 ## header_margin property
 
-The margin of document header.
+The margin of the document header.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.search.watermarks
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.search.watermarks."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/
 is_root: false
@@ -19,12 +19,13 @@ Types under `groupdocs.watermark.search.watermarks`.
 | [`DiagramHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramhyperlinkpossiblewatermark/) | Represents possible hyperlink watermark in a Visio document. |
 | [`DiagramShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/) | Represents possible shape watermark in a Visio document. |
 | [`EmailTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/) | Represents possible watermark in email message text fields. |
+| [`ImageInpaintingPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/imageinpaintingpossiblewatermark/) | Represents a manually specified image region that should be inpainted (filled using surrounding pixels). |
 | [`PdfAnnotationPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfannotationpossiblewatermark/) | Represents possible annotation watermark in a pdf document. |
-| [`PdfArtifactPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfartifactpossiblewatermark/) | Represents possible artifact watermark in a pdf content. |
+| [`PdfArtifactPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfartifactpossiblewatermark/) | Represents a possible artifact watermark in PDF content. |
 | [`PdfHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfhyperlinkpossiblewatermark/) | Represents possible hyperlink watermark in a pdf document. |
 | [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/) | Represents possible watermark in a pdf document text. |
 | [`PdfVectorPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfvectorpossiblewatermark/) | Represents possible vector watermark in a pdf document. |
-| [`PdfXObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfxobjectpossiblewatermark/) | Represents possible XObject watermark in a PDF content. |
+| [`PdfXObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfxobjectpossiblewatermark/) | Represents possible XObject watermark in a pdf content. |
 | [`PresentationBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/) | Represents possible background watermark in a PowerPoint document. |
 | [`PresentationChartBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/) | Represents possible background watermark in a PowerPoint chart. |
 | [`PresentationHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationhyperlinkpossiblewatermark/) | Represents possible hyperlink watermark in a PowerPoint document. |

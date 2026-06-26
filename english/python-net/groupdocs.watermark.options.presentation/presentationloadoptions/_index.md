@@ -1,7 +1,7 @@
 ---
 title: PresentationLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document loading options for a Presentation document."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationloadoptions/
 is_root: false
@@ -45,6 +45,11 @@ with gw.Watermarker("presentation.pptx", load_options) as watermarker:
     print(content.slide_width)
     print(content.slide_height)
 ```
+
+### Guides
+Task guides that use `PresentationLoadOptions`:
+
+* [Working with slide backgrounds](/watermark/python-net/guides/working-with-slide-backgrounds/)
 
 ### See Also
 * module [`groupdocs.watermark.options.presentation`](/watermark/python-net/groupdocs.watermark.options.presentation/)

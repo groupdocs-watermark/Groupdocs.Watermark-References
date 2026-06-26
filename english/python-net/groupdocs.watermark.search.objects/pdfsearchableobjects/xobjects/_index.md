@@ -1,7 +1,7 @@
 ---
 title: XOBJECTS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in XObjects."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/xobjects/
 is_root: false

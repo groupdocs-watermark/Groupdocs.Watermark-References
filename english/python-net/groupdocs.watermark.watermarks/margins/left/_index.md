@@ -1,7 +1,7 @@
 ---
 title: left property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The left margin, expressed as the horizontal offset from the parent left border."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/margins/left/
 is_root: false

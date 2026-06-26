@@ -1,7 +1,7 @@
 ---
 title: x property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The x-coordinate of this DiagramCommentPossibleWatermark, representing the horizontal offset from the page left border in points."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/x/
 is_root: false

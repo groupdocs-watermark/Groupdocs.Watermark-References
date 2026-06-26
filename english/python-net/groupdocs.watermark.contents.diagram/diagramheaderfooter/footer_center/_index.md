@@ -1,7 +1,7 @@
 ---
 title: footer_center property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The text string that appears in the center portion of document footer."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/footer_center/
 is_root: false

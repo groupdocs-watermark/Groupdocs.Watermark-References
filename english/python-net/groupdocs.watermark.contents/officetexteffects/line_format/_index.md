@@ -1,7 +1,7 @@
 ---
 title: line_format property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The line format settings, represented by a OfficeLineFormat instance."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officetexteffects/line_format/
 is_root: false
@@ -11,9 +11,7 @@ weight: 2010
 
 ## line_format property
 
-The line format settings.
-
-Provides an instance of [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/) that defines the shape line format.
+The line format settings, represented by a [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/) instance.
 
 ### Definition:
 ```python

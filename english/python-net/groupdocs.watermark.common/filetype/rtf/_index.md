@@ -1,7 +1,7 @@
 ---
 title: RTF field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Introduced and documented by Microsoft, the Rich Text Format (RTF) represents a method of encoding formatted text and graphics for use within applications."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/rtf/
 is_root: false

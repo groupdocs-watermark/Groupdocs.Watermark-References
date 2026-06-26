@@ -1,7 +1,7 @@
 ---
 title: sections property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of header/footer sections."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/sections/
 is_root: false

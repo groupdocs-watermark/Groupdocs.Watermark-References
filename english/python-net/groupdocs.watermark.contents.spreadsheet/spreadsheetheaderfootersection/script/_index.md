@@ -1,7 +1,7 @@
 ---
 title: script property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The script formatting of this SpreadsheetHeaderFooterSection."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/script/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2030
 
 ## script property
 
-The script content of this SpreadsheetHeaderFooterSection.
+The script formatting of this [`SpreadsheetHeaderFooterSection`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/).
 
 ### Definition:
 ```python

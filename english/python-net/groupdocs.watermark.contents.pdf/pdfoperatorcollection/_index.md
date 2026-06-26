@@ -1,7 +1,7 @@
 ---
 title: PdfOperatorCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of operators in a pdf content."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfoperatorcollection/
 is_root: false

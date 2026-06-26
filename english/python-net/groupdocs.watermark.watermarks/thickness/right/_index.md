@@ -1,7 +1,7 @@
 ---
 title: right property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The width of the right side of the bounding rectangle."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/thickness/right/
 is_root: false

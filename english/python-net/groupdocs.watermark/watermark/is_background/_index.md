@@ -1,7 +1,7 @@
 ---
 title: is_background property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The watermark is placed in the background when True; otherwise it appears in the foreground (top)."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/is_background/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2040
 
 ## is_background property
 
-The watermark is placed in the background when True; otherwise it is placed in the foreground (top). The default is False.
+The watermark is placed in the background when True; otherwise it appears in the foreground (top). The default is False.
 
 ### Definition:
 ```python

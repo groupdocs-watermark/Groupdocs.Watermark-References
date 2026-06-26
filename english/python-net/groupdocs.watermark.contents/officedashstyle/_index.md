@@ -1,7 +1,7 @@
 ---
 title: OfficeDashStyle class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "OfficeDashStyle enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officedashstyle/
 is_root: false

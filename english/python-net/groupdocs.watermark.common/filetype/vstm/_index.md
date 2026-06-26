@@ -1,7 +1,7 @@
 ---
 title: VSTM field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files with VSTM extension are template files created with Microsoft Visio that support macros."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/vstm/
 is_root: false

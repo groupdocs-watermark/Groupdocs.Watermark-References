@@ -1,7 +1,7 @@
 ---
 title: CHARTS_BACKGROUNDS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in charts backgrounds."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/presentationsearchableobjects/charts_backgrounds/
 is_root: false

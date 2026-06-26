@@ -1,7 +1,7 @@
 ---
 title: PIE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in auto shape type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/pie/
 is_root: false

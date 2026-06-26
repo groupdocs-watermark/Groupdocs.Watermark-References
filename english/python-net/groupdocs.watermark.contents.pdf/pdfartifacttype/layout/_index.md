@@ -1,7 +1,7 @@
 ---
 title: LAYOUT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Layout type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifacttype/layout/
 is_root: false

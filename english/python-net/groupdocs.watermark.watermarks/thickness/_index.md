@@ -1,7 +1,7 @@
 ---
 title: Thickness class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Describes the thickness of a frame around a rectangle."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/thickness/
 is_root: false
@@ -11,15 +11,15 @@ weight: 120
 
 ## Thickness class
 
-Represents the thickness of a frame around a rectangle.
+Describes the thickness of a frame around a rectangle.
 
 The Thickness type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/thickness/__init__/#left-right-top-bottom) | Initializes a new Thickness instance with specific lengths applied to each side of the rectangle. |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/thickness/__init__/#uniform_length) | Initializes a new instance of the [`Thickness`](/watermark/python-net/groupdocs.watermark.watermarks/thickness/) class that has the specified uniform length on each side. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/thickness/__init__/#left-right-top-bottom) | Initializes a new instance of the [`Thickness`](/watermark/python-net/groupdocs.watermark.watermarks/thickness/) class that has specific lengths applied to each side of the rectangle. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/thickness/__init__/#uniform_length) | Initializes a new Thickness instance with a uniform length applied to all four sides of the bounding rectangle. |
 
 ### Methods
 | Method | Description |

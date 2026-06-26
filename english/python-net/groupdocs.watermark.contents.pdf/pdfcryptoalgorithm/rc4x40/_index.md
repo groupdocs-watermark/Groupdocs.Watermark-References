@@ -1,7 +1,7 @@
 ---
 title: RC4X40 field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "RC4 with key length 40."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfcryptoalgorithm/rc4x40/
 is_root: false

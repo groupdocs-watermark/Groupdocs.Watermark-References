@@ -1,7 +1,7 @@
 ---
 title: transparency property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "OfficeImageFillFormat.transparency property — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeimagefillformat/transparency/
 is_root: false

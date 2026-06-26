@@ -1,7 +1,7 @@
 ---
 title: mso_drawing_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The mso drawing type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/mso_drawing_type/
 is_root: false

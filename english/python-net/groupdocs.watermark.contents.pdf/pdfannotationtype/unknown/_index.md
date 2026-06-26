@@ -1,7 +1,7 @@
 ---
 title: UNKNOWN field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Unknown annotation."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/unknown/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: page_numbers property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The array of page numbers to generate previews."
 type: docs
 url: /python-net/groupdocs.watermark.options/previewoptions/page_numbers/
 is_root: false

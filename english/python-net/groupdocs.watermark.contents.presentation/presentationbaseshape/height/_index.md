@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The height of this PresentationBaseShape in points."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/height/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2020
 
 ## height property
 
-The height of this PresentationBaseShape in points.
+The height of this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/) in points.
 
 ### Definition:
 ```python

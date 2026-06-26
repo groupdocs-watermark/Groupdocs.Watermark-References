@@ -1,7 +1,7 @@
 ---
 title: get_hash_code method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Returns a hash code for the current FileType object."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/get_hash_code/
 is_root: false

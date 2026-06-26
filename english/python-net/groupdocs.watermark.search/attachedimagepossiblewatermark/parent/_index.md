@@ -1,7 +1,7 @@
 ---
 title: parent property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "AttachedImagePossibleWatermark.parent property — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.search/attachedimagepossiblewatermark/parent/
 is_root: false

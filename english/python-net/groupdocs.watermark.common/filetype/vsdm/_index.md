@@ -1,7 +1,7 @@
 ---
 title: VSDM field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files with VSDM extension are drawing files created with Microsoft Visio application that supports macros."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/vsdm/
 is_root: false

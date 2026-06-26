@@ -1,7 +1,7 @@
 ---
 title: text property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The fragment text."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/text/
 is_root: false

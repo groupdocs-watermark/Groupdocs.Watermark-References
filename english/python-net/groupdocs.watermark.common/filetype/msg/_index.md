@@ -1,7 +1,7 @@
 ---
 title: MSG field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "MSG is a file format used by Microsoft Outlook and Exchange to store email messages, contact, appointment, or other tasks."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/msg/
 is_root: false

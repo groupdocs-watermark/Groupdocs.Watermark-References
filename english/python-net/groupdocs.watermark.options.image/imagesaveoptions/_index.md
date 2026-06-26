@@ -1,7 +1,7 @@
 ---
 title: ImageSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents image saving options when saving an image."
 type: docs
 url: /python-net/groupdocs.watermark.options.image/imagesaveoptions/
 is_root: false

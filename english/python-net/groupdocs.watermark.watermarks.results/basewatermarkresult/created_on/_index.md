@@ -1,7 +1,7 @@
 ---
 title: created_on property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The creation date of the watermark."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/created_on/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: protect_string method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "WordProcessingContent.protect_string method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingcontent/protect_string/
 is_root: false

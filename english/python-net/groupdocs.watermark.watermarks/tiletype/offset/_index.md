@@ -1,7 +1,7 @@
 ---
 title: OFFSET field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents offset tile alignment."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/tiletype/offset/
 is_root: false

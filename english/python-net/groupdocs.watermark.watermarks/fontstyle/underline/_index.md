@@ -1,7 +1,7 @@
 ---
 title: UNDERLINE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Underlined text."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/fontstyle/underline/
 is_root: false

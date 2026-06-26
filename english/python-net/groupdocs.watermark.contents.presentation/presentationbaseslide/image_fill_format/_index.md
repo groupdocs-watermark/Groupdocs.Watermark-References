@@ -1,7 +1,7 @@
 ---
 title: image_fill_format property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The image fill format settings of the presentation."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationbaseslide/image_fill_format/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: header_right property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The text string that appears in the right portion of the document header."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/header_right/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2090
 
 ## header_right property
 
-The text string that appears in the right portion of document header.
+The text string that appears in the right portion of the document header.
 
 ### Definition:
 ```python

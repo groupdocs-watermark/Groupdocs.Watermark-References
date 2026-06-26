@@ -1,7 +1,7 @@
 ---
 title: SINGLE_FRAGMENT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Whole text can be formatted with a single style, the collection can contain only one fragment."
 type: docs
 url: /python-net/groupdocs.watermark.search/formattedtextfragmentcollectiontype/single_fragment/
 is_root: false

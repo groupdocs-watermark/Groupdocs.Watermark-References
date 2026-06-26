@@ -1,7 +1,7 @@
 ---
 title: and_ method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Combines this SearchCriteria with other criteria using the logical AND operator."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1010
 
 ## and_ {#other}
 
-Combines this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/) with other criteria using logical AND operator.
+Combines this SearchCriteria with other criteria using the logical AND operator.
 
 ```python
 def and_(self, other):
@@ -22,7 +22,7 @@ def and_(self, other):
 | :- | :- | :- |
 | other | `SearchCriteria` | Search criteria to combine with. |
 
-**Returns:** SearchCriteria: Combined search criteria.
+**Returns:** Combined search criteria.
 
 ### Example
 

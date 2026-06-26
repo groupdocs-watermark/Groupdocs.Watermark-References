@@ -1,7 +1,7 @@
 ---
 title: THICK_THIN field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Double lines, one thick, one thin."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelinestyle/thick_thin/
 is_root: false

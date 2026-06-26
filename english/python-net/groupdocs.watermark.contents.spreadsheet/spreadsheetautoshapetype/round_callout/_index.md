@@ -1,7 +1,7 @@
 ---
 title: ROUND_CALLOUT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "There is no such type in Excel."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_callout/
 is_root: false

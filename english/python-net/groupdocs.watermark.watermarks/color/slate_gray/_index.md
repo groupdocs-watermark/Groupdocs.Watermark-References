@@ -1,7 +1,7 @@
 ---
 title: SLATE_GRAY field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Gets a system-defined color."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/slate_gray/
 is_root: false

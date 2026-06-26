@@ -1,7 +1,7 @@
 ---
 title: OfficeShapeSettings class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents settings that can be applied to a shape watermark for an office content."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeshapesettings/
 is_root: false

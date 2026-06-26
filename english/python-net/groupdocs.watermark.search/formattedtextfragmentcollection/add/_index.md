@@ -1,7 +1,7 @@
 ---
 title: add method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Adds a formatted text fragment to the collection."
 type: docs
 url: /python-net/groupdocs.watermark.search/formattedtextfragmentcollection/add/
 is_root: false

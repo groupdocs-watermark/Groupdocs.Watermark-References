@@ -1,7 +1,7 @@
 ---
 title: last_page property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The lastpage property indicates whether to include the last page."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/pagessetup/last_page/
 is_root: false

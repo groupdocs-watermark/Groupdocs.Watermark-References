@@ -1,7 +1,7 @@
 ---
 title: FLOW_CHART_DELAY field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in auto shape type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_delay/
 is_root: false

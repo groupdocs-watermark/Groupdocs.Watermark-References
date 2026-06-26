@@ -1,7 +1,7 @@
 ---
 title: font_name property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The name of the font used in possible watermark text formatting."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/textformattingsearchcriteria/font_name/
 is_root: false

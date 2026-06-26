@@ -1,7 +1,7 @@
 ---
 title: WordProcessingHorizontalAlignment class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "WordProcessingHorizontalAlignment enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessinghorizontalalignment/
 is_root: false

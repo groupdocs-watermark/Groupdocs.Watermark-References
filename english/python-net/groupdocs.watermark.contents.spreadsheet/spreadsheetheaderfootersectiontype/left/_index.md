@@ -1,7 +1,7 @@
 ---
 title: LEFT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Left section."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersectiontype/left/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: XLSM field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files with XLSM extension is a type of Spreasheet files that support Macros."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/xlsm/
 is_root: false

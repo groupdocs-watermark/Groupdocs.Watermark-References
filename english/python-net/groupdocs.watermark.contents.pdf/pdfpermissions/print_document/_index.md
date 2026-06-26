@@ -1,7 +1,7 @@
 ---
 title: PRINT_DOCUMENT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Print the content."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfpermissions/print_document/
 is_root: false

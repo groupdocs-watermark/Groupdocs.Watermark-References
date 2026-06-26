@@ -1,7 +1,7 @@
 ---
 title: file_format_name property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The file type name, e.g., \"Microsoft Word Document\"."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/file_format_name/
 is_root: false

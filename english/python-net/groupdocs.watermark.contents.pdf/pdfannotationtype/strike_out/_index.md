@@ -1,7 +1,7 @@
 ---
 title: STRIKE_OUT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Strikeout annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/strike_out/
 is_root: false
