@@ -1,7 +1,7 @@
 ---
 title: effects property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The effects applied to the watermark, specified as a SpreadsheetImageEffects or SpreadsheetTextEffects instance."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/effects/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2010
 
 ## effects property
 
-The effects to apply to the watermark, specified as a SpreadsheetImageEffects or SpreadsheetTextEffects instance.
+The effects applied to the watermark, specified as a [`SpreadsheetImageEffects`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetimageeffects/) or [`SpreadsheetTextEffects`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheettexteffects/) instance.
 
 ### Definition:
 ```python

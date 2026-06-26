@@ -1,7 +1,7 @@
 ---
 title: body_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The type of the email message body."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailcontent/body_type/
 is_root: false

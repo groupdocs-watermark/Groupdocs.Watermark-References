@@ -1,7 +1,7 @@
 ---
 title: SOUND field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Sound annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/sound/
 is_root: false

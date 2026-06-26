@@ -1,7 +1,7 @@
 ---
 title: WordProcessingRelativeHorizontalPosition class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "WordProcessingRelativeHorizontalPosition enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativehorizontalposition/
 is_root: false

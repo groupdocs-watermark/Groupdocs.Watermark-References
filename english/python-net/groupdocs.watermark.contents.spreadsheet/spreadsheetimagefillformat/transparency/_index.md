@@ -1,7 +1,7 @@
 ---
 title: transparency property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The transparency of the background image as a value from 0.0 (opaque) through 1.0 (fully transparent)."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetimagefillformat/transparency/
 is_root: false

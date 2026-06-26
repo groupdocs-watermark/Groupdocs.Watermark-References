@@ -1,7 +1,7 @@
 ---
 title: DOT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Dot style."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officedashstyle/dot/
 is_root: false

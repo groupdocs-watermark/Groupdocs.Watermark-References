@@ -1,7 +1,7 @@
 ---
 title: READ_ONLY field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The entire document is read-only."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessinglocktype/read_only/
 is_root: false

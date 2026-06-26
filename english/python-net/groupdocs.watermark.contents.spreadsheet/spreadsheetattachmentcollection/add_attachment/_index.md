@@ -1,7 +1,7 @@
 ---
 title: add_attachment method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Adds an attachment to the SpreadsheetWorksheet."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_attachment/
 is_root: false

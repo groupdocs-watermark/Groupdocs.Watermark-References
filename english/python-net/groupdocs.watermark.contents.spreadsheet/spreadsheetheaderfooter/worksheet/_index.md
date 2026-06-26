@@ -1,7 +1,7 @@
 ---
 title: worksheet property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The parent worksheet of this SpreadsheetHeaderFooter."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/worksheet/
 is_root: false

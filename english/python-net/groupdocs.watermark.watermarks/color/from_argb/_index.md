@@ -1,7 +1,7 @@
 ---
 title: from_argb method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Creates a Color structure from a 32-bit ARGB value."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/from_argb/
 is_root: false
@@ -26,9 +26,9 @@ def from_argb(cls, argb):
 
 ## from_argb {#alpha-base_color}
 
-Creates a [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure from the specified [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure, but with the new specified alpha value.
+Creates a Color structure from the specified base Color but with a new alpha value.
 
-Although a 32-bit value can be passed for the alpha value, the value is limited to 8 bits.
+Although this method allows a 32-bit value to be passed for the alpha value, the value is limited to 8 bits.
 
 ```python
 def from_argb(cls, alpha, base_color):
@@ -48,9 +48,9 @@ def from_argb(cls, alpha, base_color):
 
 ## from_argb {#red-green-blue}
 
-Creates a Color structure from the specified 8-bit color values (red, green, and blue) with an implicit alpha value of 255 (fully opaque).
+Creates a Color structure from the specified 8‑bit red, green, and blue values; the alpha component is implicitly set to 255 (fully opaque).
 
-Although the function allows a 32-bit value to be passed for each color component, the value of each component is limited to 8 bits.
+Although this method allows a 32‑bit value to be passed for each color component, each component is limited to 8 bits.
 
 ```python
 def from_argb(cls, red, green, blue):
@@ -63,17 +63,17 @@ def from_argb(cls, red, green, blue):
 | green | `int` | The green component value for the new Color. Valid values are 0 through 255. |
 | blue | `int` | The blue component value for the new Color. Valid values are 0 through 255. |
 
-**Returns:** Color: The Color created.
+**Returns:** Color: The Color that this method creates.
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | Red, green, or blue is less than 0 or greater than 255. |
+| `ValueError` | red, green, or blue is less than 0 or greater than 255. |
 
 ## from_argb {#alpha-red-green-blue}
 
-Creates a Color structure from the four ARGB component (alpha, red, green, and blue) values.
+Creates a [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure from the four ARGB component (alpha, red, green, and blue) values.
 
-Although the function allows a 32-bit value to be passed for each component, the value of each component is limited to 8 bits.
+Although this method allows a 32-bit value to be passed for each component, the value of each component is limited to 8 bits.
 
 ```python
 def from_argb(cls, alpha, red, green, blue):
@@ -87,7 +87,7 @@ def from_argb(cls, alpha, red, green, blue):
 | green | `int` | The green component value for the new `Color`. Valid values are 0 through 255. |
 | blue | `int` | The blue component value for the new `Color`. Valid values are 0 through 255. |
 
-**Returns:** Color: The `Color` created.
+**Returns:** Color: The `Color` that this method creates.
 
 | Raises | Description |
 | :- | :- |

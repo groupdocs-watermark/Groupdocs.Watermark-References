@@ -1,7 +1,7 @@
 ---
 title: OUTSIDE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Specifies that the object is outside of the vertical alignment base."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingverticalalignment/outside/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: READ_ONLY_WITH_EDITABLE_CONTENT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The document is read-only, but all the content except of the watermark is marked as editable."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessinglocktype/read_only_with_editable_content/
 is_root: false

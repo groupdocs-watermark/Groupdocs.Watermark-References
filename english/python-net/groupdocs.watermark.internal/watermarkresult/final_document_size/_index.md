@@ -1,7 +1,7 @@
 ---
 title: final_document_size property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The size of the final processed document in bytes."
 type: docs
 url: /python-net/groupdocs.watermark.internal/watermarkresult/final_document_size/
 is_root: false

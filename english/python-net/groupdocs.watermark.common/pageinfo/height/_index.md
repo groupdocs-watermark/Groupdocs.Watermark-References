@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The document page height."
 type: docs
 url: /python-net/groupdocs.watermark.common/pageinfo/height/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new ImageThumbnailSearchCriteria instance with a specified file path."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/imagethumbnailsearchcriteria/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#file_path}
 
-Initializes a new ImageThumbnailSearchCriteria with the specified file path.
+Initializes a new ImageThumbnailSearchCriteria instance with a specified file path.
 
 ```python
 def __init__(self, file_path):
@@ -24,7 +24,7 @@ def __init__(self, file_path):
 
 ## __init__ {#stream}
 
-Initializes a new ImageThumbnailSearchCriteria instance with a specified stream.
+Initializes a new ImageThumbnailSearchCriteria instance from a stream.
 
 ```python
 def __init__(self, stream):

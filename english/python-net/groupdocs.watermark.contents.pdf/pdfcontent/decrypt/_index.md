@@ -1,7 +1,7 @@
 ---
 title: decrypt method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Decrypts the content."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfcontent/decrypt/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the PresentationPreviewOptions class causing the output stream to be closed."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationpreviewoptions/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#create_page_stream}
 
-Initializes a new PresentationPreviewOptions instance that closes the output stream.
+Initializes a new instance of the PresentationPreviewOptions class causing the output stream to be closed.
 
 ```python
 def __init__(self, create_page_stream):

@@ -1,7 +1,7 @@
 ---
 title: y property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The vertical offset of this SpreadsheetCellPossibleWatermark from the content top border in points."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/y/
 is_root: false
@@ -13,7 +13,7 @@ weight: 2090
 
 The vertical offset of this SpreadsheetCellPossibleWatermark from the content top border in points.
 
-The y-coordinate of this SpreadsheetCellPossibleWatermark.
+Represents the y-coordinate of this SpreadsheetCellPossibleWatermark.
 
 ### Definition:
 ```python

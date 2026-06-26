@@ -1,7 +1,7 @@
 ---
 title: UNDEFINED field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "UndefinedDocument type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifacttype/undefined/
 is_root: false

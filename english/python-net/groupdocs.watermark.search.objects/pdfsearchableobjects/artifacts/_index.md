@@ -1,7 +1,7 @@
 ---
 title: ARTIFACTS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in artifacts."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/artifacts/
 is_root: false

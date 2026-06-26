@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the Thickness class that has specific lengths applied to each side of the rectangle."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/thickness/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#left-right-top-bottom}
 
-Initializes a new Thickness instance with specific lengths applied to each side of the rectangle.
+Initializes a new instance of the [`Thickness`](/watermark/python-net/groupdocs.watermark.watermarks/thickness/) class that has specific lengths applied to each side of the rectangle.
 
 ```python
 def __init__(self, left, right, top, bottom):
@@ -27,7 +27,7 @@ def __init__(self, left, right, top, bottom):
 
 ## __init__ {#uniform_length}
 
-Initializes a new instance of the [`Thickness`](/watermark/python-net/groupdocs.watermark.watermarks/thickness/) class that has the specified uniform length on each side.
+Initializes a new Thickness instance with a uniform length applied to all four sides of the bounding rectangle.
 
 ```python
 def __init__(self, uniform_length):

@@ -1,7 +1,7 @@
 ---
 title: slide_index property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The index of the slide to add the watermark to."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/slide_index/
 is_root: false

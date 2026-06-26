@@ -1,7 +1,7 @@
 ---
 title: IMAGE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The Image type"
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/watermarktype/image/
 is_root: false

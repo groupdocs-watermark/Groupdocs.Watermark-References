@@ -1,7 +1,7 @@
 ---
 title: not_ method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Negates this SearchCriteria."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1030
 
 ## not_
 
-Negates the SearchCriteria.
+Negates this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/).
 
 ```python
 def not_(self):

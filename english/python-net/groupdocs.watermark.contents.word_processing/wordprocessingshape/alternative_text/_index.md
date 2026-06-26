@@ -1,7 +1,7 @@
 ---
 title: alternative_text property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The descriptive (alternative) text associated with this WordProcessingShape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshape/alternative_text/
 is_root: false

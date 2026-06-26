@@ -1,7 +1,7 @@
 ---
 title: header_left property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The text string that appears in the left portion of document header."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/header_left/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2070
 
 ## header_left property
 
-The text string that appears in the left portion of the document header.
+The text string that appears in the left portion of document header.
 
 ### Definition:
 ```python

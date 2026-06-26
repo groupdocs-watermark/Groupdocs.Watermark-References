@@ -1,7 +1,7 @@
 ---
 title: source_full_name property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The full name of the attached file."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/source_full_name/
 is_root: false

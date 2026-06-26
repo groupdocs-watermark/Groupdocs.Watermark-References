@@ -1,7 +1,7 @@
 ---
 title: PresentationTextEffects class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents effects that can be applied to a text watermark for a PowerPoint content."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationtexteffects/
 is_root: false
@@ -23,7 +23,7 @@ The PresentationTextEffects type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [line_format](/watermark/python-net/groupdocs.watermark.contents/officetexteffects/line_format/) | The line format settings. (inherited from [`OfficeTextEffects`](/watermark/python-net/groupdocs.watermark.contents/officetexteffects/)) |
+| [line_format](/watermark/python-net/groupdocs.watermark.contents/officetexteffects/line_format/) | The line format settings, represented by a [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/) instance. (inherited from [`OfficeTextEffects`](/watermark/python-net/groupdocs.watermark.contents/officetexteffects/)) |
 
 ### See Also
 * module [`groupdocs.watermark.options.presentation`](/watermark/python-net/groupdocs.watermark.options.presentation/)

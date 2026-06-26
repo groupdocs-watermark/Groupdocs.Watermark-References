@@ -1,7 +1,7 @@
 ---
 title: BMP field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files having extension .BMP represent Bitmap Image files that are used to store bitmap digital images."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/bmp/
 is_root: false

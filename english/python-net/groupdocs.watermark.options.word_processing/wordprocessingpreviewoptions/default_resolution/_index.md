@@ -1,7 +1,7 @@
 ---
 title: DEFAULT_RESOLUTION field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Default resolution in dots per inch."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingpreviewoptions/default_resolution/
 is_root: false

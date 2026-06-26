@@ -1,7 +1,7 @@
 ---
 title: tile_as_texture property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The image is tiled across the background when True; otherwise, the image is stretched."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetimagefillformat/tile_as_texture/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2020
 
 ## tile_as_texture property
 
-The image is tiled across the background when True; otherwise the image is stretched.
+The image is tiled across the background when True; otherwise, the image is stretched.
 
 ### Definition:
 ```python

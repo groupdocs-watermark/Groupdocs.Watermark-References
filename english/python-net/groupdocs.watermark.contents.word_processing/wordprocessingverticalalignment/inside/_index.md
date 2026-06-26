@@ -1,7 +1,7 @@
 ---
 title: INSIDE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Specifies that the object is inside of the horizontal alignment base."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingverticalalignment/inside/
 is_root: false

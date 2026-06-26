@@ -1,7 +1,7 @@
 ---
 title: chroma_key property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The color value of the image that will be treated as transparent."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeimageeffects/chroma_key/
 is_root: false
@@ -11,7 +11,9 @@ weight: 2030
 
 ## chroma_key property
 
-The color value of the image that will be treated as transparent. The default value is a fully transparent color.
+The color value of the image that will be treated as transparent.
+
+The default value is a fully transparent color.
 
 ### Definition:
 ```python

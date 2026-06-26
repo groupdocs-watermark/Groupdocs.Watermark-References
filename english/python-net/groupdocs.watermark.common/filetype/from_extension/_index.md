@@ -1,7 +1,7 @@
 ---
 title: from_extension method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Maps the file extension to the file type."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/from_extension/
 is_root: false
@@ -22,11 +22,11 @@ def from_extension(cls, extension):
 | :- | :- | :- |
 | extension | `str` | The file extension (including the period "."). |
 
-**Returns:** FileType: The corresponding file type if supported; otherwise returns `FileType.Unknown`.
+**Returns:** FileType: When the file type is supported returns it, otherwise returns the default `FileType.unknown` file type.
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | When `extension` is None or an empty string. |
+| `ValueError` | Thrown when `extension` is null or empty string. |
 
 ### See Also
 * class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

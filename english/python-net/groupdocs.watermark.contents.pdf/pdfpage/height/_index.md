@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The height of this PdfPage in points."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfpage/height/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2030
 
 ## height property
 
-The height of this [`PdfPage`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfpage/) in points.
+The height of this PdfPage in points.
 
 ### Definition:
 ```python

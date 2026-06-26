@@ -1,7 +1,7 @@
 ---
 title: text property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The text of this WordProcessingShape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshape/text/
 is_root: false

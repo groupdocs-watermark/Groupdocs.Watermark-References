@@ -1,7 +1,7 @@
 ---
 title: FREE_TEXT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Free text annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/free_text/
 is_root: false

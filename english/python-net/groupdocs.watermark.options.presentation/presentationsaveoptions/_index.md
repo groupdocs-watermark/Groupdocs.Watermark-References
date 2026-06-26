@@ -1,7 +1,7 @@
 ---
 title: PresentationSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document saving options when saving a Presentation document."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationsaveoptions/
 is_root: false

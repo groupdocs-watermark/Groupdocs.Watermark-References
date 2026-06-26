@@ -1,7 +1,7 @@
 ---
 title: RICH_MEDIA field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "RichMedia annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/rich_media/
 is_root: false

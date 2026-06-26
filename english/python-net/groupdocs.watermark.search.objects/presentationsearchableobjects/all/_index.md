@@ -1,7 +1,7 @@
 ---
 title: ALL field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in all content objects."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/presentationsearchableobjects/all/
 is_root: false

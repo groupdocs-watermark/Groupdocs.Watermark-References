@@ -1,7 +1,7 @@
 ---
 title: HEADER field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Header subtype."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifactsubtype/header/
 is_root: false

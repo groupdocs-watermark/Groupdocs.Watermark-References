@@ -1,7 +1,7 @@
 ---
 title: PresentationFormattedTextFragmentCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of formatted text fragments in a PowerPoint document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragmentcollection/
 is_root: false

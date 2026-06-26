@@ -1,11 +1,11 @@
 ---
 title: PageInfo class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a document page description."
 type: docs
 url: /python-net/groupdocs.watermark.common/pageinfo/
 is_root: false
-weight: 80
+weight: 90
 ---
 
 

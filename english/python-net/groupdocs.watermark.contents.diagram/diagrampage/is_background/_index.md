@@ -1,7 +1,7 @@
 ---
 title: is_background property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The page is a background page."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagrampage/is_background/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2040
 
 ## is_background property
 
-The page is a background page flag.
+The page is a background page. True if the page is a background page; otherwise, False.
 
 ### Definition:
 ```python

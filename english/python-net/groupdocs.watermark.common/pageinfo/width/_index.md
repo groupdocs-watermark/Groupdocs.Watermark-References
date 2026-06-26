@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The document page width."
 type: docs
 url: /python-net/groupdocs.watermark.common/pageinfo/width/
 is_root: false

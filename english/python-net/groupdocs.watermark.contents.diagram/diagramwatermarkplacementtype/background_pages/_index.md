@@ -1,7 +1,7 @@
 ---
 title: BACKGROUND_PAGES field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "A watermark should be added to background pages only."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramwatermarkplacementtype/background_pages/
 is_root: false

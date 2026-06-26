@@ -1,7 +1,7 @@
 ---
 title: MOUSE_CLICK field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Hyperlink is activated on mouse click."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationhyperlinkactiontype/mouse_click/
 is_root: false

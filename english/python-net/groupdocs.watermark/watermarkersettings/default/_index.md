@@ -1,7 +1,7 @@
 ---
 title: DEFAULT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Gets the default value for the class."
 type: docs
 url: /python-net/groupdocs.watermark/watermarkersettings/default/
 is_root: false

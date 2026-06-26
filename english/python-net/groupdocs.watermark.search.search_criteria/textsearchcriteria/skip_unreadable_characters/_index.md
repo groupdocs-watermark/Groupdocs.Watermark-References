@@ -1,7 +1,7 @@
 ---
 title: skip_unreadable_characters property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The property indicating whether unreadable characters are skipped during string comparison."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/skip_unreadable_characters/
 is_root: false
@@ -12,8 +12,6 @@ weight: 2020
 ## skip_unreadable_characters property
 
 The property indicating whether unreadable characters are skipped during string comparison.
-
-When set to True, unreadable characters are ignored during comparison.
 
 ### Definition:
 ```python

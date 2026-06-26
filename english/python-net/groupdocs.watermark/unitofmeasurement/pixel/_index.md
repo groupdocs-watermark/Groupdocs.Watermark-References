@@ -1,7 +1,7 @@
 ---
 title: PIXEL field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Specifies that the unit of measurement is pixel."
 type: docs
 url: /python-net/groupdocs.watermark/unitofmeasurement/pixel/
 is_root: false

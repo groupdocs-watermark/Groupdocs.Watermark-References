@@ -1,7 +1,7 @@
 ---
 title: background_height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The desired height of the background image in pixels."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/background_height/
 is_root: false

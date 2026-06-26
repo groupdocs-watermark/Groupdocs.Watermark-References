@@ -1,7 +1,7 @@
 ---
 title: error method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Logs an error that occurred during watermarking."
 type: docs
 url: /python-net/groupdocs.watermark.options/ilogger/error/
 is_root: false
@@ -21,7 +21,7 @@ def error(self, message, exception):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | message | `str` | The error message. |
-| exception | `Exception` | The instance of occured exception. |
+| exception | `Exception` | The instance of occurred exception. |
 
 ### See Also
 * class [`ILogger`](/watermark/python-net/groupdocs.watermark.options/ilogger/)

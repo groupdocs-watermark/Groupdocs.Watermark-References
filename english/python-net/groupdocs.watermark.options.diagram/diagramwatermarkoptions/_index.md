@@ -1,7 +1,7 @@
 ---
 title: DiagramWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents the base class for watermark adding options to a Visio document."
 type: docs
 url: /python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/
 is_root: false
@@ -18,7 +18,7 @@ The DiagramWatermarkOptions type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If true, shape editing is forbidden. |
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If True, shape editing will be forbidden. |
 
 ### Fields
 | Field | Description |

@@ -1,7 +1,7 @@
 ---
 title: WordProcessingSearchableObjects class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "WordProcessingSearchableObjects enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/
 is_root: false
@@ -21,6 +21,11 @@ The WordProcessingSearchableObjects type exposes the following members:
 | [TEXT](/watermark/python-net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/text/) | Search in content text. |
 | [HYPERLINKS](/watermark/python-net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/hyperlinks/) | Search in hyperlinks. |
 | [ALL](/watermark/python-net/groupdocs.watermark.search.objects/wordprocessingsearchableobjects/all/) | Search in all content objects. |
+
+### Guides
+Task guides that use `WordProcessingSearchableObjects`:
+
+* [Searching watermarks](/watermark/python-net/guides/searching-watermarks/)
 
 ### See Also
 * module [`groupdocs.watermark.search.objects`](/watermark/python-net/groupdocs.watermark.search.objects/)

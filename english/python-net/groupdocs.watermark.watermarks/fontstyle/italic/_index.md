@@ -1,7 +1,7 @@
 ---
 title: ITALIC field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Italic text."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/fontstyle/italic/
 is_root: false

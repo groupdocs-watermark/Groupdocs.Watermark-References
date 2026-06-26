@@ -1,7 +1,7 @@
 ---
 title: WordProcessingWatermarkSectionOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents options when adding shape watermark to a Word document section."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarksectionoptions/
 is_root: false
@@ -14,7 +14,7 @@ weight: 120
 Represents options when adding shape watermark to a Word document section.
 
 Learn more:
-- Add watermarks to word processing documents: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents
+- Add watermarks to word processing documents (https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents)
 
 The WordProcessingWatermarkSectionOptions type exposes the following members:
 
@@ -28,10 +28,10 @@ The WordProcessingWatermarkSectionOptions type exposes the following members:
 | :- | :- |
 | [section_index](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarksectionoptions/section_index/) | The index of a section to add the watermark to. |
 | [alternative_text](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/alternative_text/) | The descriptive (alternative) text that will be associated with a shape. (inherited from [`WordProcessingWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/)) |
-| [effects](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/effects/) | The image or text effects applied to the watermark. (inherited from [`WordProcessingWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/)) |
+| [effects](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/effects/) | The effects to apply to the watermark, specified as a [`WordProcessingImageEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingimageeffects/) or [`WordProcessingTextEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/) instance. (inherited from [`WordProcessingWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/)) |
 | [is_locked](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/is_locked/) | The property indicates whether editing of the shape in Word is forbidden. (inherited from [`WordProcessingWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/)) |
 | [lock_type](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/lock_type/) | The watermark lock type. (inherited from [`WordProcessingWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/)) |
-| [name](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/name/) | The shape name. (inherited from [`WordProcessingWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/)) |
+| [name](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/name/) | The name of the shape. (inherited from [`WordProcessingWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/)) |
 | [password](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/password/) | The password used to lock the watermark. (inherited from [`WordProcessingWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/)) |
 
 ### Fields
@@ -54,6 +54,12 @@ with gw.Watermarker("document.docx", load_options) as watermarker:
     watermarker.add(watermark, options)
     watermarker.save("document.docx")
 ```
+
+### Guides
+Task guides that use `WordProcessingWatermarkSectionOptions`:
+
+* [Locking watermark in word processing document](/watermark/python-net/guides/locking-watermark-in-word-processing-document/)
+* [Watermarks in word processing document](/watermark/python-net/guides/watermarks-in-word-processing-document/)
 
 ### See Also
 * module [`groupdocs.watermark.options.word_processing`](/watermark/python-net/groupdocs.watermark.options.word_processing/)

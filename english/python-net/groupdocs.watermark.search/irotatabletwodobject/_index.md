@@ -1,7 +1,7 @@
 ---
 title: IRotatableTwoDObject class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents any rotatable two dimensional object in a content structure."
 type: docs
 url: /python-net/groupdocs.watermark.search/irotatabletwodobject/
 is_root: false

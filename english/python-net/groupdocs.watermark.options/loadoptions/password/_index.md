@@ -1,7 +1,7 @@
 ---
 title: password property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The password for opening an encrypted document."
 type: docs
 url: /python-net/groupdocs.watermark.options/loadoptions/password/
 is_root: false
@@ -13,8 +13,7 @@ weight: 2030
 
 The password for opening an encrypted document.
 
-The password may be `None` or an empty string. The default value is `None`.  
-If the content is not encrypted, set this to `None` or an empty string.
+The password may be `None` or an empty string. The default value is `None`. If the content is not encrypted, set this to `None` or an empty string.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: address property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The string representation of the email address."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailaddress/address/
 is_root: false

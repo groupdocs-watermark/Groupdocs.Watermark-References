@@ -1,7 +1,7 @@
 ---
 title: SQUIGGLY field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Squiggle annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/squiggly/
 is_root: false

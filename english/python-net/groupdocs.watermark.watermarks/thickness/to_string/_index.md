@@ -1,7 +1,7 @@
 ---
 title: to_string method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Returns the string representation of the Thickness class."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/thickness/to_string/
 is_root: false

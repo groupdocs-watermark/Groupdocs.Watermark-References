@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetCellFormattedTextFragment class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a fragment of formatted text in an Excel document cell."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcellformattedtextfragment/
 is_root: false

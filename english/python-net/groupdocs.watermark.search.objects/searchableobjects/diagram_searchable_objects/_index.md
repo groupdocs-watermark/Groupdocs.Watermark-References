@@ -1,7 +1,7 @@
 ---
 title: diagram_searchable_objects property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The objects inside a Visio document that are to be included in a watermark search."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/searchableobjects/diagram_searchable_objects/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2010
 
 ## diagram_searchable_objects property
 
-The objects inside a Visio document that are included in a watermark search.
+The objects inside a Visio document that are to be included in a watermark search.
 
 ### Definition:
 ```python

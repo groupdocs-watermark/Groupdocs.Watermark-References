@@ -1,7 +1,7 @@
 ---
 title: PAGE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Page type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifacttype/page/
 is_root: false

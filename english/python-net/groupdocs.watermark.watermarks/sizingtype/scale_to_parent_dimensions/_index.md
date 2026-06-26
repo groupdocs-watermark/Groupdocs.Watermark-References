@@ -1,7 +1,7 @@
 ---
 title: SCALE_TO_PARENT_DIMENSIONS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Watermark should be scaled relative to parent dimensions using specified ."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/sizingtype/scale_to_parent_dimensions/
 is_root: false

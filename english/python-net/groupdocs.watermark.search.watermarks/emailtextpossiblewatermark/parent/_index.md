@@ -1,7 +1,7 @@
 ---
 title: parent property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The parent of this EmailTextPossibleWatermark."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/parent/
 is_root: false

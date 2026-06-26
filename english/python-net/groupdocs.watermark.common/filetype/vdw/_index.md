@@ -1,7 +1,7 @@
 ---
 title: VDW field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "VDW is the Visio Graphics Service file format that specifies the streams and storages required for rendering a Web drawing."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/vdw/
 is_root: false

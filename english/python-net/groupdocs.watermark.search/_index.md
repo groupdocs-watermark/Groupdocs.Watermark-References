@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.search
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.search."
 type: docs
 url: /python-net/groupdocs.watermark.search/
 is_root: false
@@ -16,9 +16,9 @@ Types under `groupdocs.watermark.search`.
 | :- | :- |
 | [`AttachedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/attachedimagepossiblewatermark/) |  |
 | [`FloatingAttachedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/floatingattachedimagepossiblewatermark/) |  |
-| [`FormattedTextFragment`](/watermark/python-net/groupdocs.watermark.search/formattedtextfragment/) | Provides abstract base class for a fragment of formatted text in a content. |
+| [`FormattedTextFragment`](/watermark/python-net/groupdocs.watermark.search/formattedtextfragment/) | Represents an abstract base class for a fragment of formatted text in content. |
 | [`FormattedTextFragmentCollection`](/watermark/python-net/groupdocs.watermark.search/formattedtextfragmentcollection/) | Represents a mutable collection of formatted text fragments. |
-| [`HyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/) | Represents possible hyperlink watermark in a PowerPoint content. |
+| [`HyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/) | Represents a possible hyperlink watermark in PowerPoint content. |
 | [`IRotatableTwoDObject`](/watermark/python-net/groupdocs.watermark.search/irotatabletwodobject/) | Represents any rotatable two dimensional object in a content structure. |
 | [`ITwoDObject`](/watermark/python-net/groupdocs.watermark.search/itwodobject/) | Represents any two dimensional object in a content structure. |
 | [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/) | Represents possible watermark found in a document. |
@@ -30,4 +30,4 @@ Types under `groupdocs.watermark.search`.
 | :- | :- |
 | [`FormattedTextFragmentCollectionType`](/watermark/python-net/groupdocs.watermark.search/formattedtextfragmentcollectiontype/) |  |
 | [`PossibleWatermarkCollection`](/watermark/python-net/groupdocs.watermark.search/possiblewatermarkcollection/) | Represents a collection of possible watermarks found in a content. |
-| [`ShapeSearchAdapter`](/watermark/python-net/groupdocs.watermark.search/shapesearchadapter/) | Provides a base class for a shape containing specific pieces of a document that are to be included in watermark search. |
+| [`ShapeSearchAdapter`](/watermark/python-net/groupdocs.watermark.search/shapesearchadapter/) | Provides a base class for a shape containing specific pieces of a document that are included in watermark search. |

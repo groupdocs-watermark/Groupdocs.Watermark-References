@@ -1,7 +1,7 @@
 ---
 title: STRIKEOUT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Text with a line through the middle."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/fontstyle/strikeout/
 is_root: false

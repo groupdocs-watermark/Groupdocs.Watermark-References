@@ -1,7 +1,7 @@
 ---
 title: section_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The type of this SpreadsheetHeaderFooterSection."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/section_type/
 is_root: false

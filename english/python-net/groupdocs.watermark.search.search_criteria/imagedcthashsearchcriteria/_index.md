@@ -1,7 +1,7 @@
 ---
 title: ImageDctHashSearchCriteria class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a search criteria for finding images in a document."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/imagedcthashsearchcriteria/
 is_root: false
@@ -13,9 +13,9 @@ weight: 40
 
 Represents a search criteria for finding images in a document.
 
-This search criteria uses a DCT‑based perceptual image hash to calculate image similarity.
+This search criteria uses DCT‑based perceptual image hash for calculating image similarity.
 
-Learn more: https://docs.groupdocs.com/display/watermarknet/Searching+watermarks
+- Learn more: https://docs.groupdocs.com/display/watermarknet/Searching+watermarks
 
 The ImageDctHashSearchCriteria type exposes the following members:
 
@@ -28,9 +28,9 @@ The ImageDctHashSearchCriteria type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [and_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_/) | Combines this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/) with other criteria using logical AND operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [and_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_/) | Combines this SearchCriteria with other criteria using the logical AND operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [and_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates the SearchCriteria. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/). (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [or_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 
@@ -47,12 +47,20 @@ import groupdocs.watermark as gw
 import groupdocs.watermark.search.searchcriteria as gws_sc
 
 with gw.Watermarker("watermarked-sample.docx") as watermarker:
-    image_criteria = gws_sc.ImageDctHashSearchCriteria("logo.png")
-    image_criteria.max_difference = 0.9
-    possible = watermarker.search(image_criteria)
+    criteria = gws_sc.ImageDctHashSearchCriteria("logo.png")
+    criteria.max_difference = 0.9
+    possible = watermarker.search(criteria)
     possible.clear()
     watermarker.save("clean-sample.docx")
 ```
+
+### Guides
+Task guides that use `ImageDctHashSearchCriteria`:
+
+* [Modifying found watermark properties](/watermark/python-net/guides/modifying-found-watermark-properties/)
+* [Searching watermarks](/watermark/python-net/guides/searching-watermarks/)
+* [Clear watermarks](/watermark/python-net/guides/clear/)
+* [Update watermarks](/watermark/python-net/guides/update/)
 
 ### See Also
 * module [`groupdocs.watermark.search.search_criteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/)

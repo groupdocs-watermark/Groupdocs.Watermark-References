@@ -1,7 +1,7 @@
 ---
 title: ROUND_SINGLE_CORNER_RECTANGLE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in auto shape type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_single_corner_rectangle/
 is_root: false

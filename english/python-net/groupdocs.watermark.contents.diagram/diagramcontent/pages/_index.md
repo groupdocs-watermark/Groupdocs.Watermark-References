@@ -1,7 +1,7 @@
 ---
 title: pages property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of all pages of this DiagramContent."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramcontent/pages/
 is_root: false

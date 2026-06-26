@@ -1,7 +1,7 @@
 ---
 title: set_hyperlink_string method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PresentationShape.set_hyperlink_string method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationshape/set_hyperlink_string/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: page property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The parent page of this PdfXObject."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfxobject/page/
 is_root: false

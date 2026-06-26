@@ -1,7 +1,7 @@
 ---
 title: PdfFormattedTextFragmentCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of formatted text fragments in a pdf document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfformattedtextfragmentcollection/
 is_root: false

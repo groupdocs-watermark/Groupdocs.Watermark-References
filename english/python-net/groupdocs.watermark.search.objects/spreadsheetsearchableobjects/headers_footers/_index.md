@@ -1,7 +1,7 @@
 ---
 title: HEADERS_FOOTERS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in headers and footers."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/headers_footers/
 is_root: false

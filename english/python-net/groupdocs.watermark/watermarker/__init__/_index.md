@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new Watermarker instance with the specified document path."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#file_path}
 
-Initializes a new instance of Watermarker with the specified document path.
+Initializes a new Watermarker instance with the specified document path.
 
 Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
@@ -34,14 +34,14 @@ def __init__(self, file_path):
 ```python
 import groupdocs.watermark as gw
 
-with gw.Watermarker("input.pdf") as watermarker:
-    # Use methods of Watermarker to add, search, or remove watermarks.
-    watermarker.save("output.pdf")
+with gw.Watermarker("D:\\input.pdf") as watermarker:
+    # Use methods of Watermarker to add, search or remove watermarks.
+    watermarker.save("D:\\output.pdf")
 ```
 
 ## __init__ {#file_path-options}
 
-Initializes a new Watermarker with the specified document path and load options.
+Initializes a new Watermarker instance with the specified document path and load options.
 
 Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
@@ -67,14 +67,15 @@ import groupdocs.watermark as gw
 
 load_options = gw.PdfLoadOptions()
 load_options.password = "123"
+
 with gw.Watermarker(r"C:\Documents\test.pdf", load_options) as watermarker:
-    # ...
+    # work with the watermarker instance
     pass
 ```
 
 ## __init__ {#file_path-settings}
 
-Initializes a new Watermarker instance with the specified document path and optional settings.
+Initializes a new Watermarker instance with the specified document path and settings.
 
 Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
@@ -98,15 +99,14 @@ def __init__(self, file_path, settings):
 ```python
 import groupdocs.watermark as gw
 
-# Load a PDF document
 with gw.Watermarker("document.pdf") as watermarker:
-    # Perform operations, e.g., search for watermarks
+    # Perform operations such as searching for watermarks
     pass
 ```
 
 ## __init__ {#file_path-options-settings}
 
-Initializes a new Watermarker instance with the specified document path, load options, and settings.
+Initializes a new Watermarker with the specified document path, load options, and settings.
 
 Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
@@ -130,12 +130,21 @@ def __init__(self, file_path, options, settings):
 
 ```python
 import groupdocs.watermark as gw
+import groupdocs.watermark.search.searchcriteria as gws_sc
 
-load_options = gw.PdfLoadOptions()
 settings = gw.WatermarkerSettings()
-with gw.Watermarker("document.pdf", load_options, settings) as watermarker:
-    # perform operations, e.g., search, modify, or save the document
-    pass
+settings.searchable_objects.email_searchable_objects = (
+    gw.EmailSearchableObjects.Subject |
+    gw.EmailSearchableObjects.HtmlBody |
+    gw.EmailSearchableObjects.PlainTextBody
+)
+
+load_options = gw.EmailLoadOptions()
+with gw.Watermarker(r"D:\\test.msg", load_options, settings) as watermarker:
+    criteria = gws_sc.TextSearchCriteria("test", False)
+    watermarks = watermarker.search(criteria)
+    watermarks.clear()
+    watermarker.save()
 ```
 
 ## __init__ {#document}
@@ -158,9 +167,21 @@ def __init__(self, document):
 | `UnsupportedFileTypeException` | Supplied document type is not supported. |
 | `InvalidPasswordException` | Supplied password is incorrect. |
 
+### Example
+
+```python
+import io
+import groupdocs.watermark as gw
+
+with open("D:/input.pdf", "rb") as input_stream, open("D:/output.pdf", "wb") as output_stream:
+    with gw.Watermarker(input_stream) as watermarker:
+        # Use methods of Watermarker to add, search, or remove watermarks.
+        watermarker.save(output_stream)
+```
+
 ## __init__ {#document-options}
 
-Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/) class with the specified stream and load options.
+Initializes a new instance of the Watermarker class with the specified stream and load options.
 
 Learn more about loading documents at https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
@@ -171,7 +192,7 @@ def __init__(self, document, options):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | `io.RawIOBase` | The stream to load the document from (`io.RawIOBase`). |
+| document | `io.RawIOBase` | The stream to load document from. |
 | options | `LoadOptions` | Additional options to use when loading a document. |
 
 | Raises | Description |
@@ -186,18 +207,17 @@ import groupdocs.watermark as gw
 
 load_options = gw.PdfLoadOptions()
 load_options.password = "123"
-
 with open(r"C:\Documents\test.pdf", "rb") as stream:
     with gw.Watermarker(stream, load_options) as watermarker:
-        # Perform operations with the watermarker
+        # work with the watermarker
         pass
 ```
 
 ## __init__ {#document-settings}
 
-Initializes a new Watermarker instance with the given document stream and optional settings.
+Initializes a new instance of the Watermarker class with the specified stream and settings.
 
-Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
+Learn more about loading documents.
 
 ```python
 def __init__(self, document, settings):
@@ -206,8 +226,8 @@ def __init__(self, document, settings):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | `io.RawIOBase` | The stream to load the document from. |
-| settings | `WatermarkerSettings` | Additional settings to use when working with the loaded document. |
+| document | `io.RawIOBase` | The stream to load document from. |
+| settings | `WatermarkerSettings` | Additional settings to use when working with loaded document. |
 
 | Raises | Description |
 | :- | :- |
@@ -217,9 +237,11 @@ def __init__(self, document, settings):
 ### Example
 
 ```python
+import io
 import groupdocs.watermark as gw
-from groupdocs.watermark import WatermarkerSettings, SearchableObjects
-from groupdocs.watermark.contents import (
+from groupdocs.watermark import (
+    WatermarkerSettings,
+    SearchableObjects,
     WordProcessingSearchableObjects,
     SpreadsheetSearchableObjects,
     PresentationSearchableObjects,
@@ -227,7 +249,7 @@ from groupdocs.watermark.contents import (
     PdfSearchableObjects,
 )
 
-# Configure searchable objects globally
+# Configure global searchable objects
 settings = WatermarkerSettings()
 settings.searchable_objects = SearchableObjects(
     word_processing_searchable_objects=WordProcessingSearchableObjects.HYPERLINKS
@@ -239,18 +261,19 @@ settings.searchable_objects = SearchableObjects(
     pdf_searchable_objects=PdfSearchableObjects.ALL,
 )
 
-# Load a document from a file stream
-with open("example.pdf", "rb") as stream:
-    with gw.Watermarker(stream, settings) as watermarker:
-        # Work with the watermarker instance here
-        pass
+# Process multiple files
+for file_path in ["doc1.pdf", "doc2.docx"]:
+    with open(file_path, "rb") as stream:
+        with gw.Watermarker(stream, settings) as watermarker:
+            # work with watermarker, e.g., search or add watermarks
+            pass
 ```
 
 ## __init__ {#document-options-settings}
 
-Initializes a new Watermarker instance with the given document stream, load options, and settings.
+Initializes a new Watermarker instance with the specified document stream, load options, and settings.
 
-Learn more about loading documents.
+Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
 ```python
 def __init__(self, document, options, settings):
@@ -259,9 +282,9 @@ def __init__(self, document, options, settings):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| document | `io.RawIOBase` | The stream to load document from. |
+| document | `io.RawIOBase` | The stream to load the document from. |
 | options | `LoadOptions` | Additional options to use when loading a document. |
-| settings | `WatermarkerSettings` | Additional settings to use when working with loaded document. |
+| settings | `WatermarkerSettings` | Additional settings to use when working with the loaded document. |
 
 | Raises | Description |
 | :- | :- |
@@ -272,13 +295,23 @@ def __init__(self, document, options, settings):
 
 ```python
 import groupdocs.watermark as gw
-import groupdocs.watermark.contents.pdf as gwc_pdf
 
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
-    print(pdf_content.pages[0].width)
-    print(pdf_content.pages[0].height)
+# Configure searchable objects for email documents
+settings = gw.WatermarkerSettings()
+settings.searchable_objects = gw.SearchableObjects(
+    email_searchable_objects=gw.EmailSearchableObjects.Subject
+    | gw.EmailSearchableObjects.HtmlBody
+    | gw.EmailSearchableObjects.PlainTextBody
+)
+
+load_options = gw.EmailLoadOptions()
+
+with open(r"D:\test.msg", "rb") as stream:
+    with gw.Watermarker(stream, load_options, settings) as watermarker:
+        criteria = gw.TextSearchCriteria("test", False)
+        watermarks = watermarker.search(criteria)
+        watermarks.clear()  # Remove found text fragments
+        watermarker.save()
 ```
 
 ### See Also

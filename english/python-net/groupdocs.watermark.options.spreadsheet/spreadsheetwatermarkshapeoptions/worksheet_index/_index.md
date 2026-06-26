@@ -1,7 +1,7 @@
 ---
 title: worksheet_index property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The index of the worksheet to add the watermark to."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/worksheet_index/
 is_root: false

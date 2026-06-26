@@ -1,7 +1,7 @@
 ---
 title: WordProcessingVerticalAlignment class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "WordProcessingVerticalAlignment enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingverticalalignment/
 is_root: false

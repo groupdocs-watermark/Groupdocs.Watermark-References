@@ -1,7 +1,7 @@
 ---
 title: ALLOW_ONLY_REVISIONS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "User can only add revision marks to the document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingprotectiontype/allow_only_revisions/
 is_root: false

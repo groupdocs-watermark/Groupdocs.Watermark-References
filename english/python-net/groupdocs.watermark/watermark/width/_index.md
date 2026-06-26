@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The desired width of this Watermark."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/width/
 is_root: false

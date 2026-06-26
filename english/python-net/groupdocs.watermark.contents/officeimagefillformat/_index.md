@@ -1,7 +1,7 @@
 ---
 title: OfficeImageFillFormat class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "OfficeImageFillFormat class — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeimagefillformat/
 is_root: false

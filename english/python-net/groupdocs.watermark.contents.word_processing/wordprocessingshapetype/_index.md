@@ -1,7 +1,7 @@
 ---
 title: WordProcessingShapeType class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "WordProcessingShapeType enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/
 is_root: false

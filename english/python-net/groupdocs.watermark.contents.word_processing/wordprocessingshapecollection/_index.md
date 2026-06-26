@@ -1,7 +1,7 @@
 ---
 title: WordProcessingShapeCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of shapes in a Word document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapecollection/
 is_root: false

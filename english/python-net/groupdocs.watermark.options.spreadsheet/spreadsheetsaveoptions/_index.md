@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document saving options when saving a Spreadsheet document."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/
 is_root: false

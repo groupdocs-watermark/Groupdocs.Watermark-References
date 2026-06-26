@@ -1,7 +1,7 @@
 ---
 title: add_link method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Adds an attachment by a link; the document will not contain the attached file content."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_link/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1050
 
 ## add_link {#source_full_name-preview_image_content-x-y-width-height}
 
-Adds an attachment by a link (the document will not contain attached file content).
+Adds an attachment by a link; the document will not contain the attached file content.
 
 ```python
 def add_link(self, source_full_name, preview_image_content, x, y, width, height):

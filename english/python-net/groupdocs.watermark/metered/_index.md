@@ -1,7 +1,7 @@
 ---
 title: Metered class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Manages metered (pay-per-use) licensing."
 type: docs
 url: /python-net/groupdocs.watermark/metered/
 is_root: false
@@ -26,6 +26,11 @@ The Metered type exposes the following members:
 | [get_consumption_credit](/watermark/python-net/groupdocs.watermark/metered/get_consumption_credit/) | Return the remaining metered credit for the current key. |
 | [get_consumption_quantity](/watermark/python-net/groupdocs.watermark/metered/get_consumption_quantity/) | Return the total metered quantity consumed so far. |
 | [set_metered_key](/watermark/python-net/groupdocs.watermark/metered/set_metered_key/#public_key-private_key) | Activate metered billing with the given public/private key pair. |
+
+### Guides
+Task guides that use `Metered`:
+
+* [Licensing and evaluation](/watermark/python-net/guides/licensing-and-subscription/)
 
 ### See Also
 * module [`groupdocs.watermark`](/watermark/python-net/groupdocs.watermark/)

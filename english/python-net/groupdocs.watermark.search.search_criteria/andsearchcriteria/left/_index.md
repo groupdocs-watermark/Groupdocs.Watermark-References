@@ -1,7 +1,7 @@
 ---
 title: left property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The left search criteria."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/andsearchcriteria/left/
 is_root: false

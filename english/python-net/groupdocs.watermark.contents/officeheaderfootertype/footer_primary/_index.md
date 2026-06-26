@@ -1,7 +1,7 @@
 ---
 title: FOOTER_PRIMARY field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Primary footer, also used for odd numbered pages."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeheaderfootertype/footer_primary/
 is_root: false

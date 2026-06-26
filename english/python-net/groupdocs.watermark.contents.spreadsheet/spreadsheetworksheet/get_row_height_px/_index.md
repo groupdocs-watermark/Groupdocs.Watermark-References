@@ -1,7 +1,7 @@
 ---
 title: get_row_height_px method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Returns the height of the specified row in pixels."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/get_row_height_px/
 is_root: false

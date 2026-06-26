@@ -1,7 +1,7 @@
 ---
 title: preview_image_content property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The attached file preview image as a byte array."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/preview_image_content/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: DiagramWatermarkPlacementType class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "DiagramWatermarkPlacementType enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramwatermarkplacementtype/
 is_root: false

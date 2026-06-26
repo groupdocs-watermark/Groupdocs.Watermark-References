@@ -1,7 +1,7 @@
 ---
 title: pages property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The list of specific page numbers to include."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/pagessetup/pages/
 is_root: false

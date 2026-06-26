@@ -1,7 +1,7 @@
 ---
 title: header_footer_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The value that identifies the type of header or footer to add the watermark to."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkheaderfooteroptions/header_footer_type/
 is_root: false

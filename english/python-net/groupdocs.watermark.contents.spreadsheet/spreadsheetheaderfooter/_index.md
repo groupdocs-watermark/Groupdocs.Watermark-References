@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetHeaderFooter class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a header/footer in an Excel document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: HORIZONTAL field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Flip along the y-axis, reversing the x-coordinates."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingfliporientation/horizontal/
 is_root: false

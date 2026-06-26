@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new DiagramWatermarkableImage from raw image bytes."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramwatermarkableimage/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#image_data}
 
-Initializes a new [`DiagramWatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramwatermarkableimage/) instance using the specified image data.
+Initializes a new DiagramWatermarkableImage from raw image bytes.
 
 ```python
 def __init__(self, image_data):
@@ -20,7 +20,7 @@ def __init__(self, image_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_data | `list[int]` | The array of unsigned bytes from which to create the `DiagramWatermarkableImage`. |
+| image_data | `list[int]` | The array of unsigned bytes from which to create the DiagramWatermarkableImage. |
 
 ### Example
 

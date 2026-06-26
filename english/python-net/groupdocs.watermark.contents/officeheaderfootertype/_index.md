@@ -1,7 +1,7 @@
 ---
 title: OfficeHeaderFooterType class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "OfficeHeaderFooterType enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeheaderfootertype/
 is_root: false

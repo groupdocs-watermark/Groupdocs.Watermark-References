@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of WatermarkResult."
 type: docs
 url: /python-net/groupdocs.watermark.internal/watermarkresult/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/) class.
+Initializes a new instance of [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/).
 
 ```python
 def __init__(self):
@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#source_document_size-processing_time-final_document_size-number_watermarks_applied}
 
-Initializes a new instance of [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/) with specific values.
+Initializes a new instance of the [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/) class with specific values.
 
 ```python
 def __init__(self, source_document_size, processing_time, final_document_size, number_watermarks_applied):

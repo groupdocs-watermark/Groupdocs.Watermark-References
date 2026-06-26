@@ -1,7 +1,7 @@
 ---
 title: page_index property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The page index to add watermark to."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/page_index/
 is_root: false

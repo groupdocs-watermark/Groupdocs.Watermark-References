@@ -1,7 +1,7 @@
 ---
 title: NONE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Specifies no search objects."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/none/
 is_root: false

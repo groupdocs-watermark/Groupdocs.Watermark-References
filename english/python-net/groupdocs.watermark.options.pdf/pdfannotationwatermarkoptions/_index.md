@@ -1,7 +1,7 @@
 ---
 title: PdfAnnotationWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents watermark adding options when adding annotation watermark to a PDF document."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/
 is_root: false
@@ -13,7 +13,8 @@ weight: 10
 
 Represents watermark adding options when adding annotation watermark to a PDF document.
 
-Learn more: Add watermarks to PDF documents (https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents).
+Learn more:
+- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents
 
 The PdfAnnotationWatermarkOptions type exposes the following members:
 
@@ -26,7 +27,7 @@ The PdfAnnotationWatermarkOptions type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [page_index](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/page_index/) | The page index to add watermark to. |
-| [print_only](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/print_only/) | The value indicating whether annotation will be printed, but not displayed in PDF viewing applications. |
+| [print_only](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/print_only/) | The value indicating whether annotation will be printed, but not displayed in pdf viewing application. |
 
 ### Fields
 | Field | Description |
@@ -46,7 +47,9 @@ with gw.Watermarker("document.pdf", load_options) as watermarker:
     options = gwo_pdf.PdfAnnotationWatermarkOptions()
     options.page_index = -1  # default - all pages
 
-    text_watermark = gww.TextWatermark("Annotation watermark", gww.Font("Arial", 8.0))
+    text_watermark = gww.TextWatermark(
+        "Annotation watermark", gww.Font("Arial", 8.0)
+    )
     text_watermark.horizontal_alignment = gwc.HorizontalAlignment.LEFT
     text_watermark.vertical_alignment = gwc.VerticalAlignment.TOP
     watermarker.add(text_watermark, options)
@@ -58,6 +61,11 @@ with gw.Watermarker("document.pdf", load_options) as watermarker:
 
     watermarker.save("document.pdf")
 ```
+
+### Guides
+Task guides that use `PdfAnnotationWatermarkOptions`:
+
+* [Watermarks in PDF document](/watermark/python-net/guides/watermarks-in-pdf-document/)
 
 ### See Also
 * module [`groupdocs.watermark.options.pdf`](/watermark/python-net/groupdocs.watermark.options.pdf/)

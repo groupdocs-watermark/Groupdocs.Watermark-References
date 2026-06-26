@@ -1,7 +1,7 @@
 ---
 title: to property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of recipients of the email message."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailcontent/to/
 is_root: false

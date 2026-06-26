@@ -1,7 +1,7 @@
 ---
 title: UNDERLINE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Underline annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/underline/
 is_root: false

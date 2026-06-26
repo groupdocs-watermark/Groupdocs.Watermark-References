@@ -1,7 +1,7 @@
 ---
 title: TiffImageWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents watermark adding options when adding watermark to a TIFF image."
 type: docs
 url: /python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/
 is_root: false
@@ -11,10 +11,10 @@ weight: 100
 
 ## TiffImageWatermarkOptions class
 
-Represents watermark adding options when adding a watermark to a TIFF image.
+Represents watermark adding options when adding watermark to a TIFF image.
 
 Learn more:
-- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images
+- [Add watermarks to images](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
 
 The TiffImageWatermarkOptions type exposes the following members:
 
@@ -22,7 +22,7 @@ The TiffImageWatermarkOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/) | Initializes a new instance of the [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/#frame_index) | Initializes a new instance of the [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) class with a specified frame index. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/#frame_index) | Initializes a new instance of [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) with a specified frame index. |
 
 ### Properties
 | Property | Description |

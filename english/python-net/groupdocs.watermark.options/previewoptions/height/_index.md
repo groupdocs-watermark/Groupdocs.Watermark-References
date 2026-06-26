@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The page preview height."
 type: docs
 url: /python-net/groupdocs.watermark.options/previewoptions/height/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the OfficeLineFormat class."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelineformat/__init__/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: insert method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Inserts a formatted text fragment into the collection at a given index."
 type: docs
 url: /python-net/groupdocs.watermark.search/formattedtextfragmentcollection/insert/
 is_root: false
@@ -49,12 +49,10 @@ def insert(self, index, text, font, foreground_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| index | `int` | The zero-based index at which formatted text fragment should be inserted. |
+| index | `int` | The zero-based index at which the formatted text fragment should be inserted. |
 | text | `str` | The fragment text. |
 | font | `Font` | The font of the text. |
 | foreground_color | `Color` | The foreground color of the text. |
-
-**Returns:** None.
 
 ## insert {#index-text-font-foreground_color-background_color}
 

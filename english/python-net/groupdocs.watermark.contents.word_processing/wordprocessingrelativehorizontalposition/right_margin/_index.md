@@ -1,7 +1,7 @@
 ---
 title: RIGHT_MARGIN field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Specifies that the horizontal positioning is relative to the right margin of the page."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativehorizontalposition/right_margin/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: watermark_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The type of watermark."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_type/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: DiagramPageCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of pages in a Visio document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagrampagecollection/
 is_root: false

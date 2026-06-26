@@ -1,7 +1,7 @@
 ---
 title: BACKGROUND field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The watermark is placed as the background of the document"
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/watermarkposition/background/
 is_root: false

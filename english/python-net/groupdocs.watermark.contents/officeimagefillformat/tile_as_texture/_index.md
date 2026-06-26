@@ -1,7 +1,7 @@
 ---
 title: tile_as_texture property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "OfficeImageFillFormat.tile_as_texture property — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeimagefillformat/tile_as_texture/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: PagesSetup class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents the setup for pages."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/pagessetup/
 is_root: false
@@ -19,19 +19,24 @@ The PagesSetup type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/__init__/) | Initializes a new instance of the [`PagesSetup`](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/__init__/#all_pages-first_page-last_page-odd_pages-even_pages-pages-page_number) | Initializes a new PagesSetup instance with specified parameters. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/__init__/#all_pages-first_page-last_page-odd_pages-even_pages-pages-page_number) | Initializes a new instance of the [`PagesSetup`](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/) class with specified parameters. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [all_pages](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/all_pages/) | The property indicating whether to include all pages. |
-| [even_pages](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/even_pages/) | The flag indicating whether to include even pages. |
+| [all_pages](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/all_pages/) | The value indicating whether to include all pages. |
+| [even_pages](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/even_pages/) | The value indicating whether to include even pages. |
 | [first_page](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/first_page/) | The first_page property indicates whether to include the first page. |
 | [last_page](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/last_page/) | The last_page property indicates whether to include the last page. |
 | [odd_pages](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/odd_pages/) | The odd_pages property indicates whether to include odd pages. |
 | [page_number](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/page_number/) | The page number when considering only specified pages. |
 | [pages](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/pages/) | The list of specific page numbers to include. |
-| [specified](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/specified/) | The value indicates whether any specific pages are specified. |
+| [specified](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/specified/) | The property indicates whether any specific pages are specified. |
+
+### Guides
+Task guides that use `PagesSetup`:
+
+* [Adding text watermarks](/watermark/python-net/guides/adding-text-watermarks/)
 
 ### See Also
 * module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

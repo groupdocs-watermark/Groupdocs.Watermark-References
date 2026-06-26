@@ -1,7 +1,7 @@
 ---
 title: to_string method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Returns a string that represents the current object."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/to_string/
 is_root: false

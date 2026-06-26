@@ -1,7 +1,7 @@
 ---
 title: AUTO field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Watermark should be sized automatically according to its content."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/sizingtype/auto/
 is_root: false

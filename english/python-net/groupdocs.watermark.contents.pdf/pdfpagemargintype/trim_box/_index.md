@@ -1,7 +1,7 @@
 ---
 title: TRIM_BOX field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Pdf TrimBox is used as watermarking area."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfpagemargintype/trim_box/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetTextEffectFormattedTextFragment class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a fragment of formatted text in Excel document WordArt shape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheettexteffectformattedtextfragment/
 is_root: false

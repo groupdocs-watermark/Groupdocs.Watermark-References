@@ -1,7 +1,7 @@
 ---
 title: add method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Adds a watermark to the loaded document."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/add/
 is_root: false
@@ -27,17 +27,15 @@ def add(self, watermark):
 ### Example
 
 ```python
-import io
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
 
-with open("watermark.jpg", "rb") as f:
-    data = f.read()
-
-with gw.Watermarker("image.png") as watermarker:
-    with gww.ImageWatermark(io.BytesIO(data)) as watermark:
-        watermarker.add(watermark)
-    watermarker.save("image.png")
+with Watermarker("document.pdf") as watermarker:
+    watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 48))
+    watermark.foreground_color = Color.red
+    watermark.opacity = 0.5
+    watermarker.add(watermark)
+    watermarker.save("watermarked.pdf")
 ```
 
 ## add {#watermark-options}
@@ -59,17 +57,15 @@ def add(self, watermark, options):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.pdf as gwo_pdf
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
 
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    with gww.ImageWatermark("watermark.png") as watermark:
-        options = gwo_pdf.PdfXObjectWatermarkOptions()
-        options.page_index = 0
-        watermarker.add(watermark, options)
-    watermarker.save("document.pdf")
+with Watermarker("document.pdf") as watermarker:
+    watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 48))
+    watermark.foreground_color = Color.red
+    watermark.opacity = 0.5
+    watermarker.add(watermark)
+    watermarker.save("watermarked.pdf")
 ```
 
 ### See Also

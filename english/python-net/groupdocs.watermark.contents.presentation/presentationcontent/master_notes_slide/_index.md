@@ -1,7 +1,7 @@
 ---
 title: master_notes_slide property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The master slide for all notes slides of this PresentationContent."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationcontent/master_notes_slide/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2030
 
 ## master_notes_slide property
 
-The master slide for all notes slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/).
+The master slide for all notes slides of this PresentationContent.
 
 ### Definition:
 ```python

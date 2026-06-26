@@ -1,7 +1,7 @@
 ---
 title: encrypt method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Encrypts the document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationcontent/encrypt/
 is_root: false

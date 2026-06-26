@@ -1,7 +1,7 @@
 ---
 title: FOOTER_FIRST field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Footer for the first page."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeheaderfootertype/footer_first/
 is_root: false

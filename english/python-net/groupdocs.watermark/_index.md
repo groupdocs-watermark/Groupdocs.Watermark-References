@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Main GroupDocs.Watermark namespace with top-level API classes."
 type: docs
 url: /python-net/groupdocs.watermark/
 is_root: false

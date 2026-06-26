@@ -1,7 +1,7 @@
 ---
 title: NOT_DEFINED field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "UndefinedDocument shape type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationshapetype/not_defined/
 is_root: false

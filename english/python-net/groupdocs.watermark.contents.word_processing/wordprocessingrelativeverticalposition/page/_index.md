@@ -1,7 +1,7 @@
 ---
 title: PAGE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The object is positioned relative to the top edge of the page."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativeverticalposition/page/
 is_root: false

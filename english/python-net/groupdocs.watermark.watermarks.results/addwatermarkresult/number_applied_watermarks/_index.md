@@ -1,7 +1,7 @@
 ---
 title: number_applied_watermarks property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The number of applied watermarks."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/addwatermarkresult/number_applied_watermarks/
 is_root: false

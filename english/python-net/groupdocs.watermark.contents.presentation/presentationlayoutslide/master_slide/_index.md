@@ -1,7 +1,7 @@
 ---
 title: master_slide property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The master slide for this PresentationLayoutSlide."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationlayoutslide/master_slide/
 is_root: false

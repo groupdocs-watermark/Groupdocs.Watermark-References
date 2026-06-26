@@ -1,7 +1,7 @@
 ---
 title: PdfArtifactCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of artifacts in a pdf content."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifactcollection/
 is_root: false

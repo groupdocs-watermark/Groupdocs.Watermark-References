@@ -1,7 +1,7 @@
 ---
 title: size property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The height of the font."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/size/
 is_root: false

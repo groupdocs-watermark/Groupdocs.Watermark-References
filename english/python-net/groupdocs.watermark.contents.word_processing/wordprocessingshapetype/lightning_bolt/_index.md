@@ -1,7 +1,7 @@
 ---
 title: LIGHTNING_BOLT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in shape type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/lightning_bolt/
 is_root: false

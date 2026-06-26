@@ -1,7 +1,7 @@
 ---
 title: MULTIFRAME_IMAGE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Multi frame image format family."
 type: docs
 url: /python-net/groupdocs.watermark.common/formatfamily/multiframe_image/
 is_root: false

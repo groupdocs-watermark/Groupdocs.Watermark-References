@@ -1,7 +1,7 @@
 ---
 title: horizontal_alignment property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The horizontal alignment of this Watermark."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/horizontal_alignment/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2030
 
 ## horizontal_alignment property
 
-The horizontal alignment of this Watermark.
+The horizontal alignment of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
 
 Default value is `HorizontalAlignment.none`.
 

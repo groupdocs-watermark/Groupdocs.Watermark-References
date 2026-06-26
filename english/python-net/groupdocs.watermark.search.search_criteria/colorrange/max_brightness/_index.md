@@ -1,7 +1,7 @@
 ---
 title: max_brightness property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The ending brightness value."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/colorrange/max_brightness/
 is_root: false

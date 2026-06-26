@@ -1,7 +1,7 @@
 ---
 title: WordProcessingTextEffects class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents effects that can be applied to a text watermark for a Word document."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/
 is_root: false
@@ -18,13 +18,13 @@ The WordProcessingTextEffects type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/__init__/) | Initializes a new instance of the [`WordProcessingTextEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/__init__/) | Initializes a new instance of the WordProcessingTextEffects class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
 | [flip_orientation](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/flip_orientation/) | The orientation of a shape. |
-| [line_format](/watermark/python-net/groupdocs.watermark.contents/officetexteffects/line_format/) | The line format settings. (inherited from [`OfficeTextEffects`](/watermark/python-net/groupdocs.watermark.contents/officetexteffects/)) |
+| [line_format](/watermark/python-net/groupdocs.watermark.contents/officetexteffects/line_format/) | The line format settings, represented by a [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/) instance. (inherited from [`OfficeTextEffects`](/watermark/python-net/groupdocs.watermark.contents/officetexteffects/)) |
 
 ### Fields
 | Field | Description |

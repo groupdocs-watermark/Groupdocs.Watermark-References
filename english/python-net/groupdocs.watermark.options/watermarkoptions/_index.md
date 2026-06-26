@@ -1,7 +1,7 @@
 ---
 title: WatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents watermark adding options when adding watermark to a document."
 type: docs
 url: /python-net/groupdocs.watermark.options/watermarkoptions/
 is_root: false

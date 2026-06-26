@@ -1,7 +1,7 @@
 ---
 title: PreviewOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Provides options to set requirements and stream delegates for preview generation."
 type: docs
 url: /python-net/groupdocs.watermark.options/previewoptions/
 is_root: false
@@ -18,8 +18,8 @@ The PreviewOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/previewoptions/__init__/#create_page_stream) | Initializes a new instance of [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/) that closes the output stream when done. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/previewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new instance of [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/) class causing the output stream to be returned to the client for further use. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/previewoptions/__init__/#create_page_stream) | Initializes a new PreviewOptions instance that ensures the output stream is closed. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/previewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new instance of [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/) that returns the output stream to the client for further use. |
 
 ### Properties
 | Property | Description |
@@ -38,11 +38,11 @@ import os
 import groupdocs.watermark as gw
 import groupdocs.watermark.options as gwo
 
-output_directory = os.path.join(os.getcwd(), "preview")
-os.makedirs(output_directory, exist_ok=True)
+output_dir = os.path.join(os.getcwd(), "preview")
+os.makedirs(output_dir, exist_ok=True)
 
 def create_page_stream(number: int):
-    path = os.path.join(output_directory, f"page{number}.png")
+    path = os.path.join(output_dir, f"page{number}.png")
     return open(path, "wb")
 
 def release_page_stream(number: int, stream):
@@ -54,6 +54,11 @@ with gw.Watermarker("sample.pdf") as watermarker:
     preview_options.page_numbers = [1, 2]
     watermarker.generate_preview(preview_options)
 ```
+
+### Guides
+Task guides that use `PreviewOptions`:
+
+* [Document preview](/watermark/python-net/guides/preview/)
 
 ### See Also
 * module [`groupdocs.watermark.options`](/watermark/python-net/groupdocs.watermark.options/)

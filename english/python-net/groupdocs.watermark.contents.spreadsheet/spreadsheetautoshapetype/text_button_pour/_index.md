@@ -1,7 +1,7 @@
 ---
 title: TEXT_BUTTON_POUR field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in auto shape type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_button_pour/
 is_root: false

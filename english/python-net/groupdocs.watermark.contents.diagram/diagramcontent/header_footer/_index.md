@@ -1,7 +1,7 @@
 ---
 title: header_footer property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The header and footer of this DiagramContent."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramcontent/header_footer/
 is_root: false

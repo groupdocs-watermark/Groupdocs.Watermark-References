@@ -1,7 +1,7 @@
 ---
 title: italic property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The font is italic."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/font/italic/
 is_root: false
@@ -13,7 +13,7 @@ weight: 2040
 
 The font is italic.
 
-Returns True if the font is italic; otherwise, False.
+True if the font is italic; otherwise, False.
 
 ### Definition:
 ```python

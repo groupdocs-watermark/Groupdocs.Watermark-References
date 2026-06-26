@@ -1,7 +1,7 @@
 ---
 title: PPS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PPS, PowerPoint Slide Show, files are created using Microsoft PowerPoint for Slide Show purpose."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/pps/
 is_root: false

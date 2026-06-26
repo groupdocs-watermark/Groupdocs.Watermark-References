@@ -1,7 +1,7 @@
 ---
 title: generate_preview method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Generates preview images for the document."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/generate_preview/
 is_root: false

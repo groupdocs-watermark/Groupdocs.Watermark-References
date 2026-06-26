@@ -1,7 +1,7 @@
 ---
 title: EmailBodyType class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "EmailBodyType enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailbodytype/
 is_root: false

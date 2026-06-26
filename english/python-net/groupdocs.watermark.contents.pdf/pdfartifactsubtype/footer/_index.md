@@ -1,7 +1,7 @@
 ---
 title: FOOTER field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Footer subtype."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifactsubtype/footer/
 is_root: false

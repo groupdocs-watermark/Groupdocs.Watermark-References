@@ -1,7 +1,7 @@
 ---
 title: bottom property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The bottom margin, expressed as a horizontal offset from the parent bottom border."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/margins/bottom/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2010
 
 ## bottom property
 
-The bottom margin, expressed as the horizontal offset from the parent bottom border.
+The bottom margin, expressed as a horizontal offset from the parent bottom border.
 
 ### Definition:
 ```python

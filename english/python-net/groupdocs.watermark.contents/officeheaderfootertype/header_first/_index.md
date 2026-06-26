@@ -1,7 +1,7 @@
 ---
 title: HEADER_FIRST field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Header for the first page."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeheaderfootertype/header_first/
 is_root: false

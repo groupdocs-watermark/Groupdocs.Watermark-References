@@ -1,11 +1,12 @@
 ---
 title: Technical Support
+linkTitle: "Technical support"
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "GroupDocs.Watermark for Python provides free technical support available to all users. Please report your question, issue, or feature request using GroupDocs Free Support Forum."
 type: docs
 url: /python-net/guides/technical-support/
 is_root: false
-weight: 390
+weight: 410
 ---
 
 

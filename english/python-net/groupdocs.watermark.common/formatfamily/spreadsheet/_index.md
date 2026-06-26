@@ -1,7 +1,7 @@
 ---
 title: SPREADSHEET field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Spreadsheet format family."
 type: docs
 url: /python-net/groupdocs.watermark.common/formatfamily/spreadsheet/
 is_root: false

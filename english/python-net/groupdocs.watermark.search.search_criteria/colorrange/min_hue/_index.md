@@ -1,7 +1,7 @@
 ---
 title: min_hue property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The starting hue value, in degrees."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/colorrange/min_hue/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: add method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Adds an attachment to the EmailContent."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailattachmentcollection/add/
 is_root: false

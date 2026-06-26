@@ -1,7 +1,7 @@
 ---
 title: WordProcessingWordArtShapeFormattedTextFragmentCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of formatted text fragments in a Word document WordArt shape."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingwordartshapeformattedtextfragmentcollection/
 is_root: false

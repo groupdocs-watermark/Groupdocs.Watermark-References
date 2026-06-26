@@ -1,7 +1,7 @@
 ---
 title: attachments property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of all attachments of the email message."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailcontent/attachments/
 is_root: false

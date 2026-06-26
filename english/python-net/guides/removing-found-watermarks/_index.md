@@ -1,7 +1,8 @@
 ---
 title: Removing found watermarks
+linkTitle: "Removing found"
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Find and remove text, image, and hyperlink watermarks using GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/guides/removing-found-watermarks/
 is_root: false
@@ -9,71 +10,106 @@ weight: 250
 ---
 
 
-## Remove watermark
+Search for the watermarks already present in a document — including those added by third-party tools — and remove them. Iterate the results in reverse so that removing an item does not shift the indexes still to visit.
 
-Search for possible watermarks and remove them from the document.
+## Remove watermarks
 
+The example below finds every possible watermark in a document and removes them all.
+
+  
 ```python
-import groupdocs.watermark as gw
+from groupdocs.watermark import Watermarker
 
-with gw.Watermarker("document.pdf") as watermarker:
-    possible = watermarker.search()
+def remove_watermark():
+    with Watermarker("./document.pdf") as watermarker:
+        possible = watermarker.search()
+        for i in range(len(possible) - 1, -1, -1):
+            watermarker.remove(possible[i])
+        watermarker.save("./output.pdf")
 
-    # Remove watermark at the specified index
-    possible.remove_at(0)
-
-    # Remove a specific watermark instance
-    if possible.count > 0:
-        possible.remove(possible[0])
-
-    watermarker.save("document.pdf")
+if __name__ == "__main__":
+    remove_watermark()
 ```
 
-## Remove watermark with particular text formatting
+  
 
-Search and clear watermarks that match font and color parameters.
+`document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/removing-found-watermarks/document.pdf) to download it.
 
-```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
-
-with gw.Watermarker("document.pdf") as watermarker:
-    criteria = gws_sc.TextFormattingSearchCriteria()
-    criteria.foreground_color_range = gws_sc.ColorRange()
-    criteria.foreground_color_range.min_hue = -5
-    criteria.foreground_color_range.max_hue = 10
-    criteria.foreground_color_range.min_brightness = 0.01
-    criteria.foreground_color_range.max_brightness = 0.99
-    criteria.background_color_range = gws_sc.ColorRange()
-    criteria.background_color_range.is_empty = True
-    criteria.font_name = "Arial"
-    criteria.min_font_size = 19
-    criteria.max_font_size = 42
-    criteria.font_bold = True
-
-    possible = watermarker.search(criteria)
-    possible.clear()
-
-    watermarker.save("document.pdf")
+  
+```text
+Binary file (PDF, 394 KB)
 ```
+[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/removing-found-watermarks/remove_watermark/output.pdf)
+
+## Remove watermarks with particular text formatting
+
+Search by color and size, then remove every match.
+
+  
+```python
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import TextFormattingSearchCriteria, ColorRange
+
+def remove_watermark_with_formatting():
+    with Watermarker("./document.pdf") as watermarker:
+        criteria = TextFormattingSearchCriteria()
+        criteria.foreground_color_range = ColorRange()
+        criteria.foreground_color_range.min_hue = -15
+        criteria.foreground_color_range.max_hue = 15
+        criteria.foreground_color_range.min_brightness = 0.01
+        criteria.foreground_color_range.max_brightness = 0.99
+        criteria.min_font_size = 19
+        criteria.max_font_size = 42
+
+        possible = watermarker.search(criteria)
+        for i in range(len(possible) - 1, -1, -1):
+            watermarker.remove(possible[i])
+        watermarker.save("./output.pdf")
+
+if __name__ == "__main__":
+    remove_watermark_with_formatting()
+```
+
+  
+
+`document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/removing-found-watermarks/document.pdf) to download it.
+
+  
+```text
+Binary file (PDF, 394 KB)
+```
+[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/removing-found-watermarks/remove_watermark_with_formatting/output.pdf)
 
 ## Remove hyperlink watermarks
 
-Find and remove hyperlinks with a particular URL using a regex. Ensure only hyperlinks are cleared.
+Find hyperlinks with a particular URL using a regular expression, and remove only the entities that are hyperlinks.
 
+  
 ```python
 import re
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
-import groupdocs.watermark.search as gws
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search import HyperlinkPossibleWatermark
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    possible = watermarker.search(gws_sc.TextSearchCriteria(re.compile(r"someurl\.com")))
-    # iterate backwards when removing by index
-    for i in range(possible.count - 1, -1, -1):
-        if isinstance(possible[i], gws.HyperlinkPossibleWatermark):
-            print(possible[i].text)
-            possible.remove_at(i)
+def remove_hyperlink_watermarks():
+    with Watermarker("./document.pdf") as watermarker:
+        possible = watermarker.search(TextSearchCriteria(re.compile(r"someurl\.com")))
+        for i in range(len(possible) - 1, -1, -1):
+            if isinstance(possible[i], HyperlinkPossibleWatermark):
+                print(possible[i].text)
+                watermarker.remove(possible[i])
+        watermarker.save("./output.pdf")
 
-    watermarker.save("document.pdf")
+if __name__ == "__main__":
+    remove_hyperlink_watermarks()
 ```
+
+  
+
+`document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/removing-found-watermarks/document.pdf) to download it.
+
+  
+```text
+Binary file (PDF, 395 KB)
+```
+[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/removing-found-watermarks/remove_hyperlink_watermarks/output.pdf)

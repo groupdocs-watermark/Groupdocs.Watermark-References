@@ -1,7 +1,7 @@
 ---
 title: NO_LOCK field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Disable any lock on watermark and document."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessinglocktype/no_lock/
 is_root: false

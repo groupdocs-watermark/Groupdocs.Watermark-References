@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new instance of the PagesSetup class."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/pagessetup/__init__/
 is_root: false
@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#all_pages-first_page-last_page-odd_pages-even_pages-pages-page_number}
 
-Initializes a new PagesSetup instance with specified parameters.
+Initializes a new instance of the [`PagesSetup`](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/) class with specified parameters.
 
 ```python
 def __init__(self, all_pages, first_page, last_page, odd_pages, even_pages, pages, page_number):

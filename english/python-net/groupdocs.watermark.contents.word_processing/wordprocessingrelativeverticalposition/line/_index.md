@@ -1,7 +1,7 @@
 ---
 title: LINE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Undocumented feature."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativeverticalposition/line/
 is_root: false

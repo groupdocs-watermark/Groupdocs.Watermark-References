@@ -1,7 +1,7 @@
 ---
 title: SQUARE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Square annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/square/
 is_root: false

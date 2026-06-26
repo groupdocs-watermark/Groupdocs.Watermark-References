@@ -1,7 +1,7 @@
 ---
 title: add_string method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PdfAttachmentCollection.add_string method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/add_string/
 is_root: false

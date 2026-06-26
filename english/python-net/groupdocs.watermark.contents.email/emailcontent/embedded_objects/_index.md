@@ -1,7 +1,7 @@
 ---
 title: embedded_objects property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of all embedded objects of the email message."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailcontent/embedded_objects/
 is_root: false

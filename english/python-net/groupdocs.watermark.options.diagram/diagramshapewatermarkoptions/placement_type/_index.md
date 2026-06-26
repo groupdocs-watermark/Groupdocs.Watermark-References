@@ -1,7 +1,7 @@
 ---
 title: placement_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The value specifying to what pages a watermark should be added."
 type: docs
 url: /python-net/groupdocs.watermark.options.diagram/diagramshapewatermarkoptions/placement_type/
 is_root: false

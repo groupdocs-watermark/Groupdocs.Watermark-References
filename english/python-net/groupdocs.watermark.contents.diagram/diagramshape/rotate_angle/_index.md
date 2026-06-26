@@ -1,7 +1,7 @@
 ---
 title: rotate_angle property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The rotate angle of this DiagramShape in degrees."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramshape/rotate_angle/
 is_root: false

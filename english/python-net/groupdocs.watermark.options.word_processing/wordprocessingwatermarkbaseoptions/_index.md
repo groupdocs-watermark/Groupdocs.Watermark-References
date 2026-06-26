@@ -1,7 +1,7 @@
 ---
 title: WordProcessingWatermarkBaseOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The base class for watermark adding options to a Word document."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/
 is_root: false
@@ -11,9 +11,9 @@ weight: 90
 
 ## WordProcessingWatermarkBaseOptions class
 
-Represents the base class for watermark adding options to a Word document.
+The base class for watermark adding options to a Word document.
 
-Use `lock_type` to set the lock type for the watermark, restricting editing of the document. Available lock types include `AllowOnlyRevisions`, `AllowOnlyComments`, `AllowOnlyFormFields`, `ReadOnly`, and `ReadOnlyWithEditableContent`.
+Lock types can be specified via the `lock_type` property to restrict editing of the watermark. Available lock types include `AllowOnlyRevisions`, `AllowOnlyComments`, `AllowOnlyFormFields`, `ReadOnly`, and `ReadOnlyWithEditableContent`.
 
 The WordProcessingWatermarkBaseOptions type exposes the following members:
 
@@ -21,10 +21,10 @@ The WordProcessingWatermarkBaseOptions type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [alternative_text](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/alternative_text/) | The descriptive (alternative) text that will be associated with a shape. |
-| [effects](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/effects/) | The image or text effects applied to the watermark. |
+| [effects](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/effects/) | The effects to apply to the watermark, specified as a [`WordProcessingImageEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingimageeffects/) or [`WordProcessingTextEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/) instance. |
 | [is_locked](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/is_locked/) | The property indicates whether editing of the shape in Word is forbidden. |
 | [lock_type](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/lock_type/) | The watermark lock type. |
-| [name](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/name/) | The shape name. |
+| [name](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/name/) | The name of the shape. |
 | [password](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/password/) | The password used to lock the watermark. |
 
 ### Fields
@@ -35,14 +35,10 @@ The WordProcessingWatermarkBaseOptions type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.watermark import Watermark
-from groupdocs.watermark.options import WordProcessingWatermarkBaseOptions
-from groupdocs.watermark.enums import WatermarkLockType
+from groupdocs.watermark import WordProcessingWatermarkBaseOptions, WatermarkLockType
 
 options = WordProcessingWatermarkBaseOptions()
 options.lock_type = WatermarkLockType.ReadOnly
-
-Watermark.add(watermark_text="Confidential", options=options)
 ```
 
 ### See Also

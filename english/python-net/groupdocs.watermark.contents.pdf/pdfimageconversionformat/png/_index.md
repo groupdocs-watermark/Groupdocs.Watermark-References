@@ -1,7 +1,7 @@
 ---
 title: PNG field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Png image."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfimageconversionformat/png/
 is_root: false

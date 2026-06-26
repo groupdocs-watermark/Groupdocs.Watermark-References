@@ -1,7 +1,7 @@
 ---
 title: TRIPLE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Three lines, thin, thick, thin."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelinestyle/triple/
 is_root: false

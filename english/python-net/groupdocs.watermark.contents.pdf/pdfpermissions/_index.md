@@ -1,7 +1,7 @@
 ---
 title: PdfPermissions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PdfPermissions enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfpermissions/
 is_root: false

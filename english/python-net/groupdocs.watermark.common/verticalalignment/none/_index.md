@@ -1,7 +1,7 @@
 ---
 title: NONE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "No alignment (use specified position)."
 type: docs
 url: /python-net/groupdocs.watermark.common/verticalalignment/none/
 is_root: false

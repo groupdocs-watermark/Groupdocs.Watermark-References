@@ -1,7 +1,7 @@
 ---
 title: REDACTION field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Redaction annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/redaction/
 is_root: false

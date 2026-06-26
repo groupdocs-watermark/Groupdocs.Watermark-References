@@ -1,7 +1,7 @@
 ---
 title: EmailContent class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents an email message."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailcontent/
 is_root: false
@@ -13,11 +13,9 @@ weight: 70
 
 Represents an email message.
 
-Learn more:
-
-- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+email+attachments
-- https://docs.groupdocs.com/display/watermarknet/Email+attachments
-- https://docs.groupdocs.com/display/watermarknet/Email+messages
+- [Add watermarks to email attachments](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+email+attachments)
+- [Email attachments](https://docs.groupdocs.com/display/watermarknet/Email+attachments)
+- [Email messages](https://docs.groupdocs.com/display/watermarknet/Email+messages)
 
 The EmailContent type exposes the following members:
 
@@ -25,7 +23,7 @@ The EmailContent type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
@@ -43,6 +41,21 @@ The EmailContent type exposes the following members:
 | [html_body](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/html_body/) | The HTML representation of the message body. |
 | [subject](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/subject/) | The subject of the email message. |
 | [to](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/to/) | The collection of recipients of the email message. |
+
+### Example
+
+```python
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.email as gwc_email
+
+load_options = gw.EmailLoadOptions()
+with gw.Watermarker("message.msg", load_options) as watermarker:
+    content = watermarker.get_content(gwc_email.EmailContent)
+    # add an attachment
+    with open("sample.msg", "rb") as f:
+        content.attachments.add(f.read(), "sample.msg")
+    watermarker.save("message.msg")
+```
 
 ### See Also
 * module [`groupdocs.watermark.contents.email`](/watermark/python-net/groupdocs.watermark.contents.email/)

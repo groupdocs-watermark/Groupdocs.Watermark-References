@@ -1,7 +1,7 @@
 ---
 title: attachments property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of all attachments of this SpreadsheetWorksheet."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/attachments/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2010
 
 ## attachments property
 
-The collection of all attachments of this [`SpreadsheetWorksheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/).
+The collection of all attachments of this SpreadsheetWorksheet.
 
 ### Definition:
 ```python

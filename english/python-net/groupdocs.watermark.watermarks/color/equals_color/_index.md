@@ -1,7 +1,7 @@
 ---
 title: equals_color method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Color.equals_color method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/equals_color/
 is_root: false

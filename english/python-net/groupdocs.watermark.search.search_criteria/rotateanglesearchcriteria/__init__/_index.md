@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new RotateAngleSearchCriteria with a starting angle and an ending angle."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/rotateanglesearchcriteria/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#min_angle-max_angle}
 
-Initializes a new instance of the RotateAngleSearchCriteria class with a starting angle and an ending angle.
+Initializes a new RotateAngleSearchCriteria with a starting angle and an ending angle.
 
 ```python
 def __init__(self, min_angle, max_angle):
@@ -26,8 +26,9 @@ def __init__(self, min_angle, max_angle):
 ### Example
 
 ```python
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark.search import searchcriteria as gws_sc
 
+# Search for watermarks rotated between 30 and 60 degrees
 angle_criteria = gws_sc.RotateAngleSearchCriteria(30, 60)
 ```
 

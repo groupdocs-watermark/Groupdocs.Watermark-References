@@ -1,7 +1,7 @@
 ---
 title: DiagramShapeWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents watermark adding options when adding shape watermark to a Visio document."
 type: docs
 url: /python-net/groupdocs.watermark.options.diagram/diagramshapewatermarkoptions/
 is_root: false
@@ -27,7 +27,7 @@ The DiagramShapeWatermarkOptions type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [placement_type](/watermark/python-net/groupdocs.watermark.options.diagram/diagramshapewatermarkoptions/placement_type/) | The value specifying to what pages a watermark should be added. |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If true, shape editing is forbidden. (inherited from [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/)) |
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If True, shape editing will be forbidden. (inherited from [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/)) |
 
 ### Fields
 | Field | Description |
@@ -37,21 +37,17 @@ The DiagramShapeWatermarkOptions type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.watermark import (
-    Watermarker,
-    DiagramLoadOptions,
-    TextWatermark,
-    Font,
-    DiagramShapeWatermarkOptions,
-    DiagramWatermarkPlacementType,
-)
+from groupdocs.watermark import Watermarker, DiagramLoadOptions, TextWatermark, DiagramShapeWatermarkOptions, DiagramWatermarkPlacementType
+from System.Drawing import Font
 
 load_options = DiagramLoadOptions()
 with Watermarker(r"D:\test.vsdx", load_options) as watermarker:
     watermark = TextWatermark("watermark test", Font("Arial", 42))
+
     options = DiagramShapeWatermarkOptions()
-    options.is_locked = True
-    options.placement_type = DiagramWatermarkPlacementType.ALL_PAGES  # default
+    options.IsLocked = True
+    options.PlacementType = DiagramWatermarkPlacementType.AllPages  # default
+
     watermarker.add(watermark, options)
     watermarker.save()
 ```

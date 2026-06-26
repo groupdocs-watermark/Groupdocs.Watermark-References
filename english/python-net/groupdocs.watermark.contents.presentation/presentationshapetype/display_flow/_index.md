@@ -1,7 +1,7 @@
 ---
 title: DISPLAY_FLOW field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in shape geometry preset type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationshapetype/display_flow/
 is_root: false

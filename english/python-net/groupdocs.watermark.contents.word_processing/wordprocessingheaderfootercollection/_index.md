@@ -1,7 +1,7 @@
 ---
 title: WordProcessingHeaderFooterCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of headers and footers in a Word document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfootercollection/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: min_font_size property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The starting value of the font size."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/textformattingsearchcriteria/min_font_size/
 is_root: false

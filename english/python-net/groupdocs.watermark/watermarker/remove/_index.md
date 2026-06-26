@@ -1,7 +1,7 @@
 ---
 title: remove method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Removes watermark from the document."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/remove/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1100
 
 ## remove {#possible_watermark}
 
-Removes a watermark from the document.
+Removes watermark from the document.
 
 Learn more about removing watermarks: Removing found watermarks.
 
@@ -23,8 +23,6 @@ def remove(self, possible_watermark):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | possible_watermark | `PossibleWatermark` | The watermark to remove. |
-
-**Returns:** None.
 
 ### Example
 
@@ -42,7 +40,7 @@ with gw.Watermarker("document.pdf") as watermarker:
 
 Removes all watermarks in the collection from the document.
 
-Learn more about removing watermarks at the GroupDocs documentation: https://docs.groupdocs.com/display/watermarknet/Removing+found+watermarks.
+Learn more about removing watermarks: https://docs.groupdocs.com/display/watermarknet/Removing+found+watermarks.
 
 ```python
 def remove(self, possible_watermarks):
@@ -60,12 +58,10 @@ def remove(self, possible_watermarks):
 ```python
 import groupdocs.watermark as gw
 
-with gw.Watermarker("input.doc") as watermarker:
-    # Find watermarks matching specific criteria
-    watermarks = watermarker.search()
-    # Remove all found watermarks from the document
-    watermarker.remove(watermarks)
-    watermarker.save("output.doc")
+with gw.Watermarker("watermarked.pdf") as watermarker:
+    possible = watermarker.search()
+    watermarker.remove(possible)  # remove the whole collection
+    watermarker.save("clean.pdf")
 ```
 
 ### See Also

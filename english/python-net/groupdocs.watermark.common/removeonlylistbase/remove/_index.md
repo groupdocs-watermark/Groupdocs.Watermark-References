@@ -1,7 +1,7 @@
 ---
 title: remove method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "RemoveOnlyListBase.remove method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.common/removeonlylistbase/remove/
 is_root: false

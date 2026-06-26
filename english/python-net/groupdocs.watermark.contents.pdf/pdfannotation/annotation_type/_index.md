@@ -1,7 +1,7 @@
 ---
 title: annotation_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The type of this PdfAnnotation."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotation/annotation_type/
 is_root: false

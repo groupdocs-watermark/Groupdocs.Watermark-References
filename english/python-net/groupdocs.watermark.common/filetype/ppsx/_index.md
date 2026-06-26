@@ -1,7 +1,7 @@
 ---
 title: PPSX field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PPSX, Power Point Slide Show, file are created using Microsoft PowerPoint 2007 and above for Slide Show purpose."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/ppsx/
 is_root: false

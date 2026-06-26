@@ -1,7 +1,7 @@
 ---
 title: PdfArtifactSubtype class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PdfArtifactSubtype enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifactsubtype/
 is_root: false

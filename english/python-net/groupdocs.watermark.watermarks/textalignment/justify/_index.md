@@ -1,7 +1,7 @@
 ---
 title: JUSTIFY field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Justify alignment."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/textalignment/justify/
 is_root: false

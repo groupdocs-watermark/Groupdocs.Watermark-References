@@ -1,7 +1,7 @@
 ---
 title: watermark_id property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The unique identifier of the watermark, used to modify the watermark in the document via Update or Delete methods."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_id/
 is_root: false
@@ -11,9 +11,9 @@ weight: 2070
 
 ## watermark_id property
 
-The unique identifier of the watermark, used to modify the watermark via Update or Delete methods.
+The unique identifier of the watermark, used to modify the watermark in the document via Update or Delete methods.
 
-It is set automatically after calling the Add method; if previously saved, it can be set manually to manipulate the watermark.
+It is set automatically after calling `add` and can be set manually if the identifier was previously saved.
 
 ### Definition:
 ```python

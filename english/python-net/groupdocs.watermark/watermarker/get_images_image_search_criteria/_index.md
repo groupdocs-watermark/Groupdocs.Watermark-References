@@ -1,7 +1,7 @@
 ---
 title: get_images_image_search_criteria method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Watermarker.get_images_image_search_criteria method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/get_images_image_search_criteria/
 is_root: false

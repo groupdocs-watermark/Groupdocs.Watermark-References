@@ -1,7 +1,7 @@
 ---
 title: equals method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Determines whether the specified Thickness is equal to the current Thickness."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/thickness/equals/
 is_root: false

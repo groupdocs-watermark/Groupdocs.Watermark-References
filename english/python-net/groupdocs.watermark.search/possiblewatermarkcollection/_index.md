@@ -1,7 +1,7 @@
 ---
 title: PossibleWatermarkCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of possible watermarks found in a content."
 type: docs
 url: /python-net/groupdocs.watermark.search/possiblewatermarkcollection/
 is_root: false
@@ -29,6 +29,11 @@ The PossibleWatermarkCollection type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [is_read_only](/watermark/python-net/groupdocs.watermark.common/removeonlylistbase/is_read_only/) |  (inherited from [`RemoveOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/removeonlylistbase/)) |
+
+### Guides
+Task guides that use `PossibleWatermarkCollection`:
+
+* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
 
 ### See Also
 * module [`groupdocs.watermark.search`](/watermark/python-net/groupdocs.watermark.search/)

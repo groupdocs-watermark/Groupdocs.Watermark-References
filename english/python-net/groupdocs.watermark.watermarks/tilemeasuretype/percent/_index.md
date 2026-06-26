@@ -1,7 +1,7 @@
 ---
 title: PERCENT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Specifies that the unit of measurement is percent."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/tilemeasuretype/percent/
 is_root: false

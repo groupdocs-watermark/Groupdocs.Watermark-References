@@ -1,7 +1,7 @@
 ---
 title: UNLIMITED_FRAGMENTS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Multiple styles are allowed, the collection can contain unlimited count of fragments."
 type: docs
 url: /python-net/groupdocs.watermark.search/formattedtextfragmentcollectiontype/unlimited_fragments/
 is_root: false

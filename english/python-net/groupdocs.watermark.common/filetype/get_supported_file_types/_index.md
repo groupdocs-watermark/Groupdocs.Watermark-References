@@ -1,7 +1,7 @@
 ---
 title: get_supported_file_types method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Retrieves the supported file types."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/get_supported_file_types/
 is_root: false
@@ -18,7 +18,7 @@ def get_supported_file_types(cls):
     ...
 ```
 
-**Returns:** Iterable[FileType]: The sequence of supported file types.
+**Returns:** Iterable of supported file types.
 
 ### Example
 

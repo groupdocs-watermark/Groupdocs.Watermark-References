@@ -1,7 +1,7 @@
 ---
 title: XLS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files with XLS extension represent Excel Binary File Format."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/xls/
 is_root: false

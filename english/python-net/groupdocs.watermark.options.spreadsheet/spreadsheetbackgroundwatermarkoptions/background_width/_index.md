@@ -1,7 +1,7 @@
 ---
 title: background_width property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The desired width of the background image in pixels."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/background_width/
 is_root: false

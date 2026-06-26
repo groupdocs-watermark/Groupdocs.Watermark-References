@@ -1,7 +1,7 @@
 ---
 title: font property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The font of the text."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/font/
 is_root: false

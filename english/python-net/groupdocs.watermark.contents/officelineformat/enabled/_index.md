@@ -1,7 +1,7 @@
 ---
 title: enabled property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The property indicates whether a shape will be stroked."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelineformat/enabled/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2030
 
 ## enabled property
 
-The enabled flag indicates whether a shape will be stroked. The default value is False.
+The property indicates whether a shape will be stroked. The default value is False.
 
 ### Definition:
 ```python

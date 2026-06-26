@@ -1,7 +1,7 @@
 ---
 title: presentation_searchable_objects property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The objects inside a PowerPoint document that are to be included in a watermark search."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/searchableobjects/presentation_searchable_objects/
 is_root: false

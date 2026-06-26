@@ -1,7 +1,7 @@
 ---
 title: foreground_color property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The foreground color of the text."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingwordartshapeformattedtextfragment/foreground_color/
 is_root: false

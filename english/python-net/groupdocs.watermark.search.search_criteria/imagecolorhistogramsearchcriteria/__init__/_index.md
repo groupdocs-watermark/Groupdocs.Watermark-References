@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new ImageColorHistogramSearchCriteria with a specified file path."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/imagecolorhistogramsearchcriteria/__init__/
 is_root: false
@@ -33,7 +33,7 @@ def __init__(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | `io.RawIOBase` | The stream to load the image from. |
+| stream | `io.RawIOBase` | The stream to load image from. |
 
 ### See Also
 * class [`ImageColorHistogramSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/imagecolorhistogramsearchcriteria/)

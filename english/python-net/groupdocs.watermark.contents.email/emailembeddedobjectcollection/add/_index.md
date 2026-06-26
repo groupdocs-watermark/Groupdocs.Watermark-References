@@ -1,7 +1,7 @@
 ---
 title: add method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Adds an embedded resource to the EmailContent."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/add/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1010
 
 ## add {#file_content-name}
 
-Adds an embedded resource to the [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/).
+Adds an embedded resource to the EmailContent.
 
 ```python
 def add(self, file_content, name):

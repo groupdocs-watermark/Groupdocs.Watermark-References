@@ -1,7 +1,7 @@
 ---
 title: is_locked property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The property indicates whether editing of the shape in Excel is forbidden."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/is_locked/
 is_root: false
@@ -11,7 +11,9 @@ weight: 2020
 
 ## is_locked property
 
-The `is_locked` property indicates whether editing of the shape in Excel is forbidden. If set to True, shape editing is prohibited; by default it is False, allowing editing.
+The property indicates whether editing of the shape in Excel is forbidden.
+
+If True, shape editing will be forbidden; otherwise, the shape can be edited (default is False).
 
 ### Definition:
 ```python

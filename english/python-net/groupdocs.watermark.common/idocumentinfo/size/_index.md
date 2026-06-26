@@ -1,7 +1,7 @@
 ---
 title: size property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The document size in bytes."
 type: docs
 url: /python-net/groupdocs.watermark.common/idocumentinfo/size/
 is_root: false

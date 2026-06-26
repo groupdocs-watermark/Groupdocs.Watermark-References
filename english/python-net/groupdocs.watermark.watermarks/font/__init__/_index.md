@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new Font instance with the specified font family name and size."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/font/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#font_family_name-size}
 
-Initializes a new Font instance with a specified font family name and size.
+Initializes a new Font instance with the specified font family name and size.
 
 ```python
 def __init__(self, font_family_name, size):
@@ -26,10 +26,14 @@ def __init__(self, font_family_name, size):
 ### Example
 
 ```python
-import groupdocs.watermark.watermarks as gww
+    from groupdocs.watermark.watermarks import Font, TextWatermark
 
-font = gww.Font("Arial", 8.0)
-```
+    # Create a font with Arial family and size 48 points
+    font = Font("Arial", 48)
+
+    # Use the font in a text watermark
+    watermark = TextWatermark("CONFIDENTIAL", font)
+    ```
 
 ## __init__ {#font_family_name-size-style}
 
@@ -49,14 +53,15 @@ def __init__(self, font_family_name, size, style):
 ### Example
 
 ```python
-import groupdocs.watermark.watermarks as gww
+from groupdocs.watermark.watermarks import Font, FontStyle, TextWatermark
 
-font = gww.Font("Arial", 12.0, gww.FontStyle.Regular)
+font = Font("Arial", 48.0, FontStyle.Regular)
+watermark = TextWatermark("CONFIDENTIAL", font)
 ```
 
 ## __init__ {#font_family_name-folder_path-size}
 
-Initializes a Font with a custom font family name, a folder path containing TrueType font files, a size, and a style.
+Initializes a new Font instance with a custom font family name, the folder containing the TrueType font files, and a size.
 
 ```python
 def __init__(self, font_family_name, folder_path, size):
@@ -72,15 +77,20 @@ def __init__(self, font_family_name, folder_path, size):
 ### Example
 
 ```python
+import groupdocs.watermark as gw
 import groupdocs.watermark.watermarks as gww
 
 fonts_folder = r"c:\\CustomFonts\\"
-font = gww.Font("CustomFontName", fonts_folder, 36.0)
+with gw.Watermarker("test.pdf") as watermarker:
+    font = gww.Font("CustomFontName", fonts_folder, 36.0)
+    watermark = gww.TextWatermark("Test watermark", font)
+    watermarker.add(watermark)
+    watermarker.save("result.pdf")
 ```
 
 ## __init__ {#font_family_name-folder_path-size-style}
 
-Initializes a new instance of the [`Font`](/watermark/python-net/groupdocs.watermark.watermarks/font/) class with a specified custom font family name, folder path containing TrueType font files, and a size.
+Initializes a new Font instance with a custom font family name, the folder containing the TrueType font files, and a size.
 
 ```python
 def __init__(self, font_family_name, folder_path, size, style):
@@ -97,10 +107,10 @@ def __init__(self, font_family_name, folder_path, size, style):
 ### Example
 
 ```python
-import groupdocs.watermark.watermarks as gww
+from groupdocs.watermark.watermarks import Font
 
-fonts_folder = r"c:\\CustomFonts\\"
-font = gww.Font("CustomFontName", fonts_folder, 36.0)
+fonts_folder = r"C:\\CustomFonts\\"
+font = Font("CustomFontName", fonts_folder, 36.0)
 ```
 
 ### See Also

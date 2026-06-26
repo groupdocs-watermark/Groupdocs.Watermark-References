@@ -1,7 +1,7 @@
 ---
 title: ILogger class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Defines the interface of a logger used for logging events and errors during watermarking."
 type: docs
 url: /python-net/groupdocs.watermark.options/ilogger/
 is_root: false
@@ -11,7 +11,7 @@ weight: 20
 
 ## ILogger class
 
-Defines the interface for a logger used to record events and errors during watermarking.
+Defines the interface of a logger used for logging events and errors during watermarking.
 
 The ILogger type exposes the following members:
 

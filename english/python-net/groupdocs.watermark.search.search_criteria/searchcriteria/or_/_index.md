@@ -1,7 +1,7 @@
 ---
 title: or_ method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Combines this SearchCriteria with other criteria using logical OR operator."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/
 is_root: false
@@ -22,7 +22,7 @@ def or_(self, other):
 | :- | :- | :- |
 | other | `SearchCriteria` | Search criteria to combine with. |
 
-**Returns:** Combined search criteria.
+**Returns:** SearchCriteria: Combined search criteria.
 
 ### Example
 

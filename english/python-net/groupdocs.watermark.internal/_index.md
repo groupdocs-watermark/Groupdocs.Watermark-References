@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.internal
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.internal."
 type: docs
 url: /python-net/groupdocs.watermark.internal/
 is_root: false

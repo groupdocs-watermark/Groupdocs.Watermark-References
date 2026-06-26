@@ -1,7 +1,7 @@
 ---
 title: Color class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The structure representing a color."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## Color class
 
-Represents a color.
+The structure representing a color.
 
 The Color type exposes the following members:
 
@@ -23,23 +23,23 @@ The Color type exposes the following members:
 | [equals_color](/watermark/python-net/groupdocs.watermark.watermarks/color/equals_color/) |  |
 | [equals_object](/watermark/python-net/groupdocs.watermark.watermarks/color/equals_object/) |  |
 | [from_argb](/watermark/python-net/groupdocs.watermark.watermarks/color/from_argb/#argb) | Creates a Color structure from a 32-bit ARGB value. |
-| [from_argb](/watermark/python-net/groupdocs.watermark.watermarks/color/from_argb/#alpha-base_color) | Creates a [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure from the specified [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure, but with the new specified alpha value. |
-| [from_argb](/watermark/python-net/groupdocs.watermark.watermarks/color/from_argb/#red-green-blue) | Creates a Color structure from the specified 8-bit color values (red, green, and blue) with an implicit alpha value of 255 (fully opaque). |
-| [from_argb](/watermark/python-net/groupdocs.watermark.watermarks/color/from_argb/#alpha-red-green-blue) | Creates a Color structure from the four ARGB component (alpha, red, green, and blue) values. |
+| [from_argb](/watermark/python-net/groupdocs.watermark.watermarks/color/from_argb/#alpha-base_color) | Creates a Color structure from the specified base Color but with a new alpha value. |
+| [from_argb](/watermark/python-net/groupdocs.watermark.watermarks/color/from_argb/#red-green-blue) | Creates a Color structure from the specified 8‑bit red, green, and blue values; the alpha component is implicitly set to 255 (fully opaque). |
+| [from_argb](/watermark/python-net/groupdocs.watermark.watermarks/color/from_argb/#alpha-red-green-blue) | Creates a [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure from the four ARGB component (alpha, red, green, and blue) values. |
 | [from_argb_int32](/watermark/python-net/groupdocs.watermark.watermarks/color/from_argb_int32/) |  |
-| [get_brightness](/watermark/python-net/groupdocs.watermark.watermarks/color/get_brightness/) | Returns the hue‑saturation‑brightness (HSB) brightness value for this Color structure. |
+| [get_brightness](/watermark/python-net/groupdocs.watermark.watermarks/color/get_brightness/) | Gets the hue‑saturation‑brightness (HSB) brightness value for this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure. |
 | [get_hash_code](/watermark/python-net/groupdocs.watermark.watermarks/color/get_hash_code/) | Returns a hash code for this Color structure. |
-| [get_hue](/watermark/python-net/groupdocs.watermark.watermarks/color/get_hue/) | Returns the hue-saturation-brightness (HSB) hue value, in degrees, for this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure. |
-| [get_saturation](/watermark/python-net/groupdocs.watermark.watermarks/color/get_saturation/) | Gets the hue-saturation-brightness (HSB) saturation value for this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure. |
-| [to_argb](/watermark/python-net/groupdocs.watermark.watermarks/color/to_argb/) | Returns the 32-bit ARGB value of this Color structure. |
+| [get_hue](/watermark/python-net/groupdocs.watermark.watermarks/color/get_hue/) | Gets the hue-saturation-brightness (HSB) hue value, in degrees, for this Color structure. |
+| [get_saturation](/watermark/python-net/groupdocs.watermark.watermarks/color/get_saturation/) | Gets the hue‑saturation‑brightness (HSB) saturation value for this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure. |
+| [to_argb](/watermark/python-net/groupdocs.watermark.watermarks/color/to_argb/) | Gets the 32-bit ARGB value of this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [a](/watermark/python-net/groupdocs.watermark.watermarks/color/a/) | The alpha component of the color. Valid values are 0 through 255. |
-| [b](/watermark/python-net/groupdocs.watermark.watermarks/color/b/) | The blue component of the color. Valid values are 0 through 255. |
-| [g](/watermark/python-net/groupdocs.watermark.watermarks/color/g/) | The green component of the color. Valid values are 0 through 255. |
-| [is_empty](/watermark/python-net/groupdocs.watermark.watermarks/color/is_empty/) | The property indicates whether this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure is uninitialized. |
+| [a](/watermark/python-net/groupdocs.watermark.watermarks/color/a/) | The alpha component of the color, with valid values from 0 to 255. |
+| [b](/watermark/python-net/groupdocs.watermark.watermarks/color/b/) | The blue component of the color. |
+| [g](/watermark/python-net/groupdocs.watermark.watermarks/color/g/) | The green component of the color, with valid values from 0 through 255. |
+| [is_empty](/watermark/python-net/groupdocs.watermark.watermarks/color/is_empty/) | The property returns True if this color is uninitialized; otherwise, False. |
 | [r](/watermark/python-net/groupdocs.watermark.watermarks/color/r/) | The red component of the color. Valid values are 0 through 255. |
 
 ### Fields
@@ -187,6 +187,39 @@ The Color type exposes the following members:
 | [WHITE_SMOKE](/watermark/python-net/groupdocs.watermark.watermarks/color/white_smoke/) | Gets a system-defined color. |
 | [YELLOW](/watermark/python-net/groupdocs.watermark.watermarks/color/yellow/) | Gets a system-defined color. |
 | [YELLOW_GREEN](/watermark/python-net/groupdocs.watermark.watermarks/color/yellow_green/) | Gets a system-defined color. |
+
+### Example
+
+```python
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+
+with Watermarker("document.pdf") as watermarker:
+    watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 48))
+    watermark.foreground_color = Color.red
+    watermarker.add(watermark)
+    watermarker.save("watermarked.pdf")
+```
+
+### Guides
+Task guides that use `Color`:
+
+* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
+* [Adding watermark to images inside a document](/watermark/python-net/guides/adding-watermark-to-images-inside-a-document/)
+* [Rasterize document or page](/watermark/python-net/guides/rasterize-document-or-page/)
+* [Working with slide backgrounds](/watermark/python-net/guides/working-with-slide-backgrounds/)
+* [Working with spreadsheet document attachments](/watermark/python-net/guides/working-with-spreadsheet-document-attachments/)
+* [Working with worksheet backgrounds](/watermark/python-net/guides/working-with-worksheet-backgrounds/)
+* [Locking watermark in word processing document](/watermark/python-net/guides/locking-watermark-in-word-processing-document/)
+* [Watermarks in word processing document](/watermark/python-net/guides/watermarks-in-word-processing-document/)
+* [Adding text watermarks](/watermark/python-net/guides/adding-text-watermarks/)
+* [Modifying found watermark properties](/watermark/python-net/guides/modifying-found-watermark-properties/)
+* [Add text watermarks](/watermark/python-net/guides/add-text/)
+* [Adding repeated watermarks](/watermark/python-net/guides/adding-repeated-watermarks/)
+* [Customize watermarks](/watermark/python-net/guides/customize/)
+* [Hello, World!](/watermark/python-net/guides/hello-world/)
+* [Quick Start Guide](/watermark/python-net/guides/quick-start-guide/)
+* [GroupDocs.Watermark for Python via .NET Overview](/watermark/python-net/guides/product-overview/)
 
 ### See Also
 * module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

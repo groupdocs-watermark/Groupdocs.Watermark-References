@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Initializes a new ImageWatermark instance with a specified file path."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/imagewatermark/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#file_path}
 
-Initializes a new ImageWatermark instance using the specified file path.
+Initializes a new ImageWatermark instance with a specified file path.
 
 ```python
 def __init__(self, file_path):
@@ -25,13 +25,10 @@ def __init__(self, file_path):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
+from groupdocs.watermark.watermarks import ImageWatermark
 
-with gw.Watermarker("presentation.pptx") as watermarker:
-    with gww.ImageWatermark("watermark.jpg") as watermark:
-        watermarker.add(watermark)
-        watermarker.save("presentation.pptx")
+# Initialize an image watermark from a file path
+watermark = ImageWatermark("logo.png")
 ```
 
 ## __init__ {#stream}
@@ -50,18 +47,21 @@ def __init__(self, stream):
 ### Example
 
 ```python
-    import io
-    import groupdocs.watermark as gw
-    import groupdocs.watermark.watermarks as gww
+import io
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import ImageWatermark
 
-    with open("watermark.jpg", "rb") as f:
-        data = f.read()
+# Load image data into a memory stream
+with open("watermark.jpg", "rb") as f:
+    data = f.read()
 
-    with gw.Watermarker("image.png") as watermarker:
-        with gww.ImageWatermark(io.BytesIO(data)) as watermark:
-            watermarker.add(watermark)
-            watermarker.save("image.png")
-    ```
+# Create a watermarker for the target document
+with Watermarker("document.docx") as watermarker:
+    # Initialize the image watermark from the stream
+    with ImageWatermark(io.BytesIO(data)) as watermark:
+        watermarker.add(watermark)
+        watermarker.save("watermarked.docx")
+```
 
 ### See Also
 * class [`ImageWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/imagewatermark/)

@@ -1,7 +1,7 @@
 ---
 title: ANNOTATIONS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in annotations."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/annotations/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: XLTX field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files with XLTX extension represent Microsoft Excel Template files that are based on the Office OpenXML file format specifications."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/xltx/
 is_root: false

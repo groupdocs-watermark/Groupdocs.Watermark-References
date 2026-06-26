@@ -1,7 +1,7 @@
 ---
 title: Dimension class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Dimension enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.common/dimension/
 is_root: false

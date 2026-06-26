@@ -1,7 +1,7 @@
 ---
 title: header_footer_type property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The type of this WordProcessingHeaderFooter."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfooter/header_footer_type/
 is_root: false

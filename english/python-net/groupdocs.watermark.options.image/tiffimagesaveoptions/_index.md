@@ -1,7 +1,7 @@
 ---
 title: TiffImageSaveOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents image saving options when saving a TIFF image."
 type: docs
 url: /python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/
 is_root: false

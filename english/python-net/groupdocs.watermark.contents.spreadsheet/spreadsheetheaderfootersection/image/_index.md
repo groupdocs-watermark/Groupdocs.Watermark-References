@@ -1,7 +1,7 @@
 ---
 title: image property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The image of this SpreadsheetHeaderFooterSection."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/image/
 is_root: false
@@ -11,7 +11,9 @@ weight: 2020
 
 ## image property
 
-The image of this SpreadsheetHeaderFooterSection. Returns None if the section has no image.
+The image of this SpreadsheetHeaderFooterSection.
+
+Returns None if the section has no image.
 
 ### Definition:
 ```python

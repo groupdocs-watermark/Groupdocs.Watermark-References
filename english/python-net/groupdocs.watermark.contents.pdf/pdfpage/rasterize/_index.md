@@ -1,7 +1,7 @@
 ---
 title: rasterize method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Converts page content into an image."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfpage/rasterize/
 is_root: false
@@ -23,8 +23,6 @@ def rasterize(self, horizontal_resolution, vertical_resolution, image_format):
 | horizontal_resolution | `int` | Horizontal image resolution. |
 | vertical_resolution | `int` | Vertical image resolution. |
 | image_format | `PdfImageConversionFormat` | Image format. |
-
-**Returns:** None.
 
 ### Example
 

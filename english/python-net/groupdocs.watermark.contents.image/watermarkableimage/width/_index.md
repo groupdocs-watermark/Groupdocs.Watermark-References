@@ -1,7 +1,7 @@
 ---
 title: width property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The width of this WatermarkableImage in pixels."
 type: docs
 url: /python-net/groupdocs.watermark.contents.image/watermarkableimage/width/
 is_root: false

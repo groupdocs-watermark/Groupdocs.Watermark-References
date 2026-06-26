@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetAutoShapeType class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "SpreadsheetAutoShapeType enum — GroupDocs.Watermark for Python via .NET API reference."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/
 is_root: false

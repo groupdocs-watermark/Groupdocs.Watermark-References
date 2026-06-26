@@ -1,7 +1,7 @@
 ---
 title: VectorSearchCriteria class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents criteria allowing filtering by watermark color."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/vectorsearchcriteria/
 is_root: false
@@ -21,14 +21,14 @@ The VectorSearchCriteria type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/vectorsearchcriteria/__init__/) | Initializes a new instance of the [`VectorSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/vectorsearchcriteria/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/vectorsearchcriteria/__init__/) | Initializes a new [`VectorSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/vectorsearchcriteria/) instance. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [and_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_/) | Combines this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/) with other criteria using logical AND operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [and_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_/) | Combines this SearchCriteria with other criteria using the logical AND operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [and_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates the SearchCriteria. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/). (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [or_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 
@@ -40,23 +40,29 @@ The VectorSearchCriteria type exposes the following members:
 ### Example
 
 ```python
-from GroupDocs.Watermark import Watermarker, VectorSearchCriteria
-from GroupDocs.Watermark.Watermarks import Color, ColorRange
-from System.Drawing import ColorTranslator
+from groupdocs.watermark import Watermarker, VectorSearchCriteria, ColorRange, Color
 
-with Watermarker(r"C:\test.pdf") as watermarker:
-    search_criteria = VectorSearchCriteria()
-    watermark_color = ColorTranslator.FromHtml("#a9aaae")
-    system_color = Color.FromArgb(watermark_color.A, watermark_color.R,
-                                 watermark_color.G, watermark_color.B)
-    criteria_vector_color_range = ColorRange(system_color)
-    criteria_vector_color_range.MinBrightness = 0.1
-    criteria_vector_color_range.MaxBrightness = 0.7
-    search_criteria.VectorColorRange = criteria_vector_color_range
+# Open the document
+watermarker = Watermarker(r"C:\test.pdf")
 
-    possible_watermarks = watermarker.Search(search_criteria)
-    possible_watermarks.Clear()
-    watermarker.Save(r"C:\modified_test.pdf")
+# Create search criteria
+search_criteria = VectorSearchCriteria()
+
+# Define the watermark color to filter by
+watermark_color = Color.from_html("#a9aaae")
+
+# Set the color range with brightness limits
+criteria_vector_color_range = ColorRange(watermark_color)
+criteria_vector_color_range.min_brightness = 0.1
+criteria_vector_color_range.max_brightness = 0.7
+search_criteria.vector_color_range = criteria_vector_color_range
+
+# Search and remove watermarks
+possible_watermark_collection = watermarker.search(search_criteria)
+possible_watermark_collection.clear()
+
+# Save the modified document
+watermarker.save(r"C:\modified_test.pdf")
 ```
 
 ### See Also

@@ -1,7 +1,7 @@
 ---
 title: text property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The URL of this HyperlinkPossibleWatermark."
 type: docs
 url: /python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/text/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2040
 
 ## text property
 
-The URL of this [`HyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/).
+The URL of this HyperlinkPossibleWatermark.
 
 ### Definition:
 ```python

@@ -1,7 +1,7 @@
 ---
 title: SINGLE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Single line."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelinestyle/single/
 is_root: false

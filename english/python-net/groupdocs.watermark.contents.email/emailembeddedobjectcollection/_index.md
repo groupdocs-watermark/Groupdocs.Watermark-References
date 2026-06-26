@@ -1,7 +1,7 @@
 ---
 title: EmailEmbeddedObjectCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of embedded objects in an email message."
 type: docs
 url: /python-net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/
 is_root: false
@@ -20,7 +20,7 @@ The EmailEmbeddedObjectCollection type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [add](/watermark/python-net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/add/#file_content-name) | Adds an embedded resource to the [`EmailContent`](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/). |
+| [add](/watermark/python-net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/add/#file_content-name) | Adds an embedded resource to the EmailContent. |
 | [add_bytes](/watermark/python-net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/add_bytes/) |  |
 | [add_file](/watermark/python-net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/add_file/) |  |
 | [add_string](/watermark/python-net/groupdocs.watermark.contents.email/emailembeddedobjectcollection/add_string/) |  |

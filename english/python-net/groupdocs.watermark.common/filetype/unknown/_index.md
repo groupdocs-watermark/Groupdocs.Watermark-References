@@ -1,7 +1,7 @@
 ---
 title: UNKNOWN field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents unknown file type."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/unknown/
 is_root: false

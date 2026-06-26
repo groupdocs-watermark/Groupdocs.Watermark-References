@@ -1,7 +1,7 @@
 ---
 title: left property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The width of the left side of the bounding rectangle."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/thickness/left/
 is_root: false

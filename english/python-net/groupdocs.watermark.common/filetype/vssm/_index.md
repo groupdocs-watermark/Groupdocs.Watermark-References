@@ -1,7 +1,7 @@
 ---
 title: VSSM field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Files with .VSSM extension are Microsoft Visio Stencil files that support provide support for macros."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/vssm/
 is_root: false

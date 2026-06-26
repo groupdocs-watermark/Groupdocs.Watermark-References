@@ -1,7 +1,7 @@
 ---
 title: background_image property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The background image."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationslideimagefillformat/background_image/
 is_root: false

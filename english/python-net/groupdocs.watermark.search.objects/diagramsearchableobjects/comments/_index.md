@@ -1,7 +1,7 @@
 ---
 title: COMMENTS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in comments."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/diagramsearchableobjects/comments/
 is_root: false

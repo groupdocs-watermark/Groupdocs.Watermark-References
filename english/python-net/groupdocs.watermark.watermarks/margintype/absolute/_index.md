@@ -1,7 +1,7 @@
 ---
 title: ABSOLUTE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Margin value measured in content units."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/margintype/absolute/
 is_root: false

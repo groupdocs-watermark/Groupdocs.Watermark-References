@@ -1,7 +1,7 @@
 ---
 title: IRREGULAR_SEAL1 field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in shape geometry preset type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationshapetype/irregular_seal1/
 is_root: false

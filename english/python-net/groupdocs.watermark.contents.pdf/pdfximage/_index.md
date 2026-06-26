@@ -1,7 +1,7 @@
 ---
 title: PdfXImage class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents an XImage in a pdf content."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfximage/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: ALLOW_ONLY_FORM_FIELDS field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "User can only enter data in the form fields in the document."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessinglocktype/allow_only_form_fields/
 is_root: false

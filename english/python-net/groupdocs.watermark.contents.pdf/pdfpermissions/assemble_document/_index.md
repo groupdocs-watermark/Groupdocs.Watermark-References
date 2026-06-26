@@ -1,7 +1,7 @@
 ---
 title: ASSEMBLE_DOCUMENT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Assemble the content."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfpermissions/assemble_document/
 is_root: false

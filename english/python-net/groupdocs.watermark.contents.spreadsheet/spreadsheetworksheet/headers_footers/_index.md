@@ -1,7 +1,7 @@
 ---
 title: headers_footers property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The collection of worksheet headers and footers."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/headers_footers/
 is_root: false

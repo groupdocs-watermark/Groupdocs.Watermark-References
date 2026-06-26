@@ -1,11 +1,11 @@
 ---
 title: PresentationShapePossibleWatermark class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents possible shape watermark in a PowerPoint document."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/presentationshapepossiblewatermark/
 is_root: false
-weight: 210
+weight: 220
 ---
 
 
@@ -21,7 +21,7 @@ The PresentationShapePossibleWatermark type exposes the following members:
 | [parent](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationshapepossiblewatermark/parent/) | The parent of this PresentationShapePossibleWatermark. |
 | [formatted_text_fragments](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/formatted_text_fragments/) |  (inherited from [`ShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/)) |
 | [height](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/height/) | The height of the 2D object. (inherited from [`TwoDObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/twodobjectpossiblewatermark/)) |
-| [image_data](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/image_data/) | The image of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/) or None if the watermark has no image. (inherited from [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)) |
+| [image_data](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/image_data/) | The image of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/), or `None` if the watermark has no image. (inherited from [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/)) |
 | [page_number](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/page_number/) |  (inherited from [`ShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/)) |
 | [rotate_angle](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/rotate_angle/) |  (inherited from [`ShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/)) |
 | [text](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/text/) |  (inherited from [`ShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/)) |

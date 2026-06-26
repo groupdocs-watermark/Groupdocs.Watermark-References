@@ -1,7 +1,7 @@
 ---
 title: tile_options property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The options to define a repeated watermark."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/tile_options/
 is_root: false

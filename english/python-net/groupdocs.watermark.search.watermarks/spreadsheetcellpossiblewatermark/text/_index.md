@@ -1,7 +1,7 @@
 ---
 title: text property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The text of this SpreadsheetCellPossibleWatermark."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/text/
 is_root: false

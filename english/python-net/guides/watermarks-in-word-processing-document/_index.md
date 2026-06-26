@@ -1,97 +1,59 @@
 ---
 title: Watermarks in word processing document
+linkTitle: "Watermarks in word"
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Add shape-based watermarks to Word documents with a name, alternative text, and text/image effects using GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/guides/watermarks-in-word-processing-document/
 is_root: false
-weight: 310
+weight: 330
 ---
 
 
-When adding a watermark in Microsoft Word, a shape with appropriate content is placed in section headers. GroupDocs.Watermark uses the same approach. When calling `add` on [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/), a shape is added to the document.
+When you add a watermark to a Microsoft Word document, a shape with the appropriate content is placed in the section headers. [`WordProcessingWatermarkSectionOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarksectionoptions/) (and [`WordProcessingWatermarkPagesOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkpagesoptions/)) let you set the shape's `name` and `alternative_text`, and apply text or image effects through the `effects` property.
 
-## Using properties of WordProcessingWatermarkBaseOptions
-This sample sets additional shape watermark properties such as name and alternative text when inserting it.
+## Add an image watermark with effects
 
-Set additional options like `name` and `alternative_text` when adding a shape watermark.
+The example applies brightness, contrast, and a chroma-key to an image watermark using [`WordProcessingImageEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingimageeffects/).
 
+  
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.wordprocessing as gwo_wp
-import groupdocs.watermark.common as gwc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import ImageWatermark, Color
+from groupdocs.watermark.options.word_processing import (
+    WordProcessingLoadOptions, WordProcessingWatermarkSectionOptions, WordProcessingImageEffects,
+)
 
-load_options = gw.WordProcessingLoadOptions()
-with gw.Watermarker("document.docx", load_options) as watermarker:
-    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
-    watermark.vertical_alignment = gwc.VerticalAlignment.CENTER
-    watermark.horizontal_alignment = gwc.HorizontalAlignment.CENTER
-    watermark.rotate_angle = 25.0
-    watermark.foreground_color = gww.Color.red
-    watermark.opacity = 1.0
+def add_watermark_with_effects():
+    with Watermarker("./document.docx", WordProcessingLoadOptions()) as watermarker:
+        with ImageWatermark("./logo.png") as watermark:
+            effects = WordProcessingImageEffects()
+            effects.brightness = 0.7
+            effects.contrast = 0.6
+            effects.chroma_key = Color.red
 
-    options = gwo_wp.WordProcessingWatermarkSectionOptions()
-    options.name = "Shape 1"
-    options.alternative_text = "Test watermark"
+            options = WordProcessingWatermarkSectionOptions()
+            options.name = "Shape 1"
+            options.alternative_text = "Company logo watermark"
+            options.effects = effects
+            watermarker.add(watermark, options)
 
-    watermarker.add(watermark, options)
-    watermarker.save("document.docx")
+        watermarker.save("./output.docx")
+
+if __name__ == "__main__":
+    add_watermark_with_effects()
 ```
 
-## Using WordProcessingTextEffects
-This sample enables and configures line and outline effects for text-based shape watermarks.
+  
 
-Apply text effects to shape watermarks.
+`document.docx` and `logo.png` are the sample files used in this example. Download [document.docx](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-word-processing-documents/document.docx) and [logo.png](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-word-processing-documents/logo.png).
 
-```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.wordprocessing as gwo_wp
-import groupdocs.watermark.common as gwc
-
-load_options = gw.WordProcessingLoadOptions()
-with gw.Watermarker("document.docx", load_options) as watermarker:
-    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
-
-    effects = gwo_wp.WordProcessingTextEffects()
-    effects.line_format.enabled = True
-    effects.line_format.color = gww.Color.red
-    effects.line_format.dash_style = gwc.OfficeDashStyle.DASH_DOT_DOT
-    effects.line_format.line_style = gwc.OfficeLineStyle.TRIPLE
-    effects.line_format.weight = 1
-
-    options = gwo_wp.WordProcessingWatermarkSectionOptions()
-    options.effects = effects
-
-    watermarker.add(watermark, options)
-    watermarker.save("document.docx")
+  
+```text
+Binary file (DOCX, 120 KB)
 ```
+[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-word-processing-documents/watermarks-in-word-processing-document/add_watermark_with_effects/output.docx)
 
-## Using WordProcessingImageEffects
-This sample applies image effects (brightness, contrast, chroma key, border) to image-based shape watermarks.
+For a text watermark, use [`WordProcessingTextEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/) instead — set its `line_format` (enabled, color, dash style, line style, and weight) and assign it to `options.effects`. [`WordProcessingImageEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingimageeffects/) also exposes `gray_scale` and `border_line_format`.
 
-Apply image effects to image-based shape watermarks.
-
-```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.wordprocessing as gwo_wp
-
-load_options = gw.WordProcessingLoadOptions()
-with gw.Watermarker("document.docx", load_options) as watermarker:
-    with gww.ImageWatermark("logo.png") as watermark:
-        effects = gwo_wp.WordProcessingImageEffects()
-        effects.brightness = 0.7
-        effects.contrast = 0.6
-        effects.chroma_key = gww.Color.red
-        effects.border_line_format.enabled = True
-        effects.border_line_format.weight = 1
-
-        options = gwo_wp.WordProcessingWatermarkSectionOptions()
-        options.effects = effects
-
-        watermarker.add(watermark, options)
-
-    watermarker.save("document.docx")
-```
+To work with shapes already present in a document, see [Existing objects in word processing document]().

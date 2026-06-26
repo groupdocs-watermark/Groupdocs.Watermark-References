@@ -1,7 +1,7 @@
 ---
 title: FileType class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents file type."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/
 is_root: false
@@ -13,7 +13,7 @@ weight: 40
 
 Represents file type.
 
-Provides methods to obtain the list of all file types supported by GroupDocs.Watermark.
+This class provides methods to obtain the list of all file types supported by GroupDocs.Watermark.
 
 - Supported Document Formats: https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats
 - Get supported file formats: https://docs.groupdocs.com/display/watermarknet/Get+supported+file+formats
@@ -24,8 +24,8 @@ The FileType type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [equals](/watermark/python-net/groupdocs.watermark.common/filetype/equals/#other) | Determines whether the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) is the same as the specified [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) object. |
-| [equals](/watermark/python-net/groupdocs.watermark.common/filetype/equals/#obj) | Returns True if the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) is equal to the specified object, otherwise False. |
+| [equals](/watermark/python-net/groupdocs.watermark.common/filetype/equals/#other) | Checks whether the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) is the same as the specified [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) object. |
+| [equals](/watermark/python-net/groupdocs.watermark.common/filetype/equals/#obj) | Determines whether the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) is the same as the specified object. |
 | [equals_file_type](/watermark/python-net/groupdocs.watermark.common/filetype/equals_file_type/) |  |
 | [equals_object](/watermark/python-net/groupdocs.watermark.common/filetype/equals_object/) |  |
 | [from_extension](/watermark/python-net/groupdocs.watermark.common/filetype/from_extension/#extension) | Maps the file extension to the file type. |
@@ -36,7 +36,7 @@ The FileType type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [extension](/watermark/python-net/groupdocs.watermark.common/filetype/extension/) | The file name suffix (including the period "."). |
+| [extension](/watermark/python-net/groupdocs.watermark.common/filetype/extension/) | The file name suffix (including the period ".") e.g., ".doc". |
 | [file_format_name](/watermark/python-net/groupdocs.watermark.common/filetype/file_format_name/) | The file type name, e.g., "Microsoft Word Document". |
 | [format_family](/watermark/python-net/groupdocs.watermark.common/filetype/format_family/) | The format family. |
 
@@ -115,10 +115,7 @@ for ft in supported:
 ### Guides
 Task guides that use `FileType`:
 
-* [Email attachments](/watermark/python-net/guides/email-attachments/)
-* [Email messages](/watermark/python-net/guides/email-messages/)
-* [Attachments in PDF document](/watermark/python-net/guides/attachments-in-pdf-document/)
-* [Working with spreadsheet document attachments](/watermark/python-net/guides/working-with-spreadsheet-document-attachments/)
+* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
 * [Get supported file formats](/watermark/python-net/guides/get-supported-file-formats/)
 
 ### See Also

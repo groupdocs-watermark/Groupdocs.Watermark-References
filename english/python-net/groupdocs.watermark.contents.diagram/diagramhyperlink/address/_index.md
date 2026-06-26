@@ -1,7 +1,7 @@
 ---
 title: address property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The hyperlink address."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramhyperlink/address/
 is_root: false

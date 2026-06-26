@@ -1,7 +1,7 @@
 ---
 title: page_count property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The number of pages in the document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingcontent/page_count/
 is_root: false

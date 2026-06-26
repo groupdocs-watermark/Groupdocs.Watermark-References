@@ -1,7 +1,7 @@
 ---
 title: is_read_only property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "RemoveOnlyListBase.is_read_only property — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.common/removeonlylistbase/is_read_only/
 is_root: false

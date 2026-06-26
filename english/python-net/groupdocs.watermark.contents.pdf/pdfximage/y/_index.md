@@ -1,7 +1,7 @@
 ---
 title: y property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The y-coordinate of the object."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfximage/y/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: different_first_page_header_footer property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The property indicates whether a different header/footer is used for the first page."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingpagesetup/different_first_page_header_footer/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2020
 
 ## different_first_page_header_footer property
 
-The property indicating whether a different header/footer is used for the first page.
+The property indicates whether a different header/footer is used for the first page.
 
 True if a different header/footer is used for the first page; otherwise, False.
 

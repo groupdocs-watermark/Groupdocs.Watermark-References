@@ -1,7 +1,7 @@
 ---
 title: PreviewNotSupportedException class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The exception that is thrown when a preview image cannot be generated for the content."
 type: docs
 url: /python-net/groupdocs.watermark/previewnotsupportedexception/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: get_saturation method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Gets the hue‑saturation‑brightness (HSB) saturation value for this Color structure."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/get_saturation/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1090
 
 ## get_saturation
 
-Gets the hue-saturation-brightness (HSB) saturation value for this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure.
+Gets the hue‑saturation‑brightness (HSB) saturation value for this [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure.
 
 ```python
 def get_saturation(self):

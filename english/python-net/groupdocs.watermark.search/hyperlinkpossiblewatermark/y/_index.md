@@ -1,7 +1,7 @@
 ---
 title: y property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The y-coordinate of this HyperlinkPossibleWatermark."
 type: docs
 url: /python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/y/
 is_root: false

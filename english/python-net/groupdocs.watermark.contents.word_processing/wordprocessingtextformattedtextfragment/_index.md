@@ -1,7 +1,7 @@
 ---
 title: WordProcessingTextFormattedTextFragment class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a fragment of formatted text in a Word document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingtextformattedtextfragment/
 is_root: false

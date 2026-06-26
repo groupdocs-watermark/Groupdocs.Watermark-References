@@ -1,7 +1,7 @@
 ---
 title: equals_file_type method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "FileType.equals_file_type method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/equals_file_type/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: HEADER_EVEN field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Header for even numbered pages."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officeheaderfootertype/header_even/
 is_root: false

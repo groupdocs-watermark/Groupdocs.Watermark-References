@@ -1,7 +1,7 @@
 ---
 title: POLY_LINE field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Polyline annotation type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/poly_line/
 is_root: false

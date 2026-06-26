@@ -1,7 +1,7 @@
 ---
 title: LIME_GREEN field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Gets a system-defined color."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/color/lime_green/
 is_root: false

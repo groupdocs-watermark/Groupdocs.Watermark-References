@@ -1,7 +1,7 @@
 ---
 title: get_hyperlink method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Retrieves the hyperlink associated with the text."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/get_hyperlink/
 is_root: false
@@ -22,7 +22,7 @@ def get_hyperlink(self, action_type):
 | :- | :- | :- |
 | action_type | `PresentationHyperlinkActionType` | The action that activates the hyperlink. |
 
-**Returns:** str: The URL of the hyperlink that is activated on the specified action.
+**Returns:** str: The url of the hyperlink that is activated on the specified action.
 
 ### See Also
 * class [`PresentationFormattedTextFragment`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/)

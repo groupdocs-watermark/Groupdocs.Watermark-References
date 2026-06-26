@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetHeaderFooterSectionCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of header/footer sections."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersectioncollection/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: SpreadsheetLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents document loading options for a Spreadsheet document."
 type: docs
 url: /python-net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions/
 is_root: false
@@ -18,7 +18,7 @@ The SpreadsheetLoadOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions/__init__/) | Initializes a new instance of SpreadsheetLoadOptions. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions/__init__/) | Initializes a new instance of the [`SpreadsheetLoadOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions/) class. |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetloadoptions/__init__/#password) | Initializes a new instance of the SpreadsheetLoadOptions class with a specified password. |
 
 ### Properties
@@ -42,9 +42,17 @@ import groupdocs.watermark.contents.spreadsheet as gwc_xls
 load_options = gw.SpreadsheetLoadOptions()
 with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
     content = watermarker.get_content(gwc_xls.SpreadsheetContent)
-    # perform operations on the spreadsheet content
+    # manipulate worksheets, shapes, etc.
     watermarker.save("spreadsheet.xlsx")
 ```
+
+### Guides
+Task guides that use `SpreadsheetLoadOptions`:
+
+* [Shapes in spreadsheet document](/watermark/python-net/guides/shapes-in-spreadsheet-document/)
+* [Working with spreadsheet document attachments](/watermark/python-net/guides/working-with-spreadsheet-document-attachments/)
+* [Working with worksheet backgrounds](/watermark/python-net/guides/working-with-worksheet-backgrounds/)
+* [Working with worksheet headers and footers](/watermark/python-net/guides/working-with-worksheet-headers-and-footers/)
 
 ### See Also
 * module [`groupdocs.watermark.options.spreadsheet`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/)

@@ -1,7 +1,7 @@
 ---
 title: flip_orientation property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The orientation of a shape."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/flip_orientation/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: get_hyperlink method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Gets the hyperlink associated with this IPresentationHyperlinkContainer."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationchart/get_hyperlink/
 is_root: false

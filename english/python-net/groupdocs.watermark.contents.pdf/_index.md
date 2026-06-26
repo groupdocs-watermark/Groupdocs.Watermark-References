@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.contents.pdf
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Types under groupdocs.watermark.contents.pdf."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/
 is_root: false
@@ -18,7 +18,7 @@ Types under `groupdocs.watermark.contents.pdf`.
 | [`PdfArtifact`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfartifact/) | Represents an artifact in a pdf content. |
 | [`PdfAttachment`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfattachment/) | Represents a file attached to a pdf content. |
 | [`PdfAttachmentCollection`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfattachmentcollection/) | Represents a collection of attachments in a pdf document. |
-| [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/) | Represents a PDF document where a watermark can be placed. |
+| [`PdfContent`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/) | Represents a pdf document where a watermark can be placed. |
 | [`PdfFormattedTextFragment`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfformattedtextfragment/) | Represents a fragment of formatted text in a pdf document. |
 | [`PdfOperator`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfoperator/) | Represents an operator of vector content in a pdf document. |
 | [`PdfPage`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfpage/) | Represents pdf document page. |

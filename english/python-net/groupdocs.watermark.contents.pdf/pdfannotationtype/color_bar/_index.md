@@ -1,7 +1,7 @@
 ---
 title: COLOR_BAR field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "ColorBar annotation."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/color_bar/
 is_root: false

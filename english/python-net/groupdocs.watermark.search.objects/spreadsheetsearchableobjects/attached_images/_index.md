@@ -1,7 +1,7 @@
 ---
 title: ATTACHED_IMAGES field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Search in attached images."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/spreadsheetsearchableobjects/attached_images/
 is_root: false

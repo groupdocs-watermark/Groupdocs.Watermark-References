@@ -1,7 +1,7 @@
 ---
 title: PAGE_INFORMATION field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Page information annotation."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/page_information/
 is_root: false

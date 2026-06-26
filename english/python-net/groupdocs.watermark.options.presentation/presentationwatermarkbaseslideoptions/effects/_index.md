@@ -1,7 +1,7 @@
 ---
 title: effects property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The effects applied to the watermark, specified as a PresentationImageEffects or PresentationTextEffects instance."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects/
 is_root: false

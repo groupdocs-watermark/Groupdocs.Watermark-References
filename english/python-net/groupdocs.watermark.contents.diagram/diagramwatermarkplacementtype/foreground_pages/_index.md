@@ -1,7 +1,7 @@
 ---
 title: FOREGROUND_PAGES field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "A watermark should be added to foreground pages only."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramwatermarkplacementtype/foreground_pages/
 is_root: false

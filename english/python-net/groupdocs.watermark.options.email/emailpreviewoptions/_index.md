@@ -1,7 +1,7 @@
 ---
 title: EmailPreviewOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Provides options to set requirements and stream delegates for preview generation of an email document."
 type: docs
 url: /python-net/groupdocs.watermark.options.email/emailpreviewoptions/
 is_root: false
@@ -18,7 +18,7 @@ The EmailPreviewOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/__init__/#create_page_stream) | Initializes a new EmailPreviewOptions instance that closes the output stream. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/__init__/#create_page_stream) | Initializes a new instance of the [`EmailPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/) class causing the output stream to be closed. |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.email/emailpreviewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new EmailPreviewOptions instance that returns the output stream to the client for further use. |
 
 ### Properties

@@ -1,7 +1,7 @@
 ---
 title: ACCENT_CALLOUT90 field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Built-in shape type."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/accent_callout90/
 is_root: false

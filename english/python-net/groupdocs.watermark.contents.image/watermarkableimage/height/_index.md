@@ -1,7 +1,7 @@
 ---
 title: height property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The height of this WatermarkableImage in pixels."
 type: docs
 url: /python-net/groupdocs.watermark.contents.image/watermarkableimage/height/
 is_root: false

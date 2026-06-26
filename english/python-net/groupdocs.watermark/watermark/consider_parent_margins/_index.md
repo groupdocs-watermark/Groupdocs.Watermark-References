@@ -1,7 +1,7 @@
 ---
 title: consider_parent_margins property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "The property indicating whether the watermark size and coordinates are calculated considering parent margins."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/consider_parent_margins/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2010
 
 ## consider_parent_margins property
 
-The consider_parent_margins property indicates whether the watermark size and coordinates are calculated considering parent margins. If set to True, margins are taken into account; otherwise (default False) they are ignored.
+The property indicating whether the watermark size and coordinates are calculated considering parent margins. If set to True, calculations consider parent margins; otherwise, margins are ignored (default is False).
 
 ### Definition:
 ```python

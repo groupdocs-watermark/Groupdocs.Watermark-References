@@ -1,7 +1,7 @@
 ---
 title: License class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Manages GroupDocs.Watermark licensing."
 type: docs
 url: /python-net/groupdocs.watermark/license/
 is_root: false
@@ -27,7 +27,9 @@ The License type exposes the following members:
 ### Guides
 Task guides that use `License`:
 
+* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
 * [Licensing and evaluation](/watermark/python-net/guides/licensing-and-subscription/)
+* [Quick Start Guide](/watermark/python-net/guides/quick-start-guide/)
 
 ### See Also
 * module [`groupdocs.watermark`](/watermark/python-net/groupdocs.watermark/)

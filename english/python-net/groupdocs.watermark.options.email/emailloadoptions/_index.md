@@ -1,7 +1,7 @@
 ---
 title: EmailLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents the document loading options for an email message."
 type: docs
 url: /python-net/groupdocs.watermark.options.email/emailloadoptions/
 is_root: false
@@ -41,8 +41,14 @@ import groupdocs.watermark.contents.email as gwc_email
 load_options = gw.EmailLoadOptions()
 with gw.Watermarker("message.msg", load_options) as watermarker:
     content = watermarker.get_content(gwc_email.EmailContent)
-    # work with the email content, e.g., add or extract attachments
+    # manipulate email content, e.g., add or extract attachments
 ```
+
+### Guides
+Task guides that use `EmailLoadOptions`:
+
+* [Email attachments](/watermark/python-net/guides/email-attachments/)
+* [Email messages](/watermark/python-net/guides/email-messages/)
 
 ### See Also
 * module [`groupdocs.watermark.options.email`](/watermark/python-net/groupdocs.watermark.options.email/)

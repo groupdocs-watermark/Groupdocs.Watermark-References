@@ -1,7 +1,7 @@
 ---
 title: PdfAnnotationCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of annotations in a pdf document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationcollection/
 is_root: false

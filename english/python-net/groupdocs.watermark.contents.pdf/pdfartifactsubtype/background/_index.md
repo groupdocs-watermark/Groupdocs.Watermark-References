@@ -1,7 +1,7 @@
 ---
 title: BACKGROUND field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Background subtype."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfartifactsubtype/background/
 is_root: false

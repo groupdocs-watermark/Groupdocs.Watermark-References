@@ -1,7 +1,7 @@
 ---
 title: DiagramPageWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents watermark adding options when adding a shape watermark to a particular page of a Visio document."
 type: docs
 url: /python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/
 is_root: false
@@ -13,7 +13,8 @@ weight: 20
 
 Represents watermark adding options when adding a shape watermark to a particular page of a Visio document.
 
-Learn more: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents
+Learn more:
+- [Add watermarks to diagram documents](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 
 The DiagramPageWatermarkOptions type exposes the following members:
 
@@ -26,7 +27,7 @@ The DiagramPageWatermarkOptions type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [page_index](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/page_index/) | The page index to add watermark to. |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If true, shape editing is forbidden. (inherited from [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/)) |
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If True, shape editing will be forbidden. (inherited from [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/)) |
 
 ### Fields
 | Field | Description |
@@ -41,9 +42,11 @@ from groupdocs.watermark import Watermarker, DiagramLoadOptions, TextWatermark, 
 load_options = DiagramLoadOptions()
 with Watermarker(r"D:\test.vsdx", load_options) as watermarker:
     watermark = TextWatermark("watermark test", Font("Arial", 42))
+
     options = DiagramPageWatermarkOptions()
     options.is_locked = True
     options.page_index = 0
+
     watermarker.add(watermark, options)
     watermarker.save()
 ```

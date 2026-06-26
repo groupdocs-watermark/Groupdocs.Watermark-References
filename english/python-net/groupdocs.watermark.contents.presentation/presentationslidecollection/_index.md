@@ -1,7 +1,7 @@
 ---
 title: PresentationSlideCollection class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents a collection of slides in a PowerPoint document."
 type: docs
 url: /python-net/groupdocs.watermark.contents.presentation/presentationslidecollection/
 is_root: false

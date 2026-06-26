@@ -1,7 +1,7 @@
 ---
 title: PDF_3D field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "PDF3D annotation."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfannotationtype/pdf_3d/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: item property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "WordProcessingHeaderFooterCollection.item property — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfootercollection/item/
 is_root: false

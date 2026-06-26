@@ -1,7 +1,7 @@
 ---
 title: LEFT field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Align to left."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/textalignment/left/
 is_root: false

@@ -1,7 +1,7 @@
 ---
 title: error_file method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "ILogger.error_file method — GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/groupdocs.watermark.options/ilogger/error_file/
 is_root: false

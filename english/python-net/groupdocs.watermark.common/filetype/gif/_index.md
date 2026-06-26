@@ -1,7 +1,7 @@
 ---
 title: GIF field
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "A GIF or Graphical Interchange Format is a type of highly compressed image."
 type: docs
 url: /python-net/groupdocs.watermark.common/filetype/gif/
 is_root: false

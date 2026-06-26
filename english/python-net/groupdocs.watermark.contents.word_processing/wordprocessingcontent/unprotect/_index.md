@@ -1,7 +1,7 @@
 ---
 title: unprotect method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Removes protection from the document regardless of the password."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingcontent/unprotect/
 is_root: false

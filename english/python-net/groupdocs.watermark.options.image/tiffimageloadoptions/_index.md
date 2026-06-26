@@ -1,7 +1,7 @@
 ---
 title: TiffImageLoadOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Represents image loading options for a TIFF image."
 type: docs
 url: /python-net/groupdocs.watermark.options.image/tiffimageloadoptions/
 is_root: false
@@ -18,7 +18,7 @@ The TiffImageLoadOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/__init__/) | Initializes a new instance of the [`TiffImageLoadOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimageloadoptions/__init__/) | Initializes a new instance of the TiffImageLoadOptions class. |
 
 ### Properties
 | Property | Description |

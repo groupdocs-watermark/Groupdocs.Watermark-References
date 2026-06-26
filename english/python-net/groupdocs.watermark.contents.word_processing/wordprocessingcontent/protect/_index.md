@@ -1,7 +1,7 @@
 ---
 title: protect method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: 
+description: "Protects the document from changes and sets a protection password."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingcontent/protect/
 is_root: false
