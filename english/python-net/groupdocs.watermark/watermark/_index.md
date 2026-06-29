@@ -43,7 +43,6 @@ The Watermark type exposes the following members:
 ### Guides
 Task guides that use `Watermark`:
 
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
 * [Hello, World!](/watermark/python-net/guides/hello-world/)
 
 ### See Also

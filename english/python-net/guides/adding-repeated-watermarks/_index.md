@@ -1,12 +1,12 @@
 ---
 title: Adding repeated watermarks
-linkTitle: "Adding repeated"
+linkTitle: "Repeated watermarks"
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: "Add repeated (tiled) text or image watermarks with spacing, rotation, and patterns using GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/guides/adding-repeated-watermarks/
 is_root: false
-weight: 220
+weight: 70
 ---
 
 

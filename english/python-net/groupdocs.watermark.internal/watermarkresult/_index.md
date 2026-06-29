@@ -29,10 +29,5 @@ The WatermarkResult type exposes the following members:
 | [processing_time](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/processing_time/) | The processing time for the watermarking operation. |
 | [source_document_size](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/source_document_size/) | The size of the source document in bytes. |
 
-### Guides
-Task guides that use `WatermarkResult`:
-
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
-
 ### See Also
 * module [`groupdocs.watermark.internal`](/watermark/python-net/groupdocs.watermark.internal/)

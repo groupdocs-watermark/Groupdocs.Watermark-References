@@ -1,8 +1,7 @@
 ---
 title: Rasterize document or page
-linkTitle: "Rasterize document or"
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Rasterize a PDF — convert pages to images — so that watermarks become hard to remove, using GroupDocs.Watermark for Python via .NET."
+description: 
 type: docs
 url: /python-net/guides/rasterize-document-or-page/
 is_root: false
@@ -10,73 +9,61 @@ weight: 240
 ---
 
 
-Watermarks in PDFs can be removed by third-party tools. If you need watermarks that are very hard to remove, **rasterize** the document: convert its pages to images so the content — including the watermark — becomes non-editable. Access the PDF content tree with `Watermarker.get_content()` and call `rasterize()`.
+## How to remove a watermark from a PDF
+Watermarks in PDFs can be removed by third-party tools. If you need watermarks that are very hard to remove, rasterize the document: convert pages to images so content becomes non-editable.
 
-Rasterization is irreversible: the original text and vector content cannot be restored afterwards, and the output file size usually increases.
+## Rasterize PDF document
+This sample converts all PDF pages to images (after adding a watermark) to lock down content and make subsequent removal extremely difficult.
 
-## Rasterize the whole document
-
-The example adds a watermark, rasterizes every page to a PNG image at 100 DPI, and saves the result.
-
-  
 ```python
-from groupdocs.watermark import Watermarker
-from groupdocs.watermark.watermarks import TextWatermark, Font, Color
-from groupdocs.watermark.options.pdf import PdfLoadOptions
-from groupdocs.watermark.contents.pdf import PdfImageConversionFormat
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.pdf as gwc_pdf
+import groupdocs.watermark.watermarks as gww
+import groupdocs.watermark.common as gwc
 
-def rasterize_document():
-    with Watermarker("./document.pdf", PdfLoadOptions()) as watermarker:
-        watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 19.0))
-        watermark.foreground_color = Color.red
-        watermarker.add(watermark)
+load_options = gw.PdfLoadOptions()
+with gw.Watermarker("document.pdf", load_options) as watermarker:
+    watermark = gww.TextWatermark("Do not copy", gww.Font("Arial", 8.0))
+    watermark.horizontal_alignment = gwc.HorizontalAlignment.CENTER
+    watermark.vertical_alignment = gwc.VerticalAlignment.CENTER
+    watermark.rotate_angle = 45
+    watermark.sizing_type = gww.SizingType.SCALE_TO_PARENT_DIMENSIONS
+    watermark.scale_factor = 1.0
+    watermark.opacity = 0.5
 
-        # Rasterize every page at 100x100 DPI to PNG images
-        content = watermarker.get_content()
-        content.rasterize(100, 100, PdfImageConversionFormat.PNG)
-
-        watermarker.save("./output.pdf")
-
-if __name__ == "__main__":
-    rasterize_document()
+    watermarker.add(watermark)
+    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+    pdf_content.rasterize(100, 100, gwc_pdf.PdfImageConversionFormat.PNG)
+    watermarker.save("document.pdf")
 ```
 
-  
+You can't restore document content after saving the document. Rasterization significantly increases the size of the resultant PDF file.
 
-`document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-pdf-documents/document.pdf) to download it.
+## Rasterize particular page of the PDF document
+This sample rasterizes only a specified page of the PDF (with an applied watermark), leaving the rest of the document editable.
 
-  
-```text
-Binary file (PDF, 1.1 MB)
-```
-[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-pdf-documents/rasterize-document-or-page/rasterize_document/output.pdf)
-
-## Rasterize a particular page
-
-To rasterize a single page, call `rasterize()` on that page instead of the whole content:
-
-  
 ```python
-from groupdocs.watermark import Watermarker
-from groupdocs.watermark.options.pdf import PdfLoadOptions
-from groupdocs.watermark.contents.pdf import PdfImageConversionFormat
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.pdf as gwc_pdf
+import groupdocs.watermark.watermarks as gww
+import groupdocs.watermark.common as gwc
+import groupdocs.watermark.options.pdf as gwo_pdf
 
-def rasterize_page():
-    with Watermarker("./document.pdf", PdfLoadOptions()) as watermarker:
-        content = watermarker.get_content()
-        content.pages[0].rasterize(100, 100, PdfImageConversionFormat.PNG)
-        watermarker.save("./output.pdf")
+load_options = gw.PdfLoadOptions()
+with gw.Watermarker("document.pdf", load_options) as watermarker:
+    watermark = gww.TextWatermark("Do not copy", gww.Font("Arial", 8.0))
+    watermark.horizontal_alignment = gwc.HorizontalAlignment.CENTER
+    watermark.vertical_alignment = gwc.VerticalAlignment.CENTER
+    watermark.rotate_angle = 45
+    watermark.sizing_type = gww.SizingType.SCALE_TO_PARENT_DIMENSIONS
+    watermark.scale_factor = 1.0
+    watermark.opacity = 0.5
 
-if __name__ == "__main__":
-    rasterize_page()
+    options = gwo_pdf.PdfArtifactWatermarkOptions()
+    options.page_index = 0
+    watermarker.add(watermark, options)
+
+    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+    pdf_content.pages[0].rasterize(100, 100, gwc_pdf.PdfImageConversionFormat.PNG)
+    watermarker.save("document.pdf")
 ```
-
-  
-
-`document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-pdf-documents/document.pdf) to download it.
-
-  
-```text
-Binary file (PDF, 570 KB)
-```
-[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-pdf-documents/rasterize-document-or-page/rasterize_page/output.pdf)

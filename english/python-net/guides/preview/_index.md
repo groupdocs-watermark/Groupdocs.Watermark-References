@@ -6,7 +6,7 @@ description: "Generate preview images (PNG/JPG/BMP) for document pages using Gro
 type: docs
 url: /python-net/guides/preview/
 is_root: false
-weight: 390
+weight: 110
 ---
 
 

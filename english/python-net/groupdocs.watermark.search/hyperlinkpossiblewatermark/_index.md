@@ -49,10 +49,5 @@ with gw.Watermarker("document.pdf") as watermarker:
     watermarker.save("document.pdf")
 ```
 
-### Guides
-Task guides that use `HyperlinkPossibleWatermark`:
-
-* [Removing found watermarks](/watermark/python-net/guides/removing-found-watermarks/)
-
 ### See Also
 * module [`groupdocs.watermark.search`](/watermark/python-net/groupdocs.watermark.search/)

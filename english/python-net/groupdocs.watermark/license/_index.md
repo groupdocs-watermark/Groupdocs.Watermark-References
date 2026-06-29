@@ -24,12 +24,5 @@ The License type exposes the following members:
 | :- | :- |
 | [set_license](/watermark/python-net/groupdocs.watermark/license/set_license/#license_source) | Apply a license to the current process. |
 
-### Guides
-Task guides that use `License`:
-
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
-* [Licensing and evaluation](/watermark/python-net/guides/licensing-and-subscription/)
-* [Quick Start Guide](/watermark/python-net/guides/quick-start-guide/)
-
 ### See Also
 * module [`groupdocs.watermark`](/watermark/python-net/groupdocs.watermark/)

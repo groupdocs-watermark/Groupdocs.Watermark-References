@@ -67,13 +67,8 @@ with Watermarker("document.docx") as watermarker:
 ### Guides
 Task guides that use `ImageWatermark`:
 
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
-* [Watermarks in PDF document](/watermark/python-net/guides/watermarks-in-pdf-document/)
-* [Watermarks in word processing document](/watermark/python-net/guides/watermarks-in-word-processing-document/)
-* [Adding image watermarks](/watermark/python-net/guides/adding-image-watermarks/)
 * [Add image watermarks](/watermark/python-net/guides/add-image/)
 * [Customize watermarks](/watermark/python-net/guides/customize/)
-* [Quick Start Guide](/watermark/python-net/guides/quick-start-guide/)
 
 ### See Also
 * module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

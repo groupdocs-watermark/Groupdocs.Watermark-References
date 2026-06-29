@@ -6,7 +6,7 @@ description: "Search for existing text or image watermarks and update them using
 type: docs
 url: /python-net/guides/update/
 is_root: false
-weight: 360
+weight: 90
 ---
 
 

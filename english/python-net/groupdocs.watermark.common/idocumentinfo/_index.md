@@ -40,10 +40,5 @@ with Watermarker(r"D:\input.pdf") as watermarker:
     print(f"Document contains {doc_info.page_count} pages")
 ```
 
-### Guides
-Task guides that use `IDocumentInfo`:
-
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
-
 ### See Also
 * module [`groupdocs.watermark.common`](/watermark/python-net/groupdocs.watermark.common/)

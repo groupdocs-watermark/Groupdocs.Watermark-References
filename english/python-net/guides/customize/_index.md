@@ -6,7 +6,7 @@ description: "Adjust text or image watermark appearance and position — color, 
 type: docs
 url: /python-net/guides/customize/
 is_root: false
-weight: 290
+weight: 60
 ---
 
 

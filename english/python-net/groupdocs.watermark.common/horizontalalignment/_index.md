@@ -24,14 +24,9 @@ The HorizontalAlignment type exposes the following members:
 ### Guides
 Task guides that use `HorizontalAlignment`:
 
-* [Watermarks in PDF document](/watermark/python-net/guides/watermarks-in-pdf-document/)
-* [Adding image watermarks](/watermark/python-net/guides/adding-image-watermarks/)
-* [Adding text watermarks](/watermark/python-net/guides/adding-text-watermarks/)
-* [Result of added watermarks](/watermark/python-net/guides/result-of-added-watermarks/)
-* [Add image watermarks](/watermark/python-net/guides/add-image/)
 * [Add text watermarks](/watermark/python-net/guides/add-text/)
+* [Add image watermarks](/watermark/python-net/guides/add-image/)
 * [Customize watermarks](/watermark/python-net/guides/customize/)
-* [GroupDocs.Watermark for Python via .NET Overview](/watermark/python-net/guides/product-overview/)
 
 ### See Also
 * module [`groupdocs.watermark.common`](/watermark/python-net/groupdocs.watermark.common/)

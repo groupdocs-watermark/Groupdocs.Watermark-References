@@ -46,10 +46,5 @@ with gw.Watermarker("presentation.pptx", load_options) as watermarker:
     print(content.slide_height)
 ```
 
-### Guides
-Task guides that use `PresentationLoadOptions`:
-
-* [Working with slide backgrounds](/watermark/python-net/guides/working-with-slide-backgrounds/)
-
 ### See Also
 * module [`groupdocs.watermark.options.presentation`](/watermark/python-net/groupdocs.watermark.options.presentation/)

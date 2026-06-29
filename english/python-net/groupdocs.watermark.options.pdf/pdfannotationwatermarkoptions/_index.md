@@ -62,10 +62,5 @@ with gw.Watermarker("document.pdf", load_options) as watermarker:
     watermarker.save("document.pdf")
 ```
 
-### Guides
-Task guides that use `PdfAnnotationWatermarkOptions`:
-
-* [Watermarks in PDF document](/watermark/python-net/guides/watermarks-in-pdf-document/)
-
 ### See Also
 * module [`groupdocs.watermark.options.pdf`](/watermark/python-net/groupdocs.watermark.options.pdf/)

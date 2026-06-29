@@ -23,10 +23,5 @@ The WordProcessingLockType type exposes the following members:
 | [READ_ONLY_WITH_EDITABLE_CONTENT](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessinglocktype/read_only_with_editable_content/) | The document is read-only, but all the content except of the watermark is marked as editable. |
 | [NO_LOCK](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessinglocktype/no_lock/) | Disable any lock on watermark and document. |
 
-### Guides
-Task guides that use `WordProcessingLockType`:
-
-* [Locking watermark in word processing document](/watermark/python-net/guides/locking-watermark-in-word-processing-document/)
-
 ### See Also
 * module [`groupdocs.watermark.options.word_processing`](/watermark/python-net/groupdocs.watermark.options.word_processing/)

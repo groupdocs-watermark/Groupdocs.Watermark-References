@@ -47,10 +47,5 @@ with gw.Watermarker("sample_2_pages.pdf") as watermarker:
     watermarker.save("output.pdf")
 ```
 
-### Guides
-Task guides that use `AddWatermarkResult`:
-
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
-
 ### See Also
 * module [`groupdocs.watermark.watermarks.results`](/watermark/python-net/groupdocs.watermark.watermarks.results/)

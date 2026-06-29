@@ -33,10 +33,5 @@ The PagesSetup type exposes the following members:
 | [pages](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/pages/) | The list of specific page numbers to include. |
 | [specified](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/specified/) | The property indicates whether any specific pages are specified. |
 
-### Guides
-Task guides that use `PagesSetup`:
-
-* [Adding text watermarks](/watermark/python-net/guides/adding-text-watermarks/)
-
 ### See Also
 * module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

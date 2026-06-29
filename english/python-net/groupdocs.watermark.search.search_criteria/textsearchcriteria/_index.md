@@ -55,12 +55,9 @@ with gw.Watermarker("document.pdf") as watermarker:
 ### Guides
 Task guides that use `TextSearchCriteria`:
 
-* [Email messages](/watermark/python-net/guides/email-messages/)
-* [Modifying found watermark properties](/watermark/python-net/guides/modifying-found-watermark-properties/)
-* [Removing found watermarks](/watermark/python-net/guides/removing-found-watermarks/)
 * [Searching watermarks](/watermark/python-net/guides/searching-watermarks/)
-* [Clear watermarks](/watermark/python-net/guides/clear/)
 * [Update watermarks](/watermark/python-net/guides/update/)
+* [Clear watermarks](/watermark/python-net/guides/clear/)
 
 ### See Also
 * module [`groupdocs.watermark.search.search_criteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/)

@@ -28,10 +28,5 @@ The Rectangle type exposes the following members:
 | [x](/watermark/python-net/groupdocs.watermark.common/rectangle/x/) | The x-coordinate of the upper-left corner. |
 | [y](/watermark/python-net/groupdocs.watermark.common/rectangle/y/) | The y-coordinate of the upper-left corner. |
 
-### Guides
-Task guides that use `Rectangle`:
-
-* [Existing objects in diagrams](/watermark/python-net/guides/existing-objects-in-diagram-document/)
-
 ### See Also
 * module [`groupdocs.watermark.common`](/watermark/python-net/groupdocs.watermark.common/)
