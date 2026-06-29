@@ -46,13 +46,5 @@ with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
     watermarker.save("spreadsheet.xlsx")
 ```
 
-### Guides
-Task guides that use `SpreadsheetLoadOptions`:
-
-* [Shapes in spreadsheet document](/watermark/python-net/guides/shapes-in-spreadsheet-document/)
-* [Working with spreadsheet document attachments](/watermark/python-net/guides/working-with-spreadsheet-document-attachments/)
-* [Working with worksheet backgrounds](/watermark/python-net/guides/working-with-worksheet-backgrounds/)
-* [Working with worksheet headers and footers](/watermark/python-net/guides/working-with-worksheet-headers-and-footers/)
-
 ### See Also
 * module [`groupdocs.watermark.options.spreadsheet`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/)

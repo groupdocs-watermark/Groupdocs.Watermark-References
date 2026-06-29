@@ -6,7 +6,7 @@ description: "GroupDocs.Watermark for Python via .NET adds, searches, and remove
 type: docs
 url: /python-net/guides/features-overview/
 is_root: false
-weight: 80
+weight: 30
 ---
 
 

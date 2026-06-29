@@ -1,12 +1,12 @@
 ---
 title: Get supported file formats
-linkTitle: "Get supported file"
+linkTitle: "Get supported file formats"
 second_title: GroupDocs.Watermark for Python via .NET API References
 description: "List all file formats supported by GroupDocs.Watermark for Python via .NET."
 type: docs
 url: /python-net/guides/get-supported-file-formats/
 is_root: false
-weight: 430
+weight: 130
 ---
 
 

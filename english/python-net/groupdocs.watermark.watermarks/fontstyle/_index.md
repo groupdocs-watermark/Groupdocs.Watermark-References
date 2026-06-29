@@ -22,10 +22,5 @@ The FontStyle type exposes the following members:
 | [UNDERLINE](/watermark/python-net/groupdocs.watermark.watermarks/fontstyle/underline/) | Underlined text. |
 | [STRIKEOUT](/watermark/python-net/groupdocs.watermark.watermarks/fontstyle/strikeout/) | Text with a line through the middle. |
 
-### Guides
-Task guides that use `FontStyle`:
-
-* [Modifying found watermark properties](/watermark/python-net/guides/modifying-found-watermark-properties/)
-
 ### See Also
 * module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

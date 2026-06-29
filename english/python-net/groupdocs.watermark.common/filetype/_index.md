@@ -115,7 +115,6 @@ for ft in supported:
 ### Guides
 Task guides that use `FileType`:
 
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
 * [Get supported file formats](/watermark/python-net/guides/get-supported-file-formats/)
 
 ### See Also

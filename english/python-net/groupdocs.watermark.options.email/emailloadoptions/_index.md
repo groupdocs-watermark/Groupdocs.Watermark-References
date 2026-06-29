@@ -44,11 +44,5 @@ with gw.Watermarker("message.msg", load_options) as watermarker:
     # manipulate email content, e.g., add or extract attachments
 ```
 
-### Guides
-Task guides that use `EmailLoadOptions`:
-
-* [Email attachments](/watermark/python-net/guides/email-attachments/)
-* [Email messages](/watermark/python-net/guides/email-messages/)
-
 ### See Also
 * module [`groupdocs.watermark.options.email`](/watermark/python-net/groupdocs.watermark.options.email/)

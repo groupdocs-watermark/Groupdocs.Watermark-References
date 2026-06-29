@@ -54,10 +54,5 @@ with gw.Watermarker("document.docx", load_options) as watermarker:
     watermarker.save("document.docx")
 ```
 
-### Guides
-Task guides that use `WordProcessingImageEffects`:
-
-* [Watermarks in word processing document](/watermark/python-net/guides/watermarks-in-word-processing-document/)
-
 ### See Also
 * module [`groupdocs.watermark.options.word_processing`](/watermark/python-net/groupdocs.watermark.options.word_processing/)

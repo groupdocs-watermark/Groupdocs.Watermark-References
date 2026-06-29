@@ -6,7 +6,7 @@ description: "Retrieve file type, page count, and size of a document using Group
 type: docs
 url: /python-net/guides/get-document-info/
 is_root: false
-weight: 420
+weight: 120
 ---
 
 

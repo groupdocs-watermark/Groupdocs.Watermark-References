@@ -30,10 +30,5 @@ The PossibleWatermarkCollection type exposes the following members:
 | :- | :- |
 | [is_read_only](/watermark/python-net/groupdocs.watermark.common/removeonlylistbase/is_read_only/) |  (inherited from [`RemoveOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/removeonlylistbase/)) |
 
-### Guides
-Task guides that use `PossibleWatermarkCollection`:
-
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
-
 ### See Also
 * module [`groupdocs.watermark.search`](/watermark/python-net/groupdocs.watermark.search/)

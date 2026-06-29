@@ -52,7 +52,6 @@ settings.searchable_objects = gws.SearchableObjects(
 ### Guides
 Task guides that use `WatermarkerSettings`:
 
-* [Email messages](/watermark/python-net/guides/email-messages/)
 * [Searching watermarks](/watermark/python-net/guides/searching-watermarks/)
 
 ### See Also

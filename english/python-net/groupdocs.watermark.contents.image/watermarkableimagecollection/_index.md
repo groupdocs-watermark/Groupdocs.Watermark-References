@@ -31,10 +31,5 @@ The WatermarkableImageCollection type exposes the following members:
 | [is_read_only](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/is_read_only/) |  (inherited from [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/)) |
 | [item](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/item/) |  (inherited from [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/)) |
 
-### Guides
-Task guides that use `WatermarkableImageCollection`:
-
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
-
 ### See Also
 * module [`groupdocs.watermark.contents.image`](/watermark/python-net/groupdocs.watermark.contents.image/)

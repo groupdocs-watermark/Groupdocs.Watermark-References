@@ -6,7 +6,7 @@ description: "Find possible text and image watermarks with powerful criteria —
 type: docs
 url: /python-net/guides/searching-watermarks/
 is_root: false
-weight: 110
+weight: 80
 ---
 
 

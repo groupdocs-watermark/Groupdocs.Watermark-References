@@ -1,8 +1,7 @@
 ---
 title: Email attachments
-linkTitle: "Email attachments"
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Extract, add, and remove the attachments of an email message using GroupDocs.Watermark for Python via .NET."
+description: 
 type: docs
 url: /python-net/guides/email-attachments/
 is_root: false
@@ -10,97 +9,53 @@ weight: 50
 ---
 
 
-`EmailContent.attachments` is the collection of files attached to an email message. Each attachment exposes its `name`, `content` (bytes), and `get_document_info()`, and you can add and remove attachments.
+## Extracting all attachments from email message
 
-## Extract all attachments
-
-  
 ```python
-from groupdocs.watermark import Watermarker
-from groupdocs.watermark.options.email import EmailLoadOptions
+import os
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.email as gwc_email
 
-def extract_attachments():
-    with Watermarker("./message.msg", EmailLoadOptions()) as watermarker:
-        content = watermarker.get_content()
-        print("Attachments:", len(content.attachments))
-        for attachment in content.attachments:
-            info = attachment.get_document_info()
-            print(f"- {attachment.name!r} type={info.file_type}")
-            with open(f"./{attachment.name}", "wb") as f:
-                f.write(attachment.content)
+output_dir = os.path.join("SampleFiles", "Output")
+os.makedirs(output_dir, exist_ok=True)
 
-if __name__ == "__main__":
-    extract_attachments()
+load_options = gw.EmailLoadOptions()
+with gw.Watermarker("message.msg", load_options) as watermarker:
+    content = watermarker.get_content(gwc_email.EmailContent)
+    for attachment in content.attachments:
+        print("Name:", attachment.name)
+        print("File format:", attachment.get_document_info().file_type)
+        with open(os.path.join(output_dir, attachment.name), "wb") as f:
+            f.write(attachment.content)
 ```
 
-  
+## Removing particular attachment from email message
 
-`message.msg` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-email-attachments/email-attachments/message.msg) to download it.
-
-  
-```text
-Binary file (DOCX, 118 KB)
-```
-[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-email-attachments/email-attachments/extract_attachments/sample.docx)
-
-## Add an attachment
-
-  
 ```python
-from groupdocs.watermark import Watermarker
-from groupdocs.watermark.options.email import EmailLoadOptions
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.email as gwc_email
+from groupdocs.watermark.common import FileType
 
-def add_attachment():
-    with Watermarker("./message.msg", EmailLoadOptions()) as watermarker:
-        content = watermarker.get_content()
-        with open("./sample.docx", "rb") as f:
-            data = f.read()
-        content.attachments.add(data, "sample.docx")
-        watermarker.save("./output.msg")
-
-if __name__ == "__main__":
-    add_attachment()
+load_options = gw.EmailLoadOptions()
+with gw.Watermarker("message.msg", load_options) as watermarker:
+    content = watermarker.get_content(gwc_email.EmailContent)
+    for i in range(content.attachments.count - 1, -1, -1):
+        attachment = content.attachments[i]
+        if ("sample" in attachment.name) and (attachment.get_document_info().file_type == FileType.DOCX):
+            content.attachments.remove_at(i)
+    watermarker.save("message.msg")
 ```
 
-  
+## Adding attachment to email message
 
-`message.msg` and `sample.docx` are the sample files used in this example. Download [message.msg](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-email-attachments/email-attachments/message.msg) and [sample.docx](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-email-attachments/email-attachments/sample.docx).
-
-  
-```text
-Binary file (MSG, 254 KB)
-```
-[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-email-attachments/email-attachments/add_attachment/output.msg)
-
-## Remove an attachment
-
-The `attachments` collection supports `remove_at(index)` and `remove(attachment)`. Iterate in reverse when removing by index:
-
-  
 ```python
-from groupdocs.watermark import Watermarker
-from groupdocs.watermark.options.email import EmailLoadOptions
+import groupdocs.watermark as gw
+import groupdocs.watermark.contents.email as gwc_email
 
-def remove_attachment():
-    with Watermarker("./message.msg", EmailLoadOptions()) as watermarker:
-        content = watermarker.get_content()
-        for i in range(len(content.attachments) - 1, -1, -1):
-            if "sample" in content.attachments[i].name:
-                content.attachments.remove_at(i)
-        watermarker.save("./output.msg")
-
-if __name__ == "__main__":
-    remove_attachment()
+load_options = gw.EmailLoadOptions()
+with gw.Watermarker("message.msg", load_options) as watermarker:
+    content = watermarker.get_content(gwc_email.EmailContent)
+    with open("sample.msg", "rb") as f:
+        content.attachments.add(f.read(), "sample.msg")
+    watermarker.save("message.msg")
 ```
-
-  
-
-`message.msg` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-email-attachments/email-attachments/message.msg) to download it.
-
-  
-```text
-Binary file (MSG, 12 KB)
-```
-[Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/adding-watermarks/add-watermarks-to-email-attachments/email-attachments/remove_attachment/output.msg)
-
-To watermark an attached document, open `attachment.content` in its own [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/) (via `io.BytesIO`), add the watermark, and write the bytes back — the same pattern shown for [spreadsheet attachments]().

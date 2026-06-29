@@ -6,7 +6,7 @@ description: "Quickly get started with GroupDocs.Watermark for Python via .NET b
 type: docs
 url: /python-net/guides/hello-world/
 is_root: false
-weight: 180
+weight: 20
 ---
 
 

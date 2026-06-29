@@ -48,7 +48,6 @@ foreground_range.max_brightness = 0.99
 ### Guides
 Task guides that use `ColorRange`:
 
-* [Removing found watermarks](/watermark/python-net/guides/removing-found-watermarks/)
 * [Searching watermarks](/watermark/python-net/guides/searching-watermarks/)
 
 ### See Also

@@ -61,7 +61,6 @@ for file in files:
 ### Guides
 Task guides that use `SearchableObjects`:
 
-* [Email messages](/watermark/python-net/guides/email-messages/)
 * [Searching watermarks](/watermark/python-net/guides/searching-watermarks/)
 
 ### See Also

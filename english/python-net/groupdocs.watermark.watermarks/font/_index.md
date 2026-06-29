@@ -48,23 +48,10 @@ font = Font("CustomFontName", fonts_folder, 36.0)
 ### Guides
 Task guides that use `Font`:
 
-* [Adding watermark to images inside a document](/watermark/python-net/guides/adding-watermark-to-images-inside-a-document/)
-* [Rasterize document or page](/watermark/python-net/guides/rasterize-document-or-page/)
-* [Watermarks in PDF document](/watermark/python-net/guides/watermarks-in-pdf-document/)
-* [Working with slide backgrounds](/watermark/python-net/guides/working-with-slide-backgrounds/)
-* [Working with spreadsheet document attachments](/watermark/python-net/guides/working-with-spreadsheet-document-attachments/)
-* [Working with worksheet backgrounds](/watermark/python-net/guides/working-with-worksheet-backgrounds/)
-* [Working with worksheet headers and footers](/watermark/python-net/guides/working-with-worksheet-headers-and-footers/)
-* [Locking watermark in word processing document](/watermark/python-net/guides/locking-watermark-in-word-processing-document/)
-* [Adding text watermarks](/watermark/python-net/guides/adding-text-watermarks/)
-* [Result of added watermarks](/watermark/python-net/guides/result-of-added-watermarks/)
-* [Modifying found watermark properties](/watermark/python-net/guides/modifying-found-watermark-properties/)
-* [Add text watermarks](/watermark/python-net/guides/add-text/)
-* [Adding repeated watermarks](/watermark/python-net/guides/adding-repeated-watermarks/)
-* [Customize watermarks](/watermark/python-net/guides/customize/)
 * [Hello, World!](/watermark/python-net/guides/hello-world/)
-* [Quick Start Guide](/watermark/python-net/guides/quick-start-guide/)
-* [GroupDocs.Watermark for Python via .NET Overview](/watermark/python-net/guides/product-overview/)
+* [Add text watermarks](/watermark/python-net/guides/add-text/)
+* [Customize watermarks](/watermark/python-net/guides/customize/)
+* [Adding repeated watermarks](/watermark/python-net/guides/adding-repeated-watermarks/)
 
 ### See Also
 * module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

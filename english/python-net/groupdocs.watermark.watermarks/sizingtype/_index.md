@@ -24,12 +24,7 @@ The SizingType type exposes the following members:
 ### Guides
 Task guides that use `SizingType`:
 
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
-* [Adding watermark to images inside a document](/watermark/python-net/guides/adding-watermark-to-images-inside-a-document/)
-* [Adding image watermarks](/watermark/python-net/guides/adding-image-watermarks/)
-* [Adding text watermarks](/watermark/python-net/guides/adding-text-watermarks/)
 * [Customize watermarks](/watermark/python-net/guides/customize/)
-* [GroupDocs.Watermark for Python via .NET Overview](/watermark/python-net/guides/product-overview/)
 
 ### See Also
 * module [`groupdocs.watermark.watermarks`](/watermark/python-net/groupdocs.watermark.watermarks/)

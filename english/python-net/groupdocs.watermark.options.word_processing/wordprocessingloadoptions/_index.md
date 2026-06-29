@@ -46,13 +46,5 @@ with gw.Watermarker("document.docx", load_options) as watermarker:
     watermarker.save("document.docx")
 ```
 
-### Guides
-Task guides that use `WordProcessingLoadOptions`:
-
-* [Existing objects in word processing document](/watermark/python-net/guides/existing-objects-in-word-processing-document/)
-* [Locking watermark in word processing document](/watermark/python-net/guides/locking-watermark-in-word-processing-document/)
-* [Protecting word processing documents](/watermark/python-net/guides/protecting-word-processing-documents/)
-* [Watermarks in word processing document](/watermark/python-net/guides/watermarks-in-word-processing-document/)
-
 ### See Also
 * module [`groupdocs.watermark.options.word_processing`](/watermark/python-net/groupdocs.watermark.options.word_processing/)

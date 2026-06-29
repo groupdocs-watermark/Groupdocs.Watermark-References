@@ -71,7 +71,6 @@ with gw.Watermarker("document.pdf") as watermarker:
 ### Guides
 Task guides that use `TextFormattingSearchCriteria`:
 
-* [Removing found watermarks](/watermark/python-net/guides/removing-found-watermarks/)
 * [Searching watermarks](/watermark/python-net/guides/searching-watermarks/)
 
 ### See Also

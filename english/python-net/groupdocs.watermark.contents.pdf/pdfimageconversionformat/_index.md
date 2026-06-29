@@ -20,10 +20,5 @@ The PdfImageConversionFormat type exposes the following members:
 | [PNG](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfimageconversionformat/png/) | Png image. |
 | [GIF](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfimageconversionformat/gif/) | Gif image. |
 
-### Guides
-Task guides that use `PdfImageConversionFormat`:
-
-* [Rasterize document or page](/watermark/python-net/guides/rasterize-document-or-page/)
-
 ### See Also
 * module [`groupdocs.watermark.contents.pdf`](/watermark/python-net/groupdocs.watermark.contents.pdf/)

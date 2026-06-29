@@ -6,7 +6,7 @@ description: "Search for and remove existing text or image watermarks using Grou
 type: docs
 url: /python-net/guides/clear/
 is_root: false
-weight: 380
+weight: 100
 ---
 
 

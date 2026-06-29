@@ -24,10 +24,5 @@ The Content type exposes the following members:
 | [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
-### Guides
-Task guides that use `Content`:
-
-* [AI agents and LLM integration](/watermark/python-net/guides/agents-and-llm-integration/)
-
 ### See Also
 * module [`groupdocs.watermark.contents`](/watermark/python-net/groupdocs.watermark.contents/)

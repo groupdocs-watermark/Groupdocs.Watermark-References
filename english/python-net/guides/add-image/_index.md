@@ -6,7 +6,7 @@ description: "This article shows how to add an image watermark to a document and
 type: docs
 url: /python-net/guides/add-image/
 is_root: false
-weight: 140
+weight: 50
 ---
 
 

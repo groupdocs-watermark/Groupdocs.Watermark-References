@@ -26,10 +26,5 @@ The Point type exposes the following members:
 | [x](/watermark/python-net/groupdocs.watermark.common/point/x/) | The x-coordinate of this point. |
 | [y](/watermark/python-net/groupdocs.watermark.common/point/y/) | The y-coordinate of this point. |
 
-### Guides
-Task guides that use `Point`:
-
-* [Adding text watermarks](/watermark/python-net/guides/adding-text-watermarks/)
-
 ### See Also
 * module [`groupdocs.watermark.common`](/watermark/python-net/groupdocs.watermark.common/)

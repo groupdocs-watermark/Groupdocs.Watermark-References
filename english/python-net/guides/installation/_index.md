@@ -6,7 +6,7 @@ description: "Install GroupDocs.Watermark for Python via .NET on Windows, Linux,
 type: docs
 url: /python-net/guides/installation/
 is_root: false
-weight: 100
+weight: 10
 ---
 
 

@@ -6,7 +6,7 @@ description: "This article shows how to add a text watermark to a document and s
 type: docs
 url: /python-net/guides/add-text/
 is_root: false
-weight: 10
+weight: 40
 ---
 
 

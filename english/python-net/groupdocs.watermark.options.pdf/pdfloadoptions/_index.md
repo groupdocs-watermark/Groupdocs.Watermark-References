@@ -47,14 +47,5 @@ with gw.Watermarker("document.pdf", load_options) as watermarker:
     pass
 ```
 
-### Guides
-Task guides that use `PdfLoadOptions`:
-
-* [Adding watermark to images inside a document](/watermark/python-net/guides/adding-watermark-to-images-inside-a-document/)
-* [Attachments in PDF document](/watermark/python-net/guides/attachments-in-pdf-document/)
-* [Existing objects in PDF document](/watermark/python-net/guides/existing-objects-in-pdf-document/)
-* [Rasterize document or page](/watermark/python-net/guides/rasterize-document-or-page/)
-* [Watermarks in PDF document](/watermark/python-net/guides/watermarks-in-pdf-document/)
-
 ### See Also
 * module [`groupdocs.watermark.options.pdf`](/watermark/python-net/groupdocs.watermark.options.pdf/)
