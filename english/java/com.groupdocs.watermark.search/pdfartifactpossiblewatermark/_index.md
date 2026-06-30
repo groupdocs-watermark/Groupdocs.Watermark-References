@@ -13,6 +13,7 @@ public class PdfArtifactPossibleWatermark extends ShapePossibleWatermark<PdfArti
 ```
 
 Represents possible artifact watermark in a pdf content.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Represents possible artifact watermark in a pdf content.
 
 | Method | Description |
 | --- | --- |
-| [getParent()](#getParent--) | Gets the parent of this `[PdfArtifactPossibleWatermark](../../com.groupdocs.watermark.search/pdfartifactpossiblewatermark)`. |
+| [getParent()](#getParent--) | Gets the parent of this `[PdfArtifactPossibleWatermark](../../com.groupdocs.watermark.search/pdfartifactpossiblewatermark)`.
+ |
 ### PdfArtifactPossibleWatermark(PdfArtifact artifact, PdfArtifactCollection artifactCollection) {#PdfArtifactPossibleWatermark-com.groupdocs.watermark.contents.PdfArtifact-com.groupdocs.watermark.contents.PdfArtifactCollection-}
 ```
 public PdfArtifactPossibleWatermark(PdfArtifact artifact, PdfArtifactCollection artifactCollection)
@@ -45,5 +47,7 @@ public ContentPart getParent()
 
 Gets the parent of this `[PdfArtifactPossibleWatermark](../../com.groupdocs.watermark.search/pdfartifactpossiblewatermark)`.
 
+
 **Returns:**
 [ContentPart](../../com.groupdocs.watermark.contents/contentpart) - The parent of this `[PdfArtifactPossibleWatermark](../../com.groupdocs.watermark.search/pdfartifactpossiblewatermark)`.
+

@@ -16,40 +16,42 @@ Represents criteria allowing filtering by watermark rotate angle.
 
 **Learn more:**
 
- *  [Searching watermarks][]
+* [Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks)
 
 The following example demonstrates how to find and remove watermarks using search criteria.
-
+>
+> ````
 > ```
-> ```
-> 
+>
 >    Watermarker watermarker = new Watermarker("C:\\test.some_ext");
 >    SizeSearchCriteria widthRange = new SizeSearchCriteria(Dimension.Width, 50, 100);
 >    RotateAngleSearchCriteria rotateAngle = new RotateAngleSearchCriteria(0, 45);
 >    TextSearchCriteria textCriteria = new TextSearchCriteria(Pattern.compile("^Test watermark$"));
-> 
+>
 >    PossibleWatermarkCollection watermarks = watermarker.search(textCriteria.and(widthRange.or(rotateAngle)));
 >    watermarks.clear();
-> 
+>
 >    watermarker.save("C:\\modified_test.some_ext");
 >    watermarker.close();
 >  
 > ```
-> ```
+> ````
 
 
-[Searching watermarks]: https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [RotateAngleSearchCriteria(double minAngle, double maxAngle)](#RotateAngleSearchCriteria-double-double-) | Initializes a new instance of the `[RotateAngleSearchCriteria](../../com.groupdocs.watermark.search/rotateanglesearchcriteria)` class with a starting angle and a ending angle. |
+| [RotateAngleSearchCriteria(double minAngle, double maxAngle)](#RotateAngleSearchCriteria-double-double-) | Initializes a new instance of the `[RotateAngleSearchCriteria](../../com.groupdocs.watermark.search/rotateanglesearchcriteria)` class with a starting angle and a ending angle.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getMinimumAngle()](#getMinimumAngle--) | Gets the starting angle in degrees. |
-| [getMaximumAngle()](#getMaximumAngle--) | Gets the ending angle in degrees. |
+| [getMinimumAngle()](#getMinimumAngle--) | Gets the starting angle in degrees.
+ |
+| [getMaximumAngle()](#getMaximumAngle--) | Gets the ending angle in degrees.
+ |
 | [isSatisfiedBy(PossibleWatermark candidate)](#isSatisfiedBy-com.groupdocs.watermark.search.PossibleWatermark-) |  |
 | [accept(ICriteriaVisitor visitor)](#accept-com.groupdocs.watermark.internal.ICriteriaVisitor-) |  |
 ### RotateAngleSearchCriteria(double minAngle, double maxAngle) {#RotateAngleSearchCriteria-double-double-}
@@ -60,11 +62,14 @@ public RotateAngleSearchCriteria(double minAngle, double maxAngle)
 
 Initializes a new instance of the `[RotateAngleSearchCriteria](../../com.groupdocs.watermark.search/rotateanglesearchcriteria)` class with a starting angle and a ending angle.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| minAngle | double | The starting angle in degrees. |
-| maxAngle | double | The ending angle in degrees. |
+| minAngle | double | The starting angle in degrees.
+ |
+| maxAngle | double | The ending angle in degrees.
+ |
 
 ### getMinimumAngle() {#getMinimumAngle--}
 ```
@@ -74,8 +79,10 @@ public final double getMinimumAngle()
 
 Gets the starting angle in degrees.
 
+
 **Returns:**
 double - The starting angle.
+
 ### getMaximumAngle() {#getMaximumAngle--}
 ```
 public final double getMaximumAngle()
@@ -84,8 +91,10 @@ public final double getMaximumAngle()
 
 Gets the ending angle in degrees.
 
+
 **Returns:**
 double - The ending angle.
+
 ### isSatisfiedBy(PossibleWatermark candidate) {#isSatisfiedBy-com.groupdocs.watermark.search.PossibleWatermark-}
 ```
 public boolean isSatisfiedBy(PossibleWatermark candidate)

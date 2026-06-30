@@ -13,11 +13,13 @@ public final class TiffImageSaveOptions extends ImageSaveOptions
 ```
 
 Represents image saving options when saving a TIFF image.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TiffImageSaveOptions()](#TiffImageSaveOptions--) | Initializes a new instance of the `[TiffImageSaveOptions](../../com.groupdocs.watermark.options/tiffimagesaveoptions)` class. |
+| [TiffImageSaveOptions()](#TiffImageSaveOptions--) | Initializes a new instance of the `[TiffImageSaveOptions](../../com.groupdocs.watermark.options/tiffimagesaveoptions)` class.
+ |
 ### TiffImageSaveOptions() {#TiffImageSaveOptions--}
 ```
 public TiffImageSaveOptions()
@@ -25,4 +27,5 @@ public TiffImageSaveOptions()
 
 
 Initializes a new instance of the `[TiffImageSaveOptions](../../com.groupdocs.watermark.options/tiffimagesaveoptions)` class.
+
 

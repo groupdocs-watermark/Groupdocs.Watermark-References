@@ -13,6 +13,7 @@ public class SpreadsheetShapePossibleWatermark extends ShapePossibleWatermark<Sp
 ```
 
 Represents possible shape watermark in an Excel document.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Represents possible shape watermark in an Excel document.
 
 | Method | Description |
 | --- | --- |
-| [getParent()](#getParent--) | Gets the parent of this `[SpreadsheetShapePossibleWatermark](../../com.groupdocs.watermark.search/spreadsheetshapepossiblewatermark)`. |
+| [getParent()](#getParent--) | Gets the parent of this `[SpreadsheetShapePossibleWatermark](../../com.groupdocs.watermark.search/spreadsheetshapepossiblewatermark)`.
+ |
 ### SpreadsheetShapePossibleWatermark(SpreadsheetShape shape, SpreadsheetShapeCollection shapeCollection) {#SpreadsheetShapePossibleWatermark-com.groupdocs.watermark.contents.SpreadsheetShape-com.groupdocs.watermark.contents.SpreadsheetShapeCollection-}
 ```
 public SpreadsheetShapePossibleWatermark(SpreadsheetShape shape, SpreadsheetShapeCollection shapeCollection)
@@ -45,5 +47,7 @@ public ContentPart getParent()
 
 Gets the parent of this `[SpreadsheetShapePossibleWatermark](../../com.groupdocs.watermark.search/spreadsheetshapepossiblewatermark)`.
 
+
 **Returns:**
 [ContentPart](../../com.groupdocs.watermark.contents/contentpart) - The parent of this `[SpreadsheetShapePossibleWatermark](../../com.groupdocs.watermark.search/spreadsheetshapepossiblewatermark)`.
+

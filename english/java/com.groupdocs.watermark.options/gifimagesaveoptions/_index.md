@@ -13,11 +13,13 @@ public final class GifImageSaveOptions extends ImageSaveOptions
 ```
 
 Represents image saving options when saving a GIF image.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [GifImageSaveOptions()](#GifImageSaveOptions--) | Initializes a new instance of the `[GifImageSaveOptions](../../com.groupdocs.watermark.options/gifimagesaveoptions)` class. |
+| [GifImageSaveOptions()](#GifImageSaveOptions--) | Initializes a new instance of the `[GifImageSaveOptions](../../com.groupdocs.watermark.options/gifimagesaveoptions)` class.
+ |
 ### GifImageSaveOptions() {#GifImageSaveOptions--}
 ```
 public GifImageSaveOptions()
@@ -25,4 +27,5 @@ public GifImageSaveOptions()
 
 
 Initializes a new instance of the `[GifImageSaveOptions](../../com.groupdocs.watermark.options/gifimagesaveoptions)` class.
+
 

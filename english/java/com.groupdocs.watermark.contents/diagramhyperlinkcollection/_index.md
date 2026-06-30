@@ -15,16 +15,21 @@ public class DiagramHyperlinkCollection extends RemoveOnlyListBase<DiagramHyperl
 Represents a collection of hyperlinks in a Visio document.
 
 This collection contains items of `[DiagramHyperlink](../../com.groupdocs.watermark.contents/diagramhyperlink)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [removeFromDocument(DiagramHyperlink item)](#removeFromDocument-com.groupdocs.watermark.contents.DiagramHyperlink-) |  |
+| [removeFromDocument(DiagramHyperlink item)](#removeFromDocument-com.groupdocs.watermark.contents.DiagramHyperlink-) | <br />
+
+ |
 ### removeFromDocument(DiagramHyperlink item) {#removeFromDocument-com.groupdocs.watermark.contents.DiagramHyperlink-}
 ```
 public void removeFromDocument(DiagramHyperlink item)
 ```
 
+
+<br />
 
 
 

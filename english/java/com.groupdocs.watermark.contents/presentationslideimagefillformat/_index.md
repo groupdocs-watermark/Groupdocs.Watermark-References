@@ -13,12 +13,15 @@ public class PresentationSlideImageFillFormat extends PresentationImageFillForma
 ```
 
 Represents the image fill format settings for a slide in a PowerPoint document.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getBackgroundImage()](#getBackgroundImage--) | Gets the background image. |
-| [setBackgroundImage(PresentationWatermarkableImage value)](#setBackgroundImage-com.groupdocs.watermark.contents.PresentationWatermarkableImage-) | Sets the background image. |
+| [getBackgroundImage()](#getBackgroundImage--) | Gets the background image.
+ |
+| [setBackgroundImage(PresentationWatermarkableImage value)](#setBackgroundImage-com.groupdocs.watermark.contents.PresentationWatermarkableImage-) | Sets the background image.
+ |
 ### getBackgroundImage() {#getBackgroundImage--}
 ```
 public PresentationWatermarkableImage getBackgroundImage()
@@ -27,8 +30,10 @@ public PresentationWatermarkableImage getBackgroundImage()
 
 Gets the background image.
 
+
 **Returns:**
 [PresentationWatermarkableImage](../../com.groupdocs.watermark.contents/presentationwatermarkableimage) - The background image or `null` if the image is not set.
+
 ### setBackgroundImage(PresentationWatermarkableImage value) {#setBackgroundImage-com.groupdocs.watermark.contents.PresentationWatermarkableImage-}
 ```
 public void setBackgroundImage(PresentationWatermarkableImage value)
@@ -37,8 +42,10 @@ public void setBackgroundImage(PresentationWatermarkableImage value)
 
 Sets the background image.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PresentationWatermarkableImage](../../com.groupdocs.watermark.contents/presentationwatermarkableimage) | The background image or `null` if the image should be removed. |
+| value | [PresentationWatermarkableImage](../../com.groupdocs.watermark.contents/presentationwatermarkableimage) | The background image or `null` if the image should be removed.
+ |
 

@@ -13,3 +13,4 @@ public abstract class WordProcessingFormattedTextFragmentCollection extends Form
 ```
 
 Represents a collection of formatted text fragments in a Word document.
+

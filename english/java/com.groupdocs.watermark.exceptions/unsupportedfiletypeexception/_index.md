@@ -13,11 +13,13 @@ public class UnsupportedFileTypeException extends WatermarkException
 ```
 
 The exception that is thrown when a file cannot be loaded.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [UnsupportedFileTypeException()](#UnsupportedFileTypeException--) | Initializes a new instance of the `[UnsupportedFileTypeException](../../com.groupdocs.watermark.exceptions/unsupportedfiletypeexception)` class. |
+| [UnsupportedFileTypeException()](#UnsupportedFileTypeException--) | Initializes a new instance of the `[UnsupportedFileTypeException](../../com.groupdocs.watermark.exceptions/unsupportedfiletypeexception)` class.
+ |
 ### UnsupportedFileTypeException() {#UnsupportedFileTypeException--}
 ```
 public UnsupportedFileTypeException()
@@ -25,4 +27,5 @@ public UnsupportedFileTypeException()
 
 
 Initializes a new instance of the `[UnsupportedFileTypeException](../../com.groupdocs.watermark.exceptions/unsupportedfiletypeexception)` class.
+
 

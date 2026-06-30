@@ -13,11 +13,13 @@ public final class UnknownWatermarkOptionsTypeException extends WatermarkExcepti
 ```
 
 The exception that is thrown when a watermark cannot be added with supplied `[WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions)`.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [UnknownWatermarkOptionsTypeException()](#UnknownWatermarkOptionsTypeException--) | Initializes a new instance of the `[UnknownWatermarkOptionsTypeException](../../com.groupdocs.watermark.exceptions/unknownwatermarkoptionstypeexception)` class. |
+| [UnknownWatermarkOptionsTypeException()](#UnknownWatermarkOptionsTypeException--) | Initializes a new instance of the `[UnknownWatermarkOptionsTypeException](../../com.groupdocs.watermark.exceptions/unknownwatermarkoptionstypeexception)` class.
+ |
 ### UnknownWatermarkOptionsTypeException() {#UnknownWatermarkOptionsTypeException--}
 ```
 public UnknownWatermarkOptionsTypeException()
@@ -25,4 +27,5 @@ public UnknownWatermarkOptionsTypeException()
 
 
 Initializes a new instance of the `[UnknownWatermarkOptionsTypeException](../../com.groupdocs.watermark.exceptions/unknownwatermarkoptionstypeexception)` class.
+
 

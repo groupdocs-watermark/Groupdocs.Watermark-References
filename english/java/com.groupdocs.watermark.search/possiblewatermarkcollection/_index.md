@@ -15,6 +15,7 @@ public class PossibleWatermarkCollection extends RemoveOnlyListBase<PossibleWate
 Represents a collection of possible watermarks found in a content.
 
 This collection contains the items of `[PossibleWatermark](../../com.groupdocs.watermark.search/possiblewatermark)` type.
+
 ## Constructors
 
 | Constructor | Description |
@@ -54,6 +55,8 @@ public void addInternally(PossibleWatermark item)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -66,6 +69,8 @@ public void addInternally(PossibleWatermark item)
 public void removeFromDocument(PossibleWatermark item)
 ```
 
+
+<br />
 
 
 

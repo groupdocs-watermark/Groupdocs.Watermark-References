@@ -8,32 +8,50 @@ url: /java/com.groupdocs.watermark.search/ihyperlinkcontainer/
 ---```
 public interface IHyperlinkContainer
 ```
+
+<br />
+
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getHyperlink()](#getHyperlink--) | Gets the hyperlink associated with this  IHyperlinkContainer . |
-| [setHyperlink(String value)](#setHyperlink-java.lang.String-) | Sets the hyperlink associated with this  IHyperlinkContainer . |
+| [getHyperlink()](#getHyperlink--) | Gets the hyperlink associated with this 
+IHyperlinkContainer
+.
+ |
+| [setHyperlink(String value)](#setHyperlink-java.lang.String-) | Sets the hyperlink associated with this 
+IHyperlinkContainer
+.
+ |
 ### getHyperlink() {#getHyperlink--}
 ```
 public abstract String getHyperlink()
 ```
 
 
-Gets the hyperlink associated with this  IHyperlinkContainer .
+Gets the hyperlink associated with this 
+IHyperlinkContainer
+.
+
 
 **Returns:**
 java.lang.String - The hyperlink associated with this  IHyperlinkContainer .
+
 ### setHyperlink(String value) {#setHyperlink-java.lang.String-}
 ```
 public abstract void setHyperlink(String value)
 ```
 
 
-Sets the hyperlink associated with this  IHyperlinkContainer .
+Sets the hyperlink associated with this 
+IHyperlinkContainer
+.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The hyperlink associated with this  IHyperlinkContainer . |
+| value | java.lang.String | The hyperlink associated with this  IHyperlinkContainer .
+ |
 

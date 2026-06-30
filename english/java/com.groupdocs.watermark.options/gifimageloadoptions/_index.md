@@ -13,11 +13,13 @@ public final class GifImageLoadOptions extends MultiframeImageLoadOptions
 ```
 
 Represents image loading options for a GIF image.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [GifImageLoadOptions()](#GifImageLoadOptions--) | Initializes a new instance of the `[GifImageLoadOptions](../../com.groupdocs.watermark.options/gifimageloadoptions)` class. |
+| [GifImageLoadOptions()](#GifImageLoadOptions--) | Initializes a new instance of the `[GifImageLoadOptions](../../com.groupdocs.watermark.options/gifimageloadoptions)` class.
+ |
 ### GifImageLoadOptions() {#GifImageLoadOptions--}
 ```
 public GifImageLoadOptions()
@@ -25,4 +27,5 @@ public GifImageLoadOptions()
 
 
 Initializes a new instance of the `[GifImageLoadOptions](../../com.groupdocs.watermark.options/gifimageloadoptions)` class.
+
 

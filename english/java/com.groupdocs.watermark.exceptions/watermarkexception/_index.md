@@ -13,12 +13,15 @@ public class WatermarkException extends RuntimeException
 ```
 
 Represents base exception in **GroupDocs.Watermark** product.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WatermarkException()](#WatermarkException--) | Initializes a new instance of the `[WatermarkException](../../com.groupdocs.watermark.exceptions/watermarkexception)` class. |
-| [WatermarkException(String message)](#WatermarkException-java.lang.String-) | Initializes a new instance of the `[WatermarkException](../../com.groupdocs.watermark.exceptions/watermarkexception)` class with a specified error message. |
+| [WatermarkException()](#WatermarkException--) | Initializes a new instance of the `[WatermarkException](../../com.groupdocs.watermark.exceptions/watermarkexception)` class.
+ |
+| [WatermarkException(String message)](#WatermarkException-java.lang.String-) | Initializes a new instance of the `[WatermarkException](../../com.groupdocs.watermark.exceptions/watermarkexception)` class with a specified error message.
+ |
 ### WatermarkException() {#WatermarkException--}
 ```
 public WatermarkException()
@@ -26,6 +29,7 @@ public WatermarkException()
 
 
 Initializes a new instance of the `[WatermarkException](../../com.groupdocs.watermark.exceptions/watermarkexception)` class.
+
 
 ### WatermarkException(String message) {#WatermarkException-java.lang.String-}
 ```
@@ -35,8 +39,10 @@ public WatermarkException(String message)
 
 Initializes a new instance of the `[WatermarkException](../../com.groupdocs.watermark.exceptions/watermarkexception)` class with a specified error message.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| message | java.lang.String | The message that describes the error. |
+| message | java.lang.String | The message that describes the error.
+ |
 

@@ -12,7 +12,9 @@ java.lang.Object
 public abstract class ShapeSearchAdapter
 ```
 
-Provides base class for a shape containing specific pieces of document that are to be included in watermark search.
+Provides base class for a shape containing specific pieces of document that are to be included in watermark
+search.
+
 ## Methods
 
 | Method | Description |

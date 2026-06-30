@@ -16,11 +16,13 @@ public final class WordProcessingImageEffects extends OfficeImageEffects impleme
 ```
 
 Represents effects that can be applied to an image watermark for a Word document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WordProcessingImageEffects()](#WordProcessingImageEffects--) | Initializes a new instance of the `[WordProcessingImageEffects](../../com.groupdocs.watermark.options/wordprocessingimageeffects)` class. |
+| [WordProcessingImageEffects()](#WordProcessingImageEffects--) | Initializes a new instance of the `[WordProcessingImageEffects](../../com.groupdocs.watermark.options/wordprocessingimageeffects)` class.
+ |
 ### WordProcessingImageEffects() {#WordProcessingImageEffects--}
 ```
 public WordProcessingImageEffects()
@@ -28,4 +30,5 @@ public WordProcessingImageEffects()
 
 
 Initializes a new instance of the `[WordProcessingImageEffects](../../com.groupdocs.watermark.options/wordprocessingimageeffects)` class.
+
 

@@ -13,3 +13,4 @@ public class EmailEmbeddedObject extends EmailAttachmentBase
 ```
 
 Represents an object embedded to an email message body.
+

@@ -13,3 +13,4 @@ public abstract class SpreadsheetWatermarkOptions extends WatermarkOptions
 ```
 
 Base class for watermark adding options to a Spreadsheet document.
+

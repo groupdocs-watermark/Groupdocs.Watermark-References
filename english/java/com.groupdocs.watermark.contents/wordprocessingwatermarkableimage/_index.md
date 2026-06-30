@@ -13,11 +13,13 @@ public class WordProcessingWatermarkableImage extends WatermarkableImage
 ```
 
 Represents an image inside a Word document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WordProcessingWatermarkableImage(byte[] imageData)](#WordProcessingWatermarkableImage-byte---) | Initializes a new instance of the `[WordProcessingWatermarkableImage](../../com.groupdocs.watermark.contents/wordprocessingwatermarkableimage)` class using specified image data. |
+| [WordProcessingWatermarkableImage(byte[] imageData)](#WordProcessingWatermarkableImage-byte---) | Initializes a new instance of the `[WordProcessingWatermarkableImage](../../com.groupdocs.watermark.contents/wordprocessingwatermarkableimage)` class using specified image data.
+ |
 | [WordProcessingWatermarkableImage(Content content, ImageData imageData, byte[] imageBytes)](#WordProcessingWatermarkableImage-com.groupdocs.watermark.contents.Content-com.aspose.words.ImageData-byte---) |  |
 ## Methods
 
@@ -33,10 +35,12 @@ public WordProcessingWatermarkableImage(byte[] imageData)
 
 Initializes a new instance of the `[WordProcessingWatermarkableImage](../../com.groupdocs.watermark.contents/wordprocessingwatermarkableimage)` class using specified image data.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageData | byte[] | The array of unsigned bytes from which to create the `[WordProcessingWatermarkableImage](../../com.groupdocs.watermark.contents/wordprocessingwatermarkableimage)`. |
+| imageData | byte[] | The array of unsigned bytes from which to create the `[WordProcessingWatermarkableImage](../../com.groupdocs.watermark.contents/wordprocessingwatermarkableimage)`.
+ |
 
 ### WordProcessingWatermarkableImage(Content content, ImageData imageData, byte[] imageBytes) {#WordProcessingWatermarkableImage-com.groupdocs.watermark.contents.Content-com.aspose.words.ImageData-byte---}
 ```

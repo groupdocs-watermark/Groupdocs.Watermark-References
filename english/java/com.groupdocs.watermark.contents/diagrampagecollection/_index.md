@@ -15,16 +15,21 @@ public class DiagramPageCollection extends ReadOnlyListBase<DiagramPage>
 Represents a collection of pages in a Visio document.
 
 This collection contains the items of `[DiagramPage](../../com.groupdocs.watermark.contents/diagrampage)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [findPage(Page asposePage)](#findPage-com.aspose.diagram.Page-) |  |
+| [findPage(Page asposePage)](#findPage-com.aspose.diagram.Page-) | <br />
+
+ |
 ### findPage(Page asposePage) {#findPage-com.aspose.diagram.Page-}
 ```
 public final DiagramPage findPage(Page asposePage)
 ```
 
+
+<br />
 
 
 

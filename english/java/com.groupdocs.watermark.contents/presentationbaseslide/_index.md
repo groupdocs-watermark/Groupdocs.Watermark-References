@@ -13,17 +13,29 @@ public abstract class PresentationBaseSlide extends ContentPart
 ```
 
 Provides the abstract base class for slides of all types in a PowerPoint document.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getShapes()](#getShapes--) | Gets the collection of all shapes of the presentation. |
-| [getCharts()](#getCharts--) | Gets the collection of all charts on the presentation. |
-| [getImageFillFormat()](#getImageFillFormat--) | Gets the image fill format settings of the presentation. |
-| [getAsposeSlidesSlide()](#getAsposeSlidesSlide--) |  |
-| [getWidth()](#getWidth--) |  |
-| [getHeight()](#getHeight--) |  |
-| [addWatermark(Watermark watermark, PresentationShapeSettings shapeSettings, IPresentationWatermarkEffects effects)](#addWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.contents.PresentationShapeSettings-com.groupdocs.watermark.options.IPresentationWatermarkEffects-) |  |
+| [getShapes()](#getShapes--) | Gets the collection of all shapes of the presentation.
+ |
+| [getCharts()](#getCharts--) | Gets the collection of all charts on the presentation.
+ |
+| [getImageFillFormat()](#getImageFillFormat--) | Gets the image fill format settings of the presentation.
+ |
+| [getAsposeSlidesSlide()](#getAsposeSlidesSlide--) | <br />
+
+ |
+| [getWidth()](#getWidth--) | <br />
+
+ |
+| [getHeight()](#getHeight--) | <br />
+
+ |
+| [addWatermark(Watermark watermark, PresentationShapeSettings shapeSettings, IPresentationWatermarkEffects effects)](#addWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.contents.PresentationShapeSettings-com.groupdocs.watermark.options.IPresentationWatermarkEffects-) | <br />
+
+ |
 ### getShapes() {#getShapes--}
 ```
 public final PresentationShapeCollection getShapes()
@@ -32,8 +44,10 @@ public final PresentationShapeCollection getShapes()
 
 Gets the collection of all shapes of the presentation.
 
+
 **Returns:**
 [PresentationShapeCollection](../../com.groupdocs.watermark.contents/presentationshapecollection) - The collection of all shapes of the presentation.
+
 ### getCharts() {#getCharts--}
 ```
 public final PresentationChartCollection getCharts()
@@ -42,8 +56,10 @@ public final PresentationChartCollection getCharts()
 
 Gets the collection of all charts on the presentation.
 
+
 **Returns:**
 [PresentationChartCollection](../../com.groupdocs.watermark.contents/presentationchartcollection) - The collection of all charts on the presentation.
+
 ### getImageFillFormat() {#getImageFillFormat--}
 ```
 public final PresentationImageFillFormat getImageFillFormat()
@@ -52,13 +68,17 @@ public final PresentationImageFillFormat getImageFillFormat()
 
 Gets the image fill format settings of the presentation.
 
+
 **Returns:**
 [PresentationImageFillFormat](../../com.groupdocs.watermark.contents/presentationimagefillformat) - The image fill format settings of the presentation.
+
 ### getAsposeSlidesSlide() {#getAsposeSlidesSlide--}
 ```
 public final IBaseSlide getAsposeSlidesSlide()
 ```
 
+
+<br />
 
 
 
@@ -70,6 +90,8 @@ public double getWidth()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -80,6 +102,8 @@ public double getHeight()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -89,6 +113,8 @@ double
 public final void addWatermark(Watermark watermark, PresentationShapeSettings shapeSettings, IPresentationWatermarkEffects effects)
 ```
 
+
+<br />
 
 
 

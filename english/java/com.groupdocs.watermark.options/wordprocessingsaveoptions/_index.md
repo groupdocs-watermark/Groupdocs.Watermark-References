@@ -13,11 +13,13 @@ public final class WordProcessingSaveOptions extends SaveOptions
 ```
 
 Represents document saving options when saving a Word document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WordProcessingSaveOptions()](#WordProcessingSaveOptions--) | Initializes a new instance of the `[WordProcessingSaveOptions](../../com.groupdocs.watermark.options/wordprocessingsaveoptions)` class. |
+| [WordProcessingSaveOptions()](#WordProcessingSaveOptions--) | Initializes a new instance of the `[WordProcessingSaveOptions](../../com.groupdocs.watermark.options/wordprocessingsaveoptions)` class.
+ |
 ### WordProcessingSaveOptions() {#WordProcessingSaveOptions--}
 ```
 public WordProcessingSaveOptions()
@@ -25,4 +27,5 @@ public WordProcessingSaveOptions()
 
 
 Initializes a new instance of the `[WordProcessingSaveOptions](../../com.groupdocs.watermark.options/wordprocessingsaveoptions)` class.
+
 

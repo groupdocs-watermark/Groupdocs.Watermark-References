@@ -15,3 +15,4 @@ public class PresentationMasterSlideCollection extends ReadOnlyListBase<Presenta
 Represents a collection of master slides in a PowerPoint document.
 
 This collection contains the items of `[PresentationMasterSlide](../../com.groupdocs.watermark.contents/presentationmasterslide)` type.
+

@@ -13,6 +13,7 @@ public class DiagramShapePossibleWatermark extends ShapePossibleWatermark<Diagra
 ```
 
 Represents possible shape watermark in a Visio document.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Represents possible shape watermark in a Visio document.
 
 | Method | Description |
 | --- | --- |
-| [getParent()](#getParent--) | Gets the parent of this `[DiagramShapePossibleWatermark](../../com.groupdocs.watermark.search/diagramshapepossiblewatermark)`. |
+| [getParent()](#getParent--) | Gets the parent of this `[DiagramShapePossibleWatermark](../../com.groupdocs.watermark.search/diagramshapepossiblewatermark)`.
+ |
 ### DiagramShapePossibleWatermark(DiagramShape shape, DiagramShapeCollection shapeCollection) {#DiagramShapePossibleWatermark-com.groupdocs.watermark.contents.DiagramShape-com.groupdocs.watermark.contents.DiagramShapeCollection-}
 ```
 public DiagramShapePossibleWatermark(DiagramShape shape, DiagramShapeCollection shapeCollection)
@@ -45,5 +47,7 @@ public ContentPart getParent()
 
 Gets the parent of this `[DiagramShapePossibleWatermark](../../com.groupdocs.watermark.search/diagramshapepossiblewatermark)`.
 
+
 **Returns:**
 [ContentPart](../../com.groupdocs.watermark.contents/contentpart) - The parent of this `[DiagramShapePossibleWatermark](../../com.groupdocs.watermark.search/diagramshapepossiblewatermark)`.
+

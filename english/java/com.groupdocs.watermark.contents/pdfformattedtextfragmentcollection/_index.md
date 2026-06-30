@@ -15,16 +15,21 @@ public class PdfFormattedTextFragmentCollection extends FormattedTextFragmentCol
 Represents a collection of formatted text fragments in a pdf document.
 
 This collection contains the items of `[PdfFormattedTextFragment](../../com.groupdocs.watermark.contents/pdfformattedtextfragment)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [removeFromDocument(FormattedTextFragment item)](#removeFromDocument-com.groupdocs.watermark.search.FormattedTextFragment-) |  |
+| [removeFromDocument(FormattedTextFragment item)](#removeFromDocument-com.groupdocs.watermark.search.FormattedTextFragment-) | <br />
+
+ |
 ### removeFromDocument(FormattedTextFragment item) {#removeFromDocument-com.groupdocs.watermark.search.FormattedTextFragment-}
 ```
 public void removeFromDocument(FormattedTextFragment item)
 ```
 
+
+<br />
 
 
 

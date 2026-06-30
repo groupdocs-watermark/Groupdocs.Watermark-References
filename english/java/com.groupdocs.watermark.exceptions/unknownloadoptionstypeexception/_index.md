@@ -13,11 +13,13 @@ public final class UnknownLoadOptionsTypeException extends WatermarkException
 ```
 
 The exception that is thrown when a document cannot be loaded with supplied `[LoadOptions](../../com.groupdocs.watermark.options/loadoptions)`.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [UnknownLoadOptionsTypeException()](#UnknownLoadOptionsTypeException--) | Initializes a new instance of the `[UnknownLoadOptionsTypeException](../../com.groupdocs.watermark.exceptions/unknownloadoptionstypeexception)` class. |
+| [UnknownLoadOptionsTypeException()](#UnknownLoadOptionsTypeException--) | Initializes a new instance of the `[UnknownLoadOptionsTypeException](../../com.groupdocs.watermark.exceptions/unknownloadoptionstypeexception)` class.
+ |
 ### UnknownLoadOptionsTypeException() {#UnknownLoadOptionsTypeException--}
 ```
 public UnknownLoadOptionsTypeException()
@@ -25,4 +27,5 @@ public UnknownLoadOptionsTypeException()
 
 
 Initializes a new instance of the `[UnknownLoadOptionsTypeException](../../com.groupdocs.watermark.exceptions/unknownloadoptionstypeexception)` class.
+
 

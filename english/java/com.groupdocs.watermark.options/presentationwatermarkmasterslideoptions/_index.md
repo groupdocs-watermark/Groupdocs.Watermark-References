@@ -16,23 +16,24 @@ Represents options when adding watermark to a Presentation document master slide
 
 **Learn more:**
 
- *  [Add watermarks to presentation documents][]
+* [Add watermarks to presentation documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents)
 
 See the usage examples in `[PresentationWatermarkBaseSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkbaseslideoptions)`.
 
-
-[Add watermarks to presentation documents]: https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PresentationWatermarkMasterSlideOptions()](#PresentationWatermarkMasterSlideOptions--) | Initializes a new instance of the `[PresentationWatermarkMasterSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkmasterslideoptions)` class. |
+| [PresentationWatermarkMasterSlideOptions()](#PresentationWatermarkMasterSlideOptions--) | Initializes a new instance of the `[PresentationWatermarkMasterSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkmasterslideoptions)` class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getMasterSlideIndex()](#getMasterSlideIndex--) | Gets the index of master slide to add the watermark to. |
-| [setMasterSlideIndex(int value)](#setMasterSlideIndex-int-) | Sets the index of master slide to add the watermark to. |
+| [getMasterSlideIndex()](#getMasterSlideIndex--) | Gets the index of master slide to add the watermark to.
+ |
+| [setMasterSlideIndex(int value)](#setMasterSlideIndex-int-) | Sets the index of master slide to add the watermark to.
+ |
 ### PresentationWatermarkMasterSlideOptions() {#PresentationWatermarkMasterSlideOptions--}
 ```
 public PresentationWatermarkMasterSlideOptions()
@@ -40,6 +41,7 @@ public PresentationWatermarkMasterSlideOptions()
 
 
 Initializes a new instance of the `[PresentationWatermarkMasterSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkmasterslideoptions)` class.
+
 
 ### getMasterSlideIndex() {#getMasterSlideIndex--}
 ```
@@ -49,12 +51,19 @@ public final int getMasterSlideIndex()
 
 Gets the index of master slide to add the watermark to.
 
+
 **Returns:**
 int - The index of master slide to add the watermark to.
 
---------------------
+<br />
 
-\-1 means all slides.
+*** ** * ** ***
+
+-1 means all slides.
+
+<br />
+
+
 ### setMasterSlideIndex(int value) {#setMasterSlideIndex-int-}
 ```
 public final void setMasterSlideIndex(int value)
@@ -63,12 +72,19 @@ public final void setMasterSlideIndex(int value)
 
 Sets the index of master slide to add the watermark to.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The index of master slide to add the watermark to.
 
---------------------
+<br />
 
-\-1 means all slides. |
+*** ** * ** ***
+
+-1 means all slides.
+
+<br />
+
+ |
 

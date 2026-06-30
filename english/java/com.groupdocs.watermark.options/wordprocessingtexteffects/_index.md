@@ -16,17 +16,21 @@ public final class WordProcessingTextEffects extends OfficeTextEffects implement
 ```
 
 Represents effects that can be applied to a text watermark for a Word document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WordProcessingTextEffects()](#WordProcessingTextEffects--) | Initializes a new instance of the `[WordProcessingTextEffects](../../com.groupdocs.watermark.options/wordprocessingtexteffects)` class. |
+| [WordProcessingTextEffects()](#WordProcessingTextEffects--) | Initializes a new instance of the `[WordProcessingTextEffects](../../com.groupdocs.watermark.options/wordprocessingtexteffects)` class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFlipOrientation()](#getFlipOrientation--) | Gets the orientation of a shape. |
-| [setFlipOrientation(int value)](#setFlipOrientation-int-) | Sets the orientation of a shape. |
+| [getFlipOrientation()](#getFlipOrientation--) | Gets the orientation of a shape.
+ |
+| [setFlipOrientation(int value)](#setFlipOrientation-int-) | Sets the orientation of a shape.
+ |
 ### WordProcessingTextEffects() {#WordProcessingTextEffects--}
 ```
 public WordProcessingTextEffects()
@@ -34,6 +38,7 @@ public WordProcessingTextEffects()
 
 
 Initializes a new instance of the `[WordProcessingTextEffects](../../com.groupdocs.watermark.options/wordprocessingtexteffects)` class.
+
 
 ### getFlipOrientation() {#getFlipOrientation--}
 ```
@@ -45,8 +50,10 @@ Gets the orientation of a shape.
 
 The default value is `[WordProcessingFlipOrientation.None](../../com.groupdocs.watermark.options/wordprocessingfliporientation#None)`.
 
+
 **Returns:**
 int - The orientation `[WordProcessingFlipOrientation](../../com.groupdocs.watermark.options/wordprocessingfliporientation)` of a shape.
+
 ### setFlipOrientation(int value) {#setFlipOrientation-int-}
 ```
 public final void setFlipOrientation(int value)
@@ -57,8 +64,10 @@ Sets the orientation of a shape.
 
 The default value is `[WordProcessingFlipOrientation.None](../../com.groupdocs.watermark.options/wordprocessingfliporientation#None)`.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The orientation `[WordProcessingFlipOrientation](../../com.groupdocs.watermark.options/wordprocessingfliporientation)` of a shape. |
+| value | int | The orientation `[WordProcessingFlipOrientation](../../com.groupdocs.watermark.options/wordprocessingfliporientation)` of a shape.
+ |
 

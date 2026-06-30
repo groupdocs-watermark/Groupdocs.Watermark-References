@@ -14,21 +14,31 @@ public class ImageThumbnailSearchCriteria extends ImageSearchCriteria
 
 Represents search criteria for finding images in a content.
 
---------------------
+<br />
+
+*** ** * ** ***
 
 This search criteria uses image binarized thumbnail for calculating image similarity.
+
+<br />
+
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ImageThumbnailSearchCriteria(String filePath)](#ImageThumbnailSearchCriteria-java.lang.String-) | Initializes a new instance of the `[ImageThumbnailSearchCriteria](../../com.groupdocs.watermark.search/imagethumbnailsearchcriteria)` class with a specified file path. |
-| [ImageThumbnailSearchCriteria(InputStream stream)](#ImageThumbnailSearchCriteria-java.io.InputStream-) | Initializes a new instance of the `[ImageThumbnailSearchCriteria](../../com.groupdocs.watermark.search/imagethumbnailsearchcriteria)` class with a specified stream. |
+| [ImageThumbnailSearchCriteria(String filePath)](#ImageThumbnailSearchCriteria-java.lang.String-) | Initializes a new instance of the `[ImageThumbnailSearchCriteria](../../com.groupdocs.watermark.search/imagethumbnailsearchcriteria)` class with a specified file path.
+ |
+| [ImageThumbnailSearchCriteria(InputStream stream)](#ImageThumbnailSearchCriteria-java.io.InputStream-) | Initializes a new instance of the `[ImageThumbnailSearchCriteria](../../com.groupdocs.watermark.search/imagethumbnailsearchcriteria)` class with a specified stream.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getThumbnailSize()](#getThumbnailSize--) | Gets thumbnail size. |
-| [setThumbnailSize(byte value)](#setThumbnailSize-byte-) | Sets thumbnail size. |
+| [getThumbnailSize()](#getThumbnailSize--) | Gets thumbnail size.
+ |
+| [setThumbnailSize(byte value)](#setThumbnailSize-byte-) | Sets thumbnail size.
+ |
 ### ImageThumbnailSearchCriteria(String filePath) {#ImageThumbnailSearchCriteria-java.lang.String-}
 ```
 public ImageThumbnailSearchCriteria(String filePath)
@@ -37,10 +47,12 @@ public ImageThumbnailSearchCriteria(String filePath)
 
 Initializes a new instance of the `[ImageThumbnailSearchCriteria](../../com.groupdocs.watermark.search/imagethumbnailsearchcriteria)` class with a specified file path.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The file path to load image from. |
+| filePath | java.lang.String | The file path to load image from.
+ |
 
 ### ImageThumbnailSearchCriteria(InputStream stream) {#ImageThumbnailSearchCriteria-java.io.InputStream-}
 ```
@@ -50,10 +62,12 @@ public ImageThumbnailSearchCriteria(InputStream stream)
 
 Initializes a new instance of the `[ImageThumbnailSearchCriteria](../../com.groupdocs.watermark.search/imagethumbnailsearchcriteria)` class with a specified stream.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The stream to load image from. |
+| stream | java.io.InputStream | The stream to load image from.
+ |
 
 ### getThumbnailSize() {#getThumbnailSize--}
 ```
@@ -63,8 +77,10 @@ public final byte getThumbnailSize()
 
 Gets thumbnail size.
 
+
 **Returns:**
 byte - By default 32X32 thumbnail will be used.
+
 ### setThumbnailSize(byte value) {#setThumbnailSize-byte-}
 ```
 public final void setThumbnailSize(byte value)
@@ -73,8 +89,10 @@ public final void setThumbnailSize(byte value)
 
 Sets thumbnail size.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | byte | By default 32X32 thumbnail will be used. |
+| value | byte | By default 32X32 thumbnail will be used.
+ |
 

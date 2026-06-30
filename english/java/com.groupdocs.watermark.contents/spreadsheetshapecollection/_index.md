@@ -15,17 +15,24 @@ public class SpreadsheetShapeCollection extends RemoveOnlyListBase<SpreadsheetSh
 Represents a collection of drawing shapes in an Excel document.
 
 This collection contains the items of `[SpreadsheetShape](../../com.groupdocs.watermark.contents/spreadsheetshape)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [addShape(Shape shape)](#addShape-com.aspose.cells.Shape-) |  |
-| [removeFromDocument(SpreadsheetShape item)](#removeFromDocument-com.groupdocs.watermark.contents.SpreadsheetShape-) |  |
+| [addShape(Shape shape)](#addShape-com.aspose.cells.Shape-) | <br />
+
+ |
+| [removeFromDocument(SpreadsheetShape item)](#removeFromDocument-com.groupdocs.watermark.contents.SpreadsheetShape-) | <br />
+
+ |
 ### addShape(Shape shape) {#addShape-com.aspose.cells.Shape-}
 ```
 public final void addShape(Shape shape)
 ```
 
+
+<br />
 
 
 
@@ -39,6 +46,8 @@ public final void addShape(Shape shape)
 public void removeFromDocument(SpreadsheetShape item)
 ```
 
+
+<br />
 
 
 

@@ -13,11 +13,13 @@ public class WatermarkOptions
 ```
 
 Represents watermark adding options when adding watermark to a document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WatermarkOptions()](#WatermarkOptions--) | Initializes a new instance of the `[WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions)` class. |
+| [WatermarkOptions()](#WatermarkOptions--) | Initializes a new instance of the `[WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions)` class.
+ |
 ### WatermarkOptions() {#WatermarkOptions--}
 ```
 public WatermarkOptions()
@@ -25,4 +27,5 @@ public WatermarkOptions()
 
 
 Initializes a new instance of the `[WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions)` class.
+
 

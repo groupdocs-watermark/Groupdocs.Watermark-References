@@ -14,15 +14,22 @@ public abstract class ShapePossibleWatermark<T> extends TwoDObjectPossibleWaterm
 
 Represents shape watermark in a content of any supported format.
 
- T : The type of the shape.
+
+T
+: The type of the shape.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getRotateAngle()](#getRotateAngle--) | Gets the rotate angle of the shape in degrees. |
-| [getFormattedTextFragments()](#getFormattedTextFragments--) | Gets the collection of formatted text fragments of the shape. |
-| [getText()](#getText--) | Gets the text of the shape. |
-| [setText(String value)](#setText-java.lang.String-) | Sets the text of the shape. |
+| [getRotateAngle()](#getRotateAngle--) | Gets the rotate angle of the shape in degrees.
+ |
+| [getFormattedTextFragments()](#getFormattedTextFragments--) | Gets the collection of formatted text fragments of the shape.
+ |
+| [getText()](#getText--) | Gets the text of the shape.
+ |
+| [setText(String value)](#setText-java.lang.String-) | Sets the text of the shape.
+ |
 | [getImageInternally()](#getImageInternally--) |  |
 | [remove()](#remove--) |  |
 ### getRotateAngle() {#getRotateAngle--}
@@ -33,8 +40,10 @@ public double getRotateAngle()
 
 Gets the rotate angle of the shape in degrees.
 
+
 **Returns:**
 double - The rotate angle of the shape in degrees.
+
 ### getFormattedTextFragments() {#getFormattedTextFragments--}
 ```
 public FormattedTextFragmentCollection getFormattedTextFragments()
@@ -43,8 +52,10 @@ public FormattedTextFragmentCollection getFormattedTextFragments()
 
 Gets the collection of formatted text fragments of the shape.
 
+
 **Returns:**
 [FormattedTextFragmentCollection](../../com.groupdocs.watermark.search/formattedtextfragmentcollection) - The collection of formatted text fragments of shape.
+
 ### getText() {#getText--}
 ```
 public String getText()
@@ -53,8 +64,10 @@ public String getText()
 
 Gets the text of the shape.
 
+
 **Returns:**
 java.lang.String - The text of the shape.
+
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public void setText(String value)
@@ -63,10 +76,12 @@ public void setText(String value)
 
 Sets the text of the shape.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The text of the shape. |
+| value | java.lang.String | The text of the shape.
+ |
 
 ### getImageInternally() {#getImageInternally--}
 ```

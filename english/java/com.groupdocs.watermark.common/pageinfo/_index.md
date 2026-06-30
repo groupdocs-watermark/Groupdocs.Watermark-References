@@ -13,23 +13,31 @@ public final class PageInfo
 ```
 
 Represents a document page description.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PageInfo(int pageNumber, double width, double height)](#PageInfo-int-double-double-) |  |
+| [PageInfo(int pageNumber, double width, double height)](#PageInfo-int-double-double-) | <br />
+
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getHeight()](#getHeight--) | Gets the document page height. |
-| [getWidth()](#getWidth--) | Gets the document page width. |
-| [getPageNumber()](#getPageNumber--) | Gets the document page number. |
+| [getHeight()](#getHeight--) | Gets the document page height.
+ |
+| [getWidth()](#getWidth--) | Gets the document page width.
+ |
+| [getPageNumber()](#getPageNumber--) | Gets the document page number.
+ |
 ### PageInfo(int pageNumber, double width, double height) {#PageInfo-int-double-double-}
 ```
 public PageInfo(int pageNumber, double width, double height)
 ```
 
+
+<br />
 
 
 
@@ -48,8 +56,10 @@ public final double getHeight()
 
 Gets the document page height.
 
+
 **Returns:**
 double - The document page height.
+
 ### getWidth() {#getWidth--}
 ```
 public final double getWidth()
@@ -58,8 +68,10 @@ public final double getWidth()
 
 Gets the document page width.
 
+
 **Returns:**
 double - The document page width.
+
 ### getPageNumber() {#getPageNumber--}
 ```
 public final int getPageNumber()
@@ -68,5 +80,7 @@ public final int getPageNumber()
 
 Gets the document page number.
 
+
 **Returns:**
 int - The document page number.
+

@@ -19,17 +19,17 @@ Class representing Word document (doc, docx etc) where watermark should be place
 
 **Learn more:**
 
- *  [Add watermarks to word processing documents][]
- *  [Existing objects in word processing document][]
- *  [Locking watermark in word processing document][]
- *  [Protecting word processing documents][]
- *  [Watermarks in word processing document][]
+* [Add watermarks to word processing documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+word+processing+documents)
+* [Existing objects in word processing document](../https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+word+processing+document)
+* [Locking watermark in word processing document](../https://docs.groupdocs.com/display/watermarkjava/Locking+watermark+in+word+processing+document)
+* [Protecting word processing documents](../https://docs.groupdocs.com/display/watermarkjava/Protecting+word+processing+documents)
+* [Watermarks in word processing document](../https://docs.groupdocs.com/display/watermarkjava/Watermarks+in+word+processing+document)
 
 The following example demonstrates how to load and save Word document of any supported type.
-
+>
+> ````
 > ```
-> ```
-> 
+>
 >    WordProcessingLoadOptions loadOptions = new WordProcessingLoadOptions();
 >    Watermarker watermarker = new Watermarker("D:\\input.doc", loadOptions);
 >    
@@ -40,14 +40,9 @@ The following example demonstrates how to load and save Word document of any sup
 >    watermarker.close();
 >  
 > ```
-> ```
+> ````
 
 
-[Add watermarks to word processing documents]: https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+word+processing+documents
-[Existing objects in word processing document]: https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+word+processing+document
-[Locking watermark in word processing document]: https://docs.groupdocs.com/display/watermarkjava/Locking+watermark+in+word+processing+document
-[Protecting word processing documents]: https://docs.groupdocs.com/display/watermarkjava/Protecting+word+processing+documents
-[Watermarks in word processing document]: https://docs.groupdocs.com/display/watermarkjava/Watermarks+in+word+processing+document
 ## Constructors
 
 | Constructor | Description |
@@ -57,16 +52,22 @@ The following example demonstrates how to load and save Word document of any sup
 
 | Method | Description |
 | --- | --- |
-| [getSections()](#getSections--) | Gets the collection of all sections of this `[WordProcessingContent](../../com.groupdocs.watermark.contents/wordprocessingcontent)`. |
+| [getSections()](#getSections--) | Gets the collection of all sections of this `[WordProcessingContent](../../com.groupdocs.watermark.contents/wordprocessingcontent)`.
+ |
 | [setSections(WordProcessingSectionCollection value)](#setSections-com.groupdocs.watermark.contents.WordProcessingSectionCollection-) |  |
-| [getPageCount()](#getPageCount--) | Gets the number of pages in the document. |
+| [getPageCount()](#getPageCount--) | Gets the number of pages in the document.
+ |
 | [getAsposeWordsDocument()](#getAsposeWordsDocument--) |  |
-| [encrypt(String password)](#encrypt-java.lang.String-) | Encrypts the document. |
-| [decrypt()](#decrypt--) | Decrypts the document. |
+| [encrypt(String password)](#encrypt-java.lang.String-) | Encrypts the document.
+ |
+| [decrypt()](#decrypt--) | Decrypts the document.
+ |
 | [addWatermark(Watermark watermark, int pageNumber)](#addWatermark-com.groupdocs.watermark.Watermark-int-) |  |
 | [addWatermark(Watermark watermark, IWordProcessingWatermarkEffects effects, WordProcessingShapeSettings shapeSettings)](#addWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.IWordProcessingWatermarkEffects-com.groupdocs.watermark.options.WordProcessingShapeSettings-) |  |
-| [protect(int protectionType, String password)](#protect-int-java.lang.String-) | Protects the document from changes and sets a protection password. |
-| [unprotect()](#unprotect--) | Removes protection from the document regardless of the password. |
+| [protect(int protectionType, String password)](#protect-int-java.lang.String-) | Protects the document from changes and sets a protection password.
+ |
+| [unprotect()](#unprotect--) | Removes protection from the document regardless of the password.
+ |
 | [performSave(String filePath)](#performSave-java.lang.String-) |  |
 | [performSave(String filePath, SaveOptions saveOptions)](#performSave-java.lang.String-com.groupdocs.watermark.options.SaveOptions-) |  |
 | [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) |  |
@@ -101,8 +102,10 @@ public final WordProcessingSectionCollection getSections()
 
 Gets the collection of all sections of this `[WordProcessingContent](../../com.groupdocs.watermark.contents/wordprocessingcontent)`.
 
+
 **Returns:**
 [WordProcessingSectionCollection](../../com.groupdocs.watermark.contents/wordprocessingsectioncollection) - The collection of all sections of this `[WordProcessingContent](../../com.groupdocs.watermark.contents/wordprocessingcontent)`.
+
 ### setSections(WordProcessingSectionCollection value) {#setSections-com.groupdocs.watermark.contents.WordProcessingSectionCollection-}
 ```
 public final void setSections(WordProcessingSectionCollection value)
@@ -124,8 +127,10 @@ public final int getPageCount()
 
 Gets the number of pages in the document.
 
+
 **Returns:**
 int - The number of pages in the document.
+
 ### getAsposeWordsDocument() {#getAsposeWordsDocument--}
 ```
 public final Document getAsposeWordsDocument()
@@ -144,10 +149,12 @@ public final void encrypt(String password)
 
 Encrypts the document.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | java.lang.String | The password that will be required to open the document. |
+| password | java.lang.String | The password that will be required to open the document.
+ |
 
 ### decrypt() {#decrypt--}
 ```
@@ -156,6 +163,7 @@ public final void decrypt()
 
 
 Decrypts the document.
+
 
 ### addWatermark(Watermark watermark, int pageNumber) {#addWatermark-com.groupdocs.watermark.Watermark-int-}
 ```
@@ -194,13 +202,18 @@ public final void protect(int protectionType, String password)
 
 Protects the document from changes and sets a protection password.
 
-To have the content of the document editable use appropriate method of adding watermark with `[WordProcessingLockType.AllowOnlyFormFields](../../com.groupdocs.watermark.options/wordprocessinglocktype#AllowOnlyFormFields)` or `[WordProcessingLockType.ReadOnlyWithEditableContent](../../com.groupdocs.watermark.options/wordprocessinglocktype#ReadOnlyWithEditableContent)` parameter.
+To have the content of the document editable use appropriate method of adding watermark with
+`[WordProcessingLockType.AllowOnlyFormFields](../../com.groupdocs.watermark.options/wordprocessinglocktype#AllowOnlyFormFields)` or
+`[WordProcessingLockType.ReadOnlyWithEditableContent](../../com.groupdocs.watermark.options/wordprocessinglocktype#ReadOnlyWithEditableContent)` parameter.
+
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| protectionType | int | The protection type for the document. |
-| password | java.lang.String | The password to protect the document with. |
+| protectionType | int | The protection type for the document.
+ |
+| password | java.lang.String | The password to protect the document with.
+ |
 
 ### unprotect() {#unprotect--}
 ```
@@ -210,11 +223,14 @@ public final void unprotect()
 
 Removes protection from the document regardless of the password.
 
+
 ### performSave(String filePath) {#performSave-java.lang.String-}
 ```
 public void performSave(String filePath)
 ```
 
+
+<br />
 
 
 
@@ -228,6 +244,8 @@ public void performSave(String filePath)
 public void performSave(String filePath, SaveOptions saveOptions)
 ```
 
+
+<br />
 
 
 
@@ -243,6 +261,8 @@ public void performSave(OutputStream stream)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -255,6 +275,8 @@ public void performSave(OutputStream stream)
 public void performSave(OutputStream stream, SaveOptions saveOptions)
 ```
 
+
+<br />
 
 
 
@@ -270,6 +292,8 @@ public void add(Watermark watermark, WatermarkOptions options)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -284,6 +308,8 @@ public void generatePreview(PreviewOptions previewOptions)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -297,6 +323,8 @@ public IDocumentInfo getDocumentInfo()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -306,6 +334,8 @@ public IDocumentInfo getDocumentInfo()
 public FileType getFileType()
 ```
 
+
+<br />
 
 
 

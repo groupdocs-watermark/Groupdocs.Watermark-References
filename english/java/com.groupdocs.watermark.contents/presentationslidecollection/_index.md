@@ -15,3 +15,4 @@ public class PresentationSlideCollection extends ReadOnlyListBase<PresentationSl
 Represents a collection of slides in a PowerPoint document.
 
 This collection contains the items of `[PresentationSlide](../../com.groupdocs.watermark.contents/presentationslide)` type.
+

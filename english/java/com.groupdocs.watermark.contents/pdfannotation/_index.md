@@ -16,33 +16,46 @@ Represents an annotation in a pdf document.
 
 **Learn more:**
 
- *  [Working with annotations][]
+* [Working with annotations](../https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithannotations)
 
-
-[Working with annotations]: https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithannotations
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [NormalAppearanceKey](#NormalAppearanceKey) |  |
+| [NormalAppearanceKey](#NormalAppearanceKey) | <br />
+
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPage()](#getPage--) | Gets the parent page of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)`. |
-| [getAnnotationType()](#getAnnotationType--) | Gets the type of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)`. |
-| [getX()](#getX--) | Gets the horizontal offset of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` from page left border in points. |
-| [getY()](#getY--) | Gets the vertical offset of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` from worksheet bottom border in points. |
-| [getRotateAngle()](#getRotateAngle--) | Gets the rotate angle of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in degrees. |
-| [getWidth()](#getWidth--) | Gets the width of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in points. |
-| [getHeight()](#getHeight--) | Gets the height of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in points. |
-| [getAsposePdfAnnotation()](#getAsposePdfAnnotation--) |  |
-| [getOuterForm()](#getOuterForm--) |  |
+| [getPage()](#getPage--) | Gets the parent page of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)`.
+ |
+| [getAnnotationType()](#getAnnotationType--) | Gets the type of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)`.
+ |
+| [getX()](#getX--) | Gets the horizontal offset of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` from page left border in points.
+ |
+| [getY()](#getY--) | Gets the vertical offset of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` from worksheet bottom border in points.
+ |
+| [getRotateAngle()](#getRotateAngle--) | Gets the rotate angle of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in degrees.
+ |
+| [getWidth()](#getWidth--) | Gets the width of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in points.
+ |
+| [getHeight()](#getHeight--) | Gets the height of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in points.
+ |
+| [getAsposePdfAnnotation()](#getAsposePdfAnnotation--) | <br />
+
+ |
+| [getOuterForm()](#getOuterForm--) | <br />
+
+ |
 ### NormalAppearanceKey {#NormalAppearanceKey}
 ```
 public static final String NormalAppearanceKey
 ```
 
+
+<br />
 
 
 
@@ -54,8 +67,10 @@ public final PdfPage getPage()
 
 Gets the parent page of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)`.
 
+
 **Returns:**
 [PdfPage](../../com.groupdocs.watermark.contents/pdfpage) - The parent page of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)`.
+
 ### getAnnotationType() {#getAnnotationType--}
 ```
 public final int getAnnotationType()
@@ -64,8 +79,10 @@ public final int getAnnotationType()
 
 Gets the type of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)`.
 
+
 **Returns:**
 int - The type of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)`.
+
 ### getX() {#getX--}
 ```
 public double getX()
@@ -74,8 +91,10 @@ public double getX()
 
 Gets the horizontal offset of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` from page left border in points.
 
+
 **Returns:**
 double - The horizontal offset of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` from page left border in points.
+
 ### getY() {#getY--}
 ```
 public double getY()
@@ -84,8 +103,10 @@ public double getY()
 
 Gets the vertical offset of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` from worksheet bottom border in points.
 
+
 **Returns:**
 double - The vertical offset of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` from worksheet bottom border in points.
+
 ### getRotateAngle() {#getRotateAngle--}
 ```
 public double getRotateAngle()
@@ -94,8 +115,10 @@ public double getRotateAngle()
 
 Gets the rotate angle of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in degrees.
 
+
 **Returns:**
 double - The rotate angle of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in degrees.
+
 ### getWidth() {#getWidth--}
 ```
 public double getWidth()
@@ -104,8 +127,10 @@ public double getWidth()
 
 Gets the width of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in points.
 
+
 **Returns:**
 double - The width of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in points.
+
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -114,13 +139,17 @@ public double getHeight()
 
 Gets the height of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in points.
 
+
 **Returns:**
 double - The height of this `[PdfAnnotation](../../com.groupdocs.watermark.contents/pdfannotation)` in points.
+
 ### getAsposePdfAnnotation() {#getAsposePdfAnnotation--}
 ```
 public final Annotation getAsposePdfAnnotation()
 ```
 
+
+<br />
 
 
 
@@ -131,6 +160,8 @@ com.aspose.pdf.Annotation
 public XForm getOuterForm()
 ```
 
+
+<br />
 
 
 

@@ -13,6 +13,7 @@ public class PdfHyperlinkPossibleWatermark extends HyperlinkPossibleWatermark
 ```
 
 Represents possible hyperlink watermark in a pdf document.
+
 ## Constructors
 
 | Constructor | Description |
@@ -23,7 +24,8 @@ Represents possible hyperlink watermark in a pdf document.
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--) | Gets the url of this `[PdfHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/pdfhyperlinkpossiblewatermark)`. |
+| [getText()](#getText--) | Gets the url of this `[PdfHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/pdfhyperlinkpossiblewatermark)`.
+ |
 | [setText(String value)](#setText-java.lang.String-) |  |
 | [remove()](#remove--) |  |
 ### PdfHyperlinkPossibleWatermark(GoToURIAction action, PdfAnnotationPossibleWatermark parentWatermark) {#PdfHyperlinkPossibleWatermark-com.aspose.pdf.GoToURIAction-com.groupdocs.watermark.search.PdfAnnotationPossibleWatermark-}
@@ -62,8 +64,10 @@ public String getText()
 
 Gets the url of this `[PdfHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/pdfhyperlinkpossiblewatermark)`.
 
+
 **Returns:**
 java.lang.String - The url of this `[PdfHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/pdfhyperlinkpossiblewatermark)`.
+
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public void setText(String value)
@@ -71,6 +75,7 @@ public void setText(String value)
 
 
 Sets the url of this `[HyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/hyperlinkpossiblewatermark)`.
+
 
 **Parameters:**
 | Parameter | Type | Description |

@@ -13,24 +13,35 @@ public class TiffImageContent extends MultiframeImageContent
 ```
 
 Represents a tiff image where a watermark can be placed.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TiffImageContent(StreamContainer stream, StrategyManager<Integer> strategyManager, TiffImageLoadOptions tiffImageLoadOptions, WatermarkerSettings watermarkerSettings)](#TiffImageContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.groupdocs.watermark.options.TiffImageLoadOptions-com.groupdocs.watermark.WatermarkerSettings-) |  |
+| [TiffImageContent(StreamContainer stream, StrategyManager<Integer> strategyManager, TiffImageLoadOptions tiffImageLoadOptions, WatermarkerSettings watermarkerSettings)](#TiffImageContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.groupdocs.watermark.options.TiffImageLoadOptions-com.groupdocs.watermark.WatermarkerSettings-) | <br />
+
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [performSave(String filePath)](#performSave-java.lang.String-) |  |
+| [performSave(String filePath)](#performSave-java.lang.String-) | <br />
+
+ |
 | [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) |  |
-| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) |  |
-| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) |  |
+| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) | <br />
+
+ |
+| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) | <br />
+
+ |
 ### TiffImageContent(StreamContainer stream, StrategyManager<Integer> strategyManager, TiffImageLoadOptions tiffImageLoadOptions, WatermarkerSettings watermarkerSettings) {#TiffImageContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.groupdocs.watermark.options.TiffImageLoadOptions-com.groupdocs.watermark.WatermarkerSettings-}
 ```
 public TiffImageContent(StreamContainer stream, StrategyManager<Integer> strategyManager, TiffImageLoadOptions tiffImageLoadOptions, WatermarkerSettings watermarkerSettings)
 ```
 
+
+<br />
 
 
 
@@ -48,6 +59,8 @@ public void performSave(String filePath)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -63,6 +76,10 @@ public void performSave(OutputStream stream)
 
 Saves the content to the specified stream.
 
+<br />
+
+
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -73,6 +90,8 @@ Saves the content to the specified stream.
 public void add(Watermark watermark, WatermarkOptions options)
 ```
 
+
+<br />
 
 
 
@@ -87,6 +106,8 @@ public void add(Watermark watermark, WatermarkOptions options)
 public void generatePreview(PreviewOptions previewOptions)
 ```
 
+
+<br />
 
 
 

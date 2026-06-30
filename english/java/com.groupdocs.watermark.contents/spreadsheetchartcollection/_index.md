@@ -15,3 +15,4 @@ public class SpreadsheetChartCollection extends ReadOnlyListBase<SpreadsheetChar
 Represents a collection of charts in an Excel document.
 
 This collection contains the items of `[SpreadsheetChart](../../com.groupdocs.watermark.contents/spreadsheetchart)` type.
+

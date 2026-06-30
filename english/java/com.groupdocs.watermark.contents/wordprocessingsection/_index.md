@@ -13,13 +13,17 @@ public class WordProcessingSection extends ContentPart
 ```
 
 Represents a Word document section.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageSetup()](#getPageSetup--) | Gets the printing page setup for this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`. |
-| [getHeadersFooters()](#getHeadersFooters--) | Gets the collection of all headers and footers of this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`. |
-| [getShapes()](#getShapes--) | Gets the collection of all shapes contained in this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`. |
+| [getPageSetup()](#getPageSetup--) | Gets the printing page setup for this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`.
+ |
+| [getHeadersFooters()](#getHeadersFooters--) | Gets the collection of all headers and footers of this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`.
+ |
+| [getShapes()](#getShapes--) | Gets the collection of all shapes contained in this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`.
+ |
 | [getAsposeWordsSection()](#getAsposeWordsSection--) |  |
 | [getSearchWatermarksInParts()](#getSearchWatermarksInParts--) |  |
 | [getContent()](#getContent--) |  |
@@ -33,8 +37,10 @@ public final WordProcessingPageSetup getPageSetup()
 
 Gets the printing page setup for this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`.
 
+
 **Returns:**
 [WordProcessingPageSetup](../../com.groupdocs.watermark.contents/wordprocessingpagesetup) - The printing page setup for this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`.
+
 ### getHeadersFooters() {#getHeadersFooters--}
 ```
 public final WordProcessingHeaderFooterCollection getHeadersFooters()
@@ -43,8 +49,10 @@ public final WordProcessingHeaderFooterCollection getHeadersFooters()
 
 Gets the collection of all headers and footers of this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`.
 
+
 **Returns:**
 [WordProcessingHeaderFooterCollection](../../com.groupdocs.watermark.contents/wordprocessingheaderfootercollection) - The collection of all headers and footers of this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`.
+
 ### getShapes() {#getShapes--}
 ```
 public final WordProcessingShapeCollection getShapes()
@@ -53,8 +61,10 @@ public final WordProcessingShapeCollection getShapes()
 
 Gets the collection of all shapes contained in this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`.
 
+
 **Returns:**
 [WordProcessingShapeCollection](../../com.groupdocs.watermark.contents/wordprocessingshapecollection) - The collection of all shapes contained in this `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)`.
+
 ### getAsposeWordsSection() {#getAsposeWordsSection--}
 ```
 public final Section getAsposeWordsSection()

@@ -13,17 +13,24 @@ public class PdfXImage extends PdfXObject
 ```
 
 Represents an XImage in a pdf content.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getOuterForm()](#getOuterForm--) |  |
-| [extractImageAppearance()](#extractImageAppearance--) |  |
+| [getOuterForm()](#getOuterForm--) | <br />
+
+ |
+| [extractImageAppearance()](#extractImageAppearance--) | <br />
+
+ |
 ### getOuterForm() {#getOuterForm--}
 ```
 public XForm getOuterForm()
 ```
 
+
+<br />
 
 
 
@@ -34,6 +41,8 @@ com.aspose.pdf.XForm
 public PdfXImageAppearance extractImageAppearance()
 ```
 
+
+<br />
 
 
 

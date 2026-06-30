@@ -13,6 +13,7 @@ public class SpreadsheetHyperlinkPossibleWatermark extends HyperlinkPossibleWate
 ```
 
 Represents possible hyperlink watermark in an Excel document.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,15 +23,24 @@ Represents possible hyperlink watermark in an Excel document.
 
 | Method | Description |
 | --- | --- |
-| [getParent()](#getParent--) | Gets the parent of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`. |
-| [getWidth()](#getWidth--) | Gets the width of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in points. |
-| [getHeight()](#getHeight--) | Gets the height of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in points. |
-| [getX()](#getX--) | Gets the horizontal offset of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` from worksheet left border in points. |
-| [getY()](#getY--) | Gets the vertical offset of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` from worksheet top border in points. |
-| [getRotateAngle()](#getRotateAngle--) | Gets the rotate angle of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in degrees. |
-| [getText()](#getText--) | Gets the url of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`. |
-| [setText(String value)](#setText-java.lang.String-) | Sets the url of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`. |
-| [getUnitOfMeasurement()](#getUnitOfMeasurement--) | Gets the `[UnitOfMeasurement](../../com.groupdocs.watermark.common/unitofmeasurement)` of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`. |
+| [getParent()](#getParent--) | Gets the parent of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+ |
+| [getWidth()](#getWidth--) | Gets the width of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in points.
+ |
+| [getHeight()](#getHeight--) | Gets the height of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in points.
+ |
+| [getX()](#getX--) | Gets the horizontal offset of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` from worksheet left border in points.
+ |
+| [getY()](#getY--) | Gets the vertical offset of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` from worksheet top border in points.
+ |
+| [getRotateAngle()](#getRotateAngle--) | Gets the rotate angle of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in degrees.
+ |
+| [getText()](#getText--) | Gets the url of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+ |
+| [setText(String value)](#setText-java.lang.String-) | Sets the url of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+ |
+| [getUnitOfMeasurement()](#getUnitOfMeasurement--) | Gets the `[UnitOfMeasurement](../../com.groupdocs.watermark.common/unitofmeasurement)` of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+ |
 | [remove()](#remove--) |  |
 ### SpreadsheetHyperlinkPossibleWatermark(SpreadsheetWorksheet worksheet, Hyperlink hyperlink) {#SpreadsheetHyperlinkPossibleWatermark-com.groupdocs.watermark.contents.SpreadsheetWorksheet-com.aspose.cells.Hyperlink-}
 ```
@@ -54,8 +64,10 @@ public ContentPart getParent()
 
 Gets the parent of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
 
+
 **Returns:**
 [ContentPart](../../com.groupdocs.watermark.contents/contentpart) - The parent of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+
 ### getWidth() {#getWidth--}
 ```
 public double getWidth()
@@ -64,8 +76,10 @@ public double getWidth()
 
 Gets the width of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in points.
 
+
 **Returns:**
 double - The width of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in points.
+
 ### getHeight() {#getHeight--}
 ```
 public double getHeight()
@@ -74,8 +88,10 @@ public double getHeight()
 
 Gets the height of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in points.
 
+
 **Returns:**
 double - The height of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in points.
+
 ### getX() {#getX--}
 ```
 public double getX()
@@ -84,8 +100,10 @@ public double getX()
 
 Gets the horizontal offset of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` from worksheet left border in points.
 
+
 **Returns:**
 double - The x-coordinate of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+
 ### getY() {#getY--}
 ```
 public double getY()
@@ -94,8 +112,10 @@ public double getY()
 
 Gets the vertical offset of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` from worksheet top border in points.
 
+
 **Returns:**
 double - The y-coordinate of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+
 ### getRotateAngle() {#getRotateAngle--}
 ```
 public double getRotateAngle()
@@ -104,8 +124,10 @@ public double getRotateAngle()
 
 Gets the rotate angle of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)` in degrees.
 
+
 **Returns:**
 double - The value is always 0 for this type of possible watermark.
+
 ### getText() {#getText--}
 ```
 public String getText()
@@ -114,8 +136,10 @@ public String getText()
 
 Gets the url of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
 
+
 **Returns:**
 java.lang.String - The url of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public void setText(String value)
@@ -124,10 +148,12 @@ public void setText(String value)
 
 Sets the url of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The url of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`. |
+| value | java.lang.String | The url of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+ |
 
 ### getUnitOfMeasurement() {#getUnitOfMeasurement--}
 ```
@@ -137,8 +163,10 @@ public int getUnitOfMeasurement()
 
 Gets the `[UnitOfMeasurement](../../com.groupdocs.watermark.common/unitofmeasurement)` of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
 
+
 **Returns:**
 int - The `[UnitOfMeasurement](../../com.groupdocs.watermark.common/unitofmeasurement)` of this `[SpreadsheetHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/spreadsheethyperlinkpossiblewatermark)`.
+
 ### remove() {#remove--}
 ```
 public void remove()

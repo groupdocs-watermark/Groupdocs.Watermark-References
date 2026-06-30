@@ -13,3 +13,4 @@ public abstract class PresentationWatermarkOptions extends WatermarkOptions
 ```
 
 Base class for watermark adding options to a Presentation document.
+

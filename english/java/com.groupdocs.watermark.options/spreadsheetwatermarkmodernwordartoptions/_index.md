@@ -16,18 +16,18 @@ Represents options when adding modern word art watermark to a Spreadsheet worksh
 
 **Learn more:**
 
- *  [Add watermarks to spreadsheet documents][]
+* [Add watermarks to spreadsheet documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+spreadsheet+documents)
 
 The following example demonstrates how to add a modern WordArt watermark to an Excel document.
-
+>
+> ````
 > ```
-> ```
-> 
+>
 >    SpreadsheetLoadOptions loadOptions = new SpreadsheetLoadOptions();
 >    Watermarker watermarker = new Watermarker("D:\\test.xls", loadOptions);
-> 
+>
 >    TextWatermark watermark = new TextWatermark("Test", new Font("Arial", 14));
-> 
+>
 >    SpreadsheetWatermarkModernWordArtOptions options = new SpreadsheetWatermarkModernWordArtOptions();
 >    options.setWorksheetIndex(-1); // default
 >    options.setLocked(false); // default
@@ -36,21 +36,23 @@ The following example demonstrates how to add a modern WordArt watermark to an E
 >    watermarker.close();
 >  
 > ```
-> ```
+> ````
 
 
-[Add watermarks to spreadsheet documents]: https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+spreadsheet+documents
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SpreadsheetWatermarkModernWordArtOptions()](#SpreadsheetWatermarkModernWordArtOptions--) | Initializes a new instance of the `[SpreadsheetWatermarkModernWordArtOptions](../../com.groupdocs.watermark.options/spreadsheetwatermarkmodernwordartoptions)` class. |
+| [SpreadsheetWatermarkModernWordArtOptions()](#SpreadsheetWatermarkModernWordArtOptions--) | Initializes a new instance of the `[SpreadsheetWatermarkModernWordArtOptions](../../com.groupdocs.watermark.options/spreadsheetwatermarkmodernwordartoptions)` class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWorksheetIndex()](#getWorksheetIndex--) | Gets the index of worksheet to add the watermark to. |
-| [setWorksheetIndex(int value)](#setWorksheetIndex-int-) | Sets the index of worksheet to add the watermark to. |
+| [getWorksheetIndex()](#getWorksheetIndex--) | Gets the index of worksheet to add the watermark to.
+ |
+| [setWorksheetIndex(int value)](#setWorksheetIndex-int-) | Sets the index of worksheet to add the watermark to.
+ |
 ### SpreadsheetWatermarkModernWordArtOptions() {#SpreadsheetWatermarkModernWordArtOptions--}
 ```
 public SpreadsheetWatermarkModernWordArtOptions()
@@ -58,6 +60,7 @@ public SpreadsheetWatermarkModernWordArtOptions()
 
 
 Initializes a new instance of the `[SpreadsheetWatermarkModernWordArtOptions](../../com.groupdocs.watermark.options/spreadsheetwatermarkmodernwordartoptions)` class.
+
 
 ### getWorksheetIndex() {#getWorksheetIndex--}
 ```
@@ -67,12 +70,19 @@ public final int getWorksheetIndex()
 
 Gets the index of worksheet to add the watermark to.
 
+
 **Returns:**
 int - The index of worksheet to add the watermark to.
 
---------------------
+<br />
 
-\-1 means every worksheet.
+*** ** * ** ***
+
+-1 means every worksheet.
+
+<br />
+
+
 ### setWorksheetIndex(int value) {#setWorksheetIndex-int-}
 ```
 public final void setWorksheetIndex(int value)
@@ -81,12 +91,19 @@ public final void setWorksheetIndex(int value)
 
 Sets the index of worksheet to add the watermark to.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The index of worksheet to add the watermark to.
 
---------------------
+<br />
 
-\-1 means every worksheet. |
+*** ** * ** ***
+
+-1 means every worksheet.
+
+<br />
+
+ |
 

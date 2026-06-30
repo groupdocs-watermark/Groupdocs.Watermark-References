@@ -15,6 +15,7 @@ public class WordProcessingShapeFormattedTextFragmentCollection extends WordProc
 Represents a collection of formatted text fragments in a Word document shape.
 
 This collection contains the items of `[WordProcessingTextFormattedTextFragment](../../com.groupdocs.watermark.contents/wordprocessingtextformattedtextfragment)` type.
+
 ## Methods
 
 | Method | Description |
@@ -51,6 +52,8 @@ public void setText(String text)
 public void removeFromDocument(FormattedTextFragment item)
 ```
 
+
+<br />
 
 
 

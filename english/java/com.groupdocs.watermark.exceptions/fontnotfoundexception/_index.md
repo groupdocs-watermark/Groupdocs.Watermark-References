@@ -13,17 +13,21 @@ public class FontNotFoundException extends WatermarkException
 ```
 
 The exception that is thrown when requested font is not found.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [FontNotFoundException()](#FontNotFoundException--) | Initializes a new instance of the `[FontNotFoundException](../../com.groupdocs.watermark.exceptions/fontnotfoundexception)` class. |
-| [FontNotFoundException(String fontName)](#FontNotFoundException-java.lang.String-) | Initializes a new instance of the `[FontNotFoundException](../../com.groupdocs.watermark.exceptions/fontnotfoundexception)` class with a specified font name. |
+| [FontNotFoundException()](#FontNotFoundException--) | Initializes a new instance of the `[FontNotFoundException](../../com.groupdocs.watermark.exceptions/fontnotfoundexception)` class.
+ |
+| [FontNotFoundException(String fontName)](#FontNotFoundException-java.lang.String-) | Initializes a new instance of the `[FontNotFoundException](../../com.groupdocs.watermark.exceptions/fontnotfoundexception)` class with a specified font name.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getFontName()](#getFontName--) | Gets the requested font name. |
+| [getFontName()](#getFontName--) | Gets the requested font name.
+ |
 ### FontNotFoundException() {#FontNotFoundException--}
 ```
 public FontNotFoundException()
@@ -31,6 +35,7 @@ public FontNotFoundException()
 
 
 Initializes a new instance of the `[FontNotFoundException](../../com.groupdocs.watermark.exceptions/fontnotfoundexception)` class.
+
 
 ### FontNotFoundException(String fontName) {#FontNotFoundException-java.lang.String-}
 ```
@@ -40,10 +45,12 @@ public FontNotFoundException(String fontName)
 
 Initializes a new instance of the `[FontNotFoundException](../../com.groupdocs.watermark.exceptions/fontnotfoundexception)` class with a specified font name.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontName | java.lang.String | The requested font name. |
+| fontName | java.lang.String | The requested font name.
+ |
 
 ### getFontName() {#getFontName--}
 ```
@@ -53,5 +60,7 @@ public final String getFontName()
 
 Gets the requested font name.
 
+
 **Returns:**
 java.lang.String - The requested font name.
+

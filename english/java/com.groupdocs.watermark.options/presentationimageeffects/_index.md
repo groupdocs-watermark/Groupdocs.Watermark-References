@@ -16,11 +16,13 @@ public final class PresentationImageEffects extends OfficeImageEffects implement
 ```
 
 Represents effects that can be applied to an image watermark for a PowerPoint document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PresentationImageEffects()](#PresentationImageEffects--) | Initializes a new instance of the `[PresentationImageEffects](../../com.groupdocs.watermark.options/presentationimageeffects)` class. |
+| [PresentationImageEffects()](#PresentationImageEffects--) | Initializes a new instance of the `[PresentationImageEffects](../../com.groupdocs.watermark.options/presentationimageeffects)` class.
+ |
 ### PresentationImageEffects() {#PresentationImageEffects--}
 ```
 public PresentationImageEffects()
@@ -28,4 +30,5 @@ public PresentationImageEffects()
 
 
 Initializes a new instance of the `[PresentationImageEffects](../../com.groupdocs.watermark.options/presentationimageeffects)` class.
+
 

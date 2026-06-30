@@ -13,6 +13,7 @@ public class AttachmentWatermarkableImage extends WatermarkableImage
 ```
 
 Represents an attached image inside a content of any supported type.
+
 ## Constructors
 
 | Constructor | Description |

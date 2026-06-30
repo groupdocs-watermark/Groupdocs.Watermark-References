@@ -57,7 +57,7 @@ url: /java/com.groupdocs.watermark.search/
 | [SearchCriteria](../com.groupdocs.watermark.search/searchcriteria) | Class that can be used to construct criteria when searching for watermarks. |
 | [SearchableObjects](../com.groupdocs.watermark.search/searchableobjects) | Specifies document objects that are to be included in a watermark search. |
 | [ShapePossibleWatermark<T>](../com.groupdocs.watermark.search/shapepossiblewatermark) | Represents shape watermark in a content of any supported format. |
-| [ShapeSearchAdapter](../com.groupdocs.watermark.search/shapesearchadapter) | Provides base class for a shape containing specific pieces of document that are to be included in watermark search. |
+| [ShapeSearchAdapter](../com.groupdocs.watermark.search/shapesearchadapter) | Provides base class for a shape containing specific pieces of document that are to be included in watermarksearch. |
 | [SizeSearchCriteria](../com.groupdocs.watermark.search/sizesearchcriteria) | Represents criteria allowing filtering by watermark size. |
 | [SpreadsheetAttachedImagePossibleWatermark](../com.groupdocs.watermark.search/spreadsheetattachedimagepossiblewatermark) | Represents possible image watermark in Excel document attachment. |
 | [SpreadsheetBackgroundPossibleWatermark](../com.groupdocs.watermark.search/spreadsheetbackgroundpossiblewatermark) | Represents possible background watermark in an Excel document. |
@@ -79,6 +79,6 @@ url: /java/com.groupdocs.watermark.search/
 
 | Interface | Description |
 | --- | --- |
-| [IHyperlinkContainer](../com.groupdocs.watermark.search/ihyperlinkcontainer) |  |
+| [IHyperlinkContainer](../com.groupdocs.watermark.search/ihyperlinkcontainer) | <br /> |
 | [IRotatableTwoDObject](../com.groupdocs.watermark.search/irotatabletwodobject) | Represents any rotatable two dimensional object in a content structure. |
 | [ITwoDObject](../com.groupdocs.watermark.search/itwodobject) | Represents any two dimensional object in a content structure. |

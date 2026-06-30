@@ -13,11 +13,13 @@ public class MultiframeImageLoadOptions extends ImageLoadOptions
 ```
 
 Represents image loading options when loading a multiframe image.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [MultiframeImageLoadOptions()](#MultiframeImageLoadOptions--) | Initializes a new instance of the `[MultiframeImageLoadOptions](../../com.groupdocs.watermark.options/multiframeimageloadoptions)` class. |
+| [MultiframeImageLoadOptions()](#MultiframeImageLoadOptions--) | Initializes a new instance of the `[MultiframeImageLoadOptions](../../com.groupdocs.watermark.options/multiframeimageloadoptions)` class.
+ |
 ### MultiframeImageLoadOptions() {#MultiframeImageLoadOptions--}
 ```
 public MultiframeImageLoadOptions()
@@ -25,4 +27,5 @@ public MultiframeImageLoadOptions()
 
 
 Initializes a new instance of the `[MultiframeImageLoadOptions](../../com.groupdocs.watermark.options/multiframeimageloadoptions)` class.
+
 

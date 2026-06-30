@@ -13,6 +13,7 @@ public class PdfXObjectPossibleWatermark extends ShapePossibleWatermark<PdfXObje
 ```
 
 Represents possible XObject watermark in a pdf content.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Represents possible XObject watermark in a pdf content.
 
 | Method | Description |
 | --- | --- |
-| [getParent()](#getParent--) | Gets the parent of this `[PdfXObjectPossibleWatermark](../../com.groupdocs.watermark.search/pdfxobjectpossiblewatermark)`. |
+| [getParent()](#getParent--) | Gets the parent of this `[PdfXObjectPossibleWatermark](../../com.groupdocs.watermark.search/pdfxobjectpossiblewatermark)`.
+ |
 ### PdfXObjectPossibleWatermark(PdfXObject xObject, PdfXObjectCollection xObjectCollection) {#PdfXObjectPossibleWatermark-com.groupdocs.watermark.contents.PdfXObject-com.groupdocs.watermark.contents.PdfXObjectCollection-}
 ```
 public PdfXObjectPossibleWatermark(PdfXObject xObject, PdfXObjectCollection xObjectCollection)
@@ -45,5 +47,7 @@ public ContentPart getParent()
 
 Gets the parent of this `[PdfXObjectPossibleWatermark](../../com.groupdocs.watermark.search/pdfxobjectpossiblewatermark)`.
 
+
 **Returns:**
 [ContentPart](../../com.groupdocs.watermark.contents/contentpart) - The parent of this `[PdfXObjectPossibleWatermark](../../com.groupdocs.watermark.search/pdfxobjectpossiblewatermark)`.
+

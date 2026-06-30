@@ -13,12 +13,15 @@ public final class SpreadsheetLoadOptions extends LoadOptions
 ```
 
 Represents document loading options for a Spreadsheet document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SpreadsheetLoadOptions()](#SpreadsheetLoadOptions--) | Initializes a new instance of the `[SpreadsheetLoadOptions](../../com.groupdocs.watermark.options/spreadsheetloadoptions)` class. |
-| [SpreadsheetLoadOptions(String password)](#SpreadsheetLoadOptions-java.lang.String-) | Initializes a new instance of the `[SpreadsheetLoadOptions](../../com.groupdocs.watermark.options/spreadsheetloadoptions)` class with a specified password. |
+| [SpreadsheetLoadOptions()](#SpreadsheetLoadOptions--) | Initializes a new instance of the `[SpreadsheetLoadOptions](../../com.groupdocs.watermark.options/spreadsheetloadoptions)` class.
+ |
+| [SpreadsheetLoadOptions(String password)](#SpreadsheetLoadOptions-java.lang.String-) | Initializes a new instance of the `[SpreadsheetLoadOptions](../../com.groupdocs.watermark.options/spreadsheetloadoptions)` class with a specified password.
+ |
 ### SpreadsheetLoadOptions() {#SpreadsheetLoadOptions--}
 ```
 public SpreadsheetLoadOptions()
@@ -26,6 +29,7 @@ public SpreadsheetLoadOptions()
 
 
 Initializes a new instance of the `[SpreadsheetLoadOptions](../../com.groupdocs.watermark.options/spreadsheetloadoptions)` class.
+
 
 ### SpreadsheetLoadOptions(String password) {#SpreadsheetLoadOptions-java.lang.String-}
 ```
@@ -35,8 +39,10 @@ public SpreadsheetLoadOptions(String password)
 
 Initializes a new instance of the `[SpreadsheetLoadOptions](../../com.groupdocs.watermark.options/spreadsheetloadoptions)` class with a specified password.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | java.lang.String | The password for opening an encrypted content. |
+| password | java.lang.String | The password for opening an encrypted content.
+ |
 

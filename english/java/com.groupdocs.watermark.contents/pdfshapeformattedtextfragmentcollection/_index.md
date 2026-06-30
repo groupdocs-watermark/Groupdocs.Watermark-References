@@ -15,17 +15,24 @@ public class PdfShapeFormattedTextFragmentCollection extends PdfFormattedTextFra
 Represents a collection of formatted text fragments in a pdf document XObject, Artifact or Annotation.
 
 This collection contains the items of `[PdfFormattedTextFragment](../../com.groupdocs.watermark.contents/pdfformattedtextfragment)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [setText(String text)](#setText-java.lang.String-) |  |
-| [createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor)](#createInDocument-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) |  |
+| [setText(String text)](#setText-java.lang.String-) | <br />
+
+ |
+| [createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor)](#createInDocument-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) | <br />
+
+ |
 ### setText(String text) {#setText-java.lang.String-}
 ```
 public void setText(String text)
 ```
 
+
+<br />
 
 
 
@@ -39,6 +46,8 @@ public void setText(String text)
 public FormattedTextFragment createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor)
 ```
 
+
+<br />
 
 
 

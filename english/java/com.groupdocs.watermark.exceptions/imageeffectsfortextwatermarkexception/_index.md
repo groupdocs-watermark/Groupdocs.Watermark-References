@@ -13,11 +13,13 @@ public final class ImageEffectsForTextWatermarkException extends WatermarkExcept
 ```
 
 The exception that is thrown when `[OfficeImageEffects](../../com.groupdocs.watermark.contents/officeimageeffects)` is supplied for `[TextWatermark](../../com.groupdocs.watermark.watermarks/textwatermark)`.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ImageEffectsForTextWatermarkException()](#ImageEffectsForTextWatermarkException--) | Initializes a new instance of the `[ImageEffectsForTextWatermarkException](../../com.groupdocs.watermark.exceptions/imageeffectsfortextwatermarkexception)` class. |
+| [ImageEffectsForTextWatermarkException()](#ImageEffectsForTextWatermarkException--) | Initializes a new instance of the `[ImageEffectsForTextWatermarkException](../../com.groupdocs.watermark.exceptions/imageeffectsfortextwatermarkexception)` class.
+ |
 ### ImageEffectsForTextWatermarkException() {#ImageEffectsForTextWatermarkException--}
 ```
 public ImageEffectsForTextWatermarkException()
@@ -25,4 +27,5 @@ public ImageEffectsForTextWatermarkException()
 
 
 Initializes a new instance of the `[ImageEffectsForTextWatermarkException](../../com.groupdocs.watermark.exceptions/imageeffectsfortextwatermarkexception)` class.
+
 

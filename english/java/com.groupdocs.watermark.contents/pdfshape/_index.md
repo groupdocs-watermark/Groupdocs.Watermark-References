@@ -16,27 +16,52 @@ public abstract class PdfShape extends ShapeSearchAdapter implements IRotatableT
 ```
 
 Provides base class for XObjects, Artifacts and Annotations.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--) | Gets the text of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`. |
-| [setText(String value)](#setText-java.lang.String-) | Gets or sets the text of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`. |
-| [getFormattedTextFragments()](#getFormattedTextFragments--) | Gets the collection of formatted text fragments of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`. |
-| [getImage()](#getImage--) | Gets the image of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`. |
-| [setImage(PdfWatermarkableImage value)](#setImage-com.groupdocs.watermark.contents.PdfWatermarkableImage-) | Sets the image of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`. |
-| [getX()](#getX--) | Gets the x-coordinate of the object. |
-| [getY()](#getY--) | Gets the y-coordinate of the object. |
-| [getWidth()](#getWidth--) | Gets the width of the object. |
-| [getHeight()](#getHeight--) | Gets the height of the object. |
-| [getRotateAngle()](#getRotateAngle--) | Gets the rotate angle of the object in degrees. |
-| [getOuterForm()](#getOuterForm--) |  |
-| [extractImageAppearance()](#extractImageAppearance--) |  |
-| [getTextForSearch()](#getTextForSearch--) |  |
-| [setFoundWatermarkText(String value)](#setFoundWatermarkText-java.lang.String-) |  |
-| [getFormattedTextFragmentsForSearch()](#getFormattedTextFragmentsForSearch--) |  |
-| [getImageForSearch()](#getImageForSearch--) |  |
-| [setFoundWatermarkImage(byte[] imageData)](#setFoundWatermarkImage-byte---) |  |
+| [getText()](#getText--) | Gets the text of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+ |
+| [setText(String value)](#setText-java.lang.String-) | Gets or sets the text of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+ |
+| [getFormattedTextFragments()](#getFormattedTextFragments--) | Gets the collection of formatted text fragments of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+ |
+| [getImage()](#getImage--) | Gets the image of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+ |
+| [setImage(PdfWatermarkableImage value)](#setImage-com.groupdocs.watermark.contents.PdfWatermarkableImage-) | Sets the image of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+ |
+| [getX()](#getX--) | Gets the x-coordinate of the object.
+ |
+| [getY()](#getY--) | Gets the y-coordinate of the object.
+ |
+| [getWidth()](#getWidth--) | Gets the width of the object.
+ |
+| [getHeight()](#getHeight--) | Gets the height of the object.
+ |
+| [getRotateAngle()](#getRotateAngle--) | Gets the rotate angle of the object in degrees.
+ |
+| [getOuterForm()](#getOuterForm--) | <br />
+
+ |
+| [extractImageAppearance()](#extractImageAppearance--) | <br />
+
+ |
+| [getTextForSearch()](#getTextForSearch--) | <br />
+
+ |
+| [setFoundWatermarkText(String value)](#setFoundWatermarkText-java.lang.String-) | <br />
+
+ |
+| [getFormattedTextFragmentsForSearch()](#getFormattedTextFragmentsForSearch--) | <br />
+
+ |
+| [getImageForSearch()](#getImageForSearch--) | <br />
+
+ |
+| [setFoundWatermarkImage(byte[] imageData)](#setFoundWatermarkImage-byte---) | <br />
+
+ |
 ### getText() {#getText--}
 ```
 public String getText()
@@ -45,8 +70,10 @@ public String getText()
 
 Gets the text of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
 
+
 **Returns:**
 java.lang.String - The text of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public void setText(String value)
@@ -55,10 +82,12 @@ public void setText(String value)
 
 Gets or sets the text of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The text of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`. |
+| value | java.lang.String | The text of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+ |
 
 ### getFormattedTextFragments() {#getFormattedTextFragments--}
 ```
@@ -68,8 +97,10 @@ public final FormattedTextFragmentCollection getFormattedTextFragments()
 
 Gets the collection of formatted text fragments of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
 
+
 **Returns:**
 [FormattedTextFragmentCollection](../../com.groupdocs.watermark.search/formattedtextfragmentcollection) - The collection of formatted text fragments of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+
 ### getImage() {#getImage--}
 ```
 public final PdfWatermarkableImage getImage()
@@ -78,8 +109,10 @@ public final PdfWatermarkableImage getImage()
 
 Gets the image of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
 
+
 **Returns:**
 [PdfWatermarkableImage](../../com.groupdocs.watermark.contents/pdfwatermarkableimage) - The image of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+
 ### setImage(PdfWatermarkableImage value) {#setImage-com.groupdocs.watermark.contents.PdfWatermarkableImage-}
 ```
 public final void setImage(PdfWatermarkableImage value)
@@ -88,10 +121,12 @@ public final void setImage(PdfWatermarkableImage value)
 
 Sets the image of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [PdfWatermarkableImage](../../com.groupdocs.watermark.contents/pdfwatermarkableimage) | The image of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`. |
+| value | [PdfWatermarkableImage](../../com.groupdocs.watermark.contents/pdfwatermarkableimage) | The image of this `[PdfShape](../../com.groupdocs.watermark.contents/pdfshape)`.
+ |
 
 ### getX() {#getX--}
 ```
@@ -101,8 +136,10 @@ public abstract double getX()
 
 Gets the x-coordinate of the object.
 
+
 **Returns:**
 double - The x-coordinate of the object.
+
 ### getY() {#getY--}
 ```
 public abstract double getY()
@@ -111,8 +148,10 @@ public abstract double getY()
 
 Gets the y-coordinate of the object.
 
+
 **Returns:**
 double - The y-coordinate of the object.
+
 ### getWidth() {#getWidth--}
 ```
 public abstract double getWidth()
@@ -121,8 +160,10 @@ public abstract double getWidth()
 
 Gets the width of the object.
 
+
 **Returns:**
 double - The width of the object.
+
 ### getHeight() {#getHeight--}
 ```
 public abstract double getHeight()
@@ -131,8 +172,10 @@ public abstract double getHeight()
 
 Gets the height of the object.
 
+
 **Returns:**
 double - The height of the object.
+
 ### getRotateAngle() {#getRotateAngle--}
 ```
 public abstract double getRotateAngle()
@@ -141,13 +184,17 @@ public abstract double getRotateAngle()
 
 Gets the rotate angle of the object in degrees.
 
+
 **Returns:**
 double - The rotate angle of the object in degrees.
+
 ### getOuterForm() {#getOuterForm--}
 ```
 public abstract XForm getOuterForm()
 ```
 
+
+<br />
 
 
 
@@ -159,6 +206,8 @@ public PdfXImageAppearance extractImageAppearance()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -169,6 +218,8 @@ public String getTextForSearch()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -178,6 +229,8 @@ java.lang.String
 public void setFoundWatermarkText(String value)
 ```
 
+
+<br />
 
 
 
@@ -192,6 +245,8 @@ public FormattedTextFragmentCollection getFormattedTextFragmentsForSearch()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -202,6 +257,8 @@ public WatermarkableImage getImageForSearch()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -211,6 +268,8 @@ public WatermarkableImage getImageForSearch()
 public void setFoundWatermarkImage(byte[] imageData)
 ```
 
+
+<br />
 
 
 
