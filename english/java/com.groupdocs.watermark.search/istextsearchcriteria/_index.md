@@ -13,11 +13,13 @@ public final class IsTextSearchCriteria extends SearchCriteria
 ```
 
 Represents search criteria for filtering text watermarks only.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [IsTextSearchCriteria()](#IsTextSearchCriteria--) | Initializes a new instance of the `[IsTextSearchCriteria](../../com.groupdocs.watermark.search/istextsearchcriteria)` class. |
+| [IsTextSearchCriteria()](#IsTextSearchCriteria--) | Initializes a new instance of the `[IsTextSearchCriteria](../../com.groupdocs.watermark.search/istextsearchcriteria)` class.
+ |
 ## Methods
 
 | Method | Description |
@@ -31,6 +33,7 @@ public IsTextSearchCriteria()
 
 
 Initializes a new instance of the `[IsTextSearchCriteria](../../com.groupdocs.watermark.search/istextsearchcriteria)` class.
+
 
 ### isSatisfiedBy(PossibleWatermark candidate) {#isSatisfiedBy-com.groupdocs.watermark.search.PossibleWatermark-}
 ```

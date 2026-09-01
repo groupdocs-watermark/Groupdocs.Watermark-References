@@ -13,3 +13,4 @@ public class PresentationMasterSlide extends PresentationBaseSlide
 ```
 
 Represents a PowerPoint document master slide.
+

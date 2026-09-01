@@ -11,11 +11,11 @@ url: /java/com.groupdocs.watermark.contents/
 
 | Class | Description |
 | --- | --- |
-| [AsposeImageContainer](../com.groupdocs.watermark.contents/asposeimagecontainer) |  |
+| [AsposeImageContainer](../com.groupdocs.watermark.contents/asposeimagecontainer) | <br /> |
 | [AttachmentWatermarkableImage](../com.groupdocs.watermark.contents/attachmentwatermarkableimage) | Represents an attached image inside a content of any supported type. |
 | [Content](../com.groupdocs.watermark.contents/content) | Represents a content where a watermark can be placed. |
-| [ContentPart](../com.groupdocs.watermark.contents/contentpart) | Represents any logical part of a content (page, frame, header or a whole content) where watermark can be placed. |
-| [ContentsProxy](../com.groupdocs.watermark.contents/contentsproxy) |  |
+| [ContentPart](../com.groupdocs.watermark.contents/contentpart) | Represents any logical part of a content (page, frame, header ora whole content) where watermark can be placed. |
+| [ContentsProxy](../com.groupdocs.watermark.contents/contentsproxy) | <br /> |
 | [DiagramContent](../com.groupdocs.watermark.contents/diagramcontent) | Represents a Visio document. |
 | [DiagramFormattedTextFragment](../com.groupdocs.watermark.contents/diagramformattedtextfragment) | Represents a fragment of formatted text in a Visio document. |
 | [DiagramFormattedTextFragmentCollection](../com.groupdocs.watermark.contents/diagramformattedtextfragmentcollection) | Represents a collection of formatted text fragments in a Visio document. |
@@ -42,7 +42,7 @@ url: /java/com.groupdocs.watermark.contents/
 | [ImageContent](../com.groupdocs.watermark.contents/imagecontent) | Represents an image where a watermark can be placed. |
 | [ImageFrame](../com.groupdocs.watermark.contents/imageframe) | Represents an image frame where a watermark can be placed. |
 | [ImageFrameCollection](../com.groupdocs.watermark.contents/imageframecollection) | Represents a collection of frames in multiframe image. |
-| [ImageUtils](../com.groupdocs.watermark.contents/imageutils) |  |
+| [ImageUtils](../com.groupdocs.watermark.contents/imageutils) | <br /> |
 | [MultiframeImageContent](../com.groupdocs.watermark.contents/multiframeimagecontent) | Represents a multiframe image where a watermark can be placed. |
 | [OfficeDashStyle](../com.groupdocs.watermark.contents/officedashstyle) | Represents a dashed line style. |
 | [OfficeHeaderFooterType](../com.groupdocs.watermark.contents/officeheaderfootertype) | Identifies the type of header or footer. |
@@ -136,7 +136,7 @@ url: /java/com.groupdocs.watermark.contents/
 | [WordProcessingHeaderFooterCollection](../com.groupdocs.watermark.contents/wordprocessingheaderfootercollection) | Represents a collection of headers and footers in a Word document. |
 | [WordProcessingHorizontalAlignment](../com.groupdocs.watermark.contents/wordprocessinghorizontalalignment) | Specifies horizontal alignment of a floating object. |
 | [WordProcessingPageSetup](../com.groupdocs.watermark.contents/wordprocessingpagesetup) | Represents printing page properties for a section of a Word document. |
-| [WordProcessingPageSplitter](../com.groupdocs.watermark.contents/wordprocessingpagesplitter) |  |
+| [WordProcessingPageSplitter](../com.groupdocs.watermark.contents/wordprocessingpagesplitter) | <br /> |
 | [WordProcessingProtectionType](../com.groupdocs.watermark.contents/wordprocessingprotectiontype) | Represents protection type for a Word document. |
 | [WordProcessingRelativeHorizontalPosition](../com.groupdocs.watermark.contents/wordprocessingrelativehorizontalposition) | Specifies to what the horizontal position of an object is relative. |
 | [WordProcessingRelativeVerticalPosition](../com.groupdocs.watermark.contents/wordprocessingrelativeverticalposition) | Specifies to what the vertical position of an object is relative. |
@@ -148,7 +148,7 @@ url: /java/com.groupdocs.watermark.contents/
 | [WordProcessingShapeType](../com.groupdocs.watermark.contents/wordprocessingshapetype) | Represents the type of a shape in a Word document. |
 | [WordProcessingTextFormattedTextFragment](../com.groupdocs.watermark.contents/wordprocessingtextformattedtextfragment) | Represents a fragment of formatted text in a Word document. |
 | [WordProcessingTextFormattedTextFragmentCollection](../com.groupdocs.watermark.contents/wordprocessingtextformattedtextfragmentcollection) | Represents a collection of formatted text fragments in a Word document main text. |
-| [WordProcessingUtils](../com.groupdocs.watermark.contents/wordprocessingutils) |  |
+| [WordProcessingUtils](../com.groupdocs.watermark.contents/wordprocessingutils) | <br /> |
 | [WordProcessingVerticalAlignment](../com.groupdocs.watermark.contents/wordprocessingverticalalignment) | Specifies vertical alignment of a floating object. |
 | [WordProcessingWatermarkableImage](../com.groupdocs.watermark.contents/wordprocessingwatermarkableimage) | Represents an image inside a Word document. |
 | [WordProcessingWordArtShapeFormattedTextFragment](../com.groupdocs.watermark.contents/wordprocessingwordartshapeformattedtextfragment) | Represents a fragment of formatted text in a WordArt shape. |

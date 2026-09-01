@@ -13,6 +13,7 @@ public class PdfAttachedImagePossibleWatermark extends AttachedImagePossibleWate
 ```
 
 Represents possible image watermark in pdf document attachment.
+
 ## Constructors
 
 | Constructor | Description |

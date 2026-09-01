@@ -15,16 +15,21 @@ public class PdfXObjectCollection extends RemoveOnlyListBase<PdfXObject>
 Represents a collection of XObjects in a pdf document.
 
 This collection contains the items of `[PdfXObject](../../com.groupdocs.watermark.contents/pdfxobject)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [removeFromDocument(PdfXObject item)](#removeFromDocument-com.groupdocs.watermark.contents.PdfXObject-) |  |
+| [removeFromDocument(PdfXObject item)](#removeFromDocument-com.groupdocs.watermark.contents.PdfXObject-) | <br />
+
+ |
 ### removeFromDocument(PdfXObject item) {#removeFromDocument-com.groupdocs.watermark.contents.PdfXObject-}
 ```
 public void removeFromDocument(PdfXObject item)
 ```
 
+
+<br />
 
 
 

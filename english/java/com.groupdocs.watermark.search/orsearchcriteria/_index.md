@@ -16,12 +16,15 @@ public class OrSearchCriteria extends SearchCriteria implements IBinaryOperation
 ```
 
 Represents OR composite search criteria.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLeft()](#getLeft--) | Gets the left search criteria. |
-| [getRight()](#getRight--) | Gets the right search criteria. |
+| [getLeft()](#getLeft--) | Gets the left search criteria.
+ |
+| [getRight()](#getRight--) | Gets the right search criteria.
+ |
 | [isSatisfiedBy(PossibleWatermark candidate)](#isSatisfiedBy-com.groupdocs.watermark.search.PossibleWatermark-) |  |
 | [accept(ICriteriaVisitor visitor)](#accept-com.groupdocs.watermark.internal.ICriteriaVisitor-) |  |
 ### getLeft() {#getLeft--}
@@ -32,8 +35,10 @@ public final SearchCriteria getLeft()
 
 Gets the left search criteria.
 
+
 **Returns:**
 [SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria) - The left search criteria.
+
 ### getRight() {#getRight--}
 ```
 public final SearchCriteria getRight()
@@ -42,8 +47,10 @@ public final SearchCriteria getRight()
 
 Gets the right search criteria.
 
+
 **Returns:**
 [SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria) - The right search criteria.
+
 ### isSatisfiedBy(PossibleWatermark candidate) {#isSatisfiedBy-com.groupdocs.watermark.search.PossibleWatermark-}
 ```
 public boolean isSatisfiedBy(PossibleWatermark candidate)

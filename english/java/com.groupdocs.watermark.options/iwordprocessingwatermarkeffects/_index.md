@@ -10,3 +10,4 @@ public interface IWordProcessingWatermarkEffects
 ```
 
 Represents interface for watermark effects that should be applied to the watermark.
+

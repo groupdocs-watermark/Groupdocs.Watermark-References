@@ -16,11 +16,13 @@ public final class PresentationTextEffects extends OfficeTextEffects implements 
 ```
 
 Represents effects that can be applied to a text watermark for a PowerPoint content.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PresentationTextEffects()](#PresentationTextEffects--) | Initializes a new instance of the `[PresentationTextEffects](../../com.groupdocs.watermark.options/presentationtexteffects)` class. |
+| [PresentationTextEffects()](#PresentationTextEffects--) | Initializes a new instance of the `[PresentationTextEffects](../../com.groupdocs.watermark.options/presentationtexteffects)` class.
+ |
 ### PresentationTextEffects() {#PresentationTextEffects--}
 ```
 public PresentationTextEffects()
@@ -28,4 +30,5 @@ public PresentationTextEffects()
 
 
 Initializes a new instance of the `[PresentationTextEffects](../../com.groupdocs.watermark.options/presentationtexteffects)` class.
+
 

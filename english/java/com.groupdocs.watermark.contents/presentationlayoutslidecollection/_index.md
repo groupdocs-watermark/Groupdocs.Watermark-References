@@ -15,3 +15,4 @@ public class PresentationLayoutSlideCollection extends ReadOnlyListBase<Presenta
 Represents a collection of layout slides in a PowerPoint document.
 
 This collection contains the items of `[PresentationLayoutSlide](../../com.groupdocs.watermark.contents/presentationlayoutslide)` type.
+

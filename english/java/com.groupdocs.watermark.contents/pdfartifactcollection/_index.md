@@ -15,16 +15,21 @@ public class PdfArtifactCollection extends RemoveOnlyListBase<PdfArtifact>
 Represents a collection of artifacts in a pdf content.
 
 This collection contains the items of `[PdfArtifact](../../com.groupdocs.watermark.contents/pdfartifact)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [removeFromDocument(PdfArtifact item)](#removeFromDocument-com.groupdocs.watermark.contents.PdfArtifact-) |  |
+| [removeFromDocument(PdfArtifact item)](#removeFromDocument-com.groupdocs.watermark.contents.PdfArtifact-) | <br />
+
+ |
 ### removeFromDocument(PdfArtifact item) {#removeFromDocument-com.groupdocs.watermark.contents.PdfArtifact-}
 ```
 public void removeFromDocument(PdfArtifact item)
 ```
 
+
+<br />
 
 
 

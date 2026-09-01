@@ -16,11 +16,13 @@ public final class SpreadsheetImageEffects extends OfficeImageEffects implements
 ```
 
 Represents effects that can be applied to an image watermark for an Excel document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SpreadsheetImageEffects()](#SpreadsheetImageEffects--) | Initializes a new instance of the `[SpreadsheetImageEffects](../../com.groupdocs.watermark.options/spreadsheetimageeffects)` class. |
+| [SpreadsheetImageEffects()](#SpreadsheetImageEffects--) | Initializes a new instance of the `[SpreadsheetImageEffects](../../com.groupdocs.watermark.options/spreadsheetimageeffects)` class.
+ |
 ### SpreadsheetImageEffects() {#SpreadsheetImageEffects--}
 ```
 public SpreadsheetImageEffects()
@@ -28,4 +30,5 @@ public SpreadsheetImageEffects()
 
 
 Initializes a new instance of the `[SpreadsheetImageEffects](../../com.groupdocs.watermark.options/spreadsheetimageeffects)` class.
+
 

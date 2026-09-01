@@ -13,12 +13,15 @@ public final class PresentationHyperlinkActionType
 ```
 
 Specifies hyperlink action type.
+
 ## Fields
 
 | Field | Description |
 | --- | --- |
-| [MouseClick](#MouseClick) | Hyperlink is activated on mouse click. |
-| [MouseOver](#MouseOver) | Hyperlink is activated on mouse over. |
+| [MouseClick](#MouseClick) | Hyperlink is activated on mouse click.
+ |
+| [MouseOver](#MouseOver) | Hyperlink is activated on mouse over.
+ |
 ### MouseClick {#MouseClick}
 ```
 public static final int MouseClick
@@ -27,6 +30,7 @@ public static final int MouseClick
 
 Hyperlink is activated on mouse click.
 
+
 ### MouseOver {#MouseOver}
 ```
 public static final int MouseOver
@@ -34,4 +38,5 @@ public static final int MouseOver
 
 
 Hyperlink is activated on mouse over.
+
 

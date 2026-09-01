@@ -16,42 +16,44 @@ Represents watermark adding options when adding artifact watermark to a pdf docu
 
 **Leran more:**
 
- *  [Add watermarks to PDF documents][]
+* [Add watermarks to PDF documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+PDF+documents)
 
 The following example demonstrates how to add an image artifact watermark to a PDF document.
-
+>
+> ````
 > ```
-> ```
-> 
+>
 >    PdfLoadOptions loadOptions = new PdfLoadOptions();
 >    Watermarker watermarker = new Watermarker("D:\\test.pdf", loadOptions);
-> 
+>
 >    ImageWatermark watermark = new ImageWatermark("D:\\icon.png");
-> 
+>
 >    PdfArtifactWatermarkOptions options = new PdfArtifactWatermarkOptions();
 >    options.setPageIndex(-1); // default - all pages
-> 
+>
 >    watermarker.add(watermark, options);
 >    watermarker.save("D:\\watermarked_test.pdf");
 >    watermark.close();
 >    watermarker.close();
 >  
 > ```
-> ```
+> ````
 
 
-[Add watermarks to PDF documents]: https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+PDF+documents
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PdfArtifactWatermarkOptions()](#PdfArtifactWatermarkOptions--) | Initializes a new instance of the `[PdfArtifactWatermarkOptions](../../com.groupdocs.watermark.options/pdfartifactwatermarkoptions)` class. |
+| [PdfArtifactWatermarkOptions()](#PdfArtifactWatermarkOptions--) | Initializes a new instance of the `[PdfArtifactWatermarkOptions](../../com.groupdocs.watermark.options/pdfartifactwatermarkoptions)` class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageIndex()](#getPageIndex--) | Gets the page index to add watermark to. |
-| [setPageIndex(int value)](#setPageIndex-int-) | Sets the page index to add watermark to. |
+| [getPageIndex()](#getPageIndex--) | Gets the page index to add watermark to.
+ |
+| [setPageIndex(int value)](#setPageIndex-int-) | Sets the page index to add watermark to.
+ |
 ### PdfArtifactWatermarkOptions() {#PdfArtifactWatermarkOptions--}
 ```
 public PdfArtifactWatermarkOptions()
@@ -59,6 +61,7 @@ public PdfArtifactWatermarkOptions()
 
 
 Initializes a new instance of the `[PdfArtifactWatermarkOptions](../../com.groupdocs.watermark.options/pdfartifactwatermarkoptions)` class.
+
 
 ### getPageIndex() {#getPageIndex--}
 ```
@@ -68,8 +71,10 @@ public final int getPageIndex()
 
 Gets the page index to add watermark to.
 
+
 **Returns:**
 int - The page index to add watermark to.
+
 ### setPageIndex(int value) {#setPageIndex-int-}
 ```
 public final void setPageIndex(int value)
@@ -78,8 +83,10 @@ public final void setPageIndex(int value)
 
 Sets the page index to add watermark to.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The page index to add watermark to. |
+| value | int | The page index to add watermark to.
+ |
 

@@ -13,24 +13,37 @@ public final class GifImageContent extends MultiframeImageContent
 ```
 
 Represents a gif image where a watermark can be placed.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [GifImageContent(StreamContainer stream, StrategyManager<Integer> strategyManager, GifImageLoadOptions gifImageLoadOptions, WatermarkerSettings watermarkerSettings)](#GifImageContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.groupdocs.watermark.options.GifImageLoadOptions-com.groupdocs.watermark.WatermarkerSettings-) |  |
+| [GifImageContent(StreamContainer stream, StrategyManager<Integer> strategyManager, GifImageLoadOptions gifImageLoadOptions, WatermarkerSettings watermarkerSettings)](#GifImageContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.groupdocs.watermark.options.GifImageLoadOptions-com.groupdocs.watermark.WatermarkerSettings-) | <br />
+
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [performSave(String filePath)](#performSave-java.lang.String-) |  |
-| [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) |  |
-| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) |  |
-| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) |  |
+| [performSave(String filePath)](#performSave-java.lang.String-) | <br />
+
+ |
+| [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) | <br />
+
+ |
+| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) | <br />
+
+ |
+| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) | <br />
+
+ |
 ### GifImageContent(StreamContainer stream, StrategyManager<Integer> strategyManager, GifImageLoadOptions gifImageLoadOptions, WatermarkerSettings watermarkerSettings) {#GifImageContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.groupdocs.watermark.options.GifImageLoadOptions-com.groupdocs.watermark.WatermarkerSettings-}
 ```
 public GifImageContent(StreamContainer stream, StrategyManager<Integer> strategyManager, GifImageLoadOptions gifImageLoadOptions, WatermarkerSettings watermarkerSettings)
 ```
 
+
+<br />
 
 
 
@@ -48,6 +61,8 @@ public void performSave(String filePath)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -60,6 +75,8 @@ public void performSave(String filePath)
 public void performSave(OutputStream stream)
 ```
 
+
+<br />
 
 
 
@@ -74,6 +91,8 @@ public void add(Watermark watermark, WatermarkOptions options)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -87,6 +106,8 @@ public void add(Watermark watermark, WatermarkOptions options)
 public void generatePreview(PreviewOptions previewOptions)
 ```
 
+
+<br />
 
 
 

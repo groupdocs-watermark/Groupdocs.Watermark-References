@@ -15,6 +15,7 @@ public class FormattedTextFragmentCollection extends RemoveOnlyListBase<Formatte
 Represents a mutable collection of formatted text fragments.
 
 This collection contains the items of `[FormattedTextFragment](../../com.groupdocs.watermark.search/formattedtextfragment)` base type.
+
 ## Constructors
 
 | Constructor | Description |
@@ -24,19 +25,28 @@ This collection contains the items of `[FormattedTextFragment](../../com.groupdo
 
 | Method | Description |
 | --- | --- |
-| [getCollectionType()](#getCollectionType--) | Gets the formatted fragment collection type. |
+| [getCollectionType()](#getCollectionType--) | Gets the formatted fragment collection type.
+ |
 | [getDefaultFont()](#getDefaultFont--) |  |
 | [getDefaultForegroundColor()](#getDefaultForegroundColor--) |  |
 | [getDefaultBackgroundColor()](#getDefaultBackgroundColor--) |  |
 | [getText()](#getText--) |  |
-| [add(String text)](#add-java.lang.String-) | Adds a formatted text fragment to the collection. |
-| [add(String text, Font font)](#add-java.lang.String-com.groupdocs.watermark.watermarks.Font-) | Adds a formatted text fragment to the collection. |
-| [add(String text, Font font, Color foregroundColor)](#add-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-) | Adds a formatted text fragment to the collection. |
-| [add(String text, Font font, Color foregroundColor, Color backgroundColor)](#add-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) | Adds a formatted text fragment to the collection. |
-| [insert(int index, String text)](#insert-int-java.lang.String-) | Inserts a formatted text fragment into the collection at a given index. |
-| [insert(int index, String text, Font font)](#insert-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-) | Inserts a formatted text fragment into the collection at a given index. |
-| [insert(int index, String text, Font font, Color foregroundColor)](#insert-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-) | Inserts a formatted text fragment into the collection at a given index. |
-| [insert(int index, String text, Font font, Color foregroundColor, Color backgroundColor)](#insert-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) | Inserts a formatted text fragment into the collection at a given index. |
+| [add(String text)](#add-java.lang.String-) | Adds a formatted text fragment to the collection.
+ |
+| [add(String text, Font font)](#add-java.lang.String-com.groupdocs.watermark.watermarks.Font-) | Adds a formatted text fragment to the collection.
+ |
+| [add(String text, Font font, Color foregroundColor)](#add-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-) | Adds a formatted text fragment to the collection.
+ |
+| [add(String text, Font font, Color foregroundColor, Color backgroundColor)](#add-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) | Adds a formatted text fragment to the collection.
+ |
+| [insert(int index, String text)](#insert-int-java.lang.String-) | Inserts a formatted text fragment into the collection at a given index.
+ |
+| [insert(int index, String text, Font font)](#insert-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-) | Inserts a formatted text fragment into the collection at a given index.
+ |
+| [insert(int index, String text, Font font, Color foregroundColor)](#insert-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-) | Inserts a formatted text fragment into the collection at a given index.
+ |
+| [insert(int index, String text, Font font, Color foregroundColor, Color backgroundColor)](#insert-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) | Inserts a formatted text fragment into the collection at a given index.
+ |
 | [createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor)](#createInDocument-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) |  |
 | [setText(String text)](#setText-java.lang.String-) |  |
 ### FormattedTextFragmentCollection(int collectionType) {#FormattedTextFragmentCollection-int-}
@@ -60,8 +70,10 @@ public final int getCollectionType()
 
 Gets the formatted fragment collection type.
 
+
 **Returns:**
 int - The formatted fragment collection type.
+
 ### getDefaultFont() {#getDefaultFont--}
 ```
 public final Font getDefaultFont()
@@ -110,10 +122,12 @@ public final void add(String text)
 
 Adds a formatted text fragment to the collection.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | The fragment text. |
+| text | java.lang.String | The fragment text.
+ |
 
 ### add(String text, Font font) {#add-java.lang.String-com.groupdocs.watermark.watermarks.Font-}
 ```
@@ -123,11 +137,14 @@ public final void add(String text, Font font)
 
 Adds a formatted text fragment to the collection.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | The fragment text. |
-| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text. |
+| text | java.lang.String | The fragment text.
+ |
+| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text.
+ |
 
 ### add(String text, Font font, Color foregroundColor) {#add-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-}
 ```
@@ -137,12 +154,16 @@ public final void add(String text, Font font, Color foregroundColor)
 
 Adds a formatted text fragment to the collection.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | The fragment text. |
-| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text. |
-| foregroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The foreground color of the text. |
+| text | java.lang.String | The fragment text.
+ |
+| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text.
+ |
+| foregroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The foreground color of the text.
+ |
 
 ### add(String text, Font font, Color foregroundColor, Color backgroundColor) {#add-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-}
 ```
@@ -152,13 +173,18 @@ public final void add(String text, Font font, Color foregroundColor, Color backg
 
 Adds a formatted text fragment to the collection.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| text | java.lang.String | The fragment text. |
-| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text. |
-| foregroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The foreground color of the text. |
-| backgroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The background color of the text. |
+| text | java.lang.String | The fragment text.
+ |
+| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text.
+ |
+| foregroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The foreground color of the text.
+ |
+| backgroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The background color of the text.
+ |
 
 ### insert(int index, String text) {#insert-int-java.lang.String-}
 ```
@@ -168,11 +194,14 @@ public final void insert(int index, String text)
 
 Inserts a formatted text fragment into the collection at a given index.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which formatted text fragment should be inserted. |
-| text | java.lang.String | The fragment text. |
+| index | int | The zero-based index at which formatted text fragment should be inserted.
+ |
+| text | java.lang.String | The fragment text.
+ |
 
 ### insert(int index, String text, Font font) {#insert-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-}
 ```
@@ -182,12 +211,16 @@ public final void insert(int index, String text, Font font)
 
 Inserts a formatted text fragment into the collection at a given index.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which formatted text fragment should be inserted. |
-| text | java.lang.String | The fragment text. |
-| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text. |
+| index | int | The zero-based index at which formatted text fragment should be inserted.
+ |
+| text | java.lang.String | The fragment text.
+ |
+| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text.
+ |
 
 ### insert(int index, String text, Font font, Color foregroundColor) {#insert-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-}
 ```
@@ -197,13 +230,18 @@ public final void insert(int index, String text, Font font, Color foregroundColo
 
 Inserts a formatted text fragment into the collection at a given index.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which formatted text fragment should be inserted. |
-| text | java.lang.String | The fragment text. |
-| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text. |
-| foregroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The foreground color of the text. |
+| index | int | The zero-based index at which formatted text fragment should be inserted.
+ |
+| text | java.lang.String | The fragment text.
+ |
+| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text.
+ |
+| foregroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The foreground color of the text.
+ |
 
 ### insert(int index, String text, Font font, Color foregroundColor, Color backgroundColor) {#insert-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-}
 ```
@@ -213,14 +251,20 @@ public final void insert(int index, String text, Font font, Color foregroundColo
 
 Inserts a formatted text fragment into the collection at a given index.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| index | int | The zero-based index at which formatted text fragment should be inserted. |
-| text | java.lang.String | The fragment text. |
-| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text. |
-| foregroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The foreground color of the text. |
-| backgroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The background color of the text. |
+| index | int | The zero-based index at which formatted text fragment should be inserted.
+ |
+| text | java.lang.String | The fragment text.
+ |
+| font | [Font](../../com.groupdocs.watermark.watermarks/font) | The font of the text.
+ |
+| foregroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The foreground color of the text.
+ |
+| backgroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) | The background color of the text.
+ |
 
 ### createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor) {#createInDocument-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-}
 ```

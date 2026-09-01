@@ -16,16 +16,16 @@ Represents options when adding watermark to a Presentation document slide.
 
 **Learn more:**
 
- *  [Add watermarks to presentation documents][]
+* [Add watermarks to presentation documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents)
 
 The following example demonstrates how to add a watermark to a particular slide of a Power Point presentation.
-
+>
+> ````
 > ```
-> ```
-> 
+>
 >    PresentationLoadOptions loadOptions = new PresentationLoadOptions();
 >    Watermarker watermarker = new Watermarker("C:\\Documents\\test.ppt", loadOptions);
-> 
+>
 >    TextWatermark watermark = new TextWatermark("Test watermark", new Font("Arial", 36, FontStyle.Bold | FontStyle.Italic));
 >    watermark.setHorizontalAlignment(HorizontalAlignment.Center);
 >    watermark.setVerticalAlignment(VerticalAlignment.Center);
@@ -41,21 +41,23 @@ The following example demonstrates how to add a watermark to a particular slide 
 >    watermarker.close();
 >  
 > ```
-> ```
+> ````
 
 
-[Add watermarks to presentation documents]: https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PresentationWatermarkSlideOptions()](#PresentationWatermarkSlideOptions--) | Initializes a new instance of the `[PresentationWatermarkSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkslideoptions)` class. |
+| [PresentationWatermarkSlideOptions()](#PresentationWatermarkSlideOptions--) | Initializes a new instance of the `[PresentationWatermarkSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkslideoptions)` class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSlideIndex()](#getSlideIndex--) | Gets the index of slide to add the watermark to. |
-| [setSlideIndex(int value)](#setSlideIndex-int-) | Sets the index of slide to add the watermark to. |
+| [getSlideIndex()](#getSlideIndex--) | Gets the index of slide to add the watermark to.
+ |
+| [setSlideIndex(int value)](#setSlideIndex-int-) | Sets the index of slide to add the watermark to.
+ |
 ### PresentationWatermarkSlideOptions() {#PresentationWatermarkSlideOptions--}
 ```
 public PresentationWatermarkSlideOptions()
@@ -63,6 +65,7 @@ public PresentationWatermarkSlideOptions()
 
 
 Initializes a new instance of the `[PresentationWatermarkSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkslideoptions)` class.
+
 
 ### getSlideIndex() {#getSlideIndex--}
 ```
@@ -72,12 +75,19 @@ public final int getSlideIndex()
 
 Gets the index of slide to add the watermark to.
 
+
 **Returns:**
 int - The index of slide to add the watermark to.
 
---------------------
+<br />
 
-\-1 means all slides.
+*** ** * ** ***
+
+-1 means all slides.
+
+<br />
+
+
 ### setSlideIndex(int value) {#setSlideIndex-int-}
 ```
 public final void setSlideIndex(int value)
@@ -86,12 +96,19 @@ public final void setSlideIndex(int value)
 
 Sets the index of slide to add the watermark to.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The index of slide to add the watermark to.
 
---------------------
+<br />
 
-\-1 means all slides. |
+*** ** * ** ***
+
+-1 means all slides.
+
+<br />
+
+ |
 

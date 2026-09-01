@@ -15,6 +15,7 @@ public class WordProcessingSectionCollection extends ReadOnlyListBase<WordProces
 Represents a collection of sections in a Word document.
 
 This collection contains the items of `[WordProcessingSection](../../com.groupdocs.watermark.contents/wordprocessingsection)` type.
+
 ## Constructors
 
 | Constructor | Description |

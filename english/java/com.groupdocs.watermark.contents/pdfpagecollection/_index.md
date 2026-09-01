@@ -15,3 +15,4 @@ public class PdfPageCollection extends ReadOnlyListBase<PdfPage>
 Represents a collection of pages in a pdf content.
 
 This collection contains the items of `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)` type.
+

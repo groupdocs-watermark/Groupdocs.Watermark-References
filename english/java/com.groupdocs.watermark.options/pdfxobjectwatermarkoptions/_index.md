@@ -16,42 +16,44 @@ Represents watermark adding options when adding XObject watermark to a pdf docum
 
 **Learn more:**
 
- *  [Add watermarks to PDF documents][]
+* [Add watermarks to PDF documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+PDF+documents)
 
 The following example demonstrates how to add a watermark to a particular page of a pdf document.
-
+>
+> ````
 > ```
-> ```
-> 
+>
 >    PdfLoadOptions loadOptions = new PdfLoadOptions();
 >    Watermarker watermarker = new Watermarker("C:\\doc.pdf", loadOptions);
-> 
+>
 >    ImageWatermark watermark = new ImageWatermark("C:\\watermark.png");
-> 
+>
 >    PdfXObjectWatermarkOptions options = new PdfXObjectWatermarkOptions();
 >    options.setPageIndex(0);
-> 
+>
 >    watermarker.add(watermark, options);
 >    watermarker.save("C:\\watermarked_doc.pdf");
 >    watermark.close();
 >    watermarker.close();
 >  
 > ```
-> ```
+> ````
 
 
-[Add watermarks to PDF documents]: https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+PDF+documents
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PdfXObjectWatermarkOptions()](#PdfXObjectWatermarkOptions--) | Initializes a new instance of the `[PdfXObjectWatermarkOptions](../../com.groupdocs.watermark.options/pdfxobjectwatermarkoptions)` class. |
+| [PdfXObjectWatermarkOptions()](#PdfXObjectWatermarkOptions--) | Initializes a new instance of the `[PdfXObjectWatermarkOptions](../../com.groupdocs.watermark.options/pdfxobjectwatermarkoptions)` class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getPageIndex()](#getPageIndex--) | Gets the page index to add watermark to. |
-| [setPageIndex(int value)](#setPageIndex-int-) | Sets the page index to add watermark to. |
+| [getPageIndex()](#getPageIndex--) | Gets the page index to add watermark to.
+ |
+| [setPageIndex(int value)](#setPageIndex-int-) | Sets the page index to add watermark to.
+ |
 ### PdfXObjectWatermarkOptions() {#PdfXObjectWatermarkOptions--}
 ```
 public PdfXObjectWatermarkOptions()
@@ -59,6 +61,7 @@ public PdfXObjectWatermarkOptions()
 
 
 Initializes a new instance of the `[PdfXObjectWatermarkOptions](../../com.groupdocs.watermark.options/pdfxobjectwatermarkoptions)` class.
+
 
 ### getPageIndex() {#getPageIndex--}
 ```
@@ -68,8 +71,10 @@ public final int getPageIndex()
 
 Gets the page index to add watermark to.
 
+
 **Returns:**
 int - The page index to add watermark to.
+
 ### setPageIndex(int value) {#setPageIndex-int-}
 ```
 public final void setPageIndex(int value)
@@ -78,8 +83,10 @@ public final void setPageIndex(int value)
 
 Sets the page index to add watermark to.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | int | The page index to add watermark to. |
+| value | int | The page index to add watermark to.
+ |
 

@@ -13,11 +13,13 @@ public final class DiagramSaveOptions extends SaveOptions
 ```
 
 Represents document saving options when saving a Visio document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DiagramSaveOptions()](#DiagramSaveOptions--) | Initializes a new instance of the `[DiagramSaveOptions](../../com.groupdocs.watermark.options/diagramsaveoptions)` class. |
+| [DiagramSaveOptions()](#DiagramSaveOptions--) | Initializes a new instance of the `[DiagramSaveOptions](../../com.groupdocs.watermark.options/diagramsaveoptions)` class.
+ |
 ### DiagramSaveOptions() {#DiagramSaveOptions--}
 ```
 public DiagramSaveOptions()
@@ -25,4 +27,5 @@ public DiagramSaveOptions()
 
 
 Initializes a new instance of the `[DiagramSaveOptions](../../com.groupdocs.watermark.options/diagramsaveoptions)` class.
+
 

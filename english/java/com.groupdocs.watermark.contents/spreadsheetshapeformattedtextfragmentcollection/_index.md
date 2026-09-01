@@ -15,18 +15,27 @@ public class SpreadsheetShapeFormattedTextFragmentCollection extends FormattedTe
 Represents a collection of formatted text fragments in an Excel document text shape.
 
 This collection contains the items of `[SpreadsheetShapeFormattedTextFragment](../../com.groupdocs.watermark.contents/spreadsheetshapeformattedtextfragment)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--) |  |
-| [removeFromDocument(FormattedTextFragment item)](#removeFromDocument-com.groupdocs.watermark.search.FormattedTextFragment-) |  |
-| [createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor)](#createInDocument-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) |  |
+| [getText()](#getText--) | <br />
+
+ |
+| [removeFromDocument(FormattedTextFragment item)](#removeFromDocument-com.groupdocs.watermark.search.FormattedTextFragment-) | <br />
+
+ |
+| [createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor)](#createInDocument-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) | <br />
+
+ |
 ### getText() {#getText--}
 ```
 public String getText()
 ```
 
+
+<br />
 
 
 
@@ -37,6 +46,8 @@ java.lang.String
 public void removeFromDocument(FormattedTextFragment item)
 ```
 
+
+<br />
 
 
 
@@ -50,6 +61,8 @@ public void removeFromDocument(FormattedTextFragment item)
 public FormattedTextFragment createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor)
 ```
 
+
+<br />
 
 
 

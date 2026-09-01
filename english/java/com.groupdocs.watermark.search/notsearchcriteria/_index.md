@@ -13,6 +13,7 @@ public class NotSearchCriteria extends SearchCriteria
 ```
 
 Represents NOT composite search criteria.
+
 ## Methods
 
 | Method | Description |

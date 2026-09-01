@@ -13,33 +13,58 @@ public class PdfPage extends ContentPart
 ```
 
 Represents pdf document page.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PdfPage(PdfContent parent, StrategyManager<Integer> strategyManager, Page asposePdfPage)](#PdfPage-com.groupdocs.watermark.contents.PdfContent-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.aspose.pdf.Page-) |  |
+| [PdfPage(PdfContent parent, StrategyManager<Integer> strategyManager, Page asposePdfPage)](#PdfPage-com.groupdocs.watermark.contents.PdfContent-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.aspose.pdf.Page-) | <br />
+
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWidth()](#getWidth--) | Gets the width of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)` in points. |
-| [getHeight()](#getHeight--) | Gets the height of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)` in points. |
-| [getArtifacts()](#getArtifacts--) | Gets the collection of all artifacts of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`. |
-| [getXObjects()](#getXObjects--) | Gets the collection of all XObjects of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`. |
-| [getAnnotations()](#getAnnotations--) | Gets the collection of all annotations of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`. |
-| [getAsposePdfPage()](#getAsposePdfPage--) |  |
-| [getContent()](#getContent--) |  |
-| [getPageRectangle()](#getPageRectangle--) |  |
-| [addArtifactWatermark(Watermark watermark)](#addArtifactWatermark-com.groupdocs.watermark.Watermark-) |  |
-| [addAnnotationWatermark(Watermark watermark, boolean isPrintOnly)](#addAnnotationWatermark-com.groupdocs.watermark.Watermark-boolean-) |  |
-| [rasterize(int horizontalResolution, int verticalResolution, int imageFormat)](#rasterize-int-int-int-) | Converts page content into an image. |
-| [addArtifactToCollection(Artifact artifact)](#addArtifactToCollection-com.aspose.pdf.Artifact-) |  |
-| [addAnnotationToCollection(Annotation annotation)](#addAnnotationToCollection-com.aspose.pdf.Annotation-) |  |
+| [getWidth()](#getWidth--) | Gets the width of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)` in points.
+ |
+| [getHeight()](#getHeight--) | Gets the height of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)` in points.
+ |
+| [getArtifacts()](#getArtifacts--) | Gets the collection of all artifacts of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`.
+ |
+| [getXObjects()](#getXObjects--) | Gets the collection of all XObjects of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`.
+ |
+| [getAnnotations()](#getAnnotations--) | Gets the collection of all annotations of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`.
+ |
+| [getAsposePdfPage()](#getAsposePdfPage--) | <br />
+
+ |
+| [getContent()](#getContent--) | <br />
+
+ |
+| [getPageRectangle()](#getPageRectangle--) | <br />
+
+ |
+| [addArtifactWatermark(Watermark watermark)](#addArtifactWatermark-com.groupdocs.watermark.Watermark-) | <br />
+
+ |
+| [addAnnotationWatermark(Watermark watermark, boolean isPrintOnly)](#addAnnotationWatermark-com.groupdocs.watermark.Watermark-boolean-) | <br />
+
+ |
+| [rasterize(int horizontalResolution, int verticalResolution, int imageFormat)](#rasterize-int-int-int-) | Converts page content into an image.
+ |
+| [addArtifactToCollection(Artifact artifact)](#addArtifactToCollection-com.aspose.pdf.Artifact-) | <br />
+
+ |
+| [addAnnotationToCollection(Annotation annotation)](#addAnnotationToCollection-com.aspose.pdf.Annotation-) | <br />
+
+ |
 ### PdfPage(PdfContent parent, StrategyManager<Integer> strategyManager, Page asposePdfPage) {#PdfPage-com.groupdocs.watermark.contents.PdfContent-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.aspose.pdf.Page-}
 ```
 public PdfPage(PdfContent parent, StrategyManager<Integer> strategyManager, Page asposePdfPage)
 ```
 
+
+<br />
 
 
 
@@ -58,8 +83,10 @@ public final double getWidth()
 
 Gets the width of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)` in points.
 
+
 **Returns:**
 double - The width of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)` in points.
+
 ### getHeight() {#getHeight--}
 ```
 public final double getHeight()
@@ -68,8 +95,10 @@ public final double getHeight()
 
 Gets the height of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)` in points.
 
+
 **Returns:**
 double - The height of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)` in points.
+
 ### getArtifacts() {#getArtifacts--}
 ```
 public final PdfArtifactCollection getArtifacts()
@@ -78,8 +107,10 @@ public final PdfArtifactCollection getArtifacts()
 
 Gets the collection of all artifacts of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`.
 
+
 **Returns:**
 [PdfArtifactCollection](../../com.groupdocs.watermark.contents/pdfartifactcollection) - The collection of all artifacts of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`.
+
 ### getXObjects() {#getXObjects--}
 ```
 public final PdfXObjectCollection getXObjects()
@@ -88,8 +119,10 @@ public final PdfXObjectCollection getXObjects()
 
 Gets the collection of all XObjects of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`.
 
+
 **Returns:**
 [PdfXObjectCollection](../../com.groupdocs.watermark.contents/pdfxobjectcollection) - The collection of all XObjects of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`.
+
 ### getAnnotations() {#getAnnotations--}
 ```
 public final PdfAnnotationCollection getAnnotations()
@@ -98,13 +131,17 @@ public final PdfAnnotationCollection getAnnotations()
 
 Gets the collection of all annotations of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`.
 
+
 **Returns:**
 [PdfAnnotationCollection](../../com.groupdocs.watermark.contents/pdfannotationcollection) - The collection of all annotations of this `[PdfPage](../../com.groupdocs.watermark.contents/pdfpage)`.
+
 ### getAsposePdfPage() {#getAsposePdfPage--}
 ```
 public final Page getAsposePdfPage()
 ```
 
+
+<br />
 
 
 
@@ -116,6 +153,8 @@ public final PdfContent getContent()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -126,6 +165,8 @@ public final Rectangle getPageRectangle()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -135,6 +176,8 @@ public final Rectangle getPageRectangle()
 public final void addArtifactWatermark(Watermark watermark)
 ```
 
+
+<br />
 
 
 
@@ -148,6 +191,8 @@ public final void addArtifactWatermark(Watermark watermark)
 public final void addAnnotationWatermark(Watermark watermark, boolean isPrintOnly)
 ```
 
+
+<br />
 
 
 
@@ -165,18 +210,24 @@ public void rasterize(int horizontalResolution, int verticalResolution, int imag
 
 Converts page content into an image.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| horizontalResolution | int | Horizontal image resolution. |
-| verticalResolution | int | Vertical image resolution. |
-| imageFormat | int | Image format. |
+| horizontalResolution | int | Horizontal image resolution.
+ |
+| verticalResolution | int | Vertical image resolution.
+ |
+| imageFormat | int | Image format.
+ |
 
 ### addArtifactToCollection(Artifact artifact) {#addArtifactToCollection-com.aspose.pdf.Artifact-}
 ```
 public final void addArtifactToCollection(Artifact artifact)
 ```
 
+
+<br />
 
 
 
@@ -190,6 +241,8 @@ public final void addArtifactToCollection(Artifact artifact)
 public final void addAnnotationToCollection(Annotation annotation)
 ```
 
+
+<br />
 
 
 

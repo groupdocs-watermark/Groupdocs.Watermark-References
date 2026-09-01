@@ -13,6 +13,7 @@ public class DiagramHyperlinkPossibleWatermark extends HyperlinkPossibleWatermar
 ```
 
 Represents possible hyperlink watermark in a Visio document.
+
 ## Constructors
 
 | Constructor | Description |
@@ -22,7 +23,8 @@ Represents possible hyperlink watermark in a Visio document.
 
 | Method | Description |
 | --- | --- |
-| [getText()](#getText--) | Gets the url of this `[DiagramHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/diagramhyperlinkpossiblewatermark)`. |
+| [getText()](#getText--) | Gets the url of this `[DiagramHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/diagramhyperlinkpossiblewatermark)`.
+ |
 | [setText(String value)](#setText-java.lang.String-) |  |
 | [remove()](#remove--) |  |
 ### DiagramHyperlinkPossibleWatermark(DiagramShapePossibleWatermark parentWatermark, DiagramHyperlink hyperlink, DiagramHyperlinkCollection collection) {#DiagramHyperlinkPossibleWatermark-com.groupdocs.watermark.search.DiagramShapePossibleWatermark-com.groupdocs.watermark.contents.DiagramHyperlink-com.groupdocs.watermark.contents.DiagramHyperlinkCollection-}
@@ -48,8 +50,10 @@ public String getText()
 
 Gets the url of this `[DiagramHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/diagramhyperlinkpossiblewatermark)`.
 
+
 **Returns:**
 java.lang.String - The url of this `[DiagramHyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/diagramhyperlinkpossiblewatermark)`.
+
 ### setText(String value) {#setText-java.lang.String-}
 ```
 public void setText(String value)
@@ -57,6 +61,7 @@ public void setText(String value)
 
 
 Sets the url of this `[HyperlinkPossibleWatermark](../../com.groupdocs.watermark.search/hyperlinkpossiblewatermark)`.
+
 
 **Parameters:**
 | Parameter | Type | Description |

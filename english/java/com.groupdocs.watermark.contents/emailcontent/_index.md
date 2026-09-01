@@ -16,49 +16,78 @@ Represents an email message.
 
 **Learn more:**
 
- *  [Add watermarks to email attachments][]
- *  [Email attachments][]
- *  [Email messages][]
+* [Add watermarks to email attachments](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+email+attachments)
+* [Email attachments](../https://docs.groupdocs.com/display/watermarkjava/Email+attachments)
+* [Email messages](../https://docs.groupdocs.com/display/watermarkjava/Email+messages)
 
-
-[Add watermarks to email attachments]: https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+email+attachments
-[Email attachments]: https://docs.groupdocs.com/display/watermarkjava/Email+attachments
-[Email messages]: https://docs.groupdocs.com/display/watermarkjava/Email+messages
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EmailContent(StreamContainer stream, StrategyManager<Integer> strategyManager, FileFormatInfo fileFormatInfo, EmailLoadOptions emailLoadOptions, WatermarkerSettings watermarkerSettings)](#EmailContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.aspose.email.FileFormatInfo-com.groupdocs.watermark.options.EmailLoadOptions-com.groupdocs.watermark.WatermarkerSettings-) |  |
+| [EmailContent(StreamContainer stream, StrategyManager<Integer> strategyManager, FileFormatInfo fileFormatInfo, EmailLoadOptions emailLoadOptions, WatermarkerSettings watermarkerSettings)](#EmailContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.aspose.email.FileFormatInfo-com.groupdocs.watermark.options.EmailLoadOptions-com.groupdocs.watermark.WatermarkerSettings-) | <br />
+
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getAttachments()](#getAttachments--) | Gets the collection of all attachments of the email message. |
-| [getEmbeddedObjects()](#getEmbeddedObjects--) | Gets the collection of all embedded objects of the email message. |
-| [getFrom()](#getFrom--) | Gets the from address of the email message. |
-| [getTo()](#getTo--) | Gets the collection of recipients of the email message. |
-| [getCc()](#getCc--) | Gets the collection of CC (carbon copy) recipients of the email message. |
-| [getBcc()](#getBcc--) | Gets the collection of BCC (blind carbon copy) recipients of the email message. |
-| [getSubject()](#getSubject--) | Gets the subject of the email message. |
-| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject of the email message. |
-| [getBody()](#getBody--) | Gets the plain text representation of the message body. |
-| [setBody(String value)](#setBody-java.lang.String-) | Sets the plain text representation of the message body. |
-| [getHtmlBody()](#getHtmlBody--) | Gets the html representation of the message body. |
-| [setHtmlBody(String value)](#setHtmlBody-java.lang.String-) | Sets the html representation of the message body. |
-| [getBodyType()](#getBodyType--) | Gets the type of the email message body. |
-| [performSave(String filePath)](#performSave-java.lang.String-) |  |
-| [performSave(String filePath, SaveOptions saveOptions)](#performSave-java.lang.String-com.groupdocs.watermark.options.SaveOptions-) |  |
-| [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) |  |
-| [performSave(OutputStream stream, SaveOptions saveOptions)](#performSave-java.io.OutputStream-com.groupdocs.watermark.options.SaveOptions-) |  |
-| [getDocumentInfo()](#getDocumentInfo--) |  |
-| [getFileType()](#getFileType--) |  |
-| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) |  |
-| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) |  |
+| [getAttachments()](#getAttachments--) | Gets the collection of all attachments of the email message.
+ |
+| [getEmbeddedObjects()](#getEmbeddedObjects--) | Gets the collection of all embedded objects of the email message.
+ |
+| [getFrom()](#getFrom--) | Gets the from address of the email message.
+ |
+| [getTo()](#getTo--) | Gets the collection of recipients of the email message.
+ |
+| [getCc()](#getCc--) | Gets the collection of CC (carbon copy) recipients of the email message.
+ |
+| [getBcc()](#getBcc--) | Gets the collection of BCC (blind carbon copy) recipients of the email message.
+ |
+| [getSubject()](#getSubject--) | Gets the subject of the email message.
+ |
+| [setSubject(String value)](#setSubject-java.lang.String-) | Sets the subject of the email message.
+ |
+| [getBody()](#getBody--) | Gets the plain text representation of the message body.
+ |
+| [setBody(String value)](#setBody-java.lang.String-) | Sets the plain text representation of the message body.
+ |
+| [getHtmlBody()](#getHtmlBody--) | Gets the html representation of the message body.
+ |
+| [setHtmlBody(String value)](#setHtmlBody-java.lang.String-) | Sets the html representation of the message body.
+ |
+| [getBodyType()](#getBodyType--) | Gets the type of the email message body.
+ |
+| [performSave(String filePath)](#performSave-java.lang.String-) | <br />
+
+ |
+| [performSave(String filePath, SaveOptions saveOptions)](#performSave-java.lang.String-com.groupdocs.watermark.options.SaveOptions-) | <br />
+
+ |
+| [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) | <br />
+
+ |
+| [performSave(OutputStream stream, SaveOptions saveOptions)](#performSave-java.io.OutputStream-com.groupdocs.watermark.options.SaveOptions-) | <br />
+
+ |
+| [getDocumentInfo()](#getDocumentInfo--) | <br />
+
+ |
+| [getFileType()](#getFileType--) | <br />
+
+ |
+| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) | <br />
+
+ |
+| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) | <br />
+
+ |
 ### EmailContent(StreamContainer stream, StrategyManager<Integer> strategyManager, FileFormatInfo fileFormatInfo, EmailLoadOptions emailLoadOptions, WatermarkerSettings watermarkerSettings) {#EmailContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.aspose.email.FileFormatInfo-com.groupdocs.watermark.options.EmailLoadOptions-com.groupdocs.watermark.WatermarkerSettings-}
 ```
 public EmailContent(StreamContainer stream, StrategyManager<Integer> strategyManager, FileFormatInfo fileFormatInfo, EmailLoadOptions emailLoadOptions, WatermarkerSettings watermarkerSettings)
 ```
 
+
+<br />
 
 
 
@@ -79,8 +108,10 @@ public final EmailAttachmentCollection getAttachments()
 
 Gets the collection of all attachments of the email message.
 
+
 **Returns:**
 [EmailAttachmentCollection](../../com.groupdocs.watermark.contents/emailattachmentcollection) - The collection of all attachments of the email message.
+
 ### getEmbeddedObjects() {#getEmbeddedObjects--}
 ```
 public final EmailEmbeddedObjectCollection getEmbeddedObjects()
@@ -89,8 +120,10 @@ public final EmailEmbeddedObjectCollection getEmbeddedObjects()
 
 Gets the collection of all embedded objects of the email message.
 
+
 **Returns:**
 [EmailEmbeddedObjectCollection](../../com.groupdocs.watermark.contents/emailembeddedobjectcollection) - The collection of all embedded objects of the email message.
+
 ### getFrom() {#getFrom--}
 ```
 public final EmailAddress getFrom()
@@ -99,8 +132,10 @@ public final EmailAddress getFrom()
 
 Gets the from address of the email message.
 
+
 **Returns:**
 [EmailAddress](../../com.groupdocs.watermark.contents/emailaddress) - The from address of the email message.
+
 ### getTo() {#getTo--}
 ```
 public final EmailAddressCollection getTo()
@@ -109,8 +144,10 @@ public final EmailAddressCollection getTo()
 
 Gets the collection of recipients of the email message.
 
+
 **Returns:**
 [EmailAddressCollection](../../com.groupdocs.watermark.contents/emailaddresscollection) - The collection of recipients of the email message.
+
 ### getCc() {#getCc--}
 ```
 public final EmailAddressCollection getCc()
@@ -119,8 +156,10 @@ public final EmailAddressCollection getCc()
 
 Gets the collection of CC (carbon copy) recipients of the email message.
 
+
 **Returns:**
 [EmailAddressCollection](../../com.groupdocs.watermark.contents/emailaddresscollection) - The collection of CC (carbon copy) recipients of the email message.
+
 ### getBcc() {#getBcc--}
 ```
 public final EmailAddressCollection getBcc()
@@ -129,8 +168,10 @@ public final EmailAddressCollection getBcc()
 
 Gets the collection of BCC (blind carbon copy) recipients of the email message.
 
+
 **Returns:**
 [EmailAddressCollection](../../com.groupdocs.watermark.contents/emailaddresscollection) - The collection of BCC (blind carbon copy) recipients of the email message.
+
 ### getSubject() {#getSubject--}
 ```
 public final String getSubject()
@@ -139,8 +180,10 @@ public final String getSubject()
 
 Gets the subject of the email message.
 
+
 **Returns:**
 java.lang.String - The subject of the email message.
+
 ### setSubject(String value) {#setSubject-java.lang.String-}
 ```
 public final void setSubject(String value)
@@ -149,10 +192,12 @@ public final void setSubject(String value)
 
 Sets the subject of the email message.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The subject of the email message. |
+| value | java.lang.String | The subject of the email message.
+ |
 
 ### getBody() {#getBody--}
 ```
@@ -162,8 +207,10 @@ public final String getBody()
 
 Gets the plain text representation of the message body.
 
+
 **Returns:**
 java.lang.String - The plain text representation of the message body.
+
 ### setBody(String value) {#setBody-java.lang.String-}
 ```
 public final void setBody(String value)
@@ -172,10 +219,12 @@ public final void setBody(String value)
 
 Sets the plain text representation of the message body.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The plain text representation of the message body. |
+| value | java.lang.String | The plain text representation of the message body.
+ |
 
 ### getHtmlBody() {#getHtmlBody--}
 ```
@@ -185,8 +234,10 @@ public final String getHtmlBody()
 
 Gets the html representation of the message body.
 
+
 **Returns:**
 java.lang.String - The html representation of the message body.
+
 ### setHtmlBody(String value) {#setHtmlBody-java.lang.String-}
 ```
 public final void setHtmlBody(String value)
@@ -195,10 +246,12 @@ public final void setHtmlBody(String value)
 
 Sets the html representation of the message body.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | java.lang.String | The html representation of the message body. |
+| value | java.lang.String | The html representation of the message body.
+ |
 
 ### getBodyType() {#getBodyType--}
 ```
@@ -208,13 +261,17 @@ public final int getBodyType()
 
 Gets the type of the email message body.
 
+
 **Returns:**
 int - The type of the email message body.
+
 ### performSave(String filePath) {#performSave-java.lang.String-}
 ```
 public void performSave(String filePath)
 ```
 
+
+<br />
 
 
 
@@ -228,6 +285,8 @@ public void performSave(String filePath)
 public void performSave(String filePath, SaveOptions saveOptions)
 ```
 
+
+<br />
 
 
 
@@ -243,6 +302,8 @@ public void performSave(OutputStream stream)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -255,6 +316,8 @@ public void performSave(OutputStream stream)
 public void performSave(OutputStream stream, SaveOptions saveOptions)
 ```
 
+
+<br />
 
 
 
@@ -270,6 +333,8 @@ public IDocumentInfo getDocumentInfo()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -280,6 +345,8 @@ public FileType getFileType()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -289,6 +356,8 @@ public FileType getFileType()
 public void add(Watermark watermark, WatermarkOptions options)
 ```
 
+
+<br />
 
 
 
@@ -303,6 +372,8 @@ public void add(Watermark watermark, WatermarkOptions options)
 public void generatePreview(PreviewOptions previewOptions)
 ```
 
+
+<br />
 
 
 

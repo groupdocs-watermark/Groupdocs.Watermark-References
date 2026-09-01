@@ -13,11 +13,13 @@ public class EncryptionIsNotSupportedException extends WatermarkException
 ```
 
 The exception that is thrown when content encryption is not supported.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [EncryptionIsNotSupportedException()](#EncryptionIsNotSupportedException--) | Initializes a new instance of the `[EncryptionIsNotSupportedException](../../com.groupdocs.watermark.exceptions/encryptionisnotsupportedexception)` class. |
+| [EncryptionIsNotSupportedException()](#EncryptionIsNotSupportedException--) | Initializes a new instance of the `[EncryptionIsNotSupportedException](../../com.groupdocs.watermark.exceptions/encryptionisnotsupportedexception)` class.
+ |
 ### EncryptionIsNotSupportedException() {#EncryptionIsNotSupportedException--}
 ```
 public EncryptionIsNotSupportedException()
@@ -25,4 +27,5 @@ public EncryptionIsNotSupportedException()
 
 
 Initializes a new instance of the `[EncryptionIsNotSupportedException](../../com.groupdocs.watermark.exceptions/encryptionisnotsupportedexception)` class.
+
 

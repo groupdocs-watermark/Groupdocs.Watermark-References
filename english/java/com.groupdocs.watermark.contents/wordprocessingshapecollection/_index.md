@@ -15,6 +15,7 @@ public class WordProcessingShapeCollection extends RemoveOnlyListBase<WordProces
 Represents a collection of shapes in a Word document.
 
 This collection contains the items of `[WordProcessingShape](../../com.groupdocs.watermark.contents/wordprocessingshape)` type.
+
 ## Methods
 
 | Method | Description |
@@ -34,6 +35,8 @@ public final void refresh()
 public void removeFromDocument(WordProcessingShape item)
 ```
 
+
+<br />
 
 
 

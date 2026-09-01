@@ -13,11 +13,13 @@ public final class TiffImageLoadOptions extends MultiframeImageLoadOptions
 ```
 
 Represents image loading options for a TIFF image.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [TiffImageLoadOptions()](#TiffImageLoadOptions--) | Initializes a new instance of the `[TiffImageLoadOptions](../../com.groupdocs.watermark.options/tiffimageloadoptions)` class. |
+| [TiffImageLoadOptions()](#TiffImageLoadOptions--) | Initializes a new instance of the `[TiffImageLoadOptions](../../com.groupdocs.watermark.options/tiffimageloadoptions)` class.
+ |
 ### TiffImageLoadOptions() {#TiffImageLoadOptions--}
 ```
 public TiffImageLoadOptions()
@@ -25,4 +27,5 @@ public TiffImageLoadOptions()
 
 
 Initializes a new instance of the `[TiffImageLoadOptions](../../com.groupdocs.watermark.options/tiffimageloadoptions)` class.
+
 

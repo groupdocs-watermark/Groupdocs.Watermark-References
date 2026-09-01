@@ -11,6 +11,10 @@ java.lang.Object
 ```
 public class WordProcessingPageSplitter
 ```
+
+<br />
+
+
 ## Constructors
 
 | Constructor | Description |
@@ -20,7 +24,8 @@ public class WordProcessingPageSplitter
 
 | Method | Description |
 | --- | --- |
-| [dispose()](#dispose--) | Disposes the current instance. |
+| [dispose()](#dispose--) | Disposes the current instance.
+ |
 | [getPageFirstParagraph(int pageNumber)](#getPageFirstParagraph-int-) |  |
 ### WordProcessingPageSplitter(WordProcessingContent content) {#WordProcessingPageSplitter-com.groupdocs.watermark.contents.WordProcessingContent-}
 ```
@@ -40,6 +45,7 @@ public final void dispose()
 
 
 Disposes the current instance.
+
 
 ### getPageFirstParagraph(int pageNumber) {#getPageFirstParagraph-int-}
 ```

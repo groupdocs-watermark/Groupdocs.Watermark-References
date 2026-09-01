@@ -15,17 +15,24 @@ public class PresentationShapeCollection extends RemoveOnlyListBase<Presentation
 Represents a collection of drawing shapes in a PowerPoint document.
 
 This collection contains the items of `[PresentationShape](../../com.groupdocs.watermark.contents/presentationshape)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [addShape(IShape shape)](#addShape-com.aspose.slides.IShape-) |  |
-| [removeFromDocument(PresentationShape item)](#removeFromDocument-com.groupdocs.watermark.contents.PresentationShape-) |  |
+| [addShape(IShape shape)](#addShape-com.aspose.slides.IShape-) | <br />
+
+ |
+| [removeFromDocument(PresentationShape item)](#removeFromDocument-com.groupdocs.watermark.contents.PresentationShape-) | <br />
+
+ |
 ### addShape(IShape shape) {#addShape-com.aspose.slides.IShape-}
 ```
 public final void addShape(IShape shape)
 ```
 
+
+<br />
 
 
 
@@ -39,6 +46,8 @@ public final void addShape(IShape shape)
 public void removeFromDocument(PresentationShape item)
 ```
 
+
+<br />
 
 
 

@@ -16,23 +16,24 @@ Represents options when adding watermark to a Presentation document layout slide
 
 **Learn more:**
 
- *  [Add watermarks to presentation documents][]
+* [Add watermarks to presentation documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents)
 
 See the usage examples in `[PresentationWatermarkBaseSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkbaseslideoptions)`.
 
-
-[Add watermarks to presentation documents]: https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PresentationWatermarkLayoutSlideOptions()](#PresentationWatermarkLayoutSlideOptions--) | Initializes a new instance of the `[PresentationWatermarkOptions](../../com.groupdocs.watermark.options/presentationwatermarkoptions)` class. |
+| [PresentationWatermarkLayoutSlideOptions()](#PresentationWatermarkLayoutSlideOptions--) | Initializes a new instance of the `[PresentationWatermarkOptions](../../com.groupdocs.watermark.options/presentationwatermarkoptions)` class.
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getLayoutSlideIndex()](#getLayoutSlideIndex--) | Gets the index of layout slide to add the watermark to. |
-| [setLayoutSlideIndex(int value)](#setLayoutSlideIndex-int-) | Sets the index of layout slide to add the watermark to. |
+| [getLayoutSlideIndex()](#getLayoutSlideIndex--) | Gets the index of layout slide to add the watermark to.
+ |
+| [setLayoutSlideIndex(int value)](#setLayoutSlideIndex-int-) | Sets the index of layout slide to add the watermark to.
+ |
 ### PresentationWatermarkLayoutSlideOptions() {#PresentationWatermarkLayoutSlideOptions--}
 ```
 public PresentationWatermarkLayoutSlideOptions()
@@ -40,6 +41,7 @@ public PresentationWatermarkLayoutSlideOptions()
 
 
 Initializes a new instance of the `[PresentationWatermarkOptions](../../com.groupdocs.watermark.options/presentationwatermarkoptions)` class.
+
 
 ### getLayoutSlideIndex() {#getLayoutSlideIndex--}
 ```
@@ -49,12 +51,19 @@ public final int getLayoutSlideIndex()
 
 Gets the index of layout slide to add the watermark to.
 
+
 **Returns:**
 int - The index of layout slide to add the watermark to.
 
---------------------
+<br />
 
-\-1 means all slides.
+*** ** * ** ***
+
+-1 means all slides.
+
+<br />
+
+
 ### setLayoutSlideIndex(int value) {#setLayoutSlideIndex-int-}
 ```
 public final void setLayoutSlideIndex(int value)
@@ -63,12 +72,19 @@ public final void setLayoutSlideIndex(int value)
 
 Sets the index of layout slide to add the watermark to.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
 | value | int | The index of layout slide to add the watermark to.
 
---------------------
+<br />
 
-\-1 means all slides. |
+*** ** * ** ***
+
+-1 means all slides.
+
+<br />
+
+ |
 

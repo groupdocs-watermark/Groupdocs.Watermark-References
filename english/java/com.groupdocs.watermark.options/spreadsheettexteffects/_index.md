@@ -16,11 +16,13 @@ public final class SpreadsheetTextEffects extends OfficeTextEffects implements I
 ```
 
 Represents effects that can be applied to a text watermark for an Excel document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [SpreadsheetTextEffects()](#SpreadsheetTextEffects--) | Initializes a new instance of the `[SpreadsheetTextEffects](../../com.groupdocs.watermark.options/spreadsheettexteffects)` class. |
+| [SpreadsheetTextEffects()](#SpreadsheetTextEffects--) | Initializes a new instance of the `[SpreadsheetTextEffects](../../com.groupdocs.watermark.options/spreadsheettexteffects)` class.
+ |
 ### SpreadsheetTextEffects() {#SpreadsheetTextEffects--}
 ```
 public SpreadsheetTextEffects()
@@ -28,4 +30,5 @@ public SpreadsheetTextEffects()
 
 
 Initializes a new instance of the `[SpreadsheetTextEffects](../../com.groupdocs.watermark.options/spreadsheettexteffects)` class.
+
 

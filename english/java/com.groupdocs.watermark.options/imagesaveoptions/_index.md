@@ -13,11 +13,13 @@ public class ImageSaveOptions extends SaveOptions
 ```
 
 Represents image saving options when saving an image.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ImageSaveOptions()](#ImageSaveOptions--) | Initializes a new instance of the `[ImageSaveOptions](../../com.groupdocs.watermark.options/imagesaveoptions)` class. |
+| [ImageSaveOptions()](#ImageSaveOptions--) | Initializes a new instance of the `[ImageSaveOptions](../../com.groupdocs.watermark.options/imagesaveoptions)` class.
+ |
 ### ImageSaveOptions() {#ImageSaveOptions--}
 ```
 public ImageSaveOptions()
@@ -25,4 +27,5 @@ public ImageSaveOptions()
 
 
 Initializes a new instance of the `[ImageSaveOptions](../../com.groupdocs.watermark.options/imagesaveoptions)` class.
+
 

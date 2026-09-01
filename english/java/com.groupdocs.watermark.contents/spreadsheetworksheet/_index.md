@@ -13,37 +13,75 @@ public class SpreadsheetWorksheet extends ContentPart
 ```
 
 Represents an Excel document worksheet.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
 | [getSpreadsheetDataSizeInPoints()](#getSpreadsheetDataSizeInPoints--) |  |
-| [getPageSetup()](#getPageSetup--) | Gets the printing page setup for this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`. |
-| [getContentAreaWidth()](#getContentAreaWidth--) | Gets the width of the content area in points. |
-| [getContentAreaWidthPx()](#getContentAreaWidthPx--) | Gets the width of the content area in pixels. |
-| [getContentAreaHeight()](#getContentAreaHeight--) | Gets the height of the content area in points. |
-| [getContentAreaHeightPx()](#getContentAreaHeightPx--) | Gets the height of the content area in pixels. |
-| [getShapes()](#getShapes--) | Gets the collection of all shapes of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`. |
-| [getAttachments()](#getAttachments--) | Gets the collection of all attachments of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`. |
-| [getCharts()](#getCharts--) | Gets the collection of all charts of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`. |
-| [getBackgroundImage()](#getBackgroundImage--) | Gets the background image of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`. |
-| [setBackgroundImage(SpreadsheetWatermarkableImage value)](#setBackgroundImage-com.groupdocs.watermark.contents.SpreadsheetWatermarkableImage-) | Sets the background image of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`. |
-| [getHeadersFooters()](#getHeadersFooters--) | Gets the collection of worksheet headers and footers. |
-| [getAsposeCellsWorksheet()](#getAsposeCellsWorksheet--) |  |
-| [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width of the specified column in points. |
-| [getColumnWidthPx(int column)](#getColumnWidthPx-int-) | Gets the width of the specified column in pixels. |
-| [getRowHeight(int row)](#getRowHeight-int-) | Gets the height of the specified row in points. |
-| [getRowHeightPx(int row)](#getRowHeightPx-int-) | Gets the height of the specified row in pixels. |
-| [addWatermark(Watermark watermark, SpreadsheetShapeSettings shapeSettings, ISpreadsheetWatermarkEffects effects)](#addWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.SpreadsheetShapeSettings-com.groupdocs.watermark.options.ISpreadsheetWatermarkEffects-) |  |
-| [addWatermarkAsBackground(Watermark watermark, int backgroundWidth, int backgroundHeight)](#addWatermarkAsBackground-com.groupdocs.watermark.Watermark-int-int-) |  |
-| [addWatermarkIntoHeaderFooter(Watermark watermark)](#addWatermarkIntoHeaderFooter-com.groupdocs.watermark.Watermark-) |  |
-| [addModernWordArtWatermark(TextWatermark watermark, SpreadsheetShapeSettings shapeSettings)](#addModernWordArtWatermark-com.groupdocs.watermark.watermarks.TextWatermark-com.groupdocs.watermark.options.SpreadsheetShapeSettings-) |  |
-| [addWordArtWatermark(Watermark watermark, SpreadsheetShapeSettings shapeSettings, ISpreadsheetWatermarkEffects effects)](#addWordArtWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.SpreadsheetShapeSettings-com.groupdocs.watermark.options.ISpreadsheetWatermarkEffects-) |  |
-| [getRowY(int rowIndex)](#getRowY-int-) |  |
-| [getColumnX(int columnIndex)](#getColumnX-int-) |  |
-| [getRowRangeHeight(int startRow, int endRow)](#getRowRangeHeight-int-int-) |  |
-| [getColumnRangeWidth(int startColumn, int endColumn)](#getColumnRangeWidth-int-int-) |  |
-| [resetBackgroundImageReference()](#resetBackgroundImageReference--) |  |
+| [getPageSetup()](#getPageSetup--) | Gets the printing page setup for this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+ |
+| [getContentAreaWidth()](#getContentAreaWidth--) | Gets the width of the content area in points.
+ |
+| [getContentAreaWidthPx()](#getContentAreaWidthPx--) | Gets the width of the content area in pixels.
+ |
+| [getContentAreaHeight()](#getContentAreaHeight--) | Gets the height of the content area in points.
+ |
+| [getContentAreaHeightPx()](#getContentAreaHeightPx--) | Gets the height of the content area in pixels.
+ |
+| [getShapes()](#getShapes--) | Gets the collection of all shapes of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+ |
+| [getAttachments()](#getAttachments--) | Gets the collection of all attachments of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+ |
+| [getCharts()](#getCharts--) | Gets the collection of all charts of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+ |
+| [getBackgroundImage()](#getBackgroundImage--) | Gets the background image of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+ |
+| [setBackgroundImage(SpreadsheetWatermarkableImage value)](#setBackgroundImage-com.groupdocs.watermark.contents.SpreadsheetWatermarkableImage-) | Sets the background image of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+ |
+| [getHeadersFooters()](#getHeadersFooters--) | Gets the collection of worksheet headers and footers.
+ |
+| [getAsposeCellsWorksheet()](#getAsposeCellsWorksheet--) | <br />
+
+ |
+| [getColumnWidth(int column)](#getColumnWidth-int-) | Gets the width of the specified column in points.
+ |
+| [getColumnWidthPx(int column)](#getColumnWidthPx-int-) | Gets the width of the specified column in pixels.
+ |
+| [getRowHeight(int row)](#getRowHeight-int-) | Gets the height of the specified row in points.
+ |
+| [getRowHeightPx(int row)](#getRowHeightPx-int-) | Gets the height of the specified row in pixels.
+ |
+| [addWatermark(Watermark watermark, SpreadsheetShapeSettings shapeSettings, ISpreadsheetWatermarkEffects effects)](#addWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.SpreadsheetShapeSettings-com.groupdocs.watermark.options.ISpreadsheetWatermarkEffects-) | <br />
+
+ |
+| [addWatermarkAsBackground(Watermark watermark, int backgroundWidth, int backgroundHeight)](#addWatermarkAsBackground-com.groupdocs.watermark.Watermark-int-int-) | <br />
+
+ |
+| [addWatermarkIntoHeaderFooter(Watermark watermark)](#addWatermarkIntoHeaderFooter-com.groupdocs.watermark.Watermark-) | <br />
+
+ |
+| [addModernWordArtWatermark(TextWatermark watermark, SpreadsheetShapeSettings shapeSettings)](#addModernWordArtWatermark-com.groupdocs.watermark.watermarks.TextWatermark-com.groupdocs.watermark.options.SpreadsheetShapeSettings-) | <br />
+
+ |
+| [addWordArtWatermark(Watermark watermark, SpreadsheetShapeSettings shapeSettings, ISpreadsheetWatermarkEffects effects)](#addWordArtWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.SpreadsheetShapeSettings-com.groupdocs.watermark.options.ISpreadsheetWatermarkEffects-) | <br />
+
+ |
+| [getRowY(int rowIndex)](#getRowY-int-) | <br />
+
+ |
+| [getColumnX(int columnIndex)](#getColumnX-int-) | <br />
+
+ |
+| [getRowRangeHeight(int startRow, int endRow)](#getRowRangeHeight-int-int-) | <br />
+
+ |
+| [getColumnRangeWidth(int startColumn, int endColumn)](#getColumnRangeWidth-int-int-) | <br />
+
+ |
+| [resetBackgroundImageReference()](#resetBackgroundImageReference--) | <br />
+
+ |
 ### getSpreadsheetDataSizeInPoints() {#getSpreadsheetDataSizeInPoints--}
 ```
 public Size getSpreadsheetDataSizeInPoints()
@@ -62,8 +100,10 @@ public final SpreadsheetPageSetup getPageSetup()
 
 Gets the printing page setup for this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
 
+
 **Returns:**
 [SpreadsheetPageSetup](../../com.groupdocs.watermark.contents/spreadsheetpagesetup) - The printing page setup for this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+
 ### getContentAreaWidth() {#getContentAreaWidth--}
 ```
 public final double getContentAreaWidth()
@@ -72,8 +112,10 @@ public final double getContentAreaWidth()
 
 Gets the width of the content area in points.
 
+
 **Returns:**
 double - The width of the content area in points.
+
 ### getContentAreaWidthPx() {#getContentAreaWidthPx--}
 ```
 public final int getContentAreaWidthPx()
@@ -82,8 +124,10 @@ public final int getContentAreaWidthPx()
 
 Gets the width of the content area in pixels.
 
+
 **Returns:**
 int - The width of the content area in pixels.
+
 ### getContentAreaHeight() {#getContentAreaHeight--}
 ```
 public final double getContentAreaHeight()
@@ -92,8 +136,10 @@ public final double getContentAreaHeight()
 
 Gets the height of the content area in points.
 
+
 **Returns:**
 double - The height of the content area in points.
+
 ### getContentAreaHeightPx() {#getContentAreaHeightPx--}
 ```
 public final int getContentAreaHeightPx()
@@ -102,8 +148,10 @@ public final int getContentAreaHeightPx()
 
 Gets the height of the content area in pixels.
 
+
 **Returns:**
 int - The height of the content area in pixels.
+
 ### getShapes() {#getShapes--}
 ```
 public final SpreadsheetShapeCollection getShapes()
@@ -112,8 +160,10 @@ public final SpreadsheetShapeCollection getShapes()
 
 Gets the collection of all shapes of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
 
+
 **Returns:**
 [SpreadsheetShapeCollection](../../com.groupdocs.watermark.contents/spreadsheetshapecollection) - The collection of all shapes of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+
 ### getAttachments() {#getAttachments--}
 ```
 public final SpreadsheetAttachmentCollection getAttachments()
@@ -122,8 +172,10 @@ public final SpreadsheetAttachmentCollection getAttachments()
 
 Gets the collection of all attachments of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
 
+
 **Returns:**
 [SpreadsheetAttachmentCollection](../../com.groupdocs.watermark.contents/spreadsheetattachmentcollection) - The collection of all attachments of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+
 ### getCharts() {#getCharts--}
 ```
 public final SpreadsheetChartCollection getCharts()
@@ -132,8 +184,10 @@ public final SpreadsheetChartCollection getCharts()
 
 Gets the collection of all charts of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
 
+
 **Returns:**
 [SpreadsheetChartCollection](../../com.groupdocs.watermark.contents/spreadsheetchartcollection) - The collection of all charts of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
+
 ### getBackgroundImage() {#getBackgroundImage--}
 ```
 public final SpreadsheetWatermarkableImage getBackgroundImage()
@@ -142,8 +196,10 @@ public final SpreadsheetWatermarkableImage getBackgroundImage()
 
 Gets the background image of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
 
+
 **Returns:**
 [SpreadsheetWatermarkableImage](../../com.groupdocs.watermark.contents/spreadsheetwatermarkableimage) - The background image of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)` or `null` if the worksheet has no background image.
+
 ### setBackgroundImage(SpreadsheetWatermarkableImage value) {#setBackgroundImage-com.groupdocs.watermark.contents.SpreadsheetWatermarkableImage-}
 ```
 public final void setBackgroundImage(SpreadsheetWatermarkableImage value)
@@ -152,10 +208,12 @@ public final void setBackgroundImage(SpreadsheetWatermarkableImage value)
 
 Sets the background image of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)`.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| value | [SpreadsheetWatermarkableImage](../../com.groupdocs.watermark.contents/spreadsheetwatermarkableimage) | The background image of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)` or `null` if the background image should be removed. |
+| value | [SpreadsheetWatermarkableImage](../../com.groupdocs.watermark.contents/spreadsheetwatermarkableimage) | The background image of this `[SpreadsheetWorksheet](../../com.groupdocs.watermark.contents/spreadsheetworksheet)` or `null` if the background image should be removed.
+ |
 
 ### getHeadersFooters() {#getHeadersFooters--}
 ```
@@ -165,13 +223,17 @@ public final SpreadsheetHeaderFooterCollection getHeadersFooters()
 
 Gets the collection of worksheet headers and footers.
 
+
 **Returns:**
 [SpreadsheetHeaderFooterCollection](../../com.groupdocs.watermark.contents/spreadsheetheaderfootercollection) - The collection of headers and footers.
+
 ### getAsposeCellsWorksheet() {#getAsposeCellsWorksheet--}
 ```
 public final Worksheet getAsposeCellsWorksheet()
 ```
 
+
+<br />
 
 
 
@@ -185,13 +247,16 @@ public final double getColumnWidth(int column)
 
 Gets the width of the specified column in points.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| column | int | The column index. |
+| column | int | The column index.
+ |
 
 **Returns:**
 double - The width of the column in points.
+
 ### getColumnWidthPx(int column) {#getColumnWidthPx-int-}
 ```
 public final int getColumnWidthPx(int column)
@@ -200,13 +265,16 @@ public final int getColumnWidthPx(int column)
 
 Gets the width of the specified column in pixels.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| column | int | The column index. |
+| column | int | The column index.
+ |
 
 **Returns:**
 int - The width of the column in pixels.
+
 ### getRowHeight(int row) {#getRowHeight-int-}
 ```
 public final double getRowHeight(int row)
@@ -215,13 +283,16 @@ public final double getRowHeight(int row)
 
 Gets the height of the specified row in points.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | int | The row index. |
+| row | int | The row index.
+ |
 
 **Returns:**
 double - The height of the row in points.
+
 ### getRowHeightPx(int row) {#getRowHeightPx-int-}
 ```
 public final int getRowHeightPx(int row)
@@ -230,18 +301,23 @@ public final int getRowHeightPx(int row)
 
 Gets the height of the specified row in pixels.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| row | int | The row index. |
+| row | int | The row index.
+ |
 
 **Returns:**
 int - The height of the row in pixels.
+
 ### addWatermark(Watermark watermark, SpreadsheetShapeSettings shapeSettings, ISpreadsheetWatermarkEffects effects) {#addWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.SpreadsheetShapeSettings-com.groupdocs.watermark.options.ISpreadsheetWatermarkEffects-}
 ```
 public final void addWatermark(Watermark watermark, SpreadsheetShapeSettings shapeSettings, ISpreadsheetWatermarkEffects effects)
 ```
 
+
+<br />
 
 
 
@@ -258,6 +334,8 @@ public final void addWatermarkAsBackground(Watermark watermark, int backgroundWi
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -273,6 +351,8 @@ public final void addWatermarkIntoHeaderFooter(Watermark watermark)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -285,6 +365,8 @@ public final void addWatermarkIntoHeaderFooter(Watermark watermark)
 public final void addModernWordArtWatermark(TextWatermark watermark, SpreadsheetShapeSettings shapeSettings)
 ```
 
+
+<br />
 
 
 
@@ -299,6 +381,8 @@ public final void addModernWordArtWatermark(TextWatermark watermark, Spreadsheet
 public final void addWordArtWatermark(Watermark watermark, SpreadsheetShapeSettings shapeSettings, ISpreadsheetWatermarkEffects effects)
 ```
 
+
+<br />
 
 
 
@@ -315,6 +399,8 @@ public final double getRowY(int rowIndex)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -330,6 +416,8 @@ public final double getColumnX(int columnIndex)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -344,6 +432,8 @@ double
 public final double getRowRangeHeight(int startRow, int endRow)
 ```
 
+
+<br />
 
 
 
@@ -361,6 +451,8 @@ public final double getColumnRangeWidth(int startColumn, int endColumn)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -376,6 +468,8 @@ double
 public final void resetBackgroundImageReference()
 ```
 
+
+<br />
 
 
 

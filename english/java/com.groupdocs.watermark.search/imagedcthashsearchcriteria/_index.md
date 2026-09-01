@@ -18,13 +18,13 @@ This search criteria uses DCT based perceptual image hash for calculating image 
 
 **Learn more:**
 
- *  [Searching watermarks][]
+* [Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks)
 
 The following example demonstrates how to search for images in the attached files (pdf).
-
+>
+> ````
 > ```
-> ```
-> 
+>
 >    WatermarkerSettings settings = new WatermarkerSettings();
 >    settings.setSearchableObjects(new SearchableObjects());
 >    settings.getSearchableObjects().setPdfSearchableObjects(PdfSearchableObjects.All);
@@ -41,16 +41,17 @@ The following example demonstrates how to search for images in the attached file
 >    watermarker.close();
 >  
 > ```
-> ```
+> ````
 
 
-[Searching watermarks]: https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [ImageDctHashSearchCriteria(String filePath)](#ImageDctHashSearchCriteria-java.lang.String-) | Initializes a new instance of the `[ImageDctHashSearchCriteria](../../com.groupdocs.watermark.search/imagedcthashsearchcriteria)` class with a specified file path. |
-| [ImageDctHashSearchCriteria(InputStream stream)](#ImageDctHashSearchCriteria-java.io.InputStream-) | Initializes a new instance of the `[ImageDctHashSearchCriteria](../../com.groupdocs.watermark.search/imagedcthashsearchcriteria)` class with a specified stream. |
+| [ImageDctHashSearchCriteria(String filePath)](#ImageDctHashSearchCriteria-java.lang.String-) | Initializes a new instance of the `[ImageDctHashSearchCriteria](../../com.groupdocs.watermark.search/imagedcthashsearchcriteria)` class with a specified file path.
+ |
+| [ImageDctHashSearchCriteria(InputStream stream)](#ImageDctHashSearchCriteria-java.io.InputStream-) | Initializes a new instance of the `[ImageDctHashSearchCriteria](../../com.groupdocs.watermark.search/imagedcthashsearchcriteria)` class with a specified stream.
+ |
 | [ImageDctHashSearchCriteria(System.IO.Stream stream)](#ImageDctHashSearchCriteria-com.aspose.ms.System.IO.Stream-) |  |
 ### ImageDctHashSearchCriteria(String filePath) {#ImageDctHashSearchCriteria-java.lang.String-}
 ```
@@ -60,10 +61,12 @@ public ImageDctHashSearchCriteria(String filePath)
 
 Initializes a new instance of the `[ImageDctHashSearchCriteria](../../com.groupdocs.watermark.search/imagedcthashsearchcriteria)` class with a specified file path.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| filePath | java.lang.String | The file path to load image from. |
+| filePath | java.lang.String | The file path to load image from.
+ |
 
 ### ImageDctHashSearchCriteria(InputStream stream) {#ImageDctHashSearchCriteria-java.io.InputStream-}
 ```
@@ -73,10 +76,12 @@ public ImageDctHashSearchCriteria(InputStream stream)
 
 Initializes a new instance of the `[ImageDctHashSearchCriteria](../../com.groupdocs.watermark.search/imagedcthashsearchcriteria)` class with a specified stream.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| stream | java.io.InputStream | The stream to load image from. |
+| stream | java.io.InputStream | The stream to load image from.
+ |
 
 ### ImageDctHashSearchCriteria(System.IO.Stream stream) {#ImageDctHashSearchCriteria-com.aspose.ms.System.IO.Stream-}
 ```

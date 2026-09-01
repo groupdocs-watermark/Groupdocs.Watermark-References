@@ -13,11 +13,13 @@ public class UnexpectedDocumentStructureException extends WatermarkException
 ```
 
 The exception that is thrown when a content cannot be parsed due to unexpected structure.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [UnexpectedDocumentStructureException()](#UnexpectedDocumentStructureException--) | Initializes a new instance of the `[UnexpectedDocumentStructureException](../../com.groupdocs.watermark.exceptions/unexpecteddocumentstructureexception)` class. |
+| [UnexpectedDocumentStructureException()](#UnexpectedDocumentStructureException--) | Initializes a new instance of the `[UnexpectedDocumentStructureException](../../com.groupdocs.watermark.exceptions/unexpecteddocumentstructureexception)` class.
+ |
 ### UnexpectedDocumentStructureException() {#UnexpectedDocumentStructureException--}
 ```
 public UnexpectedDocumentStructureException()
@@ -25,4 +27,5 @@ public UnexpectedDocumentStructureException()
 
 
 Initializes a new instance of the `[UnexpectedDocumentStructureException](../../com.groupdocs.watermark.exceptions/unexpecteddocumentstructureexception)` class.
+
 

@@ -13,11 +13,13 @@ public class DiagramWatermarkableImage extends WatermarkableImage
 ```
 
 Represents an image inside a Visio document.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [DiagramWatermarkableImage(byte[] imageData)](#DiagramWatermarkableImage-byte---) | Initializes a new instance of the `[DiagramWatermarkableImage](../../com.groupdocs.watermark.contents/diagramwatermarkableimage)` class using specified image data. |
+| [DiagramWatermarkableImage(byte[] imageData)](#DiagramWatermarkableImage-byte---) | Initializes a new instance of the `[DiagramWatermarkableImage](../../com.groupdocs.watermark.contents/diagramwatermarkableimage)` class using specified image data.
+ |
 ### DiagramWatermarkableImage(byte[] imageData) {#DiagramWatermarkableImage-byte---}
 ```
 public DiagramWatermarkableImage(byte[] imageData)
@@ -26,8 +28,10 @@ public DiagramWatermarkableImage(byte[] imageData)
 
 Initializes a new instance of the `[DiagramWatermarkableImage](../../com.groupdocs.watermark.contents/diagramwatermarkableimage)` class using specified image data.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| imageData | byte[] | The array of unsigned bytes from which to create the `[DiagramWatermarkableImage](../../com.groupdocs.watermark.contents/diagramwatermarkableimage)`. |
+| imageData | byte[] | The array of unsigned bytes from which to create the `[DiagramWatermarkableImage](../../com.groupdocs.watermark.contents/diagramwatermarkableimage)`.
+ |
 

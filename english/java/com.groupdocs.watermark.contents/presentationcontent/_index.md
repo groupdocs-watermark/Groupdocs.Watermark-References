@@ -19,14 +19,14 @@ Represents a PowerPoint document where a watermark can be placed.
 
 **Learn more:**
 
- *  [Add watermarks to presentation documents][]
- *  [Working with slide backgrounds][]
+* [Add watermarks to presentation documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents)
+* [Working with slide backgrounds](../https://docs.groupdocs.com/display/watermarkjava/Working+with+slide+backgrounds)
 
 The following example demonstrates how to load and save PowerPoint document of any supported type.
-
+>
+> ````
 > ```
-> ```
-> 
+>
 >    PresentationLoadOptions loadOptions = new PresentationLoadOptions();
 >    Watermarker watermarker = new Watermarker("D:\\input.ppt", loadOptions);
 >  
@@ -37,48 +37,85 @@ The following example demonstrates how to load and save PowerPoint document of a
 >    watermarker.close();
 >  
 > ```
-> ```
+> ````
 
 
-[Add watermarks to presentation documents]: https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents
-[Working with slide backgrounds]: https://docs.groupdocs.com/display/watermarkjava/Working+with+slide+backgrounds
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [PresentationContent(StreamContainer stream, StrategyManager<Integer> strategyManager, PresentationLoadOptions presentationLoadOptions, IPresentationInfo presentationInfo, WatermarkerSettings watermarkerSettings)](#PresentationContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.groupdocs.watermark.options.PresentationLoadOptions-com.aspose.slides.IPresentationInfo-com.groupdocs.watermark.WatermarkerSettings-) |  |
+| [PresentationContent(StreamContainer stream, StrategyManager<Integer> strategyManager, PresentationLoadOptions presentationLoadOptions, IPresentationInfo presentationInfo, WatermarkerSettings watermarkerSettings)](#PresentationContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.groupdocs.watermark.options.PresentationLoadOptions-com.aspose.slides.IPresentationInfo-com.groupdocs.watermark.WatermarkerSettings-) | <br />
+
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getSlideWidth()](#getSlideWidth--) | Gets the width of a slide in points. |
-| [getSlideHeight()](#getSlideHeight--) | Gets the height of a slide in points. |
-| [getNotesSlideWidth()](#getNotesSlideWidth--) | Gets the width of a notes slide in points. |
-| [getNotesSlideHeight()](#getNotesSlideHeight--) | Gets the height of a notes slide in points. |
-| [getSlides()](#getSlides--) | Gets the collection of all slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`. |
-| [getMasterSlides()](#getMasterSlides--) | Gets the collection of all master slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`. |
-| [getLayoutSlides()](#getLayoutSlides--) | Gets the collection of all layout slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`. |
-| [getMasterNotesSlide()](#getMasterNotesSlide--) | Gets the master slide for all notes slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`. |
-| [getMasterHandoutSlide()](#getMasterHandoutSlide--) | Gets the master handout slide of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`. |
-| [getAsposeSlidesPresentation()](#getAsposeSlidesPresentation--) |  |
-| [addWatermark(Watermark watermark, PresentationShapeSettings shapeSettings, IPresentationWatermarkEffects effects)](#addWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.contents.PresentationShapeSettings-com.groupdocs.watermark.options.IPresentationWatermarkEffects-) |  |
-| [encrypt(String password)](#encrypt-java.lang.String-) | Encrypts the document. |
-| [decrypt()](#decrypt--) | Decrypts the document. |
-| [setWriteProtection(String password)](#setWriteProtection-java.lang.String-) |  |
-| [removeWriteProtection()](#removeWriteProtection--) |  |
-| [performSave(String filePath)](#performSave-java.lang.String-) |  |
-| [performSave(String filePath, SaveOptions saveOptions)](#performSave-java.lang.String-com.groupdocs.watermark.options.SaveOptions-) |  |
-| [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) |  |
-| [performSave(OutputStream stream, SaveOptions saveOptions)](#performSave-java.io.OutputStream-com.groupdocs.watermark.options.SaveOptions-) |  |
-| [getDocumentInfo()](#getDocumentInfo--) |  |
-| [getFileType()](#getFileType--) |  |
-| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) |  |
-| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) |  |
+| [getSlideWidth()](#getSlideWidth--) | Gets the width of a slide in points.
+ |
+| [getSlideHeight()](#getSlideHeight--) | Gets the height of a slide in points.
+ |
+| [getNotesSlideWidth()](#getNotesSlideWidth--) | Gets the width of a notes slide in points.
+ |
+| [getNotesSlideHeight()](#getNotesSlideHeight--) | Gets the height of a notes slide in points.
+ |
+| [getSlides()](#getSlides--) | Gets the collection of all slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+ |
+| [getMasterSlides()](#getMasterSlides--) | Gets the collection of all master slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+ |
+| [getLayoutSlides()](#getLayoutSlides--) | Gets the collection of all layout slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+ |
+| [getMasterNotesSlide()](#getMasterNotesSlide--) | Gets the master slide for all notes slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+ |
+| [getMasterHandoutSlide()](#getMasterHandoutSlide--) | Gets the master handout slide of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+ |
+| [getAsposeSlidesPresentation()](#getAsposeSlidesPresentation--) | <br />
+
+ |
+| [addWatermark(Watermark watermark, PresentationShapeSettings shapeSettings, IPresentationWatermarkEffects effects)](#addWatermark-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.contents.PresentationShapeSettings-com.groupdocs.watermark.options.IPresentationWatermarkEffects-) | <br />
+
+ |
+| [encrypt(String password)](#encrypt-java.lang.String-) | Encrypts the document.
+ |
+| [decrypt()](#decrypt--) | Decrypts the document.
+ |
+| [setWriteProtection(String password)](#setWriteProtection-java.lang.String-) | <br />
+
+ |
+| [removeWriteProtection()](#removeWriteProtection--) | <br />
+
+ |
+| [performSave(String filePath)](#performSave-java.lang.String-) | <br />
+
+ |
+| [performSave(String filePath, SaveOptions saveOptions)](#performSave-java.lang.String-com.groupdocs.watermark.options.SaveOptions-) | <br />
+
+ |
+| [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) | <br />
+
+ |
+| [performSave(OutputStream stream, SaveOptions saveOptions)](#performSave-java.io.OutputStream-com.groupdocs.watermark.options.SaveOptions-) | <br />
+
+ |
+| [getDocumentInfo()](#getDocumentInfo--) | <br />
+
+ |
+| [getFileType()](#getFileType--) | <br />
+
+ |
+| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) | <br />
+
+ |
+| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) | <br />
+
+ |
 ### PresentationContent(StreamContainer stream, StrategyManager<Integer> strategyManager, PresentationLoadOptions presentationLoadOptions, IPresentationInfo presentationInfo, WatermarkerSettings watermarkerSettings) {#PresentationContent-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.StrategyManager-java.lang.Integer--com.groupdocs.watermark.options.PresentationLoadOptions-com.aspose.slides.IPresentationInfo-com.groupdocs.watermark.WatermarkerSettings-}
 ```
 public PresentationContent(StreamContainer stream, StrategyManager<Integer> strategyManager, PresentationLoadOptions presentationLoadOptions, IPresentationInfo presentationInfo, WatermarkerSettings watermarkerSettings)
 ```
 
+
+<br />
 
 
 
@@ -99,8 +136,10 @@ public final double getSlideWidth()
 
 Gets the width of a slide in points.
 
+
 **Returns:**
 double - The width of a slide in points.
+
 ### getSlideHeight() {#getSlideHeight--}
 ```
 public final double getSlideHeight()
@@ -109,8 +148,10 @@ public final double getSlideHeight()
 
 Gets the height of a slide in points.
 
+
 **Returns:**
 double - The height of a slide in points.
+
 ### getNotesSlideWidth() {#getNotesSlideWidth--}
 ```
 public final double getNotesSlideWidth()
@@ -119,8 +160,10 @@ public final double getNotesSlideWidth()
 
 Gets the width of a notes slide in points.
 
+
 **Returns:**
 double - The width of a notes slide in points.
+
 ### getNotesSlideHeight() {#getNotesSlideHeight--}
 ```
 public final double getNotesSlideHeight()
@@ -129,8 +172,10 @@ public final double getNotesSlideHeight()
 
 Gets the height of a notes slide in points.
 
+
 **Returns:**
 double - The height of a notes slide in points.
+
 ### getSlides() {#getSlides--}
 ```
 public final PresentationSlideCollection getSlides()
@@ -139,8 +184,10 @@ public final PresentationSlideCollection getSlides()
 
 Gets the collection of all slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
 
+
 **Returns:**
 [PresentationSlideCollection](../../com.groupdocs.watermark.contents/presentationslidecollection) - The collection of all slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+
 ### getMasterSlides() {#getMasterSlides--}
 ```
 public final PresentationMasterSlideCollection getMasterSlides()
@@ -149,8 +196,10 @@ public final PresentationMasterSlideCollection getMasterSlides()
 
 Gets the collection of all master slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
 
+
 **Returns:**
 [PresentationMasterSlideCollection](../../com.groupdocs.watermark.contents/presentationmasterslidecollection) - The collection of all master slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+
 ### getLayoutSlides() {#getLayoutSlides--}
 ```
 public final PresentationLayoutSlideCollection getLayoutSlides()
@@ -159,8 +208,10 @@ public final PresentationLayoutSlideCollection getLayoutSlides()
 
 Gets the collection of all layout slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
 
+
 **Returns:**
 [PresentationLayoutSlideCollection](../../com.groupdocs.watermark.contents/presentationlayoutslidecollection) - The collection of all layout slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+
 ### getMasterNotesSlide() {#getMasterNotesSlide--}
 ```
 public final PresentationMasterNotesSlide getMasterNotesSlide()
@@ -169,8 +220,10 @@ public final PresentationMasterNotesSlide getMasterNotesSlide()
 
 Gets the master slide for all notes slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
 
+
 **Returns:**
 [PresentationMasterNotesSlide](../../com.groupdocs.watermark.contents/presentationmasternotesslide) - The master slide for all notes slides of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+
 ### getMasterHandoutSlide() {#getMasterHandoutSlide--}
 ```
 public final PresentationMasterHandoutSlide getMasterHandoutSlide()
@@ -179,13 +232,17 @@ public final PresentationMasterHandoutSlide getMasterHandoutSlide()
 
 Gets the master handout slide of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
 
+
 **Returns:**
 [PresentationMasterHandoutSlide](../../com.groupdocs.watermark.contents/presentationmasterhandoutslide) - The master handout slide of this `[PresentationContent](../../com.groupdocs.watermark.contents/presentationcontent)`.
+
 ### getAsposeSlidesPresentation() {#getAsposeSlidesPresentation--}
 ```
 public final Presentation getAsposeSlidesPresentation()
 ```
 
+
+<br />
 
 
 
@@ -196,6 +253,8 @@ com.aspose.slides.Presentation
 public final void addWatermark(Watermark watermark, PresentationShapeSettings shapeSettings, IPresentationWatermarkEffects effects)
 ```
 
+
+<br />
 
 
 
@@ -214,10 +273,12 @@ public final void encrypt(String password)
 
 Encrypts the document.
 
+
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| password | java.lang.String | The password that will be required to open the document. |
+| password | java.lang.String | The password that will be required to open the document.
+ |
 
 ### decrypt() {#decrypt--}
 ```
@@ -227,11 +288,14 @@ public final void decrypt()
 
 Decrypts the document.
 
+
 ### setWriteProtection(String password) {#setWriteProtection-java.lang.String-}
 ```
 public final void setWriteProtection(String password)
 ```
 
+
+<br />
 
 
 
@@ -246,6 +310,8 @@ public final void removeWriteProtection()
 ```
 
 
+<br />
+
 
 
 ### performSave(String filePath) {#performSave-java.lang.String-}
@@ -253,6 +319,8 @@ public final void removeWriteProtection()
 public void performSave(String filePath)
 ```
 
+
+<br />
 
 
 
@@ -266,6 +334,8 @@ public void performSave(String filePath)
 public void performSave(String filePath, SaveOptions saveOptions)
 ```
 
+
+<br />
 
 
 
@@ -281,6 +351,8 @@ public void performSave(OutputStream stream)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -293,6 +365,8 @@ public void performSave(OutputStream stream)
 public void performSave(OutputStream stream, SaveOptions saveOptions)
 ```
 
+
+<br />
 
 
 
@@ -308,6 +382,8 @@ public IDocumentInfo getDocumentInfo()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -318,6 +394,8 @@ public FileType getFileType()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -327,6 +405,8 @@ public FileType getFileType()
 public void add(Watermark watermark, WatermarkOptions options)
 ```
 
+
+<br />
 
 
 
@@ -341,6 +421,8 @@ public void add(Watermark watermark, WatermarkOptions options)
 public void generatePreview(PreviewOptions previewOptions)
 ```
 
+
+<br />
 
 
 

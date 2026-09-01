@@ -15,16 +15,21 @@ public class WatermarkableImageCollection extends ReadOnlyListBase<Watermarkable
 Represents a collection of images found in a document.
 
 This collection contains the items of `[WatermarkableImage](../../com.groupdocs.watermark.contents/watermarkableimage)` type.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [WatermarkableImageCollection()](#WatermarkableImageCollection--) |  |
+| [WatermarkableImageCollection()](#WatermarkableImageCollection--) | <br />
+
+ |
 ### WatermarkableImageCollection() {#WatermarkableImageCollection--}
 ```
 public WatermarkableImageCollection()
 ```
 
+
+<br />
 
 
 

@@ -16,41 +16,87 @@ public abstract class Content extends ContentPart implements Closeable
 ```
 
 Represents a content where a watermark can be placed.
+
 ## Constructors
 
 | Constructor | Description |
 | --- | --- |
-| [Content(StreamContainer stream, IStrategyManager strategyManager, LoadOptions loadOptions, WatermarkerSettings watermarkerSettings)](#Content-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.IStrategyManager-com.groupdocs.watermark.options.LoadOptions-com.groupdocs.watermark.WatermarkerSettings-) |  |
+| [Content(StreamContainer stream, IStrategyManager strategyManager, LoadOptions loadOptions, WatermarkerSettings watermarkerSettings)](#Content-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.IStrategyManager-com.groupdocs.watermark.options.LoadOptions-com.groupdocs.watermark.WatermarkerSettings-) | <br />
+
+ |
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [getWatermarkerSettings()](#getWatermarkerSettings--) |  |
-| [getDocumentInfo()](#getDocumentInfo--) |  |
-| [getFileType()](#getFileType--) |  |
-| [getSearchableObjects()](#getSearchableObjects--) |  |
-| [setSearchableObjects(SearchableObjects value)](#setSearchableObjects-com.groupdocs.watermark.search.SearchableObjects-) |  |
-| [getStream()](#getStream--) |  |
-| [save(String filePath)](#save-java.lang.String-) |  |
-| [save(String filePath, SaveOptions saveOptions)](#save-java.lang.String-com.groupdocs.watermark.options.SaveOptions-) |  |
-| [save(OutputStream stream)](#save-java.io.OutputStream-) |  |
-| [save(OutputStream stream, SaveOptions saveOptions)](#save-java.io.OutputStream-com.groupdocs.watermark.options.SaveOptions-) |  |
-| [dispose()](#dispose--) |  |
-| [performSave(String filePath)](#performSave-java.lang.String-) |  |
-| [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) |  |
-| [performSave(String filePath, SaveOptions saveOptions)](#performSave-java.lang.String-com.groupdocs.watermark.options.SaveOptions-) |  |
-| [performSave(OutputStream stream, SaveOptions saveOptions)](#performSave-java.io.OutputStream-com.groupdocs.watermark.options.SaveOptions-) |  |
-| [registerDisposableResource(System.IDisposable resource)](#registerDisposableResource-com.aspose.ms.System.IDisposable-) |  |
-| [getInfo(String filePath)](#getInfo-java.lang.String-) |  |
-| [getInfo(System.IO.Stream stream)](#getInfo-com.aspose.ms.System.IO.Stream-) |  |
-| [close()](#close--) | Disposes the current instance. |
-| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) |  |
-| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) |  |
+| [getWatermarkerSettings()](#getWatermarkerSettings--) | <br />
+
+ |
+| [getDocumentInfo()](#getDocumentInfo--) | <br />
+
+ |
+| [getFileType()](#getFileType--) | <br />
+
+ |
+| [getSearchableObjects()](#getSearchableObjects--) | <br />
+
+ |
+| [setSearchableObjects(SearchableObjects value)](#setSearchableObjects-com.groupdocs.watermark.search.SearchableObjects-) | <br />
+
+ |
+| [getStream()](#getStream--) | <br />
+
+ |
+| [save(String filePath)](#save-java.lang.String-) | <br />
+
+ |
+| [save(String filePath, SaveOptions saveOptions)](#save-java.lang.String-com.groupdocs.watermark.options.SaveOptions-) | <br />
+
+ |
+| [save(OutputStream stream)](#save-java.io.OutputStream-) | <br />
+
+ |
+| [save(OutputStream stream, SaveOptions saveOptions)](#save-java.io.OutputStream-com.groupdocs.watermark.options.SaveOptions-) | <br />
+
+ |
+| [dispose()](#dispose--) | <br />
+
+ |
+| [performSave(String filePath)](#performSave-java.lang.String-) | <br />
+
+ |
+| [performSave(OutputStream stream)](#performSave-java.io.OutputStream-) | <br />
+
+ |
+| [performSave(String filePath, SaveOptions saveOptions)](#performSave-java.lang.String-com.groupdocs.watermark.options.SaveOptions-) | <br />
+
+ |
+| [performSave(OutputStream stream, SaveOptions saveOptions)](#performSave-java.io.OutputStream-com.groupdocs.watermark.options.SaveOptions-) | <br />
+
+ |
+| [registerDisposableResource(System.IDisposable resource)](#registerDisposableResource-com.aspose.ms.System.IDisposable-) | <br />
+
+ |
+| [getInfo(String filePath)](#getInfo-java.lang.String-) | <br />
+
+ |
+| [getInfo(System.IO.Stream stream)](#getInfo-com.aspose.ms.System.IO.Stream-) | <br />
+
+ |
+| [close()](#close--) | Disposes the current instance.
+ |
+| [add(Watermark watermark, WatermarkOptions options)](#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-) | <br />
+
+ |
+| [generatePreview(PreviewOptions previewOptions)](#generatePreview-com.groupdocs.watermark.options.PreviewOptions-) | <br />
+
+ |
 ### Content(StreamContainer stream, IStrategyManager strategyManager, LoadOptions loadOptions, WatermarkerSettings watermarkerSettings) {#Content-com.groupdocs.watermark.internal.StreamContainer-com.groupdocs.watermark.internal.IStrategyManager-com.groupdocs.watermark.options.LoadOptions-com.groupdocs.watermark.WatermarkerSettings-}
 ```
 public Content(StreamContainer stream, IStrategyManager strategyManager, LoadOptions loadOptions, WatermarkerSettings watermarkerSettings)
 ```
 
+
+<br />
 
 
 
@@ -68,6 +114,8 @@ public final WatermarkerSettings getWatermarkerSettings()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -77,6 +125,8 @@ public final WatermarkerSettings getWatermarkerSettings()
 public abstract IDocumentInfo getDocumentInfo()
 ```
 
+
+<br />
 
 
 
@@ -88,6 +138,8 @@ public abstract FileType getFileType()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -98,6 +150,8 @@ public final SearchableObjects getSearchableObjects()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -107,6 +161,8 @@ public final SearchableObjects getSearchableObjects()
 public final void setSearchableObjects(SearchableObjects value)
 ```
 
+
+<br />
 
 
 
@@ -121,6 +177,8 @@ public final StreamContainer getStream()
 ```
 
 
+<br />
+
 
 
 **Returns:**
@@ -130,6 +188,8 @@ public final StreamContainer getStream()
 public final void save(String filePath)
 ```
 
+
+<br />
 
 
 
@@ -143,6 +203,8 @@ public final void save(String filePath)
 public final void save(String filePath, SaveOptions saveOptions)
 ```
 
+
+<br />
 
 
 
@@ -158,6 +220,8 @@ public final void save(OutputStream stream)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -170,6 +234,8 @@ public final void save(OutputStream stream)
 public final void save(OutputStream stream, SaveOptions saveOptions)
 ```
 
+
+<br />
 
 
 
@@ -185,6 +251,8 @@ public final void dispose()
 ```
 
 
+<br />
+
 
 
 ### performSave(String filePath) {#performSave-java.lang.String-}
@@ -192,6 +260,8 @@ public final void dispose()
 public abstract void performSave(String filePath)
 ```
 
+
+<br />
 
 
 
@@ -206,6 +276,8 @@ public abstract void performSave(OutputStream stream)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -218,6 +290,8 @@ public abstract void performSave(OutputStream stream)
 public abstract void performSave(String filePath, SaveOptions saveOptions)
 ```
 
+
+<br />
 
 
 
@@ -233,6 +307,8 @@ public abstract void performSave(OutputStream stream, SaveOptions saveOptions)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -247,6 +323,8 @@ public final void registerDisposableResource(System.IDisposable resource)
 ```
 
 
+<br />
+
 
 
 **Parameters:**
@@ -259,6 +337,8 @@ public final void registerDisposableResource(System.IDisposable resource)
 public static InfoInternal getInfo(String filePath)
 ```
 
+
+<br />
 
 
 
@@ -274,6 +354,8 @@ public static InfoInternal getInfo(String filePath)
 public static InfoInternal getInfo(System.IO.Stream stream)
 ```
 
+
+<br />
 
 
 
@@ -292,11 +374,14 @@ public final void close()
 
 Disposes the current instance.
 
+
 ### add(Watermark watermark, WatermarkOptions options) {#add-com.groupdocs.watermark.Watermark-com.groupdocs.watermark.options.WatermarkOptions-}
 ```
 public abstract void add(Watermark watermark, WatermarkOptions options)
 ```
 
+
+<br />
 
 
 
@@ -311,6 +396,8 @@ public abstract void add(Watermark watermark, WatermarkOptions options)
 public abstract void generatePreview(PreviewOptions previewOptions)
 ```
 
+
+<br />
 
 
 

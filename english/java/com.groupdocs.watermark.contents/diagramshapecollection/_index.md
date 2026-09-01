@@ -15,17 +15,24 @@ public class DiagramShapeCollection extends RemoveOnlyListBase<DiagramShape>
 Represents a collection of drawing shapes in a Visio document.
 
 This collection contains the items of `[DiagramShape](../../com.groupdocs.watermark.contents/diagramshape)` type.
+
 ## Methods
 
 | Method | Description |
 | --- | --- |
-| [addShape(Shape shape)](#addShape-com.aspose.diagram.Shape-) |  |
-| [removeFromDocument(DiagramShape item)](#removeFromDocument-com.groupdocs.watermark.contents.DiagramShape-) |  |
+| [addShape(Shape shape)](#addShape-com.aspose.diagram.Shape-) | <br />
+
+ |
+| [removeFromDocument(DiagramShape item)](#removeFromDocument-com.groupdocs.watermark.contents.DiagramShape-) | <br />
+
+ |
 ### addShape(Shape shape) {#addShape-com.aspose.diagram.Shape-}
 ```
 public final void addShape(Shape shape)
 ```
 
+
+<br />
 
 
 
@@ -39,6 +46,8 @@ public final void addShape(Shape shape)
 public void removeFromDocument(DiagramShape item)
 ```
 
+
+<br />
 
 
 
