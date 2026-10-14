@@ -13,7 +13,7 @@ weight: 2050
 
 The property indicating whether the text watermark characters are mixed with unreadable characters.
 
-This protection applies only when the [`PresentationWatermarkBaseSlideOptions.IsLocked`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/is_locked/) property is `True`.
+This protection applies only when the value of [`PresentationWatermarkBaseSlideOptions.is_locked`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/is_locked/) property is `True`.
 
 ### Definition:
 ```python

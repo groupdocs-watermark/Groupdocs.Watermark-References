@@ -11,7 +11,7 @@ weight: 2040
 
 ## rotate_angle property
 
-The rotate angle of this [`PdfAnnotation`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfannotation/) in degrees.
+The rotate angle of this PdfAnnotation in degrees.
 
 ### Definition:
 ```python

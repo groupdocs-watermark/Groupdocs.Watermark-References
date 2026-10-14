@@ -11,7 +11,7 @@ weight: 2030
 
 ## rotate_angle property
 
-The rotate angle of this [`PresentationBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/) in degrees.
+The rotate angle of this PresentationBackgroundPossibleWatermark in degrees.
 
 ### Definition:
 ```python

@@ -11,7 +11,7 @@ weight: 2040
 
 ## text property
 
-The URL of this [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/).
+The URL of this SpreadsheetHyperlinkPossibleWatermark.
 
 ### Definition:
 ```python

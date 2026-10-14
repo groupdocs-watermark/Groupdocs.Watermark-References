@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#image_data}
 
-Initializes a new instance of the PresentationWatermarkableImage class using specified image data.
+Initializes a new instance of the [`PresentationWatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationwatermarkableimage/) class using specified image data.
 
 ```python
 def __init__(self, image_data):
@@ -20,7 +20,7 @@ def __init__(self, image_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_data | `list[int]` | The array of unsigned bytes from which to create the PresentationWatermarkableImage. |
+| image_data | `list[int]` | The array of unsigned bytes from which to create the `PresentationWatermarkableImage`. |
 
 ### Example
 

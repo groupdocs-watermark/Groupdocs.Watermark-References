@@ -26,18 +26,20 @@ def __init__(self, font_family_name, size):
 ### Example
 
 ```python
-    from groupdocs.watermark.watermarks import Font, TextWatermark
+    from groupdocs.watermark import Watermarker
+    from groupdocs.watermark.watermarks import TextWatermark, Font, Color
 
-    # Create a font with Arial family and size 48 points
-    font = Font("Arial", 48)
-
-    # Use the font in a text watermark
-    watermark = TextWatermark("CONFIDENTIAL", font)
+    with Watermarker("document.pdf") as watermarker:
+        watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 48))
+        watermark.foreground_color = Color.red
+        watermark.opacity = 0.5
+        watermarker.add(watermark)
+        watermarker.save("watermarked.pdf")
     ```
 
 ## __init__ {#font_family_name-size-style}
 
-Initializes a new Font with the specified font family name, size, and style.
+Initializes a new Font instance with the specified font family name, size, and style.
 
 ```python
 def __init__(self, font_family_name, size, style):
@@ -61,7 +63,7 @@ watermark = TextWatermark("CONFIDENTIAL", font)
 
 ## __init__ {#font_family_name-folder_path-size}
 
-Initializes a new Font instance with a custom font family name, the folder containing the TrueType font files, and a size.
+Initializes a new Font instance with a custom font family name, a folder containing TrueType fonts, a size, and a style.
 
 ```python
 def __init__(self, font_family_name, folder_path, size):
@@ -77,15 +79,19 @@ def __init__(self, font_family_name, folder_path, size):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
 
-fonts_folder = r"c:\\CustomFonts\\"
-with gw.Watermarker("test.pdf") as watermarker:
-    font = gww.Font("CustomFontName", fonts_folder, 36.0)
-    watermark = gww.TextWatermark("Test watermark", font)
+fonts_folder = r"c:\CustomFonts"
+with Watermarker("./sample.pdf") as watermarker:
+    watermark = TextWatermark(
+        "Test watermark",
+        Font("CustomFontName", fonts_folder, 36.0)
+    )
+    watermark.foreground_color = Color.blue
+    watermark.opacity = 0.5
     watermarker.add(watermark)
-    watermarker.save("result.pdf")
+    watermarker.save("./output.pdf")
 ```
 
 ## __init__ {#font_family_name-folder_path-size-style}
@@ -107,10 +113,18 @@ def __init__(self, font_family_name, folder_path, size, style):
 ### Example
 
 ```python
-from groupdocs.watermark.watermarks import Font
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
 
-fonts_folder = r"C:\\CustomFonts\\"
-font = Font("CustomFontName", fonts_folder, 36.0)
+with Watermarker("./sample.pdf") as watermarker:
+    watermark = TextWatermark(
+        "Test watermark",
+        Font("CustomFontName", r"c:\CustomFonts", 36.0)
+    )
+    watermark.foreground_color = Color.blue
+    watermark.opacity = 0.5
+    watermarker.add(watermark)
+    watermarker.save("./output.pdf")
 ```
 
 ### See Also

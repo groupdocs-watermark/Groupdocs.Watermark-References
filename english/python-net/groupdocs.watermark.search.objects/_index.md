@@ -5,7 +5,7 @@ description: "Types under groupdocs.watermark.search.objects."
 type: docs
 url: /python-net/groupdocs.watermark.search.objects/
 is_root: false
-weight: 210
+weight: 220
 ---
 
 

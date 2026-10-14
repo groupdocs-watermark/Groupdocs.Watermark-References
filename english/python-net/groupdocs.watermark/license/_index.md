@@ -5,7 +5,7 @@ description: "Manages GroupDocs.Watermark licensing."
 type: docs
 url: /python-net/groupdocs.watermark/license/
 is_root: false
-weight: 70
+weight: 20
 ---
 
 

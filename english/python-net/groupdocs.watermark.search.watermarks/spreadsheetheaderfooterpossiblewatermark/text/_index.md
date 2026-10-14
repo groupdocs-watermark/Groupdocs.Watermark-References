@@ -11,7 +11,7 @@ weight: 2040
 
 ## text property
 
-The text of this [`SpreadsheetHeaderFooterPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetheaderfooterpossiblewatermark/).
+The text of this SpreadsheetHeaderFooterPossibleWatermark.
 
 ### Definition:
 ```python

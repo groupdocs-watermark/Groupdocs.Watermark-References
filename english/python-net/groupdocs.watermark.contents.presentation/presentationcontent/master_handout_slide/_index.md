@@ -11,7 +11,7 @@ weight: 2020
 
 ## master_handout_slide property
 
-The master handout slide of this PresentationContent.
+The master handout slide of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/).
 
 ### Definition:
 ```python

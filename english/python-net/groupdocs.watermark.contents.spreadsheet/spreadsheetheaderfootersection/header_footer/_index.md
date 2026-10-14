@@ -11,7 +11,7 @@ weight: 2010
 
 ## header_footer property
 
-The parent header/footer of this [`SpreadsheetHeaderFooterSection`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfootersection/).
+The parent header/footer of this SpreadsheetHeaderFooterSection.
 
 ### Definition:
 ```python

@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the DiagramSaveOptions class.
+Initializes a new instance of the [`DiagramSaveOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramsaveoptions/) class.
 
 ```python
 def __init__(self):

@@ -21,22 +21,28 @@ def __init__(self):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.image as gwo_img
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.image import TiffImageLoadOptions, TiffImageWatermarkOptions
 
-load_options = gw.TiffImageLoadOptions()
-with gw.Watermarker("image.tiff", load_options) as watermarker:
-    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
-    options = gwo_img.TiffImageWatermarkOptions()
-    options.frame_index = 0
-    watermarker.add(watermark, options)
-    watermarker.save("image.tiff")
+def add_watermark_to_image():
+    with Watermarker("./image.tiff", TiffImageLoadOptions()) as watermarker:
+        watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 19.0))
+        watermark.foreground_color = Color.red
+        watermark.horizontal_alignment = HorizontalAlignment.CENTER
+        watermark.vertical_alignment = VerticalAlignment.CENTER
+
+        options = TiffImageWatermarkOptions()
+        options.frame_index = 0
+        watermarker.add(watermark, options)
+
+        watermarker.save("./output.tiff")
 ```
 
 ## __init__ {#frame_index}
 
-Initializes a new instance of [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) with a specified frame index.
+Initializes a new [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) instance with a specified frame index.
 
 ```python
 def __init__(self, frame_index):
@@ -46,6 +52,28 @@ def __init__(self, frame_index):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | frame_index | `int` | The index of the frame to add the watermark. |
+
+### Example
+
+```python
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.image import TiffImageLoadOptions, TiffImageWatermarkOptions
+
+def add_watermark_to_image():
+    with Watermarker("./image.tiff", TiffImageLoadOptions()) as watermarker:
+        watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 19.0))
+        watermark.foreground_color = Color.red
+        watermark.horizontal_alignment = HorizontalAlignment.CENTER
+        watermark.vertical_alignment = VerticalAlignment.CENTER
+
+        options = TiffImageWatermarkOptions()
+        options.frame_index = 0
+        watermarker.add(watermark, options)
+
+        watermarker.save("./output.tiff")
+```
 
 ### See Also
 * class [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/)

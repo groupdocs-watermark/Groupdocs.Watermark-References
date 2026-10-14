@@ -21,7 +21,7 @@ def error(self, message, exception):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | message | `str` | The error message. |
-| exception | `Exception` | The instance of occurred exception. |
+| exception | `Exception` | The instance of occured exception. |
 
 ### See Also
 * class [`ILogger`](/watermark/python-net/groupdocs.watermark.options/ilogger/)

@@ -11,7 +11,7 @@ weight: 2050
 
 ## x property
 
-The horizontal offset of this [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/) from the page left border in points. Represents the x-coordinate of the XObject.
+The horizontal offset of this PdfXObject from the page left border in points. The x-coordinate of this PdfXObject.
 
 ### Definition:
 ```python

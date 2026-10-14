@@ -5,13 +5,15 @@ description: "Represents a class for watermark management in a document."
 type: docs
 url: /python-net/groupdocs.watermark/watermarker/
 is_root: false
-weight: 180
+weight: 60
 ---
 
 
 ## Watermarker class
 
 Represents a class for watermark management in a document.
+
+Load and save the content of any supported format.
 
 The Watermarker type exposes the following members:
 
@@ -20,12 +22,12 @@ The Watermarker type exposes the following members:
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#file_path) | Initializes a new Watermarker instance with the specified document path. |
 | [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#file_path-options) | Initializes a new Watermarker instance with the specified document path and load options. |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#file_path-settings) | Initializes a new Watermarker instance with the specified document path and settings. |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#file_path-options-settings) | Initializes a new Watermarker with the specified document path, load options, and settings. |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#document) | Initializes a new Watermarker instance with the specified stream. |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#document-options) | Initializes a new instance of the Watermarker class with the specified stream and load options. |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#document-settings) | Initializes a new instance of the Watermarker class with the specified stream and settings. |
-| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#document-options-settings) | Initializes a new Watermarker instance with the specified document stream, load options, and settings. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#file_path-settings) | Initializes a Watermarker with the specified document path and settings. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#file_path-options-settings) | Initializes a new Watermarker instance with the specified document path, load options, and settings. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#document) | Initializes a new instance of the Watermarker class with the specified stream. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#document-options) | Initializes a new Watermarker instance with the specified stream and load options. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#document-settings) | Initializes a new Watermarker instance with the specified stream and settings. |
+| [__init__](/watermark/python-net/groupdocs.watermark/watermarker/__init__/#document-options-settings) | Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/) class with the specified stream, load options and settings. |
 
 ### Methods
 | Method | Description |
@@ -38,17 +40,17 @@ The Watermarker type exposes the following members:
 | [generate_preview_preview_options](/watermark/python-net/groupdocs.watermark/watermarker/generate_preview_preview_options/) |  |
 | [get_content](/watermark/python-net/groupdocs.watermark/watermarker/get_content/) |  |
 | [get_document_info](/watermark/python-net/groupdocs.watermark/watermarker/get_document_info/) | Gets the information about the format of the loaded document. |
-| [get_images](/watermark/python-net/groupdocs.watermark/watermarker/get_images/#search_criteria) | Finds images according to the specified search criteria. |
+| [get_images](/watermark/python-net/groupdocs.watermark/watermarker/get_images/#search_criteria) | Finds images according to specified search criteria. |
 | [get_images](/watermark/python-net/groupdocs.watermark/watermarker/get_images/) | Finds all images in the document. |
 | [get_images_image_search_criteria](/watermark/python-net/groupdocs.watermark/watermarker/get_images_image_search_criteria/) |  |
-| [remove](/watermark/python-net/groupdocs.watermark/watermarker/remove/#possible_watermark) | Removes watermark from the document. |
+| [remove](/watermark/python-net/groupdocs.watermark/watermarker/remove/#possible_watermark) | Removes a watermark from the document. |
 | [remove](/watermark/python-net/groupdocs.watermark/watermarker/remove/#possible_watermarks) | Removes all watermarks in the collection from the document. |
 | [remove_possible_watermark](/watermark/python-net/groupdocs.watermark/watermarker/remove_possible_watermark/) |  |
 | [remove_possible_watermark_collection](/watermark/python-net/groupdocs.watermark/watermarker/remove_possible_watermark_collection/) |  |
 | [save](/watermark/python-net/groupdocs.watermark/watermarker/save/) | Saves the document data to the underlying stream. |
 | [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#file_path) | Saves the document to the specified file location. |
 | [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#document) | Saves the document to the specified stream. |
-| [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#options) | Saves the document data to the underlying stream using the specified save options. |
+| [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#options) | Saves the document data to the underlying stream using save options. |
 | [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#file_path-options) | Saves the document to the specified file location using save options. |
 | [save](/watermark/python-net/groupdocs.watermark/watermarker/save/#document-options) | Saves the document to the specified stream using save options. |
 | [save_file](/watermark/python-net/groupdocs.watermark/watermarker/save_file/) |  |
@@ -68,9 +70,9 @@ The Watermarker type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
+from groupdocs.watermark import Watermarker
 
-with gw.Watermarker("D:\\input.pdf") as watermarker:
+with Watermarker("D:\\input.pdf") as watermarker:
     # Use methods of Watermarker to add, search, or remove watermarks.
     watermarker.save("D:\\output.pdf")
 ```

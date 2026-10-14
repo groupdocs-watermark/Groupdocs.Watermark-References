@@ -21,14 +21,14 @@ def __init__(self):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.presentation as gwc_ppt
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.presentation import PresentationLoadOptions
 
-load_options = gw.PresentationLoadOptions()
-with gw.Watermarker("presentation.pptx", load_options) as watermarker:
-    content = watermarker.get_content(gwc_ppt.PresentationContent)
-    print(content.slide_width)
-    print(content.slide_height)
+def remove_slide_background():
+    with Watermarker("./presentation.pptx", PresentationLoadOptions()) as watermarker:
+        content = watermarker.get_content()
+        content.slides[0].image_fill_format.background_image = None
+        watermarker.save("./output.pptx")
 ```
 
 ## __init__ {#password}
@@ -48,8 +48,9 @@ def __init__(self, password):
 
 ```python
     import groupdocs.watermark as gw
+    from groupdocs.watermark.options.presentation import PresentationLoadOptions
 
-    load_options = gw.PresentationLoadOptions()
+    load_options = PresentationLoadOptions()
     ```
 
 ### See Also

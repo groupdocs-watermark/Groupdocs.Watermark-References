@@ -18,7 +18,7 @@ The DiagramSaveOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagramsaveoptions/__init__/) | Initializes a new instance of the DiagramSaveOptions class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagramsaveoptions/__init__/) | Initializes a new instance of the [`DiagramSaveOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramsaveoptions/) class. |
 
 ### Fields
 | Field | Description |

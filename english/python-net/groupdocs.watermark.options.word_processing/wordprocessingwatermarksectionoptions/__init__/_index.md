@@ -21,9 +21,9 @@ def __init__(self):
 ### Example
 
 ```python
-import groupdocs.watermark.options.wordprocessing as gwo_wp
+from groupdocs.watermark.options.word_processing import WordProcessingWatermarkSectionOptions
 
-options = gwo_wp.WordProcessingWatermarkSectionOptions()
+options = WordProcessingWatermarkSectionOptions()
 ```
 
 ### See Also

@@ -11,7 +11,9 @@ weight: 2060
 
 ## underline property
 
-The underline flag of the font. True if the font is underlined; otherwise, False.
+The underline flag of the font.
+
+True if the font is underlined; otherwise, False.
 
 ### Definition:
 ```python

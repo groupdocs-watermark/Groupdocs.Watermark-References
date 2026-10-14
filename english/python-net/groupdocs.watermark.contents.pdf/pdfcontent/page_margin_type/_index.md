@@ -13,9 +13,9 @@ weight: 2020
 
 The pdf page margins to be used during watermark adding.
 
-Works only when [`Watermark.ConsiderParentMargins`](/watermark/python-net/groupdocs.watermark/watermark/consider_parent_margins/) is True. If [`Watermark.ConsiderParentMargins`](/watermark/python-net/groupdocs.watermark/watermark/consider_parent_margins/) is False, the PDF CropBox is used as the watermarking area.
+This property works only when [`Watermark.consider_parent_margins`](/watermark/python-net/groupdocs.watermark/watermark/consider_parent_margins/) is set to True. If it is False, the PDF CropBox is used as the watermarking area.
 
-The default value is `PdfPageMarginType.TrimBox`.
+The default value is `PdfPageMarginType.trim_box`.
 
 ### Definition:
 ```python

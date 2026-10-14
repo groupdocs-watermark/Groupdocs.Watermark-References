@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#all_pages-first_page-last_page-odd_pages-even_pages-pages-page_number}
 
-Initializes a new instance of the [`PagesSetup`](/watermark/python-net/groupdocs.watermark.watermarks/pagessetup/) class with specified parameters.
+Initializes a new PagesSetup instance with specified parameters.
 
 ```python
 def __init__(self, all_pages, first_page, last_page, odd_pages, even_pages, pages, page_number):

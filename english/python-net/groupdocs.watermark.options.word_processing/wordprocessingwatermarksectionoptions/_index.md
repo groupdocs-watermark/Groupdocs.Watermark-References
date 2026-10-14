@@ -14,7 +14,7 @@ weight: 120
 Represents options when adding shape watermark to a Word document section.
 
 Learn more:
-- Add watermarks to word processing documents (https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents)
+- Add watermarks to word processing documents: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents
 
 The WordProcessingWatermarkSectionOptions type exposes the following members:
 
@@ -42,17 +42,24 @@ The WordProcessingWatermarkSectionOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.wordprocessing as gwo_wp
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.word_processing import (
+    WordProcessingLoadOptions, WordProcessingWatermarkSectionOptions,
+)
 
-load_options = gw.WordProcessingLoadOptions()
-with gw.Watermarker("document.docx", load_options) as watermarker:
-    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
-    options = gwo_wp.WordProcessingWatermarkSectionOptions()
+with Watermarker("./document.docx", WordProcessingLoadOptions()) as watermarker:
+    watermark = TextWatermark("Test watermark", Font("Arial", 36.0))
+    watermark.horizontal_alignment = HorizontalAlignment.CENTER
+    watermark.vertical_alignment = VerticalAlignment.CENTER
+    watermark.foreground_color = Color.red
+
+    options = WordProcessingWatermarkSectionOptions()
     options.section_index = 0
+
     watermarker.add(watermark, options)
-    watermarker.save("document.docx")
+    watermarker.save("./output.docx")
 ```
 
 ### See Also

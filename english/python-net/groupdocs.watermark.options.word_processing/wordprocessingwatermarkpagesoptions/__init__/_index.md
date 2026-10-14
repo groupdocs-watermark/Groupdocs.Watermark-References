@@ -21,7 +21,7 @@ def __init__(self):
 ### Example
 
 ```python
-import groupdocs.watermark.options.wordprocessing as gwo_wp
+import groupdocs.watermark.options.word_processing as gwo_wp
 
 # Create options for applying a watermark to specific pages
 options = gwo_wp.WordProcessingWatermarkPagesOptions()

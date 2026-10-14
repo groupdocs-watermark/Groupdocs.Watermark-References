@@ -21,14 +21,17 @@ def unprotect(self):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.wordprocessing as gwc_wp
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.word_processing import WordProcessingLoadOptions
 
-load_options = gw.WordProcessingLoadOptions()
-with gw.Watermarker("document.docx", load_options) as watermarker:
-    content = watermarker.get_content(gwc_wp.WordProcessingContent)
-    content.unprotect()
-    watermarker.save("document.docx")
+def unprotect_document():
+    with Watermarker("./document.docx", WordProcessingLoadOptions()) as watermarker:
+        content = watermarker.get_content()
+        content.unprotect()
+        watermarker.save("./output.docx")
+
+if __name__ == "__main__":
+    unprotect_document()
 ```
 
 ### See Also

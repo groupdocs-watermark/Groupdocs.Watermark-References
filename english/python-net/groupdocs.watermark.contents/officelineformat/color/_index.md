@@ -11,7 +11,9 @@ weight: 2010
 
 ## color property
 
-The color of the line. The default value is [`Color.black`](/watermark/python-net/groupdocs.watermark.watermarks/color/black/).
+The color of the line.
+
+The default value is [`Color.black`](/watermark/python-net/groupdocs.watermark.watermarks/color/black/).
 
 ### Definition:
 ```python

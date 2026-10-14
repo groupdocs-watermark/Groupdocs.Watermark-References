@@ -16,7 +16,8 @@ GroupDocs.Watermark can render document pages as images so you can show page thu
 
 Set [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/) with a `create_page_stream` callback, choose the `preview_format`, and list the `page_numbers` to render.
 
-  
+{{< tabs "code-example-preview">}}
+{{< tab "generate_preview.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.options import PreviewOptions, PreviewFormats
@@ -35,17 +36,20 @@ def generate_preview():
 if __name__ == "__main__":
     generate_preview()
 ```
-
-  
+{{< /tab >}}
+{{< tab "sample.pdf" >}}  
 
 `sample.pdf` is the two-page sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/preview/sample.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "generate-preview-outputs.zip" >}}  
 ```text
 output-page-1.png (597 KB)
 output-page-2.png (129 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/preview/generate_preview/generate-preview-outputs.zip)
+{{< /tab >}}
+{{< /tabs >}}
 
 The page images are written to the current directory — one PNG per requested page. Use `PreviewFormats.JPEG` or `PreviewFormats.BMP` for other formats, and set `options.width` / `options.height` to control the rendered size.
 

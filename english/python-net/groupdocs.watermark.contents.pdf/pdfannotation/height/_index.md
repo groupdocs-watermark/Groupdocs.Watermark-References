@@ -11,7 +11,7 @@ weight: 2020
 
 ## height property
 
-The height of this [`PdfAnnotation`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfannotation/) in points.
+The height of this PdfAnnotation in points.
 
 ### Definition:
 ```python

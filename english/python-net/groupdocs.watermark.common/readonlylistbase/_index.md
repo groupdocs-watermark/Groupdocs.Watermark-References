@@ -17,7 +17,9 @@ The ReadOnlyListBase type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [contains](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/contains/#item) |  |
+| [get](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/get/) |  |
 | [get_enumerator](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/get_enumerator/) |  |
+| [get_int32](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/get_int32/) |  |
 | [index_of](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/index_of/#item) |  |
 
 ### Properties
@@ -25,7 +27,6 @@ The ReadOnlyListBase type exposes the following members:
 | :- | :- |
 | [count](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/count/) |  |
 | [is_read_only](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/is_read_only/) |  |
-| [item](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/item/) |  |
 
 ### See Also
 * module [`groupdocs.watermark.common`](/watermark/python-net/groupdocs.watermark.common/)

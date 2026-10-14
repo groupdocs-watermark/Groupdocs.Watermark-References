@@ -30,27 +30,26 @@ The SpreadsheetContent type exposes the following members:
 | [encrypt_file](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/encrypt_file/) |  |
 | [encrypt_string](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/encrypt_string/) |  |
 | [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
-| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. The search is performed on the objects listed in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [worksheets](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/worksheets/) | The collection of all worksheets of this SpreadsheetContent. |
+| [worksheets](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/worksheets/) | The collection of all worksheets of this [`SpreadsheetContent`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/). |
 
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.spreadsheet as gwc_xls
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.spreadsheet import SpreadsheetLoadOptions
 
-load_options = gw.SpreadsheetLoadOptions()
-with gw.Watermarker("input.xls", load_options) as watermarker:
-    content = watermarker.get_content(gwc_xls.SpreadsheetContent)
-    # perform watermark operations on `content` here
-    watermarker.save("output.xls")
+load_options = SpreadsheetLoadOptions()
+with Watermarker(r"D:\input.xls", load_options) as watermarker:
+    # Use add method to add watermark to a particular or all worksheets.
+    watermarker.save(r"D:\output.xls")
 ```
 
 ### See Also

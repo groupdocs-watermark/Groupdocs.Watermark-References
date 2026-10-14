@@ -18,5 +18,14 @@ def __init__(self):
     ...
 ```
 
+### Example
+
+```python
+from groupdocs.watermark.options.pdf import PdfAnnotationWatermarkOptions
+
+options = PdfAnnotationWatermarkOptions()
+options.print_only = True
+```
+
 ### See Also
 * class [`PdfAnnotationWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/)

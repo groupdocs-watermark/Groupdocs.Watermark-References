@@ -1,7 +1,7 @@
 ---
 title: right property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The right margin."
+description: "The right margin as a horizontal offset from the parent right border."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/margins/right/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2040
 
 ## right property
 
-The right margin. Horizontal offset from parent right border.
+The right margin as a horizontal offset from the parent right border.
 
 ### Definition:
 ```python

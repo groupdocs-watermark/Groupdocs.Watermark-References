@@ -12,23 +12,29 @@ weight: 10
 
 GroupDocs.Watermark for Python via .NET is distributed as a pre-built wheel on [PyPI](https://pypi.org/project/groupdocs-watermark-net/). The PyPI index hosts a separate wheel for each supported platform, and `pip` picks the correct one automatically. Each wheel is self-contained: it bundles the embedded runtime and every managed dependency, so no Microsoft Office, OpenOffice, or separate runtime install is required.
 
-Before installing, confirm your environment matches the supported platforms and Python versions listed in the [System Requirements]() topic.
+Before installing, confirm your environment matches the supported platforms and Python versions listed in the [System Requirements](https://docs.groupdocs.com/watermark/python-net/system-requirements/) topic.
 
 ## Install Package from PyPI
 
 Open a terminal and run the install command for your platform:
 
+{{< tabs "install-pypi">}}
+{{< tab "Windows" >}}
 ```ps
 py -m pip install groupdocs-watermark-net
 ```
-
+{{< /tab >}}
+{{< tab "Linux" >}}
 ```bash
 python3 -m pip install groupdocs-watermark-net
 ```
-
+{{< /tab >}}
+{{< tab "macOS" >}}
 ```bash
 python3 -m pip install groupdocs-watermark-net
 ```
+{{< /tab >}}
+{{< /tabs >}}
 
 After running the command you should see output similar to:
 
@@ -67,21 +73,28 @@ If your build environment cannot reach PyPI, download the appropriate wheel from
 
 Place the downloaded wheel into your project folder, then install it:
 
+{{< tabs "install-wheel">}}
+{{< tab "Windows (64-bit)" >}}
 ```ps
 py -m pip install ./groupdocs_watermark_net-26.6.0-py3-none-win_amd64.whl
 ```
-
+{{< /tab >}}
+{{< tab "Linux (glibc)" >}}
 ```bash
 python3 -m pip install ./groupdocs_watermark_net-26.6.0-py3-none-manylinux1_x86_64.whl
 ```
-
+{{< /tab >}}
+{{< tab "macOS (Intel)" >}}
 ```bash
 python3 -m pip install ./groupdocs_watermark_net-26.6.0-py3-none-macosx_10_14_x86_64.whl
 ```
-
+{{< /tab >}}
+{{< tab "macOS (Apple Silicon)" >}}
 ```bash
 python3 -m pip install ./groupdocs_watermark_net-26.6.0-py3-none-macosx_11_0_arm64.whl
 ```
+{{< /tab >}}
+{{< /tabs >}}
 
 Expected output:
 
@@ -95,13 +108,18 @@ Successfully installed groupdocs-watermark-net-26.6.0
 
 On Windows no extra steps are required. On Linux and macOS, install the native libraries the rendering engine depends on:
 
+{{< tabs "platform-prereqs">}}
+{{< tab "Linux" >}}
 ```bash
 apt install libgdiplus libfontconfig1 libicu-dev ttf-mscorefonts-installer
 ```
-
+{{< /tab >}}
+{{< tab "macOS" >}}
 ```bash
 brew install mono-libgdiplus
 ```
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Verify the Installation
 
@@ -115,6 +133,6 @@ You can also list the installed package with `pip show groupdocs-watermark-net` 
 
 ## Next Steps
 
-- Follow the [Hello, World!]() guide to add your first watermark.
-- Read the [Features Overview]() to see everything you can do.
-- Clone the [examples repository](https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Python-via-.NET) and read [How to Run Examples]() to try every documented scenario locally.
+- Follow the [Hello, World!](/watermark/python-net/guides/hello-world/) guide to add your first watermark.
+- Read the [Features Overview](/watermark/python-net/guides/features-overview/) to see everything you can do.
+- Clone the [examples repository](https://github.com/groupdocs-watermark/GroupDocs.Watermark-for-Python-via-.NET) and read [How to Run Examples](https://docs.groupdocs.com/watermark/python-net/how-to-run-examples/) to try every documented scenario locally.

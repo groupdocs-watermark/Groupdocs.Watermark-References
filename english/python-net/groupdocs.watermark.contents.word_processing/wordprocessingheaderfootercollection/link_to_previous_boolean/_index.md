@@ -5,7 +5,7 @@ description: "WordProcessingHeaderFooterCollection.link_to_previous_boolean meth
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfootercollection/link_to_previous_boolean/
 is_root: false
-weight: 1020
+weight: 1040
 ---
 
 

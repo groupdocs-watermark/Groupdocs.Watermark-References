@@ -11,7 +11,9 @@ weight: 2030
 
 ## patch_size property
 
-The patch size used by the algorithm (odd, 5-11). Default is 7. For `InpaintingMethod.telea` this is used as HalfPatchSize.
+The patch size used by the algorithm (odd, 5-11).
+
+Default is 7. For `InpaintingMethod.telea` this is used as HalfPatchSize.
 
 ### Definition:
 ```python

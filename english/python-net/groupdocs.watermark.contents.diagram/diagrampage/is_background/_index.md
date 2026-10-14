@@ -11,7 +11,7 @@ weight: 2040
 
 ## is_background property
 
-The page is a background page. True if the page is a background page; otherwise, False.
+The page is a background page.
 
 ### Definition:
 ```python

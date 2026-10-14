@@ -13,24 +13,25 @@ weight: 160
 
 Represents criteria allowing filtering by watermark text.
 
-- Searching watermarks (https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
+Learn more:
+- [Searching watermarks](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 
 The TextSearchCriteria type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/__init__/#pattern) | Initializes a new instance of the TextSearchCriteria class with a specified regular expression. |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/__init__/#search_string-is_match_case) | Initializes a new TextSearchCriteria with a search string and an optional case‑sensitivity flag. |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/__init__/#search_string) | Initializes a new TextSearchCriteria with a search string. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/__init__/#pattern) | Initializes a new TextSearchCriteria with a specified regular expression. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/__init__/#search_string-is_match_case) | Initializes a new instance of the [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/) class with a search string and a flag for case‑sensitive comparison. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/__init__/#search_string) | Initializes a new instance of the [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/) class with a search string. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
 | [and_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_/) | Combines this SearchCriteria with other criteria using the logical AND operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [and_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/). (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this SearchCriteria. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using the logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [or_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 
 ### Properties
@@ -43,13 +44,16 @@ The TextSearchCriteria type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    text_criteria = gws_sc.TextSearchCriteria("© 2017")
-    possible = watermarker.search(text_criteria)
-    print("Found", possible.count, "possible watermark(s)")
+def search_by_text():
+    with Watermarker("./document.pdf") as watermarker:
+        possible = watermarker.search(TextSearchCriteria("CONFIDENTIAL"))
+        print("Found", len(possible), "possible watermark(s)")
+
+if __name__ == "__main__":
+    search_by_text()
 ```
 
 ### Guides

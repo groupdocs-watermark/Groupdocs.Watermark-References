@@ -11,7 +11,7 @@ weight: 2040
 
 ## text property
 
-The text of this DiagramHeaderFooterPossibleWatermark.
+The text of this [`DiagramHeaderFooterPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/).
 
 ### Definition:
 ```python

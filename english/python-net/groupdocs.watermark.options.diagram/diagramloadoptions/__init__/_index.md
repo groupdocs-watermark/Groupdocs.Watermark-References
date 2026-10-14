@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#password}
 
-Initializes a new instance of the DiagramLoadOptions class with a specified password.
+Initializes a new instance of the [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/) class with a specified password.
 
 ```python
 def __init__(self, password):

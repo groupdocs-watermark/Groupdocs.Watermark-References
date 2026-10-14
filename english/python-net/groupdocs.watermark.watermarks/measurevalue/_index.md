@@ -24,15 +24,17 @@ The MeasureValue type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [measure_type](/watermark/python-net/groupdocs.watermark.watermarks/measurevalue/measure_type/) | The type of measurement. |
-| [value](/watermark/python-net/groupdocs.watermark.watermarks/measurevalue/value/) | The numerical value of the measurement. |
+| [value](/watermark/python-net/groupdocs.watermark.watermarks/measurevalue/value/) | The numerical value of the measurement; it must be greater than 0. |
 
 ### Example
 
 ```python
-import groupdocs.watermark.watermarks as gww
+from groupdocs.watermark.watermarks import MeasureValue, TileMeasureType
 
-# Create a measurement of 12 percent
-value = gww.MeasureValue(gww.TileMeasureType.PERCENT, 12)
+# Create a measurement expressed as a percentage of the page
+spacing = MeasureValue()
+spacing.measure_type = TileMeasureType.PERCENT
+spacing.value = 12.0
 ```
 
 ### Guides

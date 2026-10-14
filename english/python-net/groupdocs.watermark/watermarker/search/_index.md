@@ -15,25 +15,28 @@ Searches all possible watermarks in the document.
 
 The search is conducted in objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/).
 
-Learn more about searching watermarks at https://docs.groupdocs.com/display/watermarknet/Searching+watermarks.
+Learn more about searching watermarks https://docs.groupdocs.com/display/watermarknet/Searching+watermarks.
 
 ```python
 def search(self):
     ...
 ```
 
-**Returns:** PossibleWatermarkCollection: The collection of possible watermarks.
+**Returns:** The collection of possible watermarks.
 
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    text_criteria = gws_sc.TextSearchCriteria("© 2017")
-    possible = watermarker.search(text_criteria)
-    print("Found", possible.count, "possible watermark(s)")
+def search_by_text():
+    with Watermarker("./document.pdf") as watermarker:
+        possible = watermarker.search(TextSearchCriteria("CONFIDENTIAL"))
+        print("Found", len(possible), "possible watermark(s)")
+
+if __name__ == "__main__":
+    search_by_text()
 ```
 
 ## search {#search_criteria}
@@ -42,7 +45,7 @@ Searches possible watermarks according to specified search criteria.
 
 The search is conducted in objects specified in [`Watermarker.searchable_objects`](/watermark/python-net/groupdocs.watermark/watermarker/searchable_objects/).
 
-Learn more about searching watermarks: https://docs.groupdocs.com/display/watermarknet/Searching+watermarks
+Learn more about searching watermarks: https://docs.groupdocs.com/display/watermarknet/Searching+watermarks.
 
 ```python
 def search(self, search_criteria):
@@ -58,13 +61,16 @@ def search(self, search_criteria):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    text_criteria = gws_sc.TextSearchCriteria("© 2017")
-    possible = watermarker.search(text_criteria)
-    print("Found", possible.count, "possible watermark(s)")
+def search_by_text():
+    with Watermarker("./document.pdf") as watermarker:
+        possible = watermarker.search(TextSearchCriteria("CONFIDENTIAL"))
+        print("Found", len(possible), "possible watermark(s)")
+
+if __name__ == "__main__":
+    search_by_text()
 ```
 
 ### See Also

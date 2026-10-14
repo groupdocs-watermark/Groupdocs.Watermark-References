@@ -11,7 +11,7 @@ weight: 2010
 
 ## height property
 
-The height of this DiagramHeaderFooterPossibleWatermark in points. The value is always 0 for this type of possible watermark.
+The height of this [`DiagramHeaderFooterPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/) in points. The value is always 0 for this type of possible watermark.
 
 ### Definition:
 ```python

@@ -18,8 +18,8 @@ The Thickness type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/thickness/__init__/#left-right-top-bottom) | Initializes a new instance of the [`Thickness`](/watermark/python-net/groupdocs.watermark.watermarks/thickness/) class that has specific lengths applied to each side of the rectangle. |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/thickness/__init__/#uniform_length) | Initializes a new Thickness instance with a uniform length applied to all four sides of the bounding rectangle. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/thickness/__init__/#left-right-top-bottom) | Initializes a new Thickness instance with specific lengths applied to each side of the rectangle. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/thickness/__init__/#uniform_length) | Initializes a new Thickness instance with the specified uniform length on each side. |
 
 ### Methods
 | Method | Description |

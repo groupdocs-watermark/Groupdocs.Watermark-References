@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Initializes a new instance of the TextSearchCriteria class with a specified regular expression."
+description: "Initializes a new TextSearchCriteria with a specified regular expression."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#pattern}
 
-Initializes a new instance of the TextSearchCriteria class with a specified regular expression.
+Initializes a new TextSearchCriteria with a specified regular expression.
 
 ```python
 def __init__(self, pattern):
@@ -25,20 +25,18 @@ def __init__(self, pattern):
 ### Example
 
 ```python
-import re
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    regex = re.compile(r"^© \d{4}$")
-    criteria = gws_sc.TextSearchCriteria(regex)
-    possible = watermarker.search(criteria)
-    print("Found", possible.count, "possible watermark(s)")
+with Watermarker("./document.pdf") as watermarker:
+    criteria = TextSearchCriteria("CONFIDENTIAL")
+    results = watermarker.search(criteria)
+    print("Found", len(results), "possible watermark(s)")
 ```
 
 ## __init__ {#search_string-is_match_case}
 
-Initializes a new TextSearchCriteria with a search string and an optional case‑sensitivity flag.
+Initializes a new instance of the [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/) class with a search string and a flag for case‑sensitive comparison.
 
 ```python
 def __init__(self, search_string, is_match_case):
@@ -53,23 +51,18 @@ def __init__(self, search_string, is_match_case):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+    from groupdocs.watermark import Watermarker
+    from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    # Case‑insensitive search (default)
-    criteria = gws_sc.TextSearchCriteria("© 2017")
-    results = watermarker.search(criteria)
-    print("Found", results.count, "possible watermark(s)")
-
-    # Case‑sensitive search
-    criteria_cs = gws_sc.TextSearchCriteria("test", True)
-    results_cs = watermarker.search(criteria_cs)
-```
+    with Watermarker("./document.pdf") as watermarker:
+        criteria = TextSearchCriteria("CONFIDENTIAL", False)
+        results = watermarker.search(criteria)
+        print("Found", len(results), "possible watermark(s)")
+    ```
 
 ## __init__ {#search_string}
 
-Initializes a new TextSearchCriteria with a search string.
+Initializes a new instance of the [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/) class with a search string.
 
 ```python
 def __init__(self, search_string):
@@ -83,13 +76,16 @@ def __init__(self, search_string):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    text_criteria = gws_sc.TextSearchCriteria("© 2017")
-    possible = watermarker.search(text_criteria)
-    print("Found", possible.count, "possible watermark(s)")
+def search_by_text():
+    with Watermarker("./document.pdf") as watermarker:
+        possible = watermarker.search(TextSearchCriteria("CONFIDENTIAL"))
+        print("Found", len(possible), "possible watermark(s)")
+
+if __name__ == "__main__":
+    search_by_text()
 ```
 
 ### See Also

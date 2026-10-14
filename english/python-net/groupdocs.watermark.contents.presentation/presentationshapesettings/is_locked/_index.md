@@ -13,7 +13,7 @@ weight: 2010
 
 The property indicates whether editing of the shape in PowerPoint is forbidden.
 
-If the value is True, shape editing will be forbidden. By default the value is False, allowing shape editing in PowerPoint.
+If True, shape editing is forbidden; otherwise, the shape can be edited (default is False).
 
 ### Definition:
 ```python

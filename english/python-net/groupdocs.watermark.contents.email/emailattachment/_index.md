@@ -20,14 +20,14 @@ The EmailAttachment type exposes the following members:
 | :- | :- |
 | [create_watermarker](/watermark/python-net/groupdocs.watermark.common/attachment/create_watermarker/) | Loads a content from the attached file. (inherited from [`Attachment`](/watermark/python-net/groupdocs.watermark.common/attachment/)) |
 | [create_watermarker_load_options](/watermark/python-net/groupdocs.watermark.common/attachment/create_watermarker_load_options/) |  (inherited from [`Attachment`](/watermark/python-net/groupdocs.watermark.common/attachment/)) |
-| [get_document_info](/watermark/python-net/groupdocs.watermark.common/attachment/get_document_info/) | Retrieves information about the document stored in the attached file. (inherited from [`Attachment`](/watermark/python-net/groupdocs.watermark.common/attachment/)) |
+| [get_document_info](/watermark/python-net/groupdocs.watermark.common/attachment/get_document_info/) | Retrieves the information about a document stored in the attached file. (inherited from [`Attachment`](/watermark/python-net/groupdocs.watermark.common/attachment/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
 | [name](/watermark/python-net/groupdocs.watermark.contents.email/emailattachment/name/) | The name of the attached file. |
 | [content](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/content/) | The attached file content. (inherited from [`EmailAttachmentBase`](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/)) |
-| [content_id](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/content_id/) | The content id of this EmailAttachmentBase. (inherited from [`EmailAttachmentBase`](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/)) |
+| [content_id](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/content_id/) | The content id of this [`EmailAttachmentBase`](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/). (inherited from [`EmailAttachmentBase`](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/)) |
 | [media_type](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/media_type/) | The media type of this [`EmailAttachmentBase`](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/). (inherited from [`EmailAttachmentBase`](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/)) |
 
 ### See Also

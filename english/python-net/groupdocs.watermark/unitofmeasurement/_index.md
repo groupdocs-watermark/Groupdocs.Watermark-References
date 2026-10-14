@@ -5,7 +5,7 @@ description: "UnitOfMeasurement enum — GroupDocs.Watermark for Python via .NET
 type: docs
 url: /python-net/groupdocs.watermark/unitofmeasurement/
 is_root: false
-weight: 120
+weight: 40
 ---
 
 

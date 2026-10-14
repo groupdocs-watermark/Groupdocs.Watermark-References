@@ -11,7 +11,7 @@ weight: 2010
 
 ## formatted_text_fragments property
 
-The collection of formatted text fragments of this [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/).
+The collection of formatted text fragments of this PdfTextPossibleWatermark.
 
 ### Definition:
 ```python

@@ -25,26 +25,23 @@ def generate_preview(self, preview_options):
 ### Example
 
 ```python
-import os
-import groupdocs.watermark as gw
-import groupdocs.watermark.options as gwo
+    from groupdocs.watermark import Watermarker
+    from groupdocs.watermark.options import PreviewOptions, PreviewFormats
 
-output_directory = os.path.join(os.getcwd(), "preview")
-os.makedirs(output_directory, exist_ok=True)
+    def generate_preview():
+        # Supply a writable file stream for each page to render
+        def create_page_stream(page_number):
+            return open(f"./output-page-{page_number}.png", "wb")
 
-def create_page_stream(number: int):
-    path = os.path.join(output_directory, f"page{number}.png")
-    return open(path, "wb")
+        with Watermarker("./sample.pdf") as watermarker:
+            options = PreviewOptions(create_page_stream)
+            options.preview_format = PreviewFormats.PNG
+            options.page_numbers = [1, 2]
+            watermarker.generate_preview(options)
 
-def release_page_stream(number: int, stream):
-    stream.close()
-
-with gw.Watermarker("sample.pdf") as watermarker:
-    preview_options = gwo.PreviewOptions(create_page_stream, release_page_stream)
-    preview_options.preview_format = gwo.PreviewOptions.PreviewFormats.PNG
-    preview_options.page_numbers = [1, 2]
-    watermarker.generate_preview(preview_options)
-```
+    if __name__ == "__main__":
+        generate_preview()
+    ```
 
 ### See Also
 * class [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/)

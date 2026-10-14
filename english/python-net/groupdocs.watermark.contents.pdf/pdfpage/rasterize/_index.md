@@ -27,29 +27,15 @@ def rasterize(self, horizontal_resolution, vertical_resolution, image_format):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.pdf as gwc_pdf
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.common as gwc
-import groupdocs.watermark.options.pdf as gwo_pdf
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.pdf import PdfLoadOptions
+from groupdocs.watermark.contents.pdf import PdfImageConversionFormat
 
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    watermark = gww.TextWatermark("Do not copy", gww.Font("Arial", 8.0))
-    watermark.horizontal_alignment = gwc.HorizontalAlignment.CENTER
-    watermark.vertical_alignment = gwc.VerticalAlignment.CENTER
-    watermark.rotate_angle = 45
-    watermark.sizing_type = gww.SizingType.SCALE_TO_PARENT_DIMENSIONS
-    watermark.scale_factor = 1.0
-    watermark.opacity = 0.5
-
-    options = gwo_pdf.PdfArtifactWatermarkOptions()
-    options.page_index = 0
-    watermarker.add(watermark, options)
-
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
-    pdf_content.pages[0].rasterize(100, 100, gwc_pdf.PdfImageConversionFormat.PNG)
-    watermarker.save("document.pdf")
+with Watermarker("./document.pdf", PdfLoadOptions()) as watermarker:
+    content = watermarker.get_content()
+    # Rasterize the first page to a PNG image at 100 DPI
+    content.pages[0].rasterize(100, 100, PdfImageConversionFormat.PNG)
+    watermarker.save("./output.pdf")
 ```
 
 ### See Also

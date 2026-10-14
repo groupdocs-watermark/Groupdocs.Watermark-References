@@ -11,7 +11,7 @@ weight: 2020
 
 ## brightness property
 
-The brightness of the picture. Must be a number from 0.0 (dimmest) to 1.0 (brightest). The default value is 0.5.
+The brightness of the picture. Must be a float between 0.0 (dimmest) and 1.0 (brightest). The default value is 0.5.
 
 ### Definition:
 ```python

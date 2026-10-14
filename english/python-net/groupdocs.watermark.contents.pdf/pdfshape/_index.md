@@ -20,7 +20,7 @@ The PdfShape type exposes the following members:
 | :- | :- |
 | [formatted_text_fragments](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/formatted_text_fragments/) | The collection of formatted text fragments of this [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/). |
 | [height](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/height/) | The height of the object. |
-| [image](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/image/) | The image of this [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/). Returns `None` if the object has no image. |
+| [image](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/image/) | The image of this PdfShape. Returns None if the object has no image. |
 | [rotate_angle](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/rotate_angle/) | The rotate angle of the object in degrees. |
 | [text](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/text/) | The text of this [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/). |
 | [width](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/width/) | The width of the object. |

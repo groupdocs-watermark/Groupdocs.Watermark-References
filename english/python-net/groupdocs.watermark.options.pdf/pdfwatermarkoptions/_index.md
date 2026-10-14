@@ -1,7 +1,7 @@
 ---
 title: PdfWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Represents the base class for watermark adding options to a PDF document."
+description: "Represents the base class for options that add watermarks to a PDF document."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfwatermarkoptions/
 is_root: false
@@ -11,7 +11,7 @@ weight: 60
 
 ## PdfWatermarkOptions class
 
-Represents the base class for watermark adding options to a PDF document.
+Represents the base class for options that add watermarks to a PDF document.
 
 The PdfWatermarkOptions type exposes the following members:
 

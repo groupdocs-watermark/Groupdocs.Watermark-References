@@ -11,7 +11,9 @@ weight: 2010
 
 ## border_line_format property
 
-The line format settings for the image border. Returns an instance of [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/) representing the shape line format.
+The line format settings for the image border.
+
+The property holds an instance of [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/) representing shape line format.
 
 ### Definition:
 ```python

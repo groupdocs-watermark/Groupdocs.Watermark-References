@@ -5,7 +5,7 @@ description: "Types under groupdocs.watermark.options.email."
 type: docs
 url: /python-net/groupdocs.watermark.options.email/
 is_root: false
-weight: 140
+weight: 150
 ---
 
 

@@ -11,7 +11,7 @@ weight: 2010
 
 ## alternative_text property
 
-The descriptive (alternative) text associated with this SpreadsheetChart.
+The descriptive (alternative) text associated with this [`SpreadsheetChart`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/).
 
 ### Definition:
 ```python

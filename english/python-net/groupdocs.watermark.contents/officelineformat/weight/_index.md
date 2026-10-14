@@ -1,7 +1,7 @@
 ---
 title: weight property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The line thickness in points that strokes the path of a shape."
+description: "The brush thickness that strokes the path of a shape, expressed in points (default 0.75)."
 type: docs
 url: /python-net/groupdocs.watermark.contents/officelineformat/weight/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2060
 
 ## weight property
 
-The line thickness in points that strokes the path of a shape. The default value is 0.75.
+The brush thickness that strokes the path of a shape, expressed in points (default 0.75).
 
 ### Definition:
 ```python

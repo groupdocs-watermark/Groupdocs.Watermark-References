@@ -13,7 +13,8 @@ weight: 110
 
 Represents options when adding modern word art watermark to a Spreadsheet worksheet.
 
-- Learn more: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents
+Learn more:
+- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents
 
 The SpreadsheetWatermarkModernWordArtOptions type exposes the following members:
 
@@ -25,7 +26,7 @@ The SpreadsheetWatermarkModernWordArtOptions type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [worksheet_index](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkmodernwordartoptions/worksheet_index/) | The index of the worksheet to add the watermark to. |
+| [worksheet_index](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkmodernwordartoptions/worksheet_index/) | The index of worksheet to add the watermark to. |
 | [alternative_text](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/alternative_text/) | The descriptive (alternative) text that will be associated with a shape. (inherited from [`SpreadsheetWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/)) |
 | [is_locked](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/is_locked/) | The property indicates whether editing of the shape in Excel is forbidden. (inherited from [`SpreadsheetWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/)) |
 | [name](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/name/) | The name of the shape. (inherited from [`SpreadsheetWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/)) |
@@ -38,17 +39,18 @@ The SpreadsheetWatermarkModernWordArtOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.spreadsheet as gwo_xls
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.spreadsheet import SpreadsheetLoadOptions, SpreadsheetWatermarkModernWordArtOptions
+from groupdocs.watermark.watermarks import TextWatermark, Font
 
-load_options = gw.SpreadsheetLoadOptions()
-with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
-    text_watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 8.0))
-    options = gwo_xls.SpreadsheetWatermarkModernWordArtOptions()
+load_options = SpreadsheetLoadOptions()
+with Watermarker("./spreadsheet.xlsx", load_options) as watermarker:
+    watermark = TextWatermark("Test watermark", Font("Arial", 36.0))
+    options = SpreadsheetWatermarkModernWordArtOptions()
     options.worksheet_index = 0
-    watermarker.add(text_watermark, options)
-    watermarker.save("spreadsheet.xlsx")
+    options.is_locked = False
+    watermarker.add(watermark, options)
+    watermarker.save("./output.xlsx")
 ```
 
 ### See Also

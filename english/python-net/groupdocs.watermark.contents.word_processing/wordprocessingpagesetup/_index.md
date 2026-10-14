@@ -19,7 +19,7 @@ The WordProcessingPageSetup type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [bottom_margin](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingpagesetup/bottom_margin/) | The size of the bottom margin in points. |
-| [different_first_page_header_footer](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingpagesetup/different_first_page_header_footer/) | The property indicates whether a different header/footer is used for the first page. |
+| [different_first_page_header_footer](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingpagesetup/different_first_page_header_footer/) | The flag indicating whether a different header/footer is used for the first page. |
 | [height](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingpagesetup/height/) | The height of a printing page in points. |
 | [left_margin](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingpagesetup/left_margin/) | The size of the left margin in points. |
 | [odd_and_even_pages_header_footer](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingpagesetup/odd_and_even_pages_header_footer/) | The property indicates whether different headers/footers are used for odd-numbered and even-numbered pages. |

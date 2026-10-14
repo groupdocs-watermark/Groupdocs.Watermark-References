@@ -1,7 +1,7 @@
 ---
 title: WordProcessingWatermarkBaseOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The base class for watermark adding options to a Word document."
+description: "Represents the base class for watermark adding options to a Word document."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/
 is_root: false
@@ -11,9 +11,7 @@ weight: 90
 
 ## WordProcessingWatermarkBaseOptions class
 
-The base class for watermark adding options to a Word document.
-
-Lock types can be specified via the `lock_type` property to restrict editing of the watermark. Available lock types include `AllowOnlyRevisions`, `AllowOnlyComments`, `AllowOnlyFormFields`, `ReadOnly`, and `ReadOnlyWithEditableContent`.
+Represents the base class for watermark adding options to a Word document.
 
 The WordProcessingWatermarkBaseOptions type exposes the following members:
 
@@ -35,10 +33,18 @@ The WordProcessingWatermarkBaseOptions type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.watermark import WordProcessingWatermarkBaseOptions, WatermarkLockType
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.word_processing import WordProcessingLoadOptions
+from groupdocs.watermark.options.word_processing import WordProcessingWatermarkSectionOptions, WordProcessingLockType
+from groupdocs.watermark.watermarks import TextWatermark, Font
 
-options = WordProcessingWatermarkBaseOptions()
-options.lock_type = WatermarkLockType.ReadOnly
+with Watermarker("./document.docx", WordProcessingLoadOptions()) as watermarker:
+    watermark = TextWatermark("Protected", Font("Arial", 36.0))
+    options = WordProcessingWatermarkSectionOptions()
+    options.is_locked = True
+    options.lock_type = WordProcessingLockType.ALLOW_ONLY_FORM_FIELDS
+    watermarker.add(watermark, options)
+    watermarker.save("./output.docx")
 ```
 
 ### See Also

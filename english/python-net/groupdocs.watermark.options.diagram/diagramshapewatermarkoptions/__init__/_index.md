@@ -18,5 +18,13 @@ def __init__(self):
     ...
 ```
 
+### Example
+
+```python
+from groupdocs.watermark.options.diagram import DiagramShapeWatermarkOptions
+
+options = DiagramShapeWatermarkOptions()
+```
+
 ### See Also
 * class [`DiagramShapeWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramshapewatermarkoptions/)

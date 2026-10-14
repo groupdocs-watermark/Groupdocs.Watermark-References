@@ -1,7 +1,7 @@
 ---
 title: odd_pages property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The oddpages property indicates whether to include odd pages."
+description: "The value indicating whether to include odd pages."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/pagessetup/odd_pages/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2050
 
 ## odd_pages property
 
-The odd_pages property indicates whether to include odd pages.
+The value indicating whether to include odd pages.
 
 ### Definition:
 ```python

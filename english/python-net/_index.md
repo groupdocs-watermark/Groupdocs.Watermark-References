@@ -6,7 +6,7 @@ type: docs
 url: /python-net/
 is_root: true
 weight: 40
-version: 26.6.0
+version: 26.10.0
 ---
 
 
@@ -23,8 +23,9 @@ version: 26.6.0
 | [`groupdocs.watermark.contents.presentation`](/watermark/python-net/groupdocs.watermark.contents.presentation/) | Types under `groupdocs.watermark.contents.presentation`. |
 | [`groupdocs.watermark.contents.spreadsheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/) | Types under `groupdocs.watermark.contents.spreadsheet`. |
 | [`groupdocs.watermark.contents.word_processing`](/watermark/python-net/groupdocs.watermark.contents.word_processing/) | Types under `groupdocs.watermark.contents.word_processing`. |
+| [`groupdocs.watermark.exceptions`](/watermark/python-net/groupdocs.watermark.exceptions/) | Product-specific exception types raised by the API. |
 | [`groupdocs.watermark.internal`](/watermark/python-net/groupdocs.watermark.internal/) | Types under `groupdocs.watermark.internal`. |
-| [`groupdocs.watermark.options`](/watermark/python-net/groupdocs.watermark.options/) | Option classes for configuring conversions and operations. |
+| [`groupdocs.watermark.options`](/watermark/python-net/groupdocs.watermark.options/) | Option classes that configure the API's operations. |
 | [`groupdocs.watermark.options.diagram`](/watermark/python-net/groupdocs.watermark.options.diagram/) | Types under `groupdocs.watermark.options.diagram`. |
 | [`groupdocs.watermark.options.email`](/watermark/python-net/groupdocs.watermark.options.email/) | Types under `groupdocs.watermark.options.email`. |
 | [`groupdocs.watermark.options.image`](/watermark/python-net/groupdocs.watermark.options.image/) | Types under `groupdocs.watermark.options.image`. |

@@ -11,7 +11,7 @@ weight: 2030
 
 ## image property
 
-The image of this [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/). Returns `None` if the object has no image.
+The image of this PdfShape. Returns None if the object has no image.
 
 ### Definition:
 ```python

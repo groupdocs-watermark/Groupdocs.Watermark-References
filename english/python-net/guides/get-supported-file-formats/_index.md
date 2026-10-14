@@ -16,7 +16,8 @@ Quickly retrieve the complete list of file formats supported by GroupDocs.Waterm
 
 `FileType.get_supported_file_types()` returns every supported file type. Each item exposes its `extension` and a friendly description.
 
-  
+{{< tabs "code-example-get-supported-file-formats">}}
+{{< tab "list_supported_formats.py" >}}  
 ```python
 from groupdocs.watermark.common import FileType
 
@@ -29,8 +30,8 @@ def list_supported_formats():
 if __name__ == "__main__":
     list_supported_formats()
 ```
-
-  
+{{< /tab >}}
+{{< tab "list-supported-formats.txt" >}}  
 ```text
 Bmp (.bmp) - Image
 Doc (.doc) - WordProcessing
@@ -45,5 +46,7 @@ Gif (.gif) - Image
 [TRUNCATED]
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/get-supported-file-formats/list_supported_formats/list-supported-formats.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 **Use case:** Build flexible applications that validate user-uploaded files and tell the user whether watermarking is supported.

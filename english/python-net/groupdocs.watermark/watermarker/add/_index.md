@@ -13,7 +13,7 @@ weight: 1010
 
 Adds a watermark to the loaded document.
 
-Learn more about adding watermarks: https://docs.groupdocs.com/display/watermarknet/Adding+watermarks.
+Learn more about adding watermarks at the GroupDocs documentation.
 
 ```python
 def add(self, watermark):
@@ -42,7 +42,7 @@ with Watermarker("document.pdf") as watermarker:
 
 Adds a watermark to the loaded document using watermark options.
 
-Learn more about adding watermarks.
+Learn more about adding watermarks: https://docs.groupdocs.com/display/watermarknet/Adding+watermarks.
 
 ```python
 def add(self, watermark, options):
@@ -53,6 +53,8 @@ def add(self, watermark, options):
 | :- | :- | :- |
 | watermark | `Watermark` | The watermark to add to the document. |
 | options | `WatermarkOptions` | Additional options to use when adding the watermark. |
+
+**Returns:** None.
 
 ### Example
 

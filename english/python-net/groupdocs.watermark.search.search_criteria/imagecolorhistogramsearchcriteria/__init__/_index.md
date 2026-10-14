@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Initializes a new ImageColorHistogramSearchCriteria with a specified file path."
+description: "Initializes a new instance of ImageColorHistogramSearchCriteria with a specified file path."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/imagecolorhistogramsearchcriteria/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#file_path}
 
-Initializes a new ImageColorHistogramSearchCriteria with a specified file path.
+Initializes a new instance of ImageColorHistogramSearchCriteria with a specified file path.
 
 ```python
 def __init__(self, file_path):

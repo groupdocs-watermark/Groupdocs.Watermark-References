@@ -18,8 +18,8 @@ The PresentationSlideImageFillFormat type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [background_image](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslideimagefillformat/background_image/) | The background image. Returns None if the image is not set. |
-| [tile_as_texture](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationimagefillformat/tile_as_texture/) | The tile_as_texture property indicates whether the image is tiled across the background. True if the image is tiled across the background; otherwise, False (the image is stretched). The default value is False. (inherited from [`PresentationImageFillFormat`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationimagefillformat/)) |
+| [background_image](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslideimagefillformat/background_image/) | The background image; returns None if the image is not set. |
+| [tile_as_texture](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationimagefillformat/tile_as_texture/) | The image is tiled across the background when set to True; otherwise it is stretched. (inherited from [`PresentationImageFillFormat`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationimagefillformat/)) |
 | [transparency](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationimagefillformat/transparency/) | The transparency of the background image as a value from 0.0 (opaque) through 1.0 (fully transparent). (inherited from [`PresentationImageFillFormat`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationimagefillformat/)) |
 
 ### See Also

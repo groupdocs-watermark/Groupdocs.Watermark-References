@@ -1,7 +1,7 @@
 ---
 title: PdfAnnotationWatermarkOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Represents watermark adding options when adding annotation watermark to a PDF document."
+description: "Represents watermark adding options when adding an annotation watermark to a PDF document."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## PdfAnnotationWatermarkOptions class
 
-Represents watermark adding options when adding annotation watermark to a PDF document.
+Represents watermark adding options when adding an annotation watermark to a PDF document.
 
 Learn more:
 - https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents
@@ -27,7 +27,7 @@ The PdfAnnotationWatermarkOptions type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [page_index](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/page_index/) | The page index to add watermark to. |
-| [print_only](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/print_only/) | The value indicating whether annotation will be printed, but not displayed in pdf viewing application. |
+| [print_only](/watermark/python-net/groupdocs.watermark.options.pdf/pdfannotationwatermarkoptions/print_only/) | The value indicating whether the annotation will be printed but not displayed in a PDF viewing application. |
 
 ### Fields
 | Field | Description |
@@ -37,29 +37,18 @@ The PdfAnnotationWatermarkOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.pdf as gwo_pdf
-import groupdocs.watermark.common as gwc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import ImageWatermark
+from groupdocs.watermark.options.pdf import PdfLoadOptions, PdfAnnotationWatermarkOptions
 
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    options = gwo_pdf.PdfAnnotationWatermarkOptions()
-    options.page_index = -1  # default - all pages
-
-    text_watermark = gww.TextWatermark(
-        "Annotation watermark", gww.Font("Arial", 8.0)
-    )
-    text_watermark.horizontal_alignment = gwc.HorizontalAlignment.LEFT
-    text_watermark.vertical_alignment = gwc.VerticalAlignment.TOP
-    watermarker.add(text_watermark, options)
-
-    with gww.ImageWatermark("protect.jpg") as image_watermark:
-        image_watermark.horizontal_alignment = gwc.HorizontalAlignment.RIGHT
-        image_watermark.vertical_alignment = gwc.VerticalAlignment.TOP
-        watermarker.add(image_watermark, options)
-
-    watermarker.save("document.pdf")
+def add_annotation_image_watermark():
+    load_options = PdfLoadOptions()
+    with Watermarker("./test.pdf", load_options) as watermarker:
+        with ImageWatermark("./icon.png") as watermark:
+            options = PdfAnnotationWatermarkOptions()
+            # PageIndex = -1 applies the watermark to all pages (default)
+            watermarker.add(watermark, options)
+        watermarker.save("./output.pdf")
 ```
 
 ### See Also

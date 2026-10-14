@@ -1,7 +1,7 @@
 ---
 title: y property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The vertical offset of this DiagramCommentPossibleWatermark from the page bottom border in points."
+description: "The y-coordinate of this DiagramCommentPossibleWatermark, representing the vertical offset from the page bottom border in points."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/y/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2080
 
 ## y property
 
-The vertical offset of this DiagramCommentPossibleWatermark from the page bottom border in points.
+The y-coordinate of this DiagramCommentPossibleWatermark, representing the vertical offset from the page bottom border in points.
 
 ### Definition:
 ```python

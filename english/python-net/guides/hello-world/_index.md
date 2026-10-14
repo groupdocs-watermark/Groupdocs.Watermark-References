@@ -28,6 +28,8 @@ The following steps demonstrate how to add a text watermark to a document using 
 ## Complete example
 The example below adds a semi-transparent, diagonal "Hello, Watermark!" text watermark and saves the result:
 
+{{< tabs "code-example-hello-world" >}}
+{{< tab "hello_world.py" >}}
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.watermarks import TextWatermark, Font, Color
@@ -47,14 +49,19 @@ def hello_world():
 if __name__ == "__main__":
     hello_world()
 ```
+{{< /tab >}}
+{{< tab "sample.pdf" >}}
 
 `sample.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/getting-started/hello-world/sample.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "output.pdf" >}}  
 ```text
 Binary file (PDF, 354 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/getting-started/hello-world/hello_world/output.pdf)
+{{< /tab >}}
+{{< /tabs >}}
 
 The watermark is saved back to the same PDF format as `output.pdf`. To stamp a different document, change the input path and the output extension — GroupDocs.Watermark saves in the input document's format.
 

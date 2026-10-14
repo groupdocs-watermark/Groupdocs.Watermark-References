@@ -13,7 +13,7 @@ weight: 2010
 
 The thumbnail size.
 
-By default a 32x32 thumbnail is used.
+By default a 32x32 thumbnail will be used.
 
 ### Definition:
 ```python

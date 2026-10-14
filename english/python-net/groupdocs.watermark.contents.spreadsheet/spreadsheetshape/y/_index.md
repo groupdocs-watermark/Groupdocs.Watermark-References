@@ -1,7 +1,7 @@
 ---
 title: y property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The vertical offset of this SpreadsheetShape from the worksheet top border in points."
+description: "The y-coordinate of this SpreadsheetShape from worksheet top border in points."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/y/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2170
 
 ## y property
 
-The vertical offset of this SpreadsheetShape from the worksheet top border in points.
+The y-coordinate of this SpreadsheetShape from worksheet top border in points.
 
 ### Definition:
 ```python

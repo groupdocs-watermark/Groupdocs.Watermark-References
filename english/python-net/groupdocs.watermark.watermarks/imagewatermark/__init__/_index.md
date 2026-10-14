@@ -25,15 +25,18 @@ def __init__(self, file_path):
 ### Example
 
 ```python
-from groupdocs.watermark.watermarks import ImageWatermark
+    from groupdocs.watermark import Watermarker
+    from groupdocs.watermark.watermarks import ImageWatermark
 
-# Initialize an image watermark from a file path
-watermark = ImageWatermark("logo.png")
-```
+    with Watermarker("document.docx") as watermarker:
+        watermark = ImageWatermark("logo.png")
+        watermarker.add(watermark)
+        watermarker.save("watermarked.docx")
+    ```
 
 ## __init__ {#stream}
 
-Initializes a new ImageWatermark instance using the provided image stream.
+Initializes a new ImageWatermark with the provided image stream.
 
 ```python
 def __init__(self, stream):
@@ -42,7 +45,7 @@ def __init__(self, stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| stream | `io.RawIOBase` | The stream containing the image that will be used as watermark. |
+| stream | `io.RawIOBase` | The stream containing the image that will be used as a watermark. |
 
 ### Example
 
@@ -51,16 +54,13 @@ import io
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.watermarks import ImageWatermark
 
-# Load image data into a memory stream
-with open("watermark.jpg", "rb") as f:
-    data = f.read()
+with open("logo.png", "rb") as f:
+    image_data = f.read()
 
-# Create a watermarker for the target document
-with Watermarker("document.docx") as watermarker:
-    # Initialize the image watermark from the stream
-    with ImageWatermark(io.BytesIO(data)) as watermark:
+with Watermarker("sample.docx") as watermarker:
+    with ImageWatermark(stream=io.BytesIO(image_data)) as watermark:
         watermarker.add(watermark)
-        watermarker.save("watermarked.docx")
+    watermarker.save("watermarked.docx")
 ```
 
 ### See Also

@@ -18,7 +18,7 @@ def get_hash_code(self):
     ...
 ```
 
-**Returns:** A hash code for the current `FileType` object.
+**Returns:** int: A hash code for the current `FileType` object.
 
 ### See Also
 * class [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/)

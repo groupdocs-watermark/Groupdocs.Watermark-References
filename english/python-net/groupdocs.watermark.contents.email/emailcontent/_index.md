@@ -13,6 +13,7 @@ weight: 70
 
 Represents an email message.
 
+Learn more:
 - [Add watermarks to email attachments](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+email+attachments)
 - [Email attachments](https://docs.groupdocs.com/display/watermarknet/Email+attachments)
 - [Email messages](https://docs.groupdocs.com/display/watermarknet/Email+messages)
@@ -23,9 +24,9 @@ The EmailContent type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
-| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. The search is performed on the objects listed in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
 ### Properties
@@ -38,7 +39,7 @@ The EmailContent type exposes the following members:
 | [cc](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/cc/) | The collection of CC (carbon copy) recipients of the email message. |
 | [embedded_objects](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/embedded_objects/) | The collection of all embedded objects of the email message. |
 | [from_](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/from_/) | The from address of the email message. |
-| [html_body](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/html_body/) | The HTML representation of the message body. |
+| [html_body](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/html_body/) | The html representation of the message body. |
 | [subject](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/subject/) | The subject of the email message. |
 | [to](/watermark/python-net/groupdocs.watermark.contents.email/emailcontent/to/) | The collection of recipients of the email message. |
 
@@ -46,15 +47,16 @@ The EmailContent type exposes the following members:
 
 ```python
 import groupdocs.watermark as gw
+from groupdocs.watermark.options.email import EmailLoadOptions
 import groupdocs.watermark.contents.email as gwc_email
 
-load_options = gw.EmailLoadOptions()
+load_options = EmailLoadOptions()
 with gw.Watermarker("message.msg", load_options) as watermarker:
-    content = watermarker.get_content(gwc_email.EmailContent)
+    content = watermarker.get_content()
     # add an attachment
     with open("sample.msg", "rb") as f:
         content.attachments.add(f.read(), "sample.msg")
-    watermarker.save("message.msg")
+    watermarker.save("output.msg")
 ```
 
 ### See Also

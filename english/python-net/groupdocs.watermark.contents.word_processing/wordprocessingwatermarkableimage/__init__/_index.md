@@ -20,13 +20,13 @@ def __init__(self, image_data):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| image_data | `list[int]` | The list of unsigned bytes from which to create the `WordProcessingWatermarkableImage`. |
+| image_data | `list[int]` | The array of unsigned bytes from which to create the `WordProcessingWatermarkableImage`. |
 
 ### Example
 
 ```python
 import groupdocs.watermark as gw
-import groupdocs.watermark.contents.wordprocessing as gwc_wp
+import groupdocs.watermark.contents.word_processing as gwc_wp
 
 with open("test.png", "rb") as f:
     img_bytes = f.read()

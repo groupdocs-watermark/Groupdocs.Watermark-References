@@ -11,7 +11,7 @@ weight: 2010
 
 ## parent property
 
-The parent of this PdfXObjectPossibleWatermark.
+The parent of this [`PdfXObjectPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfxobjectpossiblewatermark/).
 
 ### Definition:
 ```python

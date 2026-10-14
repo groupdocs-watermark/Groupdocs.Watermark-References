@@ -11,7 +11,9 @@ weight: 2020
 
 ## rotate_angle property
 
-The rotate angle of this SpreadsheetChartBackgroundPossibleWatermark in degrees. The value is always 0 for this type of possible watermark.
+The rotate angle of this SpreadsheetChartBackgroundPossibleWatermark in degrees.
+
+The value is always 0 for this type of possible watermark.
 
 ### Definition:
 ```python

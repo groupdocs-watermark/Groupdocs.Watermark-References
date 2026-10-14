@@ -21,12 +21,12 @@ The SpreadsheetWatermarkHeaderFooterOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/__init__/) | Initializes a new SpreadsheetWatermarkHeaderFooterOptions instance. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/__init__/) | Initializes a new instance of the [`SpreadsheetWatermarkHeaderFooterOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [worksheet_index](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/worksheet_index/) | The index of the worksheet to add the watermark to. |
+| [worksheet_index](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkheaderfooteroptions/worksheet_index/) | The index of worksheet to add the watermark to. |
 
 ### Fields
 | Field | Description |
@@ -36,27 +36,16 @@ The SpreadsheetWatermarkHeaderFooterOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.spreadsheet as gwo_xls
-import groupdocs.watermark.common as gwc
-
-load_options = gw.SpreadsheetLoadOptions()
-with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
-    watermark = gww.TextWatermark(
-        "Test watermark",
-        gww.Font("Segoe UI", 19.0, gww.FontStyle.BOLD)
-    )
-    watermark.foreground_color = gww.Color.red
-    watermark.background_color = gww.Color.aqua
-    watermark.vertical_alignment = gwc.VerticalAlignment.TOP
-    watermark.horizontal_alignment = gwc.HorizontalAlignment.CENTER
-
-    options = gwo_xls.SpreadsheetWatermarkHeaderFooterOptions()
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.spreadsheet import SpreadsheetLoadOptions, SpreadsheetWatermarkHeaderFooterOptions
+from groupdocs.watermark.watermarks import Font, TextWatermark
+load_options = SpreadsheetLoadOptions()
+with Watermarker("./test.xlsx", load_options) as watermarker:
+    watermark = TextWatermark("Test", Font("Arial", 14))
+    options = SpreadsheetWatermarkHeaderFooterOptions()
     options.worksheet_index = 0
-
     watermarker.add(watermark, options)
-    watermarker.save("spreadsheet.xlsx")
+    watermarker.save()
 ```
 
 ### See Also

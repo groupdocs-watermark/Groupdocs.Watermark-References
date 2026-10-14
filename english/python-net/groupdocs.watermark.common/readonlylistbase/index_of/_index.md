@@ -5,7 +5,7 @@ description: "ReadOnlyListBase.index_of method — GroupDocs.Watermark for Pytho
 type: docs
 url: /python-net/groupdocs.watermark.common/readonlylistbase/index_of/
 is_root: false
-weight: 1030
+weight: 1050
 ---
 
 

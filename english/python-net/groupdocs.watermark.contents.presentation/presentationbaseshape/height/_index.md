@@ -11,7 +11,7 @@ weight: 2020
 
 ## height property
 
-The height of this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/) in points.
+The height of this PresentationBaseShape in points.
 
 ### Definition:
 ```python

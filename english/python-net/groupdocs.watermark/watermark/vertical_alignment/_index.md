@@ -11,7 +11,7 @@ weight: 2130
 
 ## vertical_alignment property
 
-The vertical alignment of this Watermark.
+The vertical alignment of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
 
 Default value is `VerticalAlignment.none`.
 

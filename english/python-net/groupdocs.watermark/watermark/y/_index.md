@@ -11,7 +11,7 @@ weight: 2160
 
 ## y property
 
-The y-coordinate of this Watermark.
+The y-coordinate of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
 
 ### Definition:
 ```python

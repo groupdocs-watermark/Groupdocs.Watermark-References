@@ -11,7 +11,7 @@ weight: 2090
 
 ## width property
 
-The width of this PossibleWatermark.
+The width of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/).
 
 ### Definition:
 ```python

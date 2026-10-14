@@ -13,6 +13,8 @@ weight: 2090
 
 The horizontal offset of this PdfArtifact from the page left border in points.
 
+The x-coordinate of this PdfArtifact.
+
 ### Definition:
 ```python
 @property

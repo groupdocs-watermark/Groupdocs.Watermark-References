@@ -1,7 +1,7 @@
 ---
 title: __init__ constructor
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Initializes a new PreviewOptions instance that ensures the output stream is closed."
+description: "Initializes a new PreviewOptions instance that closes the output stream after use."
 type: docs
 url: /python-net/groupdocs.watermark.options/previewoptions/__init__/
 is_root: false
@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#create_page_stream}
 
-Initializes a new PreviewOptions instance that ensures the output stream is closed.
+Initializes a new PreviewOptions instance that closes the output stream after use.
 
 ```python
 def __init__(self, create_page_stream):
@@ -20,35 +20,32 @@ def __init__(self, create_page_stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| create_page_stream | `CreatePageStream` | Creates a stream for a specific page preview. |
+| create_page_stream | `CreatePageStream` | Callable[[int], io.RawIOBase] – Creates a stream for a specific page preview. |
 
 ### Example
 
 ```python
-    import os
-    import groupdocs.watermark as gw
-    import groupdocs.watermark.options as gwo
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options import PreviewOptions, PreviewFormats
 
-    output_dir = os.path.join(os.getcwd(), "preview")
-    os.makedirs(output_dir, exist_ok=True)
+def generate_preview():
+    # Supply a writable file stream for each page to render
+    def create_page_stream(page_number):
+        return open(f"./output-page-{page_number}.png", "wb")
 
-    def create_page_stream(page_number: int):
-        path = os.path.join(output_dir, f"page{page_number}.png")
-        return open(path, "wb")
+    with Watermarker("./sample.pdf") as watermarker:
+        options = PreviewOptions(create_page_stream)
+        options.preview_format = PreviewFormats.PNG
+        options.page_numbers = [1, 2]
+        watermarker.generate_preview(options)
 
-    def release_page_stream(page_number: int, stream):
-        stream.close()
-
-    with gw.Watermarker("sample.pdf") as watermarker:
-        preview_options = gwo.PreviewOptions(create_page_stream, release_page_stream)
-        preview_options.preview_format = gwo.PreviewOptions.PreviewFormats.PNG
-        preview_options.page_numbers = [1, 2]
-        watermarker.generate_preview(preview_options)
-    ```
+if __name__ == "__main__":
+    generate_preview()
+```
 
 ## __init__ {#create_page_stream-release_page_stream}
 
-Initializes a new instance of [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/) that returns the output stream to the client for further use.
+Initializes a new PreviewOptions instance that returns the output stream to the client for further use.
 
 ```python
 def __init__(self, create_page_stream, release_page_stream):
@@ -57,31 +54,28 @@ def __init__(self, create_page_stream, release_page_stream):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| create_page_stream | `CreatePageStream` | Callable that creates a stream for a specific page preview. |
-| release_page_stream | `ReleasePageStream` | Callable that is invoked when page preview generation is done and receives the output stream. |
+| create_page_stream | `CreatePageStream` | Callable that creates a stream for a specific page preview. Receives the page number (`int`) and should return a writable stream (`io.RawIOBase`). |
+| release_page_stream | `ReleasePageStream` | Callable that is invoked when page preview generation is complete and provides the output stream. |
 
 ### Example
 
 ```python
-import os
-import groupdocs.watermark as gw
-import groupdocs.watermark.options as gwo
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options import PreviewOptions, PreviewFormats
 
-output_dir = os.path.join(os.getcwd(), "preview")
-os.makedirs(output_dir, exist_ok=True)
+def generate_preview():
+    # Supply a writable file stream for each page to render
+    def create_page_stream(page_number):
+        return open(f"./output-page-{page_number}.png", "wb")
 
-def create_page_stream(page_number: int):
-    path = os.path.join(output_dir, f"page{page_number}.png")
-    return open(path, "wb")
+    with Watermarker("./sample.pdf") as watermarker:
+        options = PreviewOptions(create_page_stream)
+        options.preview_format = PreviewFormats.PNG
+        options.page_numbers = [1, 2]
+        watermarker.generate_preview(options)
 
-def release_page_stream(page_number: int, stream):
-    stream.close()
-
-with gw.Watermarker("sample.pdf") as watermarker:
-    preview_options = gwo.PreviewOptions(create_page_stream, release_page_stream)
-    preview_options.preview_format = gwo.PreviewOptions.PreviewFormats.PNG
-    preview_options.page_numbers = [1, 2]
-    watermarker.generate_preview(preview_options)
+if __name__ == "__main__":
+    generate_preview()
 ```
 
 ### See Also

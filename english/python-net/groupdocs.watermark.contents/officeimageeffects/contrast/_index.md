@@ -11,7 +11,7 @@ weight: 2040
 
 ## contrast property
 
-The contrast for the specified picture. Must be a float between 0.0 (least contrast) and 1.0 (greatest contrast). Default is 0.5.
+The contrast for the specified picture. Must be a float between 0.0 (least contrast) and 1.0 (greatest contrast). The default value is 0.5.
 
 ### Definition:
 ```python

@@ -28,8 +28,8 @@ The VectorSearchCriteria type exposes the following members:
 | :- | :- |
 | [and_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_/) | Combines this SearchCriteria with other criteria using the logical AND operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [and_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/). (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this SearchCriteria. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using the logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [or_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 
 ### Properties
@@ -40,29 +40,21 @@ The VectorSearchCriteria type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.watermark import Watermarker, VectorSearchCriteria, ColorRange, Color
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import VectorSearchCriteria, ColorRange
+from groupdocs.watermark.watermarks import Color
 
-# Open the document
-watermarker = Watermarker(r"C:\test.pdf")
+with Watermarker("./document.pdf") as watermarker:
+    search_criteria = VectorSearchCriteria()
+    watermark_color = Color.from_argb(255, 169, 170, 174)  # #a9aaae
+    color_range = ColorRange(watermark_color)
+    color_range.min_brightness = 0.1
+    color_range.max_brightness = 0.7
+    search_criteria.vector_color_range = color_range
 
-# Create search criteria
-search_criteria = VectorSearchCriteria()
-
-# Define the watermark color to filter by
-watermark_color = Color.from_html("#a9aaae")
-
-# Set the color range with brightness limits
-criteria_vector_color_range = ColorRange(watermark_color)
-criteria_vector_color_range.min_brightness = 0.1
-criteria_vector_color_range.max_brightness = 0.7
-search_criteria.vector_color_range = criteria_vector_color_range
-
-# Search and remove watermarks
-possible_watermark_collection = watermarker.search(search_criteria)
-possible_watermark_collection.clear()
-
-# Save the modified document
-watermarker.save(r"C:\modified_test.pdf")
+    possible_watermarks = watermarker.search(search_criteria)
+    possible_watermarks.clear()
+    watermarker.save("./output.pdf")
 ```
 
 ### See Also

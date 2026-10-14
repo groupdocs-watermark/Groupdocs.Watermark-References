@@ -1,7 +1,7 @@
 ---
 title: footer_left property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The text string that appears in the left portion of the document footer."
+description: "The text string that appears in the left portion of document footer."
 type: docs
 url: /python-net/groupdocs.watermark.contents.diagram/diagramheaderfooter/footer_left/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2030
 
 ## footer_left property
 
-The text string that appears in the left portion of the document footer.
+The text string that appears in the left portion of document footer.
 
 ### Definition:
 ```python

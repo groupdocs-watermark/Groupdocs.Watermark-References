@@ -11,7 +11,7 @@ weight: 2040
 
 ## image_fill_format property
 
-The image fill format settings of this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/).
+The image fill format settings of this PresentationBaseShape.
 
 ### Definition:
 ```python

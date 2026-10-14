@@ -11,7 +11,7 @@ weight: 2030
 
 ## image property
 
-The image of this [`PresentationShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshape/), or None if the shape has no image.
+The image of this PresentationShape, or None if the shape has no image.
 
 ### Definition:
 ```python

@@ -11,7 +11,9 @@ weight: 2030
 
 ## is_locked property
 
-The property indicates whether editing of the shape in PowerPoint is forbidden. If True, shape editing is forbidden; by default False, the shape can be edited.
+The property indicates whether editing of the shape in PowerPoint is forbidden.
+
+If the value is True, shape editing will be forbidden. By default, the value is False, allowing the shape to be edited in PowerPoint.
 
 ### Definition:
 ```python

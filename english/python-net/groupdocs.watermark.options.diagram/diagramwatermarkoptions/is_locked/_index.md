@@ -1,7 +1,7 @@
 ---
 title: is_locked property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The lock state of the shape in Visio."
+description: "The property indicates whether editing of the shape in Visio is forbidden."
 type: docs
 url: /python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/
 is_root: false
@@ -11,9 +11,11 @@ weight: 2010
 
 ## is_locked property
 
-The lock state of the shape in Visio. If True, shape editing will be forbidden.
+The property indicates whether editing of the shape in Visio is forbidden.
 
-By default, the value is False; the shape can be edited in Visio.
+By default, the value is False, the shape can be edited in Visio.
+
+If True, shape editing will be forbidden.
 
 ### Definition:
 ```python

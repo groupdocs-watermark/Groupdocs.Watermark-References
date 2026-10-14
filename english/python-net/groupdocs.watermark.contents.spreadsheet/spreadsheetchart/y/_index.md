@@ -11,7 +11,9 @@ weight: 2100
 
 ## y property
 
-The vertical offset of this SpreadsheetChart from the worksheet top border in points. The y-coordinate of this SpreadsheetChart.
+The vertical offset of this SpreadsheetChart from the worksheet top border in points.
+
+The y-coordinate of this SpreadsheetChart.
 
 ### Definition:
 ```python

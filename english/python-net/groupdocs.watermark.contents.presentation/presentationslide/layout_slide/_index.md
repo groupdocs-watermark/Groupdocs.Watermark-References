@@ -11,7 +11,7 @@ weight: 2010
 
 ## layout_slide property
 
-The layout slide for this [`PresentationSlide`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/).
+The layout slide for this PresentationSlide.
 
 ### Definition:
 ```python

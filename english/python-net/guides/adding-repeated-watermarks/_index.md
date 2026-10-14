@@ -16,7 +16,8 @@ Repeated (tiled) watermarks let you cover entire pages with a pattern of text or
 
 The example below tiles a diagonal text watermark across the whole page. The `line_spacing` and `watermark_spacing` are expressed as a percentage of the page, and `tile_type` selects the tiling template.
 
-  
+{{< tabs "code-example-adding-repeated-watermarks">}}
+{{< tab "add_repeated_watermark.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.watermarks import (
@@ -53,16 +54,19 @@ def add_repeated_watermark():
 if __name__ == "__main__":
     add_repeated_watermark()
 ```
-
-  
+{{< /tab >}}
+{{< tab "sample.pdf" >}}  
 
 `sample.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/adding-repeated-watermarks/sample.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "output.pdf" >}}  
 ```text
 Binary file (PDF, 401 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/adding-repeated-watermarks/add_repeated_watermark/output.pdf)
+{{< /tab >}}
+{{< /tabs >}}
 
 You can replace the [`TextWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark/) with an [`ImageWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/imagewatermark/) to tile a logo or seal across the page in the same way — set the same `tile_options` on the image watermark.
 

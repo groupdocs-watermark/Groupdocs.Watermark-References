@@ -13,9 +13,7 @@ weight: 20
 
 Represents options when adding the watermark as a background to a Spreadsheet worksheet.
 
-Use this class to specify the target worksheet (via `worksheet_index`) and the size of the background area (via `background_width` and `background_height`) for a watermark.
-
-- Learn more: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents
+Learn more: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents
 
 The SpreadsheetBackgroundWatermarkOptions type exposes the following members:
 
@@ -29,7 +27,7 @@ The SpreadsheetBackgroundWatermarkOptions type exposes the following members:
 | :- | :- |
 | [background_height](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/background_height/) | The desired height of the background image in pixels. |
 | [background_width](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/background_width/) | The desired width of the background image in pixels. |
-| [worksheet_index](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/worksheet_index/) | The index of worksheet to add the watermark to. |
+| [worksheet_index](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetbackgroundwatermarkoptions/worksheet_index/) | The index of the worksheet to add the watermark to. |
 
 ### Fields
 | Field | Description |
@@ -39,20 +37,21 @@ The SpreadsheetBackgroundWatermarkOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.spreadsheet as gwo_xls
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.spreadsheet import SpreadsheetLoadOptions, SpreadsheetBackgroundWatermarkOptions
+from groupdocs.watermark.watermarks import TextWatermark, Font
 
-load_options = gw.SpreadsheetLoadOptions()
-with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
-    watermark = gww.ImageWatermark("logo.gif")
-    options = gwo_xls.SpreadsheetBackgroundWatermarkOptions()
-    # Apply to the first worksheet (index 0) with default size
-    options.worksheet_index = 0
+load_options = SpreadsheetLoadOptions()
+with Watermarker(r"C:\Documents\test.xlsx", load_options) as watermarker:
+    watermark = TextWatermark("Test watermark", Font("Arial", 36))
+
+    options = SpreadsheetBackgroundWatermarkOptions()
+    options.worksheet_index = -1  # default
     options.background_width = 800
     options.background_height = 600
+
     watermarker.add(watermark, options)
-    watermarker.save("spreadsheet.xlsx")
+    watermarker.save()
 ```
 
 ### See Also

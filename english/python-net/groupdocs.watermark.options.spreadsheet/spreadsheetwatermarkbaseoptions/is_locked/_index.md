@@ -13,7 +13,7 @@ weight: 2020
 
 The property indicates whether editing of the shape in Excel is forbidden.
 
-If True, shape editing will be forbidden; otherwise, the shape can be edited (default is False).
+If True, shape editing will be forbidden; otherwise, the shape can be edited in Excel (default is False).
 
 ### Definition:
 ```python

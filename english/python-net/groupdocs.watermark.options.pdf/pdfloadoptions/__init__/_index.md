@@ -22,11 +22,12 @@ def __init__(self):
 
 ```python
 import groupdocs.watermark as gw
+from groupdocs.watermark.options.pdf import PdfLoadOptions
 import groupdocs.watermark.contents.pdf as gwc_pdf
 
-load_options = gw.PdfLoadOptions()
+load_options = PdfLoadOptions()
 with gw.Watermarker("document.pdf", load_options) as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+    pdf_content = watermarker.get_content()
     print(pdf_content.pages[0].width)
     print(pdf_content.pages[0].height)
 ```
@@ -48,11 +49,12 @@ def __init__(self, password):
 
 ```python
 import groupdocs.watermark as gw
+from groupdocs.watermark.options.pdf import PdfLoadOptions
 import groupdocs.watermark.contents.pdf as gwc_pdf
 
-load_options = gw.PdfLoadOptions()
+load_options = PdfLoadOptions()
 with gw.Watermarker("document.pdf", load_options) as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+    pdf_content = watermarker.get_content()
     print(pdf_content.pages[0].width)
     print(pdf_content.pages[0].height)
 ```

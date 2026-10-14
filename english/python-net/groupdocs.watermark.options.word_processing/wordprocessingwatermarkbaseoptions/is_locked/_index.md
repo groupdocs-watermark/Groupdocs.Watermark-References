@@ -13,7 +13,7 @@ weight: 2030
 
 The property indicates whether editing of the shape in Word is forbidden.
 
-If set to `True`, shape editing will be forbidden; by default the value is `False`, allowing shape editing in Word.
+If True, shape editing is forbidden; otherwise, the shape can be edited (default is False).
 
 ### Definition:
 ```python

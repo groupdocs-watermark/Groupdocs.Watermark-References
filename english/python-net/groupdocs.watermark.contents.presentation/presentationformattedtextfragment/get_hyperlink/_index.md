@@ -22,7 +22,7 @@ def get_hyperlink(self, action_type):
 | :- | :- | :- |
 | action_type | `PresentationHyperlinkActionType` | The action that activates the hyperlink. |
 
-**Returns:** str: The url of the hyperlink that is activated on the specified action.
+**Returns:** The url of the hyperlink that is activated on specified action.
 
 ### See Also
 * class [`PresentationFormattedTextFragment`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/)

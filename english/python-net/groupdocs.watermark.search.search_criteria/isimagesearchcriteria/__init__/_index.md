@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new [`IsImageSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/isimagesearchcriteria/) instance.
+Initializes a new IsImageSearchCriteria instance.
 
 ```python
 def __init__(self):

@@ -5,7 +5,7 @@ description: "Types under groupdocs.watermark.internal."
 type: docs
 url: /python-net/groupdocs.watermark.internal/
 is_root: false
-weight: 110
+weight: 120
 ---
 
 

@@ -19,12 +19,12 @@ The DiagramLoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/__init__/) | Initializes a new instance of the [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/__init__/#password) | Initializes a new instance of the DiagramLoadOptions class with a specified password. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/__init__/#password) | Initializes a new instance of the [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/) class with a specified password. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [file_type](/watermark/python-net/groupdocs.watermark.options/loadoptions/file_type/) | The file type, indicating its format (e.g., docx, pdf, xlsx, etc.). (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
+| [file_type](/watermark/python-net/groupdocs.watermark.options/loadoptions/file_type/) | The type of the file, indicating its format (e.g., docx, pdf, xlsx, etc.). (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
 | [format_family](/watermark/python-net/groupdocs.watermark.options/loadoptions/format_family/) | The format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
 | [password](/watermark/python-net/groupdocs.watermark.options/loadoptions/password/) | The password for opening an encrypted document. (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
 
@@ -37,13 +37,14 @@ The DiagramLoadOptions type exposes the following members:
 
 ```python
 import groupdocs.watermark as gw
+from groupdocs.watermark.options.diagram import DiagramLoadOptions
 import groupdocs.watermark.contents.diagram as gwc_vsdx
 
-load_options = gw.DiagramLoadOptions()
+load_options = DiagramLoadOptions()
 with gw.Watermarker("diagram.vsdx", load_options) as watermarker:
-    content = watermarker.get_content(gwc_vsdx.DiagramContent)
+    content = watermarker.get_content()
     # manipulate shapes here
-    watermarker.save("diagram.vsdx")
+    watermarker.save("output.vsdx")
 ```
 
 ### See Also

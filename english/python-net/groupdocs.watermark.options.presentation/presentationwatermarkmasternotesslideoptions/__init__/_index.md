@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the PresentationWatermarkMasterNotesSlideOptions class.
+Initializes a new instance of the [`PresentationWatermarkMasterNotesSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkmasternotesslideoptions/) class.
 
 ```python
 def __init__(self):

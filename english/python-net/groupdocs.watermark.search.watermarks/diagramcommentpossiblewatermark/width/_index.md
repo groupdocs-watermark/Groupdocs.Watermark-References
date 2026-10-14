@@ -11,7 +11,9 @@ weight: 2060
 
 ## width property
 
-The width of this [`DiagramCommentPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/) in points. The value is always 0 for this type of possible watermark.
+The width of this DiagramCommentPossibleWatermark in points.
+
+The value is always 0 for this type of possible watermark.
 
 ### Definition:
 ```python

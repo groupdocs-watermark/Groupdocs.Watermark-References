@@ -11,9 +11,9 @@ weight: 2030
 
 ## horizontal_alignment property
 
-The horizontal alignment of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
+The horizontal alignment of this Watermark.
 
-Default value is `HorizontalAlignment.none`.
+Default value is `HorizontalAlignment.None`.
 
 ### Definition:
 ```python

@@ -11,7 +11,7 @@ weight: 1030
 
 ## set_hyperlink {#action_type-url}
 
-Sets the hyperlink associated with this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/).
+Sets the hyperlink associated with this PresentationBaseShape.
 
 ```python
 def set_hyperlink(self, action_type, url):

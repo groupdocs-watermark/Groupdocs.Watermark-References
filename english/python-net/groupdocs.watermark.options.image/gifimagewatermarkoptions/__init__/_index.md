@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#frame_index}
 
-Initializes a new instance of [`GifImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/) with a specified frame index.
+Initializes a new instance of the [`GifImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/gifimagewatermarkoptions/) class with a specified frame index.
 
 ```python
 def __init__(self, frame_index):

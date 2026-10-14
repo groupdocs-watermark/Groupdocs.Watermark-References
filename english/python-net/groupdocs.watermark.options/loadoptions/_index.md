@@ -14,12 +14,11 @@ weight: 30
 Represents document loading options when loading a document.
 
 Learn more:
-
-- Loading documents
-- Load from local disk
-- Load from stream
-- Load document of specific format
-- Load password-protected document
+- Loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents
+- Load from local disk: https://docs.groupdocs.com/display/watermarknet/Load+from+local+disk
+- Load from stream: https://docs.groupdocs.com/display/watermarknet/Load+from+stream
+- Load document of specific format: https://docs.groupdocs.com/display/watermarknet/Load+document+of+specific+format
+- Load password-protected document: https://docs.groupdocs.com/display/watermarknet/Load+password-protected+document
 
 The LoadOptions type exposes the following members:
 
@@ -27,12 +26,12 @@ The LoadOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options/loadoptions/__init__/) | Initializes a new instance of the LoadOptions class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/loadoptions/__init__/#password) | Initializes a new LoadOptions instance with a specified password. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/loadoptions/__init__/#password) | Initializes a new instance of the [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/) class with a specified password. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [file_type](/watermark/python-net/groupdocs.watermark.options/loadoptions/file_type/) | The file type, indicating its format (e.g., docx, pdf, xlsx, etc.). |
+| [file_type](/watermark/python-net/groupdocs.watermark.options/loadoptions/file_type/) | The type of the file, indicating its format (e.g., docx, pdf, xlsx, etc.). |
 | [format_family](/watermark/python-net/groupdocs.watermark.options/loadoptions/format_family/) | The format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). |
 | [password](/watermark/python-net/groupdocs.watermark.options/loadoptions/password/) | The password for opening an encrypted document. |
 

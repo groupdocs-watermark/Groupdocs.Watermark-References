@@ -13,7 +13,11 @@ weight: 2010
 
 The page numbers to add the watermark.
 
-All numbers must be greater than or equal to 1. This property is only used when adding the watermark to a document. If this value is None or empty, the watermark is added to all pages.
+All numbers must be greater than or equal to 1.
+
+This property is only used when adding the watermark to a document.
+
+If this value is None or empty, the watermark is added to all pages.
 
 ### Definition:
 ```python

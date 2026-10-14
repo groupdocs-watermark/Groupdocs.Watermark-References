@@ -11,7 +11,7 @@ weight: 2080
 
 ## y property
 
-The vertical offset of this [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/) from the worksheet top border in points.
+The vertical offset of this SpreadsheetHyperlinkPossibleWatermark from the worksheet top border in points. Represents the y-coordinate of the watermark.
 
 ### Definition:
 ```python

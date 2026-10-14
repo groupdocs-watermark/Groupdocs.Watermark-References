@@ -11,7 +11,9 @@ weight: 2190
 
 ## x property
 
-The horizontal offset of this WordProcessingShape from the page left border in points.
+The horizontal offset of this [`WordProcessingShape`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshape/) from the page left border in points.
+
+The x-coordinate of this shape.
 
 ### Definition:
 ```python

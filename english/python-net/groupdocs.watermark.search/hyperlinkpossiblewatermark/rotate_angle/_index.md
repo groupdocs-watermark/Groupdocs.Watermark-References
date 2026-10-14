@@ -11,7 +11,7 @@ weight: 2030
 
 ## rotate_angle property
 
-The rotate angle of this [`HyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/) in degrees.
+The rotate angle of this HyperlinkPossibleWatermark in degrees.
 
 ### Definition:
 ```python

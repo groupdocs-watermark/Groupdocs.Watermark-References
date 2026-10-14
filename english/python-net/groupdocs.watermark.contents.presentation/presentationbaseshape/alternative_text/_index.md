@@ -11,7 +11,7 @@ weight: 2010
 
 ## alternative_text property
 
-The descriptive (alternative) text associated with this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/).
+The descriptive (alternative) text associated with this PresentationBaseShape.
 
 ### Definition:
 ```python

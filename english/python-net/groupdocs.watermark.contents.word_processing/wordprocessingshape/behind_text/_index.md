@@ -1,7 +1,7 @@
 ---
 title: behind_text property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The value indicating whether the shape is behind the text; True if the shape is behind the text, otherwise False."
+description: "The value indicating whether the shape is over or behind the text."
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingshape/behind_text/
 is_root: false
@@ -11,7 +11,9 @@ weight: 2020
 
 ## behind_text property
 
-The value indicating whether the shape is behind the text; True if the shape is behind the text, otherwise False.
+The value indicating whether the shape is over or behind the text.
+
+True if the shape is behind the text; otherwise, False.
 
 ### Definition:
 ```python

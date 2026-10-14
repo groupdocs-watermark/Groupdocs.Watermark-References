@@ -16,7 +16,8 @@ You can search a document for existing watermarks and modify them in place — f
 
 Search for a watermark by its text content, then assign a new value to each match. The example below opens a document that already contains a "CONFIDENTIAL" watermark and replaces it with "APPROVED".
 
-  
+{{< tabs "code-example-update">}}
+{{< tab "update_watermark.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.search_criteria import TextSearchCriteria
@@ -37,22 +38,26 @@ def update_watermark():
 if __name__ == "__main__":
     update_watermark()
 ```
-
-  
+{{< /tab >}}
+{{< tab "watermarked-document.pdf" >}}  
 
 `watermarked-document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/update/watermarked-document.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "output.pdf" >}}  
 ```text
 Binary file (PDF, 479 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/update/update_watermark/output.pdf)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Update image watermarks
 
 Image watermarks can be found with perceptual hashing ([`ImageDctHashSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/imagedcthashsearchcriteria/)) and updated by assigning new bytes to `image_data`. The example below finds the logo watermark and replaces it with an "APPROVED" stamp:
 
-  
+{{< tabs "code-example-update-image">}}
+{{< tab "update_image_watermark.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.search_criteria import ImageDctHashSearchCriteria
@@ -75,13 +80,16 @@ def update_image_watermark():
 if __name__ == "__main__":
     update_image_watermark()
 ```
-
-  
+{{< /tab >}}
+{{< tab "watermarked-document.docx" >}}  
 
 `watermarked-document.docx`, `logo.png`, and `stamp.png` are the sample files used in this example. Download [watermarked-document.docx](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/update/watermarked-document.docx), [logo.png](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/update/logo.png), and [stamp.png](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/update/stamp.png).
 
-  
+{{< /tab >}}
+{{< tab "output.docx" >}}  
 ```text
 Binary file (DOCX, 18 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/update/update_image_watermark/output.docx)
+{{< /tab >}}
+{{< /tabs >}}

@@ -11,7 +11,7 @@ weight: 2010
 
 ## attachments property
 
-The collection of all attachments of this SpreadsheetWorksheet.
+The collection of all attachments of this [`SpreadsheetWorksheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetworksheet/).
 
 ### Definition:
 ```python

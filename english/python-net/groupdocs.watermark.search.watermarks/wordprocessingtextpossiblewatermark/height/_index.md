@@ -11,7 +11,7 @@ weight: 2020
 
 ## height property
 
-The height of this WordProcessingTextPossibleWatermark in points.
+The height of this [`WordProcessingTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/) in points.
 
 The value is always 0 for this type of possible watermark.
 

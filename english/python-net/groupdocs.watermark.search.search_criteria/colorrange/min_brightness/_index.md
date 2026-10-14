@@ -1,7 +1,7 @@
 ---
 title: min_brightness property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The starting brightness value."
+description: "The starting brightness value, ranging from 0.0 (black) to 1.0 (white)."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/colorrange/min_brightness/
 is_root: false
@@ -11,9 +11,7 @@ weight: 2050
 
 ## min_brightness property
 
-The starting brightness value.
-
-The brightness ranges from 0.0 through 1.0, where 0.0 represents black and 1.0 represents white.
+The starting brightness value, ranging from 0.0 (black) to 1.0 (white).
 
 ### Definition:
 ```python

@@ -11,7 +11,7 @@ weight: 2050
 
 ## page property
 
-The parent page of this PdfArtifact.
+The parent page of this [`PdfArtifact`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfartifact/).
 
 ### Definition:
 ```python

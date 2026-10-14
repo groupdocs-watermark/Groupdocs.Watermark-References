@@ -18,7 +18,7 @@ The DiagramWatermarkOptions type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If True, shape editing will be forbidden. |
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The property indicates whether editing of the shape in Visio is forbidden. |
 
 ### Fields
 | Field | Description |

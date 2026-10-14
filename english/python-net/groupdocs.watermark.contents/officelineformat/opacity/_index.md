@@ -11,9 +11,7 @@ weight: 2050
 
 ## opacity property
 
-The line opacity.
-
-The value should be between 0 and 1. Default value is 1.
+The line opacity. The value should be between 0 and 1. Default value is 1.
 
 ### Definition:
 ```python

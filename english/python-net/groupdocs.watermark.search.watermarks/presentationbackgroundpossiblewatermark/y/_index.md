@@ -1,7 +1,7 @@
 ---
 title: y property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The vertical offset of this PresentationBackgroundPossibleWatermark from the slide top border in points."
+description: "The vertical offset (y‑coordinate) of this PresentationBackgroundPossibleWatermark from the slide top border in points."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/y/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2070
 
 ## y property
 
-The vertical offset of this PresentationBackgroundPossibleWatermark from the slide top border in points.
+The vertical offset (y‑coordinate) of this PresentationBackgroundPossibleWatermark from the slide top border in points.
 
 ### Definition:
 ```python

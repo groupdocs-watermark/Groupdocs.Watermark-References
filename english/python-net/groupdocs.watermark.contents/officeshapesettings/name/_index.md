@@ -13,6 +13,8 @@ weight: 2020
 
 The name of the shape.
 
+The shape name.
+
 ### Definition:
 ```python
 @property

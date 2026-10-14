@@ -11,7 +11,7 @@ weight: 2020
 
 ## content_id property
 
-The content id of this EmailAttachmentBase.
+The content id of this [`EmailAttachmentBase`](/watermark/python-net/groupdocs.watermark.contents.email/emailattachmentbase/).
 
 ### Definition:
 ```python

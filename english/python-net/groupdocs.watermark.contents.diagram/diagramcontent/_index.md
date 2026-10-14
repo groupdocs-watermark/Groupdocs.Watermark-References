@@ -13,8 +13,9 @@ weight: 10
 
 Represents a Visio document.
 
-- Add watermarks to diagram documents
-- Existing objects in diagram document
+Learn more:
+- Add watermarks to diagram documents https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents
+- Existing objects in diagram document https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+diagram+document
 
 The DiagramContent type exposes the following members:
 
@@ -22,9 +23,9 @@ The DiagramContent type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
-| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. The search is performed on the objects listed in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
 ### Properties
@@ -37,15 +38,16 @@ The DiagramContent type exposes the following members:
 
 ```python
 import groupdocs.watermark as gw
+from groupdocs.watermark.options.diagram import DiagramLoadOptions
 import groupdocs.watermark.contents.diagram as gwc_vsdx
 
-load_options = gw.DiagramLoadOptions()
+load_options = DiagramLoadOptions()
 with gw.Watermarker("diagram.vsdx", load_options) as watermarker:
-    content = watermarker.get_content(gwc_vsdx.DiagramContent)
+    content = watermarker.get_content()
     for shape in content.pages[0].shapes:
         if shape.text and "© Aspose 2016" in shape.text:
             shape.text = "© GroupDocs 2017"
-    watermarker.save("diagram.vsdx")
+    watermarker.save("output.vsdx")
 ```
 
 ### See Also

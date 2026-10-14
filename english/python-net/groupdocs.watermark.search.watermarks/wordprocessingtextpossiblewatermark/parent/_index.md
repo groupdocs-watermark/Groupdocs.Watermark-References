@@ -11,7 +11,7 @@ weight: 2030
 
 ## parent property
 
-The parent of this WordProcessingTextPossibleWatermark.
+The parent of this [`WordProcessingTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/).
 
 ### Definition:
 ```python

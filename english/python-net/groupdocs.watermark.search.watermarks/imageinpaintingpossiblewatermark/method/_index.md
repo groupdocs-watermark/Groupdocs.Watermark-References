@@ -1,7 +1,7 @@
 ---
 title: method property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The inpainting algorithm."
+description: "The inpainting algorithm used for possible watermark detection."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/imageinpaintingpossiblewatermark/method/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2010
 
 ## method property
 
-The inpainting algorithm. Default is `InpaintingMethod.patch_based`.
+The inpainting algorithm used for possible watermark detection. Default is `InpaintingMethod.patch_based`.
 
 ### Definition:
 ```python

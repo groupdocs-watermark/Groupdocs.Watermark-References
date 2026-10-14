@@ -11,7 +11,7 @@ weight: 2010
 
 ## annotation_type property
 
-The type of this PdfAnnotation.
+The type of this [`PdfAnnotation`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfannotation/).
 
 ### Definition:
 ```python

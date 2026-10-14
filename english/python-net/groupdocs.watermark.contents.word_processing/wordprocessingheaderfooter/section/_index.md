@@ -11,7 +11,7 @@ weight: 2030
 
 ## section property
 
-The parent section of this WordProcessingHeaderFooter.
+The parent section of this [`WordProcessingHeaderFooter`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfooter/).
 
 ### Definition:
 ```python

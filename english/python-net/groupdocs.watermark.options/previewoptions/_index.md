@@ -18,13 +18,13 @@ The PreviewOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/previewoptions/__init__/#create_page_stream) | Initializes a new PreviewOptions instance that ensures the output stream is closed. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/previewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new instance of [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/) that returns the output stream to the client for further use. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/previewoptions/__init__/#create_page_stream) | Initializes a new PreviewOptions instance that closes the output stream after use. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/previewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new PreviewOptions instance that returns the output stream to the client for further use. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [create_page_stream](/watermark/python-net/groupdocs.watermark.options/previewoptions/create_page_stream/) | The page stream creation delegate. |
+| [create_page_stream](/watermark/python-net/groupdocs.watermark.options/previewoptions/create_page_stream/) | The page stream creation delegate used to obtain a writable stream for each rendered page. |
 | [height](/watermark/python-net/groupdocs.watermark.options/previewoptions/height/) | The page preview height. |
 | [page_numbers](/watermark/python-net/groupdocs.watermark.options/previewoptions/page_numbers/) | The array of page numbers to generate previews. |
 | [preview_format](/watermark/python-net/groupdocs.watermark.options/previewoptions/preview_format/) | The preview image format. |
@@ -34,25 +34,22 @@ The PreviewOptions type exposes the following members:
 ### Example
 
 ```python
-import os
-import groupdocs.watermark as gw
-import groupdocs.watermark.options as gwo
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options import PreviewOptions, PreviewFormats
 
-output_dir = os.path.join(os.getcwd(), "preview")
-os.makedirs(output_dir, exist_ok=True)
+def generate_preview():
+    # Supply a writable file stream for each page to render
+    def create_page_stream(page_number):
+        return open(f"./output-page-{page_number}.png", "wb")
 
-def create_page_stream(number: int):
-    path = os.path.join(output_dir, f"page{number}.png")
-    return open(path, "wb")
+    with Watermarker("./sample.pdf") as watermarker:
+        options = PreviewOptions(create_page_stream)
+        options.preview_format = PreviewFormats.PNG
+        options.page_numbers = [1, 2]
+        watermarker.generate_preview(options)
 
-def release_page_stream(number: int, stream):
-    stream.close()
-
-with gw.Watermarker("sample.pdf") as watermarker:
-    preview_options = gwo.PreviewOptions(create_page_stream, release_page_stream)
-    preview_options.preview_format = gwo.PreviewOptions.PreviewFormats.PNG
-    preview_options.page_numbers = [1, 2]
-    watermarker.generate_preview(preview_options)
+if __name__ == "__main__":
+    generate_preview()
 ```
 
 ### Guides

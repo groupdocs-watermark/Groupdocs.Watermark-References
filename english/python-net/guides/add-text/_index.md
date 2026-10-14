@@ -10,7 +10,7 @@ weight: 40
 ---
 
 
-One of the main features of GroupDocs.Watermark is adding text watermarks to documents. You can add watermarks to documents or images from a local path, as well as from a stream. For a full list of supported formats, check [Supported document formats]().
+One of the main features of GroupDocs.Watermark is adding text watermarks to documents. You can add watermarks to documents or images from a local path, as well as from a stream. For a full list of supported formats, check [Supported document formats](https://docs.groupdocs.com/watermark/python-net/supported-document-formats/).
 
 ## Add a text watermark
 
@@ -21,7 +21,8 @@ To add a text watermark, follow these steps:
 3. Style the watermark — for example, set `foreground_color` and alignment.
 4. Call `add()` to apply the watermark and `save()` to write the result.
 
-  
+{{< tabs "code-example-add-text">}}
+{{< tab "add_text_watermark.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.watermarks import TextWatermark, Font, Color
@@ -43,19 +44,22 @@ def add_text_watermark():
 if __name__ == "__main__":
     add_text_watermark()
 ```
-
-  
+{{< /tab >}}
+{{< tab "sample.pdf" >}}  
 
 `sample.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/add-text/sample.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "output.pdf" >}}  
 ```text
 Binary file (PDF, 352 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/add-text/add_text_watermark/output.pdf)
+{{< /tab >}}
+{{< /tabs >}}
 
 Run the program. A new watermarked document appears at the specified path.
 
 ## What's next
 
-GroupDocs.Watermark offers many more capabilities for text watermarks — background and foreground colors, custom fonts, opacity, rotation, tiling, and absolute or relative positioning. See [Adding text watermarks]() in the advanced guide.
+GroupDocs.Watermark offers many more capabilities for text watermarks — background and foreground colors, custom fonts, opacity, rotation, tiling, and absolute or relative positioning. See [Adding text watermarks](https://docs.groupdocs.com/watermark/python-net/adding-text-watermarks/) in the advanced guide.

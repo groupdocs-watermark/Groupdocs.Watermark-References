@@ -5,7 +5,7 @@ description: "ReadOnlyListBase.get_enumerator method — GroupDocs.Watermark for
 type: docs
 url: /python-net/groupdocs.watermark.common/readonlylistbase/get_enumerator/
 is_root: false
-weight: 1020
+weight: 1030
 ---
 
 

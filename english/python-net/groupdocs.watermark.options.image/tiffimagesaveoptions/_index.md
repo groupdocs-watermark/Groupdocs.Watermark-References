@@ -18,7 +18,7 @@ The TiffImageSaveOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/__init__/) | Initializes a new [`TiffImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/) instance. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/__init__/) | Initializes a new instance of the [`TiffImageSaveOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagesaveoptions/) class. |
 
 ### Fields
 | Field | Description |

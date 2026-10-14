@@ -11,7 +11,7 @@ weight: 2070
 
 ## width property
 
-The width of this [`SpreadsheetChart`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/) in points.
+The width of this SpreadsheetChart in points.
 
 ### Definition:
 ```python

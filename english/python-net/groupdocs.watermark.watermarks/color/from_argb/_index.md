@@ -28,7 +28,7 @@ def from_argb(cls, argb):
 
 Creates a Color structure from the specified base Color but with a new alpha value.
 
-Although this method allows a 32-bit value to be passed for the alpha value, the value is limited to 8 bits.
+Although this method allows a 32‑bit value to be passed for the alpha value, the value is limited to 8 bits.
 
 ```python
 def from_argb(cls, alpha, base_color):
@@ -37,18 +37,27 @@ def from_argb(cls, alpha, base_color):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| alpha | `int` | The alpha value for the new `Color`. Valid values are 0 through 255. |
-| base_color | `Color` | The `Color` from which to create the new `Color`. |
+| alpha | `int` | The alpha value for the new Color. Valid values are 0 through 255. |
+| base_color | `Color` | The Color from which to create the new Color. |
 
-**Returns:** `Color`: The `Color` that this method creates.
+**Returns:** Color: The Color that this method creates.
 
 | Raises | Description |
 | :- | :- |
 | `ValueError` | Alpha is less than 0 or greater than 255. |
 
+### Example
+
+```python
+from groupdocs.watermark.watermarks import Color
+
+# Create a semi‑transparent red color (alpha 128)
+transparent_red = Color.from_argb(128, Color.red)
+```
+
 ## from_argb {#red-green-blue}
 
-Creates a Color structure from the specified 8‑bit red, green, and blue values; the alpha component is implicitly set to 255 (fully opaque).
+Creates a [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) from the specified 8‑bit red, green, and blue values, with the alpha channel implicitly set to 255 (fully opaque).
 
 Although this method allows a 32‑bit value to be passed for each color component, each component is limited to 8 bits.
 
@@ -59,21 +68,21 @@ def from_argb(cls, red, green, blue):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| red | `int` | The red component value for the new Color. Valid values are 0 through 255. |
-| green | `int` | The green component value for the new Color. Valid values are 0 through 255. |
-| blue | `int` | The blue component value for the new Color. Valid values are 0 through 255. |
+| red | `int` | The red component value for the new `Color`. Valid values are 0 through 255. |
+| green | `int` | The green component value for the new `Color`. Valid values are 0 through 255. |
+| blue | `int` | The blue component value for the new `Color`. Valid values are 0 through 255. |
 
-**Returns:** Color: The Color that this method creates.
+**Returns:** Color: The color that this method creates.
 
 | Raises | Description |
 | :- | :- |
-| `ValueError` | red, green, or blue is less than 0 or greater than 255. |
+| `ValueError` | Red, green, or blue is less than 0 or greater than 255. |
 
 ## from_argb {#alpha-red-green-blue}
 
-Creates a [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) structure from the four ARGB component (alpha, red, green, and blue) values.
+Creates a [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/) from the four ARGB component values (alpha, red, green, and blue).
 
-Although this method allows a 32-bit value to be passed for each component, the value of each component is limited to 8 bits.
+Although this method allows a 32‑bit value to be passed for each component, the value of each component is limited to 8 bits.
 
 ```python
 def from_argb(cls, alpha, red, green, blue):
@@ -92,6 +101,16 @@ def from_argb(cls, alpha, red, green, blue):
 | Raises | Description |
 | :- | :- |
 | `ValueError` | Red, green, or blue is less than 0 or greater than 255. |
+
+### Example
+
+```python
+from groupdocs.watermark.watermarks import Color
+
+# Create a fully opaque red color
+red_color = Color.from_argb(255, 255, 0, 0)
+print(red_color)  # Output: Color(A=255, R=255, G=0, B=0)
+```
 
 ### See Also
 * class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

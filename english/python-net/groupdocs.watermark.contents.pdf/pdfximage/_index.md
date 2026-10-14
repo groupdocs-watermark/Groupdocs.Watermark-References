@@ -24,8 +24,8 @@ The PdfXImage type exposes the following members:
 | [x](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfximage/x/) | The x-coordinate of the object. |
 | [y](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfximage/y/) | The y-coordinate of the object. |
 | [formatted_text_fragments](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/formatted_text_fragments/) | The collection of formatted text fragments of this [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/). (inherited from [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/)) |
-| [image](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/image/) | The image of this [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/). Returns `None` if the object has no image. (inherited from [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/)) |
-| [page](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/page/) | The parent page of this [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/). (inherited from [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/)) |
+| [image](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/image/) | The image of this PdfShape. Returns None if the object has no image. (inherited from [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/)) |
+| [page](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/page/) | The parent page of this PdfXObject. (inherited from [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/)) |
 | [text](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/text/) | The text of this [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/). (inherited from [`PdfShape`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfshape/)) |
 
 ### See Also

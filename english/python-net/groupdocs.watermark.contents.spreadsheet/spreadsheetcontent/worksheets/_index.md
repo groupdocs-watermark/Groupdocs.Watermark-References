@@ -11,7 +11,7 @@ weight: 2010
 
 ## worksheets property
 
-The collection of all worksheets of this SpreadsheetContent.
+The collection of all worksheets of this [`SpreadsheetContent`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetcontent/).
 
 ### Definition:
 ```python

@@ -35,9 +35,9 @@ def equals(self, obj):
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| obj | `Any` | The object to test. |
+| obj | `Any` | Any – The object to test. |
 
-**Returns:** bool: True if object is a `Color` structure equivalent to this `Color` structure; otherwise, False.
+**Returns:** bool – True if object is a `Color` structure equivalent to this `Color` structure; otherwise, False.
 
 ### See Also
 * class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

@@ -11,7 +11,7 @@ weight: 2030
 
 ## worksheet property
 
-The parent worksheet of this SpreadsheetHeaderFooter.
+The parent worksheet of this [`SpreadsheetHeaderFooter`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/).
 
 ### Definition:
 ```python

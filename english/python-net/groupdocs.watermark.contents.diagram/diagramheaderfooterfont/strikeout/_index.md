@@ -11,7 +11,9 @@ weight: 2050
 
 ## strikeout property
 
-The font is strikeout. True if the font is strikeout; otherwise, False.
+The font is strikeout.
+
+True if this font is strikeout; otherwise, False.
 
 ### Definition:
 ```python

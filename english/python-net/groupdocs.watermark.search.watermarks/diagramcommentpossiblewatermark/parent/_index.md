@@ -11,7 +11,7 @@ weight: 2020
 
 ## parent property
 
-The parent of this DiagramCommentPossibleWatermark.
+The parent of this [`DiagramCommentPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/).
 
 ### Definition:
 ```python

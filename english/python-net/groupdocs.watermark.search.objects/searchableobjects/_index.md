@@ -14,7 +14,7 @@ weight: 50
 Specifies document objects that are to be included in a watermark search.
 
 Learn more:
-- [Searching watermarks](https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
+- https://docs.groupdocs.com/display/watermarknet/Searching+watermarks
 
 The SearchableObjects type exposes the following members:
 
@@ -36,26 +36,21 @@ The SearchableObjects type exposes the following members:
 ### Example
 
 ```python
-import os
-import groupdocs.watermark as gw
-import groupdocs.watermark.search as gws
-
-settings = gw.WatermarkerSettings()
-settings.searchable_objects = gws.SearchableObjects(
-    word_processing_searchable_objects=gws.WordProcessingSearchableObjects.HYPERLINKS
-    | gws.WordProcessingSearchableObjects.TEXT,
-    spreadsheet_searchable_objects=gws.SpreadsheetSearchableObjects.HEADERS_FOOTERS,
-    presentation_searchable_objects=gws.PresentationSearchableObjects.SLIDES_BACKGROUNDS
-    | gws.PresentationSearchableObjects.SHAPES,
-    diagram_searchable_objects=gws.DiagramSearchableObjects.NONE,
-    pdf_searchable_objects=gws.PdfSearchableObjects.ALL,
+from groupdocs.watermark import Watermarker, WatermarkerSettings
+from groupdocs.watermark.search.objects import (
+    SearchableObjects, WordProcessingSearchableObjects, PdfSearchableObjects,
 )
 
-files = ["document.docx", "spreadsheet.xlsx", "presentation.pptx", "diagram.vsdx", "document.pdf"]
-for file in files:
-    with gw.Watermarker(file, settings) as watermarker:
-        possible = watermarker.search()
-        print(f"In {os.path.basename(file)} found {possible.count} possible watermark(s).")
+settings = WatermarkerSettings()
+settings.searchable_objects = SearchableObjects(
+    word_processing_searchable_objects=WordProcessingSearchableObjects.HYPERLINKS
+    | WordProcessingSearchableObjects.TEXT,
+    pdf_searchable_objects=PdfSearchableObjects.ALL,
+)
+
+with Watermarker("./document.pdf", settings) as watermarker:
+    possible = watermarker.search()
+    print("Found", len(possible), "possible watermark(s)")
 ```
 
 ### Guides

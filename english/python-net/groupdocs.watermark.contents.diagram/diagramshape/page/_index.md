@@ -11,7 +11,7 @@ weight: 2070
 
 ## page property
 
-The parent page of this [`DiagramShape`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramshape/).
+The parent page of this DiagramShape.
 
 ### Definition:
 ```python

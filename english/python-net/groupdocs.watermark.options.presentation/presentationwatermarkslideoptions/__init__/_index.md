@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the PresentationWatermarkSlideOptions class.
+Initializes a new instance of the [`PresentationWatermarkSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/) class.
 
 ```python
 def __init__(self):
@@ -21,17 +21,24 @@ def __init__(self):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.presentation as ppt_opts
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.presentation import (
+    PresentationLoadOptions,
+    PresentationWatermarkSlideOptions,
+)
 
-load_options = gw.PresentationLoadOptions()
-with gw.Watermarker("presentation.pptx", load_options) as watermarker:
-    watermark = gww.TextWatermark("Sample watermark", gww.Font("Arial", 12))
-    options = ppt_opts.PresentationWatermarkSlideOptions()
+with Watermarker("./presentation.pptx", PresentationLoadOptions()) as watermarker:
+    watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 19.0))
+    watermark.foreground_color = Color.red
+    watermark.horizontal_alignment = HorizontalAlignment.CENTER
+    watermark.vertical_alignment = VerticalAlignment.CENTER
+
+    options = PresentationWatermarkSlideOptions()
     options.slide_index = 0
     watermarker.add(watermark, options)
-    watermarker.save("presentation.pptx")
+    watermarker.save("./output.pptx")
 ```
 
 ### See Also

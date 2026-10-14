@@ -16,7 +16,8 @@ GroupDocs.Watermark lets you control how a watermark looks and where it appears.
 
 Use [`TextWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark/) properties such as `foreground_color`, `opacity`, `rotate_angle`, `sizing_type`, `scale_factor`, `horizontal_alignment`, `vertical_alignment`, `x`, `y`, `width`, `height`, and `consider_parent_margins`. The example below scales a "DRAFT" watermark to the page, rotates it 45°, and makes it half-transparent.
 
-  
+{{< tabs "code-example-customize">}}
+{{< tab "customize_watermark.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.watermarks import TextWatermark, Font, Color, SizingType
@@ -40,16 +41,19 @@ def customize_watermark():
 if __name__ == "__main__":
     customize_watermark()
 ```
-
-  
+{{< /tab >}}
+{{< tab "sample.pdf" >}}  
 
 `sample.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/customize/sample.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "output.pdf" >}}  
 ```text
 Binary file (PDF, 351 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/customize/customize_watermark/output.pdf)
+{{< /tab >}}
+{{< /tabs >}}
 
 **Use case:** Apply branded or legal disclaimers in a consistent style across pages (for example, "Confidential – Do Not Distribute").
 
@@ -57,7 +61,8 @@ Binary file (PDF, 351 KB)
 
 Image watermarks support the same positioning, rotation, and opacity properties. Place a logo, stamp, or seal exactly where you need it:
 
-  
+{{< tabs "code-example-customize-image">}}
+{{< tab "customize_image_watermark.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.watermarks import ImageWatermark
@@ -76,13 +81,16 @@ def customize_image_watermark():
 if __name__ == "__main__":
     customize_image_watermark()
 ```
-
-  
+{{< /tab >}}
+{{< tab "sample.pdf" >}}  
 
 `sample.pdf` and `stamp.png` are the sample files used in this example. Download [sample.pdf](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/customize/sample.pdf) and [stamp.png](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/customize/stamp.png).
 
-  
+{{< /tab >}}
+{{< tab "output.pdf" >}}  
 ```text
 Binary file (PDF, 307 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/customize/customize_image_watermark/output.pdf)
+{{< /tab >}}
+{{< /tabs >}}

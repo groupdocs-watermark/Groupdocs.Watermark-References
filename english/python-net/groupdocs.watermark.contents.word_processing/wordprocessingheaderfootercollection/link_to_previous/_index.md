@@ -5,7 +5,7 @@ description: "Links or unlinks all headers and footers to the corresponding head
 type: docs
 url: /python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfootercollection/link_to_previous/
 is_root: false
-weight: 1010
+weight: 1030
 ---
 
 
@@ -26,14 +26,15 @@ def link_to_previous(self, is_link_to_previous):
 
 ```python
 import groupdocs.watermark as gw
-import groupdocs.watermark.contents.wordprocessing as wp
+from groupdocs.watermark.options.word_processing import WordProcessingLoadOptions
+import groupdocs.watermark.contents.word_processing as wp
 
-load_options = gw.WordProcessingLoadOptions()
+load_options = WordProcessingLoadOptions()
 with gw.Watermarker("document.docx", load_options) as watermarker:
-    content = watermarker.get_content(wp.WordProcessingContent)
+    content = watermarker.get_content()
     for i in range(1, content.sections.count):
         content.sections[i].headers_footers.link_to_previous(True)
-    watermarker.save("document.docx")
+    watermarker.save("output.docx")
 ```
 
 ### See Also

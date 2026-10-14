@@ -14,7 +14,7 @@ weight: 100
 Represents watermark adding options when adding watermark to a TIFF image.
 
 Learn more:
-- [Add watermarks to images](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
+- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images
 
 The TiffImageWatermarkOptions type exposes the following members:
 
@@ -22,7 +22,7 @@ The TiffImageWatermarkOptions type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/) | Initializes a new instance of the [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) class. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/#frame_index) | Initializes a new instance of [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) with a specified frame index. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/__init__/#frame_index) | Initializes a new [`TiffImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/tiffimagewatermarkoptions/) instance with a specified frame index. |
 
 ### Properties
 | Property | Description |
@@ -37,17 +37,22 @@ The TiffImageWatermarkOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.image as gwo_img
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.image import TiffImageLoadOptions, TiffImageWatermarkOptions
 
-load_options = gw.TiffImageLoadOptions()
-with gw.Watermarker("image.tiff", load_options) as watermarker:
-    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
-    options = gwo_img.TiffImageWatermarkOptions()
+with Watermarker("./image.tiff", TiffImageLoadOptions()) as watermarker:
+    watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 19.0))
+    watermark.foreground_color = Color.red
+    watermark.horizontal_alignment = HorizontalAlignment.CENTER
+    watermark.vertical_alignment = VerticalAlignment.CENTER
+
+    options = TiffImageWatermarkOptions()
     options.frame_index = 0
     watermarker.add(watermark, options)
-    watermarker.save("image.tiff")
+
+    watermarker.save("./output.tiff")
 ```
 
 ### See Also

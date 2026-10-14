@@ -11,7 +11,7 @@ weight: 2100
 
 ## x property
 
-The x-coordinate of this PossibleWatermark.
+The x-coordinate of this [`PossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/possiblewatermark/).
 
 ### Definition:
 ```python

@@ -11,7 +11,7 @@ weight: 2050
 
 ## width property
 
-The width of this [`PdfAnnotation`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfannotation/) in points.
+The width of this PdfAnnotation in points.
 
 ### Definition:
 ```python

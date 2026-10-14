@@ -24,7 +24,7 @@ The PresentationLoadOptions type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [file_type](/watermark/python-net/groupdocs.watermark.options/loadoptions/file_type/) | The file type, indicating its format (e.g., docx, pdf, xlsx, etc.). (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
+| [file_type](/watermark/python-net/groupdocs.watermark.options/loadoptions/file_type/) | The type of the file, indicating its format (e.g., docx, pdf, xlsx, etc.). (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
 | [format_family](/watermark/python-net/groupdocs.watermark.options/loadoptions/format_family/) | The format family of the document, indicating its type (e.g., Image, Pdf, Spreadsheet, etc.). (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
 | [password](/watermark/python-net/groupdocs.watermark.options/loadoptions/password/) | The password for opening an encrypted document. (inherited from [`LoadOptions`](/watermark/python-net/groupdocs.watermark.options/loadoptions/)) |
 
@@ -36,14 +36,12 @@ The PresentationLoadOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.presentation as gwc_ppt
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.presentation import PresentationLoadOptions
 
-load_options = gw.PresentationLoadOptions()
-with gw.Watermarker("presentation.pptx", load_options) as watermarker:
-    content = watermarker.get_content(gwc_ppt.PresentationContent)
-    print(content.slide_width)
-    print(content.slide_height)
+with Watermarker("./presentation.pptx", PresentationLoadOptions()) as watermarker:
+    # work with the document
+    pass
 ```
 
 ### See Also

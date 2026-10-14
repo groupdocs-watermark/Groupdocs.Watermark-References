@@ -18,16 +18,21 @@ def get_supported_file_types(cls):
     ...
 ```
 
-**Returns:** Iterable of supported file types.
+**Returns:** Iterable[FileType]: The sequence of the supported file types.
 
 ### Example
 
 ```python
     from groupdocs.watermark.common import FileType
 
-    supported = FileType.get_supported_file_types()
-    for ft in supported:
-        print(ft)
+    def list_supported_formats():
+        # Enumerate every file type the library can open
+        supported_file_types = FileType.get_supported_file_types()
+        for file_type in sorted(supported_file_types, key=lambda x: x.extension):
+            print(file_type)
+
+    if __name__ == "__main__":
+        list_supported_formats()
     ```
 
 ### See Also

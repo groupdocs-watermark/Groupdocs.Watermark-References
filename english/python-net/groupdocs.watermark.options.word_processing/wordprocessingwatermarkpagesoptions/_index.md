@@ -1,7 +1,7 @@
 ---
 title: WordProcessingWatermarkPagesOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Represents options when adding watermark to Word document pages."
+description: "Represents options when adding a watermark to Word document pages."
 type: docs
 url: /python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkpagesoptions/
 is_root: false
@@ -11,10 +11,10 @@ weight: 110
 
 ## WordProcessingWatermarkPagesOptions class
 
-Represents options when adding watermark to Word document pages.
+Represents options when adding a watermark to Word document pages.
 
 Learn more:
-- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents
+- Add watermarks to word processing documents: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+word+processing+documents
 
 The WordProcessingWatermarkPagesOptions type exposes the following members:
 
@@ -42,17 +42,18 @@ The WordProcessingWatermarkPagesOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.wordprocessing as gwo_wp
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.word_processing import WordProcessingLoadOptions, WordProcessingWatermarkPagesOptions
+from groupdocs.watermark.watermarks import TextWatermark, Font
 
-load_options = gw.WordProcessingLoadOptions()
-with gw.Watermarker("document.docx", load_options) as watermarker:
-    watermark = gww.TextWatermark("DRAFT", gww.Font("Arial", 42.0))
-    options = gwo_wp.WordProcessingWatermarkPagesOptions()
-    options.page_numbers = [1]  # target first page
+load_options = WordProcessingLoadOptions()
+with Watermarker(r"D:\test.doc", load_options) as watermarker:
+    watermark = TextWatermark("text", Font("Arial", 42))
+    options = WordProcessingWatermarkPagesOptions()
+    options.page_numbers = [1]
+
     watermarker.add(watermark, options)
-    watermarker.save("document.docx")
+    watermarker.save()
 ```
 
 ### See Also

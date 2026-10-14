@@ -11,7 +11,9 @@ weight: 2030
 
 ## rotate_angle property
 
-The rotate angle of this SpreadsheetHyperlinkPossibleWatermark in degrees. The value is always 0 for this type of possible watermark.
+The rotate angle of this [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/) in degrees.
+
+The value is always 0 for this type of possible watermark.
 
 ### Definition:
 ```python

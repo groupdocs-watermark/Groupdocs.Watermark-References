@@ -11,7 +11,7 @@ weight: 2010
 
 ## formatted_text_fragments property
 
-The collection of formatted text fragments of this [`PresentationShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshape/).
+The collection of formatted text fragments of this PresentationShape.
 
 ### Definition:
 ```python

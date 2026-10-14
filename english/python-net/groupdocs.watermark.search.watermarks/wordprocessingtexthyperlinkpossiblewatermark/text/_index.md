@@ -11,7 +11,7 @@ weight: 2040
 
 ## text property
 
-The URL of this WordProcessingTextHyperlinkPossibleWatermark.
+The URL of this [`WordProcessingTextHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/).
 
 ### Definition:
 ```python

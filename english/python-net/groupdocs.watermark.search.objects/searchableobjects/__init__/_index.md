@@ -21,18 +21,18 @@ def __init__(self):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search as gws
+from groupdocs.watermark import WatermarkerSettings
+from groupdocs.watermark.search.objects import (
+    SearchableObjects,
+    WordProcessingSearchableObjects,
+    PdfSearchableObjects,
+)
 
-settings = gw.WatermarkerSettings()
-settings.searchable_objects = gws.SearchableObjects(
-    word_processing_searchable_objects=gws.WordProcessingSearchableObjects.HYPERLINKS
-    | gws.WordProcessingSearchableObjects.TEXT,
-    spreadsheet_searchable_objects=gws.SpreadsheetSearchableObjects.HEADERS_FOOTERS,
-    presentation_searchable_objects=gws.PresentationSearchableObjects.SLIDES_BACKGROUNDS
-    | gws.PresentationSearchableObjects.SHAPES,
-    diagram_searchable_objects=gws.DiagramSearchableObjects.NONE,
-    pdf_searchable_objects=gws.PdfSearchableObjects.ALL,
+settings = WatermarkerSettings()
+settings.searchable_objects = SearchableObjects(
+    word_processing_searchable_objects=WordProcessingSearchableObjects.HYPERLINKS
+    | WordProcessingSearchableObjects.TEXT,
+    pdf_searchable_objects=PdfSearchableObjects.ALL,
 )
 ```
 

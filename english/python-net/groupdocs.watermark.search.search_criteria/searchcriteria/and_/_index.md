@@ -27,18 +27,20 @@ def and_(self, other):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import (
+    ImageDctHashSearchCriteria, TextSearchCriteria, RotateAngleSearchCriteria,
+)
 
-with gw.Watermarker("document.pdf") as watermarker:
-    image_criteria = gws_sc.ImageDctHashSearchCriteria("logo.png")
-    image_criteria.max_difference = 0.9
-    text_criteria = gws_sc.TextSearchCriteria("Company Name")
-    angle_criteria = gws_sc.RotateAngleSearchCriteria(30, 60)
+with Watermarker("./document.pdf") as watermarker:
+    image_criteria = ImageDctHashSearchCriteria("./logo.png")
+    text_criteria = TextSearchCriteria("CONFIDENTIAL")
+    angle_criteria = RotateAngleSearchCriteria(30, 60)
 
+    # Combine criteria: (image OR text) AND angle
     combined = image_criteria.or_(text_criteria).and_(angle_criteria)
-    possible = watermarker.search(combined)
-    print("Found", possible.count, "possible watermark(s)")
+    results = watermarker.search(combined)
+    print("Found", len(results), "possible watermark(s)")
 ```
 
 ### See Also

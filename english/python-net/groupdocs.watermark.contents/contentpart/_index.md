@@ -18,10 +18,10 @@ The ContentPart type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/#search_criteria) | Finds images according to the specified search criteria. |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds all images in the content. |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/#search_criteria) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds all images in the content, searching within the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). |
 | [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  |
-| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/#search_criteria) | Finds possible watermarks according to the specified search criteria. |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/#search_criteria) | Finds possible watermarks according to the specified search criteria. The search is performed on the objects listed in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). |
 | [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds all possible watermarks in the content. |
 | [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  |
 

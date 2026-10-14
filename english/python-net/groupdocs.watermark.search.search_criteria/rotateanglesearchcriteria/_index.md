@@ -14,7 +14,7 @@ weight: 120
 Represents criteria allowing filtering by watermark rotate angle.
 
 Learn more:
-- https://docs.groupdocs.com/display/watermarknet/Searching+watermarks
+- Searching watermarks (https://docs.groupdocs.com/display/watermarknet/Searching+watermarks)
 
 The RotateAngleSearchCriteria type exposes the following members:
 
@@ -28,8 +28,8 @@ The RotateAngleSearchCriteria type exposes the following members:
 | :- | :- |
 | [and_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_/) | Combines this SearchCriteria with other criteria using the logical AND operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [and_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/). (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this SearchCriteria. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using the logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [or_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 
 ### Properties
@@ -41,18 +41,17 @@ The RotateAngleSearchCriteria type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import RotateAngleSearchCriteria
 
-with gw.Watermarker("document.pdf") as watermarker:
-    image_criteria = gws_sc.ImageDctHashSearchCriteria("logo.png")
-    image_criteria.max_difference = 0.9
-    text_criteria = gws_sc.TextSearchCriteria("Company Name")
-    angle_criteria = gws_sc.RotateAngleSearchCriteria(30, 60)
+def search_by_angle():
+    with Watermarker("./document.pdf") as watermarker:
+        angle_criteria = RotateAngleSearchCriteria(30, 60)
+        possible = watermarker.search(angle_criteria)
+        print("Found", len(possible), "possible watermark(s)")
 
-    combined = image_criteria.or_(text_criteria).and_(angle_criteria)
-    possible = watermarker.search(combined)
-    print("Found", possible.count, "possible watermark(s)")
+if __name__ == "__main__":
+    search_by_angle()
 ```
 
 ### Guides

@@ -1,7 +1,7 @@
 ---
 title: PdfPreviewOptions class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Provides options to set requirements and stream delegates for preview generation of PDF documents."
+description: "Provides options to set requirements and stream delegates for preview generation of a PDF document."
 type: docs
 url: /python-net/groupdocs.watermark.options.pdf/pdfpreviewoptions/
 is_root: false
@@ -11,21 +11,21 @@ weight: 40
 
 ## PdfPreviewOptions class
 
-Provides options to set requirements and stream delegates for preview generation of PDF documents.
+Provides options to set requirements and stream delegates for preview generation of a PDF document.
 
 The PdfPreviewOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfpreviewoptions/__init__/#create_page_stream) | Initializes a new instance of the PdfPreviewOptions class, causing the output stream to be closed. |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfpreviewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new instance of [`PdfPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfpreviewoptions/) class causing the output stream to be returned to the client for further use. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfpreviewoptions/__init__/#create_page_stream) | Initializes a new instance of the [`PdfPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfpreviewoptions/) class causing the output stream to be closed. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfpreviewoptions/__init__/#create_page_stream-release_page_stream) | Initializes a new PdfPreviewOptions instance that returns the output stream to the client for further use. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
 | [resolution](/watermark/python-net/groupdocs.watermark.options.pdf/pdfpreviewoptions/resolution/) | The resolution for the generated images, in dots per inch. |
-| [create_page_stream](/watermark/python-net/groupdocs.watermark.options/previewoptions/create_page_stream/) | The page stream creation delegate. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [create_page_stream](/watermark/python-net/groupdocs.watermark.options/previewoptions/create_page_stream/) | The page stream creation delegate used to obtain a writable stream for each rendered page. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
 | [height](/watermark/python-net/groupdocs.watermark.options/previewoptions/height/) | The page preview height. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
 | [page_numbers](/watermark/python-net/groupdocs.watermark.options/previewoptions/page_numbers/) | The array of page numbers to generate previews. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
 | [preview_format](/watermark/python-net/groupdocs.watermark.options/previewoptions/preview_format/) | The preview image format. (inherited from [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |

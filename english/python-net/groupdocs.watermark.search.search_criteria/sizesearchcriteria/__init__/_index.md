@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__ {#dimension-min-max}
 
-Initializes a new instance of the [`SizeSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/sizesearchcriteria/) class with a specified dimension, a starting value and an ending value.
+Initializes a new instance of the SizeSearchCriteria class with a specified dimension, a starting value and an ending value.
 
 ```python
 def __init__(self, dimension, min, max):

@@ -11,7 +11,7 @@ weight: 2070
 
 ## pages_setup property
 
-The pages setup settings of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
+The pages setup settings of this Watermark.
 
 ### Definition:
 ```python

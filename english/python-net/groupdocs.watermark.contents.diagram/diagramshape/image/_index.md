@@ -11,7 +11,9 @@ weight: 2050
 
 ## image property
 
-The image of this DiagramShape. Returns None if the shape has no image.
+The image of this DiagramShape.
+
+Returns None if the shape has no image.
 
 ### Definition:
 ```python

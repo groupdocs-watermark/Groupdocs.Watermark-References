@@ -11,7 +11,7 @@ weight: 2010
 
 ## height property
 
-The height of this WordProcessingTextHyperlinkPossibleWatermark.
+The height of this [`WordProcessingTextHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/).
 
 ### Definition:
 ```python

@@ -5,7 +5,7 @@ description: "Result types produced by converter and processor methods."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks.results/
 is_root: false
-weight: 250
+weight: 260
 ---
 
 
@@ -17,7 +17,7 @@ Result types produced by converter and processor methods.
 | [`AddWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/addwatermarkresult/) | Represents the result of adding watermarks to a document. |
 | [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) | Represents the base class for a watermark result. |
 | [`ImageWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/) | Contains image watermark properties. |
-| [`TextWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/) | Contains text watermark properties. |
+| [`TextWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/textwatermarkresult/) | Contains Text watermark properties. |
 
 ### Enumerations
 | Enum | Description |

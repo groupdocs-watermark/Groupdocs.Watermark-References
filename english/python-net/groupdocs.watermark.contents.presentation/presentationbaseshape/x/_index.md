@@ -11,7 +11,9 @@ weight: 2080
 
 ## x property
 
-The horizontal offset of this PresentationBaseShape from the presentation left border in points.
+The horizontal offset of this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/) from the presentation left border in points.
+
+The x-coordinate of this [`PresentationBaseShape`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseshape/).
 
 ### Definition:
 ```python

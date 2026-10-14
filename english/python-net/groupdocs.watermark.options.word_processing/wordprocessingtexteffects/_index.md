@@ -18,7 +18,7 @@ The WordProcessingTextEffects type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/__init__/) | Initializes a new instance of the WordProcessingTextEffects class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/__init__/) | Initializes a new instance of the [`WordProcessingTextEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/) class. |
 
 ### Properties
 | Property | Description |
@@ -36,25 +36,26 @@ The WordProcessingTextEffects type exposes the following members:
 ```python
 import groupdocs.watermark as gw
 import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.wordprocessing as gwo_wp
+import groupdocs.watermark.options.word_processing as gwo_wp
 import groupdocs.watermark.common as gwc
+from groupdocs.watermark.contents import OfficeDashStyle, OfficeLineStyle
 
-load_options = gw.WordProcessingLoadOptions()
+load_options = gwo_wp.WordProcessingLoadOptions()
 with gw.Watermarker("document.docx", load_options) as watermarker:
     watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
 
     effects = gwo_wp.WordProcessingTextEffects()
     effects.line_format.enabled = True
     effects.line_format.color = gww.Color.red
-    effects.line_format.dash_style = gwc.OfficeDashStyle.DASH_DOT_DOT
-    effects.line_format.line_style = gwc.OfficeLineStyle.TRIPLE
+    effects.line_format.dash_style = OfficeDashStyle.DASH_DOT_DOT
+    effects.line_format.line_style = OfficeLineStyle.TRIPLE
     effects.line_format.weight = 1
 
     options = gwo_wp.WordProcessingWatermarkSectionOptions()
     options.effects = effects
 
     watermarker.add(watermark, options)
-    watermarker.save("document.docx")
+    watermarker.save("output.docx")
 ```
 
 ### See Also

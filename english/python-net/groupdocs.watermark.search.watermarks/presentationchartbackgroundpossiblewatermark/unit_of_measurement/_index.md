@@ -11,7 +11,7 @@ weight: 2030
 
 ## unit_of_measurement property
 
-The unit of measurement of this [`PresentationChartBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/).
+The unit of measurement of this PresentationChartBackgroundPossibleWatermark.
 
 ### Definition:
 ```python

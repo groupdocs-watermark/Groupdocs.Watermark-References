@@ -11,7 +11,7 @@ weight: 2110
 
 ## width property
 
-The width of this [`DiagramPage`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagrampage/) in points.
+The width of this DiagramPage in points.
 
 ### Definition:
 ```python

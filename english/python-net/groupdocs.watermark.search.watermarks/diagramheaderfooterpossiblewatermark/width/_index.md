@@ -11,7 +11,9 @@ weight: 2060
 
 ## width property
 
-The width of this DiagramHeaderFooterPossibleWatermark in points. The value is always 0 for this type of possible watermark.
+The width of this DiagramHeaderFooterPossibleWatermark in points.
+
+The value is always 0 for this type of possible watermark.
 
 ### Definition:
 ```python

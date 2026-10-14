@@ -18,7 +18,7 @@ The SpreadsheetSaveOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/__init__/) | Initializes a new [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/) instance. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/__init__/) | Initializes a new instance of the [`SpreadsheetSaveOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetsaveoptions/) class. |
 
 ### Fields
 | Field | Description |

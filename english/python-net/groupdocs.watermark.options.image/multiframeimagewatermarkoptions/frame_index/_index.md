@@ -13,7 +13,7 @@ weight: 2010
 
 The index of the frame to add a watermark.
 
-A value of -1 indicates that the watermark should be applied to all frames.
+-1 means all frames.
 
 ### Definition:
 ```python

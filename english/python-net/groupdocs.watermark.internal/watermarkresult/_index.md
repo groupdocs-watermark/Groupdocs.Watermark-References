@@ -18,8 +18,8 @@ The WatermarkResult type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/__init__/) | Initializes a new instance of [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/). |
-| [__init__](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/__init__/#source_document_size-processing_time-final_document_size-number_watermarks_applied) | Initializes a new instance of the [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/) class with specific values. |
+| [__init__](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/__init__/) | Initializes a new instance of the [`WatermarkResult`](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.internal/watermarkresult/__init__/#source_document_size-processing_time-final_document_size-number_watermarks_applied) | Initializes a new WatermarkResult instance with specific values. |
 
 ### Properties
 | Property | Description |

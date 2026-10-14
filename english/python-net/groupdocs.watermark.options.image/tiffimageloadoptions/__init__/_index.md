@@ -21,17 +21,10 @@ def __init__(self):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.image as gwo_img
+from groupdocs.watermark.options.image import TiffImageLoadOptions
 
-load_options = gw.TiffImageLoadOptions()
-with gw.Watermarker("image.tiff", load_options) as watermarker:
-    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 19.0))
-    options = gwo_img.TiffImageWatermarkOptions()
-    options.frame_index = 0
-    watermarker.add(watermark, options)
-    watermarker.save("image.tiff")
+# Create load options for a TIFF image
+load_options = TiffImageLoadOptions()
 ```
 
 ### See Also

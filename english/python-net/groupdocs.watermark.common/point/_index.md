@@ -18,7 +18,7 @@ The Point type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.common/point/__init__/#x-y) | Initializes a new instance of the [`Point`](/watermark/python-net/groupdocs.watermark.common/point/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.common/point/__init__/#x-y) | Initializes a new Point. |
 
 ### Properties
 | Property | Description |

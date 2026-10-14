@@ -18,17 +18,17 @@ The PresentationSlide type exposes the following members:
 ### Methods
 | Method | Description |
 | :- | :- |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
-| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. The search is performed on the objects listed in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [layout_slide](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/layout_slide/) | The layout slide for this [`PresentationSlide`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/). |
+| [layout_slide](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/layout_slide/) | The layout slide for this PresentationSlide. |
 | [master_slide](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/master_slide/) | The master slide for this PresentationSlide. |
-| [notes_slide](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/notes_slide/) | The notes slide for this [`PresentationSlide`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/). |
+| [notes_slide](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/notes_slide/) | The notes slide for this PresentationSlide. |
 | [charts](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseslide/charts/) | The collection of all charts on the presentation. (inherited from [`PresentationBaseSlide`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseslide/)) |
 | [image_fill_format](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseslide/image_fill_format/) | The image fill format settings of the presentation. (inherited from [`PresentationBaseSlide`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseslide/)) |
 | [shapes](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseslide/shapes/) | The collection of all shapes of the presentation. (inherited from [`PresentationBaseSlide`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationbaseslide/)) |

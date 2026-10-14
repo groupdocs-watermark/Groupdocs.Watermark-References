@@ -11,7 +11,7 @@ weight: 2020
 
 ## width property
 
-The width of this [`SystemDrawingImageFrame`](/watermark/python-net/groupdocs.watermark.contents.image/systemdrawingimageframe/) in pixels.
+The width of this SystemDrawingImageFrame in pixels.
 
 ### Definition:
 ```python

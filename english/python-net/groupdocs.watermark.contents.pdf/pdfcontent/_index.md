@@ -1,7 +1,7 @@
 ---
 title: PdfContent class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Represents a pdf document where a watermark can be placed."
+description: "Represents a PDF document where a watermark can be placed."
 type: docs
 url: /python-net/groupdocs.watermark.contents.pdf/pdfcontent/
 is_root: false
@@ -11,13 +11,13 @@ weight: 100
 
 ## PdfContent class
 
-Represents a pdf document where a watermark can be placed.
+Represents a PDF document where a watermark can be placed.
 
 Learn more:
-- Add watermarks to PDF documents: https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents
-- Existing objects in PDF document: https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document
-- Rasterize document or page: https://docs.groupdocs.com/display/watermarknet/Rasterize+document+or+page
-- Watermarks in PDF document: https://docs.groupdocs.com/display/watermarknet/Watermarks+in+PDF+document
+- [Add watermarks to PDF documents](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+PDF+documents)
+- [Existing objects in PDF document](https://docs.groupdocs.com/display/watermarknet/Existing+objects+in+PDF+document)
+- [Rasterize document or page](https://docs.groupdocs.com/display/watermarknet/Rasterize+document+or+page)
+- [Watermarks in PDF document](https://docs.groupdocs.com/display/watermarknet/Watermarks+in+PDF+document)
 
 The PdfContent type exposes the following members:
 
@@ -32,9 +32,9 @@ The PdfContent type exposes the following members:
 | [rasterize](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/rasterize/#horizontal_resolution-vertical_resolution-image_format) | Converts all content pages into images. |
 | [rasterize_int32](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfcontent/rasterize_int32/) |  |
 | [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
-| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. The search is performed on the objects listed in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
 ### Properties
@@ -47,14 +47,17 @@ The PdfContent type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.pdf as gwc_pdf
+from groupdocs.watermark import Watermarker
 
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
-    print(pdf_content.pages[0].width)
-    print(pdf_content.pages[0].height)
+# Load a PDF file
+watermarker = Watermarker("sample.pdf")
+
+# Retrieve the PDF content tree
+pdf_content = watermarker.get_content()
+
+# Iterate over pages and print their sizes
+for page in pdf_content.pages:
+    print(page.width, page.height)
 ```
 
 ### See Also

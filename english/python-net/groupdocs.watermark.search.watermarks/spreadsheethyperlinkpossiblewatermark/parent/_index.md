@@ -11,7 +11,7 @@ weight: 2020
 
 ## parent property
 
-The parent of this SpreadsheetHyperlinkPossibleWatermark.
+The parent of this [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/).
 
 ### Definition:
 ```python

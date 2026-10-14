@@ -11,7 +11,7 @@ weight: 2050
 
 ## margins property
 
-The margin settings of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
+The margin settings of this Watermark.
 
 ### Definition:
 ```python

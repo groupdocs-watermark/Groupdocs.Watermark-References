@@ -13,8 +13,6 @@ weight: 2060
 
 The horizontal offset of this SpreadsheetBackgroundPossibleWatermark from the worksheet left border in pixels.
 
-Represents the x-coordinate of this SpreadsheetBackgroundPossibleWatermark.
-
 ### Definition:
 ```python
 @property

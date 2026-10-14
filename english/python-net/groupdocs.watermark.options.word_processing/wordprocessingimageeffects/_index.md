@@ -18,40 +18,44 @@ The WordProcessingImageEffects type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingimageeffects/__init__/) | Initializes a new instance of the WordProcessingImageEffects class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingimageeffects/__init__/) | Initializes a new instance of the [`WordProcessingImageEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingimageeffects/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [border_line_format](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/border_line_format/) | The line format settings for the image border. Returns an instance of [`OfficeLineFormat`](/watermark/python-net/groupdocs.watermark.contents/officelineformat/) representing the shape line format. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
-| [brightness](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/brightness/) | The brightness of the picture. Must be a number from 0.0 (dimmest) to 1.0 (brightest). The default value is 0.5. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
-| [chroma_key](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/chroma_key/) | The color value of the image that will be treated as transparent. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
-| [contrast](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/contrast/) | The contrast for the specified picture. Must be a float between 0.0 (least contrast) and 1.0 (greatest contrast). Default is 0.5. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
-| [gray_scale](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/gray_scale/) | The property indicates whether a picture will be displayed in grayscale mode. The default value is False. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
+| [border_line_format](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/border_line_format/) | The line format settings for the image border. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
+| [brightness](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/brightness/) | The brightness of the picture. Must be a float between 0.0 (dimmest) and 1.0 (brightest). The default value is 0.5. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
+| [chroma_key](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/chroma_key/) | The color value of the image that will be treated as transparent. The default value is a fully transparent color. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
+| [contrast](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/contrast/) | The contrast for the specified picture. Must be a float between 0.0 (least contrast) and 1.0 (greatest contrast). The default value is 0.5. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
+| [gray_scale](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/gray_scale/) | The property indicates whether a picture will be displayed in grayscale mode. (inherited from [`OfficeImageEffects`](/watermark/python-net/groupdocs.watermark.contents/officeimageeffects/)) |
 
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.wordprocessing as gwo_wp
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import ImageWatermark, Color
+from groupdocs.watermark.options.word_processing import (
+    WordProcessingLoadOptions, WordProcessingWatermarkSectionOptions, WordProcessingImageEffects,
+)
 
-load_options = gw.WordProcessingLoadOptions()
-with gw.Watermarker("document.docx", load_options) as watermarker:
-    with gww.ImageWatermark("logo.png") as watermark:
-        effects = gwo_wp.WordProcessingImageEffects()
-        effects.brightness = 0.7
-        effects.contrast = 0.6
-        effects.chroma_key = gww.Color.red
-        effects.border_line_format.enabled = True
-        effects.border_line_format.weight = 1
+def add_watermark_with_effects():
+    with Watermarker("./document.docx", WordProcessingLoadOptions()) as watermarker:
+        with ImageWatermark("./logo.png") as watermark:
+            effects = WordProcessingImageEffects()
+            effects.brightness = 0.7
+            effects.contrast = 0.6
+            effects.chroma_key = Color.red
 
-        options = gwo_wp.WordProcessingWatermarkSectionOptions()
-        options.effects = effects
+            options = WordProcessingWatermarkSectionOptions()
+            options.name = "Shape 1"
+            options.alternative_text = "Company logo watermark"
+            options.effects = effects
+            watermarker.add(watermark, options)
 
-        watermarker.add(watermark, options)
+        watermarker.save("./output.docx")
 
-    watermarker.save("document.docx")
+if __name__ == "__main__":
+    add_watermark_with_effects()
 ```
 
 ### See Also

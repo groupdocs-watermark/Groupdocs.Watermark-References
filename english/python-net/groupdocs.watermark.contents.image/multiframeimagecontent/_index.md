@@ -19,15 +19,15 @@ The MultiframeImageContent type exposes the following members:
 | Method | Description |
 | :- | :- |
 | [dispose](/watermark/python-net/groupdocs.watermark.contents/content/dispose/) | Disposes the current instance. (inherited from [`Content`](/watermark/python-net/groupdocs.watermark.contents/content/)) |
-| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
-| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | Finds possible watermarks according to the specified search criteria. The search is performed on the objects listed in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/). (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 | [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) |  (inherited from [`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/)) |
 
 ### Properties
 | Property | Description |
 | :- | :- |
-| [frames](/watermark/python-net/groupdocs.watermark.contents.image/multiframeimagecontent/frames/) | The collection of all frames of the image. |
+| [frames](/watermark/python-net/groupdocs.watermark.contents.image/multiframeimagecontent/frames/) | The collection of all image frames. |
 | [height](/watermark/python-net/groupdocs.watermark.contents.image/imagecontent/height/) | The height of this ImageContent in pixels. (inherited from [`ImageContent`](/watermark/python-net/groupdocs.watermark.contents.image/imagecontent/)) |
 | [width](/watermark/python-net/groupdocs.watermark.contents.image/imagecontent/width/) | The width of this ImageContent in pixels. (inherited from [`ImageContent`](/watermark/python-net/groupdocs.watermark.contents.image/imagecontent/)) |
 

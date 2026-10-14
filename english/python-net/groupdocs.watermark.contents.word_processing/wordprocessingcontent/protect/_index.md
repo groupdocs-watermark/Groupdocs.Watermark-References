@@ -13,7 +13,7 @@ weight: 1050
 
 Protects the document from changes and sets a protection password.
 
-To have the content of the document editable use appropriate method of adding watermark with `WordProcessingLockType.allow_only_form_fields` or `WordProcessingLockType.read_only_with_editable_content` parameter.
+To have the content of the document editable, use the appropriate method of adding a watermark with `WordProcessingLockType.allow_only_form_fields` or `WordProcessingLockType.read_only_with_editable_content` parameter.
 
 ```python
 def protect(self, protection_type, password):
@@ -28,14 +28,15 @@ def protect(self, protection_type, password):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.wordprocessing as gwc_wp
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.word_processing import WordProcessingLoadOptions
+from groupdocs.watermark.contents.word_processing import WordProcessingProtectionType
 
-load_options = gw.WordProcessingLoadOptions()
-with gw.Watermarker("document.docx", load_options) as watermarker:
-    content = watermarker.get_content(gwc_wp.WordProcessingContent)
-    content.protect(gwc_wp.WordProcessingProtectionType.READ_ONLY, "7654321")
-    watermarker.save("document.docx")
+def protect_document():
+    with Watermarker("./document.docx", WordProcessingLoadOptions()) as watermarker:
+        content = watermarker.get_content()
+        content.protect(WordProcessingProtectionType.READ_ONLY, "p@ssw0rd")
+        watermarker.save("./output.docx")
 ```
 
 ### See Also

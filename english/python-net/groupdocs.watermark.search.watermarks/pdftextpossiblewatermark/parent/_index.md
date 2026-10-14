@@ -11,7 +11,7 @@ weight: 2030
 
 ## parent property
 
-The parent of this PdfTextPossibleWatermark.
+The parent of this [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/).
 
 ### Definition:
 ```python

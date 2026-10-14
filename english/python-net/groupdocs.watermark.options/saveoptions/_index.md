@@ -18,7 +18,7 @@ The SaveOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options/saveoptions/__init__/) | Initializes a new instance of the [`SaveOptions`](/watermark/python-net/groupdocs.watermark.options/saveoptions/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options/saveoptions/__init__/) | Initializes a new SaveOptions instance. |
 
 ### Fields
 | Field | Description |

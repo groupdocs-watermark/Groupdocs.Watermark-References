@@ -1,7 +1,7 @@
 ---
 title: scale_factor property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The scale factor of this Watermark."
+description: "The scale factor of this Watermark, defining how watermark size depends on parent size."
 type: docs
 url: /python-net/groupdocs.watermark/watermark/scale_factor/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2100
 
 ## scale_factor property
 
-The scale factor of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
+The scale factor of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/), defining how watermark size depends on parent size.
 
 The value must be between 0 and 1.
 

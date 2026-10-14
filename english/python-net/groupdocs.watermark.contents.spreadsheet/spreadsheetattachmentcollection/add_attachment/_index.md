@@ -20,35 +20,36 @@ def add_attachment(self, file_content, source_full_name, preview_image_content, 
 
 | Parameter | Type | Description |
 | :- | :- | :- |
-| file_content | `list[int]` | The content of the file to be attached. |
-| source_full_name | `str` | The full name of the attached file. The extension is used to determine the appropriate application to open the file. |
-| preview_image_content | `list[int]` | The attached file preview image as a byte array. |
-| x | `float` | The x-coordinate of the attachment frame (in points). |
-| y | `float` | The y-coordinate of the attachment frame (in points). |
-| width | `float` | The width of the attachment frame in points. |
-| height | `float` | The height of the attachment frame in points. |
+| file_content | `list[int]` | bytes containing the content of the file to be attached. |
+| source_full_name | `str` | str full name of the attached file (the extension is used to determine the appropriate application to open the file). |
+| preview_image_content | `list[int]` | bytes preview image of the attached file as a byte array. |
+| x | `float` | int x‑coordinate of the attachment frame (in points). |
+| y | `float` | int y‑coordinate of the attachment frame (in points). |
+| width | `float` | int width of the attachment frame (in points). |
+| height | `float` | int height of the attachment frame (in points). |
+
+**Returns:** None.
 
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.spreadsheet as gwc_xls
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.spreadsheet import SpreadsheetLoadOptions
 
-load_options = gw.SpreadsheetLoadOptions()
-with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
-    content = watermarker.get_content(gwc_xls.SpreadsheetContent)
-    worksheet = content.worksheets[0]
-    with open("document.docx", "rb") as f_doc, open("document_preview.png", "rb") as f_prev:
-        worksheet.attachments.add_attachment(
-            f_doc.read(),
-            "sample document.docx",
-            f_prev.read(),
-            50,
-            100,
-            200,
-            400,
-        )
-    watermarker.save("spreadsheet.xlsx")
+def add_attachment():
+    with Watermarker("./sample.xlsx", SpreadsheetLoadOptions()) as watermarker:
+        content = watermarker.get_content()
+        with open("./sample.docx", "rb") as f:
+            data = f.read()
+        with open("./preview.png", "rb") as f:
+            preview = f.read()
+        # Embed the file in the first worksheet, shown as its preview image
+        # at x=50, y=20 with a 100 x 120 frame
+        content.worksheets[0].attachments.add_attachment(data, "sample.docx", preview, 50, 20, 100, 120)
+        watermarker.save("./output.xlsx")
+
+if __name__ == "__main__":
+    add_attachment()
 ```
 
 ### See Also

@@ -1,7 +1,7 @@
 ---
 title: FormattedTextFragment class
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Represents an abstract base class for a fragment of formatted text in content."
+description: "The abstract base class for a fragment of formatted text in a content."
 type: docs
 url: /python-net/groupdocs.watermark.search/formattedtextfragment/
 is_root: false
@@ -11,7 +11,7 @@ weight: 30
 
 ## FormattedTextFragment class
 
-Represents an abstract base class for a fragment of formatted text in content.
+The abstract base class for a fragment of formatted text in a content.
 
 The FormattedTextFragment type exposes the following members:
 

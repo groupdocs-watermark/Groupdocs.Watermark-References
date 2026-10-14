@@ -18,7 +18,7 @@ def create_watermarker(self):
     ...
 ```
 
-**Returns:** An instance of the appropriate descendant of `Content`.
+**Returns:** The instance of appropriate descendant of `Content` class.
 
 ### Example
 
@@ -30,7 +30,7 @@ def create_watermarker(self):
     watermark = gww.TextWatermark("This is WaterMark on Attachment", gww.Font("Arial", 19.0))
 
     with gw.Watermarker("document.pdf") as watermarker:
-        pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+        pdf_content = watermarker.get_content()
         for attachment in pdf_content.attachments:
             with attachment.create_watermarker() as attached:
                 attached.add(watermark)
@@ -56,22 +56,23 @@ def create_watermarker(self, load_options):
 
 ```python
 import groupdocs.watermark as gw
+from groupdocs.watermark.options.pdf import PdfLoadOptions
 import groupdocs.watermark.contents.pdf as gwc_pdf
 import groupdocs.watermark.watermarks as gww
 from groupdocs.watermark.common import FileType
 
 watermark = gww.TextWatermark("This is WaterMark on Attachment", gww.Font("Arial", 19.0))
 
-load_options = gw.PdfLoadOptions()
+load_options = PdfLoadOptions()
 with gw.Watermarker("document.pdf", load_options) as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+    pdf_content = watermarker.get_content()
     for attachment in pdf_content.attachments:
         info = attachment.get_document_info()
         if info.file_type != FileType.UNKNOWN and not info.is_encrypted:
             with attachment.create_watermarker() as attached:
                 attached.add(watermark)
                 attached.save()
-    watermarker.save("document.pdf")
+    watermarker.save("output.pdf")
 ```
 
 ## create_watermarker {#load_options-watermarker_settings}
@@ -88,7 +89,7 @@ def create_watermarker(self, load_options, watermarker_settings):
 | load_options | `LoadOptions` | Additional options to use when loading an attachment content. |
 | watermarker_settings | `WatermarkerSettings` | Additional settings to use when working with loaded document. |
 
-**Returns:** An instance of a subclass of `Content` representing the loaded attachment content.
+**Returns:** The instance of appropriate descendant of `Content` class.
 
 ### Example
 
@@ -100,12 +101,12 @@ import groupdocs.watermark.watermarks as gww
 watermark = gww.TextWatermark("Sample watermark", gww.Font("Arial", 19.0))
 
 with gw.Watermarker("document.pdf") as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+    pdf_content = watermarker.get_content()
     for attachment in pdf_content.attachments:
         with attachment.create_watermarker() as attached:
             attached.add(watermark)
             attached.save()
-    watermarker.save("document.pdf")
+    watermarker.save("output.pdf")
 ```
 
 ### See Also

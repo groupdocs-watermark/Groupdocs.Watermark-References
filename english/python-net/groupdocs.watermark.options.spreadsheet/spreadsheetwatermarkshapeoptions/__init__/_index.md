@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/) class.
+Initializes a new instance of the SpreadsheetWatermarkShapeOptions class.
 
 ```python
 def __init__(self):
@@ -21,9 +21,10 @@ def __init__(self):
 ### Example
 
 ```python
-import groupdocs.watermark.options.spreadsheet as gwo_xls
+from groupdocs.watermark.options.spreadsheet import SpreadsheetWatermarkShapeOptions
 
-options = gwo_xls.SpreadsheetWatermarkShapeOptions()
+options = SpreadsheetWatermarkShapeOptions()
+options.worksheet_index = 0
 ```
 
 ### See Also

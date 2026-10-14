@@ -11,7 +11,9 @@ weight: 2030
 
 ## enabled property
 
-The property indicates whether a shape will be stroked. The default value is False.
+The property indicates whether a shape will be stroked.
+
+The default value is False.
 
 ### Definition:
 ```python

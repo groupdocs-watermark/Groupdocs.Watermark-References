@@ -13,7 +13,7 @@ weight: 2010
 
 The logger used for logging events and errors during watermarking.
 
-An instance of a class that implements [`ILogger`](/watermark/python-net/groupdocs.watermark.options/ilogger/) interface.
+Must be an instance implementing [`ILogger`](/watermark/python-net/groupdocs.watermark.options/ilogger/).
 
 ### Definition:
 ```python

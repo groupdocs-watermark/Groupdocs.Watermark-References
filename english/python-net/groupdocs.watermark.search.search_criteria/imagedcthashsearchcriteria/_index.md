@@ -13,25 +13,23 @@ weight: 40
 
 Represents a search criteria for finding images in a document.
 
-This search criteria uses DCT‑based perceptual image hash for calculating image similarity.
-
-- Learn more: https://docs.groupdocs.com/display/watermarknet/Searching+watermarks
+This search criteria uses DCT based perceptual image hash for calculating image similarity. Learn more: https://docs.groupdocs.com/display/watermarknet/Searching+watermarks
 
 The ImageDctHashSearchCriteria type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/imagedcthashsearchcriteria/__init__/#file_path) | Initializes a new instance of the ImageDctHashSearchCriteria class with a specified file path. |
-| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/imagedcthashsearchcriteria/__init__/#stream) | Initializes a new instance of the ImageDctHashSearchCriteria class with a specified stream. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/imagedcthashsearchcriteria/__init__/#file_path) | Initializes a new ImageDctHashSearchCriteria instance with a specified file path. |
+| [__init__](/watermark/python-net/groupdocs.watermark.search.search_criteria/imagedcthashsearchcriteria/__init__/#stream) | Initializes a new ImageDctHashSearchCriteria instance with the provided image stream. |
 
 ### Methods
 | Method | Description |
 | :- | :- |
 | [and_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_/) | Combines this SearchCriteria with other criteria using the logical AND operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [and_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/and_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/). (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
-| [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [not_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/not_/) | Negates this SearchCriteria. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
+| [or_](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_/) | Combines this SearchCriteria with other criteria using the logical OR operator. (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 | [or_search_criteria](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/or_search_criteria/) |  (inherited from [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/)) |
 
 ### Properties
@@ -43,15 +41,17 @@ The ImageDctHashSearchCriteria type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.search.search_criteria import ImageDctHashSearchCriteria
 
-with gw.Watermarker("watermarked-sample.docx") as watermarker:
-    criteria = gws_sc.ImageDctHashSearchCriteria("logo.png")
-    criteria.max_difference = 0.9
-    possible = watermarker.search(criteria)
-    possible.clear()
-    watermarker.save("clean-sample.docx")
+def clear_image_watermark():
+    with Watermarker("./watermarked-document.docx") as watermarker:
+        criteria = ImageDctHashSearchCriteria("./logo.png")
+        criteria.max_difference = 0.9
+        possible = watermarker.search(criteria)
+        for i in range(len(possible) - 1, -1, -1):
+            watermarker.remove(possible[i])
+        watermarker.save("./output.docx")
 ```
 
 ### Guides

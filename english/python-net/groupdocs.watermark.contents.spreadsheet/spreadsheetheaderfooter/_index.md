@@ -20,7 +20,7 @@ The SpreadsheetHeaderFooter type exposes the following members:
 | :- | :- |
 | [header_footer_type](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/header_footer_type/) | The type of this SpreadsheetHeaderFooter. |
 | [sections](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/sections/) | The collection of header/footer sections. |
-| [worksheet](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/worksheet/) | The parent worksheet of this SpreadsheetHeaderFooter. |
+| [worksheet](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/worksheet/) | The parent worksheet of this [`SpreadsheetHeaderFooter`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetheaderfooter/). |
 
 ### See Also
 * module [`groupdocs.watermark.contents.spreadsheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/)

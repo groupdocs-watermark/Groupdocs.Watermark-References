@@ -13,8 +13,6 @@ weight: 2040
 
 The name of the shape.
 
-The shape name.
-
 ### Definition:
 ```python
 @property

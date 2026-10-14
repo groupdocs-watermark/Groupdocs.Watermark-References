@@ -13,8 +13,7 @@ weight: 50
 
 Represents watermark adding options when adding shape watermark to a Visio document.
 
-Learn more:
-- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents
+- Add watermarks to diagram documents (https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
 
 The DiagramShapeWatermarkOptions type exposes the following members:
 
@@ -27,7 +26,7 @@ The DiagramShapeWatermarkOptions type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [placement_type](/watermark/python-net/groupdocs.watermark.options.diagram/diagramshapewatermarkoptions/placement_type/) | The value specifying to what pages a watermark should be added. |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If True, shape editing will be forbidden. (inherited from [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/)) |
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The property indicates whether editing of the shape in Visio is forbidden. (inherited from [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/)) |
 
 ### Fields
 | Field | Description |
@@ -37,19 +36,24 @@ The DiagramShapeWatermarkOptions type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.watermark import Watermarker, DiagramLoadOptions, TextWatermark, DiagramShapeWatermarkOptions, DiagramWatermarkPlacementType
-from System.Drawing import Font
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.diagram import DiagramShapeWatermarkOptions
+from groupdocs.watermark.contents.diagram import DiagramWatermarkPlacementType
 
-load_options = DiagramLoadOptions()
-with Watermarker(r"D:\test.vsdx", load_options) as watermarker:
-    watermark = TextWatermark("watermark test", Font("Arial", 42))
+def add_watermark_to_diagram():
+    with Watermarker("./diagram.vsdx") as watermarker:
+        watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 19.0))
+        watermark.foreground_color = Color.red
+        watermark.horizontal_alignment = HorizontalAlignment.CENTER
+        watermark.vertical_alignment = VerticalAlignment.CENTER
 
-    options = DiagramShapeWatermarkOptions()
-    options.IsLocked = True
-    options.PlacementType = DiagramWatermarkPlacementType.AllPages  # default
+        options = DiagramShapeWatermarkOptions()
+        options.placement_type = DiagramWatermarkPlacementType.BACKGROUND_PAGES
+        watermarker.add(watermark, options)
 
-    watermarker.add(watermark, options)
-    watermarker.save()
+        watermarker.save("./output.vsdx")
 ```
 
 ### See Also

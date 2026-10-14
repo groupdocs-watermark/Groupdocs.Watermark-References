@@ -11,7 +11,7 @@ weight: 2070
 
 ## x property
 
-The horizontal offset of this DiagramHeaderFooterPossibleWatermark from the page left border in points.
+The horizontal offset of this [`DiagramHeaderFooterPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/) from the page left border in points.
 
 The value is always 0 for this type of possible watermark.
 

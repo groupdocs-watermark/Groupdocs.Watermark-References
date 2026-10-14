@@ -11,9 +11,7 @@ weight: 1010
 
 ## find_images {#search_criteria}
 
-Finds images according to the specified search criteria.
-
-The search is conducted in the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/).
+Finds images according to the specified search criteria. The search is conducted in the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/).
 
 ```python
 def find_images(self, search_criteria):
@@ -24,69 +22,47 @@ def find_images(self, search_criteria):
 | :- | :- | :- |
 | search_criteria | `ImageSearchCriteria` | The search criteria to use. |
 
-**Returns:** An iterable collection of the found images.
+**Returns:** The collection of the found images.
 
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.common as gwc
-import groupdocs.watermark.contents.pdf as gwc_pdf
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font
+from groupdocs.watermark.options.word_processing import WordProcessingLoadOptions
 
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    watermark = gww.TextWatermark("Protected image", gww.Font("Arial", 8.0))
-    watermark.horizontal_alignment = gwc.HorizontalAlignment.CENTER
-    watermark.vertical_alignment = gwc.VerticalAlignment.CENTER
-    watermark.rotate_angle = 45
-    watermark.sizing_type = gww.SizingType.SCALE_TO_PARENT_DIMENSIONS
-    watermark.scale_factor = 1.0
-
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
-    images = pdf_content.pages[0].find_images()
-    for image in images:
+with Watermarker("./document.docx", WordProcessingLoadOptions()) as watermarker:
+    watermark = TextWatermark("Protected image", Font("Arial", 8.0))
+    content = watermarker.get_content()
+    for image in content.sections[0].find_images():
         image.add(watermark)
-
-    watermarker.save("document.pdf")
+    watermarker.save("./output.docx")
 ```
 
 ## find_images
 
-Finds all images in the content.
-
-The search is performed on the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/).
+Finds all images in the content, searching within the objects specified in [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/).
 
 ```python
 def find_images(self):
     ...
 ```
 
-**Returns:** Collection of the found images.
+**Returns:** The collection of the found images.
 
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.common as gwc
-import groupdocs.watermark.contents.pdf as gwc_pdf
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font
+from groupdocs.watermark.options.word_processing import WordProcessingLoadOptions
 
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    watermark = gww.TextWatermark("Protected image", gww.Font("Arial", 8.0))
-    watermark.horizontal_alignment = gwc.HorizontalAlignment.CENTER
-    watermark.vertical_alignment = gwc.VerticalAlignment.CENTER
-    watermark.rotate_angle = 45
-    watermark.sizing_type = gww.SizingType.SCALE_TO_PARENT_DIMENSIONS
-    watermark.scale_factor = 1.0
-
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
-    images = pdf_content.pages[0].find_images()
-    for image in images:
+with Watermarker("./document.docx", WordProcessingLoadOptions()) as watermarker:
+    watermark = TextWatermark("Protected image", Font("Arial", 8.0))
+    content = watermarker.get_content()
+    for image in content.sections[0].find_images():
         image.add(watermark)
-
-    watermarker.save("document.pdf")
+    watermarker.save("./output.docx")
 ```
 
 ### See Also

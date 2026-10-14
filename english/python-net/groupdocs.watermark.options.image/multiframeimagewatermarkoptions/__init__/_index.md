@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#frame_index}
 
-Initializes a new instance of the MultiframeImageWatermarkOptions class with a specified index of the frame.
+Initializes a new instance of the [`MultiframeImageWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.image/multiframeimagewatermarkoptions/) class with a specified index of the frame.
 
 ```python
 def __init__(self, frame_index):

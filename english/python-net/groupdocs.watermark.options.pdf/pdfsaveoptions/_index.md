@@ -18,7 +18,7 @@ The PdfSaveOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfsaveoptions/__init__/) | Initializes a new [`PdfSaveOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfsaveoptions/) instance. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.pdf/pdfsaveoptions/__init__/) | Initializes a new instance of the [`PdfSaveOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfsaveoptions/) class. |
 
 ### Fields
 | Field | Description |

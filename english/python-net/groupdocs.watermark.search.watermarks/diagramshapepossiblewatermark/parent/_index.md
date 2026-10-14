@@ -11,7 +11,7 @@ weight: 2010
 
 ## parent property
 
-The parent of this DiagramShapePossibleWatermark.
+The parent of this [`DiagramShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/).
 
 ### Definition:
 ```python

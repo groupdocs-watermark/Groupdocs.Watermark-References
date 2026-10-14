@@ -11,7 +11,7 @@ weight: 2050
 
 ## hyperlink property
 
-The hyperlink associated with this SpreadsheetShape.
+The hyperlink associated with this [`SpreadsheetShape`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetshape/).
 
 ### Definition:
 ```python

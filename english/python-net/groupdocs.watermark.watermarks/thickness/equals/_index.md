@@ -22,7 +22,7 @@ def equals(self, obj):
 | :- | :- | :- |
 | obj | `Any` | The `Thickness` to compare with the current `Thickness`. |
 
-**Returns:** bool: True if the specified `Thickness` is equal to the current `Thickness`; otherwise, False.
+**Returns:** bool: True if the specified `Thickness` is equal to the current one; otherwise, False.
 
 ### See Also
 * class [`Thickness`](/watermark/python-net/groupdocs.watermark.watermarks/thickness/)

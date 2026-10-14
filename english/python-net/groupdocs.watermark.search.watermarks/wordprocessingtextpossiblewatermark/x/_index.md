@@ -11,9 +11,7 @@ weight: 2080
 
 ## x property
 
-The horizontal offset of this [`WordProcessingTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/) from the document left border in points.
-
-The value is always 0 for this type of possible watermark.
+The horizontal offset of this [`WordProcessingTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/) from the document left border in points. The value is always 0 for this type of possible watermark.
 
 ### Definition:
 ```python

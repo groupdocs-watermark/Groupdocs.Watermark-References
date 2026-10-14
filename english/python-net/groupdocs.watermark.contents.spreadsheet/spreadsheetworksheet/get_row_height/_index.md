@@ -28,11 +28,12 @@ def get_row_height(self, row):
 
 ```python
     import groupdocs.watermark as gw
+    from groupdocs.watermark.options.spreadsheet import SpreadsheetLoadOptions
     import groupdocs.watermark.contents.spreadsheet as gwc_xls
 
-    load_options = gw.SpreadsheetLoadOptions()
+    load_options = SpreadsheetLoadOptions()
     with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
-        content = watermarker.get_content(gwc_xls.SpreadsheetContent)
+        content = watermarker.get_content()
         height = content.worksheets[0].get_row_height(0)
         print(height)
     ```

@@ -21,15 +21,15 @@ The PresentationWatermarkSlideOptions type exposes the following members:
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/__init__/) | Initializes a new instance of the PresentationWatermarkSlideOptions class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/__init__/) | Initializes a new instance of the [`PresentationWatermarkSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/) class. |
 
 ### Properties
 | Property | Description |
 | :- | :- |
 | [slide_index](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/slide_index/) | The index of the slide to add the watermark to. |
 | [alternative_text](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/alternative_text/) | The descriptive (alternative) text that will be associated with a shape. (inherited from [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/)) |
-| [effects](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects/) | The effects applied to the watermark, specified as a [`PresentationImageEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationimageeffects/) or [`PresentationTextEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationtexteffects/) instance. (inherited from [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/)) |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/is_locked/) | The property indicates whether editing of the shape in PowerPoint is forbidden. If True, shape editing is forbidden; by default False, the shape can be edited. (inherited from [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/)) |
+| [effects](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/effects/) | The effects to apply to the watermark, specified as a [`PresentationImageEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationimageeffects/) or [`PresentationTextEffects`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationtexteffects/) instance. (inherited from [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/)) |
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/is_locked/) | The property indicates whether editing of the shape in PowerPoint is forbidden. (inherited from [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/)) |
 | [name](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/name/) | The name of the shape. (inherited from [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/)) |
 | [protect_with_unreadable_characters](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/protect_with_unreadable_characters/) | The property indicating whether the text watermark characters are mixed with unreadable characters. (inherited from [`PresentationWatermarkBaseSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkbaseslideoptions/)) |
 
@@ -41,23 +41,25 @@ The PresentationWatermarkSlideOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.presentation as gwo_ppt
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.presentation import (
+    PresentationLoadOptions, PresentationWatermarkSlideOptions,
+)
 
-load_options = gw.PresentationLoadOptions()
-with gw.Watermarker("presentation.pptx", load_options) as watermarker:
-    text_wm = gww.TextWatermark("Test watermark", gww.Font("Arial", 8.0))
-    text_opts = gwo_ppt.PresentationWatermarkSlideOptions()
-    text_opts.slide_index = 0
-    watermarker.add(text_wm, text_opts)
+def add_watermark_to_slide():
+    with Watermarker("./presentation.pptx", PresentationLoadOptions()) as watermarker:
+        watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 19.0))
+        watermark.foreground_color = Color.red
+        watermark.horizontal_alignment = HorizontalAlignment.CENTER
+        watermark.vertical_alignment = VerticalAlignment.CENTER
 
-    with gww.ImageWatermark("logo.jpg") as img_wm:
-        img_opts = gwo_ppt.PresentationWatermarkSlideOptions()
-        img_opts.slide_index = 1
-        watermarker.add(img_wm, img_opts)
+        options = PresentationWatermarkSlideOptions()
+        options.slide_index = 0
+        watermarker.add(watermark, options)
 
-    watermarker.save("presentation.pptx")
+        watermarker.save("./output.pptx")
 ```
 
 ### See Also

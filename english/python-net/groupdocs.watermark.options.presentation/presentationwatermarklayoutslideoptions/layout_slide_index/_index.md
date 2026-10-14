@@ -1,7 +1,7 @@
 ---
 title: layout_slide_index property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The index of the layout slide to add the watermark to."
+description: "The index of layout slide to add the watermark to."
 type: docs
 url: /python-net/groupdocs.watermark.options.presentation/presentationwatermarklayoutslideoptions/layout_slide_index/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2010
 
 ## layout_slide_index property
 
-The index of the layout slide to add the watermark to.
+The index of layout slide to add the watermark to.
 
 -1 means all slides.
 

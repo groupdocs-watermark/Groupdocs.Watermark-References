@@ -11,7 +11,7 @@ weight: 2040
 
 ## master_slides property
 
-The collection of all master slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/).
+The collection of all master slides of this PresentationContent.
 
 ### Definition:
 ```python

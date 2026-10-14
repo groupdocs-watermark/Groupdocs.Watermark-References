@@ -13,7 +13,7 @@ weight: 2060
 
 The horizontal offset of this PresentationBackgroundPossibleWatermark from the slide left border in points.
 
-This is the x-coordinate of the watermark.
+The x-coordinate of this PresentationBackgroundPossibleWatermark.
 
 ### Definition:
 ```python

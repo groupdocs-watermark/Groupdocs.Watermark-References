@@ -11,7 +11,7 @@ weight: 2030
 
 ## notes_slide property
 
-The notes slide for this [`PresentationSlide`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslide/).
+The notes slide for this PresentationSlide.
 
 ### Definition:
 ```python

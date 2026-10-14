@@ -19,8 +19,8 @@ The Font type exposes the following members:
 | Constructor | Description |
 | :- | :- |
 | [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#font_family_name-size) | Initializes a new Font instance with the specified font family name and size. |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#font_family_name-size-style) | Initializes a new Font with the specified font family name, size, and style. |
-| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#font_family_name-folder_path-size) | Initializes a new Font instance with a custom font family name, the folder containing the TrueType font files, and a size. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#font_family_name-size-style) | Initializes a new Font instance with the specified font family name, size, and style. |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#font_family_name-folder_path-size) | Initializes a new Font instance with a custom font family name, a folder containing TrueType fonts, a size, and a style. |
 | [__init__](/watermark/python-net/groupdocs.watermark.watermarks/font/__init__/#font_family_name-folder_path-size-style) | Initializes a new Font instance with a custom font family name, the folder containing the TrueType font files, and a size. |
 
 ### Properties
@@ -31,18 +31,21 @@ The Font type exposes the following members:
 | [folder_path](/watermark/python-net/groupdocs.watermark.watermarks/font/folder_path/) | The folder that contains TrueType font files. |
 | [italic](/watermark/python-net/groupdocs.watermark.watermarks/font/italic/) | The font is italic. |
 | [size](/watermark/python-net/groupdocs.watermark.watermarks/font/size/) | The size of this Font. |
-| [strikeout](/watermark/python-net/groupdocs.watermark.watermarks/font/strikeout/) | The font specifies whether it has a horizontal line through the characters. |
-| [style](/watermark/python-net/groupdocs.watermark.watermarks/font/style/) | The style of this Font. |
-| [underline](/watermark/python-net/groupdocs.watermark.watermarks/font/underline/) | The font is underlined. Returns True if the font is underlined; otherwise, False. |
+| [strikeout](/watermark/python-net/groupdocs.watermark.watermarks/font/strikeout/) | The font specifies a horizontal line through the text. |
+| [style](/watermark/python-net/groupdocs.watermark.watermarks/font/style/) | The style information for this Font. |
+| [underline](/watermark/python-net/groupdocs.watermark.watermarks/font/underline/) | The font is underlined. |
 
 ### Example
 
 ```python
-from groupdocs.watermark.watermarks import Font
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
 
-fonts_folder = r"C:\CustomFonts"
-# Create a font using a custom TrueType font located in fonts_folder
-font = Font("CustomFontName", fonts_folder, 36.0)
+with Watermarker("document.pdf") as watermarker:
+    watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 48))
+    watermark.foreground_color = Color.red
+    watermarker.add(watermark)
+    watermarker.save("watermarked.pdf")
 ```
 
 ### Guides

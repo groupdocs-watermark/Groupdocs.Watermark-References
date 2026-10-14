@@ -11,7 +11,9 @@ weight: 2080
 
 ## image property
 
-The image of this [`WordProcessingShape`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshape/). Returns `None` if the shape has no image.
+The image of this WordProcessingShape.
+
+Returns None if the shape has no image.
 
 ### Definition:
 ```python

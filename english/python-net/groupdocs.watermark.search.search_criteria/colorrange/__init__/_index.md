@@ -18,9 +18,22 @@ def __init__(self):
     ...
 ```
 
+### Example
+
+```python
+from groupdocs.watermark.search.search_criteria import ColorRange
+
+# Create a default color range
+color_range = ColorRange()
+color_range.min_hue = -15
+color_range.max_hue = 15
+color_range.min_brightness = 0.01
+color_range.max_brightness = 0.99
+```
+
 ## __init__ {#exact_color}
 
-Initializes a new instance of the [`ColorRange`](/watermark/python-net/groupdocs.watermark.search.search_criteria/colorrange/) class with a specified exact color.
+Initializes a new instance of [`ColorRange`](/watermark/python-net/groupdocs.watermark.search.search_criteria/colorrange/) with a specified exact color.
 
 ```python
 def __init__(self, exact_color):

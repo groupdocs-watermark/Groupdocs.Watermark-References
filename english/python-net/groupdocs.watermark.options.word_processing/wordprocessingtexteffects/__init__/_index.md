@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of the WordProcessingTextEffects class.
+Initializes a new instance of the [`WordProcessingTextEffects`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingtexteffects/) class.
 
 ```python
 def __init__(self):
@@ -21,7 +21,7 @@ def __init__(self):
 ### Example
 
 ```python
-import groupdocs.watermark.options.wordprocessing as gwo_wp
+import groupdocs.watermark.options.word_processing as gwo_wp
 
 effects = gwo_wp.WordProcessingTextEffects()
 ```

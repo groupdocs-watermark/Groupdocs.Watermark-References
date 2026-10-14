@@ -11,7 +11,7 @@ weight: 2030
 
 ## master_notes_slide property
 
-The master slide for all notes slides of this PresentationContent.
+The master slide for all notes slides of this [`PresentationContent`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationcontent/).
 
 ### Definition:
 ```python

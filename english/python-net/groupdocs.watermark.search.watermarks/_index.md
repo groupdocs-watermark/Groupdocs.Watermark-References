@@ -5,7 +5,7 @@ description: "Types under groupdocs.watermark.search.watermarks."
 type: docs
 url: /python-net/groupdocs.watermark.search.watermarks/
 is_root: false
-weight: 230
+weight: 240
 ---
 
 
@@ -18,10 +18,16 @@ Types under `groupdocs.watermark.search.watermarks`.
 | [`DiagramHeaderFooterPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/) | Represents possible watermark in a Visio document header/footer. |
 | [`DiagramHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramhyperlinkpossiblewatermark/) | Represents possible hyperlink watermark in a Visio document. |
 | [`DiagramShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramshapepossiblewatermark/) | Represents possible shape watermark in a Visio document. |
+| [`EmailAttachedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailattachedimagepossiblewatermark/) | Represents possible image watermark in email message attachment. |
+| [`EmailBodyTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailbodytextpossiblewatermark/) | Represents possible watermark in email message body. |
+| [`EmailEmbeddedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailembeddedimagepossiblewatermark/) | Represents possible image watermark embedded to email message body. |
+| [`EmailHtmlBodyTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailhtmlbodytextpossiblewatermark/) | Represents possible watermark in email message html body. |
+| [`EmailSubjectTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailsubjecttextpossiblewatermark/) | Represents possible watermark in email message subject. |
 | [`EmailTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/) | Represents possible watermark in email message text fields. |
 | [`ImageInpaintingPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/imageinpaintingpossiblewatermark/) | Represents a manually specified image region that should be inpainted (filled using surrounding pixels). |
 | [`PdfAnnotationPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfannotationpossiblewatermark/) | Represents possible annotation watermark in a pdf document. |
-| [`PdfArtifactPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfartifactpossiblewatermark/) | Represents a possible artifact watermark in PDF content. |
+| [`PdfArtifactPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfartifactpossiblewatermark/) | Represents possible artifact watermark in a pdf content. |
+| [`PdfAttachedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfattachedimagepossiblewatermark/) | Represents possible image watermark in pdf document attachment. |
 | [`PdfHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfhyperlinkpossiblewatermark/) | Represents possible hyperlink watermark in a pdf document. |
 | [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/) | Represents possible watermark in a pdf document text. |
 | [`PdfVectorPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfvectorpossiblewatermark/) | Represents possible vector watermark in a pdf document. |
@@ -30,6 +36,7 @@ Types under `groupdocs.watermark.search.watermarks`.
 | [`PresentationChartBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationchartbackgroundpossiblewatermark/) | Represents possible background watermark in a PowerPoint chart. |
 | [`PresentationHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationhyperlinkpossiblewatermark/) | Represents possible hyperlink watermark in a PowerPoint document. |
 | [`PresentationShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationshapepossiblewatermark/) | Represents possible shape watermark in a PowerPoint document. |
+| [`SpreadsheetAttachedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetattachedimagepossiblewatermark/) | Represents possible image watermark in Excel document attachment. |
 | [`SpreadsheetBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/) | Represents possible background watermark in an Excel document. |
 | [`SpreadsheetCellPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/) | Represents possible cell watermark in an Excel document. |
 | [`SpreadsheetChartBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetchartbackgroundpossiblewatermark/) | Represents possible image watermark in Excel chart background. |
@@ -39,14 +46,3 @@ Types under `groupdocs.watermark.search.watermarks`.
 | [`WordProcessingShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingshapepossiblewatermark/) | Represents possible shape watermark in a Word document. |
 | [`WordProcessingTextHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtexthyperlinkpossiblewatermark/) | Represents possible hyperlink watermark in a Word document. |
 | [`WordProcessingTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/) | Represents possible watermark in a Word document text. |
-
-### Enumerations
-| Enum | Description |
-| :- | :- |
-| [`EmailAttachedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailattachedimagepossiblewatermark/) | Represents possible image watermark in email message attachment. |
-| [`EmailBodyTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailbodytextpossiblewatermark/) | Represents possible watermark in email message body. |
-| [`EmailEmbeddedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailembeddedimagepossiblewatermark/) | Represents possible image watermark embedded to email message body. |
-| [`EmailHtmlBodyTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailhtmlbodytextpossiblewatermark/) | Represents possible watermark in email message html body. |
-| [`EmailSubjectTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/emailsubjecttextpossiblewatermark/) | Represents possible watermark in email message subject. |
-| [`PdfAttachedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfattachedimagepossiblewatermark/) | Represents possible image watermark in pdf document attachment. |
-| [`SpreadsheetAttachedImagePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetattachedimagepossiblewatermark/) | Represents possible image watermark in Excel document attachment. |

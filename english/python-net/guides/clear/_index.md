@@ -16,7 +16,8 @@ You can search a document for existing watermarks and remove them. The example b
 
 Iterate the search results in reverse so removing an item does not shift the indexes still to visit, and call `remove()` for each match.
 
-  
+{{< tabs "code-example-clear">}}
+{{< tab "clear_watermark.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.search_criteria import TextSearchCriteria
@@ -32,16 +33,19 @@ def clear_watermark():
 if __name__ == "__main__":
     clear_watermark()
 ```
-
-  
+{{< /tab >}}
+{{< tab "watermarked-document.pdf" >}}  
 
 `watermarked-document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/clear/watermarked-document.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "output.pdf" >}}  
 ```text
 Binary file (PDF, 394 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/clear/clear_watermark/output.pdf)
+{{< /tab >}}
+{{< /tabs >}}
 
 **Use case:** Remove outdated labels such as "Draft" or "Internal Use Only" before sharing a document externally.
 
@@ -49,7 +53,8 @@ Binary file (PDF, 394 KB)
 
 Image watermarks can be found with perceptual hashing and removed the same way:
 
-  
+{{< tabs "code-example-clear-image">}}
+{{< tab "clear_image_watermark.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.search_criteria import ImageDctHashSearchCriteria
@@ -67,13 +72,16 @@ def clear_image_watermark():
 if __name__ == "__main__":
     clear_image_watermark()
 ```
-
-  
+{{< /tab >}}
+{{< tab "watermarked-document.docx" >}}  
 
 `watermarked-document.docx` and `logo.png` are the sample files used in this example. Download [watermarked-document.docx](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/clear/watermarked-document.docx) and [logo.png](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/clear/logo.png).
 
-  
+{{< /tab >}}
+{{< tab "output.docx" >}}  
 ```text
 Binary file (DOCX, 12 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/clear/clear_image_watermark/output.docx)
+{{< /tab >}}
+{{< /tabs >}}

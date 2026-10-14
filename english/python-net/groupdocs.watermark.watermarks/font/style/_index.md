@@ -1,7 +1,7 @@
 ---
 title: style property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The style of this Font."
+description: "The style information for this Font."
 type: docs
 url: /python-net/groupdocs.watermark.watermarks/font/style/
 is_root: false
@@ -11,7 +11,7 @@ weight: 2070
 
 ## style property
 
-The style of this Font.
+The style information for this Font.
 
 Default value is `FontStyle.regular` (normal text).
 

@@ -32,11 +32,14 @@ def __init__(self, file_path):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
+from groupdocs.watermark import Watermarker
 
-with gw.Watermarker("D:\\input.pdf") as watermarker:
-    # Use methods of Watermarker to add, search or remove watermarks.
-    watermarker.save("D:\\output.pdf")
+# Load a document.
+watermarker = Watermarker("./document.pdf")
+# Use Watermarker methods to add, search, or remove watermarks.
+
+# Save the document.
+watermarker.save("./output.pdf")
 ```
 
 ## __init__ {#file_path-options}
@@ -63,19 +66,20 @@ def __init__(self, file_path, options):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.pdf import PdfLoadOptions
 
-load_options = gw.PdfLoadOptions()
+load_options = PdfLoadOptions()
 load_options.password = "123"
 
-with gw.Watermarker(r"C:\Documents\test.pdf", load_options) as watermarker:
-    # work with the watermarker instance
+with Watermarker(r"C:\Documents\test.pdf", load_options) as watermarker:
+    # perform operations on the encrypted PDF
     pass
 ```
 
 ## __init__ {#file_path-settings}
 
-Initializes a new Watermarker instance with the specified document path and settings.
+Initializes a Watermarker with the specified document path and settings.
 
 Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
@@ -87,7 +91,7 @@ def __init__(self, file_path, settings):
 | Parameter | Type | Description |
 | :- | :- | :- |
 | file_path | `str` | The file path to load document from. |
-| settings | `WatermarkerSettings` | Additional settings to use when working with loaded document. |
+| settings | `WatermarkerSettings` | Additional settings to use when working with the loaded document. |
 
 | Raises | Description |
 | :- | :- |
@@ -97,16 +101,29 @@ def __init__(self, file_path, settings):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
+from groupdocs.watermark import Watermarker, WatermarkerSettings
+from groupdocs.watermark.search.objects import SearchableObjects
+from groupdocs.watermark.search.objects import WordProcessingSearchableObjects, SpreadsheetSearchableObjects, PresentationSearchableObjects, DiagramSearchableObjects, PdfSearchableObjects
 
-with gw.Watermarker("document.pdf") as watermarker:
-    # Perform operations such as searching for watermarks
+settings = WatermarkerSettings()
+settings.searchable_objects = SearchableObjects(
+    word_processing_searchable_objects=WordProcessingSearchableObjects.HYPERLINKS
+                     | WordProcessingSearchableObjects.TEXT,
+    spreadsheet_searchable_objects=SpreadsheetSearchableObjects.HEADERS_FOOTERS,
+    presentation_searchable_objects=PresentationSearchableObjects.SLIDES_BACKGROUNDS
+                  | PresentationSearchableObjects.SHAPES,
+    diagram_searchable_objects=DiagramSearchableObjects.NONE,
+    pdf_searchable_objects=PdfSearchableObjects.ALL,
+)
+
+with Watermarker("./document.pdf", settings) as watermarker:
+    # work with watermarker, e.g., search or remove watermarks
     pass
 ```
 
 ## __init__ {#file_path-options-settings}
 
-Initializes a new Watermarker with the specified document path, load options, and settings.
+Initializes a new Watermarker instance with the specified document path, load options, and settings.
 
 Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
@@ -129,29 +146,33 @@ def __init__(self, file_path, options, settings):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.search.searchcriteria as gws_sc
+from groupdocs.watermark import Watermarker, WatermarkerSettings
+from groupdocs.watermark.options.email import EmailLoadOptions
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
+from groupdocs.watermark.search.objects import SearchableObjects, EmailSearchableObjects
 
-settings = gw.WatermarkerSettings()
-settings.searchable_objects.email_searchable_objects = (
-    gw.EmailSearchableObjects.Subject |
-    gw.EmailSearchableObjects.HtmlBody |
-    gw.EmailSearchableObjects.PlainTextBody
-)
-
-load_options = gw.EmailLoadOptions()
-with gw.Watermarker(r"D:\\test.msg", load_options, settings) as watermarker:
-    criteria = gws_sc.TextSearchCriteria("test", False)
-    watermarks = watermarker.search(criteria)
-    watermarks.clear()
-    watermarker.save()
+def search_email():
+    settings = WatermarkerSettings()
+    settings.searchable_objects = SearchableObjects(
+        email_searchable_objects=(
+            EmailSearchableObjects.Subject
+            | EmailSearchableObjects.HtmlBody
+            | EmailSearchableObjects.PlainTextBody
+        )
+    )
+    load_options = EmailLoadOptions()
+    with Watermarker("./test.msg", load_options, settings) as watermarker:
+        criteria = TextSearchCriteria("test", False)
+        watermarks = watermarker.search(criteria)
+        watermarks.clear()
+        watermarker.save()
 ```
 
 ## __init__ {#document}
 
-Initializes a new Watermarker instance with the specified stream.
+Initializes a new instance of the Watermarker class with the specified stream.
 
-Learn more about loading documents.
+Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
 ```python
 def __init__(self, document):
@@ -170,20 +191,20 @@ def __init__(self, document):
 ### Example
 
 ```python
-import io
-import groupdocs.watermark as gw
+from groupdocs.watermark import Watermarker
 
-with open("D:/input.pdf", "rb") as input_stream, open("D:/output.pdf", "wb") as output_stream:
-    with gw.Watermarker(input_stream) as watermarker:
-        # Use methods of Watermarker to add, search, or remove watermarks.
-        watermarker.save(output_stream)
+def load_from_stream():
+    with open("input.pdf", "rb") as input_stream, open("output.pdf", "wb") as output_stream:
+        with Watermarker(input_stream) as watermarker:
+            # Use methods of Watermarker to add, search or remove watermarks.
+            watermarker.save(output_stream)
 ```
 
 ## __init__ {#document-options}
 
-Initializes a new instance of the Watermarker class with the specified stream and load options.
+Initializes a new Watermarker instance with the specified stream and load options.
 
-Learn more about loading documents at https://docs.groupdocs.com/display/watermarknet/Loading+documents.
+Learn more about loading documents.
 
 ```python
 def __init__(self, document, options):
@@ -203,19 +224,20 @@ def __init__(self, document, options):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.pdf import PdfLoadOptions
 
-load_options = gw.PdfLoadOptions()
-load_options.password = "123"
-with open(r"C:\Documents\test.pdf", "rb") as stream:
-    with gw.Watermarker(stream, load_options) as watermarker:
-        # work with the watermarker
+with open(r"C:\Documents\test.pdf", "rb") as file_stream:
+    load_options = PdfLoadOptions()
+    load_options.password = "123"
+    with Watermarker(file_stream, load_options) as watermarker:
+        # perform operations with watermarker
         pass
 ```
 
 ## __init__ {#document-settings}
 
-Initializes a new instance of the Watermarker class with the specified stream and settings.
+Initializes a new Watermarker instance with the specified stream and settings.
 
 Learn more about loading documents.
 
@@ -237,43 +259,31 @@ def __init__(self, document, settings):
 ### Example
 
 ```python
-import io
-import groupdocs.watermark as gw
-from groupdocs.watermark import (
-    WatermarkerSettings,
-    SearchableObjects,
-    WordProcessingSearchableObjects,
-    SpreadsheetSearchableObjects,
-    PresentationSearchableObjects,
-    DiagramSearchableObjects,
-    PdfSearchableObjects,
-)
+from groupdocs.watermark import Watermarker, WatermarkerSettings
+from groupdocs.watermark.search.objects import SearchableObjects
+from groupdocs.watermark.search.objects import WordProcessingSearchableObjects, SpreadsheetSearchableObjects, PresentationSearchableObjects, DiagramSearchableObjects, PdfSearchableObjects
 
-# Configure global searchable objects
 settings = WatermarkerSettings()
 settings.searchable_objects = SearchableObjects(
-    word_processing_searchable_objects=WordProcessingSearchableObjects.HYPERLINKS
-    | WordProcessingSearchableObjects.TEXT,
+    word_processing_searchable_objects=WordProcessingSearchableObjects.HYPERLINKS | WordProcessingSearchableObjects.TEXT,
     spreadsheet_searchable_objects=SpreadsheetSearchableObjects.HEADERS_FOOTERS,
-    presentation_searchable_objects=PresentationSearchableObjects.SLIDES_BACKGROUNDS
-    | PresentationSearchableObjects.SHAPES,
+    presentation_searchable_objects=PresentationSearchableObjects.SLIDES_BACKGROUNDS | PresentationSearchableObjects.SHAPES,
     diagram_searchable_objects=DiagramSearchableObjects.NONE,
     pdf_searchable_objects=PdfSearchableObjects.ALL,
 )
 
-# Process multiple files
-for file_path in ["doc1.pdf", "doc2.docx"]:
+for file_path in ["./document1.pdf", "./document2.docx"]:
     with open(file_path, "rb") as stream:
-        with gw.Watermarker(stream, settings) as watermarker:
-            # work with watermarker, e.g., search or add watermarks
-            pass
+        with Watermarker(stream, settings) as watermarker:
+            watermarks = watermarker.search()
+            # work with found watermarks
 ```
 
 ## __init__ {#document-options-settings}
 
-Initializes a new Watermarker instance with the specified document stream, load options, and settings.
+Initializes a new instance of the [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/) class with the specified stream, load options and settings.
 
-Learn more about loading documents: https://docs.groupdocs.com/display/watermarknet/Loading+documents.
+Learn more about loading documents at https://docs.groupdocs.com/display/watermarknet/Loading+documents.
 
 ```python
 def __init__(self, document, options, settings):
@@ -294,24 +304,27 @@ def __init__(self, document, options, settings):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
+from groupdocs.watermark import Watermarker, WatermarkerSettings
+from groupdocs.watermark.options.email import EmailLoadOptions
+from groupdocs.watermark.search.objects import SearchableObjects, EmailSearchableObjects
+from groupdocs.watermark.search.search_criteria import TextSearchCriteria
 
-# Configure searchable objects for email documents
-settings = gw.WatermarkerSettings()
-settings.searchable_objects = gw.SearchableObjects(
-    email_searchable_objects=gw.EmailSearchableObjects.Subject
-    | gw.EmailSearchableObjects.HtmlBody
-    | gw.EmailSearchableObjects.PlainTextBody
+settings = WatermarkerSettings()
+settings.searchable_objects = SearchableObjects(
+    email_searchable_objects=(
+        EmailSearchableObjects.Subject
+        | EmailSearchableObjects.HtmlBody
+        | EmailSearchableObjects.PlainTextBody
+    )
 )
 
-load_options = gw.EmailLoadOptions()
-
-with open(r"D:\test.msg", "rb") as stream:
-    with gw.Watermarker(stream, load_options, settings) as watermarker:
-        criteria = gw.TextSearchCriteria("test", False)
+load_options = EmailLoadOptions()
+with open("./test.msg", "rb") as stream:
+    with Watermarker(stream, load_options, settings) as watermarker:
+        criteria = TextSearchCriteria("test", False)
         watermarks = watermarker.search(criteria)
-        watermarks.clear()  # Remove found text fragments
-        watermarker.save()
+        watermarks.clear()
+        watermarker.save("./output.msg")
 ```
 
 ### See Also

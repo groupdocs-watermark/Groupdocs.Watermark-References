@@ -14,7 +14,7 @@ weight: 20
 Represents watermark adding options when adding a shape watermark to a particular page of a Visio document.
 
 Learn more:
-- [Add watermarks to diagram documents](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents)
+- https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+diagram+documents
 
 The DiagramPageWatermarkOptions type exposes the following members:
 
@@ -27,7 +27,7 @@ The DiagramPageWatermarkOptions type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [page_index](/watermark/python-net/groupdocs.watermark.options.diagram/diagrampagewatermarkoptions/page_index/) | The page index to add watermark to. |
-| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The lock state of the shape in Visio. If True, shape editing will be forbidden. (inherited from [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/)) |
+| [is_locked](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/is_locked/) | The property indicates whether editing of the shape in Visio is forbidden. (inherited from [`DiagramWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramwatermarkoptions/)) |
 
 ### Fields
 | Field | Description |
@@ -37,18 +37,19 @@ The DiagramPageWatermarkOptions type exposes the following members:
 ### Example
 
 ```python
-from groupdocs.watermark import Watermarker, DiagramLoadOptions, TextWatermark, DiagramPageWatermarkOptions, Font
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.diagram import DiagramPageWatermarkOptions
+from groupdocs.watermark.watermarks import TextWatermark, Font
 
-load_options = DiagramLoadOptions()
-with Watermarker(r"D:\test.vsdx", load_options) as watermarker:
-    watermark = TextWatermark("watermark test", Font("Arial", 42))
+with Watermarker("./diagram.vsdx") as watermarker:
+    watermark = TextWatermark("watermark test", Font("Arial", 42.0))
 
     options = DiagramPageWatermarkOptions()
     options.is_locked = True
     options.page_index = 0
 
     watermarker.add(watermark, options)
-    watermarker.save()
+    watermarker.save("./output.vsdx")
 ```
 
 ### See Also

@@ -11,7 +11,7 @@ weight: 2020
 
 ## page property
 
-The parent page of this [`PdfXObject`](/watermark/python-net/groupdocs.watermark.contents.pdf/pdfxobject/).
+The parent page of this PdfXObject.
 
 ### Definition:
 ```python

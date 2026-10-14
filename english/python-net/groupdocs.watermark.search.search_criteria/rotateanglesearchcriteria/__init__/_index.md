@@ -26,10 +26,10 @@ def __init__(self, min_angle, max_angle):
 ### Example
 
 ```python
-from groupdocs.watermark.search import searchcriteria as gws_sc
+from groupdocs.watermark.search.search_criteria import RotateAngleSearchCriteria
 
 # Search for watermarks rotated between 30 and 60 degrees
-angle_criteria = gws_sc.RotateAngleSearchCriteria(30, 60)
+angle_criteria = RotateAngleSearchCriteria(30, 60)
 ```
 
 ### See Also

@@ -13,9 +13,7 @@ weight: 70
 
 Provides methods required for retrieving basic document information.
 
-Learn more
-
-- [Get document info](https://docs.groupdocs.com/display/watermarknet/Get+document+info)
+Learn more: Get document info.
 
 The IDocumentInfo type exposes the following members:
 
@@ -23,7 +21,7 @@ The IDocumentInfo type exposes the following members:
 | Property | Description |
 | :- | :- |
 | [file_type](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/file_type/) | The file format description. |
-| [is_encrypted](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/is_encrypted/) | The document is encrypted and requires a password to open; returns True if encrypted, otherwise False. |
+| [is_encrypted](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/is_encrypted/) | The property indicates whether the document is encrypted and requires a password to open. |
 | [page_count](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/page_count/) | The total page count. |
 | [pages](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/pages/) | The collection of document pages descriptions. |
 | [size](/watermark/python-net/groupdocs.watermark.common/idocumentinfo/size/) | The document size in bytes. |
@@ -36,7 +34,7 @@ from groupdocs.watermark import Watermarker
 with Watermarker(r"D:\input.pdf") as watermarker:
     doc_info = watermarker.get_document_info()
     print(f"Document size: {doc_info.size}")
-    print(f"Document format: {doc_info.file_type.file_format}")
+    print(f"Document format: {doc_info.file_type.file_format_name}")
     print(f"Document contains {doc_info.page_count} pages")
 ```
 

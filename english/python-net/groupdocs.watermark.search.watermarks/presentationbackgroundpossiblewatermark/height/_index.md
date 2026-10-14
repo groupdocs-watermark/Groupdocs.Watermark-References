@@ -11,7 +11,7 @@ weight: 2010
 
 ## height property
 
-The height of this [`PresentationBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationbackgroundpossiblewatermark/) in points.
+The height of this PresentationBackgroundPossibleWatermark in points.
 
 ### Definition:
 ```python

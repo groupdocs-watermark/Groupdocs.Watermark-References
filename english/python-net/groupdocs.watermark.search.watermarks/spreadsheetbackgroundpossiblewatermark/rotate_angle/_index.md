@@ -11,7 +11,7 @@ weight: 2030
 
 ## rotate_angle property
 
-The rotate angle of this SpreadsheetBackgroundPossibleWatermark in degrees.
+The rotate angle of this [`SpreadsheetBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/) in degrees.
 
 ### Definition:
 ```python

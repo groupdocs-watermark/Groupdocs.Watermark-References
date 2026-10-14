@@ -5,7 +5,7 @@ description: "Types under groupdocs.watermark.search.searchcriteria."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/
 is_root: false
-weight: 220
+weight: 230
 ---
 
 
@@ -22,16 +22,12 @@ Types under `groupdocs.watermark.search.search_criteria`.
 | [`ImageThumbnailSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/imagethumbnailsearchcriteria/) | Represents search criteria for finding images in a content. |
 | [`IsImageSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/isimagesearchcriteria/) | Represents search criteria for filtering image watermarks only. |
 | [`IsTextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/istextsearchcriteria/) | Represents search criteria for filtering text watermarks only. |
+| [`NotSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/notsearchcriteria/) | Represents NOT composite search criteria. |
 | [`OrSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/orsearchcriteria/) | Represents OR composite search criteria. |
 | [`PageSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/pagesearchcriteria/) | Represents criteria allowing filtering by page number. |
 | [`RotateAngleSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/rotateanglesearchcriteria/) | Represents criteria allowing filtering by watermark rotate angle. |
-| [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/) | Represents criteria used to search for watermarks. |
+| [`SearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/searchcriteria/) | Constructs criteria for searching watermarks. |
 | [`SizeSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/sizesearchcriteria/) | Represents criteria allowing filtering by watermark size. |
 | [`TextFormattingSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/textformattingsearchcriteria/) | Represents criteria allowing filtering by text formatting. |
 | [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/) | Represents criteria allowing filtering by watermark text. |
 | [`VectorSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/vectorsearchcriteria/) | Represents criteria allowing filtering by watermark color. |
-
-### Enumerations
-| Enum | Description |
-| :- | :- |
-| [`NotSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/notsearchcriteria/) | Represents NOT composite search criteria. |

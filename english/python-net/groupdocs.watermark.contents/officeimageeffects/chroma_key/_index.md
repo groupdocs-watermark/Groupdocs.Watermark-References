@@ -11,9 +11,7 @@ weight: 2030
 
 ## chroma_key property
 
-The color value of the image that will be treated as transparent.
-
-The default value is a fully transparent color.
+The color value of the image that will be treated as transparent. The default value is a fully transparent color.
 
 ### Definition:
 ```python

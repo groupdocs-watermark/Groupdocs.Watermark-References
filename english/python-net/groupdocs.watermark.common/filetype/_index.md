@@ -13,19 +13,15 @@ weight: 40
 
 Represents file type.
 
-This class provides methods to obtain the list of all file types supported by GroupDocs.Watermark.
-
-- Supported Document Formats: https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats
-- Get supported file formats: https://docs.groupdocs.com/display/watermarknet/Get+supported+file+formats
-- Get document info: https://docs.groupdocs.com/display/watermarknet/Get+document+info
+Provides methods to obtain a list of all file types supported by [`GroupDocs.Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
 
 The FileType type exposes the following members:
 
 ### Methods
 | Method | Description |
 | :- | :- |
-| [equals](/watermark/python-net/groupdocs.watermark.common/filetype/equals/#other) | Checks whether the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) is the same as the specified [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) object. |
-| [equals](/watermark/python-net/groupdocs.watermark.common/filetype/equals/#obj) | Determines whether the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) is the same as the specified object. |
+| [equals](/watermark/python-net/groupdocs.watermark.common/filetype/equals/#other) | Determines whether the current [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) is the same as the specified [`FileType`](/watermark/python-net/groupdocs.watermark.common/filetype/) object. |
+| [equals](/watermark/python-net/groupdocs.watermark.common/filetype/equals/#obj) | Determines whether the current FileType is the same as the specified object. |
 | [equals_file_type](/watermark/python-net/groupdocs.watermark.common/filetype/equals_file_type/) |  |
 | [equals_object](/watermark/python-net/groupdocs.watermark.common/filetype/equals_object/) |  |
 | [from_extension](/watermark/python-net/groupdocs.watermark.common/filetype/from_extension/#extension) | Maps the file extension to the file type. |
@@ -107,9 +103,14 @@ The FileType type exposes the following members:
 ```python
 from groupdocs.watermark.common import FileType
 
-supported = FileType.get_supported_file_types()
-for ft in supported:
-    print(ft)
+def list_supported_formats():
+    # Enumerate every file type the library can open
+    supported_file_types = FileType.get_supported_file_types()
+    for file_type in sorted(supported_file_types, key=lambda x: x.extension):
+        print(file_type)
+
+if __name__ == "__main__":
+    list_supported_formats()
 ```
 
 ### Guides

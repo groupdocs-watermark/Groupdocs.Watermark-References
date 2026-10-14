@@ -13,9 +13,11 @@ weight: 10
 
 Represents a file attached to a document.
 
-- Email attachments: https://docs.groupdocs.com/display/watermarknet/Email+attachments
-- Attachments in PDF document: https://docs.groupdocs.com/display/watermarknet/Attachments+in+PDF+document
-- Working with spreadsheet document attachments: https://docs.groupdocs.com/display/watermarknet/Working+with+spreadsheet+document+attachments
+Learn more
+
+- https://docs.groupdocs.com/display/watermarknet/Email+attachments
+- https://docs.groupdocs.com/display/watermarknet/Attachments+in+PDF+document
+- https://docs.groupdocs.com/display/watermarknet/Working+with+spreadsheet+document+attachments
 
 The Attachment type exposes the following members:
 
@@ -26,7 +28,7 @@ The Attachment type exposes the following members:
 | [create_watermarker](/watermark/python-net/groupdocs.watermark.common/attachment/create_watermarker/#load_options) | Loads a content from the attached file with the specified load options. |
 | [create_watermarker](/watermark/python-net/groupdocs.watermark.common/attachment/create_watermarker/#load_options-watermarker_settings) | Loads a content from the attached file with the specified load options and settings. |
 | [create_watermarker_load_options](/watermark/python-net/groupdocs.watermark.common/attachment/create_watermarker_load_options/) |  |
-| [get_document_info](/watermark/python-net/groupdocs.watermark.common/attachment/get_document_info/) | Retrieves information about the document stored in the attached file. |
+| [get_document_info](/watermark/python-net/groupdocs.watermark.common/attachment/get_document_info/) | Retrieves the information about a document stored in the attached file. |
 
 ### Properties
 | Property | Description |
@@ -37,21 +39,22 @@ The Attachment type exposes the following members:
 
 ```python
 import groupdocs.watermark as gw
+from groupdocs.watermark.options.pdf import PdfLoadOptions
 import groupdocs.watermark.contents.pdf as gwc_pdf
 import groupdocs.watermark.watermarks as gww
 from groupdocs.watermark.common import FileType
 
 watermark = gww.TextWatermark("This is WaterMark on Attachment", gww.Font("Arial", 19.0))
-load_options = gw.PdfLoadOptions()
+load_options = PdfLoadOptions()
 with gw.Watermarker("document.pdf", load_options) as watermarker:
-    pdf_content = watermarker.get_content(gwc_pdf.PdfContent)
+    pdf_content = watermarker.get_content()
     for attachment in pdf_content.attachments:
         info = attachment.get_document_info()
         if info.file_type != FileType.UNKNOWN and not info.is_encrypted:
             with attachment.create_watermarker() as attached:
                 attached.add(watermark)
                 attached.save()
-    watermarker.save("document.pdf")
+    watermarker.save("output.pdf")
 ```
 
 ### See Also

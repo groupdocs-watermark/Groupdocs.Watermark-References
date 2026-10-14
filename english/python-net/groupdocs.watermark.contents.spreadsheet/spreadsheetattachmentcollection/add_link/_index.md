@@ -1,7 +1,7 @@
 ---
 title: add_link method
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Adds an attachment by a link; the document will not contain the attached file content."
+description: "Adds an attachment by a link (the document will not contain attached file content)."
 type: docs
 url: /python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachmentcollection/add_link/
 is_root: false
@@ -11,7 +11,7 @@ weight: 1050
 
 ## add_link {#source_full_name-preview_image_content-x-y-width-height}
 
-Adds an attachment by a link; the document will not contain the attached file content.
+Adds an attachment by a link (the document will not contain attached file content).
 
 ```python
 def add_link(self, source_full_name, preview_image_content, x, y, width, height):
@@ -31,11 +31,12 @@ def add_link(self, source_full_name, preview_image_content, x, y, width, height)
 
 ```python
 import groupdocs.watermark as gw
+from groupdocs.watermark.options.spreadsheet import SpreadsheetLoadOptions
 import groupdocs.watermark.contents.spreadsheet as gwc_xls
 
-load_options = gw.SpreadsheetLoadOptions()
+load_options = SpreadsheetLoadOptions()
 with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
-    content = watermarker.get_content(gwc_xls.SpreadsheetContent)
+    content = watermarker.get_content()
     worksheet = content.worksheets[0]
     with open("document_preview.png", "rb") as f_prev:
         worksheet.attachments.add_link(
@@ -46,7 +47,7 @@ with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
             200,
             400,
         )
-    watermarker.save("spreadsheet.xlsx")
+    watermarker.save("output.xlsx")
 ```
 
 ### See Also

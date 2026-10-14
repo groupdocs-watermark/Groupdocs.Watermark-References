@@ -11,7 +11,7 @@ weight: 10
 
 ## __init__
 
-Initializes a new instance of [`WatermarkerSettings`](/watermark/python-net/groupdocs.watermark/watermarkersettings/).
+Initializes a new instance of WatermarkerSettings.
 
 ```python
 def __init__(self):

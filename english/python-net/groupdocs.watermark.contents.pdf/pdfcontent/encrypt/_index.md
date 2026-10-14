@@ -22,7 +22,16 @@ def encrypt(self, password):
 | :- | :- | :- |
 | password | `str` | User and owner password. |
 
-**Returns:** None.
+### Example
+
+```python
+from groupdocs.watermark import Watermarker
+
+watermarker = Watermarker("sample.pdf")
+pdf_content = watermarker.get_content()
+pdf_content.encrypt("myPassword")
+watermarker.save("encrypted.pdf")
+```
 
 ## encrypt {#user_password-owner_password-permissions-crypto_algorithm}
 

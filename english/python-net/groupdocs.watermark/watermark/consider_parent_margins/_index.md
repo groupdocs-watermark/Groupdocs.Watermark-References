@@ -11,7 +11,7 @@ weight: 2010
 
 ## consider_parent_margins property
 
-The property indicating whether the watermark size and coordinates are calculated considering parent margins. If set to True, calculations consider parent margins; otherwise, margins are ignored (default is False).
+The property indicating whether the watermark size and coordinates are calculated considering parent margins. If set to True, calculations consider parent margins; by default the value is False and parent margins are ignored.
 
 ### Definition:
 ```python

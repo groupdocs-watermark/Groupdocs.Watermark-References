@@ -11,7 +11,9 @@ weight: 2070
 
 ## min_saturation property
 
-The starting saturation value. The saturation ranges from 0.0 through 1.0, where 0.0 is grayscale and 1.0 is the most saturated.
+The starting saturation value.
+
+The saturation ranges from 0.0 through 1.0, where 0.0 is grayscale and 1.0 is the most saturated.
 
 ### Definition:
 ```python

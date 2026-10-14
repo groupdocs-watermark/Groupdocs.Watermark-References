@@ -11,7 +11,7 @@ weight: 2010
 
 ## height property
 
-The height of this WatermarkableImage in pixels.
+The height of this [`WatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/) in pixels.
 
 ### Definition:
 ```python

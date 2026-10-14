@@ -11,7 +11,7 @@ weight: 2030
 
 ## shapes property
 
-The collection of all shapes contained in this WordProcessingSection.
+The collection of all shapes contained in this [`WordProcessingSection`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingsection/).
 
 ### Definition:
 ```python

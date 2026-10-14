@@ -11,7 +11,7 @@ weight: 2070
 
 ## width property
 
-The width of this SpreadsheetCellPossibleWatermark in points.
+The width of this [`SpreadsheetCellPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/) in points.
 
 ### Definition:
 ```python

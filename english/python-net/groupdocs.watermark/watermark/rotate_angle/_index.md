@@ -11,7 +11,7 @@ weight: 2080
 
 ## rotate_angle property
 
-The rotate angle of this Watermark in degrees.
+The rotate angle of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/) in degrees.
 
 ### Definition:
 ```python

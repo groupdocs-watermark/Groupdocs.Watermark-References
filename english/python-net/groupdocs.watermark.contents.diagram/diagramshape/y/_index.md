@@ -13,6 +13,8 @@ weight: 2120
 
 The vertical offset of this DiagramShape from the page bottom border in points.
 
+The y-coordinate of this DiagramShape.
+
 ### Definition:
 ```python
 @property

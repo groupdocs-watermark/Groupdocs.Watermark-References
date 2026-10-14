@@ -5,7 +5,7 @@ description: "Product-root exception for 'watermark' — every"
 type: docs
 url: /python-net/groupdocs.watermark/groupdocswatermarkexception/
 is_root: false
-weight: 40
+weight: 10
 ---
 
 

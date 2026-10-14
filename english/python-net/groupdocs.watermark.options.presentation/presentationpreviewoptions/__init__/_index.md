@@ -24,7 +24,7 @@ def __init__(self, create_page_stream):
 
 ## __init__ {#create_page_stream-release_page_stream}
 
-Initializes a new instance of [`PresentationPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationpreviewoptions/) class causing the output stream to be returned to the client for further use.
+Initializes a new instance of [`PresentationPreviewOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationpreviewoptions/) causing the output stream to be returned to the client for further use.
 
 ```python
 def __init__(self, create_page_stream, release_page_stream):

@@ -36,22 +36,19 @@ The PdfArtifactWatermarkOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.pdf as gwo_pdf
-import groupdocs.watermark.common as gwc
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import ImageWatermark
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.pdf import PdfLoadOptions, PdfArtifactWatermarkOptions
 
-load_options = gw.PdfLoadOptions()
-with gw.Watermarker("document.pdf", load_options) as watermarker:
-    watermark = gww.ImageWatermark("icon.png")
-    watermark.horizontal_alignment = gwc.HorizontalAlignment.RIGHT
-    watermark.vertical_alignment = gwc.VerticalAlignment.BOTTOM
-
-    options = gwo_pdf.PdfArtifactWatermarkOptions()
-    options.page_index = -1  # default: all pages
-
-    watermarker.add(watermark, options)
-    watermarker.save("document.pdf")
+with Watermarker("./test.pdf", PdfLoadOptions()) as watermarker:
+    with ImageWatermark("./icon.png") as watermark:
+        watermark.horizontal_alignment = HorizontalAlignment.RIGHT
+        watermark.vertical_alignment = VerticalAlignment.BOTTOM
+        options = PdfArtifactWatermarkOptions()
+        options.page_index = -1  # default: all pages
+        watermarker.add(watermark, options)
+        watermarker.save()
 ```
 
 ### See Also

@@ -1,15 +1,15 @@
 ---
 title: groupdocs.watermark.options
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Option classes for configuring conversions and operations."
+description: "Option classes that configure the API's operations."
 type: docs
 url: /python-net/groupdocs.watermark.options/
 is_root: false
-weight: 120
+weight: 130
 ---
 
 
-Option classes for configuring conversions and operations.
+Option classes that configure the API's operations.
 
 ### Classes
 | Class | Description |

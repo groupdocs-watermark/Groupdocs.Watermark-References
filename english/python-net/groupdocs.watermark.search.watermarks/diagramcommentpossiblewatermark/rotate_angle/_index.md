@@ -11,7 +11,9 @@ weight: 2030
 
 ## rotate_angle property
 
-The rotate angle of this [`DiagramCommentPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/diagramcommentpossiblewatermark/) in degrees. The value is always 0 for this type of possible watermark.
+The rotate angle of this DiagramCommentPossibleWatermark in degrees.
+
+The value is always 0 for this type of possible watermark.
 
 ### Definition:
 ```python

@@ -16,7 +16,8 @@ Use `Watermarker.search()` to scan a document for objects that can be treated as
 
 The example below searches a watermarked PDF and prints the text, page, and size of each possible watermark.
 
-  
+{{< tabs "code-example-searching-watermarks">}}
+{{< tab "search_watermarks.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 
@@ -31,12 +32,13 @@ def search_watermarks():
 if __name__ == "__main__":
     search_watermarks()
 ```
-
-  
+{{< /tab >}}
+{{< tab "document.pdf" >}}  
 
 `document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/document.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "search-watermarks.txt" >}}  
 ```text
 Found 8 possible watermark(s).
 - page=1 text='CONFIDENTIAL' size=268x36
@@ -49,6 +51,8 @@ Found 8 possible watermark(s).
 - page=None text='https://auroravisuals.example/portfolio' size=76x14
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/search_watermarks/search-watermarks.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 Each possible watermark exposes `text`, `image_data`, `x`, `y`, `width`, `height`, `rotate_angle`, and `page_number`.
 
@@ -60,7 +64,8 @@ Large documents may contain many candidates. Use dedicated criteria to find exac
 
 Find watermarks by exact text.
 
-  
+{{< tabs "code-example-search-by-text">}}
+{{< tab "search_by_text.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.search_criteria import TextSearchCriteria
@@ -73,22 +78,26 @@ def search_by_text():
 if __name__ == "__main__":
     search_by_text()
 ```
-
-  
+{{< /tab >}}
+{{< tab "document.pdf" >}}  
 
 `document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/document.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "search-by-text.txt" >}}  
 ```text
 Found 6 possible watermark(s)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/search_by_text/search-by-text.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 ### Regular expression search criteria
 
 Pass a compiled regular expression to [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/).
 
-  
+{{< tabs "code-example-search-by-regex">}}
+{{< tab "search_by_regex.py" >}}  
 ```python
 import re
 from groupdocs.watermark import Watermarker
@@ -102,16 +111,19 @@ def search_by_regex():
 if __name__ == "__main__":
     search_by_regex()
 ```
-
-  
+{{< /tab >}}
+{{< tab "document.pdf" >}}  
 
 `document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/document.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "search-by-regex.txt" >}}  
 ```text
 Found 6 possible watermark(s)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/search_by_regex/search-by-regex.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 When a [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.search_criteria/textsearchcriteria/) is provided, the API also scans the main document text along with shapes, XObjects, annotations, and other objects.
 
@@ -119,7 +131,8 @@ When a [`TextSearchCriteria`](/watermark/python-net/groupdocs.watermark.search.s
 
 Find image watermarks that are visually similar to a sample image using perceptual hashing (DCT hash). Control sensitivity with `max_difference` (0–1).
 
-  
+{{< tabs "code-example-search-by-image">}}
+{{< tab "search_by_image.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.search_criteria import ImageDctHashSearchCriteria
@@ -134,16 +147,19 @@ def search_by_image():
 if __name__ == "__main__":
     search_by_image()
 ```
-
-  
+{{< /tab >}}
+{{< tab "document.pdf" >}}  
 
 `document.pdf` and `logo.png` are the sample files used in this example. Download [document.pdf](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/document.pdf) and [logo.png](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/logo.png).
 
-  
+{{< /tab >}}
+{{< tab "search-by-image.txt" >}}  
 ```text
 Found 2 possible watermark(s)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/search_by_image/search-by-image.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 Other image criteria:
 
@@ -154,7 +170,8 @@ Other image criteria:
 
 Combine criteria with `and_()`, `or_()`, and `not_()`.
 
-  
+{{< tabs "code-example-search-combined">}}
+{{< tab "search_combined.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.search_criteria import (
@@ -175,22 +192,26 @@ def search_combined():
 if __name__ == "__main__":
     search_combined()
 ```
-
-  
+{{< /tab >}}
+{{< tab "document.pdf" >}}  
 
 `document.pdf` and `logo.png` are the sample files used in this example. Download [document.pdf](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/document.pdf) and [logo.png](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/logo.png).
 
-  
+{{< /tab >}}
+{{< tab "search-combined.txt" >}}  
 ```text
 Found 3 possible watermark(s)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/search_combined/search-combined.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 ### Text formatting search criteria
 
 Find watermarks by text formatting such as font, size, and color ranges.
 
-  
+{{< tabs "code-example-search-by-formatting">}}
+{{< tab "search_by_formatting.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.search_criteria import TextFormattingSearchCriteria, ColorRange
@@ -212,16 +233,19 @@ def search_by_formatting():
 if __name__ == "__main__":
     search_by_formatting()
 ```
-
-  
+{{< /tab >}}
+{{< tab "document.pdf" >}}  
 
 `document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/document.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "search-by-formatting.txt" >}}  
 ```text
 Found 3 possible watermark(s)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/search_by_formatting/search-by-formatting.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 Searching by **color and size** is the most robust way to match a text watermark. You can
 also constrain `font_name` and `font_bold`, but bold fonts are often embedded under a fused
@@ -232,7 +256,8 @@ subset name (for example `ArialBold`) rather than `Arial` with a separate bold f
 
 Limit the search to specific object types to improve performance — either globally via `WatermarkerSettings.searchable_objects`, or per instance via `Watermarker.searchable_objects`. The flags live in `groupdocs.watermark.search.objects`.
 
-  
+{{< tabs "code-example-search-in-objects">}}
+{{< tab "search_in_objects.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker, WatermarkerSettings
 from groupdocs.watermark.search.objects import (
@@ -253,22 +278,26 @@ def search_in_objects():
 if __name__ == "__main__":
     search_in_objects()
 ```
-
-  
+{{< /tab >}}
+{{< tab "document.pdf" >}}  
 
 `document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/document.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "search-in-objects.txt" >}}  
 ```text
 Found 8 possible watermark(s)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/search_in_objects/search-in-objects.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 ### Search for hyperlink watermarks
 
 Restrict the search to hyperlinks for a single [`Watermarker`](/watermark/python-net/groupdocs.watermark/watermarker/) instance:
 
-  
+{{< tabs "code-example-search-hyperlinks">}}
+{{< tab "search_hyperlinks.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.objects import PdfSearchableObjects
@@ -282,22 +311,26 @@ def search_hyperlinks():
 if __name__ == "__main__":
     search_hyperlinks()
 ```
-
-  
+{{< /tab >}}
+{{< tab "document.pdf" >}}  
 
 `document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/document.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "search-hyperlinks.txt" >}}  
 ```text
 Found 3 hyperlink watermark(s)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/search_hyperlinks/search-hyperlinks.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Search text while skipping unreadable characters
 
 Enable tolerant matching when text contains unreadable characters between letters.
 
-  
+{{< tabs "code-example-search-skip-unreadable">}}
+{{< tab "search_skip_unreadable.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 from groupdocs.watermark.search.search_criteria import TextSearchCriteria
@@ -312,13 +345,16 @@ def search_skip_unreadable():
 if __name__ == "__main__":
     search_skip_unreadable()
 ```
-
-  
+{{< /tab >}}
+{{< tab "document.pdf" >}}  
 
 `document.pdf` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/document.pdf) to download it.
 
-  
+{{< /tab >}}
+{{< tab "search-skip-unreadable.txt" >}}  
 ```text
 Found 6 possible watermark(s)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/advanced-usage/searching-and-modifying-watermarks/searching-watermarks/search_skip_unreadable/search-skip-unreadable.txt)
+{{< /tab >}}
+{{< /tabs >}}

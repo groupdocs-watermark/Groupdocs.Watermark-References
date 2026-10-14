@@ -11,7 +11,7 @@ weight: 2010
 
 ## parent property
 
-The parent of this [`PdfAnnotationPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdfannotationpossiblewatermark/).
+The parent of this PdfAnnotationPossibleWatermark.
 
 ### Definition:
 ```python

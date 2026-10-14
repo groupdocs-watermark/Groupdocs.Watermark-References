@@ -13,14 +13,15 @@ weight: 120
 
 Represents options when adding shape watermark to a Spreadsheet worksheet.
 
-- Learn more: <https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents>
+Learn more:
+- Add watermarks to spreadsheet documents (https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
 
 The SpreadsheetWatermarkShapeOptions type exposes the following members:
 
 ### Constructors
 | Constructor | Description |
 | :- | :- |
-| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/__init__/) | Initializes a new instance of the [`SpreadsheetWatermarkShapeOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/) class. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/__init__/) | Initializes a new instance of the SpreadsheetWatermarkShapeOptions class. |
 
 ### Properties
 | Property | Description |
@@ -39,17 +40,25 @@ The SpreadsheetWatermarkShapeOptions type exposes the following members:
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.watermarks as gww
-import groupdocs.watermark.options.spreadsheet as gwo_xls
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.spreadsheet import (
+    SpreadsheetLoadOptions, SpreadsheetWatermarkShapeOptions,
+)
 
-load_options = gw.SpreadsheetLoadOptions()
-with gw.Watermarker("spreadsheet.xlsx", load_options) as watermarker:
-    watermark = gww.TextWatermark("Test watermark", gww.Font("Arial", 36))
-    options = gwo_xls.SpreadsheetWatermarkShapeOptions()
-    options.worksheet_index = 0
-    watermarker.add(watermark, options)
-    watermarker.save("spreadsheet.xlsx")
+def add_watermark_to_worksheet():
+    with Watermarker("./spreadsheet.xlsx", SpreadsheetLoadOptions()) as watermarker:
+        watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 19.0))
+        watermark.foreground_color = Color.red
+        watermark.horizontal_alignment = HorizontalAlignment.CENTER
+        watermark.vertical_alignment = VerticalAlignment.CENTER
+
+        options = SpreadsheetWatermarkShapeOptions()
+        options.worksheet_index = 0
+        watermarker.add(watermark, options)
+
+        watermarker.save("./output.xlsx")
 ```
 
 ### See Also

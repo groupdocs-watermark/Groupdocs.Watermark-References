@@ -14,7 +14,8 @@ GroupDocs.Watermark can obtain a document's basic information — file type, pag
 
 ## Get document information from a file
 
-  
+{{< tabs "code-example-get-document-info">}}
+{{< tab "get_document_info.py" >}}  
 ```python
 from groupdocs.watermark import Watermarker
 
@@ -28,24 +29,28 @@ def get_document_info():
 if __name__ == "__main__":
     get_document_info()
 ```
-
-  
+{{< /tab >}}
+{{< tab "sample.docx" >}}  
 
 `sample.docx` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/get-document-info/sample.docx) to download it.
 
-  
+{{< /tab >}}
+{{< tab "get-document-info.txt" >}}  
 ```text
 File type: Docx (.docx) - WordProcessing
 Pages: 3
 Size, bytes: 121298
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/get-document-info/get_document_info/get-document-info.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 ## Get document information from a stream
 
 A document can also be opened from any readable stream:
 
-  
+{{< tabs "code-example-get-document-info-stream">}}
+{{< tab "get_document_info_from_stream.py" >}}  
 ```python
 import io
 from groupdocs.watermark import Watermarker
@@ -63,17 +68,20 @@ def get_document_info_from_stream():
 if __name__ == "__main__":
     get_document_info_from_stream()
 ```
-
-  
+{{< /tab >}}
+{{< tab "sample.docx" >}}  
 
 `sample.docx` is the sample file used in this example. Click [here](https://docs.groupdocs.com/watermark/python-net/_sample_files/developer-guide/basic-usage/get-document-info/sample.docx) to download it.
 
-  
+{{< /tab >}}
+{{< tab "get-document-info-from-stream.txt" >}}  
 ```text
 File type: Docx (.docx) - WordProcessing
 Pages: 3
 Size, bytes: 121298
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/get-document-info/get_document_info_from_stream/get-document-info-from-stream.txt)
+{{< /tab >}}
+{{< /tabs >}}
 
 **Use case:** Validate documents before processing — for example, reject unsupported file types or confirm page limits.

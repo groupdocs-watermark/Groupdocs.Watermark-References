@@ -11,7 +11,7 @@ weight: 2020
 
 ## height property
 
-The height of this PdfTextPossibleWatermark in points.
+The height of this [`PdfTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/pdftextpossiblewatermark/) in points.
 
 ### Definition:
 ```python

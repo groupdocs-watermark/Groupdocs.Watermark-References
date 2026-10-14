@@ -18,16 +18,16 @@ The SpreadsheetChart type exposes the following members:
 ### Properties
 | Property | Description |
 | :- | :- |
-| [alternative_text](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/alternative_text/) | The descriptive (alternative) text associated with this SpreadsheetChart. |
+| [alternative_text](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/alternative_text/) | The descriptive (alternative) text associated with this [`SpreadsheetChart`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/). |
 | [height](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/height/) | The height of this SpreadsheetChart in points. |
 | [hyperlink](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/hyperlink/) | The hyperlink associated with this SpreadsheetChart. |
 | [id](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/id/) | The identifier of this SpreadsheetChart. |
 | [image_fill_format](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/image_fill_format/) | The image fill format settings of this SpreadsheetChart. |
 | [name](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/name/) | The name of this SpreadsheetChart. |
-| [width](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/width/) | The width of this [`SpreadsheetChart`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/) in points. |
+| [width](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/width/) | The width of this SpreadsheetChart in points. |
 | [worksheet](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/worksheet/) | The parent worksheet of this SpreadsheetChart. |
-| [x](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/x/) | The horizontal offset of this [`SpreadsheetChart`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/) from the worksheet left border in points, representing its x-coordinate. |
-| [y](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/y/) | The vertical offset of this SpreadsheetChart from the worksheet top border in points. The y-coordinate of this SpreadsheetChart. |
+| [x](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/x/) | The horizontal offset of this SpreadsheetChart from worksheet left border in points. |
+| [y](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/y/) | The vertical offset of this SpreadsheetChart from the worksheet top border in points. |
 
 ### See Also
 * module [`groupdocs.watermark.contents.spreadsheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/)

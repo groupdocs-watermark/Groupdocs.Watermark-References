@@ -11,7 +11,7 @@ weight: 2030
 
 ## hyperlinks property
 
-The collection of hyperlinks attached to this DiagramShape.
+The collection of hyperlinks attached to this [`DiagramShape`](/watermark/python-net/groupdocs.watermark.contents.diagram/diagramshape/).
 
 ### Definition:
 ```python

@@ -11,7 +11,7 @@ weight: 2060
 
 ## opacity property
 
-The opacity of this Watermark.
+The opacity of this [`Watermark`](/watermark/python-net/groupdocs.watermark/watermark/).
 
 The value of opacity should be between 0 and 1. The default value is 1.
 

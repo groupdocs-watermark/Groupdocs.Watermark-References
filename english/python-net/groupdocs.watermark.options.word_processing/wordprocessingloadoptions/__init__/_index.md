@@ -20,7 +20,7 @@ def __init__(self):
 
 ## __init__ {#password}
 
-Initializes a new instance of the [`WordProcessingLoadOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingloadoptions/) class with a specified password.
+Initializes a new instance of the WordProcessingLoadOptions class with a specified password.
 
 ```python
 def __init__(self, password):
@@ -34,13 +34,12 @@ def __init__(self, password):
 ### Example
 
 ```python
-import groupdocs.watermark as gw
-import groupdocs.watermark.contents.wordprocessing as gwc_wp
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.options.word_processing import WordProcessingLoadOptions
 
-load_options = gw.WordProcessingLoadOptions()
-with gw.Watermarker("document.docx", load_options) as watermarker:
-    content = watermarker.get_content(gwc_wp.WordProcessingContent)
-    # manipulate the document as needed
+with Watermarker("./document.docx", WordProcessingLoadOptions()) as watermarker:
+    # perform watermark operations
+    pass
 ```
 
 ### See Also

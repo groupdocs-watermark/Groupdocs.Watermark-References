@@ -13,9 +13,7 @@ weight: 2020
 
 The header/footer is linked to the corresponding header/footer in the previous section.
 
-Default is True. Note that when you link a header or footer, its contents are cleared.
-
-True if linked; False otherwise.
+Default is True. Note, when you link a header or footer, its contents is cleared.
 
 ### Definition:
 ```python

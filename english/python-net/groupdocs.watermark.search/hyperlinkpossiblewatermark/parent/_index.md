@@ -11,7 +11,7 @@ weight: 2020
 
 ## parent property
 
-The parent of this [`HyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/).
+The parent of this HyperlinkPossibleWatermark.
 
 ### Definition:
 ```python

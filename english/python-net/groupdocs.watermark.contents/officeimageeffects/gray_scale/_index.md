@@ -11,7 +11,9 @@ weight: 2050
 
 ## gray_scale property
 
-The property indicates whether a picture will be displayed in grayscale mode. The default value is False.
+The property indicates whether a picture will be displayed in grayscale mode.
+
+The default value is False.
 
 ### Definition:
 ```python
