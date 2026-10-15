@@ -2,7 +2,7 @@
 title: "GroupDocs.Watermark"
 linktitle: "GroupDocs.Watermark"
 description: "GroupDocs.Watermark API reference for .NET, Java, Node.js, and Python — Add, find, edit, and remove watermarks in documents, images, and PDFs."
-keywords: "GroupDocs.Watermark, watermark API, API reference, .NET, Java, Python, document processing"
+keywords: "GroupDocs.Watermark, watermark API, API reference, .NET, Java, Node.js, Python, document processing"
 additionalTitle: "GroupDocs API References"
 type: docs
 layout: family
@@ -12,27 +12,27 @@ lead: "Add, find, edit, and remove watermarks in documents, images, and PDFs."
 
 platforms:
   - name: ".NET"
-    version: "26.4.0"
-    versionUrl: "https://www.nuget.org/packages/groupdocs.watermark/26.4.0"
+    version: "26.9.0"
+    versionUrl: "https://www.nuget.org/packages/groupdocs.watermark/26.9.0"
     key: net
     ref: "/net/"
     install: "dotnet add package GroupDocs.Watermark"
   - name: "Java"
-    version: "26.4.0"
-    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/26.4/"
+    version: "26.9.0"
+    versionUrl: "https://releases.groupdocs.com/java/repo/com/groupdocs/groupdocs-watermark/26.9/"
     key: java
     ref: "/java/"
     install: "com.groupdocs:groupdocs-watermark"
   - name: "Python via .NET"
-    version: "25.12.0"
-    versionUrl: "https://pypi.org/project/groupdocs-watermark-net/25.12/"
+    version: "26.10.0"
+    versionUrl: "https://pypi.org/project/groupdocs-watermark-net/26.10.0/"
     key: python
     ref: "/python-net/"
     install: "pip install groupdocs-watermark-net"
 
 formats: ["PDF", "Word", "Excel", "PowerPoint", "Images", "Email"]
-formatsCount: "50+"
-formatsNote: "…and 40+ more document and image formats."
+formatsCount: "40+"
+formatsNote: "...plus Visio diagrams, OpenDocument text and more image formats."
 
 capabilities:
   - "Add text & image watermarks"
