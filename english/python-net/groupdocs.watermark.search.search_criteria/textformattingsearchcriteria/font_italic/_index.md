@@ -1,7 +1,7 @@
 ---
 title: font_italic property
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "The fontitalic property indicates whether the watermark text font is italic."
+description: "The font_italic property indicates whether the watermark text font is italic."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/textformattingsearchcriteria/font_italic/
 is_root: false

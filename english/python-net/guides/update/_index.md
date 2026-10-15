@@ -46,7 +46,7 @@ if __name__ == "__main__":
 {{< /tab >}}
 {{< tab "output.pdf" >}}  
 ```text
-Binary file (PDF, 479 KB)
+Binary file (PDF, 444 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/update/update_watermark/output.pdf)
 {{< /tab >}}
@@ -88,7 +88,7 @@ if __name__ == "__main__":
 {{< /tab >}}
 {{< tab "output.docx" >}}  
 ```text
-Binary file (DOCX, 18 KB)
+Binary file (DOCX, 19 KB)
 ```
 [Download full output](https://docs.groupdocs.com/watermark/python-net/_output_files/developer-guide/basic-usage/update/update_image_watermark/output.docx)
 {{< /tab >}}

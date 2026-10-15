@@ -1,7 +1,7 @@
 ---
 title: groupdocs.watermark.search.search_criteria
 second_title: GroupDocs.Watermark for Python via .NET API References
-description: "Types under groupdocs.watermark.search.searchcriteria."
+description: "Types under groupdocs.watermark.search.search_criteria."
 type: docs
 url: /python-net/groupdocs.watermark.search.search_criteria/
 is_root: false
