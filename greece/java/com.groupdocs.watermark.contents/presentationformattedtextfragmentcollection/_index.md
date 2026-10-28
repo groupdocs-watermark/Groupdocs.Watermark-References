@@ -1,0 +1,97 @@
+---
+title: "PresentationFormattedTextFragmentCollection"
+second_title: "GroupDocs.Watermark για Java API Reference"
+description: "Αναπαριστά μια συλλογή τμημάτων μορφοποιημένου κειμένου σε ένα έγγραφο PowerPoint."
+type: docs
+weight: 83
+url: /el/java/com.groupdocs.watermark.contents/presentationformattedtextfragmentcollection/
+---
+**Inheritance:**
+java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase, com.groupdocs.watermark.common.RemoveOnlyListBase, [com.groupdocs.watermark.search.FormattedTextFragmentCollection](../../com.groupdocs.watermark.search/formattedtextfragmentcollection)
+```
+public class PresentationFormattedTextFragmentCollection extends FormattedTextFragmentCollection
+```
+
+Αναπαριστά μια συλλογή τμημάτων μορφοποιημένου κειμένου σε ένα έγγραφο PowerPoint.
+
+Αυτή η συλλογή περιέχει στοιχεία τύπου `[PresentationFormattedTextFragment](../../com.groupdocs.watermark.contents/presentationformattedtextfragment)`.
+
+## Μέθοδοι
+
+| Μέθοδος | Περιγραφή |
+| --- | --- |
+|  | [getText()](#getText--) | <br /> |
+
+|
+|  | [removeFromDocument(FormattedTextFragment item)](#removeFromDocument-com.groupdocs.watermark.search.FormattedTextFragment-) | <br /> |
+
+|
+|  | [createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor)](#createInDocument-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-) | <br /> |
+
+|
+|  | [setText(String text)](#setText-java.lang.String-) | <br /> |
+
+|
+### getText() {#getText--}
+```
+public String getText()
+```
+
+
+<br />
+
+
+
+**Returns:**
+java.lang.String
+### removeFromDocument(FormattedTextFragment item) {#removeFromDocument-com.groupdocs.watermark.search.FormattedTextFragment-}
+```
+public void removeFromDocument(FormattedTextFragment item)
+```
+
+
+<br />
+
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| item | [FormattedTextFragment](../../com.groupdocs.watermark.search/formattedtextfragment) |  |
+
+### createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor) {#createInDocument-int-java.lang.String-com.groupdocs.watermark.watermarks.Font-com.groupdocs.watermark.watermarks.Color-com.groupdocs.watermark.watermarks.Color-}
+```
+public FormattedTextFragment createInDocument(int index, String text, Font font, Color foregroundColor, Color backgroundColor)
+```
+
+
+<br />
+
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| δείκτης | int |  |
+| κείμενο | java.lang.String |  |
+| font | [Font](../../com.groupdocs.watermark.watermarks/font) |  |
+| foregroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) |  |
+| backgroundColor | [Color](../../com.groupdocs.watermark.watermarks/color) |  |
+
+**Returns:**
+[FormattedTextFragment](../../com.groupdocs.watermark.search/formattedtextfragment)
+### setText(String text) {#setText-java.lang.String-}
+```
+public void setText(String text)
+```
+
+
+<br />
+
+
+
+**Parameters:**
+| Παράμετρος | Τύπος | Περιγραφή |
+| --- | --- | --- |
+| κείμενο | java.lang.String |  |
+
