@@ -1,0 +1,124 @@
+---
+title: "WordProcessingPreviewOptions"
+second_title: "Referensi API GroupDocs.Watermark untuk Java"
+description: "Menyediakan opsi untuk mengatur persyaratan dan delegasi aliran untuk pembuatan pratinjau dokumen WordProcessing."
+type: docs
+weight: 69
+url: /id/java/com.groupdocs.watermark.options/wordprocessingpreviewoptions/
+---
+**Inheritance:**
+java.lang.Object, [com.groupdocs.watermark.options.PreviewOptions](../../com.groupdocs.watermark.options/previewoptions)
+```
+public class WordProcessingPreviewOptions extends PreviewOptions
+```
+
+Menyediakan opsi untuk mengatur persyaratan dan delegasi aliran untuk pembuatan pratinjau dokumen WordProcessing.
+
+## Konstruktor
+
+| Konstruktor | Deskripsi |
+| --- | --- |
+|  | [WordProcessingPreviewOptions(ICreatePageStream createPageStream)](#WordProcessingPreviewOptions-com.groupdocs.watermark.options.ICreatePageStream-) | Menginisialisasi sebuah instance baru dari kelas `[WordProcessingPreviewOptions](../../com.groupdocs.watermark.options/wordprocessingpreviewoptions)` yang menyebabkan aliran keluaran ditutup. |
+|
+|  | [WordProcessingPreviewOptions(ICreatePageStream createPageStream, IReleasePageStream releasePageStream)](#WordProcessingPreviewOptions-com.groupdocs.watermark.options.ICreatePageStream-com.groupdocs.watermark.options.IReleasePageStream-) | Menginisialisasi sebuah instance baru dari `[WordProcessingPreviewOptions](../../com.groupdocs.watermark.options/wordprocessingpreviewoptions)` kelas yang menyebabkan aliran keluaran dikembalikan ke klien untuk penggunaan lebih lanjut. |
+|
+## Bidang
+
+| Bidang | Deskripsi |
+| --- | --- |
+|  | [DefaultResolution](#DefaultResolution) | Resolusi default dalam titik per inci. |
+|
+## Metode
+
+| Metode | Deskripsi |
+| --- | --- |
+|  | [getResolution()](#getResolution--) | Mendapatkan resolusi untuk gambar yang dihasilkan, dalam titik per inci. |
+|
+|  | [setResolution(float value)](#setResolution-float-) | Mengatur resolusi untuk gambar yang dihasilkan, dalam titik per inci. |
+|
+### WordProcessingPreviewOptions(ICreatePageStream createPageStream) {#WordProcessingPreviewOptions-com.groupdocs.watermark.options.ICreatePageStream-}
+```
+public WordProcessingPreviewOptions(ICreatePageStream createPageStream)
+```
+
+
+Menginisialisasi sebuah instance baru dari kelas `[WordProcessingPreviewOptions](../../com.groupdocs.watermark.options/wordprocessingpreviewoptions)` yang menyebabkan aliran keluaran ditutup.
+
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+|  | createPageStream | [ICreatePageStream](../../com.groupdocs.watermark.options/icreatepagestream) | Membuat aliran untuk pratinjau halaman tertentu. |
+|
+
+### WordProcessingPreviewOptions(ICreatePageStream createPageStream, IReleasePageStream releasePageStream) {#WordProcessingPreviewOptions-com.groupdocs.watermark.options.ICreatePageStream-com.groupdocs.watermark.options.IReleasePageStream-}
+```
+public WordProcessingPreviewOptions(ICreatePageStream createPageStream, IReleasePageStream releasePageStream)
+```
+
+
+Menginisialisasi sebuah instance baru dari `[WordProcessingPreviewOptions](../../com.groupdocs.watermark.options/wordprocessingpreviewoptions)` kelas yang menyebabkan aliran keluaran dikembalikan ke klien untuk penggunaan lebih lanjut.
+
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+|  | createPageStream | [ICreatePageStream](../../com.groupdocs.watermark.options/icreatepagestream) | Membuat aliran untuk pratinjau halaman tertentu. |
+|
+|  | releasePageStream | [IReleasePageStream](../../com.groupdocs.watermark.options/ireleasepagestream) | Memberitahukan bahwa pembuatan pratinjau halaman selesai dan mendapatkan aliran keluaran. |
+|
+
+### DefaultResolution {#DefaultResolution}
+```
+public static final float DefaultResolution
+```
+
+
+Resolusi default dalam titik per inci.
+
+
+### getResolution() {#getResolution--}
+```
+public final float getResolution()
+```
+
+
+Mendapatkan resolusi untuk gambar yang dihasilkan, dalam titik per inci.
+
+
+**Returns:**
+float - Resolusi untuk gambar yang dihasilkan, dalam titik per inci.
+
+<br />
+
+*** ** * ** ***
+
+Nilai default adalah 96.
+
+<br />
+
+
+### setResolution(float value) {#setResolution-float-}
+```
+public final void setResolution(float value)
+```
+
+
+Mengatur resolusi untuk gambar yang dihasilkan, dalam titik per inci.
+
+
+**Parameters:**
+| Parameter | Tipe | Deskripsi |
+| --- | --- | --- |
+|  | value | float | Resolusi untuk gambar yang dihasilkan, dalam titik per inci. |
+
+<br />
+
+*** ** * ** ***
+
+Nilai default adalah 96.
+
+<br />
+
+|
+
