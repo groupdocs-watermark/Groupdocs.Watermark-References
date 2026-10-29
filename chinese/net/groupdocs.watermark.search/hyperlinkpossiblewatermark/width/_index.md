@@ -1,0 +1,27 @@
+---
+title: "Width"
+second_title: "GroupDocs.Watermark 的 .NET API 参考"
+description: "获取此 HyperlinkPossibleWatermarkgroupdocs.watermark.search/hyperlinkpossiblewatermark 的宽度。"
+type: docs
+weight: 60
+url: /zh/net/groupdocs.watermark.search/hyperlinkpossiblewatermark/width/
+---
+## HyperlinkPossibleWatermark.Width property
+
+获取此 [`HyperlinkPossibleWatermark`](../../hyperlinkpossiblewatermark) 的宽度。
+
+```csharp
+public override double Width { get; }
+```
+
+### Property Value
+
+此 [`HyperlinkPossibleWatermark`](../../hyperlinkpossiblewatermark) 的宽度。
+
+### 另请参阅
+
+* class [HyperlinkPossibleWatermark](../../hyperlinkpossiblewatermark)
+* namespace [GroupDocs.Watermark.Search](../../../groupdocs.watermark.search)
+* assembly [GroupDocs.Watermark](../../../)
+
+<!-- 请勿编辑：由 xmldoccmd 为 GroupDocs.watermark.dll 生成 -->
