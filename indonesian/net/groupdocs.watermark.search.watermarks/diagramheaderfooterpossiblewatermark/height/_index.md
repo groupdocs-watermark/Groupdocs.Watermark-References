@@ -1,0 +1,27 @@
+---
+title: "Tinggi"
+second_title: "GroupDocs.Watermark untuk Referensi API .NET"
+description: "Mendapatkan tinggi dari DiagramHeaderFooterPossibleWatermarkgroupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark ini dalam poin."
+type: docs
+weight: 10
+url: /id/net/groupdocs.watermark.search.watermarks/diagramheaderfooterpossiblewatermark/height/
+---
+## DiagramHeaderFooterPossibleWatermark.Height property
+
+Mendapatkan tinggi dari [`DiagramHeaderFooterPossibleWatermark`](../../diagramheaderfooterpossiblewatermark) ini dalam poin.
+
+```csharp
+public override double Height { get; }
+```
+
+### Property Value
+
+Nilainya selalu 0 untuk tipe watermark yang mungkin ini.
+
+### Lihat Juga
+
+* class [DiagramHeaderFooterPossibleWatermark](../../diagramheaderfooterpossiblewatermark)
+* namespace [GroupDocs.Watermark.Search.Watermarks](../../../groupdocs.watermark.search.watermarks)
+* assembly [GroupDocs.Watermark](../../../)
+
+<!-- JANGAN EDIT: dihasilkan oleh xmldocmd untuk GroupDocs.watermark.dll -->

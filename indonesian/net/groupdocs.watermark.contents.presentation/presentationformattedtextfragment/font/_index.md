@@ -1,0 +1,28 @@
+---
+title: "Font"
+second_title: "GroupDocs.Watermark untuk Referensi API .NET"
+description: "Mendapatkan font teks."
+type: docs
+weight: 20
+url: /id/net/groupdocs.watermark.contents.presentation/presentationformattedtextfragment/font/
+---
+## PresentationFormattedTextFragment.Font property
+
+Mendapatkan font teks.
+
+```csharp
+public override Font Font { get; }
+```
+
+### Property Value
+
+Font teks.
+
+### Lihat Juga
+
+* class [Font](../../../groupdocs.watermark.watermarks/font)
+* class [PresentationFormattedTextFragment](../../presentationformattedtextfragment)
+* namespace [GroupDocs.Watermark.Contents.Presentation](../../../groupdocs.watermark.contents.presentation)
+* assembly [GroupDocs.Watermark](../../../)
+
+<!-- JANGAN EDIT: dihasilkan oleh xmldocmd untuk GroupDocs.watermark.dll -->
