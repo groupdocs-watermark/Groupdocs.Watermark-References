@@ -1,0 +1,48 @@
+---
+title: "PresentationBaseShape"
+second_title: "GroupDocs.Watermark pour .NET Référence de l'API"
+description: "Fournit la classe de base abstraite pour les formes de tous types dans un document PowerPoint."
+type: docs
+weight: 860
+url: /fr/net/groupdocs.watermark.contents.presentation/presentationbaseshape/
+---
+## PresentationBaseShape class
+
+Fournit la classe de base abstraite pour les formes de tous types dans un document PowerPoint.
+
+```csharp
+public abstract class PresentationBaseShape : ShapeSearchAdapter, IPresentationHyperlinkContainer, 
+    ITwoDObject
+```
+
+## Propriétés
+
+| Nom | Description |
+| --- | --- |
+| [AlternativeText](../../groupdocs.watermark.contents.presentation/presentationbaseshape/alternativetext) { get; set; } | Obtient ou définit le texte descriptif (alternatif) associé à ce [`PresentationBaseShape`](../presentationbaseshape). |
+| [Height](../../groupdocs.watermark.contents.presentation/presentationbaseshape/height) { get; set; } | Obtient ou définit la hauteur de ce [`PresentationBaseShape`](../presentationbaseshape) en points. |
+| [Id](../../groupdocs.watermark.contents.presentation/presentationbaseshape/id) { get; } | Obtient l'identifiant de ce [`PresentationBaseShape`](../presentationbaseshape). |
+| [ImageFillFormat](../../groupdocs.watermark.contents.presentation/presentationbaseshape/imagefillformat) { get; } | Obtient les paramètres du format de remplissage d'image de ce [`PresentationBaseShape`](../presentationbaseshape). |
+| [Name](../../groupdocs.watermark.contents.presentation/presentationbaseshape/name) { get; } | Obtient le nom de ce [`PresentationBaseShape`](../presentationbaseshape). |
+| [Presentation](../../groupdocs.watermark.contents.presentation/presentationbaseshape/presentation) { get; } | Obtient la présentation parente de ce [`PresentationBaseShape`](../presentationbaseshape). |
+| [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | Obtient ou définit la largeur de cet [`PresentationBaseShape`](../presentationbaseshape) en points. |
+| [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | Obtient ou définit le décalage horizontal de cet [`PresentationBaseShape`](../presentationbaseshape) par rapport à la bordure gauche de la présentation en points. |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | Obtient ou définit le décalage vertical de cet [`PresentationBaseShape`](../presentationbaseshape) par rapport à la bordure supérieure de la présentation en points. |
+| [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | Obtient la position de cet [`PresentationBaseShape`](../presentationbaseshape) dans l'ordre Z. |
+
+## Méthodes
+
+| Nom | Description |
+| --- | --- |
+| [GetHyperlink](../../groupdocs.watermark.contents.presentation/presentationbaseshape/gethyperlink)(PresentationHyperlinkActionType) | Obtient le lien hypertexte associé à cet [`PresentationBaseShape`](../presentationbaseshape). |
+| [SetHyperlink](../../groupdocs.watermark.contents.presentation/presentationbaseshape/sethyperlink)(PresentationHyperlinkActionType, string) | Définit le lien hypertexte associé à cet [`PresentationBaseShape`](../presentationbaseshape). |
+
+### Voir aussi
+
+* class [ShapeSearchAdapter](../../groupdocs.watermark.search/shapesearchadapter)
+* interface [IPresentationHyperlinkContainer](../ipresentationhyperlinkcontainer)
+* interface [ITwoDObject](../../groupdocs.watermark.search/itwodobject)
+* namespace [GroupDocs.Watermark.Contents.Presentation](../../groupdocs.watermark.contents.presentation)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- NE PAS MODIFIER : généré par xmldocmd pour GroupDocs.watermark.dll -->
