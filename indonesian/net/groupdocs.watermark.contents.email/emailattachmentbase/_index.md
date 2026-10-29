@@ -1,0 +1,40 @@
+---
+title: "EmailAttachmentBase"
+second_title: "GroupDocs.Watermark untuk Referensi API .NET"
+description: "Menyediakan kelas dasar untuk lampiran email."
+type: docs
+weight: 330
+url: /id/net/groupdocs.watermark.contents.email/emailattachmentbase/
+---
+## EmailAttachmentBase class
+
+Menyediakan kelas dasar untuk lampiran email.
+
+```csharp
+public abstract class EmailAttachmentBase : Attachment
+```
+
+## Properti
+
+| Nama | Deskripsi |
+| --- | --- |
+| override [Content](../../groupdocs.watermark.contents.email/emailattachmentbase/content) { get; set; } | Mendapatkan atau mengatur konten file yang dilampirkan. |
+| [ContentId](../../groupdocs.watermark.contents.email/emailattachmentbase/contentid) { get; } | Mendapatkan ID konten dari [`EmailAttachmentBase`](../emailattachmentbase) ini. |
+| [MediaType](../../groupdocs.watermark.contents.email/emailattachmentbase/mediatype) { get; } | Mendapatkan tipe media dari [`EmailAttachmentBase`](../emailattachmentbase) ini. |
+
+## Metode
+
+| Nama | Deskripsi |
+| --- | --- |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)() | Memuat konten dari file yang dilampirkan. |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions) | Memuat konten dari file yang dilampirkan dengan opsi pemuatan yang ditentukan. |
+| [CreateWatermarker](../../groupdocs.watermark.common/attachment/createwatermarker)(LoadOptions, WatermarkerSettings) | Memuat konten dari file yang dilampirkan dengan opsi pemuatan dan pengaturan yang ditentukan. |
+| [GetDocumentInfo](../../groupdocs.watermark.common/attachment/getdocumentinfo)() | Mendapatkan informasi tentang dokumen yang disimpan dalam file yang dilampirkan. |
+
+### Lihat Juga
+
+* class [Attachment](../../groupdocs.watermark.common/attachment)
+* namespace [GroupDocs.Watermark.Contents.Email](../../groupdocs.watermark.contents.email)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- JANGAN EDIT: dihasilkan oleh xmldocmd untuk GroupDocs.watermark.dll -->
