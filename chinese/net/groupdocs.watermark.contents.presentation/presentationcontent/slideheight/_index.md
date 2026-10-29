@@ -1,0 +1,27 @@
+---
+title: "SlideHeight"
+second_title: "GroupDocs.Watermark 的 .NET API 参考"
+description: "获取幻灯片的高度（单位：磅）。"
+type: docs
+weight: 70
+url: /zh/net/groupdocs.watermark.contents.presentation/presentationcontent/slideheight/
+---
+## PresentationContent.SlideHeight property
+
+获取幻灯片的高度（单位：磅）。
+
+```csharp
+public double SlideHeight { get; }
+```
+
+### Property Value
+
+幻灯片的高度（单位：点）。
+
+### 另请参阅
+
+* class [PresentationContent](../../presentationcontent)
+* namespace [GroupDocs.Watermark.Contents.Presentation](../../../groupdocs.watermark.contents.presentation)
+* assembly [GroupDocs.Watermark](../../../)
+
+<!-- 请勿编辑：由 xmldoccmd 为 GroupDocs.watermark.dll 生成 -->

@@ -1,0 +1,56 @@
+---
+title: "SpreadsheetMsoDrawingType"
+second_title: "GroupDocs.Watermark 的 .NET API 参考"
+description: "表示 Office 绘图对象类型。"
+type: docs
+weight: 1240
+url: /zh/net/groupdocs.watermark.contents.spreadsheet/spreadsheetmsodrawingtype/
+---
+## SpreadsheetMsoDrawingType enumeration
+
+表示 Office 绘图对象类型。
+
+```csharp
+public enum SpreadsheetMsoDrawingType
+```
+
+### 值
+
+| 名称 | 值 | 描述 |
+| --- | --- | --- |
+| Group | `0` | 内置绘图类型。 |
+| Line | `1` | 内置绘图类型。 |
+| Rectangle | `2` | 内置绘图类型。 |
+| Oval | `3` | 内置绘图类型。 |
+| Arc | `4` | 内置绘图类型。 |
+| Chart | `5` | 内置绘图类型。 |
+| TextBox | `6` | 内置绘图类型。 |
+| Button | `7` | 内置绘图类型。 |
+| Picture | `8` | 内置绘图类型。 |
+| Polygon | `9` | 内置绘图类型。 |
+| CheckBox | `11` | 内置绘图类型。 |
+| RadioButton | `12` | 内置绘图类型。 |
+| Label | `14` | 内置绘图类型。 |
+| DialogBox | `15` | 内置绘图类型。 |
+| Spinner | `16` | 内置绘图类型。 |
+| ScrollBar | `17` | 内置绘图类型。 |
+| ListBox | `18` | 内置绘图类型。 |
+| GroupBox | `19` | 内置绘图类型。 |
+| ComboBox | `20` | 内置绘图类型。 |
+| OleObject | `24` | 内置绘图类型。 |
+| Comment | `25` | 内置绘图类型。 |
+| Unknown | `29` | 内置绘图类型。 |
+| CellsDrawing | `30` | 内置绘图类型。 |
+| Slicer | `31` | 内置绘图类型。 |
+| WebExtension | `32` | 内置绘图类型。 |
+| SmartArt | `33` | 内置绘图类型。 |
+| CustomXml | `34` | 内置绘图类型。 |
+| Timeline | `35` | 内置绘图类型。 |
+| Model3D | `36` | 内置绘图类型。 |
+
+### 另请参阅
+
+* namespace [GroupDocs.Watermark.Contents.Spreadsheet](../../groupdocs.watermark.contents.spreadsheet)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- 请勿编辑：由 xmldoccmd 为 GroupDocs.watermark.dll 生成 -->
