@@ -1,0 +1,84 @@
+---
+title: "ImageWatermark"
+second_title: "GroupDocs.Watermark για .NET API Αναφορά"
+description: "Αντιπροσωπεύει ένα υδατογράφημα εικόνας."
+type: docs
+weight: 3190
+url: /el/net/groupdocs.watermark.watermarks/imagewatermark/
+---
+## ImageWatermark class
+
+Αντιπροσωπεύει ένα υδατογράφημα εικόνας.
+
+```csharp
+public sealed class ImageWatermark : Watermark, IDisposable
+```
+
+## Κατασκευαστές
+
+| Όνομα | Περιγραφή |
+| --- | --- |
+| [ImageWatermark](imagewatermark#constructor)(Stream) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`ImageWatermark`](../imagewatermark) με μια καθορισμένη ροή. |
+| [ImageWatermark](imagewatermark#constructor_1)(string) | Αρχικοποιεί ένα νέο αντικείμενο της κλάσης [`ImageWatermark`](../imagewatermark) με καθορισμένη διαδρομή αρχείου. |
+
+## Ιδιότητες
+
+| Όνομα | Περιγραφή |
+| --- | --- |
+| [ConsiderParentMargins](../../groupdocs.watermark/watermark/considerparentmargins) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το μέγεθος και οι συντεταγμένες του υδατογραφήματος υπολογίζονται λαμβάνοντας υπόψη τα περιθώρια του γονέα. |
+| [Height](../../groupdocs.watermark/watermark/height) { get; set; } | Λαμβάνει ή ορίζει το επιθυμητό ύψος αυτού του [`Watermark`](../../groupdocs.watermark/watermark). |
+| [HorizontalAlignment](../../groupdocs.watermark/watermark/horizontalalignment) { get; set; } | Λαμβάνει ή ορίζει την οριζόντια στοίχιση αυτού του [`Watermark`](../../groupdocs.watermark/watermark). |
+| [IsBackground](../../groupdocs.watermark/watermark/isbackground) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν το υδατογράφημα πρέπει να τοποθετηθεί στο παρασκήνιο. |
+| [Margins](../../groupdocs.watermark/watermark/margins) { get; set; } | Λαμβάνει ή ορίζει τις ρυθμίσεις περιθωρίου αυτού του [`Watermark`](../../groupdocs.watermark/watermark). |
+| [Opacity](../../groupdocs.watermark/watermark/opacity) { get; set; } | Λαμβάνει ή ορίζει τη διαφάνεια αυτού του [`Watermark`](../../groupdocs.watermark/watermark). |
+| [PagesSetup](../../groupdocs.watermark/watermark/pagessetup) { get; set; } | Λαμβάνει ή ορίζει τις ρυθμίσεις διαμόρφωσης σελίδων αυτού του [`Watermark`](../../groupdocs.watermark/watermark). |
+| [RotateAngle](../../groupdocs.watermark/watermark/rotateangle) { get; set; } | Λαμβάνει ή ορίζει τη γωνία περιστροφής αυτού του [`Watermark`](../../groupdocs.watermark/watermark) σε μοίρες. |
+| [SaveResultInMetadata](../../groupdocs.watermark/watermark/saveresultinmetadata) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που υποδεικνύει εάν θα αποθηκευτούν πληροφορίες σχετικά με τα προστιθέμενα υδατογραφήματα στα μεταδεδομένα του εγγράφου. |
+| [ScaleFactor](../../groupdocs.watermark/watermark/scalefactor) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που καθορίζει πώς το μέγεθος του υδατογραφήματος εξαρτάται από το μέγεθος του γονέα. |
+| [SizingType](../../groupdocs.watermark/watermark/sizingtype) { get; set; } | Λαμβάνει ή ορίζει μια τιμή που καθορίζει τον τρόπο μεγέθυνσης του υδατογραφήματος. |
+| [TileOptions](../../groupdocs.watermark/watermark/tileoptions) { get; set; } | Λαμβάνει ή ορίζει επιλογές για τον ορισμό επαναλαμβανόμενου υδατογραφήματος |
+| [VerticalAlignment](../../groupdocs.watermark/watermark/verticalalignment) { get; set; } | Λαμβάνει ή ορίζει την κατακόρυφη ευθυγράμμιση αυτού του [`Watermark`](../../groupdocs.watermark/watermark). |
+| [Width](../../groupdocs.watermark/watermark/width) { get; set; } | Λαμβάνει ή ορίζει το επιθυμητό πλάτος αυτού του [`Watermark`](../../groupdocs.watermark/watermark). |
+| [X](../../groupdocs.watermark/watermark/x) { get; set; } | Λαμβάνει ή ορίζει τη συντεταγμένη x αυτού του [`Watermark`](../../groupdocs.watermark/watermark). |
+| [Y](../../groupdocs.watermark/watermark/y) { get; set; } | Λαμβάνει ή ορίζει τη συντεταγμένη y αυτού του [`Watermark`](../../groupdocs.watermark/watermark). |
+
+## Μέθοδοι
+
+| Όνομα | Περιγραφή |
+| --- | --- |
+| [Dispose](../../groupdocs.watermark.watermarks/imagewatermark/dispose)() | Αποδεσμεύει το τρέχον στιγμιότυπο. |
+
+### Σχόλια
+
+**Learn more:**
+
+* [Adding image watermarks](https://docs.groupdocs.com/display/watermarknet/Adding+image+watermarks)
+
+### Παραδείγματα
+
+Προσθέστε υδατογράφημα εικόνας σε ένα έγγραφο οποιουδήποτε υποστηριζόμενου τύπου.
+
+```csharp
+foreach (string filePath in Directory.GetFiles(@"C:\Documents"))
+{
+    using (Watermarker watermarker = new Watermarker(filePath))
+    {
+        using (ImageWatermark watermark = new ImageWatermark(@"C:\watermark.png"))
+        {
+            watermark.HorizontalAlignment = HorizontalAlignment.Center;
+            watermark.VerticalAlignment = VerticalAlignment.Center;
+            watermarker.Add(watermark);
+        }
+
+        watermarker.Save();
+    }
+}
+```
+
+### Δείτε επίσης
+
+* class [Watermark](../../groupdocs.watermark/watermark)
+* namespace [GroupDocs.Watermark.Watermarks](../../groupdocs.watermark.watermarks)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.watermark.dll -->
