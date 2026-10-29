@@ -1,0 +1,41 @@
+---
+title: "GroupDocs.Watermark for .NET"
+type: docs
+weight: 10
+url: /hi/net/
+description: "GroupDocs.Watermark for .NET API रेफ़रेंसेज़ में उदाहरण, कोड स्निपेट्स, और API दस्तावेज़ शामिल हैं। यह नेमस्पेस, क्लासेज़, इंटरफ़ेसेज़, और अन्य API विवरण प्रदान करता है।"
+is_root: true
+version:
+---
+## नेमस्पेस
+
+| नेमस्पेस | विवरण |
+| --- | --- |
+| [GroupDocs.Watermark](./groupdocs.watermark) | यह नेमस्पेस उन क्लासेज़ को प्रदान करता है जो किसी भी समर्थित प्रकार के दस्तावेज़ में वॉटरमार्क के साथ काम करने के लिए हैं। |
+| [GroupDocs.Watermark.Common](./groupdocs.watermark.common) | यह नेमस्पेस हेल्पर क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Contents](./groupdocs.watermark.contents) | यह नेमस्पेस उन क्लासेज़ को प्रदान करता है जो किसी भी समर्थित प्रकार के दस्तावेज़ों के साथ काम करने के लिए हैं। |
+| [GroupDocs.Watermark.Contents.Diagram](./groupdocs.watermark.contents.diagram) | यह नेमस्पेस Visio दस्तावेज़ों में वॉटरमार्क के साथ काम करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Contents.Email](./groupdocs.watermark.contents.email) | यह नेमस्पेस ईमेल संदेशों के साथ काम करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Contents.Image](./groupdocs.watermark.contents.image) | यह नेमस्पेस विभिन्न फ़ॉर्मेट की छवियों में वॉटरमार्क जोड़ने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Contents.Pdf](./groupdocs.watermark.contents.pdf) | यह नेमस्पेस PDF दस्तावेज़ों में वॉटरमार्क के साथ काम करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Contents.Presentation](./groupdocs.watermark.contents.presentation) | यह नेमस्पेस PowerPoint दस्तावेज़ों में वॉटरमार्क के साथ काम करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Contents.Spreadsheet](./groupdocs.watermark.contents.spreadsheet) | यह नेमस्पेस Excel दस्तावेज़ों में वॉटरमार्क के साथ काम करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Contents.WordProcessing](./groupdocs.watermark.contents.wordprocessing) | यह नेमस्पेस Word दस्तावेज़ों में वॉटरमार्क के साथ काम करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Exceptions](./groupdocs.watermark.exceptions) | यह नेमस्पेस विभिन्न एक्सेप्शन क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Internal](./groupdocs.watermark.internal) | यह नेमस्पेस इंटरनल क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Options](./groupdocs.watermark.options) | यह नेमस्पेस दस्तावेज़ों और वॉटरमार्क के साथ काम करते समय अतिरिक्त विकल्प निर्दिष्ट करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Options.Diagram](./groupdocs.watermark.options.diagram) | यह नेमस्पेस Visio दस्तावेज़ों में वॉटरमार्क के साथ काम करते समय अतिरिक्त विकल्प निर्दिष्ट करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Options.Email](./groupdocs.watermark.options.email) | यह नेमस्पेस ईमेल संदेशों को लोड और सेव करने के दौरान अतिरिक्त विकल्प निर्दिष्ट करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Options.Image](./groupdocs.watermark.options.image) | यह नेमस्पेस वॉटरमार्क और छवियों के साथ काम करते समय अतिरिक्त विकल्प निर्दिष्ट करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Options.Pdf](./groupdocs.watermark.options.pdf) | यह नेमस्पेस वॉटरमार्क और PDF दस्तावेज़ों के साथ काम करते समय अतिरिक्त विकल्प निर्दिष्ट करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Options.Presentation](./groupdocs.watermark.options.presentation) | यह नेमस्पेस वॉटरमार्क और PowerPoint दस्तावेज़ों के साथ काम करते समय अतिरिक्त विकल्प निर्दिष्ट करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Options.Spreadsheet](./groupdocs.watermark.options.spreadsheet) | यह नेमस्पेस वॉटरमार्क और Excel दस्तावेज़ों के साथ काम करते समय अतिरिक्त विकल्प निर्दिष्ट करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Options.WordProcessing](./groupdocs.watermark.options.wordprocessing) | यह नेमस्पेस वॉटरमार्क और Word दस्तावेज़ों के साथ काम करते समय अतिरिक्त विकल्प निर्दिष्ट करने के लिए क्लासेज़ प्रदान करता है। |
+| [GroupDocs.Watermark.Search](./groupdocs.watermark.search) | यह नेमस्पेस विभिन्न प्रकार के दस्तावेज़ों में वॉटरमार्क खोजने, संपादित करने और हटाने के लिए क्लासेस प्रदान करता है। |
+| [GroupDocs.Watermark.Search.Objects](./groupdocs.watermark.search.objects) | यह नेमस्पेस उन दस्तावेज़ ऑब्जेक्ट्स के लिए क्लासेस प्रदान करता है जिन्हें वॉटरमार्क खोज में शामिल किया जाना है। |
+| [GroupDocs.Watermark.Search.SearchCriteria](./groupdocs.watermark.search.searchcriteria) | यह नेमस्पेस क्लासेस प्रदान करता है जिन्हें वॉटरमार्क खोजते समय मानदंड बनाने के लिए उपयोग किया जा सकता है। |
+| [GroupDocs.Watermark.Search.Watermarks](./groupdocs.watermark.search.watermarks) | यह नेमस्पेस विभिन्न फ़ॉर्मेट के दस्तावेज़ों में पाए जाने वाले संभावित वॉटरमार्क की क्लासेस प्रदान करता है। |
+| [GroupDocs.Watermark.Watermarks](./groupdocs.watermark.watermarks) | यह नेमस्पेस वॉटरमार्क की प्रॉपर्टीज़ निर्दिष्ट करने के लिए क्लासेस प्रदान करता है। |
+| [GroupDocs.Watermark.Watermarks.Results](./groupdocs.watermark.watermarks.results) |  |
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.watermark.dll -->
