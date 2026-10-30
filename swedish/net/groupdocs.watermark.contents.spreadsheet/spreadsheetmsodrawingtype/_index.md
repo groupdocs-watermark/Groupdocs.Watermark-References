@@ -1,0 +1,56 @@
+---
+title: "SpreadsheetMsoDrawingType"
+second_title: "GroupDocs.Watermark för .NET API-referens"
+description: "Representerar kontorsritningsobjekttyp."
+type: docs
+weight: 1240
+url: /sv/net/groupdocs.watermark.contents.spreadsheet/spreadsheetmsodrawingtype/
+---
+## SpreadsheetMsoDrawingType enumeration
+
+Representerar kontorsritningsobjekttyp.
+
+```csharp
+public enum SpreadsheetMsoDrawingType
+```
+
+### Värden
+
+| Namn | Värde | Beskrivning |
+| --- | --- | --- |
+| Group | `0` | Inbyggd ritningstyp. |
+| Line | `1` | Inbyggd ritningstyp. |
+| Rectangle | `2` | Inbyggd ritningstyp. |
+| Oval | `3` | Inbyggd ritningstyp. |
+| Arc | `4` | Inbyggd ritningstyp. |
+| Chart | `5` | Inbyggd ritningstyp. |
+| TextBox | `6` | Inbyggd ritningstyp. |
+| Button | `7` | Inbyggd ritningstyp. |
+| Picture | `8` | Inbyggd ritningstyp. |
+| Polygon | `9` | Inbyggd ritningstyp. |
+| CheckBox | `11` | Inbyggd ritningstyp. |
+| RadioButton | `12` | Inbyggd ritningstyp. |
+| Label | `14` | Inbyggd ritningstyp. |
+| DialogBox | `15` | Inbyggd ritningstyp. |
+| Spinner | `16` | Inbyggd ritningstyp. |
+| ScrollBar | `17` | Inbyggd ritningstyp. |
+| ListBox | `18` | Inbyggd ritningstyp. |
+| GroupBox | `19` | Inbyggd ritningstyp. |
+| ComboBox | `20` | Inbyggd ritningstyp. |
+| OleObject | `24` | Inbyggd ritningstyp. |
+| Comment | `25` | Inbyggd ritningstyp. |
+| Unknown | `29` | Inbyggd ritningstyp. |
+| CellsDrawing | `30` | Inbyggd ritningstyp. |
+| Slicer | `31` | Inbyggd ritningstyp. |
+| WebExtension | `32` | Inbyggd ritningstyp. |
+| SmartArt | `33` | Inbyggd ritningstyp. |
+| CustomXml | `34` | Inbyggd ritningstyp. |
+| Timeline | `35` | Inbyggd ritningstyp. |
+| Model3D | `36` | Inbyggd ritningstyp. |
+
+### Se även
+
+* namespace [GroupDocs.Watermark.Contents.Spreadsheet](../../groupdocs.watermark.contents.spreadsheet)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- FÅR INTE REDIGERAS: genererad av xmldocmd för GroupDocs.watermark.dll -->
