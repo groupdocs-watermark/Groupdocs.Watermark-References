@@ -1,0 +1,79 @@
+---
+title: "Watermarker"
+second_title: "GroupDocs.Watermark for .NET API Referansı"
+description: "Bir belgede filigran yönetimi için bir sınıfı temsil eder."
+type: docs
+weight: 3140
+url: /tr/net/groupdocs.watermark/watermarker/
+---
+## Watermarker class
+
+Bir belgede filigran yönetimi için bir sınıfı temsil eder.
+
+```csharp
+public class Watermarker : IDisposable
+```
+
+## Yapıcılar
+
+| Ad | Açıklama |
+| --- | --- |
+| [Watermarker](watermarker#constructor)(Stream) | Belirtilen akış ile yeni bir [`Watermarker`](../watermarker) sınıfı örneği başlatır. |
+| [Watermarker](watermarker#constructor_4)(string) | Belirtilen belge yolu ile yeni bir [`Watermarker`](../watermarker) sınıfı örneği başlatır. |
+| [Watermarker](watermarker#constructor_1)(Stream, LoadOptions) | Belirtilen akış ve yükleme seçenekleri ile yeni bir [`Watermarker`](../watermarker) sınıfı örneği başlatır. |
+| [Watermarker](watermarker#constructor_3)(Stream, WatermarkerSettings) | Belirtilen akış ve ayarlarla yeni bir [`Watermarker`](../watermarker) sınıfı örneği başlatır. |
+| [Watermarker](watermarker#constructor_5)(string, LoadOptions) | Belirtilen belge yolu ve yükleme seçenekleri ile yeni bir [`Watermarker`](../watermarker) sınıfı örneği başlatır. |
+| [Watermarker](watermarker#constructor_7)(string, WatermarkerSettings) | Belirtilen belge yolu ve ayarlarla yeni bir [`Watermarker`](../watermarker) sınıfı örneği başlatır. |
+| [Watermarker](watermarker#constructor_2)(Stream, LoadOptions, WatermarkerSettings) | Belirtilen akış, yükleme seçenekleri ve ayarlarla yeni bir [`Watermarker`](../watermarker) sınıfı örneği başlatır. |
+| [Watermarker](watermarker#constructor_6)(string, LoadOptions, WatermarkerSettings) | Belirtilen belge yolu, yükleme seçenekleri ve ayarlarla yeni bir [`Watermarker`](../watermarker) sınıfı örneği başlatır. |
+
+## Özellikler
+
+| Ad | Açıklama |
+| --- | --- |
+| [SearchableObjects](../../groupdocs.watermark/watermarker/searchableobjects) { get; set; } | Bir filigran aramasına dahil edilecek içerik nesnelerini alır veya ayarlar. |
+
+## Yöntemler
+
+| Ad | Açıklama |
+| --- | --- |
+| [Add](../../groupdocs.watermark/watermarker/add#add)(Watermark) | Yüklenen belgeye bir filigran ekler. |
+| [Add](../../groupdocs.watermark/watermarker/add#add_1)(Watermark, WatermarkOptions) | Yüklenen belgeye filigran seçeneklerini kullanarak bir filigran ekler. |
+| [Dispose](../../groupdocs.watermark/watermarker/dispose)() | Mevcut örneği serbest bırakır. |
+| [GeneratePreview](../../groupdocs.watermark/watermarker/generatepreview)(PreviewOptions) | Belge için önizleme görüntüleri oluşturur. |
+| [GetContent&lt;T&gt;](../../groupdocs.watermark/watermarker/getcontent)() | Yüklenen belge için [`Content`](../../groupdocs.watermark.contents/content) nesnesini döndürür. |
+| [GetDocumentInfo](../../groupdocs.watermark/watermarker/getdocumentinfo)() | Yüklenen belgenin formatı hakkında bilgileri alır. |
+| [GetImages](../../groupdocs.watermark/watermarker/getimages#getimages)() | Belgedeki tüm görüntüleri bulur. |
+| [GetImages](../../groupdocs.watermark/watermarker/getimages#getimages_1)(ImageSearchCriteria) | Belirtilen arama kriterlerine göre görüntüleri bulur. |
+| [Remove](../../groupdocs.watermark/watermarker/remove#remove)(PossibleWatermark) | Belgeden filigranı kaldırır. |
+| [Remove](../../groupdocs.watermark/watermarker/remove#remove_1)(PossibleWatermarkCollection) | Belgeden koleksiyondaki tüm filigranları kaldırır. |
+| [Save](../../groupdocs.watermark/watermarker/save#save)() | Belge verilerini temel akışa kaydeder. |
+| [Save](../../groupdocs.watermark/watermarker/save#save_1)(SaveOptions) | Belge verilerini kaydetme seçeneklerini kullanarak temel akışa kaydeder. |
+| [Save](../../groupdocs.watermark/watermarker/save#save_2)(Stream) | Belgeyi belirtilen akışa kaydeder. |
+| [Save](../../groupdocs.watermark/watermarker/save#save_4)(string) | Belgeyi belirtilen dosya konumuna kaydeder. |
+| [Save](../../groupdocs.watermark/watermarker/save#save_3)(Stream, SaveOptions) | Belgeyi belirtilen akışa kaydetme seçeneklerini kullanarak kaydeder. |
+| [Save](../../groupdocs.watermark/watermarker/save#save_5)(string, SaveOptions) | Belirtilen dosya konumuna, kaydetme seçeneklerini kullanarak belgeyi kaydeder. |
+| [Search](../../groupdocs.watermark/watermarker/search#search)() | Belgedeki tüm olası filigranları arar. |
+| [Search](../../groupdocs.watermark/watermarker/search#search_1)(SearchCriteria) | Belirtilen arama kriterlerine göre olası filigranları arar. |
+
+### Örnekler
+
+Desteklenen herhangi bir formatta içeriği yükler ve kaydeder.
+
+```csharp
+// Bir dosyadan içeriği yükler.
+using (Watermarker watermarker = new Watermarker("D:\\input.pdf"))
+{
+    // Filigran eklemek, aramak veya kaldırmak için Watermarker sınıfının yöntemlerini kullanın.
+
+    // Değişiklikleri kaydet.
+    watermarker.Save("D:\\output.pdf");
+}
+```
+
+### Ayrıca Bakınız
+
+* namespace [GroupDocs.Watermark](../../groupdocs.watermark)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.watermark.dll -->
