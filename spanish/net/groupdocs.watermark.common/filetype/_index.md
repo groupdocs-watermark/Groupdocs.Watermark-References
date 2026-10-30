@@ -1,0 +1,114 @@
+---
+title: "FileType"
+second_title: "GroupDocs.Watermark para la referencia de API de .NET"
+description: "Representa el tipo de archivo."
+type: docs
+weight: 40
+url: /es/net/groupdocs.watermark.common/filetype/
+---
+## FileType class
+
+Representa el tipo de archivo.
+
+```csharp
+public sealed class FileType : IEquatable<FileType>
+```
+
+## Propiedades
+
+| Nombre | Descripción |
+| --- | --- |
+| [Extension](../../groupdocs.watermark.common/filetype/extension) { get; } | Obtiene el sufijo del nombre de archivo (incluyendo el punto ".") p. ej., ".doc". |
+| [FileFormatName](../../groupdocs.watermark.common/filetype/fileformatname) { get; } | Obtiene el nombre del tipo de archivo, p. ej., "Microsoft Word Document". |
+| [FormatFamily](../../groupdocs.watermark.common/filetype/formatfamily) { get; } | Obtiene la familia de formato. |
+
+## Métodos
+
+| Nombre | Descripción |
+| --- | --- |
+| static [FromExtension](../../groupdocs.watermark.common/filetype/fromextension)(string) | Mapea la extensión del archivo al tipo de archivo. |
+| [Equals](../../groupdocs.watermark.common/filetype/equals#equals)(FileType) | Determina si el [`FileType`](../filetype) actual es el mismo que el objeto [`FileType`](../filetype) especificado. |
+| override [Equals](../../groupdocs.watermark.common/filetype/equals#equals_1)(object) | Determina si el [`FileType`](../filetype) actual es el mismo que el objeto especificado. |
+| override [GetHashCode](../../groupdocs.watermark.common/filetype/gethashcode)() | Devuelve un código hash para el objeto [`FileType`](../filetype) actual. |
+| override [ToString](../../groupdocs.watermark.common/filetype/tostring)() | Devuelve una cadena que representa el objeto actual. |
+| static [GetSupportedFileTypes](../../groupdocs.watermark.common/filetype/getsupportedfiletypes)() | Obtiene los tipos de archivo compatibles. |
+| [operator ==](../../groupdocs.watermark.common/filetype/op_equality) | Determina si dos objetos [`FileType`](../filetype) son iguales. |
+| [operator !=](../../groupdocs.watermark.common/filetype/op_inequality) | Determina si dos objetos [`FileType`](../filetype) no son iguales. |
+
+## Campos
+
+| Nombre | Descripción |
+| --- | --- |
+| static readonly [BMP](../../groupdocs.watermark.common/filetype/bmp) | Los archivos con extensión .BMP representan archivos de imagen bitmap que se utilizan para almacenar imágenes digitales bitmap. Estas imágenes son independientes del adaptador gráfico y también se denominan formato de archivo bitmap independiente del dispositivo (DIB). Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/bmp/). |
+| static readonly [DOC](../../groupdocs.watermark.common/filetype/doc) | Los archivos con extensión .doc representan documentos generados por Microsoft Word u otros procesadores de texto en formato binario. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/word-processing/doc/). |
+| static readonly [DOCM](../../groupdocs.watermark.common/filetype/docm) | Los archivos DOCM son documentos generados por Microsoft Word 2007 o versiones posteriores con la capacidad de ejecutar macros. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/word-processing/docm/). |
+| static readonly [DOCX](../../groupdocs.watermark.common/filetype/docx) | DOCX es un formato bien conocido para documentos de Microsoft Word. Introducido a partir de 2007 con el lanzamiento de Microsoft Office 2007, la estructura de este nuevo formato de documento cambió de binario simple a una combinación de archivos XML y binarios. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/word-processing/docx/). |
+| static readonly [DOT](../../groupdocs.watermark.common/filetype/dot) | Los archivos con extensión .DOT son archivos de plantilla creados por Microsoft Word que tienen configuraciones preformateadas para la generación de futuros archivos DOC o DOCX. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/word-processing/dot/). |
+| static readonly [DOTM](../../groupdocs.watermark.common/filetype/dotm) | Un archivo con extensión DOTM representa un archivo de plantilla creado con Microsoft Word 2007 o versiones posteriores. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/word-processing/dotm/). |
+| static readonly [DOTX](../../groupdocs.watermark.common/filetype/dotx) | Los archivos con extensión DOTX son archivos de plantilla creados por Microsoft Word que tienen configuraciones preformateadas para la generación de futuros archivos DOCX. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/word-processing/dotx/). |
+| static readonly [EML](../../groupdocs.watermark.common/filetype/eml) | El formato de archivo EML representa mensajes de correo electrónico guardados usando Outlook y otras aplicaciones relevantes. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/email/eml/). |
+| static readonly [EMLX](../../groupdocs.watermark.common/filetype/emlx) | El formato de archivo EMLX es implementado y desarrollado por Apple. La aplicación Apple Mail utiliza el formato de archivo EMLX para exportar los correos electrónicos. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/email/emlx/). |
+| static readonly [FlatOpc](../../groupdocs.watermark.common/filetype/flatopc) | Office Open XML WordprocessingML almacenado en un archivo XML plano en lugar de un paquete ZIP (.xml). Obtén más información sobre este formato de archivo [aquí](https://en.wikipedia.org/wiki/Office_Open_XML). |
+| static readonly [FlatOpcMacroEnabled](../../groupdocs.watermark.common/filetype/flatopcmacroenabled) | Office Open XML WordprocessingML Documento con macros habilitadas almacenado en un archivo XML plano en lugar de un paquete ZIP (.xml). Obtén más información sobre este formato de archivo [aquí](https://en.wikipedia.org/wiki/Office_Open_XML). |
+| static readonly [FlatOpcTemplate](../../groupdocs.watermark.common/filetype/flatopctemplate) | Office Open XML WordprocessingML Plantilla (sin macros) almacenada en un archivo XML plano en lugar de un paquete ZIP (.xml). Obtén más información sobre este formato de archivo [aquí](https://en.wikipedia.org/wiki/Office_Open_XML). |
+| static readonly [FlatOpcTemplateMacroEnabled](../../groupdocs.watermark.common/filetype/flatopctemplatemacroenabled) | Office Open XML WordprocessingML Plantilla con macros habilitadas almacenada en un archivo XML plano en lugar de un paquete ZIP (.xml). Obtén más información sobre este formato de archivo [aquí](https://en.wikipedia.org/wiki/Office_Open_XML). |
+| static readonly [GIF](../../groupdocs.watermark.common/filetype/gif) | Un GIF o Formato de Intercambio Gráfico es un tipo de imagen altamente comprimida. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/gif/). |
+| static readonly [JPEG](../../groupdocs.watermark.common/filetype/jpeg) | Un JPEG es un tipo de formato de imagen que se guarda usando el método de compresión con pérdida. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/jpeg/). |
+| static readonly [JPF](../../groupdocs.watermark.common/filetype/jpf) | JPEG 2000 (JPF) es un sistema de codificación de imágenes y un estándar de compresión de imágenes de última generación. Diseñado con tecnología de ondas, JPEG 2000 puede codificar contenido sin pérdida en cualquier calidad de una sola vez. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/jp2/). |
+| static readonly [JPG](../../groupdocs.watermark.common/filetype/jpg) | Un JPEG es un tipo de formato de imagen que se guarda usando el método de compresión con pérdida. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/jpeg/). |
+| static readonly [JPM](../../groupdocs.watermark.common/filetype/jpm) | JPEG 2000 (JPM) es un sistema de codificación de imágenes y un estándar de compresión de imágenes de última generación. Diseñado, usando tecnología de ondículas, JPEG 2000 puede codificar contenido sin pérdida en cualquier calidad de una sola vez. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/jp2/). |
+| static readonly [JPX](../../groupdocs.watermark.common/filetype/jpx) | JPEG 2000 (JPX) es un sistema de codificación de imágenes y un estándar de compresión de imágenes de última generación. Diseñado, usando tecnología de ondículas, JPEG 2000 puede codificar contenido sin pérdida en cualquier calidad de una sola vez. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/jp2/). |
+| static readonly [MSG](../../groupdocs.watermark.common/filetype/msg) | MSG es un formato de archivo utilizado por Microsoft Outlook y Exchange para almacenar mensajes de correo electrónico, contactos, citas u otras tareas. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/email/msg/). |
+| static readonly [ODT](../../groupdocs.watermark.common/filetype/odt) | Los archivos ODT son un tipo de documentos creados con aplicaciones de procesamiento de texto basadas en el formato de archivo OpenDocument Text. Se crean con aplicaciones de procesamiento de texto como el gratuito OpenOffice Writer y pueden contener contenido como texto, imágenes, objetos y estilos. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/word-processing/odt/). |
+| static readonly [OFT](../../groupdocs.watermark.common/filetype/oft) | Los archivos con extensión .OFT representan plantillas de mensaje que se crean usando Microsoft Outlook. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/email/oft/). |
+| static readonly [OOXML](../../groupdocs.watermark.common/filetype/ooxml) | Archivo Office Open XML (.ooxml). |
+| static readonly [PDF](../../groupdocs.watermark.common/filetype/pdf) | Portable Document Format (PDF) es un tipo de documento creado por Adobe a principios de los años 90. El propósito de este formato de archivo era introducir un estándar para la representación de documentos y otro material de referencia en un formato independiente del software de aplicación, hardware y del sistema operativo. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/view/pdf/). |
+| static readonly [PNG](../../groupdocs.watermark.common/filetype/png) | PNG, Portable Network Graphics, se refiere a un tipo de formato de archivo de imagen rasterizada que utiliza compresión sin pérdida. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/png/). |
+| static readonly [POTM](../../groupdocs.watermark.common/filetype/potm) | Los archivos con extensión POTM son plantillas de Microsoft PowerPoint con soporte para macros. Los archivos POTM se crean con PowerPoint 2007 o superior y contienen configuraciones predeterminadas que pueden usarse para crear más archivos de presentación. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/presentation/potm/). |
+| static readonly [POTX](../../groupdocs.watermark.common/filetype/potx) | Los archivos con extensión .POTX representan presentaciones de plantilla de Microsoft PowerPoint creadas con Microsoft PowerPoint 2007 y versiones posteriores. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/presentation/potx/). |
+| static readonly [PPS](../../groupdocs.watermark.common/filetype/pps) | PPS, PowerPoint Slide Show, los archivos se crean usando Microsoft PowerPoint con fines de presentación. La lectura y creación de archivos PPS es compatible con Microsoft PowerPoint 97-2003. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/presentation/pps/). |
+| static readonly [PPSM](../../groupdocs.watermark.common/filetype/ppsm) | Los archivos con extensión PPSM representan el formato de presentación de diapositivas habilitado para macros creado con Microsoft PowerPoint 2007 o superior. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/presentation/ppsm/). |
+| static readonly [PPSX](../../groupdocs.watermark.common/filetype/ppsx) | PPSX, Power Point Slide Show, los archivos se crean usando Microsoft PowerPoint 2007 y versiones posteriores con fines de presentación. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/presentation/ppsx/). |
+| static readonly [PPT](../../groupdocs.watermark.common/filetype/ppt) | Un archivo con extensión PPT representa un archivo de PowerPoint que consiste en una colección de diapositivas para mostrarse como presentación. Especifica el formato de archivo binario utilizado por Microsoft PowerPoint 97-2003. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/presentation/ppt/). |
+| static readonly [PPTM](../../groupdocs.watermark.common/filetype/pptm) | Los archivos con extensión PPTM son presentaciones habilitadas para macros que se crean con Microsoft PowerPoint 2007 o versiones superiores. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/presentation/pptm/). |
+| static readonly [PPTX](../../groupdocs.watermark.common/filetype/pptx) | Los archivos con extensión PPTX son archivos de presentación creados con la popular aplicación Microsoft PowerPoint. A diferencia de la versión anterior del formato de archivo de presentación PPT, que era binario, el formato PPTX se basa en el formato de archivo de presentación Open XML de Microsoft PowerPoint. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/presentation/pptx/). |
+| static readonly [RTF](../../groupdocs.watermark.common/filetype/rtf) | Introducido y documentado por Microsoft, el Rich Text Format (RTF) representa un método de codificar texto formateado y gráficos para su uso dentro de aplicaciones. El formato facilita el intercambio de documentos entre plataformas con otros productos de Microsoft, sirviendo así al propósito de interoperabilidad. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/word-processing/rtf/). |
+| static readonly [TIF](../../groupdocs.watermark.common/filetype/tif) | TIFF o TIF, Tagged Image File Format, representa imágenes raster que están destinadas a usarse en una variedad de dispositivos que cumplen con este estándar de formato de archivo. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/tiff/). |
+| static readonly [TIFF](../../groupdocs.watermark.common/filetype/tiff) | TIFF o TIF, Tagged Image File Format, representa imágenes raster que están destinadas a usarse en una variedad de dispositivos que cumplen con este estándar de formato de archivo. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/tiff/). |
+| static readonly [Unknown](../../groupdocs.watermark.common/filetype/unknown) | Representa un tipo de archivo desconocido. |
+| static readonly [VDW](../../groupdocs.watermark.common/filetype/vdw) | VDW es el formato de archivo Visio Graphics Service que especifica los flujos y almacenes requeridos para renderizar un dibujo web. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/web/vdw/). |
+| static readonly [VDX](../../groupdocs.watermark.common/filetype/vdx) | Cualquier dibujo o gráfico creado en Microsoft Visio, pero guardado en formato XML, tiene la extensión .VDX. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vdx/). |
+| static readonly [VSD](../../groupdocs.watermark.common/filetype/vsd) | Los archivos VSD son dibujos creados con la aplicación Microsoft Visio para representar una variedad de objetos gráficos y la interconexión entre ellos. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vsd/). |
+| static readonly [VSDM](../../groupdocs.watermark.common/filetype/vsdm) | Los archivos con extensión VSDM son archivos de dibujo creados con la aplicación Microsoft Visio que admite macros. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vsdm/). |
+| static readonly [VSDX](../../groupdocs.watermark.common/filetype/vsdx) | Los archivos con extensión .VSDX representan el formato de archivo Microsoft Visio introducido a partir de Microsoft Office 2013. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vsdx/). |
+| static readonly [VSS](../../groupdocs.watermark.common/filetype/vss) | VSS son archivos de plantilla creados con Microsoft Visio 2007 y versiones anteriores. Los archivos de plantilla proporcionan objetos de dibujo que pueden incluirse en un dibujo .VSD de Visio. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vss/). |
+| static readonly [VSSM](../../groupdocs.watermark.common/filetype/vssm) | Los archivos con extensión .VSSM son archivos de plantilla de Microsoft Visio que ofrecen soporte para macros. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vssm/). |
+| static readonly [VSSX](../../groupdocs.watermark.common/filetype/vssx) | Los archivos con extensión .VSSX son plantillas de dibujo creadas con Microsoft Visio 2013 y versiones posteriores. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vssx/). |
+| static readonly [VST](../../groupdocs.watermark.common/filetype/vst) | Los archivos con extensión VST son archivos de imagen vectorial creados con Microsoft Visio y funcionan como plantilla para crear archivos adicionales. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vst/). |
+| static readonly [VSTM](../../groupdocs.watermark.common/filetype/vstm) | Los archivos con extensión VSTM son archivos de plantilla creados con Microsoft Visio que admiten macros. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vstm/). |
+| static readonly [VSTX](../../groupdocs.watermark.common/filetype/vstx) | Los archivos con extensiones VSTX son archivos de plantilla de dibujo creados con Microsoft Visio 2013 y versiones posteriores. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vstx/). |
+| static readonly [VSX](../../groupdocs.watermark.common/filetype/vsx) | Los archivos con extensión .VSX se refieren a plantillas que consisten en dibujos y formas que se utilizan para crear diagramas en Microsoft Visio. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vsx/). |
+| static readonly [VTX](../../groupdocs.watermark.common/filetype/vtx) | Un archivo con extensión VTX es una plantilla de dibujo de Microsoft Visio que se guarda en disco en formato de archivo XML. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/vtx/). |
+| static readonly [WEBP](../../groupdocs.watermark.common/filetype/webp) | WebP, introducido por Google, es un formato de archivo de imagen web raster moderno que se basa en compresión sin pérdida y con pérdida. Proporciona la misma calidad de imagen mientras reduce considerablemente el tamaño de la imagen. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/image/webp/). |
+| static readonly [XLS](../../groupdocs.watermark.common/filetype/xls) | Los archivos con extensión XLS representan el Formato de Archivo Binario de Excel. Estos archivos pueden ser creados por Microsoft Excel, así como por otros programas de hoja de cálculo similares, como OpenOffice Calc o Apple Numbers. Obtenga más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xls/). |
+| static readonly [XLSB](../../groupdocs.watermark.common/filetype/xlsb) | El formato de archivo XLSB especifica el Formato de Archivo Binario de Excel, que es una colección de registros y estructuras que especifican el contenido del libro de trabajo de Excel. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xlsb/). |
+| static readonly [XLSM](../../groupdocs.watermark.common/filetype/xlsm) | Los archivos con extensión XLSM son un tipo de archivos de hoja de cálculo que admiten macros. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xlsm/). |
+| static readonly [XLSX](../../groupdocs.watermark.common/filetype/xlsx) | XLSX es un formato bien conocido para documentos de Microsoft Excel que fue introducido por Microsoft con el lanzamiento de Microsoft Office 2007. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xlsx/). |
+| static readonly [XLT](../../groupdocs.watermark.common/filetype/xlt) | Los archivos con extensión .XLT son archivos de plantilla creados con Microsoft Excel, que es una aplicación de hoja de cálculo que forma parte del conjunto Microsoft Office. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xlt/). |
+| static readonly [XLTM](../../groupdocs.watermark.common/filetype/xltm) | La extensión de archivo XLTM representa archivos que son generados por Microsoft Excel como archivos de plantilla con macros habilitadas. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xltm/). |
+| static readonly [XLTX](../../groupdocs.watermark.common/filetype/xltx) | Los archivos con extensión XLTX representan archivos de plantilla de Microsoft Excel que se basan en las especificaciones del formato de archivo Office OpenXML. Obtén más información sobre este formato de archivo [aquí](https://wiki.fileformat.com/specification/spreadsheet/xltx/). |
+
+### Observaciones
+
+Esta clase proporciona métodos para obtener la lista de todos los tipos de archivo compatibles con **GroupDocs.Watermark**.**Más información**
+
+* [Supported Document Formats](https://docs.groupdocs.com/display/watermarknet/Supported+Document+Formats)
+* [Get supported file formats](https://docs.groupdocs.com/display/watermarknet/Get+supported+file+formats)
+* [Get document info](https://docs.groupdocs.com/display/watermarknet/Get+document+info)
+
+### Ver también
+
+* namespace [GroupDocs.Watermark.Common](../../groupdocs.watermark.common)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.watermark.dll -->
