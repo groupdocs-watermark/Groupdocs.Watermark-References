@@ -1,0 +1,281 @@
+---
+title: "SpreadsheetAutoShapeType"
+second_title: "GroupDocs.Watermark for .NET API 레퍼런스"
+description: "자동 도형 유형을 나타냅니다."
+type: docs
+weight: 1120
+url: /ko/net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/
+---
+## SpreadsheetAutoShapeType enumeration
+
+자동 도형 유형을 나타냅니다.
+
+```csharp
+public enum SpreadsheetAutoShapeType
+```
+
+### 값
+
+| 이름 | 값 | 설명 |
+| --- | --- | --- |
+| NotPrimitive | `0` | 내장 자동 도형 유형입니다. |
+| Rectangle | `1` | 내장 자동 도형 유형입니다. |
+| RoundedRectangle | `2` | 내장 자동 도형 유형입니다. |
+| Oval | `3` | 내장 자동 도형 유형입니다. |
+| Diamond | `4` | 내장 자동 도형 유형입니다. |
+| IsoscelesTriangle | `5` | 내장 자동 도형 유형입니다. |
+| RightTriangle | `6` | 내장 자동 도형 유형입니다. |
+| Parallelogram | `7` | 내장 자동 도형 유형입니다. |
+| Trapezoid | `8` | 내장 자동 도형 유형입니다. |
+| Hexagon | `9` | 내장 자동 도형 유형입니다. |
+| Octagon | `10` | 내장 자동 도형 유형입니다. |
+| Cross | `11` | 내장 자동 도형 유형입니다. |
+| Star5 | `12` | 내장 자동 도형 유형입니다. |
+| RightArrow | `13` | 내장 자동 도형 유형입니다. |
+| HomePlate | `15` | 내장 자동 도형 유형입니다. |
+| Cube | `16` | 내장 자동 도형 유형입니다. |
+| Balloon | `17` | 내장 자동 도형 유형입니다. |
+| Seal | `18` | 내장 자동 도형 유형입니다. |
+| Arc | `19` | 내장 자동 도형 유형입니다. |
+| Line | `20` | 내장 자동 도형 유형입니다. |
+| Plaque | `21` | 내장 자동 도형 유형입니다. |
+| Can | `22` | 내장 자동 도형 유형입니다. |
+| Donut | `23` | 내장 자동 도형 유형입니다. |
+| TextSimple | `24` | 내장 자동 도형 유형입니다. |
+| TextOctagon | `25` | 내장 자동 도형 유형입니다. |
+| TextHexagon | `26` | 내장 자동 도형 유형입니다. |
+| TextCurve | `27` | 내장 자동 도형 유형입니다. |
+| TextWave | `28` | 내장 자동 도형 유형입니다. |
+| TextRing | `29` | 내장 자동 도형 유형입니다. |
+| TextOnCurve | `30` | 내장 자동 도형 유형입니다. |
+| TextOnRing | `31` | 내장 자동 도형 유형입니다. |
+| StraightConnector | `32` | 내장 자동 도형 유형입니다. |
+| BentConnector2 | `33` | 내장 자동 도형 유형입니다. |
+| ElbowConnector | `34` | 내장 자동 도형 유형입니다. |
+| BentConnector4 | `35` | 내장 자동 도형 유형입니다. |
+| BentConnector5 | `36` | 내장 자동 도형 유형입니다. |
+| CurvedConnector2 | `37` | 내장 자동 도형 유형입니다. |
+| CurvedConnector | `38` | 내장 자동 도형 유형입니다. |
+| CurvedConnector4 | `39` | 내장 자동 도형 유형입니다. |
+| CurvedConnector5 | `40` | 내장 자동 도형 유형입니다. |
+| LineCalloutNoBorder2 | `41` | 내장 자동 도형 유형입니다. |
+| LineCalloutNoBorder3 | `42` | 내장 자동 도형 유형입니다. |
+| LineCalloutNoBorder4 | `43` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithAccentBar2 | `44` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithAccentBar3 | `45` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithAccentBar4 | `46` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithBorder2 | `47` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithBorder3 | `48` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithBorder4 | `49` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithBorderAndAccentBar2 | `50` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithBorderAndAccentBar3 | `51` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithBorderAndAccentBar4 | `52` | 내장 자동 도형 유형입니다. |
+| DownRibbon | `53` | 내장 자동 도형 유형입니다. |
+| UpRibbon | `54` | 내장 자동 도형 유형입니다. |
+| Chevron | `55` | 내장 자동 도형 유형입니다. |
+| RegularPentagon | `56` | 내장 자동 도형 유형입니다. |
+| NoSymbol | `57` | 내장 자동 도형 유형입니다. |
+| Star8 | `58` | 내장 자동 도형 유형입니다. |
+| Star16 | `59` | 내장 자동 도형 유형입니다. |
+| Star32 | `60` | 내장 자동 도형 유형입니다. |
+| RectangularCallout | `61` | 내장 자동 도형 유형입니다. |
+| RoundedRectangularCallout | `62` | 내장 자동 도형 유형입니다. |
+| OvalCallout | `63` | 내장 자동 도형 유형입니다. |
+| Wave | `64` | 내장 자동 도형 유형입니다. |
+| FoldedCorner | `65` | 내장 자동 도형 유형입니다. |
+| LeftArrow | `66` | 내장 자동 도형 유형입니다. |
+| DownArrow | `67` | 내장 자동 도형 유형입니다. |
+| UpArrow | `68` | 내장 자동 도형 유형입니다. |
+| LeftRightArrow | `69` | 내장 자동 도형 유형입니다. |
+| UpDownArrow | `70` | 내장 자동 도형 유형입니다. |
+| Explosion1 | `71` | 내장 자동 도형 유형입니다. |
+| Explosion2 | `72` | 내장 자동 도형 유형입니다. |
+| LightningBolt | `73` | 내장 자동 도형 유형입니다. |
+| Heart | `74` | 내장 자동 도형 유형입니다. |
+| PictureFrame | `75` | 내장 자동 도형 유형입니다. |
+| QuadArrow | `76` | 내장 자동 도형 유형입니다. |
+| LeftArrowCallout | `77` | 내장 자동 도형 유형입니다. |
+| RightArrowCallout | `78` | 내장 자동 도형 유형입니다. |
+| UpArrowCallout | `79` | 내장 자동 도형 유형입니다. |
+| DownArrowCallout | `80` | 내장 자동 도형 유형입니다. |
+| LeftRightArrowCallout | `81` | 내장 자동 도형 유형입니다. |
+| UpDownArrowCallout | `82` | 내장 자동 도형 유형입니다. |
+| QuadArrowCallout | `83` | 내장 자동 도형 유형입니다. |
+| Bevel | `84` | 내장 자동 도형 유형입니다. |
+| LeftBracket | `85` | 내장 자동 도형 유형입니다. |
+| RightBracket | `86` | 내장 자동 도형 유형입니다. |
+| LeftBrace | `87` | 내장 자동 도형 유형입니다. |
+| RightBrace | `88` | 내장 자동 도형 유형입니다. |
+| LeftUpArrow | `89` | 내장 자동 도형 유형입니다. |
+| BentUpArrow | `90` | 내장 자동 도형 유형입니다. |
+| BentArrow | `91` | 내장 자동 도형 유형입니다. |
+| Star24 | `92` | 내장 자동 도형 유형입니다. |
+| StripedRightArrow | `93` | 내장 자동 도형 유형입니다. |
+| NotchedRightArrow | `94` | 내장 자동 도형 유형입니다. |
+| BlockArc | `95` | 내장 자동 도형 유형입니다. |
+| SmileyFace | `96` | 내장 자동 도형 유형입니다. |
+| VerticalScroll | `97` | 내장 자동 도형 유형입니다. |
+| HorizontalScroll | `98` | 내장 자동 도형 유형입니다. |
+| CircularArrow | `99` | 내장 자동 도형 유형입니다. |
+| NotchedCircularArrow | `100` | 내장 자동 도형 유형입니다. |
+| UTurnArrow | `101` | 내장 자동 도형 유형입니다. |
+| CurvedRightArrow | `102` | 내장 자동 도형 유형입니다. |
+| CurvedLeftArrow | `103` | 내장 자동 도형 유형입니다. |
+| CurvedUpArrow | `104` | 내장 자동 도형 유형입니다. |
+| CurvedDownArrow | `105` | 내장 자동 도형 유형입니다. |
+| CloudCallout | `106` | 내장 자동 도형 유형입니다. |
+| CurvedDownRibbon | `107` | 내장 자동 도형 유형입니다. |
+| CurvedUpRibbon | `108` | 내장 자동 도형 유형입니다. |
+| FlowChartProcess | `109` | 내장 자동 도형 유형입니다. |
+| FlowChartDecision | `110` | 내장 자동 도형 유형입니다. |
+| FlowChartData | `111` | 내장 자동 도형 유형입니다. |
+| FlowChartPredefinedProcess | `112` | 내장 자동 도형 유형입니다. |
+| FlowChartInternalStorage | `113` | 내장 자동 도형 유형입니다. |
+| FlowChartDocument | `114` | 내장 자동 도형 유형입니다. |
+| FlowChartMultidocument | `115` | 내장 자동 도형 유형입니다. |
+| FlowChartTerminator | `116` | 내장 자동 도형 유형입니다. |
+| FlowChartPreparation | `117` | 내장 자동 도형 유형입니다. |
+| FlowChartManualInput | `118` | 내장 자동 도형 유형입니다. |
+| FlowChartManualOperation | `119` | 내장 자동 도형 유형입니다. |
+| FlowChartConnector | `120` | 내장 자동 도형 유형입니다. |
+| FlowChartCard | `121` | 내장 자동 도형 유형입니다. |
+| FlowChartPunchedTape | `122` | 내장 자동 도형 유형입니다. |
+| FlowChartSummingJunction | `123` | 내장 자동 도형 유형입니다. |
+| FlowChartOr | `124` | 내장 자동 도형 유형입니다. |
+| FlowChartCollate | `125` | 내장 자동 도형 유형입니다. |
+| FlowChartSort | `126` | 내장 자동 도형 유형입니다. |
+| FlowChartExtract | `127` | 내장 자동 도형 유형입니다. |
+| FlowChartMerge | `128` | 내장 자동 도형 유형입니다. |
+| FlowChartOfflineStorage | `129` | 내장 자동 도형 유형입니다. |
+| FlowChartStoredData | `130` | 내장 자동 도형 유형입니다. |
+| FlowChartSequentialAccessStorage | `131` | 내장 자동 도형 유형입니다. |
+| FlowChartMagneticDisk | `132` | 내장 자동 도형 유형입니다. |
+| FlowChartDirectAccessStorage | `133` | 내장 자동 도형 유형입니다. |
+| FlowChartDisplay | `134` | 내장 자동 도형 유형입니다. |
+| FlowChartDelay | `135` | 내장 자동 도형 유형입니다. |
+| TextPlainText | `136` | 내장 자동 도형 유형입니다. |
+| TextStop | `137` | 내장 자동 도형 유형입니다. |
+| TextTriangle | `138` | 내장 자동 도형 유형입니다. |
+| TextTriangleInverted | `139` | 내장 자동 도형 유형입니다. |
+| TextChevron | `140` | 내장 자동 도형 유형입니다. |
+| TextChevronInverted | `141` | 내장 자동 도형 유형입니다. |
+| TextRingInside | `142` | 내장 자동 도형 유형입니다. |
+| TextRingOutside | `143` | 내장 자동 도형 유형입니다. |
+| TextArchUpCurve | `144` | 내장 자동 도형 유형입니다. |
+| TextArchDownCurve | `145` | 내장 자동 도형 유형입니다. |
+| TextCircleCurve | `146` | 내장 자동 도형 유형입니다. |
+| TextButtonCurve | `147` | 내장 자동 도형 유형입니다. |
+| TextArchUpPour | `148` | 내장 자동 도형 유형입니다. |
+| TextArchDownPour | `149` | 내장 자동 도형 유형입니다. |
+| TextCirclePour | `150` | 내장 자동 도형 유형입니다. |
+| TextButtonPour | `151` | 내장 자동 도형 유형입니다. |
+| TextCurveUp | `152` | 내장 자동 도형 유형입니다. |
+| TextCurveDown | `153` | 내장 자동 도형 유형입니다. |
+| TextCascadeUp | `154` | 내장 자동 도형 유형입니다. |
+| TextCascadeDown | `155` | 내장 자동 도형 유형입니다. |
+| TextWave1 | `156` | 내장 자동 도형 유형입니다. |
+| TextWave2 | `157` | 내장 자동 도형 유형입니다. |
+| TextDoubleWave1 | `158` | 내장 자동 도형 유형입니다. |
+| TextDoubleWave2 | `159` | 내장 자동 도형 유형입니다. |
+| TextInflate | `160` | 내장 자동 도형 유형입니다. |
+| TextDeflate | `161` | 내장 자동 도형 유형입니다. |
+| TextInflateBottom | `162` | 내장 자동 도형 유형입니다. |
+| TextDeflateBottom | `163` | 내장 자동 도형 유형입니다. |
+| TextInflateTop | `164` | 내장 자동 도형 유형입니다. |
+| TextDeflateTop | `165` | 내장 자동 도형 유형입니다. |
+| TextDeflateInflate | `166` | 내장 자동 도형 유형입니다. |
+| TextDeflateInflateDeflate | `167` | 내장 자동 도형 유형입니다. |
+| TextFadeRight | `168` | 내장 자동 도형 유형입니다. |
+| TextFadeLeft | `169` | 내장 자동 도형 유형입니다. |
+| TextFadeUp | `170` | 내장 자동 도형 유형입니다. |
+| TextFadeDown | `171` | 내장 자동 도형 유형입니다. |
+| TextSlantUp | `172` | 내장 자동 도형 유형입니다. |
+| TextSlantDown | `173` | 내장 자동 도형 유형입니다. |
+| TextCanUp | `174` | 내장 자동 도형 유형입니다. |
+| TextCanDown | `175` | 내장 자동 도형 유형입니다. |
+| FlowChartAlternateProcess | `176` | 내장 자동 도형 유형입니다. |
+| FlowChartOffpageConnector | `177` | 내장 자동 도형 유형입니다. |
+| LineCalloutNoBorder1 | `178` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithAccentBar1 | `179` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithBorder1 | `180` | 내장 자동 도형 유형입니다. |
+| LineCalloutWithBorderAndAccentBar1 | `181` | 내장 자동 도형 유형입니다. |
+| LeftRightUpArrow | `182` | 내장 자동 도형 유형입니다. |
+| Sun | `183` | 내장 자동 도형 유형입니다. |
+| Moon | `184` | 내장 자동 도형 유형입니다. |
+| DoubleBracket | `185` | 내장 자동 도형 유형입니다. |
+| DoubleBrace | `186` | 내장 자동 도형 유형입니다. |
+| Star4 | `187` | 내장 자동 도형 유형입니다. |
+| DoubleWave | `188` | 내장 자동 도형 유형입니다. |
+| BlankActionButton | `189` | 내장 자동 도형 유형입니다. |
+| HomeActionButton | `190` | 내장 자동 도형 유형입니다. |
+| HelpActionButton | `191` | 내장 자동 도형 유형입니다. |
+| InformationActionButton | `192` | 내장 자동 도형 유형입니다. |
+| ForwardNextActionButton | `193` | 내장 자동 도형 유형입니다. |
+| BackPreviousActionButton | `194` | 내장 자동 도형 유형입니다. |
+| EndActionButton | `195` | 내장 자동 도형 유형입니다. |
+| BeginningActionButton | `196` | 내장 자동 도형 유형입니다. |
+| ReturnActionButton | `197` | 내장 자동 도형 유형입니다. |
+| DocumentActionButton | `198` | 내장 자동 도형 유형입니다. |
+| SoundActionButton | `199` | 내장 자동 도형 유형입니다. |
+| MovieActionButton | `200` | 내장 자동 도형 유형입니다. |
+| HostControl | `201` | 내장 자동 도형 유형입니다. |
+| TextBox | `202` | 내장 자동 도형 유형입니다. |
+| Heptagon | `2049` | 내장 자동 도형 유형입니다. |
+| Decagon | `2050` | 내장 자동 도형 유형입니다. |
+| Dodecagon | `2051` | 내장 자동 도형 유형입니다. |
+| Star6 | `2052` | 내장 자동 도형 유형입니다. |
+| Star7 | `2053` | 내장 자동 도형 유형입니다. |
+| Star10 | `2054` | 내장 자동 도형 유형입니다. |
+| Star12 | `2055` | 내장 자동 도형 유형입니다. |
+| RoundSingleCornerRectangle | `2056` | 내장 자동 도형 유형입니다. |
+| RoundSameSideCornerRectangle | `2057` | 내장 자동 도형 유형입니다. |
+| RoundDiagonalCornerRectangle | `2058` | 내장 자동 도형 유형입니다. |
+| SnipRoundSingleCornerRectangle | `2059` | 내장 자동 도형 유형입니다. |
+| SnipSingleCornerRectangle | `2060` | 내장 자동 도형 유형입니다. |
+| SnipSameSideCornerRectangle | `2061` | 내장 자동 도형 유형입니다. |
+| SnipDiagonalCornerRectangle | `2062` | 내장 자동 도형 유형입니다. |
+| Teardrop | `2063` | 내장 자동 도형 유형입니다. |
+| Pie | `2064` | 내장 자동 도형 유형입니다. |
+| HalfFrame | `2066` | 내장 자동 도형 유형입니다. |
+| LShape | `2067` | 내장 자동 도형 유형입니다. |
+| DiagonalStripe | `2068` | 내장 자동 도형 유형입니다. |
+| Chord | `2069` | 내장 자동 도형 유형입니다. |
+| Cloud | `2070` | 내장 자동 도형 유형입니다. |
+| MathPlus | `2071` | 내장 자동 도형 유형입니다. |
+| MathMinus | `2072` | 내장 자동 도형 유형입니다. |
+| MathMultiply | `2073` | 내장 자동 도형 유형입니다. |
+| MathDivide | `2074` | 내장 자동 도형 유형입니다. |
+| MathEqual | `2075` | 내장 자동 도형 유형입니다. |
+| MathNotEqual | `2076` | 내장 자동 도형 유형입니다. |
+| LineInv | `2077` | 내장 자동 도형 유형입니다. |
+| NonIsoscelesTrapezoid | `2078` | 내장 자동 도형 유형입니다. |
+| PieWedge | `2079` | 내장 자동 도형 유형입니다. |
+| LeftCircularArrow | `2080` | 내장 자동 도형 유형입니다. |
+| LeftRightCircularArrow | `2081` | 내장 자동 도형 유형입니다. |
+| SwooshArrow | `2082` | 내장 자동 도형 유형입니다. |
+| LeftRightRibbon | `2083` | 내장 자동 도형 유형입니다. |
+| TextNoShape | `2084` | 내장 자동 도형 유형입니다. |
+| Gear6 | `2097` | 내장 자동 도형 유형입니다. |
+| Gear9 | `2098` | 내장 자동 도형 유형입니다. |
+| Funnel | `2099` | 내장 자동 도형 유형입니다. |
+| CornerTabs | `2100` | 내장 자동 도형 유형입니다. |
+| SquareTabs | `2101` | 내장 자동 도형 유형입니다. |
+| PlaqueTabs | `2102` | 내장 자동 도형 유형입니다. |
+| ChartX | `2103` | 내장 자동 도형 유형입니다. |
+| ChartStar | `2104` | 내장 자동 도형 유형입니다. |
+| ChartPlus | `2105` | 내장 자동 도형 유형입니다. |
+| Frame | `2106` | 내장 자동 도형 유형입니다. |
+| Model3D | `2107` | 내장 자동 도형 유형입니다. |
+| RoundCallout | `2108` | Excel에 해당 유형이 없습니다. |
+| TextArchLeftPour | `2109` | Excel에 해당 유형이 없습니다. |
+| TextArchRightPour | `2110` | Excel에 해당 유형이 없습니다. |
+| TextArchLeftCurve | `2111` | Excel에 해당 유형이 없습니다. |
+| TextArchRightCurve | `2112` | Excel에 해당 유형이 없습니다. |
+| Unknown | `4095` | 알 수 없는 자동 도형 유형입니다. |
+
+### 또 보기
+
+* namespace [GroupDocs.Watermark.Contents.Spreadsheet](../../groupdocs.watermark.contents.spreadsheet)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- DO NOT EDIT: generated by xmldocmd for GroupDocs.watermark.dll -->
