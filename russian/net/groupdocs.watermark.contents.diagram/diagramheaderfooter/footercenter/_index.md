@@ -1,0 +1,27 @@
+---
+title: "FooterCenter"
+second_title: "GroupDocs.Watermark для .NET API Справка"
+description: "Получает или устанавливает строку текста, отображаемую в центральной части нижнего колонтитула документа."
+type: docs
+weight: 20
+url: /ru/net/groupdocs.watermark.contents.diagram/diagramheaderfooter/footercenter/
+---
+## DiagramHeaderFooter.FooterCenter property
+
+Получает или устанавливает строку текста, отображаемую в центральной части нижнего колонтитула документа.
+
+```csharp
+public string FooterCenter { get; set; }
+```
+
+### Property Value
+
+Текстовая строка, отображаемая в центральной части нижнего колонтитула документа.
+
+### См. также
+
+* class [DiagramHeaderFooter](../../diagramheaderfooter)
+* namespace [GroupDocs.Watermark.Contents.Diagram](../../../groupdocs.watermark.contents.diagram)
+* assembly [GroupDocs.Watermark](../../../)
+
+<!-- НЕ РЕДАКТИРОВАТЬ: сгенерировано xmldocmd для GroupDocs.watermark.dll -->
