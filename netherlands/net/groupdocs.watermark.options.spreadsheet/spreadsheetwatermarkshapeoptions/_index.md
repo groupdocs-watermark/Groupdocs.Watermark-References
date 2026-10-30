@@ -1,0 +1,65 @@
+---
+title: "SpreadsheetWatermarkShapeOptions"
+second_title: "GroupDocs.Watermark voor .NET API-referentie"
+description: "Geeft de opties weer bij het toevoegen van een vorm-watermerk aan een Spreadsheet-werkblad."
+type: docs
+weight: 2290
+url: /nl/net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/
+---
+## SpreadsheetWatermarkShapeOptions class
+
+Geeft de opties weer bij het toevoegen van een vorm-watermerk aan een Spreadsheet-werkblad.
+
+```csharp
+public sealed class SpreadsheetWatermarkShapeOptions : SpreadsheetWatermarkBaseOptions
+```
+
+## Constructors
+
+| Naam | Beschrijving |
+| --- | --- |
+| [SpreadsheetWatermarkShapeOptions](spreadsheetwatermarkshapeoptions)() | Initialiseert een nieuw exemplaar van de [`SpreadsheetWatermarkShapeOptions`](../spreadsheetwatermarkshapeoptions) klasse. |
+
+## Eigenschappen
+
+| Naam | Beschrijving |
+| --- | --- |
+| [AlternativeText](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/alternativetext) { get; set; } | Haalt of stelt de beschrijvende (alternatieve) tekst in die aan een vorm wordt gekoppeld. |
+| [Effects](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/effects) { get; set; } | Haalt een waarde op of stelt een waarde in van [`SpreadsheetImageEffects`](../spreadsheetimageeffects) of [`SpreadsheetTextEffects`](../spreadsheettexteffects) voor effecten die op het watermerk moeten worden toegepast. |
+| [IsLocked](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/islocked) { get; set; } | Haalt of stelt een waarde in die aangeeft of bewerken van de vorm in Excel verboden is. |
+| [Name](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/name) { get; set; } | Haalt of stelt de naam van een vorm in. |
+| [WorksheetIndex](../../groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkshapeoptions/worksheetindex) { get; set; } | Haalt of stelt de index van het werkblad in waarop het watermerk moet worden toegevoegd. |
+
+### Opmerkingen
+
+**Learn more:**
+
+* [Add watermarks to spreadsheet documents](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+spreadsheet+documents)
+
+### Voorbeelden
+
+Voeg een watermerk toe aan een specifiek werkblad van een Excel-document.
+
+```csharp
+SpreadsheetLoadOptions loadOptions = new SpreadsheetLoadOptions();
+using (Watermarker watermarker = new Watermarker(@"C:\Documents\test.xls", loadOptions))
+{
+    TextWatermark watermark = new TextWatermark("Test watermark", new Font("Arial", 36, FontStyle.Bold | FontStyle.Italic));
+    watermark.HorizontalAlignment = HorizontalAlignment.Center;
+    watermark.VerticalAlignment = VerticalAlignment.Center;
+
+    SpreadsheetWatermarkShapeOptions options = new SpreadsheetWatermarkShapeOptions();
+    options.WorksheetIndex = 0;
+
+    watermarker.Add(watermark, options);
+    watermarker.Save();
+}
+```
+
+### Zie ook
+
+* class [SpreadsheetWatermarkBaseOptions](../spreadsheetwatermarkbaseoptions)
+* namespace [GroupDocs.Watermark.Options.Spreadsheet](../../groupdocs.watermark.options.spreadsheet)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- NIET BEWERKEN: gegenereerd door xmldocmd voor GroupDocs.watermark.dll -->

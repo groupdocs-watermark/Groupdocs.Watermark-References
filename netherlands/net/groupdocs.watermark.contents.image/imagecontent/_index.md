@@ -1,0 +1,46 @@
+---
+title: "ImageContent"
+second_title: "GroupDocs.Watermark voor .NET API-referentie"
+description: "Stelt een afbeelding voor waarop een watermerk kan worden geplaatst."
+type: docs
+weight: 400
+url: /nl/net/groupdocs.watermark.contents.image/imagecontent/
+---
+## ImageContent class
+
+Stelt een afbeelding voor waarop een watermerk kan worden geplaatst.
+
+```csharp
+public class ImageContent : Content
+```
+
+## Eigenschappen
+
+| Naam | Beschrijving |
+| --- | --- |
+| virtual [Height](../../groupdocs.watermark.contents.image/imagecontent/height) { get; } | Haalt de hoogte van deze [`ImageContent`](../imagecontent) op in pixels. |
+| virtual [Width](../../groupdocs.watermark.contents.image/imagecontent/width) { get; } | Haalt de breedte van deze [`ImageContent`](../imagecontent) op in pixels. |
+
+## Methoden
+
+| Naam | Beschrijving |
+| --- | --- |
+| [Dispose](../../groupdocs.watermark.contents/content/dispose)() | Verwijdert de huidige instantie. |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)() | Vindt alle afbeeldingen in de inhoud. Het zoeken wordt uitgevoerd in de objecten die zijn gespecificeerd in [`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [FindImages](../../groupdocs.watermark.contents/contentpart/findimages)(ImageSearchCriteria) | Vindt afbeeldingen volgens de opgegeven zoekcriteria. Het zoeken wordt uitgevoerd in de objecten die zijn gespecificeerd in [`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)() | Vindt alle mogelijke watermerken in de inhoud. Het zoeken wordt uitgevoerd in de objecten die zijn gespecificeerd in [`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+| [Search](../../groupdocs.watermark.contents/contentpart/search)(SearchCriteria) | Zoekt mogelijke watermerken volgens de opgegeven zoekcriteria. De zoekopdracht wordt uitgevoerd in de objecten die zijn gespecificeerd in [`SearchableObjects`](../../groupdocs.watermark/watermarker/searchableobjects). |
+
+### Opmerkingen
+
+**Learn more:**
+
+* [Add watermarks to images](https://docs.groupdocs.com/display/watermarknet/Add+watermarks+to+images)
+
+### Zie ook
+
+* class [Content](../../groupdocs.watermark.contents/content)
+* namespace [GroupDocs.Watermark.Contents.Image](../../groupdocs.watermark.contents.image)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- NIET BEWERKEN: gegenereerd door xmldocmd voor GroupDocs.watermark.dll -->
