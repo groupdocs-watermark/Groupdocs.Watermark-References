@@ -1,0 +1,39 @@
+---
+title: "EmailTextPossibleWatermark"
+second_title: "GroupDocs.Watermark для .NET API Справка"
+description: "Представляет возможный водяной знак в текстовых полях сообщения электронной почты."
+type: docs
+weight: 2890
+url: /ru/net/groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/
+---
+## EmailTextPossibleWatermark class
+
+Представляет возможный водяной знак в текстовых полях сообщения электронной почты.
+
+```csharp
+public abstract class EmailTextPossibleWatermark : PossibleWatermark
+```
+
+## Свойства
+
+| Имя | Описание |
+| --- | --- |
+| virtual [FormattedTextFragments](../../groupdocs.watermark.search/possiblewatermark/formattedtextfragments) { get; } | Получает коллекцию отформатированных текстовых фрагментов этого [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [Height](../../groupdocs.watermark.search/possiblewatermark/height) { get; } | Получает высоту этого [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| [ImageData](../../groupdocs.watermark.search/possiblewatermark/imagedata) { get; set; } | Получает или задает изображение этого [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [PageNumber](../../groupdocs.watermark.search/possiblewatermark/pagenumber) { get; } | Получает страницу, на которой размещен водяной знак. |
+| override [Parent](../../groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/parent) { get; } | Получает родительский объект этого [`EmailTextPossibleWatermark`](../emailtextpossiblewatermark). |
+| virtual [RotateAngle](../../groupdocs.watermark.search/possiblewatermark/rotateangle) { get; } | Получает угол поворота этого [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark) в градусах. |
+| override [Text](../../groupdocs.watermark.search.watermarks/emailtextpossiblewatermark/text) { get; set; } | Получает или задает текст этого [`EmailTextPossibleWatermark`](../emailtextpossiblewatermark). |
+| virtual [UnitOfMeasurement](../../groupdocs.watermark.search/possiblewatermark/unitofmeasurement) { get; } | Получает единицу измерения этого [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [Width](../../groupdocs.watermark.search/possiblewatermark/width) { get; } | Получает ширину этого [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [X](../../groupdocs.watermark.search/possiblewatermark/x) { get; } | Получает координату x этого [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+| virtual [Y](../../groupdocs.watermark.search/possiblewatermark/y) { get; } | Получает координату y этого [`PossibleWatermark`](../../groupdocs.watermark.search/possiblewatermark). |
+
+### См. также
+
+* class [PossibleWatermark](../../groupdocs.watermark.search/possiblewatermark)
+* namespace [GroupDocs.Watermark.Search.Watermarks](../../groupdocs.watermark.search.watermarks)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- НЕ РЕДАКТИРОВАТЬ: сгенерировано xmldocmd для GroupDocs.watermark.dll -->
