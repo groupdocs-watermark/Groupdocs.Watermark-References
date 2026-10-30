@@ -1,0 +1,28 @@
+---
+title: "Genitore"
+second_title: "GroupDocs.Watermark per .NET Riferimento API"
+description: "Ottiene il genitore di questo SpreadsheetCellPossibleWatermarkgroupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark."
+type: docs
+weight: 30
+url: /it/net/groupdocs.watermark.search.watermarks/spreadsheetcellpossiblewatermark/parent/
+---
+## SpreadsheetCellPossibleWatermark.Parent property
+
+Ottiene il genitore di questo [`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark).
+
+```csharp
+public override ContentPart Parent { get; }
+```
+
+### Property Value
+
+Il genitore di questo [`SpreadsheetCellPossibleWatermark`](../../spreadsheetcellpossiblewatermark).
+
+### Vedi anche
+
+* class [ContentPart](../../../groupdocs.watermark.contents/contentpart)
+* class [SpreadsheetCellPossibleWatermark](../../spreadsheetcellpossiblewatermark)
+* namespace [GroupDocs.Watermark.Search.Watermarks](../../../groupdocs.watermark.search.watermarks)
+* assembly [GroupDocs.Watermark](../../../)
+
+<!-- NON MODIFICARE: generato da xmldocmd per GroupDocs.watermark.dll -->

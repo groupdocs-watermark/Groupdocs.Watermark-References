@@ -1,0 +1,23 @@
+---
+title: "JPF"
+second_title: "GroupDocs.Watermark per .NET Riferimento API"
+description: "JPEG 2000 JPF è un sistema di codifica delle immagini e uno standard di compressione delle immagini all'avanguardia. Progettato usando la tecnologia wavelet, JPEG 2000 può codificare contenuti senza perdita in qualsiasi qualità simultaneamente. Scopri di più su questo formato di file quihttps//wiki.fileformat.com/image/jp2/."
+type: docs
+weight: 160
+url: /it/net/groupdocs.watermark.common/filetype/jpf/
+---
+## FileType.JPF field
+
+JPEG 2000 (JPF) è un sistema di codifica delle immagini e uno standard di compressione d'immagine all'avanguardia. Progettato, usando la tecnologia wavelet, JPEG 2000 può codificare contenuti senza perdita in qualsiasi qualità simultaneamente. Scopri di più su questo formato di file [qui](https://wiki.fileformat.com/image/jp2/).
+
+```csharp
+public static readonly FileType JPF;
+```
+
+### Vedi anche
+
+* class [FileType](../../filetype)
+* namespace [GroupDocs.Watermark.Common](../../../groupdocs.watermark.common)
+* assembly [GroupDocs.Watermark](../../../)
+
+<!-- NON MODIFICARE: generato da xmldocmd per GroupDocs.watermark.dll -->
