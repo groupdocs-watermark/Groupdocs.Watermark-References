@@ -1,0 +1,45 @@
+---
+title: "PresentationChart"
+second_title: "GroupDocs.Watermark の .NET API リファレンス"
+description: "PowerPoint ドキュメントのチャートを表します。"
+type: docs
+weight: 880
+url: /ja/net/groupdocs.watermark.contents.presentation/presentationchart/
+---
+## PresentationChart class
+
+PowerPoint ドキュメントのチャートを表します。
+
+```csharp
+public class PresentationChart : PresentationBaseShape
+```
+
+## プロパティ
+
+| 名前 | 説明 |
+| --- | --- |
+| [AlternativeText](../../groupdocs.watermark.contents.presentation/presentationbaseshape/alternativetext) { get; set; } | この [`PresentationBaseShape`](../presentationbaseshape) に関連付けられた記述的（代替）テキストを取得または設定します。 |
+| [Height](../../groupdocs.watermark.contents.presentation/presentationbaseshape/height) { get; set; } | この [`PresentationBaseShape`](../presentationbaseshape) の高さ（ポイント単位）を取得または設定します。 |
+| [Id](../../groupdocs.watermark.contents.presentation/presentationbaseshape/id) { get; } | この [`PresentationBaseShape`](../presentationbaseshape) の識別子を取得します。 |
+| [ImageFillFormat](../../groupdocs.watermark.contents.presentation/presentationbaseshape/imagefillformat) { get; } | この [`PresentationBaseShape`](../presentationbaseshape) の画像塗りつぶし形式設定を取得します。 |
+| [Name](../../groupdocs.watermark.contents.presentation/presentationbaseshape/name) { get; } | この [`PresentationBaseShape`](../presentationbaseshape) の名前を取得します。 |
+| [Presentation](../../groupdocs.watermark.contents.presentation/presentationbaseshape/presentation) { get; } | この [`PresentationBaseShape`](../presentationbaseshape) の親プレゼンテーションを取得します。 |
+| [Width](../../groupdocs.watermark.contents.presentation/presentationbaseshape/width) { get; set; } | この [`PresentationBaseShape`](../presentationbaseshape) の幅（ポイント単位）を取得または設定します。 |
+| [X](../../groupdocs.watermark.contents.presentation/presentationbaseshape/x) { get; set; } | この [`PresentationBaseShape`](../presentationbaseshape) のプレゼンテーション左端からの水平オフセット（ポイント単位）を取得または設定します。 |
+| [Y](../../groupdocs.watermark.contents.presentation/presentationbaseshape/y) { get; set; } | この [`PresentationBaseShape`](../presentationbaseshape) のプレゼンテーション上端からの垂直オフセット（ポイント単位）を取得または設定します。 |
+| [ZOrderPosition](../../groupdocs.watermark.contents.presentation/presentationbaseshape/zorderposition) { get; } | この [`PresentationBaseShape`](../presentationbaseshape) の Z オーダー内での位置を取得します。 |
+
+## メソッド
+
+| 名前 | 説明 |
+| --- | --- |
+| [GetHyperlink](../../groupdocs.watermark.contents.presentation/presentationbaseshape/gethyperlink)(PresentationHyperlinkActionType) | この [`PresentationBaseShape`](../presentationbaseshape) に関連付けられたハイパーリンクを取得します。 |
+| [SetHyperlink](../../groupdocs.watermark.contents.presentation/presentationbaseshape/sethyperlink)(PresentationHyperlinkActionType, string) | この [`PresentationBaseShape`](../presentationbaseshape) に関連付けられたハイパーリンクを設定します。 |
+
+### 関連項目
+
+* class [PresentationBaseShape](../presentationbaseshape)
+* namespace [GroupDocs.Watermark.Contents.Presentation](../../groupdocs.watermark.contents.presentation)
+* assembly [GroupDocs.Watermark](../../)
+
+<!-- 編集しないでください: GroupDocs.watermark.dll 用に xmldocmd によって生成されました -->
