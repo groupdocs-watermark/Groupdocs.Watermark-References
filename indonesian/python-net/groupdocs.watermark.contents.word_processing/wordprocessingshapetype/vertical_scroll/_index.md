@@ -1,0 +1,20 @@
+---
+title: "VERTICAL_SCROLL bidang"
+second_title: "Referensi API GroupDocs.Watermark untuk Python via .NET"
+description: "Tipe bentuk bawaan."
+type: docs
+url: /id/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/vertical_scroll/
+is_root: false
+weight: 3980
+---
+
+
+## VERTICAL_SCROLL field
+
+Tipe bentuk bawaan.
+
+### Nilai
+`97`
+
+### Lihat Juga
+* class [`WordProcessingShapeType`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/)
