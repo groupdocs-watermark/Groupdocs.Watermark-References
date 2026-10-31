@@ -1,0 +1,20 @@
+---
+title: "TEXT_RING_INSIDE champ"
+second_title: "Références d'API GroupDocs.Watermark pour Python via .NET"
+description: "Type de forme intégré."
+type: docs
+url: /fr/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/text_ring_inside/
+is_root: false
+weight: 4430
+---
+
+
+## TEXT_RING_INSIDE field
+
+Type de forme intégré.
+
+### Valeur
+`142`
+
+### Voir aussi
+* class [`WordProcessingShapeType`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/)

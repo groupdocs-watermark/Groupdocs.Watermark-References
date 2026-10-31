@@ -1,0 +1,21 @@
+---
+title: "Classe UnknownLoadOptionsTypeException"
+second_title: "Références d'API GroupDocs.Watermark pour Python via .NET"
+description: "L'exception qui est levée lorsqu'un document ne peut pas être chargé avec le . fourni."
+type: docs
+url: /fr/python-net/groupdocs.watermark.exceptions/unknownloadoptionstypeexception/
+aliases:
+- /python-net/groupdocs.watermark/unknownloadoptionstypeexception/
+is_root: false
+weight: 90
+---
+
+
+## UnknownLoadOptionsTypeException class
+
+L'exception qui est levée lorsqu'un document ne peut pas être chargé avec le . fourni.
+
+Le type UnknownLoadOptionsTypeException expose les membres suivants:
+
+### Voir aussi
+* module [`groupdocs.watermark.exceptions`](/watermark/python-net/groupdocs.watermark.exceptions/)
