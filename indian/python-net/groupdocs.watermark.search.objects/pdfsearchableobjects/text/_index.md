@@ -1,0 +1,20 @@
+---
+title: "TEXT फ़ील्ड"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "सामग्री पाठ में खोजें।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/text/
+is_root: false
+weight: 3050
+---
+
+
+## TEXT field
+
+सामग्री पाठ में खोजें।
+
+### मान
+`8`
+
+### संबंधित देखें
+* class [`PdfSearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/pdfsearchableobjects/)

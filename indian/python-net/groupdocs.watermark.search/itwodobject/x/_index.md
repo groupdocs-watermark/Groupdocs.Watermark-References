@@ -1,0 +1,24 @@
+---
+title: "x प्रॉपर्टी"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "ऑब्जेक्ट का x-निर्देशांक।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.search/itwodobject/x/
+is_root: false
+weight: 2030
+---
+
+
+## x property
+
+ऑब्जेक्ट का x-निर्देशांक।
+
+### Definition:
+```python
+@property
+def x(self):
+    ...
+```
+
+### संबंधित देखें
+* class [`ITwoDObject`](/watermark/python-net/groupdocs.watermark.search/itwodobject/)

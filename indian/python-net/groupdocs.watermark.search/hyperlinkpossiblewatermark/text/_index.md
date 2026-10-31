@@ -1,0 +1,27 @@
+---
+title: "पाठ property"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "इस HyperlinkPossibleWatermark का URL।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/text/
+is_root: false
+weight: 2040
+---
+
+
+## text property
+
+इस HyperlinkPossibleWatermark का URL।
+
+### Definition:
+```python
+@property
+def text(self):
+    ...
+@text.setter
+def text(self, value):
+    ...
+```
+
+### संबंधित देखें
+* class [`HyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/)

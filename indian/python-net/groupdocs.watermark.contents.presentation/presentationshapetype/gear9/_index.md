@@ -1,0 +1,20 @@
+---
+title: "GEAR9 फ़ील्ड"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "इनबिल्ट शैप जियोमेट्री प्रीसेट प्रकार।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/gear9/
+is_root: false
+weight: 4750
+---
+
+
+## GEAR9 field
+
+इनबिल्ट शैप जियोमेट्री प्रीसेट प्रकार।
+
+### मान
+`174`
+
+### संबंधित देखें
+* class [`PresentationShapeType`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/)

@@ -1,0 +1,20 @@
+---
+title: "CALLOUT_CLOUD फ़ील्ड"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "इनबिल्ट शैप जियोमेट्री प्रीसेट प्रकार।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_cloud/
+is_root: false
+weight: 4210
+---
+
+
+## CALLOUT_CLOUD field
+
+इनबिल्ट शैप जियोमेट्री प्रीसेट प्रकार।
+
+### मान
+`120`
+
+### संबंधित देखें
+* class [`PresentationShapeType`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/)

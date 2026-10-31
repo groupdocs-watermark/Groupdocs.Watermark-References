@@ -1,0 +1,39 @@
+---
+title: "ImageWatermarkResult क्लास"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "इमेज वॉटरमार्क प्रॉपर्टीज़ शामिल करता है।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/
+is_root: false
+weight: 30
+---
+
+
+## ImageWatermarkResult class
+
+इमेज वॉटरमार्क प्रॉपर्टीज़ शामिल करता है।
+
+ImageWatermarkResult प्रकार निम्नलिखित सदस्य प्रदर्शित करता है:
+
+### निर्माता
+| निर्माता | विवरण |
+| :- | :- |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/__init__/#watermark_id) | एक खोज प्रक्रिया के बाद प्राप्त अद्वितीय वॉटरमार्क पहचानकर्ता के साथ ImageWatermarkResult को प्रारंभ करता है। इस पहचानकर्ता का उपयोग दस्तावेज़ की वॉटरमार्क जानकारी परत से वॉटरमार्क के अतिरिक्त गुणों को प्राप्त करने के लिए किया जाता है। |
+
+### गुणधर्म
+| गुणधर्म | विवरण |
+| :- | :- |
+| [size](/watermark/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/size/) | वॉटरमार्क छवि का बाइट्स में आकार। |
+| [created_on](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/created_on/) | वॉटरमार्क की निर्माण तिथि। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+| [height](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/height/) | वॉटरमार्क की ऊँचाई। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+| [left](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/left/) | वॉटरमार्क की बायाँ स्थान। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+| [modified_on](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/modified_on/) | वॉटरमार्क संशोधन तिथि। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+| [page_number](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/page_number/) | वॉटरमार्क जहाँ रखा गया था, उस पृष्ठ संख्या। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+| [top](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/top/) | वॉटरमार्क का शीर्ष स्थान। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+| [watermark_id](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_id/) | वॉटरमार्क का अद्वितीय पहचानकर्ता, जिसका उपयोग Update या Delete विधियों के माध्यम से वॉटरमार्क को संशोधित करने के लिए किया जाता है। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+| [watermark_position](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_position/) | वॉटरमार्क का स्थान। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+| [watermark_type](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_type/) | वॉटरमार्क का प्रकार। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+| [width](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/width/) | वॉटरमार्क की चौड़ाई। ([`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/) से विरासत में मिली) |
+
+### संबंधित देखें
+* module [`groupdocs.watermark.watermarks.results`](/watermark/python-net/groupdocs.watermark.watermarks.results/)

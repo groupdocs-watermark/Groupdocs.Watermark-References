@@ -1,0 +1,33 @@
+---
+title: "SystemDrawingImageFrame क्लास"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "एक इमेज फ्रेम का प्रतिनिधित्व करता है जहाँ वॉटरमार्क रखा जा सकता है (System.Drawing कार्यान्वयन)।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.contents.image/systemdrawingimageframe/
+is_root: false
+weight: 60
+---
+
+
+## SystemDrawingImageFrame class
+
+एक इमेज फ्रेम का प्रतिनिधित्व करता है जहाँ वॉटरमार्क रखा जा सकता है (System.Drawing कार्यान्वयन)।
+
+SystemDrawingImageFrame प्रकार निम्नलिखित सदस्य दिखाता है:
+
+### मेथड्स
+| मेथड | विवरण |
+| :- | :- |
+| [find_images](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images/) | निर्दिष्ट खोज मानदंडों के अनुसार छवियों को खोजता है। खोज उन वस्तुओं में की जाती है जो [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/) में निर्दिष्ट हैं। ([`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/) से विरासत में मिला) |
+| [find_images_image_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/find_images_image_search_criteria/) | ([`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/) से विरासत में मिला) |
+| [search](/watermark/python-net/groupdocs.watermark.contents/contentpart/search/) | निर्दिष्ट खोज मानदंडों के अनुसार संभावित वॉटरमार्क को खोजता है। खोज उन वस्तुओं पर की जाती है जो [`Watermarker.SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/) में सूचीबद्ध हैं। ([`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/) से विरासत में मिला) |
+| [search_search_criteria](/watermark/python-net/groupdocs.watermark.contents/contentpart/search_search_criteria/) | ([`ContentPart`](/watermark/python-net/groupdocs.watermark.contents/contentpart/) से विरासत में मिला) |
+
+### गुणधर्म
+| गुणधर्म | विवरण |
+| :- | :- |
+| [height](/watermark/python-net/groupdocs.watermark.contents.image/systemdrawingimageframe/height/) | इस [`SystemDrawingImageFrame`](/watermark/python-net/groupdocs.watermark.contents.image/systemdrawingimageframe/) की ऊँचाई पिक्सेल में। |
+| [width](/watermark/python-net/groupdocs.watermark.contents.image/systemdrawingimageframe/width/) | इस SystemDrawingImageFrame की चौड़ाई पिक्सेल में। |
+
+### संबंधित देखें
+* module [`groupdocs.watermark.contents.image`](/watermark/python-net/groupdocs.watermark.contents.image/)

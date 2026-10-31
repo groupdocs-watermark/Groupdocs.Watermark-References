@@ -1,0 +1,27 @@
+---
+title: "नाम property"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "आकार का नाम।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/name/
+is_root: false
+weight: 2050
+---
+
+
+## name property
+
+आकार का नाम।
+
+### Definition:
+```python
+@property
+def name(self):
+    ...
+@name.setter
+def name(self, value):
+    ...
+```
+
+### संबंधित देखें
+* class [`WordProcessingWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.word_processing/wordprocessingwatermarkbaseoptions/)
