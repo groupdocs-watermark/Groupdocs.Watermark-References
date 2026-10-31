@@ -1,0 +1,20 @@
+---
+title: "champ HOME_PLATE"
+second_title: "Références d'API GroupDocs.Watermark pour Python via .NET"
+description: "Type de préréglage de géométrie de forme intégré."
+type: docs
+url: /fr/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/home_plate/
+is_root: false
+weight: 3380
+---
+
+
+## HOME_PLATE field
+
+Type de préréglage de géométrie de forme intégré.
+
+### Valeur
+`37`
+
+### Voir aussi
+* class [`PresentationShapeType`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/)

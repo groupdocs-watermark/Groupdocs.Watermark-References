@@ -1,0 +1,24 @@
+---
+title: "right_margin propriété"
+second_title: "Références d'API GroupDocs.Watermark pour Python via .NET"
+description: "La taille de la marge droite en points."
+type: docs
+url: /fr/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/right_margin/
+is_root: false
+weight: 2040
+---
+
+
+## right_margin property
+
+La taille de la marge droite en points.
+
+### Definition:
+```python
+@property
+def right_margin(self):
+    ...
+```
+
+### Voir aussi
+* class [`SpreadsheetPageSetup`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetpagesetup/)
