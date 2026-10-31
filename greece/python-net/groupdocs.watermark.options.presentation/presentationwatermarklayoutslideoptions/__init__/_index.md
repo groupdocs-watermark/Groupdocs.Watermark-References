@@ -1,0 +1,22 @@
+---
+title: "__init__ κατασκευαστής"
+second_title: "GroupDocs.Watermark για Python μέσω .NET Αναφορές API"
+description: "Δημιουργεί ένα νέο στιγμιότυπο της κλάσης PresentationWatermarkOptions."
+type: docs
+url: /el/python-net/groupdocs.watermark.options.presentation/presentationwatermarklayoutslideoptions/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__
+
+Δημιουργεί ένα νέο αντικείμενο της κλάσης [`PresentationWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkoptions/) class.
+
+```python
+def __init__(self):
+    ...
+```
+
+### Δείτε επίσης
+* class [`PresentationWatermarkLayoutSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarklayoutslideoptions/)
