@@ -1,0 +1,24 @@
+---
+title: "خاصية formatted_text_fragments"
+second_title: "مراجع API لـ GroupDocs.Watermark للبايثون عبر .NET"
+description: "مجموعة مقاطع النص المنسقة لهذا WordProcessingTextPossibleWatermark."
+type: docs
+url: /ar/python-net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/formatted_text_fragments/
+is_root: false
+weight: 2010
+---
+
+
+## formatted_text_fragments property
+
+مجموعة مقاطع النص المنسقة لهذا [`WordProcessingTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/).
+
+### Definition:
+```python
+@property
+def formatted_text_fragments(self):
+    ...
+```
+
+### انظر أيضًا
+* class [`WordProcessingTextPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/wordprocessingtextpossiblewatermark/)

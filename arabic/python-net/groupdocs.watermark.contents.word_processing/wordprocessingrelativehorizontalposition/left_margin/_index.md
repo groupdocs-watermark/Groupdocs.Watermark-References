@@ -1,0 +1,20 @@
+---
+title: "حقل LEFT_MARGIN"
+second_title: "مراجع API لـ GroupDocs.Watermark للبايثون عبر .NET"
+description: "يحدد أن التموضع الأفقي نسبي إلى الهامش الأيسر للصفحة."
+type: docs
+url: /ar/python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativehorizontalposition/left_margin/
+is_root: false
+weight: 3050
+---
+
+
+## LEFT_MARGIN field
+
+يحدد أن التموضع الأفقي نسبي إلى الهامش الأيسر للصفحة.
+
+### القيمة
+`4`
+
+### انظر أيضًا
+* class [`WordProcessingRelativeHorizontalPosition`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativehorizontalposition/)

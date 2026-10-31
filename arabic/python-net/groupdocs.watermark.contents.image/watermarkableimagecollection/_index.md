@@ -1,0 +1,36 @@
+---
+title: "فئة WatermarkableImageCollection"
+second_title: "مراجع API لـ GroupDocs.Watermark للبايثون عبر .NET"
+description: "يمثل مجموعة من الصور الموجودة في مستند."
+type: docs
+url: /ar/python-net/groupdocs.watermark.contents.image/watermarkableimagecollection/
+is_root: false
+weight: 100
+---
+
+
+## WatermarkableImageCollection class
+
+يمثل مجموعة من الصور الموجودة في مستند.
+
+تحتوي هذه المجموعة على العناصر من النوع [`WatermarkableImage`](/watermark/python-net/groupdocs.watermark.contents.image/watermarkableimage/).
+
+نوع WatermarkableImageCollection يعرض الأعضاء التالية:
+
+### الطرق
+| طريقة | الوصف |
+| :- | :- |
+| [contains](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/contains/) | (موروث من [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/)) |
+| [get](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/get/) | (موروث من [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/)) |
+| [get_enumerator](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/get_enumerator/) | (موروث من [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/)) |
+| [get_int32](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/get_int32/) | (موروث من [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/)) |
+| [index_of](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/index_of/) | (موروث من [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/)) |
+
+### الخصائص
+| خاصية | الوصف |
+| :- | :- |
+| [count](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/count/) | (موروث من [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/)) |
+| [is_read_only](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/is_read_only/) | (موروث من [`ReadOnlyListBase`](/watermark/python-net/groupdocs.watermark.common/readonlylistbase/)) |
+
+### انظر أيضًا
+* module [`groupdocs.watermark.contents.image`](/watermark/python-net/groupdocs.watermark.contents.image/)

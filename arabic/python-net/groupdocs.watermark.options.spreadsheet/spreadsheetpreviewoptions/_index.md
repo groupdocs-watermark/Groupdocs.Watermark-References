@@ -1,0 +1,42 @@
+---
+title: "فئة SpreadsheetPreviewOptions"
+second_title: "مراجع API لـ GroupDocs.Watermark للبايثون عبر .NET"
+description: "يوفر خيارات لتعيين المتطلبات ومندوبين الدفق لإنشاء معاينة لمستند جدول بيانات."
+type: docs
+url: /ar/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/
+is_root: false
+weight: 50
+---
+
+
+## SpreadsheetPreviewOptions class
+
+يوفر خيارات لتعيين المتطلبات ومندوبين الدفق لإنشاء معاينة لمستند جدول بيانات.
+
+يعرض نوع SpreadsheetPreviewOptions الأعضاء التالية:
+
+### المنشئات
+| منشئ | الوصف |
+| :- | :- |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/__init__/#create_page_stream) | ينشئ مثلاً جديداً من فئة SpreadsheetPreviewOptions، مما يؤدي إلى إغلاق تدفق الإخراج. |
+| [__init__](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/__init__/#create_page_stream-release_page_stream) | ينشئ مثلاً جديداً من فئة SpreadsheetPreviewOptions مما يجعل تدفق الإخراج يُعاد إلى العميل للاستخدام لاحقاً. |
+
+### الخصائص
+| خاصية | الوصف |
+| :- | :- |
+| [only_data_area](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/only_data_area/) | العلم لتصوير منطقة البيانات فقط دون رؤوس، تذييلات، أو هوامش. |
+| [resolution](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/resolution/) | الدقة للصور المُولَّدة، بالنقطة لكل بوصة. |
+| [create_page_stream](/watermark/python-net/groupdocs.watermark.options/previewoptions/create_page_stream/) | المندوب المسؤول عن إنشاء تدفق الصفحة المستخدم للحصول على تدفق قابل للكتابة لكل صفحة مُعالجة. (موروث من [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [height](/watermark/python-net/groupdocs.watermark.options/previewoptions/height/) | ارتفاع معاينة الصفحة. (موروث من [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [page_numbers](/watermark/python-net/groupdocs.watermark.options/previewoptions/page_numbers/) | المصفوفة التي تحتوي على أرقام الصفحات لتوليد المعاينات. (موروث من [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [preview_format](/watermark/python-net/groupdocs.watermark.options/previewoptions/preview_format/) | تنسيق صورة المعاينة. (موروث من [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [release_page_stream](/watermark/python-net/groupdocs.watermark.options/previewoptions/release_page_stream/) | المندوب المسؤول عن إكمال معاينة الصفحة. (موروث من [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+| [width](/watermark/python-net/groupdocs.watermark.options/previewoptions/width/) | عرض معاينة الصفحة. (موروث من [`PreviewOptions`](/watermark/python-net/groupdocs.watermark.options/previewoptions/)) |
+
+### الحقول
+| حقل | الوصف |
+| :- | :- |
+| [DEFAULT_RESOLUTION](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetpreviewoptions/default_resolution/) | الدقة الافتراضية بالنقطة لكل بوصة. |
+
+### انظر أيضًا
+* module [`groupdocs.watermark.options.spreadsheet`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/)

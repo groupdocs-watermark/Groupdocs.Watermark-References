@@ -1,0 +1,22 @@
+---
+title: "منشئ __init__"
+second_title: "مراجع API لـ GroupDocs.Watermark للبايثون عبر .NET"
+description: "يُنشئ مثلاً جديداً من الفئة PdfArtifactWatermarkOptions."
+type: docs
+url: /ar/python-net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__
+
+يقوم بتهيئة نسخة جديدة من الفئة [`PdfArtifactWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/).
+
+```python
+def __init__(self):
+    ...
+```
+
+### انظر أيضًا
+* class [`PdfArtifactWatermarkOptions`](/watermark/python-net/groupdocs.watermark.options.pdf/pdfartifactwatermarkoptions/)

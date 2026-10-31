@@ -1,0 +1,39 @@
+---
+title: "فئة ImageWatermarkResult"
+second_title: "مراجع API لـ GroupDocs.Watermark للبايثون عبر .NET"
+description: "يحتوي على خصائص علامة مائية صورة."
+type: docs
+url: /ar/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/
+is_root: false
+weight: 30
+---
+
+
+## ImageWatermarkResult class
+
+يحتوي على خصائص علامة مائية صورة.
+
+نوع ImageWatermarkResult يعرض الأعضاء التالية:
+
+### المنشئات
+| منشئ | الوصف |
+| :- | :- |
+| [__init__](/watermark/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/__init__/#watermark_id) | يقوم بتهيئة ImageWatermarkResult بمعرف علامة مائية فريد يتم الحصول عليه بعد عملية بحث. يُستخدم هذا المعرف لاسترجاع خصائص إضافية للعلامة المائية من طبقة معلومات العلامة المائية في المستند. |
+
+### الخصائص
+| خاصية | الوصف |
+| :- | :- |
+| [size](/watermark/python-net/groupdocs.watermark.watermarks.results/imagewatermarkresult/size/) | حجم صورة العلامة المائية بالبايت. |
+| [created_on](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/created_on/) | تاريخ إنشاء العلامة المائية. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [height](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/height/) | ارتفاع العلامة المائية. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [left](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/left/) | الموضع الأيسر للعلامة المائية. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [modified_on](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/modified_on/) | تاريخ تعديل العلامة المائية. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [page_number](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/page_number/) | رقم الصفحة التي وضعت فيها العلامة المائية. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [top](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/top/) | الموضع العلوي للعلامة المائية. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [watermark_id](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_id/) | المعرف الفريد للعلامة المائية، يُستخدم لتعديل العلامة المائية عبر طريقتي Update أو Delete. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [watermark_position](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_position/) | موضع العلامة المائية. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [watermark_type](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/watermark_type/) | نوع العلامة المائية. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+| [width](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/width/) | عرض العلامة المائية. (موروث من [`BaseWatermarkResult`](/watermark/python-net/groupdocs.watermark.watermarks.results/basewatermarkresult/)) |
+
+### انظر أيضًا
+* module [`groupdocs.watermark.watermarks.results`](/watermark/python-net/groupdocs.watermark.watermarks.results/)

@@ -1,0 +1,20 @@
+---
+title: "حقل WEB_EXTENSION"
+second_title: "مراجع API لـ GroupDocs.Watermark للبايثون عبر .NET"
+description: "نوع الرسم المدمج."
+type: docs
+url: /ar/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetmsodrawingtype/web_extension/
+is_root: false
+weight: 3250
+---
+
+
+## WEB_EXTENSION field
+
+نوع الرسم المدمج.
+
+### القيمة
+`32`
+
+### انظر أيضًا
+* class [`SpreadsheetMsoDrawingType`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetmsodrawingtype/)
