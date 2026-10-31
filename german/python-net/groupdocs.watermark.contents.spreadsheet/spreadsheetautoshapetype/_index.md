@@ -1,0 +1,275 @@
+---
+title: "SpreadsheetAutoShapeType‑Klasse"
+second_title: "GroupDocs.Watermark für Python über .NET API-Referenzen"
+description: "SpreadsheetAutoShapeType‑Enum — GroupDocs.Watermark für Python über .NET API‑Referenz."
+type: docs
+url: /de/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/
+is_root: false
+weight: 30
+---
+
+
+## SpreadsheetAutoShapeType class
+
+Der Typ SpreadsheetAutoShapeType stellt die folgenden Mitglieder bereit:
+
+### Felder
+| Feld | Beschreibung |
+| :- | :- |
+| [NOT_PRIMITIVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/not_primitive/) | Eingebauter Auto‑Shape‑Typ. |
+| [RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rectangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [ROUNDED_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rounded_rectangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [OVAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/oval/) | Eingebauter Auto‑Shape‑Typ. |
+| [DIAMOND](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/diamond/) | Eingebauter Auto‑Shape‑Typ. |
+| [ISOSCELES_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/isosceles_triangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [RIGHT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_triangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [PARALLELOGRAM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/parallelogram/) | Eingebauter Auto‑Shape‑Typ. |
+| [TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/trapezoid/) | Eingebauter Auto‑Shape‑Typ. |
+| [HEXAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/hexagon/) | Eingebauter Auto‑Shape‑Typ. |
+| [OCTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/octagon/) | Eingebauter Auto‑Shape‑Typ. |
+| [CROSS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cross/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star5/) | Eingebauter Auto‑Shape‑Typ. |
+| [RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [HOME_PLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/home_plate/) | Eingebauter Auto‑Shape‑Typ. |
+| [CUBE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cube/) | Eingebauter Auto‑Shape‑Typ. |
+| [BALLOON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/balloon/) | Eingebauter Auto‑Shape‑Typ. |
+| [SEAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/seal/) | Eingebauter Auto‑Shape‑Typ. |
+| [ARC](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/arc/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line/) | Eingebauter Auto‑Shape‑Typ. |
+| [PLAQUE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/plaque/) | Eingebauter Auto‑Shape‑Typ. |
+| [CAN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/can/) | Eingebauter Auto‑Shape‑Typ. |
+| [DONUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/donut/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_SIMPLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_simple/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_OCTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_octagon/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_HEXAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_hexagon/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_RING](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_ON_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_on_curve/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_ON_RING](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_on_ring/) | Eingebauter Auto‑Shape‑Typ. |
+| [STRAIGHT_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/straight_connector/) | Eingebauter Auto‑Shape‑Typ. |
+| [BENT_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector2/) | Eingebauter Auto‑Shape‑Typ. |
+| [ELBOW_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/elbow_connector/) | Eingebauter Auto‑Shape‑Typ. |
+| [BENT_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector4/) | Eingebauter Auto‑Shape‑Typ. |
+| [BENT_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector5/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector2/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector4/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector5/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_NO_BORDER2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border2/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_NO_BORDER3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border3/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_NO_BORDER4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border4/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar2/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar3/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar4/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_BORDER2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border2/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_BORDER3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border3/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_BORDER4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border4/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar2/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar3/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar4/) | Eingebauter Auto‑Shape‑Typ. |
+| [DOWN_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_ribbon/) | Eingebauter Auto‑Shape‑Typ. |
+| [UP_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_ribbon/) | Eingebauter Auto‑Shape‑Typ. |
+| [CHEVRON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chevron/) | Eingebauter Auto‑Shape‑Typ. |
+| [REGULAR_PENTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/regular_pentagon/) | Eingebauter Auto‑Shape‑Typ. |
+| [NO_SYMBOL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/no_symbol/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR8](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star8/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR16](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star16/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR32](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star32/) | Eingebauter Auto‑Shape‑Typ. |
+| [RECTANGULAR_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rectangular_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [ROUNDED_RECTANGULAR_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rounded_rectangular_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [OVAL_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/oval_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/wave/) | Eingebauter Auto‑Shape‑Typ. |
+| [FOLDED_CORNER](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/folded_corner/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [UP_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_down_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [EXPLOSION1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/explosion1/) | Eingebauter Auto‑Shape‑Typ. |
+| [EXPLOSION2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/explosion2/) | Eingebauter Auto‑Shape‑Typ. |
+| [LIGHTNING_BOLT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/lightning_bolt/) | Eingebauter Auto‑Shape‑Typ. |
+| [HEART](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/heart/) | Eingebauter Auto‑Shape‑Typ. |
+| [PICTURE_FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/picture_frame/) | Eingebauter Auto‑Shape‑Typ. |
+| [QUAD_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/quad_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_arrow_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [RIGHT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_arrow_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [UP_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_arrow_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [DOWN_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_arrow_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_RIGHT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_arrow_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [UP_DOWN_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_down_arrow_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [QUAD_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/quad_arrow_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [BEVEL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bevel/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_bracket/) | Eingebauter Auto‑Shape‑Typ. |
+| [RIGHT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_bracket/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_brace/) | Eingebauter Auto‑Shape‑Typ. |
+| [RIGHT_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_brace/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_up_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [BENT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_up_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [BENT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR24](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star24/) | Eingebauter Auto‑Shape‑Typ. |
+| [STRIPED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/striped_right_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [NOTCHED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/notched_right_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [BLOCK_ARC](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/block_arc/) | Eingebauter Auto‑Shape‑Typ. |
+| [SMILEY_FACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/smiley_face/) | Eingebauter Auto‑Shape‑Typ. |
+| [VERTICAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/vertical_scroll/) | Eingebauter Auto‑Shape‑Typ. |
+| [HORIZONTAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/horizontal_scroll/) | Eingebauter Auto‑Shape‑Typ. |
+| [CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/circular_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [NOTCHED_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/notched_circular_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [UTURN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/uturn_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_right_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_left_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_up_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_down_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [CLOUD_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cloud_callout/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_DOWN_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_down_ribbon/) | Eingebauter Auto‑Shape‑Typ. |
+| [CURVED_UP_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_up_ribbon/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_process/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_DECISION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_decision/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_DATA](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_data/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_PREDEFINED_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_predefined_process/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_INTERNAL_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_internal_storage/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_DOCUMENT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_document/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_MULTIDOCUMENT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_multidocument/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_TERMINATOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_terminator/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_PREPARATION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_preparation/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_MANUAL_INPUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_manual_input/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_MANUAL_OPERATION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_manual_operation/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_connector/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_CARD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_card/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_PUNCHED_TAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_punched_tape/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_SUMMING_JUNCTION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_summing_junction/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_OR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_or/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_COLLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_collate/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_SORT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_sort/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_EXTRACT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_extract/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_MERGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_merge/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_OFFLINE_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_offline_storage/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_STORED_DATA](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_stored_data/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_SEQUENTIAL_ACCESS_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_sequential_access_storage/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_MAGNETIC_DISK](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_magnetic_disk/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_DIRECT_ACCESS_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_direct_access_storage/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_DISPLAY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_display/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_DELAY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_delay/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_PLAIN_TEXT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_plain_text/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_STOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_stop/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_triangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_TRIANGLE_INVERTED](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_triangle_inverted/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CHEVRON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_chevron/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CHEVRON_INVERTED](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_chevron_inverted/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_RING_INSIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring_inside/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_RING_OUTSIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring_outside/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_ARCH_UP_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_up_curve/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_ARCH_DOWN_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_down_curve/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CIRCLE_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_circle_curve/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_BUTTON_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_button_curve/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_ARCH_UP_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_up_pour/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_ARCH_DOWN_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_down_pour/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CIRCLE_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_circle_pour/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_BUTTON_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_button_pour/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CURVE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve_up/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CURVE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve_down/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CASCADE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_cascade_up/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CASCADE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_cascade_down/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_WAVE1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave1/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_WAVE2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave2/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_DOUBLE_WAVE1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_double_wave1/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_DOUBLE_WAVE2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_double_wave2/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_INFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_DEFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_INFLATE_BOTTOM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate_bottom/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_DEFLATE_BOTTOM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_bottom/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_INFLATE_TOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate_top/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_DEFLATE_TOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_top/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_DEFLATE_INFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_inflate/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_DEFLATE_INFLATE_DEFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_inflate_deflate/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_FADE_RIGHT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_right/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_FADE_LEFT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_left/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_FADE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_up/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_FADE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_down/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_SLANT_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_slant_up/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_SLANT_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_slant_down/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CAN_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_can_up/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_CAN_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_can_down/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_ALTERNATE_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_alternate_process/) | Eingebauter Auto‑Shape‑Typ. |
+| [FLOW_CHART_OFFPAGE_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_offpage_connector/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_NO_BORDER1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border1/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar1/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_BORDER1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border1/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar1/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_RIGHT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_up_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [SUN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/sun/) | Eingebauter Auto‑Shape‑Typ. |
+| [MOON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/moon/) | Eingebauter Auto‑Shape‑Typ. |
+| [DOUBLE_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_bracket/) | Eingebauter Auto‑Shape‑Typ. |
+| [DOUBLE_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_brace/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star4/) | Eingebauter Auto‑Shape‑Typ. |
+| [DOUBLE_WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_wave/) | Eingebauter Auto‑Shape‑Typ. |
+| [BLANK_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/blank_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [HOME_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/home_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [HELP_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/help_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [INFORMATION_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/information_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [FORWARD_NEXT_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/forward_next_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [BACK_PREVIOUS_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/back_previous_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [END_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/end_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [BEGINNING_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/beginning_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [RETURN_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/return_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [DOCUMENT_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/document_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [SOUND_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/sound_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [MOVIE_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/movie_action_button/) | Eingebauter Auto‑Shape‑Typ. |
+| [HOST_CONTROL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/host_control/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_BOX](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_box/) | Eingebauter Auto‑Shape‑Typ. |
+| [HEPTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/heptagon/) | Eingebauter Auto‑Shape‑Typ. |
+| [DECAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/decagon/) | Eingebauter Auto‑Shape‑Typ. |
+| [DODECAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/dodecagon/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR6](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star6/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR7](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star7/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR10](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star10/) | Eingebauter Auto‑Shape‑Typ. |
+| [STAR12](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star12/) | Eingebauter Auto‑Shape‑Typ. |
+| [ROUND_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_single_corner_rectangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [ROUND_SAME_SIDE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_same_side_corner_rectangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [ROUND_DIAGONAL_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_diagonal_corner_rectangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [SNIP_ROUND_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_round_single_corner_rectangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [SNIP_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_single_corner_rectangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [SNIP_SAME_SIDE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_same_side_corner_rectangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [SNIP_DIAGONAL_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_diagonal_corner_rectangle/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEARDROP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/teardrop/) | Eingebauter Auto‑Shape‑Typ. |
+| [PIE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/pie/) | Eingebauter Auto‑Shape‑Typ. |
+| [HALF_FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/half_frame/) | Eingebauter Auto‑Shape‑Typ. |
+| [LSHAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/lshape/) | Eingebauter Auto‑Shape‑Typ. |
+| [DIAGONAL_STRIPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/diagonal_stripe/) | Eingebauter Auto‑Shape‑Typ. |
+| [CHORD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chord/) | Eingebauter Auto‑Shape‑Typ. |
+| [CLOUD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cloud/) | Eingebauter Auto‑Shape‑Typ. |
+| [MATH_PLUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_plus/) | Eingebauter Auto‑Shape‑Typ. |
+| [MATH_MINUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_minus/) | Eingebauter Auto‑Shape‑Typ. |
+| [MATH_MULTIPLY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_multiply/) | Eingebauter Auto‑Shape‑Typ. |
+| [MATH_DIVIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_divide/) | Eingebauter Auto‑Shape‑Typ. |
+| [MATH_EQUAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_equal/) | Eingebauter Auto‑Shape‑Typ. |
+| [MATH_NOT_EQUAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_not_equal/) | Eingebauter Auto‑Shape‑Typ. |
+| [LINE_INV](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_inv/) | Eingebauter Auto‑Shape‑Typ. |
+| [NON_ISOSCELES_TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/non_isosceles_trapezoid/) | Eingebauter Auto‑Shape‑Typ. |
+| [PIE_WEDGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/pie_wedge/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_circular_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_RIGHT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_circular_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [SWOOSH_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/swoosh_arrow/) | Eingebauter Auto‑Shape‑Typ. |
+| [LEFT_RIGHT_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_ribbon/) | Eingebauter Auto‑Shape‑Typ. |
+| [TEXT_NO_SHAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_no_shape/) | Eingebauter Auto‑Shape‑Typ. |
+| [GEAR6](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/gear6/) | Eingebauter Auto‑Shape‑Typ. |
+| [GEAR9](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/gear9/) | Eingebauter Auto‑Shape‑Typ. |
+| [FUNNEL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/funnel/) | Eingebauter Auto‑Shape‑Typ. |
+| [CORNER_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/corner_tabs/) | Eingebauter Auto‑Shape‑Typ. |
+| [SQUARE_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/square_tabs/) | Eingebauter Auto‑Shape‑Typ. |
+| [PLAQUE_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/plaque_tabs/) | Eingebauter Auto‑Shape‑Typ. |
+| [CHART_X](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_x/) | Eingebauter Auto‑Shape‑Typ. |
+| [CHART_STAR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_star/) | Eingebauter Auto‑Shape‑Typ. |
+| [CHART_PLUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_plus/) | Eingebauter Auto‑Shape‑Typ. |
+| [FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/frame/) | Eingebauter Auto‑Shape‑Typ. |
+| [MODEL_3D](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/model_3d/) | Eingebauter Auto‑Shape‑Typ. |
+| [ROUND_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_callout/) | Ein es gibt keinen solchen Typ in Excel. |
+| [TEXT_ARCH_LEFT_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_left_pour/) | Ein es gibt keinen solchen Typ in Excel. |
+| [TEXT_ARCH_RIGHT_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_right_pour/) | Ein es gibt keinen solchen Typ in Excel. |
+| [TEXT_ARCH_LEFT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_left_curve/) | Ein es gibt keinen solchen Typ in Excel. |
+| [TEXT_ARCH_RIGHT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_right_curve/) | Ein es gibt keinen solchen Typ in Excel. |
+| [UNKNOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/unknown/) | Unbekannter Autoformtyp. |
+
+### Siehe auch
+* module [`groupdocs.watermark.contents.spreadsheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/)
