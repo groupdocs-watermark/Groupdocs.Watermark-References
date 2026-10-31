@@ -1,0 +1,20 @@
+---
+title: "UP_DOWN_ARROW_CALLOUT 字段"
+second_title: "GroupDocs.Watermark 用于 Python via .NET API 参考"
+description: "内置自动形状类型。"
+type: docs
+url: /zh/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_down_arrow_callout/
+is_root: false
+weight: 3820
+---
+
+
+## UP_DOWN_ARROW_CALLOUT field
+
+内置自动形状类型。
+
+### 值
+`82`
+
+### 另请参见
+* class [`SpreadsheetAutoShapeType`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/)
