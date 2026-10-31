@@ -1,0 +1,20 @@
+---
+title: "BEVEL kolom"
+second_title: "Referensi API GroupDocs.Watermark untuk Python via .NET"
+description: "Tipe bentuk bawaan."
+type: docs
+url: /id/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/bevel/
+is_root: false
+weight: 3850
+---
+
+
+## BEVEL field
+
+Tipe bentuk bawaan.
+
+### Nilai
+`84`
+
+### Lihat Juga
+* class [`WordProcessingShapeType`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/)
