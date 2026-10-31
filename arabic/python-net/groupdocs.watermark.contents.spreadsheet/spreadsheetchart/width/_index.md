@@ -1,0 +1,24 @@
+---
+title: "خاصية width"
+second_title: "مراجع API لـ GroupDocs.Watermark للبايثون عبر .NET"
+description: "عرض هذا المخطط الجدولي بالنقاط."
+type: docs
+url: /ar/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/width/
+is_root: false
+weight: 2070
+---
+
+
+## width property
+
+عرض هذا المخطط الجدولي بالنقاط.
+
+### Definition:
+```python
+@property
+def width(self):
+    ...
+```
+
+### انظر أيضًا
+* class [`SpreadsheetChart`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetchart/)
