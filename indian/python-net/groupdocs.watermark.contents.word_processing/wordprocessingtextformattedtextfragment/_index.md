@@ -1,0 +1,27 @@
+---
+title: "WordProcessingTextFormattedTextFragment क्लास"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "Word दस्तावेज़ में स्वरूपित टेक्स्ट का एक फ्रैगमेंट दर्शाता है।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.contents.word_processing/wordprocessingtextformattedtextfragment/
+is_root: false
+weight: 160
+---
+
+
+## WordProcessingTextFormattedTextFragment class
+
+Word दस्तावेज़ में स्वरूपित टेक्स्ट का एक फ्रैगमेंट दर्शाता है।
+
+WordProcessingTextFormattedTextFragment प्रकार निम्नलिखित सदस्यों को उजागर करता है:
+
+### गुणधर्म
+| गुणधर्म | विवरण |
+| :- | :- |
+| [background_color](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingtextformattedtextfragment/background_color/) | टेक्स्ट का पृष्ठभूमि रंग। |
+| [font](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingtextformattedtextfragment/font/) | टेक्स्ट का फ़ॉन्ट। |
+| [foreground_color](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingtextformattedtextfragment/foreground_color/) | टेक्स्ट का अग्रभूमि रंग। |
+| [text](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingtextformattedtextfragment/text/) | फ्रैगमेंट टेक्स्ट। |
+
+### संबंधित देखें
+* module [`groupdocs.watermark.contents.word_processing`](/watermark/python-net/groupdocs.watermark.contents.word_processing/)

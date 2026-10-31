@@ -1,0 +1,20 @@
+---
+title: "ONE_SNIP_CORNER_RECTANGLE फ़ील्ड"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "इनबिल्ट शैप जियोमेट्री प्रीसेट प्रकार।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/one_snip_corner_rectangle/
+is_root: false
+weight: 3320
+---
+
+
+## ONE_SNIP_CORNER_RECTANGLE field
+
+इनबिल्ट शैप जियोमेट्री प्रीसेट प्रकार।
+
+### मान
+`31`
+
+### संबंधित देखें
+* class [`PresentationShapeType`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/)

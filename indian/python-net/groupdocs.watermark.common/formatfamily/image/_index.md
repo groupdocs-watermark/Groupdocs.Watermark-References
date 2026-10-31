@@ -1,0 +1,20 @@
+---
+title: "IMAGE फ़ील्ड"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "इमेज फ़ॉर्मेट परिवार।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.common/formatfamily/image/
+is_root: false
+weight: 3040
+---
+
+
+## IMAGE field
+
+इमेज फ़ॉर्मेट परिवार।
+
+### मान
+`3`
+
+### संबंधित देखें
+* class [`FormatFamily`](/watermark/python-net/groupdocs.watermark.common/formatfamily/)

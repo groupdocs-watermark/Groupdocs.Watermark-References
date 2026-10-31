@@ -1,0 +1,22 @@
+---
+title: "__init__ कंस्ट्रक्टर"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "PresentationWatermarkMasterHandoutSlideOptions क्लास का एक नया इंस्टेंस इनिशियलाइज़ करता है।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.options.presentation/presentationwatermarkmasterhandoutslideoptions/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__
+
+एक नया उदाहरण प्रारंभ करता है [`PresentationWatermarkMasterHandoutSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkmasterhandoutslideoptions/) क्लास का।
+
+```python
+def __init__(self):
+    ...
+```
+
+### संबंधित देखें
+* class [`PresentationWatermarkMasterHandoutSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkmasterhandoutslideoptions/)

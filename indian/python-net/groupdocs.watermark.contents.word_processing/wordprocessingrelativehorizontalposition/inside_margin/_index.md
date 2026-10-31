@@ -1,0 +1,20 @@
+---
+title: "INSIDE_MARGIN फ़ील्ड"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "निर्दिष्ट करता है कि क्षैतिज स्थिति वर्तमान पृष्ठ के अंदरूनी मार्जिन के सापेक्ष है (विषम पृष्ठों पर बायाँ मार्जिन, सम पृष्ठों पर दायाँ मार्जिन)।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativehorizontalposition/inside_margin/
+is_root: false
+weight: 3070
+---
+
+
+## INSIDE_MARGIN field
+
+निर्दिष्ट करता है कि क्षैतिज स्थिति वर्तमान पृष्ठ के अंदरूनी मार्जिन के सापेक्ष है (विषम पृष्ठों पर बायाँ मार्जिन, सम पृष्ठों पर दायाँ मार्जिन)।
+
+### मान
+`6`
+
+### संबंधित देखें
+* class [`WordProcessingRelativeHorizontalPosition`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingrelativehorizontalposition/)

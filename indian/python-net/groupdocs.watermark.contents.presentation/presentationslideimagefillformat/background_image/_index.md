@@ -1,0 +1,27 @@
+---
+title: "background_image गुण"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "पृष्ठभूमि इमेज; यदि इमेज सेट नहीं है तो None लौटाता है।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.contents.presentation/presentationslideimagefillformat/background_image/
+is_root: false
+weight: 2010
+---
+
+
+## background_image property
+
+पृष्ठभूमि इमेज; यदि इमेज सेट नहीं है तो None लौटाता है।
+
+### Definition:
+```python
+@property
+def background_image(self):
+    ...
+@background_image.setter
+def background_image(self, value):
+    ...
+```
+
+### संबंधित देखें
+* class [`PresentationSlideImageFillFormat`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationslideimagefillformat/)

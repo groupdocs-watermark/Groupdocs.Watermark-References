@@ -1,0 +1,20 @@
+---
+title: "RETURN_BUTTON फ़ील्ड"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "इनबिल्ट शैप जियोमेट्री प्रीसेट प्रकार।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/return_button/
+is_root: false
+weight: 4700
+---
+
+
+## RETURN_BUTTON field
+
+इनबिल्ट शैप जियोमेट्री प्रीसेट प्रकार।
+
+### मान
+`169`
+
+### संबंधित देखें
+* class [`PresentationShapeType`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/)

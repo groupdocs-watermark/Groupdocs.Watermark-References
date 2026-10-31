@@ -1,0 +1,29 @@
+---
+title: "is_locked प्रॉपर्टी"
+second_title: "GroupDocs.Watermark Python के लिए .NET API संदर्भ"
+description: "यह प्रॉपर्टी दर्शाती है कि Excel में आकार का संपादन प्रतिबंधित है या नहीं।"
+type: docs
+url: /hi/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/is_locked/
+is_root: false
+weight: 2020
+---
+
+
+## is_locked property
+
+यह प्रॉपर्टी दर्शाती है कि Excel में आकार का संपादन प्रतिबंधित है या नहीं।
+
+यदि True हो, तो आकार संपादन प्रतिबंधित होगा; अन्यथा, आकार को Excel में संपादित किया जा सकता है (डिफ़ॉल्ट False है)।
+
+### Definition:
+```python
+@property
+def is_locked(self):
+    ...
+@is_locked.setter
+def is_locked(self, value):
+    ...
+```
+
+### संबंधित देखें
+* class [`SpreadsheetWatermarkBaseOptions`](/watermark/python-net/groupdocs.watermark.options.spreadsheet/spreadsheetwatermarkbaseoptions/)
