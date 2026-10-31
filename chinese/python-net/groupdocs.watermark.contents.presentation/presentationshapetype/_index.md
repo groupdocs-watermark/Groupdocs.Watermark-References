@@ -1,0 +1,210 @@
+---
+title: "PresentationShapeType 类"
+second_title: "GroupDocs.Watermark 用于 Python via .NET API 参考"
+description: "PresentationShapeType 枚举 — GroupDocs.Watermark for Python via .NET API reference."
+type: docs
+url: /zh/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/
+is_root: false
+weight: 210
+---
+
+
+## PresentationShapeType class
+
+PresentationShapeType 类型公开以下成员：
+
+### 字段
+| 字段 | 描述 |
+| :- | :- |
+| [CUSTOM](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/custom/) | 内置形状几何预设类型。 |
+| [LINE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/line/) | 内置形状几何预设类型。 |
+| [LINE_INVERSE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/line_inverse/) | 内置形状几何预设类型。 |
+| [TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/triangle/) | 内置形状几何预设类型。 |
+| [RIGHT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/right_triangle/) | 内置形状几何预设类型。 |
+| [RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/rectangle/) | 内置形状几何预设类型。 |
+| [DIAMOND](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/diamond/) | 内置形状几何预设类型。 |
+| [PARALLELOGRAM](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/parallelogram/) | 内置形状几何预设类型。 |
+| [TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/trapezoid/) | 内置形状几何预设类型。 |
+| [NON_ISOSCELES_TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/non_isosceles_trapezoid/) | 内置形状几何预设类型。 |
+| [PENTAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/pentagon/) | 内置形状几何预设类型。 |
+| [HEXAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/hexagon/) | 内置形状几何预设类型。 |
+| [HEPTAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/heptagon/) | 内置形状几何预设类型。 |
+| [OCTAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/octagon/) | 内置形状几何预设类型。 |
+| [DECAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/decagon/) | 内置形状几何预设类型。 |
+| [DODECAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/dodecagon/) | 内置形状几何预设类型。 |
+| [FOUR_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/four_pointed_star/) | 内置形状几何预设类型。 |
+| [FIVE_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/five_pointed_star/) | 内置形状几何预设类型。 |
+| [SIX_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/six_pointed_star/) | 内置形状几何预设类型。 |
+| [SEVEN_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/seven_pointed_star/) | 内置形状几何预设类型。 |
+| [EIGHT_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/eight_pointed_star/) | 内置形状几何预设类型。 |
+| [TEN_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ten_pointed_star/) | 内置形状几何预设类型。 |
+| [TWELVE_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/twelve_pointed_star/) | 内置形状几何预设类型。 |
+| [SIXTEEN_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/sixteen_pointed_star/) | 内置形状几何预设类型。 |
+| [TWENTY_FOUR_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/twenty_four_pointed_star/) | 内置形状几何预设类型。 |
+| [THIRTY_TWO_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/thirty_two_pointed_star/) | 内置形状几何预设类型。 |
+| [ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/round_corner_rectangle/) | 内置形状几何预设类型。 |
+| [ONE_ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/one_round_corner_rectangle/) | 内置形状几何预设类型。 |
+| [TWO_SAMESIDE_ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/two_sameside_round_corner_rectangle/) | 内置形状几何预设类型。 |
+| [TWO_DIAGONAL_ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/two_diagonal_round_corner_rectangle/) | 内置形状几何预设类型。 |
+| [ONE_SNIP_ONE_ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/one_snip_one_round_corner_rectangle/) | 内置形状几何预设类型。 |
+| [ONE_SNIP_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/one_snip_corner_rectangle/) | 内置形状几何预设类型。 |
+| [TWO_SAMESIDE_SNIP_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/two_sameside_snip_corner_rectangle/) | 内置形状几何预设类型。 |
+| [TWO_DIAGONAL_SNIP_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/two_diagonal_snip_corner_rectangle/) | 内置形状几何预设类型。 |
+| [PLAQUE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/plaque/) | 内置形状几何预设类型。 |
+| [ELLIPSE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ellipse/) | 内置形状几何预设类型。 |
+| [TEARDROP](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/teardrop/) | 内置形状几何预设类型。 |
+| [HOME_PLATE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/home_plate/) | 内置形状几何预设类型。 |
+| [CHEVRON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chevron/) | 内置形状几何预设类型。 |
+| [PIE_WEDGE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/pie_wedge/) | 内置形状几何预设类型。 |
+| [PIE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/pie/) | 内置形状几何预设类型。 |
+| [BLOCK_ARC](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/block_arc/) | 内置形状几何预设类型。 |
+| [DONUT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/donut/) | 内置形状几何预设类型。 |
+| [NO_SMOKING](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/no_smoking/) | 内置形状几何预设类型。 |
+| [RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/right_arrow/) | 内置形状几何预设类型。 |
+| [LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_arrow/) | 内置形状几何预设类型。 |
+| [UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/up_arrow/) | 内置形状几何预设类型。 |
+| [DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/down_arrow/) | 内置形状几何预设类型。 |
+| [STRIPED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/striped_right_arrow/) | 内置形状几何预设类型。 |
+| [NOTCHED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/notched_right_arrow/) | 内置形状几何预设类型。 |
+| [BENT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_up_arrow/) | 内置形状几何预设类型。 |
+| [LEFT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_right_arrow/) | 内置形状几何预设类型。 |
+| [UP_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/up_down_arrow/) | 内置形状几何预设类型。 |
+| [LEFT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_up_arrow/) | 内置形状几何预设类型。 |
+| [LEFT_RIGHT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_right_up_arrow/) | 内置形状几何预设类型。 |
+| [QUAD_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/quad_arrow/) | 内置形状几何预设类型。 |
+| [CALLOUT_LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_left_arrow/) | 内置形状几何预设类型。 |
+| [CALLOUT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_right_arrow/) | 内置形状几何预设类型。 |
+| [CALLOUT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_up_arrow/) | 内置形状几何预设类型。 |
+| [CALLOUT_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_down_arrow/) | 内置形状几何预设类型。 |
+| [CALLOUT_LEFT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_left_right_arrow/) | 内置形状几何预设类型。 |
+| [CALLOUT_UP_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_up_down_arrow/) | 内置形状几何预设类型。 |
+| [CALLOUT_QUAD_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_quad_arrow/) | 内置形状几何预设类型。 |
+| [BENT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_arrow/) | 内置形状几何预设类型。 |
+| [UTURN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/uturn_arrow/) | 内置形状几何预设类型。 |
+| [CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/circular_arrow/) | 内置形状几何预设类型。 |
+| [LEFT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_circular_arrow/) | 内置形状几何预设类型。 |
+| [LEFT_RIGHT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_right_circular_arrow/) | 内置形状几何预设类型。 |
+| [CURVED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_right_arrow/) | 内置形状几何预设类型。 |
+| [CURVED_LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_left_arrow/) | 内置形状几何预设类型。 |
+| [CURVED_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_up_arrow/) | 内置形状几何预设类型。 |
+| [CURVED_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_down_arrow/) | 内置形状几何预设类型。 |
+| [SWOOSH_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/swoosh_arrow/) | 内置形状几何预设类型。 |
+| [CUBE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/cube/) | 内置形状几何预设类型。 |
+| [CAN](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/can/) | 内置形状几何预设类型。 |
+| [LIGHTNING_BOLT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/lightning_bolt/) | 内置形状几何预设类型。 |
+| [HEART](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/heart/) | 内置形状几何预设类型。 |
+| [SUN](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/sun/) | 内置形状几何预设类型。 |
+| [MOON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/moon/) | 内置形状几何预设类型。 |
+| [SMILEY_FACE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/smiley_face/) | 内置形状几何预设类型。 |
+| [IRREGULAR_SEAL1](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/irregular_seal1/) | 内置形状几何预设类型。 |
+| [IRREGULAR_SEAL2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/irregular_seal2/) | 内置形状几何预设类型。 |
+| [FOLDED_CORNER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/folded_corner/) | 内置形状几何预设类型。 |
+| [BEVEL](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bevel/) | 内置形状几何预设类型。 |
+| [FRAME](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/frame/) | 内置形状几何预设类型。 |
+| [HALF_FRAME](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/half_frame/) | 内置形状几何预设类型。 |
+| [CORNER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/corner/) | 内置形状几何预设类型。 |
+| [DIAGONAL_STRIPE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/diagonal_stripe/) | 内置形状几何预设类型。 |
+| [CHORD](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chord/) | 内置形状几何预设类型。 |
+| [CURVED_ARC](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_arc/) | 内置形状几何预设类型。 |
+| [LEFT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_bracket/) | 内置形状几何预设类型。 |
+| [RIGHT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/right_bracket/) | 内置形状几何预设类型。 |
+| [LEFT_BRACE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_brace/) | 内置形状几何预设类型。 |
+| [RIGHT_BRACE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/right_brace/) | 内置形状几何预设类型。 |
+| [BRACKET_PAIR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bracket_pair/) | 内置形状几何预设类型。 |
+| [BRACE_PAIR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/brace_pair/) | 内置形状几何预设类型。 |
+| [STRAIGHT_CONNECTOR1](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/straight_connector1/) | 内置形状几何预设类型。 |
+| [BENT_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_connector2/) | 内置形状几何预设类型。 |
+| [BENT_CONNECTOR3](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_connector3/) | 内置形状几何预设类型。 |
+| [BENT_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_connector4/) | 内置形状几何预设类型。 |
+| [BENT_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_connector5/) | 内置形状几何预设类型。 |
+| [CURVED_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_connector2/) | 内置形状几何预设类型。 |
+| [CURVED_CONNECTOR3](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_connector3/) | 内置形状几何预设类型。 |
+| [CURVED_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_connector4/) | 内置形状几何预设类型。 |
+| [CURVED_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_connector5/) | 内置形状几何预设类型。 |
+| [CALLOUT1](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout1/) | 内置形状几何预设类型。 |
+| [CALLOUT2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout2/) | 内置形状几何预设类型。 |
+| [CALLOUT3](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout3/) | 内置形状几何预设类型。 |
+| [CALLOUT1_WITH_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout1_with_accent/) | 内置形状几何预设类型。 |
+| [CALLOUT2_WITH_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout2_with_accent/) | 内置形状几何预设类型。 |
+| [CALLOUT3_WITH_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout3_with_accent/) | 内置形状几何预设类型。 |
+| [CALLOUT1_WITH_BORDER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout1_with_border/) | 内置形状几何预设类型。 |
+| [CALLOUT2_WITH_BORDER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout2_with_border/) | 内置形状几何预设类型。 |
+| [CALLOUT3_WITH_BORDER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout3_with_border/) | 内置形状几何预设类型。 |
+| [CALLOUT1_WITH_BORDER_AND_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout1_with_border_and_accent/) | 内置形状几何预设类型。 |
+| [CALLOUT2_WITH_BORDER_AND_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout2_with_border_and_accent/) | 内置形状几何预设类型。 |
+| [CALLOUT3_WITH_BORDER_AND_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout3_with_border_and_accent/) | 内置形状几何预设类型。 |
+| [CALLOUT_WEDGE_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_wedge_rectangle/) | 内置形状几何预设类型。 |
+| [CALLOUT_WEDGE_ROUND_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_wedge_round_rectangle/) | 内置形状几何预设类型。 |
+| [CALLOUT_WEDGE_ELLIPSE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_wedge_ellipse/) | 内置形状几何预设类型。 |
+| [CALLOUT_CLOUD](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_cloud/) | 内置形状几何预设类型。 |
+| [CLOUD](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/cloud/) | 内置形状几何预设类型。 |
+| [RIBBON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ribbon/) | 内置形状几何预设类型。 |
+| [RIBBON2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ribbon2/) | 内置形状几何预设类型。 |
+| [ELLIPSE_RIBBON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ellipse_ribbon/) | 内置形状几何预设类型。 |
+| [ELLIPSE_RIBBON2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ellipse_ribbon2/) | 内置形状几何预设类型。 |
+| [LEFT_RIGHT_RIBBON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_right_ribbon/) | 内置形状几何预设类型。 |
+| [VERTICAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/vertical_scroll/) | 内置形状几何预设类型。 |
+| [HORIZONTAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/horizontal_scroll/) | 内置形状几何预设类型。 |
+| [WAVE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/wave/) | 内置形状几何预设类型。 |
+| [DOUBLE_WAVE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/double_wave/) | 内置形状几何预设类型。 |
+| [PLUS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/plus/) | 内置形状几何预设类型。 |
+| [PROCESS_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/process_flow/) | 内置形状几何预设类型。 |
+| [DECISION_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/decision_flow/) | 内置形状几何预设类型。 |
+| [INPUT_OUTPUT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/input_output_flow/) | 内置形状几何预设类型。 |
+| [PREDEFINED_PROCESS_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/predefined_process_flow/) | 内置形状几何预设类型。 |
+| [INTERNAL_STORAGE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/internal_storage_flow/) | 内置形状几何预设类型。 |
+| [DOCUMENT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/document_flow/) | 内置形状几何预设类型。 |
+| [MULTI_DOCUMENT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/multi_document_flow/) | 内置形状几何预设类型。 |
+| [TERMINATOR_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/terminator_flow/) | 内置形状几何预设类型。 |
+| [PREPARATION_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/preparation_flow/) | 内置形状几何预设类型。 |
+| [MANUAL_INPUT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/manual_input_flow/) | 内置形状几何预设类型。 |
+| [MANUAL_OPERATION_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/manual_operation_flow/) | 内置形状几何预设类型。 |
+| [CONNECTOR_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/connector_flow/) | 内置形状几何预设类型。 |
+| [PUNCHED_CARD_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/punched_card_flow/) | 内置形状几何预设类型。 |
+| [PUNCHED_TAPE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/punched_tape_flow/) | 内置形状几何预设类型。 |
+| [SUMMING_JUNCTION_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/summing_junction_flow/) | 内置形状几何预设类型。 |
+| [OR_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/or_flow/) | 内置形状几何预设类型。 |
+| [COLLATE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/collate_flow/) | 内置形状几何预设类型。 |
+| [SORT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/sort_flow/) | 内置形状几何预设类型。 |
+| [EXTRACT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/extract_flow/) | 内置形状几何预设类型。 |
+| [MERGE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/merge_flow/) | 内置形状几何预设类型。 |
+| [OFFLINE_STORAGE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/offline_storage_flow/) | 内置形状几何预设类型。 |
+| [ONLINE_STORAGE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/online_storage_flow/) | 内置形状几何预设类型。 |
+| [MAGNETIC_TAPE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/magnetic_tape_flow/) | 内置形状几何预设类型。 |
+| [MAGNETIC_DISK_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/magnetic_disk_flow/) | 内置形状几何预设类型。 |
+| [MAGNETIC_DRUM_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/magnetic_drum_flow/) | 内置形状几何预设类型。 |
+| [DISPLAY_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/display_flow/) | 内置形状几何预设类型。 |
+| [DELAY_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/delay_flow/) | 内置形状几何预设类型。 |
+| [ALTERNATE_PROCESS_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/alternate_process_flow/) | 内置形状几何预设类型。 |
+| [OFF_PAGE_CONNECTOR_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/off_page_connector_flow/) | 内置形状几何预设类型。 |
+| [BLANK_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/blank_button/) | 内置形状几何预设类型。 |
+| [HOME_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/home_button/) | 内置形状几何预设类型。 |
+| [HELP_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/help_button/) | 内置形状几何预设类型。 |
+| [INFORMATION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/information_button/) | 内置形状几何预设类型。 |
+| [FORWARD_OR_NEXT_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/forward_or_next_button/) | 内置形状几何预设类型。 |
+| [BACK_OR_PREVIOUS_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/back_or_previous_button/) | 内置形状几何预设类型。 |
+| [END_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/end_button/) | 内置形状几何预设类型。 |
+| [BEGINNING_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/beginning_button/) | 内置形状几何预设类型。 |
+| [RETURN_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/return_button/) | 内置形状几何预设类型。 |
+| [DOCUMENT_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/document_button/) | 内置形状几何预设类型。 |
+| [SOUND_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/sound_button/) | 内置形状几何预设类型。 |
+| [MOVIE_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/movie_button/) | 内置形状几何预设类型。 |
+| [GEAR6](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/gear6/) | 内置形状几何预设类型。 |
+| [GEAR9](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/gear9/) | 内置形状几何预设类型。 |
+| [FUNNEL](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/funnel/) | 内置形状几何预设类型。 |
+| [PLUS_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/plus_math/) | 内置形状几何预设类型。 |
+| [MINUS_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/minus_math/) | 内置形状几何预设类型。 |
+| [MULTIPLY_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/multiply_math/) | 内置形状几何预设类型。 |
+| [DIVIDE_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/divide_math/) | 内置形状几何预设类型。 |
+| [EQUAL_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/equal_math/) | 内置形状几何预设类型。 |
+| [NOT_EQUAL_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/not_equal_math/) | 内置形状几何预设类型。 |
+| [CORNER_TABS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/corner_tabs/) | 内置形状几何预设类型。 |
+| [SQUARE_TABS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/square_tabs/) | 内置形状几何预设类型。 |
+| [PLAQUE_TABS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/plaque_tabs/) | 内置形状几何预设类型。 |
+| [CHART_X](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chart_x/) | 内置形状几何预设类型。 |
+| [CHART_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chart_star/) | 内置形状几何预设类型。 |
+| [CHART_PLUS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chart_plus/) | 内置形状几何预设类型。 |
+| [NOT_DEFINED](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/not_defined/) | UndefinedDocument 形状类型。 |
+
+### 另请参见
+* module [`groupdocs.watermark.contents.presentation`](/watermark/python-net/groupdocs.watermark.contents.presentation/)
