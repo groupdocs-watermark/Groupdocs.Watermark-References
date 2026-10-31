@@ -1,0 +1,20 @@
+---
+title: "LIGHTNING_BOLT Feld"
+second_title: "GroupDocs.Watermark für Python über .NET API-Referenzen"
+description: "Eingebauter Auto‑Shape‑Typ."
+type: docs
+url: /de/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/lightning_bolt/
+is_root: false
+weight: 3730
+---
+
+
+## LIGHTNING_BOLT field
+
+Eingebauter Auto‑Shape‑Typ.
+
+### Wert
+`73`
+
+### Siehe auch
+* class [`SpreadsheetAutoShapeType`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/)
