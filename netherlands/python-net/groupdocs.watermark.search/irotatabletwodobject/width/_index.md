@@ -1,0 +1,24 @@
+---
+title: "width property"
+second_title: "GroupDocs.Watermark voor Python via .NET API-referenties"
+description: "De breedte van het object."
+type: docs
+url: /nl/python-net/groupdocs.watermark.search/irotatabletwodobject/width/
+is_root: false
+weight: 2030
+---
+
+
+## width property
+
+De breedte van het object.
+
+### Definition:
+```python
+@property
+def width(self):
+    ...
+```
+
+### Zie ook
+* class [`IRotatableTwoDObject`](/watermark/python-net/groupdocs.watermark.search/irotatabletwodobject/)

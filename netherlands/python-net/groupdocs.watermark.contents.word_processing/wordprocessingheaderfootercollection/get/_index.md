@@ -1,0 +1,20 @@
+---
+title: "get methode"
+second_title: "GroupDocs.Watermark voor Python via .NET API-referenties"
+description: "WordProcessingHeaderFooterCollection.get methode — GroupDocs.Watermark voor Python via .NET."
+type: docs
+url: /nl/python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfootercollection/get/
+is_root: false
+weight: 1010
+---
+
+
+## get
+
+```python
+def get(self):
+    ...
+```
+
+### Zie ook
+* class [`WordProcessingHeaderFooterCollection`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingheaderfootercollection/)

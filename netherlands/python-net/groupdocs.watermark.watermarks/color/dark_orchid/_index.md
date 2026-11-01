@@ -1,0 +1,17 @@
+---
+title: "DARK_ORCHID veld"
+second_title: "GroupDocs.Watermark voor Python via .NET API-referenties"
+description: "Haalt een systeem‑gedefinieerde kleur op."
+type: docs
+url: /nl/python-net/groupdocs.watermark.watermarks/color/dark_orchid/
+is_root: false
+weight: 3330
+---
+
+
+## DARK_ORCHID field
+
+Haalt een systeem‑gedefinieerde kleur op.
+
+### Zie ook
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

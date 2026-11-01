@@ -1,0 +1,29 @@
+---
+title: "x eigenschap"
+second_title: "GroupDocs.Watermark voor Python via .NET API-referenties"
+description: "De horizontale offset van het bijlageframe ten opzichte van de linkerrand van het werkblad in punten."
+type: docs
+url: /nl/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/x/
+is_root: false
+weight: 2080
+---
+
+
+## x property
+
+De horizontale offset van het bijlageframe ten opzichte van de linkerrand van het werkblad in punten.
+
+De x-coördinaat van het bijlageframe.
+
+### Definition:
+```python
+@property
+def x(self):
+    ...
+@x.setter
+def x(self, value):
+    ...
+```
+
+### Zie ook
+* class [`SpreadsheetAttachment`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetattachment/)
