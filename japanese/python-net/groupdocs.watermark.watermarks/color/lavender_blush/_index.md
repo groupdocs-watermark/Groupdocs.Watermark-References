@@ -1,0 +1,17 @@
+---
+title: "LAVENDER_BLUSH フィールド"
+second_title: "GroupDocs.Watermark for Python via .NET API リファレンス"
+description: "システム定義の色を取得します。"
+type: docs
+url: /ja/python-net/groupdocs.watermark.watermarks/color/lavender_blush/
+is_root: false
+weight: 3630
+---
+
+
+## LAVENDER_BLUSH field
+
+システム定義の色を取得します。
+
+### 関連項目
+* class [`Color`](/watermark/python-net/groupdocs.watermark.watermarks/color/)

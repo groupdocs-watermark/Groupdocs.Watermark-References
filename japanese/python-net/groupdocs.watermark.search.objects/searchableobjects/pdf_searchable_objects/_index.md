@@ -1,0 +1,27 @@
+---
+title: "pdf_searchable_objects プロパティ"
+second_title: "GroupDocs.Watermark for Python via .NET API リファレンス"
+description: "透かし検索に含める PDF ドキュメント内のオブジェクト。"
+type: docs
+url: /ja/python-net/groupdocs.watermark.search.objects/searchableobjects/pdf_searchable_objects/
+is_root: false
+weight: 2030
+---
+
+
+## pdf_searchable_objects property
+
+透かし検索に含める PDF ドキュメント内のオブジェクト。
+
+### Definition:
+```python
+@property
+def pdf_searchable_objects(self):
+    ...
+@pdf_searchable_objects.setter
+def pdf_searchable_objects(self, value):
+    ...
+```
+
+### 関連項目
+* class [`SearchableObjects`](/watermark/python-net/groupdocs.watermark.search.objects/searchableobjects/)

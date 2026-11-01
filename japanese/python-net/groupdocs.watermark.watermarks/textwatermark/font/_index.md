@@ -1,0 +1,27 @@
+---
+title: "font プロパティ"
+second_title: "GroupDocs.Watermark for Python via .NET API リファレンス"
+description: "テキストのフォントです。"
+type: docs
+url: /ja/python-net/groupdocs.watermark.watermarks/textwatermark/font/
+is_root: false
+weight: 2020
+---
+
+
+## font property
+
+テキストのフォントです。
+
+### Definition:
+```python
+@property
+def font(self):
+    ...
+@font.setter
+def font(self, value):
+    ...
+```
+
+### 関連項目
+* class [`TextWatermark`](/watermark/python-net/groupdocs.watermark.watermarks/textwatermark/)
