@@ -1,0 +1,20 @@
+---
+title: "TEXT_ARCH_DOWN_CURVE alan"
+second_title: "GroupDocs.Watermark Python için .NET API Referansları"
+description: "Yerleşik otomatik şekil türü."
+type: docs
+url: /tr/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_down_curve/
+is_root: false
+weight: 4450
+---
+
+
+## TEXT_ARCH_DOWN_CURVE field
+
+Yerleşik otomatik şekil türü.
+
+### Değer
+`145`
+
+### Ayrıca Bakınız
+* class [`SpreadsheetAutoShapeType`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/)

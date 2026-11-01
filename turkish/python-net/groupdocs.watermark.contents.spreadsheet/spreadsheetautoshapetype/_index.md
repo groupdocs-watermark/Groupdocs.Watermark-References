@@ -1,0 +1,275 @@
+---
+title: "SpreadsheetAutoShapeType sınıfı"
+second_title: "GroupDocs.Watermark Python için .NET API Referansları"
+description: "SpreadsheetAutoShapeType enum — .NET API referansı aracılığıyla Python için GroupDocs.Watermark."
+type: docs
+url: /tr/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/
+is_root: false
+weight: 30
+---
+
+
+## SpreadsheetAutoShapeType class
+
+SpreadsheetAutoShapeType türü aşağıdaki üyeleri gösterir:
+
+### Alanlar
+| Alan | Açıklama |
+| :- | :- |
+| [NOT_PRIMITIVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/not_primitive/) | Yerleşik otomatik şekil türü. |
+| [RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rectangle/) | Yerleşik otomatik şekil türü. |
+| [ROUNDED_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rounded_rectangle/) | Yerleşik otomatik şekil türü. |
+| [OVAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/oval/) | Yerleşik otomatik şekil türü. |
+| [DIAMOND](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/diamond/) | Yerleşik otomatik şekil türü. |
+| [ISOSCELES_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/isosceles_triangle/) | Yerleşik otomatik şekil türü. |
+| [RIGHT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_triangle/) | Yerleşik otomatik şekil türü. |
+| [PARALLELOGRAM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/parallelogram/) | Yerleşik otomatik şekil türü. |
+| [TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/trapezoid/) | Yerleşik otomatik şekil türü. |
+| [HEXAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/hexagon/) | Yerleşik otomatik şekil türü. |
+| [OCTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/octagon/) | Yerleşik otomatik şekil türü. |
+| [CROSS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cross/) | Yerleşik otomatik şekil türü. |
+| [STAR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star5/) | Yerleşik otomatik şekil türü. |
+| [RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_arrow/) | Yerleşik otomatik şekil türü. |
+| [HOME_PLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/home_plate/) | Yerleşik otomatik şekil türü. |
+| [CUBE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cube/) | Yerleşik otomatik şekil türü. |
+| [BALLOON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/balloon/) | Yerleşik otomatik şekil türü. |
+| [SEAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/seal/) | Yerleşik otomatik şekil türü. |
+| [ARC](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/arc/) | Yerleşik otomatik şekil türü. |
+| [LINE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line/) | Yerleşik otomatik şekil türü. |
+| [PLAQUE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/plaque/) | Yerleşik otomatik şekil türü. |
+| [CAN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/can/) | Yerleşik otomatik şekil türü. |
+| [DONUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/donut/) | Yerleşik otomatik şekil türü. |
+| [TEXT_SIMPLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_simple/) | Yerleşik otomatik şekil türü. |
+| [TEXT_OCTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_octagon/) | Yerleşik otomatik şekil türü. |
+| [TEXT_HEXAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_hexagon/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve/) | Yerleşik otomatik şekil türü. |
+| [TEXT_WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave/) | Yerleşik otomatik şekil türü. |
+| [TEXT_RING](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring/) | Yerleşik otomatik şekil türü. |
+| [TEXT_ON_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_on_curve/) | Yerleşik otomatik şekil türü. |
+| [TEXT_ON_RING](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_on_ring/) | Yerleşik otomatik şekil türü. |
+| [STRAIGHT_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/straight_connector/) | Yerleşik otomatik şekil türü. |
+| [BENT_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector2/) | Yerleşik otomatik şekil türü. |
+| [ELBOW_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/elbow_connector/) | Yerleşik otomatik şekil türü. |
+| [BENT_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector4/) | Yerleşik otomatik şekil türü. |
+| [BENT_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector5/) | Yerleşik otomatik şekil türü. |
+| [CURVED_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector2/) | Yerleşik otomatik şekil türü. |
+| [CURVED_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector/) | Yerleşik otomatik şekil türü. |
+| [CURVED_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector4/) | Yerleşik otomatik şekil türü. |
+| [CURVED_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector5/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_NO_BORDER2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border2/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_NO_BORDER3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border3/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_NO_BORDER4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border4/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar2/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar3/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar4/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_BORDER2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border2/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_BORDER3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border3/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_BORDER4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border4/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar2/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar3/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar4/) | Yerleşik otomatik şekil türü. |
+| [DOWN_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_ribbon/) | Yerleşik otomatik şekil türü. |
+| [UP_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_ribbon/) | Yerleşik otomatik şekil türü. |
+| [CHEVRON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chevron/) | Yerleşik otomatik şekil türü. |
+| [REGULAR_PENTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/regular_pentagon/) | Yerleşik otomatik şekil türü. |
+| [NO_SYMBOL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/no_symbol/) | Yerleşik otomatik şekil türü. |
+| [STAR8](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star8/) | Yerleşik otomatik şekil türü. |
+| [STAR16](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star16/) | Yerleşik otomatik şekil türü. |
+| [STAR32](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star32/) | Yerleşik otomatik şekil türü. |
+| [RECTANGULAR_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rectangular_callout/) | Yerleşik otomatik şekil türü. |
+| [ROUNDED_RECTANGULAR_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rounded_rectangular_callout/) | Yerleşik otomatik şekil türü. |
+| [OVAL_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/oval_callout/) | Yerleşik otomatik şekil türü. |
+| [WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/wave/) | Yerleşik otomatik şekil türü. |
+| [FOLDED_CORNER](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/folded_corner/) | Yerleşik otomatik şekil türü. |
+| [LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_arrow/) | Yerleşik otomatik şekil türü. |
+| [DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_arrow/) | Yerleşik otomatik şekil türü. |
+| [UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_arrow/) | Yerleşik otomatik şekil türü. |
+| [LEFT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_arrow/) | Yerleşik otomatik şekil türü. |
+| [UP_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_down_arrow/) | Yerleşik otomatik şekil türü. |
+| [EXPLOSION1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/explosion1/) | Yerleşik otomatik şekil türü. |
+| [EXPLOSION2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/explosion2/) | Yerleşik otomatik şekil türü. |
+| [LIGHTNING_BOLT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/lightning_bolt/) | Yerleşik otomatik şekil türü. |
+| [HEART](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/heart/) | Yerleşik otomatik şekil türü. |
+| [PICTURE_FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/picture_frame/) | Yerleşik otomatik şekil türü. |
+| [QUAD_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/quad_arrow/) | Yerleşik otomatik şekil türü. |
+| [LEFT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_arrow_callout/) | Yerleşik otomatik şekil türü. |
+| [RIGHT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_arrow_callout/) | Yerleşik otomatik şekil türü. |
+| [UP_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_arrow_callout/) | Yerleşik otomatik şekil türü. |
+| [DOWN_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_arrow_callout/) | Yerleşik otomatik şekil türü. |
+| [LEFT_RIGHT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_arrow_callout/) | Yerleşik otomatik şekil türü. |
+| [UP_DOWN_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_down_arrow_callout/) | Yerleşik otomatik şekil türü. |
+| [QUAD_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/quad_arrow_callout/) | Yerleşik otomatik şekil türü. |
+| [BEVEL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bevel/) | Yerleşik otomatik şekil türü. |
+| [LEFT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_bracket/) | Yerleşik otomatik şekil türü. |
+| [RIGHT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_bracket/) | Yerleşik otomatik şekil türü. |
+| [LEFT_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_brace/) | Yerleşik otomatik şekil türü. |
+| [RIGHT_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_brace/) | Yerleşik otomatik şekil türü. |
+| [LEFT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_up_arrow/) | Yerleşik otomatik şekil türü. |
+| [BENT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_up_arrow/) | Yerleşik otomatik şekil türü. |
+| [BENT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_arrow/) | Yerleşik otomatik şekil türü. |
+| [STAR24](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star24/) | Yerleşik otomatik şekil türü. |
+| [STRIPED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/striped_right_arrow/) | Yerleşik otomatik şekil türü. |
+| [NOTCHED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/notched_right_arrow/) | Yerleşik otomatik şekil türü. |
+| [BLOCK_ARC](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/block_arc/) | Yerleşik otomatik şekil türü. |
+| [SMILEY_FACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/smiley_face/) | Yerleşik otomatik şekil türü. |
+| [VERTICAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/vertical_scroll/) | Yerleşik otomatik şekil türü. |
+| [HORIZONTAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/horizontal_scroll/) | Yerleşik otomatik şekil türü. |
+| [CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/circular_arrow/) | Yerleşik otomatik şekil türü. |
+| [NOTCHED_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/notched_circular_arrow/) | Yerleşik otomatik şekil türü. |
+| [UTURN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/uturn_arrow/) | Yerleşik otomatik şekil türü. |
+| [CURVED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_right_arrow/) | Yerleşik otomatik şekil türü. |
+| [CURVED_LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_left_arrow/) | Yerleşik otomatik şekil türü. |
+| [CURVED_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_up_arrow/) | Yerleşik otomatik şekil türü. |
+| [CURVED_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_down_arrow/) | Yerleşik otomatik şekil türü. |
+| [CLOUD_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cloud_callout/) | Yerleşik otomatik şekil türü. |
+| [CURVED_DOWN_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_down_ribbon/) | Yerleşik otomatik şekil türü. |
+| [CURVED_UP_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_up_ribbon/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_process/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_DECISION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_decision/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_DATA](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_data/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_PREDEFINED_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_predefined_process/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_INTERNAL_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_internal_storage/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_DOCUMENT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_document/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_MULTIDOCUMENT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_multidocument/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_TERMINATOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_terminator/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_PREPARATION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_preparation/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_MANUAL_INPUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_manual_input/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_MANUAL_OPERATION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_manual_operation/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_connector/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_CARD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_card/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_PUNCHED_TAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_punched_tape/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_SUMMING_JUNCTION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_summing_junction/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_OR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_or/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_COLLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_collate/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_SORT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_sort/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_EXTRACT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_extract/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_MERGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_merge/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_OFFLINE_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_offline_storage/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_STORED_DATA](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_stored_data/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_SEQUENTIAL_ACCESS_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_sequential_access_storage/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_MAGNETIC_DISK](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_magnetic_disk/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_DIRECT_ACCESS_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_direct_access_storage/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_DISPLAY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_display/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_DELAY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_delay/) | Yerleşik otomatik şekil türü. |
+| [TEXT_PLAIN_TEXT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_plain_text/) | Yerleşik otomatik şekil türü. |
+| [TEXT_STOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_stop/) | Yerleşik otomatik şekil türü. |
+| [TEXT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_triangle/) | Yerleşik otomatik şekil türü. |
+| [TEXT_TRIANGLE_INVERTED](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_triangle_inverted/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CHEVRON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_chevron/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CHEVRON_INVERTED](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_chevron_inverted/) | Yerleşik otomatik şekil türü. |
+| [TEXT_RING_INSIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring_inside/) | Yerleşik otomatik şekil türü. |
+| [TEXT_RING_OUTSIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring_outside/) | Yerleşik otomatik şekil türü. |
+| [TEXT_ARCH_UP_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_up_curve/) | Yerleşik otomatik şekil türü. |
+| [TEXT_ARCH_DOWN_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_down_curve/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CIRCLE_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_circle_curve/) | Yerleşik otomatik şekil türü. |
+| [TEXT_BUTTON_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_button_curve/) | Yerleşik otomatik şekil türü. |
+| [TEXT_ARCH_UP_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_up_pour/) | Yerleşik otomatik şekil türü. |
+| [TEXT_ARCH_DOWN_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_down_pour/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CIRCLE_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_circle_pour/) | Yerleşik otomatik şekil türü. |
+| [TEXT_BUTTON_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_button_pour/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CURVE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve_up/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CURVE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve_down/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CASCADE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_cascade_up/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CASCADE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_cascade_down/) | Yerleşik otomatik şekil türü. |
+| [TEXT_WAVE1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave1/) | Yerleşik otomatik şekil türü. |
+| [TEXT_WAVE2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave2/) | Yerleşik otomatik şekil türü. |
+| [TEXT_DOUBLE_WAVE1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_double_wave1/) | Yerleşik otomatik şekil türü. |
+| [TEXT_DOUBLE_WAVE2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_double_wave2/) | Yerleşik otomatik şekil türü. |
+| [TEXT_INFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate/) | Yerleşik otomatik şekil türü. |
+| [TEXT_DEFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate/) | Yerleşik otomatik şekil türü. |
+| [TEXT_INFLATE_BOTTOM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate_bottom/) | Yerleşik otomatik şekil türü. |
+| [TEXT_DEFLATE_BOTTOM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_bottom/) | Yerleşik otomatik şekil türü. |
+| [TEXT_INFLATE_TOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate_top/) | Yerleşik otomatik şekil türü. |
+| [TEXT_DEFLATE_TOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_top/) | Yerleşik otomatik şekil türü. |
+| [TEXT_DEFLATE_INFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_inflate/) | Yerleşik otomatik şekil türü. |
+| [TEXT_DEFLATE_INFLATE_DEFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_inflate_deflate/) | Yerleşik otomatik şekil türü. |
+| [TEXT_FADE_RIGHT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_right/) | Yerleşik otomatik şekil türü. |
+| [TEXT_FADE_LEFT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_left/) | Yerleşik otomatik şekil türü. |
+| [TEXT_FADE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_up/) | Yerleşik otomatik şekil türü. |
+| [TEXT_FADE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_down/) | Yerleşik otomatik şekil türü. |
+| [TEXT_SLANT_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_slant_up/) | Yerleşik otomatik şekil türü. |
+| [TEXT_SLANT_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_slant_down/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CAN_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_can_up/) | Yerleşik otomatik şekil türü. |
+| [TEXT_CAN_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_can_down/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_ALTERNATE_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_alternate_process/) | Yerleşik otomatik şekil türü. |
+| [FLOW_CHART_OFFPAGE_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_offpage_connector/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_NO_BORDER1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border1/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar1/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_BORDER1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border1/) | Yerleşik otomatik şekil türü. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar1/) | Yerleşik otomatik şekil türü. |
+| [LEFT_RIGHT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_up_arrow/) | Yerleşik otomatik şekil türü. |
+| [SUN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/sun/) | Yerleşik otomatik şekil türü. |
+| [MOON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/moon/) | Yerleşik otomatik şekil türü. |
+| [DOUBLE_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_bracket/) | Yerleşik otomatik şekil türü. |
+| [DOUBLE_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_brace/) | Yerleşik otomatik şekil türü. |
+| [STAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star4/) | Yerleşik otomatik şekil türü. |
+| [DOUBLE_WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_wave/) | Yerleşik otomatik şekil türü. |
+| [BLANK_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/blank_action_button/) | Yerleşik otomatik şekil türü. |
+| [HOME_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/home_action_button/) | Yerleşik otomatik şekil türü. |
+| [HELP_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/help_action_button/) | Yerleşik otomatik şekil türü. |
+| [INFORMATION_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/information_action_button/) | Yerleşik otomatik şekil türü. |
+| [FORWARD_NEXT_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/forward_next_action_button/) | Yerleşik otomatik şekil türü. |
+| [BACK_PREVIOUS_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/back_previous_action_button/) | Yerleşik otomatik şekil türü. |
+| [END_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/end_action_button/) | Yerleşik otomatik şekil türü. |
+| [BEGINNING_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/beginning_action_button/) | Yerleşik otomatik şekil türü. |
+| [RETURN_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/return_action_button/) | Yerleşik otomatik şekil türü. |
+| [DOCUMENT_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/document_action_button/) | Yerleşik otomatik şekil türü. |
+| [SOUND_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/sound_action_button/) | Yerleşik otomatik şekil türü. |
+| [MOVIE_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/movie_action_button/) | Yerleşik otomatik şekil türü. |
+| [HOST_CONTROL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/host_control/) | Yerleşik otomatik şekil türü. |
+| [TEXT_BOX](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_box/) | Yerleşik otomatik şekil türü. |
+| [HEPTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/heptagon/) | Yerleşik otomatik şekil türü. |
+| [DECAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/decagon/) | Yerleşik otomatik şekil türü. |
+| [DODECAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/dodecagon/) | Yerleşik otomatik şekil türü. |
+| [STAR6](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star6/) | Yerleşik otomatik şekil türü. |
+| [STAR7](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star7/) | Yerleşik otomatik şekil türü. |
+| [STAR10](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star10/) | Yerleşik otomatik şekil türü. |
+| [STAR12](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star12/) | Yerleşik otomatik şekil türü. |
+| [ROUND_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_single_corner_rectangle/) | Yerleşik otomatik şekil türü. |
+| [ROUND_SAME_SIDE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_same_side_corner_rectangle/) | Yerleşik otomatik şekil türü. |
+| [ROUND_DIAGONAL_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_diagonal_corner_rectangle/) | Yerleşik otomatik şekil türü. |
+| [SNIP_ROUND_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_round_single_corner_rectangle/) | Yerleşik otomatik şekil türü. |
+| [SNIP_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_single_corner_rectangle/) | Yerleşik otomatik şekil türü. |
+| [SNIP_SAME_SIDE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_same_side_corner_rectangle/) | Yerleşik otomatik şekil türü. |
+| [SNIP_DIAGONAL_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_diagonal_corner_rectangle/) | Yerleşik otomatik şekil türü. |
+| [TEARDROP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/teardrop/) | Yerleşik otomatik şekil türü. |
+| [PIE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/pie/) | Yerleşik otomatik şekil türü. |
+| [HALF_FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/half_frame/) | Yerleşik otomatik şekil türü. |
+| [LSHAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/lshape/) | Yerleşik otomatik şekil türü. |
+| [DIAGONAL_STRIPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/diagonal_stripe/) | Yerleşik otomatik şekil türü. |
+| [CHORD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chord/) | Yerleşik otomatik şekil türü. |
+| [CLOUD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cloud/) | Yerleşik otomatik şekil türü. |
+| [MATH_PLUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_plus/) | Yerleşik otomatik şekil türü. |
+| [MATH_MINUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_minus/) | Yerleşik otomatik şekil türü. |
+| [MATH_MULTIPLY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_multiply/) | Yerleşik otomatik şekil türü. |
+| [MATH_DIVIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_divide/) | Yerleşik otomatik şekil türü. |
+| [MATH_EQUAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_equal/) | Yerleşik otomatik şekil türü. |
+| [MATH_NOT_EQUAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_not_equal/) | Yerleşik otomatik şekil türü. |
+| [LINE_INV](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_inv/) | Yerleşik otomatik şekil türü. |
+| [NON_ISOSCELES_TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/non_isosceles_trapezoid/) | Yerleşik otomatik şekil türü. |
+| [PIE_WEDGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/pie_wedge/) | Yerleşik otomatik şekil türü. |
+| [LEFT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_circular_arrow/) | Yerleşik otomatik şekil türü. |
+| [LEFT_RIGHT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_circular_arrow/) | Yerleşik otomatik şekil türü. |
+| [SWOOSH_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/swoosh_arrow/) | Yerleşik otomatik şekil türü. |
+| [LEFT_RIGHT_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_ribbon/) | Yerleşik otomatik şekil türü. |
+| [TEXT_NO_SHAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_no_shape/) | Yerleşik otomatik şekil türü. |
+| [GEAR6](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/gear6/) | Yerleşik otomatik şekil türü. |
+| [GEAR9](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/gear9/) | Yerleşik otomatik şekil türü. |
+| [FUNNEL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/funnel/) | Yerleşik otomatik şekil türü. |
+| [CORNER_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/corner_tabs/) | Yerleşik otomatik şekil türü. |
+| [SQUARE_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/square_tabs/) | Yerleşik otomatik şekil türü. |
+| [PLAQUE_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/plaque_tabs/) | Yerleşik otomatik şekil türü. |
+| [CHART_X](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_x/) | Yerleşik otomatik şekil türü. |
+| [CHART_STAR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_star/) | Yerleşik otomatik şekil türü. |
+| [CHART_PLUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_plus/) | Yerleşik otomatik şekil türü. |
+| [FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/frame/) | Yerleşik otomatik şekil türü. |
+| [MODEL_3D](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/model_3d/) | Yerleşik otomatik şekil türü. |
+| [ROUND_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_callout/) | Excel'de böyle bir tür yok. |
+| [TEXT_ARCH_LEFT_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_left_pour/) | Excel'de böyle bir tür yok. |
+| [TEXT_ARCH_RIGHT_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_right_pour/) | Excel'de böyle bir tür yok. |
+| [TEXT_ARCH_LEFT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_left_curve/) | Excel'de böyle bir tür yok. |
+| [TEXT_ARCH_RIGHT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_right_curve/) | Excel'de böyle bir tür yok. |
+| [UNKNOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/unknown/) | Bilinmeyen otomatik şekil türü. |
+
+### Ayrıca Bakınız
+* module [`groupdocs.watermark.contents.spreadsheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/)
