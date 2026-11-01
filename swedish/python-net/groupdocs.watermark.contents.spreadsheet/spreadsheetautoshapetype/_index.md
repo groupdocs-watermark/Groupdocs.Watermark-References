@@ -1,0 +1,275 @@
+---
+title: "SpreadsheetAutoShapeType‑klass"
+second_title: "GroupDocs.Watermark för Python via .NET API-referenser"
+description: "SpreadsheetAutoShapeType‑enum — GroupDocs.Watermark för Python via .NET API‑referens."
+type: docs
+url: /sv/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/
+is_root: false
+weight: 30
+---
+
+
+## SpreadsheetAutoShapeType class
+
+Typen SpreadsheetAutoShapeType visar följande medlemmar:
+
+### Fält
+| Fält | Beskrivning |
+| :- | :- |
+| [NOT_PRIMITIVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/not_primitive/) | Inbyggd autoform‑typ. |
+| [RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rectangle/) | Inbyggd autoform‑typ. |
+| [ROUNDED_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rounded_rectangle/) | Inbyggd autoform‑typ. |
+| [OVAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/oval/) | Inbyggd autoform‑typ. |
+| [DIAMOND](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/diamond/) | Inbyggd autoform‑typ. |
+| [ISOSCELES_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/isosceles_triangle/) | Inbyggd autoform‑typ. |
+| [RIGHT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_triangle/) | Inbyggd autoform‑typ. |
+| [PARALLELOGRAM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/parallelogram/) | Inbyggd autoform‑typ. |
+| [TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/trapezoid/) | Inbyggd autoform‑typ. |
+| [HEXAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/hexagon/) | Inbyggd autoform‑typ. |
+| [OCTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/octagon/) | Inbyggd autoform‑typ. |
+| [CROSS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cross/) | Inbyggd autoform‑typ. |
+| [STAR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star5/) | Inbyggd autoform‑typ. |
+| [RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_arrow/) | Inbyggd autoform‑typ. |
+| [HOME_PLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/home_plate/) | Inbyggd autoform‑typ. |
+| [CUBE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cube/) | Inbyggd autoform‑typ. |
+| [BALLOON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/balloon/) | Inbyggd autoform‑typ. |
+| [SEAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/seal/) | Inbyggd autoform‑typ. |
+| [ARC](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/arc/) | Inbyggd autoform‑typ. |
+| [LINE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line/) | Inbyggd autoform‑typ. |
+| [PLAQUE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/plaque/) | Inbyggd autoform‑typ. |
+| [CAN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/can/) | Inbyggd autoform‑typ. |
+| [DONUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/donut/) | Inbyggd autoform‑typ. |
+| [TEXT_SIMPLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_simple/) | Inbyggd autoform‑typ. |
+| [TEXT_OCTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_octagon/) | Inbyggd autoform‑typ. |
+| [TEXT_HEXAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_hexagon/) | Inbyggd autoform‑typ. |
+| [TEXT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve/) | Inbyggd autoform‑typ. |
+| [TEXT_WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave/) | Inbyggd autoform‑typ. |
+| [TEXT_RING](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring/) | Inbyggd autoform‑typ. |
+| [TEXT_ON_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_on_curve/) | Inbyggd autoform‑typ. |
+| [TEXT_ON_RING](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_on_ring/) | Inbyggd autoform‑typ. |
+| [STRAIGHT_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/straight_connector/) | Inbyggd autoform‑typ. |
+| [BENT_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector2/) | Inbyggd autoform‑typ. |
+| [ELBOW_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/elbow_connector/) | Inbyggd autoform‑typ. |
+| [BENT_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector4/) | Inbyggd autoform‑typ. |
+| [BENT_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector5/) | Inbyggd autoform‑typ. |
+| [CURVED_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector2/) | Inbyggd autoform‑typ. |
+| [CURVED_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector/) | Inbyggd autoform‑typ. |
+| [CURVED_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector4/) | Inbyggd autoform‑typ. |
+| [CURVED_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector5/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_NO_BORDER2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border2/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_NO_BORDER3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border3/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_NO_BORDER4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border4/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar2/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar3/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar4/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_BORDER2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border2/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_BORDER3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border3/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_BORDER4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border4/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar2/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar3/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar4/) | Inbyggd autoform‑typ. |
+| [DOWN_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_ribbon/) | Inbyggd autoform‑typ. |
+| [UP_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_ribbon/) | Inbyggd autoform‑typ. |
+| [CHEVRON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chevron/) | Inbyggd autoform‑typ. |
+| [REGULAR_PENTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/regular_pentagon/) | Inbyggd autoform‑typ. |
+| [NO_SYMBOL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/no_symbol/) | Inbyggd autoform‑typ. |
+| [STAR8](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star8/) | Inbyggd autoform‑typ. |
+| [STAR16](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star16/) | Inbyggd autoform‑typ. |
+| [STAR32](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star32/) | Inbyggd autoform‑typ. |
+| [RECTANGULAR_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rectangular_callout/) | Inbyggd autoform‑typ. |
+| [ROUNDED_RECTANGULAR_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rounded_rectangular_callout/) | Inbyggd autoform‑typ. |
+| [OVAL_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/oval_callout/) | Inbyggd autoform‑typ. |
+| [WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/wave/) | Inbyggd autoform‑typ. |
+| [FOLDED_CORNER](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/folded_corner/) | Inbyggd autoform‑typ. |
+| [LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_arrow/) | Inbyggd autoform‑typ. |
+| [DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_arrow/) | Inbyggd autoform‑typ. |
+| [UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_arrow/) | Inbyggd autoform‑typ. |
+| [LEFT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_arrow/) | Inbyggd autoform‑typ. |
+| [UP_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_down_arrow/) | Inbyggd autoform‑typ. |
+| [EXPLOSION1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/explosion1/) | Inbyggd autoform‑typ. |
+| [EXPLOSION2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/explosion2/) | Inbyggd autoform‑typ. |
+| [LIGHTNING_BOLT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/lightning_bolt/) | Inbyggd autoform‑typ. |
+| [HEART](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/heart/) | Inbyggd autoform‑typ. |
+| [PICTURE_FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/picture_frame/) | Inbyggd autoform‑typ. |
+| [QUAD_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/quad_arrow/) | Inbyggd autoform‑typ. |
+| [LEFT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_arrow_callout/) | Inbyggd autoform‑typ. |
+| [RIGHT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_arrow_callout/) | Inbyggd autoform‑typ. |
+| [UP_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_arrow_callout/) | Inbyggd autoform‑typ. |
+| [DOWN_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_arrow_callout/) | Inbyggd autoform‑typ. |
+| [LEFT_RIGHT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_arrow_callout/) | Inbyggd autoform‑typ. |
+| [UP_DOWN_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_down_arrow_callout/) | Inbyggd autoform‑typ. |
+| [QUAD_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/quad_arrow_callout/) | Inbyggd autoform‑typ. |
+| [BEVEL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bevel/) | Inbyggd autoform‑typ. |
+| [LEFT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_bracket/) | Inbyggd autoform‑typ. |
+| [RIGHT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_bracket/) | Inbyggd autoform‑typ. |
+| [LEFT_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_brace/) | Inbyggd autoform‑typ. |
+| [RIGHT_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_brace/) | Inbyggd autoform‑typ. |
+| [LEFT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_up_arrow/) | Inbyggd autoform‑typ. |
+| [BENT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_up_arrow/) | Inbyggd autoform‑typ. |
+| [BENT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_arrow/) | Inbyggd autoform‑typ. |
+| [STAR24](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star24/) | Inbyggd autoform‑typ. |
+| [STRIPED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/striped_right_arrow/) | Inbyggd autoform‑typ. |
+| [NOTCHED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/notched_right_arrow/) | Inbyggd autoform‑typ. |
+| [BLOCK_ARC](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/block_arc/) | Inbyggd autoform‑typ. |
+| [SMILEY_FACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/smiley_face/) | Inbyggd autoform‑typ. |
+| [VERTICAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/vertical_scroll/) | Inbyggd autoform‑typ. |
+| [HORIZONTAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/horizontal_scroll/) | Inbyggd autoform‑typ. |
+| [CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/circular_arrow/) | Inbyggd autoform‑typ. |
+| [NOTCHED_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/notched_circular_arrow/) | Inbyggd autoform‑typ. |
+| [UTURN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/uturn_arrow/) | Inbyggd autoform‑typ. |
+| [CURVED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_right_arrow/) | Inbyggd autoform‑typ. |
+| [CURVED_LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_left_arrow/) | Inbyggd autoform‑typ. |
+| [CURVED_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_up_arrow/) | Inbyggd autoform‑typ. |
+| [CURVED_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_down_arrow/) | Inbyggd autoform‑typ. |
+| [CLOUD_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cloud_callout/) | Inbyggd autoform‑typ. |
+| [CURVED_DOWN_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_down_ribbon/) | Inbyggd autoform‑typ. |
+| [CURVED_UP_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_up_ribbon/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_process/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_DECISION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_decision/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_DATA](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_data/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_PREDEFINED_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_predefined_process/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_INTERNAL_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_internal_storage/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_DOCUMENT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_document/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_MULTIDOCUMENT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_multidocument/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_TERMINATOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_terminator/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_PREPARATION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_preparation/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_MANUAL_INPUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_manual_input/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_MANUAL_OPERATION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_manual_operation/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_connector/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_CARD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_card/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_PUNCHED_TAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_punched_tape/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_SUMMING_JUNCTION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_summing_junction/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_OR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_or/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_COLLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_collate/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_SORT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_sort/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_EXTRACT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_extract/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_MERGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_merge/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_OFFLINE_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_offline_storage/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_STORED_DATA](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_stored_data/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_SEQUENTIAL_ACCESS_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_sequential_access_storage/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_MAGNETIC_DISK](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_magnetic_disk/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_DIRECT_ACCESS_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_direct_access_storage/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_DISPLAY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_display/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_DELAY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_delay/) | Inbyggd autoform‑typ. |
+| [TEXT_PLAIN_TEXT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_plain_text/) | Inbyggd autoform‑typ. |
+| [TEXT_STOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_stop/) | Inbyggd autoform‑typ. |
+| [TEXT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_triangle/) | Inbyggd autoform‑typ. |
+| [TEXT_TRIANGLE_INVERTED](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_triangle_inverted/) | Inbyggd autoform‑typ. |
+| [TEXT_CHEVRON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_chevron/) | Inbyggd autoform‑typ. |
+| [TEXT_CHEVRON_INVERTED](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_chevron_inverted/) | Inbyggd autoform‑typ. |
+| [TEXT_RING_INSIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring_inside/) | Inbyggd autoform‑typ. |
+| [TEXT_RING_OUTSIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring_outside/) | Inbyggd autoform‑typ. |
+| [TEXT_ARCH_UP_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_up_curve/) | Inbyggd autoform‑typ. |
+| [TEXT_ARCH_DOWN_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_down_curve/) | Inbyggd autoform‑typ. |
+| [TEXT_CIRCLE_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_circle_curve/) | Inbyggd autoform‑typ. |
+| [TEXT_BUTTON_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_button_curve/) | Inbyggd autoform‑typ. |
+| [TEXT_ARCH_UP_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_up_pour/) | Inbyggd autoform‑typ. |
+| [TEXT_ARCH_DOWN_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_down_pour/) | Inbyggd autoform‑typ. |
+| [TEXT_CIRCLE_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_circle_pour/) | Inbyggd autoform‑typ. |
+| [TEXT_BUTTON_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_button_pour/) | Inbyggd autoform‑typ. |
+| [TEXT_CURVE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve_up/) | Inbyggd autoform‑typ. |
+| [TEXT_CURVE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve_down/) | Inbyggd autoform‑typ. |
+| [TEXT_CASCADE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_cascade_up/) | Inbyggd autoform‑typ. |
+| [TEXT_CASCADE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_cascade_down/) | Inbyggd autoform‑typ. |
+| [TEXT_WAVE1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave1/) | Inbyggd autoform‑typ. |
+| [TEXT_WAVE2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave2/) | Inbyggd autoform‑typ. |
+| [TEXT_DOUBLE_WAVE1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_double_wave1/) | Inbyggd autoform‑typ. |
+| [TEXT_DOUBLE_WAVE2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_double_wave2/) | Inbyggd autoform‑typ. |
+| [TEXT_INFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate/) | Inbyggd autoform‑typ. |
+| [TEXT_DEFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate/) | Inbyggd autoform‑typ. |
+| [TEXT_INFLATE_BOTTOM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate_bottom/) | Inbyggd autoform‑typ. |
+| [TEXT_DEFLATE_BOTTOM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_bottom/) | Inbyggd autoform‑typ. |
+| [TEXT_INFLATE_TOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate_top/) | Inbyggd autoform‑typ. |
+| [TEXT_DEFLATE_TOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_top/) | Inbyggd autoform‑typ. |
+| [TEXT_DEFLATE_INFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_inflate/) | Inbyggd autoform‑typ. |
+| [TEXT_DEFLATE_INFLATE_DEFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_inflate_deflate/) | Inbyggd autoform‑typ. |
+| [TEXT_FADE_RIGHT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_right/) | Inbyggd autoform‑typ. |
+| [TEXT_FADE_LEFT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_left/) | Inbyggd autoform‑typ. |
+| [TEXT_FADE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_up/) | Inbyggd autoform‑typ. |
+| [TEXT_FADE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_down/) | Inbyggd autoform‑typ. |
+| [TEXT_SLANT_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_slant_up/) | Inbyggd autoform‑typ. |
+| [TEXT_SLANT_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_slant_down/) | Inbyggd autoform‑typ. |
+| [TEXT_CAN_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_can_up/) | Inbyggd autoform‑typ. |
+| [TEXT_CAN_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_can_down/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_ALTERNATE_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_alternate_process/) | Inbyggd autoform‑typ. |
+| [FLOW_CHART_OFFPAGE_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_offpage_connector/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_NO_BORDER1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border1/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar1/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_BORDER1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border1/) | Inbyggd autoform‑typ. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar1/) | Inbyggd autoform‑typ. |
+| [LEFT_RIGHT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_up_arrow/) | Inbyggd autoform‑typ. |
+| [SUN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/sun/) | Inbyggd autoform‑typ. |
+| [MOON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/moon/) | Inbyggd autoform‑typ. |
+| [DOUBLE_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_bracket/) | Inbyggd autoform‑typ. |
+| [DOUBLE_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_brace/) | Inbyggd autoform‑typ. |
+| [STAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star4/) | Inbyggd autoform‑typ. |
+| [DOUBLE_WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_wave/) | Inbyggd autoform‑typ. |
+| [BLANK_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/blank_action_button/) | Inbyggd autoform‑typ. |
+| [HOME_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/home_action_button/) | Inbyggd autoform‑typ. |
+| [HELP_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/help_action_button/) | Inbyggd autoform‑typ. |
+| [INFORMATION_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/information_action_button/) | Inbyggd autoform‑typ. |
+| [FORWARD_NEXT_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/forward_next_action_button/) | Inbyggd autoform‑typ. |
+| [BACK_PREVIOUS_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/back_previous_action_button/) | Inbyggd autoform‑typ. |
+| [END_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/end_action_button/) | Inbyggd autoform‑typ. |
+| [BEGINNING_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/beginning_action_button/) | Inbyggd autoform‑typ. |
+| [RETURN_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/return_action_button/) | Inbyggd autoform‑typ. |
+| [DOCUMENT_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/document_action_button/) | Inbyggd autoform‑typ. |
+| [SOUND_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/sound_action_button/) | Inbyggd autoform‑typ. |
+| [MOVIE_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/movie_action_button/) | Inbyggd autoform‑typ. |
+| [HOST_CONTROL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/host_control/) | Inbyggd autoform‑typ. |
+| [TEXT_BOX](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_box/) | Inbyggd autoform‑typ. |
+| [HEPTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/heptagon/) | Inbyggd autoform‑typ. |
+| [DECAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/decagon/) | Inbyggd autoform‑typ. |
+| [DODECAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/dodecagon/) | Inbyggd autoform‑typ. |
+| [STAR6](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star6/) | Inbyggd autoform‑typ. |
+| [STAR7](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star7/) | Inbyggd autoform‑typ. |
+| [STAR10](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star10/) | Inbyggd autoform‑typ. |
+| [STAR12](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star12/) | Inbyggd autoform‑typ. |
+| [ROUND_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_single_corner_rectangle/) | Inbyggd autoform‑typ. |
+| [ROUND_SAME_SIDE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_same_side_corner_rectangle/) | Inbyggd autoform‑typ. |
+| [ROUND_DIAGONAL_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_diagonal_corner_rectangle/) | Inbyggd autoform‑typ. |
+| [SNIP_ROUND_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_round_single_corner_rectangle/) | Inbyggd autoform‑typ. |
+| [SNIP_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_single_corner_rectangle/) | Inbyggd autoform‑typ. |
+| [SNIP_SAME_SIDE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_same_side_corner_rectangle/) | Inbyggd autoform‑typ. |
+| [SNIP_DIAGONAL_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_diagonal_corner_rectangle/) | Inbyggd autoform‑typ. |
+| [TEARDROP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/teardrop/) | Inbyggd autoform‑typ. |
+| [PIE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/pie/) | Inbyggd autoform‑typ. |
+| [HALF_FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/half_frame/) | Inbyggd autoform‑typ. |
+| [LSHAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/lshape/) | Inbyggd autoform‑typ. |
+| [DIAGONAL_STRIPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/diagonal_stripe/) | Inbyggd autoform‑typ. |
+| [CHORD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chord/) | Inbyggd autoform‑typ. |
+| [CLOUD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cloud/) | Inbyggd autoform‑typ. |
+| [MATH_PLUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_plus/) | Inbyggd autoform‑typ. |
+| [MATH_MINUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_minus/) | Inbyggd autoform‑typ. |
+| [MATH_MULTIPLY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_multiply/) | Inbyggd autoform‑typ. |
+| [MATH_DIVIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_divide/) | Inbyggd autoform‑typ. |
+| [MATH_EQUAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_equal/) | Inbyggd autoform‑typ. |
+| [MATH_NOT_EQUAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_not_equal/) | Inbyggd autoform‑typ. |
+| [LINE_INV](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_inv/) | Inbyggd autoform‑typ. |
+| [NON_ISOSCELES_TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/non_isosceles_trapezoid/) | Inbyggd autoform‑typ. |
+| [PIE_WEDGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/pie_wedge/) | Inbyggd autoform‑typ. |
+| [LEFT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_circular_arrow/) | Inbyggd autoform‑typ. |
+| [LEFT_RIGHT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_circular_arrow/) | Inbyggd autoform‑typ. |
+| [SWOOSH_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/swoosh_arrow/) | Inbyggd autoform‑typ. |
+| [LEFT_RIGHT_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_ribbon/) | Inbyggd autoform‑typ. |
+| [TEXT_NO_SHAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_no_shape/) | Inbyggd autoform‑typ. |
+| [GEAR6](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/gear6/) | Inbyggd autoform‑typ. |
+| [GEAR9](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/gear9/) | Inbyggd autoform‑typ. |
+| [FUNNEL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/funnel/) | Inbyggd autoform‑typ. |
+| [CORNER_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/corner_tabs/) | Inbyggd autoform‑typ. |
+| [SQUARE_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/square_tabs/) | Inbyggd autoform‑typ. |
+| [PLAQUE_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/plaque_tabs/) | Inbyggd autoform‑typ. |
+| [CHART_X](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_x/) | Inbyggd autoform‑typ. |
+| [CHART_STAR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_star/) | Inbyggd autoform‑typ. |
+| [CHART_PLUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_plus/) | Inbyggd autoform‑typ. |
+| [FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/frame/) | Inbyggd autoform‑typ. |
+| [MODEL_3D](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/model_3d/) | Inbyggd autoform‑typ. |
+| [ROUND_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_callout/) | Det finns ingen sådan typ i Excel. |
+| [TEXT_ARCH_LEFT_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_left_pour/) | Det finns ingen sådan typ i Excel. |
+| [TEXT_ARCH_RIGHT_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_right_pour/) | Det finns ingen sådan typ i Excel. |
+| [TEXT_ARCH_LEFT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_left_curve/) | Det finns ingen sådan typ i Excel. |
+| [TEXT_ARCH_RIGHT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_right_curve/) | Det finns ingen sådan typ i Excel. |
+| [UNKNOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/unknown/) | Okänd autoform‑typ. |
+
+### Se även
+* module [`groupdocs.watermark.contents.spreadsheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/)

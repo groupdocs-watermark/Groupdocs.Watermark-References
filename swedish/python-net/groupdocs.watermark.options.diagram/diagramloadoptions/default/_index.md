@@ -1,0 +1,17 @@
+---
+title: "DEFAULT-fält"
+second_title: "GroupDocs.Watermark för Python via .NET API-referenser"
+description: "Hämtar standardvärdet för klassen."
+type: docs
+url: /sv/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/default/
+is_root: false
+weight: 3010
+---
+
+
+## DEFAULT field
+
+Hämtar standardvärdet för klassen.
+
+### Se även
+* class [`DiagramLoadOptions`](/watermark/python-net/groupdocs.watermark.options.diagram/diagramloadoptions/)
