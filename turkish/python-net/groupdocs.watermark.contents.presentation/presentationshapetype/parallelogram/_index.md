@@ -1,0 +1,20 @@
+---
+title: "PARALLELOGRAM alan"
+second_title: "GroupDocs.Watermark Python için .NET API Referansları"
+description: "Yerleşik şekil geometrisi ön ayar türü."
+type: docs
+url: /tr/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/parallelogram/
+is_root: false
+weight: 3080
+---
+
+
+## PARALLELOGRAM field
+
+Yerleşik şekil geometrisi ön ayar türü.
+
+### Değer
+`7`
+
+### Ayrıca Bakınız
+* class [`PresentationShapeType`](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/)

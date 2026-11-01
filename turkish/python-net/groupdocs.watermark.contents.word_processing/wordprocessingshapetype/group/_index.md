@@ -1,0 +1,20 @@
+---
+title: "GROUP alan"
+second_title: "GroupDocs.Watermark Python için .NET API Referansları"
+description: "Yerleşik şekil türü."
+type: docs
+url: /tr/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/group/
+is_root: false
+weight: 5120
+---
+
+
+## GROUP field
+
+Yerleşik şekil türü.
+
+### Değer
+`-1`
+
+### Ayrıca Bakınız
+* class [`WordProcessingShapeType`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/)
