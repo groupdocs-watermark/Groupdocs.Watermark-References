@@ -1,0 +1,22 @@
+---
+title: "свойство formatted_text_fragments"
+second_title: "GroupDocs.Watermark для Python через .NET справочник API"
+description: "Свойство formatted_text_fragments класса ShapePossibleWatermark — GroupDocs.Watermark for Python via .NET."
+type: docs
+url: /ru/python-net/groupdocs.watermark.search/shapepossiblewatermark/formatted_text_fragments/
+is_root: false
+weight: 2010
+---
+
+
+## formatted_text_fragments property
+
+### Definition:
+```python
+@property
+def formatted_text_fragments(self):
+    ...
+```
+
+### См. также
+* class [`ShapePossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/shapepossiblewatermark/)

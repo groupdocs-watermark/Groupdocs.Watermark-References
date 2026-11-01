@@ -1,0 +1,26 @@
+---
+title: "свойство rotate_angle"
+second_title: "GroupDocs.Watermark для Python через .NET справочник API"
+description: "Угол поворота этого SpreadsheetHyperlinkPossibleWatermark в градусах."
+type: docs
+url: /ru/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/rotate_angle/
+is_root: false
+weight: 2030
+---
+
+
+## rotate_angle property
+
+Угол поворота этого [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/) в градусах.
+
+Значение всегда равно 0 для этого типа возможного водяного знака.
+
+### Definition:
+```python
+@property
+def rotate_angle(self):
+    ...
+```
+
+### См. также
+* class [`SpreadsheetHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheethyperlinkpossiblewatermark/)
