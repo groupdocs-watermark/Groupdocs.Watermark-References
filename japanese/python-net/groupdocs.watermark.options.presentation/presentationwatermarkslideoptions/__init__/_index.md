@@ -1,0 +1,45 @@
+---
+title: "__init__ コンストラクタ"
+second_title: "GroupDocs.Watermark for Python via .NET API リファレンス"
+description: "PresentationWatermarkSlideOptions クラスの新しいインスタンスを初期化します。"
+type: docs
+url: /ja/python-net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/__init__/
+is_root: false
+weight: 10
+---
+
+
+## __init__
+
+[`PresentationWatermarkSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/) クラスの新しいインスタンスを初期化します。
+
+```python
+def __init__(self):
+    ...
+```
+
+### 例
+
+```python
+from groupdocs.watermark import Watermarker
+from groupdocs.watermark.watermarks import TextWatermark, Font, Color
+from groupdocs.watermark.common import HorizontalAlignment, VerticalAlignment
+from groupdocs.watermark.options.presentation import (
+    PresentationLoadOptions,
+    PresentationWatermarkSlideOptions,
+)
+
+with Watermarker("./presentation.pptx", PresentationLoadOptions()) as watermarker:
+    watermark = TextWatermark("CONFIDENTIAL", Font("Arial", 19.0))
+    watermark.foreground_color = Color.red
+    watermark.horizontal_alignment = HorizontalAlignment.CENTER
+    watermark.vertical_alignment = VerticalAlignment.CENTER
+
+    options = PresentationWatermarkSlideOptions()
+    options.slide_index = 0
+    watermarker.add(watermark, options)
+    watermarker.save("./output.pptx")
+```
+
+### 関連項目
+* class [`PresentationWatermarkSlideOptions`](/watermark/python-net/groupdocs.watermark.options.presentation/presentationwatermarkslideoptions/)

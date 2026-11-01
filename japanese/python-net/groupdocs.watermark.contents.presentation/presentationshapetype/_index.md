@@ -1,0 +1,210 @@
+---
+title: "PresentationShapeType クラス"
+second_title: "GroupDocs.Watermark for Python via .NET API リファレンス"
+description: "PresentationShapeType 列挙型 — GroupDocs.Watermark for Python via .NET API リファレンス。"
+type: docs
+url: /ja/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/
+is_root: false
+weight: 210
+---
+
+
+## PresentationShapeType class
+
+PresentationShapeType 型は次のメンバーを公開します：
+
+### フィールド
+| フィールド | 説明 |
+| :- | :- |
+| [CUSTOM](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/custom/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LINE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/line/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LINE_INVERSE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/line_inverse/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/triangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [RIGHT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/right_triangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DIAMOND](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/diamond/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PARALLELOGRAM](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/parallelogram/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/trapezoid/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [NON_ISOSCELES_TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/non_isosceles_trapezoid/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PENTAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/pentagon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [HEXAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/hexagon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [HEPTAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/heptagon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [OCTAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/octagon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DECAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/decagon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DODECAGON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/dodecagon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [FOUR_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/four_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [FIVE_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/five_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SIX_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/six_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SEVEN_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/seven_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [EIGHT_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/eight_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TEN_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ten_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TWELVE_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/twelve_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SIXTEEN_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/sixteen_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TWENTY_FOUR_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/twenty_four_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [THIRTY_TWO_POINTED_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/thirty_two_pointed_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/round_corner_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [ONE_ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/one_round_corner_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TWO_SAMESIDE_ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/two_sameside_round_corner_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TWO_DIAGONAL_ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/two_diagonal_round_corner_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [ONE_SNIP_ONE_ROUND_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/one_snip_one_round_corner_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [ONE_SNIP_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/one_snip_corner_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TWO_SAMESIDE_SNIP_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/two_sameside_snip_corner_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TWO_DIAGONAL_SNIP_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/two_diagonal_snip_corner_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PLAQUE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/plaque/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [ELLIPSE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ellipse/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TEARDROP](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/teardrop/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [HOME_PLATE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/home_plate/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CHEVRON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chevron/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PIE_WEDGE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/pie_wedge/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PIE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/pie/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BLOCK_ARC](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/block_arc/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DONUT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/donut/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [NO_SMOKING](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/no_smoking/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/right_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/up_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/down_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [STRIPED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/striped_right_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [NOTCHED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/notched_right_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BENT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_up_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LEFT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_right_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [UP_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/up_down_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LEFT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_up_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LEFT_RIGHT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_right_up_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [QUAD_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/quad_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_left_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_right_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_up_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_down_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_LEFT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_left_right_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_UP_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_up_down_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_QUAD_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_quad_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BENT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [UTURN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/uturn_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/circular_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LEFT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_circular_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LEFT_RIGHT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_right_circular_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CURVED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_right_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CURVED_LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_left_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CURVED_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_up_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CURVED_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_down_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SWOOSH_ARROW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/swoosh_arrow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CUBE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/cube/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CAN](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/can/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LIGHTNING_BOLT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/lightning_bolt/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [HEART](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/heart/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SUN](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/sun/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MOON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/moon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SMILEY_FACE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/smiley_face/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [IRREGULAR_SEAL1](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/irregular_seal1/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [IRREGULAR_SEAL2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/irregular_seal2/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [FOLDED_CORNER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/folded_corner/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BEVEL](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bevel/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [FRAME](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/frame/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [HALF_FRAME](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/half_frame/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CORNER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/corner/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DIAGONAL_STRIPE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/diagonal_stripe/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CHORD](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chord/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CURVED_ARC](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_arc/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LEFT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_bracket/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [RIGHT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/right_bracket/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LEFT_BRACE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_brace/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [RIGHT_BRACE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/right_brace/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BRACKET_PAIR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bracket_pair/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BRACE_PAIR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/brace_pair/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [STRAIGHT_CONNECTOR1](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/straight_connector1/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BENT_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_connector2/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BENT_CONNECTOR3](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_connector3/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BENT_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_connector4/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BENT_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/bent_connector5/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CURVED_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_connector2/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CURVED_CONNECTOR3](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_connector3/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CURVED_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_connector4/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CURVED_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/curved_connector5/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT1](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout1/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout2/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT3](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout3/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT1_WITH_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout1_with_accent/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT2_WITH_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout2_with_accent/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT3_WITH_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout3_with_accent/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT1_WITH_BORDER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout1_with_border/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT2_WITH_BORDER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout2_with_border/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT3_WITH_BORDER](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout3_with_border/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT1_WITH_BORDER_AND_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout1_with_border_and_accent/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT2_WITH_BORDER_AND_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout2_with_border_and_accent/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT3_WITH_BORDER_AND_ACCENT](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout3_with_border_and_accent/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_WEDGE_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_wedge_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_WEDGE_ROUND_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_wedge_round_rectangle/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_WEDGE_ELLIPSE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_wedge_ellipse/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CALLOUT_CLOUD](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/callout_cloud/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CLOUD](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/cloud/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [RIBBON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ribbon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [RIBBON2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ribbon2/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [ELLIPSE_RIBBON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ellipse_ribbon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [ELLIPSE_RIBBON2](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/ellipse_ribbon2/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [LEFT_RIGHT_RIBBON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/left_right_ribbon/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [VERTICAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/vertical_scroll/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [HORIZONTAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/horizontal_scroll/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [WAVE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/wave/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DOUBLE_WAVE](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/double_wave/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PLUS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/plus/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PROCESS_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/process_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DECISION_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/decision_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [INPUT_OUTPUT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/input_output_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PREDEFINED_PROCESS_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/predefined_process_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [INTERNAL_STORAGE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/internal_storage_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DOCUMENT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/document_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MULTI_DOCUMENT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/multi_document_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [TERMINATOR_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/terminator_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PREPARATION_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/preparation_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MANUAL_INPUT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/manual_input_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MANUAL_OPERATION_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/manual_operation_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CONNECTOR_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/connector_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PUNCHED_CARD_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/punched_card_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PUNCHED_TAPE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/punched_tape_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SUMMING_JUNCTION_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/summing_junction_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [OR_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/or_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [COLLATE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/collate_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SORT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/sort_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [EXTRACT_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/extract_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MERGE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/merge_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [OFFLINE_STORAGE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/offline_storage_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [ONLINE_STORAGE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/online_storage_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MAGNETIC_TAPE_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/magnetic_tape_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MAGNETIC_DISK_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/magnetic_disk_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MAGNETIC_DRUM_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/magnetic_drum_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DISPLAY_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/display_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DELAY_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/delay_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [ALTERNATE_PROCESS_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/alternate_process_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [OFF_PAGE_CONNECTOR_FLOW](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/off_page_connector_flow/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BLANK_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/blank_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [HOME_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/home_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [HELP_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/help_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [INFORMATION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/information_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [FORWARD_OR_NEXT_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/forward_or_next_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BACK_OR_PREVIOUS_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/back_or_previous_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [END_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/end_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [BEGINNING_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/beginning_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [RETURN_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/return_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DOCUMENT_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/document_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SOUND_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/sound_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MOVIE_BUTTON](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/movie_button/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [GEAR6](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/gear6/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [GEAR9](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/gear9/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [FUNNEL](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/funnel/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PLUS_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/plus_math/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MINUS_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/minus_math/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [MULTIPLY_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/multiply_math/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [DIVIDE_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/divide_math/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [EQUAL_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/equal_math/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [NOT_EQUAL_MATH](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/not_equal_math/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CORNER_TABS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/corner_tabs/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [SQUARE_TABS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/square_tabs/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [PLAQUE_TABS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/plaque_tabs/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CHART_X](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chart_x/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CHART_STAR](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chart_star/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [CHART_PLUS](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/chart_plus/) | 組み込みのシェイプジオメトリプリセット型。 |
+| [NOT_DEFINED](/watermark/python-net/groupdocs.watermark.contents.presentation/presentationshapetype/not_defined/) | UndefinedDocument シェイプ型。 |
+
+### 関連項目
+* module [`groupdocs.watermark.contents.presentation`](/watermark/python-net/groupdocs.watermark.contents.presentation/)
