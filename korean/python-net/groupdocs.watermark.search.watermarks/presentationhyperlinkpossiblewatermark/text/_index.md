@@ -1,0 +1,27 @@
+---
+title: "text 속성"
+second_title: "Python용 .NET을 통한 GroupDocs.Watermark API 참조"
+description: "이 HyperlinkPossibleWatermark의 URL입니다."
+type: docs
+url: /ko/python-net/groupdocs.watermark.search.watermarks/presentationhyperlinkpossiblewatermark/text/
+is_root: false
+weight: 2010
+---
+
+
+## text property
+
+이 [`HyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search/hyperlinkpossiblewatermark/)의 URL입니다.
+
+### Definition:
+```python
+@property
+def text(self):
+    ...
+@text.setter
+def text(self, value):
+    ...
+```
+
+### 또 보기
+* class [`PresentationHyperlinkPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/presentationhyperlinkpossiblewatermark/)
