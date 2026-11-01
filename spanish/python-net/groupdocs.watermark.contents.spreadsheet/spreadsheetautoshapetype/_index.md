@@ -1,0 +1,275 @@
+---
+title: "Clase SpreadsheetAutoShapeType"
+second_title: "Referencias de la API de GroupDocs.Watermark para Python a través de .NET"
+description: "Enumeración SpreadsheetAutoShapeType — Referencia de API .NET de GroupDocs.Watermark para Python."
+type: docs
+url: /es/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/
+is_root: false
+weight: 30
+---
+
+
+## SpreadsheetAutoShapeType class
+
+El tipo SpreadsheetAutoShapeType expone los siguientes miembros:
+
+### Campos
+| Campo | Descripción |
+| :- | :- |
+| [NOT_PRIMITIVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/not_primitive/) | Tipo de forma automática incorporado. |
+| [RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rectangle/) | Tipo de forma automática incorporado. |
+| [ROUNDED_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rounded_rectangle/) | Tipo de forma automática incorporado. |
+| [OVAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/oval/) | Tipo de forma automática incorporado. |
+| [DIAMOND](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/diamond/) | Tipo de forma automática incorporado. |
+| [ISOSCELES_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/isosceles_triangle/) | Tipo de forma automática incorporado. |
+| [RIGHT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_triangle/) | Tipo de forma automática incorporado. |
+| [PARALLELOGRAM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/parallelogram/) | Tipo de forma automática incorporado. |
+| [TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/trapezoid/) | Tipo de forma automática incorporado. |
+| [HEXAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/hexagon/) | Tipo de forma automática incorporado. |
+| [OCTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/octagon/) | Tipo de forma automática incorporado. |
+| [CROSS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cross/) | Tipo de forma automática incorporado. |
+| [STAR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star5/) | Tipo de forma automática incorporado. |
+| [RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_arrow/) | Tipo de forma automática incorporado. |
+| [HOME_PLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/home_plate/) | Tipo de forma automática incorporado. |
+| [CUBE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cube/) | Tipo de forma automática incorporado. |
+| [BALLOON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/balloon/) | Tipo de forma automática incorporado. |
+| [SEAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/seal/) | Tipo de forma automática incorporado. |
+| [ARC](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/arc/) | Tipo de forma automática incorporado. |
+| [LINE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line/) | Tipo de forma automática incorporado. |
+| [PLAQUE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/plaque/) | Tipo de forma automática incorporado. |
+| [CAN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/can/) | Tipo de forma automática incorporado. |
+| [DONUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/donut/) | Tipo de forma automática incorporado. |
+| [TEXT_SIMPLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_simple/) | Tipo de forma automática incorporado. |
+| [TEXT_OCTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_octagon/) | Tipo de forma automática incorporado. |
+| [TEXT_HEXAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_hexagon/) | Tipo de forma automática incorporado. |
+| [TEXT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve/) | Tipo de forma automática incorporado. |
+| [TEXT_WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave/) | Tipo de forma automática incorporado. |
+| [TEXT_RING](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring/) | Tipo de forma automática incorporado. |
+| [TEXT_ON_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_on_curve/) | Tipo de forma automática incorporado. |
+| [TEXT_ON_RING](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_on_ring/) | Tipo de forma automática incorporado. |
+| [STRAIGHT_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/straight_connector/) | Tipo de forma automática incorporado. |
+| [BENT_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector2/) | Tipo de forma automática incorporado. |
+| [ELBOW_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/elbow_connector/) | Tipo de forma automática incorporado. |
+| [BENT_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector4/) | Tipo de forma automática incorporado. |
+| [BENT_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_connector5/) | Tipo de forma automática incorporado. |
+| [CURVED_CONNECTOR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector2/) | Tipo de forma automática incorporado. |
+| [CURVED_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector/) | Tipo de forma automática incorporado. |
+| [CURVED_CONNECTOR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector4/) | Tipo de forma automática incorporado. |
+| [CURVED_CONNECTOR5](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_connector5/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_NO_BORDER2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border2/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_NO_BORDER3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border3/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_NO_BORDER4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border4/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar2/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar3/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar4/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_BORDER2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border2/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_BORDER3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border3/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_BORDER4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border4/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar2/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR3](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar3/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar4/) | Tipo de forma automática incorporado. |
+| [DOWN_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_ribbon/) | Tipo de forma automática incorporado. |
+| [UP_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_ribbon/) | Tipo de forma automática incorporado. |
+| [CHEVRON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chevron/) | Tipo de forma automática incorporado. |
+| [REGULAR_PENTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/regular_pentagon/) | Tipo de forma automática incorporado. |
+| [NO_SYMBOL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/no_symbol/) | Tipo de forma automática incorporado. |
+| [STAR8](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star8/) | Tipo de forma automática incorporado. |
+| [STAR16](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star16/) | Tipo de forma automática incorporado. |
+| [STAR32](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star32/) | Tipo de forma automática incorporado. |
+| [RECTANGULAR_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rectangular_callout/) | Tipo de forma automática incorporado. |
+| [ROUNDED_RECTANGULAR_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/rounded_rectangular_callout/) | Tipo de forma automática incorporado. |
+| [OVAL_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/oval_callout/) | Tipo de forma automática incorporado. |
+| [WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/wave/) | Tipo de forma automática incorporado. |
+| [FOLDED_CORNER](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/folded_corner/) | Tipo de forma automática incorporado. |
+| [LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_arrow/) | Tipo de forma automática incorporado. |
+| [DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_arrow/) | Tipo de forma automática incorporado. |
+| [UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_arrow/) | Tipo de forma automática incorporado. |
+| [LEFT_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_arrow/) | Tipo de forma automática incorporado. |
+| [UP_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_down_arrow/) | Tipo de forma automática incorporado. |
+| [EXPLOSION1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/explosion1/) | Tipo de forma automática incorporado. |
+| [EXPLOSION2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/explosion2/) | Tipo de forma automática incorporado. |
+| [LIGHTNING_BOLT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/lightning_bolt/) | Tipo de forma automática incorporado. |
+| [HEART](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/heart/) | Tipo de forma automática incorporado. |
+| [PICTURE_FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/picture_frame/) | Tipo de forma automática incorporado. |
+| [QUAD_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/quad_arrow/) | Tipo de forma automática incorporado. |
+| [LEFT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_arrow_callout/) | Tipo de forma automática incorporado. |
+| [RIGHT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_arrow_callout/) | Tipo de forma automática incorporado. |
+| [UP_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_arrow_callout/) | Tipo de forma automática incorporado. |
+| [DOWN_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/down_arrow_callout/) | Tipo de forma automática incorporado. |
+| [LEFT_RIGHT_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_arrow_callout/) | Tipo de forma automática incorporado. |
+| [UP_DOWN_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/up_down_arrow_callout/) | Tipo de forma automática incorporado. |
+| [QUAD_ARROW_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/quad_arrow_callout/) | Tipo de forma automática incorporado. |
+| [BEVEL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bevel/) | Tipo de forma automática incorporado. |
+| [LEFT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_bracket/) | Tipo de forma automática incorporado. |
+| [RIGHT_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_bracket/) | Tipo de forma automática incorporado. |
+| [LEFT_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_brace/) | Tipo de forma automática incorporado. |
+| [RIGHT_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/right_brace/) | Tipo de forma automática incorporado. |
+| [LEFT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_up_arrow/) | Tipo de forma automática incorporado. |
+| [BENT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_up_arrow/) | Tipo de forma automática incorporado. |
+| [BENT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/bent_arrow/) | Tipo de forma automática incorporado. |
+| [STAR24](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star24/) | Tipo de forma automática incorporado. |
+| [STRIPED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/striped_right_arrow/) | Tipo de forma automática incorporado. |
+| [NOTCHED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/notched_right_arrow/) | Tipo de forma automática incorporado. |
+| [BLOCK_ARC](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/block_arc/) | Tipo de forma automática incorporado. |
+| [SMILEY_FACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/smiley_face/) | Tipo de forma automática incorporado. |
+| [VERTICAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/vertical_scroll/) | Tipo de forma automática incorporado. |
+| [HORIZONTAL_SCROLL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/horizontal_scroll/) | Tipo de forma automática incorporado. |
+| [CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/circular_arrow/) | Tipo de forma automática incorporado. |
+| [NOTCHED_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/notched_circular_arrow/) | Tipo de forma automática incorporado. |
+| [UTURN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/uturn_arrow/) | Tipo de forma automática incorporado. |
+| [CURVED_RIGHT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_right_arrow/) | Tipo de forma automática incorporado. |
+| [CURVED_LEFT_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_left_arrow/) | Tipo de forma automática incorporado. |
+| [CURVED_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_up_arrow/) | Tipo de forma automática incorporado. |
+| [CURVED_DOWN_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_down_arrow/) | Tipo de forma automática incorporado. |
+| [CLOUD_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cloud_callout/) | Tipo de forma automática incorporado. |
+| [CURVED_DOWN_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_down_ribbon/) | Tipo de forma automática incorporado. |
+| [CURVED_UP_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/curved_up_ribbon/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_process/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_DECISION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_decision/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_DATA](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_data/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_PREDEFINED_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_predefined_process/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_INTERNAL_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_internal_storage/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_DOCUMENT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_document/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_MULTIDOCUMENT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_multidocument/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_TERMINATOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_terminator/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_PREPARATION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_preparation/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_MANUAL_INPUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_manual_input/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_MANUAL_OPERATION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_manual_operation/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_connector/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_CARD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_card/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_PUNCHED_TAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_punched_tape/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_SUMMING_JUNCTION](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_summing_junction/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_OR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_or/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_COLLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_collate/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_SORT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_sort/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_EXTRACT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_extract/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_MERGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_merge/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_OFFLINE_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_offline_storage/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_STORED_DATA](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_stored_data/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_SEQUENTIAL_ACCESS_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_sequential_access_storage/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_MAGNETIC_DISK](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_magnetic_disk/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_DIRECT_ACCESS_STORAGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_direct_access_storage/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_DISPLAY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_display/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_DELAY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_delay/) | Tipo de forma automática incorporado. |
+| [TEXT_PLAIN_TEXT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_plain_text/) | Tipo de forma automática incorporado. |
+| [TEXT_STOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_stop/) | Tipo de forma automática incorporado. |
+| [TEXT_TRIANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_triangle/) | Tipo de forma automática incorporado. |
+| [TEXT_TRIANGLE_INVERTED](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_triangle_inverted/) | Tipo de forma automática incorporado. |
+| [TEXT_CHEVRON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_chevron/) | Tipo de forma automática incorporado. |
+| [TEXT_CHEVRON_INVERTED](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_chevron_inverted/) | Tipo de forma automática incorporado. |
+| [TEXT_RING_INSIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring_inside/) | Tipo de forma automática incorporado. |
+| [TEXT_RING_OUTSIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_ring_outside/) | Tipo de forma automática incorporado. |
+| [TEXT_ARCH_UP_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_up_curve/) | Tipo de forma automática incorporado. |
+| [TEXT_ARCH_DOWN_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_down_curve/) | Tipo de forma automática incorporado. |
+| [TEXT_CIRCLE_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_circle_curve/) | Tipo de forma automática incorporado. |
+| [TEXT_BUTTON_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_button_curve/) | Tipo de forma automática incorporado. |
+| [TEXT_ARCH_UP_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_up_pour/) | Tipo de forma automática incorporado. |
+| [TEXT_ARCH_DOWN_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_down_pour/) | Tipo de forma automática incorporado. |
+| [TEXT_CIRCLE_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_circle_pour/) | Tipo de forma automática incorporado. |
+| [TEXT_BUTTON_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_button_pour/) | Tipo de forma automática incorporado. |
+| [TEXT_CURVE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve_up/) | Tipo de forma automática incorporado. |
+| [TEXT_CURVE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_curve_down/) | Tipo de forma automática incorporado. |
+| [TEXT_CASCADE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_cascade_up/) | Tipo de forma automática incorporado. |
+| [TEXT_CASCADE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_cascade_down/) | Tipo de forma automática incorporado. |
+| [TEXT_WAVE1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave1/) | Tipo de forma automática incorporado. |
+| [TEXT_WAVE2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_wave2/) | Tipo de forma automática incorporado. |
+| [TEXT_DOUBLE_WAVE1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_double_wave1/) | Tipo de forma automática incorporado. |
+| [TEXT_DOUBLE_WAVE2](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_double_wave2/) | Tipo de forma automática incorporado. |
+| [TEXT_INFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate/) | Tipo de forma automática incorporado. |
+| [TEXT_DEFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate/) | Tipo de forma automática incorporado. |
+| [TEXT_INFLATE_BOTTOM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate_bottom/) | Tipo de forma automática incorporado. |
+| [TEXT_DEFLATE_BOTTOM](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_bottom/) | Tipo de forma automática incorporado. |
+| [TEXT_INFLATE_TOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_inflate_top/) | Tipo de forma automática incorporado. |
+| [TEXT_DEFLATE_TOP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_top/) | Tipo de forma automática incorporado. |
+| [TEXT_DEFLATE_INFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_inflate/) | Tipo de forma automática incorporado. |
+| [TEXT_DEFLATE_INFLATE_DEFLATE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_deflate_inflate_deflate/) | Tipo de forma automática incorporado. |
+| [TEXT_FADE_RIGHT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_right/) | Tipo de forma automática incorporado. |
+| [TEXT_FADE_LEFT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_left/) | Tipo de forma automática incorporado. |
+| [TEXT_FADE_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_up/) | Tipo de forma automática incorporado. |
+| [TEXT_FADE_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_fade_down/) | Tipo de forma automática incorporado. |
+| [TEXT_SLANT_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_slant_up/) | Tipo de forma automática incorporado. |
+| [TEXT_SLANT_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_slant_down/) | Tipo de forma automática incorporado. |
+| [TEXT_CAN_UP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_can_up/) | Tipo de forma automática incorporado. |
+| [TEXT_CAN_DOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_can_down/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_ALTERNATE_PROCESS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_alternate_process/) | Tipo de forma automática incorporado. |
+| [FLOW_CHART_OFFPAGE_CONNECTOR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/flow_chart_offpage_connector/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_NO_BORDER1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_no_border1/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_ACCENT_BAR1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_accent_bar1/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_BORDER1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border1/) | Tipo de forma automática incorporado. |
+| [LINE_CALLOUT_WITH_BORDER_AND_ACCENT_BAR1](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_callout_with_border_and_accent_bar1/) | Tipo de forma automática incorporado. |
+| [LEFT_RIGHT_UP_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_up_arrow/) | Tipo de forma automática incorporado. |
+| [SUN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/sun/) | Tipo de forma automática incorporado. |
+| [MOON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/moon/) | Tipo de forma automática incorporado. |
+| [DOUBLE_BRACKET](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_bracket/) | Tipo de forma automática incorporado. |
+| [DOUBLE_BRACE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_brace/) | Tipo de forma automática incorporado. |
+| [STAR4](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star4/) | Tipo de forma automática incorporado. |
+| [DOUBLE_WAVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/double_wave/) | Tipo de forma automática incorporado. |
+| [BLANK_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/blank_action_button/) | Tipo de forma automática incorporado. |
+| [HOME_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/home_action_button/) | Tipo de forma automática incorporado. |
+| [HELP_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/help_action_button/) | Tipo de forma automática incorporado. |
+| [INFORMATION_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/information_action_button/) | Tipo de forma automática incorporado. |
+| [FORWARD_NEXT_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/forward_next_action_button/) | Tipo de forma automática incorporado. |
+| [BACK_PREVIOUS_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/back_previous_action_button/) | Tipo de forma automática incorporado. |
+| [END_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/end_action_button/) | Tipo de forma automática incorporado. |
+| [BEGINNING_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/beginning_action_button/) | Tipo de forma automática incorporado. |
+| [RETURN_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/return_action_button/) | Tipo de forma automática incorporado. |
+| [DOCUMENT_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/document_action_button/) | Tipo de forma automática incorporado. |
+| [SOUND_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/sound_action_button/) | Tipo de forma automática incorporado. |
+| [MOVIE_ACTION_BUTTON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/movie_action_button/) | Tipo de forma automática incorporado. |
+| [HOST_CONTROL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/host_control/) | Tipo de forma automática incorporado. |
+| [TEXT_BOX](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_box/) | Tipo de forma automática incorporado. |
+| [HEPTAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/heptagon/) | Tipo de forma automática incorporado. |
+| [DECAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/decagon/) | Tipo de forma automática incorporado. |
+| [DODECAGON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/dodecagon/) | Tipo de forma automática incorporado. |
+| [STAR6](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star6/) | Tipo de forma automática incorporado. |
+| [STAR7](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star7/) | Tipo de forma automática incorporado. |
+| [STAR10](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star10/) | Tipo de forma automática incorporado. |
+| [STAR12](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/star12/) | Tipo de forma automática incorporado. |
+| [ROUND_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_single_corner_rectangle/) | Tipo de forma automática incorporado. |
+| [ROUND_SAME_SIDE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_same_side_corner_rectangle/) | Tipo de forma automática incorporado. |
+| [ROUND_DIAGONAL_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_diagonal_corner_rectangle/) | Tipo de forma automática incorporado. |
+| [SNIP_ROUND_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_round_single_corner_rectangle/) | Tipo de forma automática incorporado. |
+| [SNIP_SINGLE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_single_corner_rectangle/) | Tipo de forma automática incorporado. |
+| [SNIP_SAME_SIDE_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_same_side_corner_rectangle/) | Tipo de forma automática incorporado. |
+| [SNIP_DIAGONAL_CORNER_RECTANGLE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/snip_diagonal_corner_rectangle/) | Tipo de forma automática incorporado. |
+| [TEARDROP](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/teardrop/) | Tipo de forma automática incorporado. |
+| [PIE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/pie/) | Tipo de forma automática incorporado. |
+| [HALF_FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/half_frame/) | Tipo de forma automática incorporado. |
+| [LSHAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/lshape/) | Tipo de forma automática incorporado. |
+| [DIAGONAL_STRIPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/diagonal_stripe/) | Tipo de forma automática incorporado. |
+| [CHORD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chord/) | Tipo de forma automática incorporado. |
+| [CLOUD](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/cloud/) | Tipo de forma automática incorporado. |
+| [MATH_PLUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_plus/) | Tipo de forma automática incorporado. |
+| [MATH_MINUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_minus/) | Tipo de forma automática incorporado. |
+| [MATH_MULTIPLY](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_multiply/) | Tipo de forma automática incorporado. |
+| [MATH_DIVIDE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_divide/) | Tipo de forma automática incorporado. |
+| [MATH_EQUAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_equal/) | Tipo de forma automática incorporado. |
+| [MATH_NOT_EQUAL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/math_not_equal/) | Tipo de forma automática incorporado. |
+| [LINE_INV](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/line_inv/) | Tipo de forma automática incorporado. |
+| [NON_ISOSCELES_TRAPEZOID](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/non_isosceles_trapezoid/) | Tipo de forma automática incorporado. |
+| [PIE_WEDGE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/pie_wedge/) | Tipo de forma automática incorporado. |
+| [LEFT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_circular_arrow/) | Tipo de forma automática incorporado. |
+| [LEFT_RIGHT_CIRCULAR_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_circular_arrow/) | Tipo de forma automática incorporado. |
+| [SWOOSH_ARROW](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/swoosh_arrow/) | Tipo de forma automática incorporado. |
+| [LEFT_RIGHT_RIBBON](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/left_right_ribbon/) | Tipo de forma automática incorporado. |
+| [TEXT_NO_SHAPE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_no_shape/) | Tipo de forma automática incorporado. |
+| [GEAR6](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/gear6/) | Tipo de forma automática incorporado. |
+| [GEAR9](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/gear9/) | Tipo de forma automática incorporado. |
+| [FUNNEL](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/funnel/) | Tipo de forma automática incorporado. |
+| [CORNER_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/corner_tabs/) | Tipo de forma automática incorporado. |
+| [SQUARE_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/square_tabs/) | Tipo de forma automática incorporado. |
+| [PLAQUE_TABS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/plaque_tabs/) | Tipo de forma automática incorporado. |
+| [CHART_X](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_x/) | Tipo de forma automática incorporado. |
+| [CHART_STAR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_star/) | Tipo de forma automática incorporado. |
+| [CHART_PLUS](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/chart_plus/) | Tipo de forma automática incorporado. |
+| [FRAME](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/frame/) | Tipo de forma automática incorporado. |
+| [MODEL_3D](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/model_3d/) | Tipo de forma automática incorporado. |
+| [ROUND_CALLOUT](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/round_callout/) | No existe dicho tipo en Excel. |
+| [TEXT_ARCH_LEFT_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_left_pour/) | No existe dicho tipo en Excel. |
+| [TEXT_ARCH_RIGHT_POUR](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_right_pour/) | No existe dicho tipo en Excel. |
+| [TEXT_ARCH_LEFT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_left_curve/) | No existe dicho tipo en Excel. |
+| [TEXT_ARCH_RIGHT_CURVE](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/text_arch_right_curve/) | No existe dicho tipo en Excel. |
+| [UNKNOWN](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/spreadsheetautoshapetype/unknown/) | Tipo de forma automática desconocido. |
+
+### Ver también
+* module [`groupdocs.watermark.contents.spreadsheet`](/watermark/python-net/groupdocs.watermark.contents.spreadsheet/)

@@ -1,0 +1,20 @@
+---
+title: "campo RECTANGLE"
+second_title: "Referencias de la API de GroupDocs.Watermark para Python a través de .NET"
+description: "Tipo de forma incorporado."
+type: docs
+url: /es/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/rectangle/
+is_root: false
+weight: 3020
+---
+
+
+## RECTANGLE field
+
+Tipo de forma incorporado.
+
+### Valor
+`1`
+
+### Ver también
+* class [`WordProcessingShapeType`](/watermark/python-net/groupdocs.watermark.contents.word_processing/wordprocessingshapetype/)
