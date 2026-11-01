@@ -1,0 +1,24 @@
+---
+title: "propiedad x"
+second_title: "Referencias de la API de GroupDocs.Watermark para Python a través de .NET"
+description: "El desplazamiento horizontal de este SpreadsheetBackgroundPossibleWatermark desde el borde izquierdo de la hoja de cálculo en píxeles."
+type: docs
+url: /es/python-net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/x/
+is_root: false
+weight: 2060
+---
+
+
+## x property
+
+El desplazamiento horizontal de este SpreadsheetBackgroundPossibleWatermark desde el borde izquierdo de la hoja de cálculo en píxeles.
+
+### Definition:
+```python
+@property
+def x(self):
+    ...
+```
+
+### Ver también
+* class [`SpreadsheetBackgroundPossibleWatermark`](/watermark/python-net/groupdocs.watermark.search.watermarks/spreadsheetbackgroundpossiblewatermark/)
