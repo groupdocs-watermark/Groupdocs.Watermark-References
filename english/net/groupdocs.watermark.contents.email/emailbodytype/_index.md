@@ -3,7 +3,7 @@ title: EmailBodyType
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a content type of an email message body.
 type: docs
-weight: 3060
+weight: 3040
 url: /net/groupdocs.watermark.contents.email/emailbodytype/
 ---
 

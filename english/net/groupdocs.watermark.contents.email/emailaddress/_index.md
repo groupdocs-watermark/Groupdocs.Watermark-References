@@ -3,7 +3,7 @@ title: EmailAddress
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an address of an email message.
 type: docs
-weight: 3010
+weight: 2990
 url: /net/groupdocs.watermark.contents.email/emailaddress/
 ---
 

@@ -3,7 +3,7 @@ title: InpaintingMethod
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Specifies the algorithm used for image inpainting.
 type: docs
-weight: 3300
+weight: 3280
 url: /net/groupdocs.watermark.common/inpaintingmethod/
 ---
 

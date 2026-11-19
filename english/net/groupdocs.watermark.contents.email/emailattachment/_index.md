@@ -3,7 +3,7 @@ title: EmailAttachment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a file attached to an email message.
 type: docs
-weight: 3030
+weight: 3010
 url: /net/groupdocs.watermark.contents.email/emailattachment/
 ---
 

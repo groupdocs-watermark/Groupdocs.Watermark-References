@@ -3,7 +3,7 @@ title: EmailContent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an email message.
 type: docs
-weight: 3070
+weight: 3050
 url: /net/groupdocs.watermark.contents.email/emailcontent/
 ---
 

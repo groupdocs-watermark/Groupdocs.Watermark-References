@@ -3,7 +3,7 @@ title: PreviewOptions.PreviewFormats
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents supported preview formats.
 type: docs
-weight: 3370
+weight: 3350
 url: /net/groupdocs.watermark.options/previewoptions.previewformats/
 ---
 

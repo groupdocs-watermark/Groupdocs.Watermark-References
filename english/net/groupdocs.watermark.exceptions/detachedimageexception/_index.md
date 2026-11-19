@@ -3,7 +3,7 @@ title: DetachedImageException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when manipulating detached image.
 type: docs
-weight: 1690
+weight: 1700
 url: /net/groupdocs.watermark.exceptions/detachedimageexception/
 ---
 

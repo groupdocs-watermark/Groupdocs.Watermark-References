@@ -3,7 +3,7 @@ title: Attachment
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a file attached to a document.
 type: docs
-weight: 3230
+weight: 3210
 url: /net/groupdocs.watermark.common/attachment/
 ---
 

@@ -3,7 +3,7 @@ title: RemoveOnlyListBaseT
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides the abstract base class for a strongly typed removeonly list.
 type: docs
-weight: 3350
+weight: 3330
 url: /net/groupdocs.watermark.common/removeonlylistbase-1/
 ---
 

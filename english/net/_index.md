@@ -5,8 +5,8 @@ weight: 10
 url: /net/
 description: GroupDocs.Watermark for .NET API References contain examples, code snippets, and API documentation. It provides namespaces, classes, interfaces, and other API details.
 is_root: true
-version: "26.9"
-staged_at: "2026-11-09T11:51:43Z"
+version: "26.11"
+staged_at: "2026-11-19T10:25:37Z"
 ---
 
 ## Namespaces

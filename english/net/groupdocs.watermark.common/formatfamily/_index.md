@@ -3,7 +3,7 @@ title: FormatFamily
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Enumeration of supported format families.
 type: docs
-weight: 3270
+weight: 3250
 url: /net/groupdocs.watermark.common/formatfamily/
 ---
 

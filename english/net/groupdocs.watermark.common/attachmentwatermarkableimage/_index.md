@@ -3,7 +3,7 @@ title: AttachmentWatermarkableImage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents an attached image inside a content of any supported type.
 type: docs
-weight: 3240
+weight: 3220
 url: /net/groupdocs.watermark.common/attachmentwatermarkableimage/
 ---
 

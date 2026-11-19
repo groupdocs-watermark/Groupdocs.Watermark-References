@@ -3,7 +3,7 @@ title: TiffImageContent
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a tiff image where a watermark can be placed.
 type: docs
-weight: 2980
+weight: 2960
 url: /net/groupdocs.watermark.contents.image/tiffimagecontent/
 ---
 

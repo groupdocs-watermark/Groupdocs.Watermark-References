@@ -3,7 +3,7 @@ title: PageInfo
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a document page description.
 type: docs
-weight: 3310
+weight: 3290
 url: /net/groupdocs.watermark.common/pageinfo/
 ---
 

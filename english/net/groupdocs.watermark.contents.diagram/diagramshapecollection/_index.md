@@ -3,7 +3,7 @@ title: DiagramShapeCollection
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a collection of drawing shapes in a Visio document.
 type: docs
-weight: 3200
+weight: 3180
 url: /net/groupdocs.watermark.contents.diagram/diagramshapecollection/
 ---
 

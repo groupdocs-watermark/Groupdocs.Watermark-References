@@ -3,7 +3,7 @@ title: Dimension
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents dimensions of a 2d object.
 type: docs
-weight: 3250
+weight: 3230
 url: /net/groupdocs.watermark.common/dimension/
 ---
 

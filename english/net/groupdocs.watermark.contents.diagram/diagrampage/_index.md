@@ -3,7 +3,7 @@ title: DiagramPage
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a Visio document page.
 type: docs
-weight: 3170
+weight: 3150
 url: /net/groupdocs.watermark.contents.diagram/diagrampage/
 ---
 

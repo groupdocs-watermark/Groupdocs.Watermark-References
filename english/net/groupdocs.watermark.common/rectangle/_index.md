@@ -3,7 +3,7 @@ title: Rectangle
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a rectangle with integer pixel coordinates.
 type: docs
-weight: 3340
+weight: 3320
 url: /net/groupdocs.watermark.common/rectangle/
 ---
 

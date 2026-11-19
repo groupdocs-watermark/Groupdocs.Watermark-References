@@ -3,7 +3,7 @@ title: DiagramHeaderFooterFont
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a font that is used in Visio header/footer.
 type: docs
-weight: 3140
+weight: 3120
 url: /net/groupdocs.watermark.contents.diagram/diagramheaderfooterfont/
 ---
 

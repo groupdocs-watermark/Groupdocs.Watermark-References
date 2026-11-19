@@ -3,7 +3,7 @@ title: PreviewNotSupportedException
 second_title: GroupDocs.Watermark for .NET API Reference
 description: The exception that is thrown when a preview image cannot be generated for the content.
 type: docs
-weight: 1740
+weight: 1750
 url: /net/groupdocs.watermark.exceptions/previewnotsupportedexception/
 ---
 

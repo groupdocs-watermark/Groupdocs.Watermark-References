@@ -3,7 +3,7 @@ title: EmailAttachmentBase
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Provides a base class for email attachments.
 type: docs
-weight: 3040
+weight: 3020
 url: /net/groupdocs.watermark.contents.email/emailattachmentbase/
 ---
 

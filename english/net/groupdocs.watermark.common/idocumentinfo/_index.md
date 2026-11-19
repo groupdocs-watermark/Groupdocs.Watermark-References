@@ -3,7 +3,7 @@ title: IDocumentInfo
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Defines the methods that are required for getting the basic document information.
 type: docs
-weight: 3290
+weight: 3270
 url: /net/groupdocs.watermark.common/idocumentinfo/
 ---
 

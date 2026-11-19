@@ -3,7 +3,7 @@ title: Point
 second_title: GroupDocs.Watermark for .NET API Reference
 description: Represents a point with integer pixel coordinates.
 type: docs
-weight: 3320
+weight: 3300
 url: /net/groupdocs.watermark.common/point/
 ---
 
