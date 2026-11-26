@@ -6,6 +6,7 @@ type: docs
 weight: 15
 url: /java/com.groupdocs.watermark.contents/diagramcontent/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 ```
@@ -16,8 +17,8 @@ Represents a Visio document.
 
 **Learn more:**
 
-* [Add watermarks to diagram documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+diagram+documents)
-* [Existing objects in diagram document](../https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+diagram+document)
+* [Add watermarks to diagram documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-diagram-documents/)
+* [Existing objects in diagram document](../https://docs.groupdocs.com/watermark/java/existing-objects-in-diagram-document/)
 
 ## Constructors
 

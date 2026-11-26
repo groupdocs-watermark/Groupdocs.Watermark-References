@@ -6,6 +6,7 @@ type: docs
 weight: 115
 url: /java/com.groupdocs.watermark.contents/spreadsheetmsodrawingtype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

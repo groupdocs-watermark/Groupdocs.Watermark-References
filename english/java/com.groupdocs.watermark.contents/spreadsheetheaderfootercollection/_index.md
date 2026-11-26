@@ -6,6 +6,7 @@ type: docs
 weight: 110
 url: /java/com.groupdocs.watermark.contents/spreadsheetheaderfootercollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase
 ```

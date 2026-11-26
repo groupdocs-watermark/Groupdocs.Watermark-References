@@ -6,6 +6,7 @@ type: docs
 weight: 43
 url: /java/com.groupdocs.watermark.contents/officedashstyle/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 13
 url: /java/com.groupdocs.watermark/watermark/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -17,9 +18,9 @@ Represents a watermark to be added to a document.
 **Learn more**
 
 * More details about watermark properties:
-  [Adding text watermarks](../https://docs.groupdocs.com/display/watermarkjava/Adding+text+watermarks).
+  [Adding text watermarks](../https://docs.groupdocs.com/watermark/java/adding-text-watermarks/).
 
-* More advanced watermarking topics: [Adding watermarks](../https://docs.groupdocs.com/display/watermarkjava/Adding+watermarks)
+* More advanced watermarking topics: [Adding watermarks](../https://docs.groupdocs.com/watermark/java/adding-watermarks/)
 
 ## Constructors
 

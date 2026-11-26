@@ -6,6 +6,7 @@ type: docs
 weight: 16
 url: /java/com.groupdocs.watermark.watermarks/sizingtype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

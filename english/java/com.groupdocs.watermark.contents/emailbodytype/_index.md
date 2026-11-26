@@ -6,6 +6,7 @@ type: docs
 weight: 33
 url: /java/com.groupdocs.watermark.contents/emailbodytype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

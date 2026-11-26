@@ -6,6 +6,7 @@ type: docs
 weight: 58
 url: /java/com.groupdocs.watermark.options/spreadsheetwatermarkmodernwordartoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.SpreadsheetWatermarkOptions](../../com.groupdocs.watermark.options/spreadsheetwatermarkoptions), [com.groupdocs.watermark.options.SpreadsheetWatermarkBaseOptions](../../com.groupdocs.watermark.options/spreadsheetwatermarkbaseoptions)
 ```
@@ -16,7 +17,7 @@ Represents options when adding modern word art watermark to a Spreadsheet worksh
 
 **Learn more:**
 
-* [Add watermarks to spreadsheet documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+spreadsheet+documents)
+* [Add watermarks to spreadsheet documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-spreadsheet-documents/)
 
 The following example demonstrates how to add a modern WordArt watermark to an Excel document.
 >

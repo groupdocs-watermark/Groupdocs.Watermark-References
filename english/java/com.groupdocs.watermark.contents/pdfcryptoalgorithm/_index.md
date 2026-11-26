@@ -6,6 +6,7 @@ type: docs
 weight: 61
 url: /java/com.groupdocs.watermark.contents/pdfcryptoalgorithm/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

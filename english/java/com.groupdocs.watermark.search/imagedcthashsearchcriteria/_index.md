@@ -6,6 +6,7 @@ type: docs
 weight: 31
 url: /java/com.groupdocs.watermark.search/imagedcthashsearchcriteria/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria), [com.groupdocs.watermark.search.PageSearchCriteria](../../com.groupdocs.watermark.search/pagesearchcriteria), [com.groupdocs.watermark.search.ImageSearchCriteria](../../com.groupdocs.watermark.search/imagesearchcriteria)
 ```
@@ -18,7 +19,7 @@ This search criteria uses DCT based perceptual image hash for calculating image 
 
 **Learn more:**
 
-* [Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks)
+* [Searching watermarks](../https://docs.groupdocs.com/watermark/java/searching-watermarks/)
 
 The following example demonstrates how to search for images in the attached files (pdf).
 >

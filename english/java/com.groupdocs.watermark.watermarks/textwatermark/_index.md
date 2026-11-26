@@ -6,6 +6,7 @@ type: docs
 weight: 18
 url: /java/com.groupdocs.watermark.watermarks/textwatermark/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.Watermark](../../com.groupdocs.watermark/watermark)
 ```
@@ -16,7 +17,7 @@ Represents a text watermark.
 
 **Learn more:**
 
-* [Adding text watermarks](../https://docs.groupdocs.com/display/watermarkjava/Adding+text+watermarks)
+* [Adding text watermarks](../https://docs.groupdocs.com/watermark/java/adding-text-watermarks/)
 
 The following example demonstrates how to scale the text watermark depending on the parent size.
 >

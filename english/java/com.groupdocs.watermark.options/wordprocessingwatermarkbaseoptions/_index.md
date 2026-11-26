@@ -6,6 +6,7 @@ type: docs
 weight: 73
 url: /java/com.groupdocs.watermark.options/wordprocessingwatermarkbaseoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.WordProcessingWatermarkOptions](../../com.groupdocs.watermark.options/wordprocessingwatermarkoptions)
 ```

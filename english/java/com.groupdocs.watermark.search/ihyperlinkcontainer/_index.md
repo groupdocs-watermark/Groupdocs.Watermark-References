@@ -5,7 +5,8 @@ description:
 type: docs
 weight: 73
 url: /java/com.groupdocs.watermark.search/ihyperlinkcontainer/
----```
+---
+```
 public interface IHyperlinkContainer
 ```
 

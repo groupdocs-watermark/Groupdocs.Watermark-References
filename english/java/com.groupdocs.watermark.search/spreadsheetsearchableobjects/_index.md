@@ -6,6 +6,7 @@ type: docs
 weight: 64
 url: /java/com.groupdocs.watermark.search/spreadsheetsearchableobjects/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

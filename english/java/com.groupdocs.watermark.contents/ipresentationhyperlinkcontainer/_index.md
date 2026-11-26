@@ -5,7 +5,8 @@ description: Represents PowerPoint document object that contains a hyperlink.
 type: docs
 weight: 152
 url: /java/com.groupdocs.watermark.contents/ipresentationhyperlinkcontainer/
----```
+---
+```
 public interface IPresentationHyperlinkContainer
 ```
 

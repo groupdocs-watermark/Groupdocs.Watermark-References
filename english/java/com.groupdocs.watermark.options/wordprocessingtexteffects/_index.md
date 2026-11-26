@@ -6,6 +6,7 @@ type: docs
 weight: 72
 url: /java/com.groupdocs.watermark.options/wordprocessingtexteffects/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.OfficeTextEffects](../../com.groupdocs.watermark.contents/officetexteffects)
 

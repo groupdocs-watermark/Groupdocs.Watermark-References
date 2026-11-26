@@ -6,6 +6,7 @@ type: docs
 weight: 103
 url: /java/com.groupdocs.watermark.contents/spreadsheetautoshapetype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

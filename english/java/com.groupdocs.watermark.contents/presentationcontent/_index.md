@@ -6,6 +6,7 @@ type: docs
 weight: 81
 url: /java/com.groupdocs.watermark.contents/presentationcontent/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 
@@ -19,8 +20,8 @@ Represents a PowerPoint document where a watermark can be placed.
 
 **Learn more:**
 
-* [Add watermarks to presentation documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents)
-* [Working with slide backgrounds](../https://docs.groupdocs.com/display/watermarkjava/Working+with+slide+backgrounds)
+* [Add watermarks to presentation documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-presentation-documents/)
+* [Working with slide backgrounds](../https://docs.groupdocs.com/watermark/java/working-with-slide-backgrounds/)
 
 The following example demonstrates how to load and save PowerPoint document of any supported type.
 >

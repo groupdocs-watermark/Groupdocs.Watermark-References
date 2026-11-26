@@ -6,6 +6,7 @@ type: docs
 weight: 35
 url: /java/com.groupdocs.watermark.search/istextsearchcriteria/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria)
 ```

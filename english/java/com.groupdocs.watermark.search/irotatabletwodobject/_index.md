@@ -6,6 +6,7 @@ type: docs
 weight: 74
 url: /java/com.groupdocs.watermark.search/irotatabletwodobject/
 ---
+
 **All Implemented Interfaces:**
 [com.groupdocs.watermark.search.ITwoDObject](../../com.groupdocs.watermark.search/itwodobject)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 68
 url: /java/com.groupdocs.watermark.contents/pdfpermissions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

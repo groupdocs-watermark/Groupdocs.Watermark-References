@@ -6,6 +6,7 @@ type: docs
 weight: 14
 url: /java/com.groupdocs.watermark.watermarks/margintype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

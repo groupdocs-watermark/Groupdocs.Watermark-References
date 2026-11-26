@@ -6,6 +6,7 @@ type: docs
 weight: 86
 url: /java/com.groupdocs.watermark.contents/presentationlayoutslide/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.PresentationBaseSlide](../../com.groupdocs.watermark.contents/presentationbaseslide)
 ```

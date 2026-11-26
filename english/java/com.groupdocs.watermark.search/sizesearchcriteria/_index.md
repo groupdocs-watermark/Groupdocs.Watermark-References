@@ -6,6 +6,7 @@ type: docs
 weight: 57
 url: /java/com.groupdocs.watermark.search/sizesearchcriteria/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria)
 ```
@@ -16,7 +17,7 @@ Represents criteria allowing filtering by watermark size.
 
 **Learn more:**
 
-* [Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks)
+* [Searching watermarks](../https://docs.groupdocs.com/watermark/java/searching-watermarks/)
 
 The following example demonstrates how to find and remove watermarks using search criteria.
 >

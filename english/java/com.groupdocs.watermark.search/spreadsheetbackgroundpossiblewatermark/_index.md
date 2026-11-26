@@ -6,6 +6,7 @@ type: docs
 weight: 59
 url: /java/com.groupdocs.watermark.search/spreadsheetbackgroundpossiblewatermark/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.PossibleWatermark](../../com.groupdocs.watermark.search/possiblewatermark)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 91
 url: /java/com.groupdocs.watermark.contents/presentationmasterslidecollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase
 ```

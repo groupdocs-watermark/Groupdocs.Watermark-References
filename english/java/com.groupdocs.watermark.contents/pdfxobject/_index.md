@@ -6,6 +6,7 @@ type: docs
 weight: 75
 url: /java/com.groupdocs.watermark.contents/pdfxobject/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.ShapeSearchAdapter](../../com.groupdocs.watermark.search/shapesearchadapter), [com.groupdocs.watermark.contents.PdfShape](../../com.groupdocs.watermark.contents/pdfshape)
 ```
@@ -16,7 +17,7 @@ Represents an XObject in a pdf document.
 
 **Learn more:**
 
-* [Working with XObjects](../https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-WorkingwithXObjects)
+* [Working with XObjects](../https://docs.groupdocs.com/watermark/java/existing-objects-in-pdf-document/#working-with-xobjects)
 
 ## Methods
 

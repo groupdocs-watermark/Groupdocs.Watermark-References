@@ -6,6 +6,7 @@ type: docs
 weight: 54
 url: /java/com.groupdocs.watermark.search/searchableobjects/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -16,7 +17,7 @@ Specifies document objects that are to be included in a watermark search.
 
 **Learn more:**
 
-* [Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks)
+* [Searching watermarks](../https://docs.groupdocs.com/watermark/java/searching-watermarks/)
 
 ## Constructors
 

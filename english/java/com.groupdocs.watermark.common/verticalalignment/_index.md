@@ -6,6 +6,7 @@ type: docs
 weight: 19
 url: /java/com.groupdocs.watermark.common/verticalalignment/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

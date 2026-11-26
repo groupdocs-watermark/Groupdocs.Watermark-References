@@ -6,6 +6,7 @@ type: docs
 weight: 14
 url: /java/com.groupdocs.watermark/watermarker/
 ---
+
 **Inheritance:**
 java.lang.Object
 
@@ -108,7 +109,7 @@ public Watermarker(String filePath)
 Initializes a new instance of the `[Watermarker](../../com.groupdocs.watermark/watermarker)` class with the specified document path.
 
 Learn more about loading documents:
-[Loading documents](../https://docs.groupdocs.com/display/watermarkjava/Loading+documents).
+[Loading documents](../https://docs.groupdocs.com/watermark/java/loading-documents/).
 
 The following example demonstrates how to load and save a content of any supported format.
 >
@@ -146,7 +147,7 @@ public Watermarker(String filePath, LoadOptions options)
 Initializes a new instance of the `[Watermarker](../../com.groupdocs.watermark/watermarker)` class with the specified document path and load options.
 
 Learn more about loading documents:
-[Loading documents](../https://docs.groupdocs.com/display/watermarkjava/Loading+documents).
+[Loading documents](../https://docs.groupdocs.com/watermark/java/loading-documents/).
 
 The following example demonstrates how to load encrypted PDF document using password.
 >
@@ -181,7 +182,7 @@ public Watermarker(String filePath, WatermarkerSettings settings)
 Initializes a new instance of the `[Watermarker](../../com.groupdocs.watermark/watermarker)` class with the specified document path and settings.
 
 Learn more about loading documents:
-[Loading documents](../https://docs.groupdocs.com/display/watermarkjava/Loading+documents).
+[Loading documents](../https://docs.groupdocs.com/watermark/java/loading-documents/).
 
 The following example demonstrates how to set searchable objects globally (for all documents that
 will be loaded after that).
@@ -231,7 +232,7 @@ public Watermarker(String filePath, LoadOptions options, WatermarkerSettings set
 Initializes a new instance of the `[Watermarker](../../com.groupdocs.watermark/watermarker)` class with the specified document path, load options and settings.
 
 Learn more about loading documents:
-[Loading documents](../https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+[Loading documents](../https://docs.groupdocs.com/watermark/java/loading-documents/).
 
 The following example demonstrates how to find particular text fragments in email message body/subject.
 >
@@ -278,7 +279,7 @@ public Watermarker(InputStream document)
 Initializes a new instance of the `[Watermarker](../../com.groupdocs.watermark/watermarker)` class with the specified stream.
 
 Learn more about loading documents:
-[Loading documents](../https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+[Loading documents](../https://docs.groupdocs.com/watermark/java/loading-documents/).
 
 The following example demonstrates how to load and save a document of any supported format.
 >
@@ -317,7 +318,7 @@ public Watermarker(InputStream document, LoadOptions options)
 Initializes a new instance of the `[Watermarker](../../com.groupdocs.watermark/watermarker)` class with the specified stream and load options.
 
 Learn more about loading documents:
-[Loading documents](../https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+[Loading documents](../https://docs.groupdocs.com/watermark/java/loading-documents/).
 
 The following example demonstrates how to load encrypted PDF document using password
 >
@@ -355,7 +356,7 @@ public Watermarker(InputStream document, WatermarkerSettings settings)
 Initializes a new instance of the `[Watermarker](../../com.groupdocs.watermark/watermarker)` class with the specified stream and settings.
 
 Learn more about loading documents:
-[Loading documents](../https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+[Loading documents](../https://docs.groupdocs.com/watermark/java/loading-documents/).
 
 The following example demonstrates how to set searchable objects globally (for all documents that
 will be loaded after that).
@@ -407,7 +408,7 @@ public Watermarker(InputStream document, LoadOptions options, WatermarkerSetting
 Initializes a new instance of the class with the specified stream, load options and settings.
 
 Learn more about loading documents:
-[Loading documents](../https://docs.groupdocs.com/display/watermarknet/Loading+documents).
+[Loading documents](../https://docs.groupdocs.com/watermark/java/loading-documents/).
 
 The following example demonstrates how to set searchable objects globally (for all documents that
 will be loaded after that).
@@ -478,7 +479,7 @@ For more information see `#search(SearchCriteria).search(SearchCriteria)`
 and `#getImages().getImages()` methods.
 
 Learn more about searching watermarks:
-[Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks).
+[Searching watermarks](../https://docs.groupdocs.com/watermark/java/searching-watermarks/).
 
 The following example demonstrates how to remove all XObjects and Artifacts from a pdf document.
 >
@@ -515,7 +516,7 @@ This mathod also specifies content objects which are used in image search.
 For more information see `#search(SearchCriteria).search(SearchCriteria)`
 and `#getImages().getImages()` methods.
 Learn more about searching watermarks:
-[Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks).
+[Searching watermarks](../https://docs.groupdocs.com/watermark/java/searching-watermarks/).
 
 The following example demonstrates how to remove all XObjects and Artifacts from a pdf document.
 >
@@ -569,7 +570,7 @@ public final IDocumentInfo getDocumentInfo()
 Gets the information about the format of the loaded document.
 
 Learn more about getting the document information
-[Get document info](../https://docs.groupdocs.com/display/watermarkjava/Get+document+info).
+[Get document info](../https://docs.groupdocs.com/watermark/java/get-document-info/).
 
 The following example demonstrates how to get information about a document of any supported type.
 >
@@ -600,7 +601,7 @@ public final void add(Watermark watermark)
 Adds a watermark to the loaded document.
 
 Learn more about adding watermarks:
-[Adding watermarks](../https://docs.groupdocs.com/display/watermarkjava/Adding+watermarks).
+[Adding watermarks](../https://docs.groupdocs.com/watermark/java/adding-watermarks/).
 
 The following example demonstrates how to add image and text watermark to a document of any supported type.
 >
@@ -650,7 +651,7 @@ public final void add(Watermark watermark, WatermarkOptions options)
 Adds a watermark to the loaded document using watermark options.
 
 Learn more about adding watermarks:
-[Adding watermarks](../https://docs.groupdocs.com/display/watermarkjava/Adding+watermarks).
+[Adding watermarks](../https://docs.groupdocs.com/watermark/java/adding-watermarks/).
 
 The following example demonstrates how to add an image watermark to a particular page of a pdf document.
 >
@@ -691,7 +692,7 @@ public final void remove(PossibleWatermark possibleWatermark)
 Removes watermark from the document.
 
 Learn more about removing watermarks:
-[Removing found watermarks](../https://docs.groupdocs.com/display/watermarkjava/Removing+found+watermarks).
+[Removing found watermarks](../https://docs.groupdocs.com/watermark/java/removing-found-watermarks/).
 
 The following example demonstrates how to find and remove the first possible watermark containing particular
 text or image from a document of any supported type.
@@ -731,7 +732,7 @@ public final void remove(PossibleWatermarkCollection possibleWatermarks)
 Removes all watermarks in the collection from the document.
 
 Learn more about removing watermarks:
-[Removing found watermarks](../https://docs.groupdocs.com/display/watermarkjava/Removing+found+watermarks).
+[Removing found watermarks](../https://docs.groupdocs.com/watermark/java/removing-found-watermarks/).
 
 The following example demonstrates how to find and remove all possible watermarks containing particular
 text or image from a document of any supported type.
@@ -767,7 +768,7 @@ public final void save(String filePath)
 Saves the document to the specified file location.
 
 Learn more about saving the documents
-[Saving documents](../https://docs.groupdocs.com/display/watermarkjava/Saving+documents).
+[Saving documents](../https://docs.groupdocs.com/watermark/java/saving-documents/).
 
 The following example demonstrates how to add the watermark and save the document to another file.
 >
@@ -800,7 +801,7 @@ public final void save(OutputStream document)
 Saves the document to the specified stream.
 
 Learn more about saving the documents
-[Saving documents](../https://docs.groupdocs.com/display/watermarkjava/Saving+documents).
+[Saving documents](../https://docs.groupdocs.com/watermark/java/saving-documents/).
 
 The following example demonstrates how to add watermark and save the document to the memory stream.
 >
@@ -836,7 +837,7 @@ public final void save(String filePath, SaveOptions options)
 Saves the document to the specified file location using save options.
 
 Learn more about saving the documents
-[Saving documents](../https://docs.groupdocs.com/display/watermarkjava/Saving+documents).
+[Saving documents](../https://docs.groupdocs.com/watermark/java/saving-documents/).
 
 The following example demonstrates how to add the watermark and save the document to another file
 with default `[SaveOptions](../../com.groupdocs.watermark.options/saveoptions)`.
@@ -872,7 +873,7 @@ public final void save(OutputStream document, SaveOptions options)
 Saves the document to the specified stream using save options.
 
 Learn more about saving the documents
-[Saving documents](../https://docs.groupdocs.com/display/watermarkjava/Saving+documents).
+[Saving documents](../https://docs.groupdocs.com/watermark/java/saving-documents/).
 
 The following example demonstrates how to add watermark and save the document to the memory stream
 with default `[SaveOptions](../../com.groupdocs.watermark.options/saveoptions)`.
@@ -928,7 +929,7 @@ Searches all possible watermarks in the document.
 The search is conducted in objects specified with `#setSearchableObjects(SearchableObjects).setSearchableObjects(SearchableObjects)`.
 
 Learn more about searching watermarks
-[Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks).
+[Searching watermarks](../https://docs.groupdocs.com/watermark/java/searching-watermarks/).
 
 The following example demonstrates how to count the possible watermarks in a document of any supported type.
 >
@@ -958,7 +959,7 @@ Searches possible watermarks according to specified search criteria.
 The search is conducted in objects specified with `#setSearchableObjects(SearchableObjects).setSearchableObjects(SearchableObjects)`.
 
 Learn more about searching watermarks
-[Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks).
+[Searching watermarks](../https://docs.groupdocs.com/watermark/java/searching-watermarks/).
 
 The following example demonstrates how to find and remove all possible watermarks containing particular text
 or image from a document of any supported type.
@@ -998,7 +999,7 @@ Finds images according to specified search criteria.
 The search is conducted in objects specified with `#setSearchableObjects(SearchableObjects).setSearchableObjects(SearchableObjects)`.
 
 Learn more about searching watermarks
-[Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks).
+[Searching watermarks](../https://docs.groupdocs.com/watermark/java/searching-watermarks/).
 
 The following example demonstrates how to remove all images that are similar to the reference
 from a document of any supported type.
@@ -1037,7 +1038,7 @@ Finds all images in the document.
 The search is conducted in objects specified with `#setSearchableObjects(SearchableObjects).setSearchableObjects(SearchableObjects)`.
 
 Learn more about searching watermarks
-[Searching watermarks](../https://docs.groupdocs.com/display/watermarkjava/Searching+watermarks).
+[Searching watermarks](../https://docs.groupdocs.com/watermark/java/searching-watermarks/).
 
 The following example demonstrates how to add watermark to all images in a document of any supported type.
 >

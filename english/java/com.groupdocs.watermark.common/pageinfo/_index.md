@@ -6,6 +6,7 @@ type: docs
 weight: 15
 url: /java/com.groupdocs.watermark.common/pageinfo/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

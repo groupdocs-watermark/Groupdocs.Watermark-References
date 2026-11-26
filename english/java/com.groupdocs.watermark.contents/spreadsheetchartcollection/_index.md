@@ -6,6 +6,7 @@ type: docs
 weight: 107
 url: /java/com.groupdocs.watermark.contents/spreadsheetchartcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase
 ```

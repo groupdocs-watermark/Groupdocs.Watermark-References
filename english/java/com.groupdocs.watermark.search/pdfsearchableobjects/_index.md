@@ -6,6 +6,7 @@ type: docs
 weight: 42
 url: /java/com.groupdocs.watermark.search/pdfsearchableobjects/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

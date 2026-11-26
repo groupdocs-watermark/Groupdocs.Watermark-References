@@ -5,7 +5,8 @@ description: Represents a method which releases the stream created by  object.
 type: docs
 weight: 81
 url: /java/com.groupdocs.watermark.options/ireleasepagestream/
----```
+---
+```
 public interface IReleasePageStream
 ```
 

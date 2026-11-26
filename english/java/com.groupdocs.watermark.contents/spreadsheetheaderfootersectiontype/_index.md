@@ -6,6 +6,7 @@ type: docs
 weight: 113
 url: /java/com.groupdocs.watermark.contents/spreadsheetheaderfootersectiontype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

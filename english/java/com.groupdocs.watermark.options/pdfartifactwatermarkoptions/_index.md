@@ -6,6 +6,7 @@ type: docs
 weight: 29
 url: /java/com.groupdocs.watermark.options/pdfartifactwatermarkoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.PdfWatermarkOptions](../../com.groupdocs.watermark.options/pdfwatermarkoptions)
 ```
@@ -16,7 +17,7 @@ Represents watermark adding options when adding artifact watermark to a pdf docu
 
 **Leran more:**
 
-* [Add watermarks to PDF documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+PDF+documents)
+* [Add watermarks to PDF documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-pdf-documents/)
 
 The following example demonstrates how to add an image artifact watermark to a PDF document.
 >

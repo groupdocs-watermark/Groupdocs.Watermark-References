@@ -6,6 +6,7 @@ type: docs
 weight: 116
 url: /java/com.groupdocs.watermark.contents/spreadsheetpagesetup/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -5,7 +5,8 @@ description: Represents interface for watermark effects that should be applied t
 type: docs
 weight: 83
 url: /java/com.groupdocs.watermark.options/iwordprocessingwatermarkeffects/
----```
+---
+```
 public interface IWordProcessingWatermarkEffects
 ```
 

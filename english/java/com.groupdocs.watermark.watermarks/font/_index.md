@@ -6,6 +6,7 @@ type: docs
 weight: 11
 url: /java/com.groupdocs.watermark.watermarks/font/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -22,8 +23,10 @@ Class representing a font.
  |
 | [Font(String fontFamilyName, float size, int style)](#Font-java.lang.String-float-int-) | Initializes a new instance of the `[Font](../../com.groupdocs.watermark.watermarks/font)` class with a specified font family name, a size and a style.
  |
-| [Font(String fontFamilyName, String folderPath, float size)](#Font-java.lang.String-java.lang.String-float-) |  |
-| [Font(String fontFamilyName, String folderPath, float size, FontStyle style)](#Font-java.lang.String-java.lang.String-float-com.groupdocs.watermark.watermarks.FontStyle-) |  |
+| [Font(String fontFamilyName, String folderPath, float size)](#Font-java.lang.String-java.lang.String-float-) | Initializes a new instance of the `[Font](../../com.groupdocs.watermark.watermarks/font)` class with a specified custom font family name, folder path with a font and a size.
+ |
+| [Font(String fontFamilyName, String folderPath, float size, int style)](#Font-java.lang.String-java.lang.String-float-int-) | Initializes a new instance of the `[Font](../../com.groupdocs.watermark.watermarks/font)` class with a specified custom font family name, folder path with a font, a size and a style.
+ |
 ## Methods
 
 | Method | Description |
@@ -86,26 +89,39 @@ public Font(String fontFamilyName, String folderPath, float size)
 ```
 
 
-**Parameters:**
-| Parameter | Type | Description |
-| --- | --- | --- |
-| fontFamilyName | java.lang.String |  |
-| folderPath | java.lang.String |  |
-| size | float |  |
-
-### Font(String fontFamilyName, String folderPath, float size, FontStyle style) {#Font-java.lang.String-java.lang.String-float-com.groupdocs.watermark.watermarks.FontStyle-}
-```
-public Font(String fontFamilyName, String folderPath, float size, FontStyle style)
-```
+Initializes a new instance of the `[Font](../../com.groupdocs.watermark.watermarks/font)` class with a specified custom font family name, folder path with a font and a size.
 
 
 **Parameters:**
 | Parameter | Type | Description |
 | --- | --- | --- |
-| fontFamilyName | java.lang.String |  |
-| folderPath | java.lang.String |  |
-| size | float |  |
-| style | [FontStyle](../../com.groupdocs.watermark.watermarks/fontstyle) |  |
+| fontFamilyName | java.lang.String | The font family name.
+ |
+| folderPath | java.lang.String | Folder path which contains TrueType font files.
+ |
+| size | float | The size of the new font.
+ |
+
+### Font(String fontFamilyName, String folderPath, float size, int style) {#Font-java.lang.String-java.lang.String-float-int-}
+```
+public Font(String fontFamilyName, String folderPath, float size, int style)
+```
+
+
+Initializes a new instance of the `[Font](../../com.groupdocs.watermark.watermarks/font)` class with a specified custom font family name, folder path with a font, a size and a style.
+
+
+**Parameters:**
+| Parameter | Type | Description |
+| --- | --- | --- |
+| fontFamilyName | java.lang.String | The font family name.
+ |
+| folderPath | java.lang.String | Folder path which contains TrueType font files.
+ |
+| size | float | The size of the new font.
+ |
+| style | int | The `[FontStyle](../../com.groupdocs.watermark.watermarks/fontstyle)` of the new font, a combination of the `[FontStyle](../../com.groupdocs.watermark.watermarks/fontstyle)` constants.
+ |
 
 ### getFolderPath() {#getFolderPath--}
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 101
 url: /java/com.groupdocs.watermark.contents/spreadsheetattachment/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.common.Attachment](../../com.groupdocs.watermark.common/attachment)
 

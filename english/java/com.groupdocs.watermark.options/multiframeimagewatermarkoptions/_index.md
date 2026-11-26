@@ -6,6 +6,7 @@ type: docs
 weight: 26
 url: /java/com.groupdocs.watermark.options/multiframeimagewatermarkoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions)
 ```
@@ -16,7 +17,7 @@ Represents watermark adding options when adding watermark to a multi-frame image
 
 **Learn more:**
 
-* [Add watermarks to images](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+images)
+* [Add watermarks to images](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-images/)
 
 The following example demonstrates how to add a watermark to a particular frame of multi-frame image.
 >

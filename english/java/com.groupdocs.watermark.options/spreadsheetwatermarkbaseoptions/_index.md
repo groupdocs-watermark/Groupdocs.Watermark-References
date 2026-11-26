@@ -6,6 +6,7 @@ type: docs
 weight: 56
 url: /java/com.groupdocs.watermark.options/spreadsheetwatermarkbaseoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.SpreadsheetWatermarkOptions](../../com.groupdocs.watermark.options/spreadsheetwatermarkoptions)
 ```

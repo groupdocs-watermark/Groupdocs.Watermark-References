@@ -5,7 +5,8 @@ description: Represents any two dimensional object in a content structure.
 type: docs
 weight: 75
 url: /java/com.groupdocs.watermark.search/itwodobject/
----```
+---
+```
 public interface ITwoDObject
 ```
 

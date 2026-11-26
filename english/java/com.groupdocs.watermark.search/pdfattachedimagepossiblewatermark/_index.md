@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /java/com.groupdocs.watermark.search/pdfattachedimagepossiblewatermark/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.PossibleWatermark](../../com.groupdocs.watermark.search/possiblewatermark), com.groupdocs.watermark.search.AttachedImagePossibleWatermark
 ```

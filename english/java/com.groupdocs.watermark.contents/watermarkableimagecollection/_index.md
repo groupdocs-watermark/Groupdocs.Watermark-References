@@ -6,6 +6,7 @@ type: docs
 weight: 128
 url: /java/com.groupdocs.watermark.contents/watermarkableimagecollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase
 ```

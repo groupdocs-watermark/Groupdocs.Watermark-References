@@ -6,6 +6,7 @@ type: docs
 weight: 35
 url: /java/com.groupdocs.watermark.contents/emailembeddedobject/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.common.Attachment](../../com.groupdocs.watermark.common/attachment), [com.groupdocs.watermark.contents.EmailAttachmentBase](../../com.groupdocs.watermark.contents/emailattachmentbase)
 ```

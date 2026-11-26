@@ -6,6 +6,7 @@ type: docs
 weight: 135
 url: /java/com.groupdocs.watermark.contents/wordprocessingpagesplitter/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

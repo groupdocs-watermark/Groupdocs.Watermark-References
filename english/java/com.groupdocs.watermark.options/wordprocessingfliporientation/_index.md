@@ -6,6 +6,7 @@ type: docs
 weight: 65
 url: /java/com.groupdocs.watermark.options/wordprocessingfliporientation/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

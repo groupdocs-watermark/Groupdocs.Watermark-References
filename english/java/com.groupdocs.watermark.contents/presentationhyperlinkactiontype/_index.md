@@ -6,6 +6,7 @@ type: docs
 weight: 84
 url: /java/com.groupdocs.watermark.contents/presentationhyperlinkactiontype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

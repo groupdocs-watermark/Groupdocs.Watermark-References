@@ -6,6 +6,7 @@ type: docs
 weight: 108
 url: /java/com.groupdocs.watermark.contents/spreadsheetcontent/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 
@@ -19,11 +20,11 @@ Represents an Excel document where a watermark can be placed.
 
 **Learn more:**
 
-* [Add watermarks to spreadsheet documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+spreadsheet+documents)
-* [Shapes in spreadsheet document](../https://docs.groupdocs.com/display/watermarkjava/Shapes+in+spreadsheet+document)
-* [Working with spreadsheet document attachments](../https://docs.groupdocs.com/display/watermarkjava/Working+with+spreadsheet+document+attachments)
-* [Working with worksheet backgrounds](../https://docs.groupdocs.com/display/watermarkjava/Working+with+worksheet+backgrounds)
-* [Working with worksheet headers and footers](../https://docs.groupdocs.com/display/watermarkjava/Working+with+worksheet+headers+and+footers)
+* [Add watermarks to spreadsheet documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-spreadsheet-documents/)
+* [Shapes in spreadsheet document](../https://docs.groupdocs.com/watermark/java/shapes-in-spreadsheet-document/)
+* [Working with spreadsheet document attachments](../https://docs.groupdocs.com/watermark/java/working-with-spreadsheet-document-attachments/)
+* [Working with worksheet backgrounds](../https://docs.groupdocs.com/watermark/java/working-with-worksheet-backgrounds/)
+* [Working with worksheet headers and footers](../https://docs.groupdocs.com/watermark/java/working-with-worksheet-headers-and-footers/)
 
 The following example demonstrates how to load and save Excel content of any supported type.
 >

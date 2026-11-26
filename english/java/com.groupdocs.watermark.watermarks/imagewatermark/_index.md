@@ -6,6 +6,7 @@ type: docs
 weight: 13
 url: /java/com.groupdocs.watermark.watermarks/imagewatermark/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.Watermark](../../com.groupdocs.watermark/watermark)
 
@@ -19,7 +20,7 @@ Represents an image watermark.
 
 **Learn more:**
 
-* [Adding image watermarks](../https://docs.groupdocs.com/display/watermarkjava/Adding+image+watermarks)
+* [Adding image watermarks](../https://docs.groupdocs.com/watermark/java/adding-image-watermarks/)
 
 The following example demonstrates how to add image watermark to a document of any supported type.
 >

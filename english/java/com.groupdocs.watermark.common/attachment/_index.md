@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.groupdocs.watermark.common/attachment/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -16,9 +17,9 @@ Represents a file attached to a document.
 
 **Learn more**
 
-* [Email attachments](../https://docs.groupdocs.com/display/watermarkjava/Email+attachments)
-* [Attachments in PDF document](../https://docs.groupdocs.com/display/watermarkjava/Attachments+in+PDF+document)
-* [Working with spreadsheet document attachments](../https://docs.groupdocs.com/display/watermarkjava/Working+with+spreadsheet+document+attachments)
+* [Email attachments](../https://docs.groupdocs.com/watermark/java/email-attachments/)
+* [Attachments in PDF document](../https://docs.groupdocs.com/watermark/java/attachments-in-pdf-document/)
+* [Working with spreadsheet document attachments](../https://docs.groupdocs.com/watermark/java/working-with-spreadsheet-document-attachments/)
 
 ## Methods
 

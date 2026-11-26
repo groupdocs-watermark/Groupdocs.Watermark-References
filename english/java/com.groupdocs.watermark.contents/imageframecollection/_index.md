@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /java/com.groupdocs.watermark.contents/imageframecollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase
 ```

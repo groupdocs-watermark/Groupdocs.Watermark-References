@@ -6,6 +6,7 @@ type: docs
 weight: 68
 url: /java/com.groupdocs.watermark.options/wordprocessinglocktype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

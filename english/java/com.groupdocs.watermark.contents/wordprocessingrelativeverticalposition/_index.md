@@ -6,6 +6,7 @@ type: docs
 weight: 138
 url: /java/com.groupdocs.watermark.contents/wordprocessingrelativeverticalposition/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

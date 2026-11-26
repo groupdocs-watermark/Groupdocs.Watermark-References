@@ -6,6 +6,7 @@ type: docs
 weight: 10
 url: /java/com.groupdocs.watermark.watermarks/color/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

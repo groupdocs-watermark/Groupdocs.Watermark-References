@@ -6,6 +6,7 @@ type: docs
 weight: 13
 url: /java/com.groupdocs.watermark.common/formatfamily/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

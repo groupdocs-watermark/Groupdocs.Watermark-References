@@ -6,6 +6,7 @@ type: docs
 weight: 148
 url: /java/com.groupdocs.watermark.contents/wordprocessingverticalalignment/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

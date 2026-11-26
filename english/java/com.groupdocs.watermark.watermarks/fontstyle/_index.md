@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.groupdocs.watermark.watermarks/fontstyle/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

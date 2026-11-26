@@ -6,6 +6,7 @@ type: docs
 weight: 41
 url: /java/com.groupdocs.watermark.contents/imageutils/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
