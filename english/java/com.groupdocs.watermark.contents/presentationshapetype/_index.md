@@ -6,6 +6,7 @@ type: docs
 weight: 96
 url: /java/com.groupdocs.watermark.contents/presentationshapetype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

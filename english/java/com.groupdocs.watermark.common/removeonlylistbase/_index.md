@@ -6,6 +6,7 @@ type: docs
 weight: 17
 url: /java/com.groupdocs.watermark.common/removeonlylistbase/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase
 ```

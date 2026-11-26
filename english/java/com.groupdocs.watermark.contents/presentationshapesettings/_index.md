@@ -6,6 +6,7 @@ type: docs
 weight: 95
 url: /java/com.groupdocs.watermark.contents/presentationshapesettings/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.OfficeShapeSettings](../../com.groupdocs.watermark.contents/officeshapesettings)
 ```

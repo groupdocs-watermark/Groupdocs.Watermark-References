@@ -6,6 +6,7 @@ type: docs
 weight: 46
 url: /java/com.groupdocs.watermark.search/possiblewatermarkcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase, com.groupdocs.watermark.common.RemoveOnlyListBase
 ```

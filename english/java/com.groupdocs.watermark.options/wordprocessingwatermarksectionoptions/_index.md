@@ -6,6 +6,7 @@ type: docs
 weight: 77
 url: /java/com.groupdocs.watermark.options/wordprocessingwatermarksectionoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.WordProcessingWatermarkOptions](../../com.groupdocs.watermark.options/wordprocessingwatermarkoptions), [com.groupdocs.watermark.options.WordProcessingWatermarkBaseOptions](../../com.groupdocs.watermark.options/wordprocessingwatermarkbaseoptions)
 ```
@@ -16,7 +17,7 @@ Represents options when adding shape watermark to a Word document section.
 
 **Learn more:**
 
-* [Add watermarks to word processing documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+word+processing+documents)
+* [Add watermarks to word processing documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-word-processing-documents/)
 
 The following example demonstrates how to add a watermark to a particular section of a Word document.
 >

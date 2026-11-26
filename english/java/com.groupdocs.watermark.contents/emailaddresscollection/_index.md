@@ -6,6 +6,7 @@ type: docs
 weight: 29
 url: /java/com.groupdocs.watermark.contents/emailaddresscollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase
 ```

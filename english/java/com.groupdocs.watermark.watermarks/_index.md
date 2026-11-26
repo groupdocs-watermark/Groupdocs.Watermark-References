@@ -7,6 +7,7 @@ weight: 18
 url: /java/com.groupdocs.watermark.watermarks/
 ---
 
+
 ## Classes
 
 | Class | Description |

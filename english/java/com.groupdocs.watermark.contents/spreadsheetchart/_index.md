@@ -6,6 +6,7 @@ type: docs
 weight: 106
 url: /java/com.groupdocs.watermark.contents/spreadsheetchart/
 ---
+
 **Inheritance:**
 java.lang.Object
 

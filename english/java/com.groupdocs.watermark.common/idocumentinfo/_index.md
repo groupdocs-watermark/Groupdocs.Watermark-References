@@ -5,7 +5,8 @@ description: Defines the methods that are required for getting the basic documen
 type: docs
 weight: 20
 url: /java/com.groupdocs.watermark.common/idocumentinfo/
----```
+---
+```
 public interface IDocumentInfo
 ```
 
@@ -13,7 +14,7 @@ Defines the methods that are required for getting the basic document information
 
 **Learn more**
 
-* [Get document info](../https://docs.groupdocs.com/display/watermarkjava/Get+document+info)
+* [Get document info](../https://docs.groupdocs.com/watermark/java/get-document-info/)
 
 The following example demonstrates how to retrieve the general document information using `[IDocumentInfo](../../com.groupdocs.watermark.common/idocumentinfo)`.
 >

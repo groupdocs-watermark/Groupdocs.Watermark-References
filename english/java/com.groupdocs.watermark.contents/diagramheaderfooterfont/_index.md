@@ -6,6 +6,7 @@ type: docs
 weight: 19
 url: /java/com.groupdocs.watermark.contents/diagramheaderfooterfont/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

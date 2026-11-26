@@ -6,6 +6,7 @@ type: docs
 weight: 36
 url: /java/com.groupdocs.watermark.contents/emailembeddedobjectcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase, com.groupdocs.watermark.common.RemoveOnlyListBase
 ```

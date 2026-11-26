@@ -6,6 +6,7 @@ type: docs
 weight: 127
 url: /java/com.groupdocs.watermark.contents/watermarkableimage/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart)
 ```
@@ -16,7 +17,7 @@ Represents an image inside a document.
 
 **Learn more:**
 
-* [Adding watermark to images inside a document](../https://docs.groupdocs.com/display/watermarkjava/Adding+watermark+to+images+inside+a+document)
+* [Adding watermark to images inside a document](../https://docs.groupdocs.com/watermark/java/adding-watermark-to-images-inside-a-document/)
 
 The following example demonstrates how to add watermark to all images inside a document of any supported type.
 >

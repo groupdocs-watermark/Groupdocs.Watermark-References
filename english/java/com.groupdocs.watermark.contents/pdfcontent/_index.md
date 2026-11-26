@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /java/com.groupdocs.watermark.contents/pdfcontent/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 
@@ -19,10 +20,10 @@ Represents a pdf document where a watermark can be placed.
 
 **Learn more:**
 
-* [Add watermarks to PDF documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+PDF+documents)
-* [Existing objects in PDF document](../https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+PDF+document)
-* [Rasterize document or page](../https://docs.groupdocs.com/display/watermarkjava/Rasterize+document+or+page)
-* [Watermarks in PDF document](../https://docs.groupdocs.com/display/watermarkjava/Watermarks+in+PDF+document)
+* [Add watermarks to PDF documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-pdf-documents/)
+* [Existing objects in PDF document](../https://docs.groupdocs.com/watermark/java/existing-objects-in-pdf-document/)
+* [Rasterize document or page](../https://docs.groupdocs.com/watermark/java/rasterize-document-or-page/)
+* [Watermarks in PDF document](../https://docs.groupdocs.com/watermark/java/watermarks-in-pdf-document/)
 
 ## Constructors
 

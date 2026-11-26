@@ -6,6 +6,7 @@ type: docs
 weight: 25
 url: /java/com.groupdocs.watermark.options/multiframeimageloadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.LoadOptions](../../com.groupdocs.watermark.options/loadoptions), [com.groupdocs.watermark.options.ImageLoadOptions](../../com.groupdocs.watermark.options/imageloadoptions)
 ```

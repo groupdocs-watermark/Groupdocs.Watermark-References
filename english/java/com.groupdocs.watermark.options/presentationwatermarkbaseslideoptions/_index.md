@@ -6,6 +6,7 @@ type: docs
 weight: 39
 url: /java/com.groupdocs.watermark.options/presentationwatermarkbaseslideoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.PresentationWatermarkOptions](../../com.groupdocs.watermark.options/presentationwatermarkoptions)
 ```
@@ -16,7 +17,7 @@ Base class for watermark adding options to a Presentation document.
 
 **Learn more:**
 
-* [Add watermarks to presentation documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents)
+* [Add watermarks to presentation documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-presentation-documents/)
 
 The following example demonstrates how to add a watermark to different service slides of a Power Point presentation.
 >

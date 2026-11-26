@@ -6,6 +6,7 @@ type: docs
 weight: 53
 url: /java/com.groupdocs.watermark.contents/pdfannotationtype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -73,6 +74,16 @@ Enumeration of annotation types.
 | [Unknown](#Unknown) | Unknown annotation.
  |
 | [Pdf3D](#Pdf3D) | PDF3D annotation.
+ |
+| [ColorBar](#ColorBar) | Color bar annotation type.
+ |
+| [TrimMark](#TrimMark) | Trim mark annotation type.
+ |
+| [BleedMark](#BleedMark) | Bleed mark annotation type.
+ |
+| [RegistrationMark](#RegistrationMark) | Registration mark annotation type.
+ |
+| [PageInformation](#PageInformation) | Page information annotation type.
  |
 ## Methods
 
@@ -334,6 +345,51 @@ public static final int Pdf3D
 
 
 PDF3D annotation.
+
+
+### ColorBar {#ColorBar}
+```
+public static final int ColorBar
+```
+
+
+Color bar annotation type.
+
+
+### TrimMark {#TrimMark}
+```
+public static final int TrimMark
+```
+
+
+Trim mark annotation type.
+
+
+### BleedMark {#BleedMark}
+```
+public static final int BleedMark
+```
+
+
+Bleed mark annotation type.
+
+
+### RegistrationMark {#RegistrationMark}
+```
+public static final int RegistrationMark
+```
+
+
+Registration mark annotation type.
+
+
+### PageInformation {#PageInformation}
+```
+public static final int PageInformation
+```
+
+
+Page information annotation type.
 
 
 ### toString(int value) {#toString-int-}

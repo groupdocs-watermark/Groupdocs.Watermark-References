@@ -6,6 +6,7 @@ type: docs
 weight: 77
 url: /java/com.groupdocs.watermark.contents/presentationbaseshape/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.ShapeSearchAdapter](../../com.groupdocs.watermark.search/shapesearchadapter)
 

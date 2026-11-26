@@ -6,6 +6,7 @@ type: docs
 weight: 56
 url: /java/com.groupdocs.watermark.contents/pdfartifactsubtype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

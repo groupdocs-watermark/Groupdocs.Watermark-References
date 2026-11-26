@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.groupdocs.watermark.search/colorrange/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

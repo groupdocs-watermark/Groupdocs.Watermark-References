@@ -6,6 +6,7 @@ type: docs
 weight: 139
 url: /java/com.groupdocs.watermark.contents/wordprocessingsection/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart)
 ```

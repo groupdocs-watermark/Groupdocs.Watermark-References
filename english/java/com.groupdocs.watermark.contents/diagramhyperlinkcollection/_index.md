@@ -6,6 +6,7 @@ type: docs
 weight: 21
 url: /java/com.groupdocs.watermark.contents/diagramhyperlinkcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase, com.groupdocs.watermark.common.RemoveOnlyListBase
 ```

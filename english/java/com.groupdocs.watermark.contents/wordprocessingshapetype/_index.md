@@ -6,6 +6,7 @@ type: docs
 weight: 144
 url: /java/com.groupdocs.watermark.contents/wordprocessingshapetype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

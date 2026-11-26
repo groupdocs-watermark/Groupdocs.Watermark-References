@@ -6,6 +6,7 @@ type: docs
 weight: 67
 url: /java/com.groupdocs.watermark.contents/pdfpagemargintype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 40
 url: /java/com.groupdocs.watermark.options/presentationwatermarklayoutslideoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.PresentationWatermarkOptions](../../com.groupdocs.watermark.options/presentationwatermarkoptions), [com.groupdocs.watermark.options.PresentationWatermarkBaseSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkbaseslideoptions)
 ```
@@ -16,7 +17,7 @@ Represents options when adding watermark to a Presentation document layout slide
 
 **Learn more:**
 
-* [Add watermarks to presentation documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+presentation+documents)
+* [Add watermarks to presentation documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-presentation-documents/)
 
 See the usage examples in `[PresentationWatermarkBaseSlideOptions](../../com.groupdocs.watermark.options/presentationwatermarkbaseslideoptions)`.
 

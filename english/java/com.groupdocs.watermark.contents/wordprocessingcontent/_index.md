@@ -6,6 +6,7 @@ type: docs
 weight: 129
 url: /java/com.groupdocs.watermark.contents/wordprocessingcontent/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 
@@ -19,11 +20,11 @@ Class representing Word document (doc, docx etc) where watermark should be place
 
 **Learn more:**
 
-* [Add watermarks to word processing documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+word+processing+documents)
-* [Existing objects in word processing document](../https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+word+processing+document)
-* [Locking watermark in word processing document](../https://docs.groupdocs.com/display/watermarkjava/Locking+watermark+in+word+processing+document)
-* [Protecting word processing documents](../https://docs.groupdocs.com/display/watermarkjava/Protecting+word+processing+documents)
-* [Watermarks in word processing document](../https://docs.groupdocs.com/display/watermarkjava/Watermarks+in+word+processing+document)
+* [Add watermarks to word processing documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-word-processing-documents/)
+* [Existing objects in word processing document](../https://docs.groupdocs.com/watermark/java/existing-objects-in-word-document/)
+* [Locking watermark in word processing document](../https://docs.groupdocs.com/watermark/java/locking-watermark-in-word-processing-document/)
+* [Protecting word processing documents](../https://docs.groupdocs.com/watermark/java/protecting-word-documents/)
+* [Watermarks in word processing document](../https://docs.groupdocs.com/watermark/java/watermarks-in-word-document/)
 
 The following example demonstrates how to load and save Word document of any supported type.
 >

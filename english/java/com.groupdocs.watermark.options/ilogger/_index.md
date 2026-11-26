@@ -5,7 +5,8 @@ description: Defines the interface of a logger that is used for logging events a
 type: docs
 weight: 79
 url: /java/com.groupdocs.watermark.options/ilogger/
----```
+---
+```
 public interface ILogger
 ```
 

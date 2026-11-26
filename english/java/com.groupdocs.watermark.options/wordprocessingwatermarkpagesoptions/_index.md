@@ -6,6 +6,7 @@ type: docs
 weight: 76
 url: /java/com.groupdocs.watermark.options/wordprocessingwatermarkpagesoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.WordProcessingWatermarkOptions](../../com.groupdocs.watermark.options/wordprocessingwatermarkoptions), [com.groupdocs.watermark.options.WordProcessingWatermarkBaseOptions](../../com.groupdocs.watermark.options/wordprocessingwatermarkbaseoptions)
 ```
@@ -16,7 +17,7 @@ Represents options when adding watermark to Word document pages.
 
 **Learn more:**
 
-* [Add watermarks to word processing documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+word+processing+documents)
+* [Add watermarks to word processing documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-word-processing-documents/)
 
 The following example demonstrates how to add a watermark to a particular page of a Word document.
 >

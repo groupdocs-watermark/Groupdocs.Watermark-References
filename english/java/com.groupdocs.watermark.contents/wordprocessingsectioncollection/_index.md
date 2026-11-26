@@ -6,6 +6,7 @@ type: docs
 weight: 140
 url: /java/com.groupdocs.watermark.contents/wordprocessingsectioncollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase
 ```

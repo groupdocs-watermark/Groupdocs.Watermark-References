@@ -5,7 +5,8 @@ description: Provides method that returns a stream to write page preview data.
 type: docs
 weight: 78
 url: /java/com.groupdocs.watermark.options/icreatepagestream/
----```
+---
+```
 public interface ICreatePageStream
 ```
 

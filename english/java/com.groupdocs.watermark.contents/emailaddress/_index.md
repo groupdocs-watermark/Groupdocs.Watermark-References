@@ -6,6 +6,7 @@ type: docs
 weight: 28
 url: /java/com.groupdocs.watermark.contents/emailaddress/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

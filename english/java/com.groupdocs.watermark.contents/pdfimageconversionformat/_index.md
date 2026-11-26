@@ -6,6 +6,7 @@ type: docs
 weight: 64
 url: /java/com.groupdocs.watermark.contents/pdfimageconversionformat/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

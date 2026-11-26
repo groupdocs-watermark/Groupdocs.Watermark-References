@@ -6,6 +6,7 @@ type: docs
 weight: 66
 url: /java/com.groupdocs.watermark.contents/pdfpagecollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 119
 url: /java/com.groupdocs.watermark.contents/spreadsheetshapeformattedtextfragment/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.FormattedTextFragment](../../com.groupdocs.watermark.search/formattedtextfragment)
 ```

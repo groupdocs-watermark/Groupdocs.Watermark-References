@@ -7,6 +7,7 @@ weight: 13
 url: /java/com.groupdocs.watermark.exceptions/
 ---
 
+
 ## Classes
 
 | Class | Description |

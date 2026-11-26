@@ -6,6 +6,7 @@ type: docs
 weight: 38
 url: /java/com.groupdocs.watermark.contents/imagecontent/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 ```
@@ -16,7 +17,7 @@ Represents an image where a watermark can be placed.
 
 **Learn more:**
 
-* [Add watermarks to images](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+images)
+* [Add watermarks to images](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-images/)
 
 ## Constructors
 

@@ -6,6 +6,7 @@ type: docs
 weight: 30
 url: /java/com.groupdocs.watermark.options/pdfloadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.LoadOptions](../../com.groupdocs.watermark.options/loadoptions)
 ```

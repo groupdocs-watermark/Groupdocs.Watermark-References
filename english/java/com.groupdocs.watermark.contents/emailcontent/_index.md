@@ -6,6 +6,7 @@ type: docs
 weight: 34
 url: /java/com.groupdocs.watermark.contents/emailcontent/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.Content](../../com.groupdocs.watermark.contents/content)
 ```
@@ -16,9 +17,9 @@ Represents an email message.
 
 **Learn more:**
 
-* [Add watermarks to email attachments](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+email+attachments)
-* [Email attachments](../https://docs.groupdocs.com/display/watermarkjava/Email+attachments)
-* [Email messages](../https://docs.groupdocs.com/display/watermarkjava/Email+messages)
+* [Add watermarks to email attachments](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-email-attachments/)
+* [Email attachments](../https://docs.groupdocs.com/watermark/java/email-attachments/)
+* [Email messages](../https://docs.groupdocs.com/watermark/java/email-messages/)
 
 ## Constructors
 

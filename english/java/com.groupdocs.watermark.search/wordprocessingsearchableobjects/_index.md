@@ -6,6 +6,7 @@ type: docs
 weight: 69
 url: /java/com.groupdocs.watermark.search/wordprocessingsearchableobjects/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

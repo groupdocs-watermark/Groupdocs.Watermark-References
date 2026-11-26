@@ -6,6 +6,7 @@ type: docs
 weight: 134
 url: /java/com.groupdocs.watermark.contents/wordprocessingpagesetup/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

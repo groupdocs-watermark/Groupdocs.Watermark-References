@@ -6,6 +6,7 @@ type: docs
 weight: 48
 url: /java/com.groupdocs.watermark.options/saveoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

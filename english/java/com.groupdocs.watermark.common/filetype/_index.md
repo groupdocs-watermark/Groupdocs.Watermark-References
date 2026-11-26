@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.groupdocs.watermark.common/filetype/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -18,9 +19,9 @@ This class provides methods to obtain list of all file types supported by **Grou
 
 **Learn more**
 
-* [Supported Document Formats](../https://docs.groupdocs.com/display/watermarkjava/Supported+Document+Formats)
-* [Get supported file formats](../https://docs.groupdocs.com/display/watermarkjava/Get+supported+file+formats)
-* [Get document info](../https://docs.groupdocs.com/display/watermarkjava/Get+document+info)
+* [Supported Document Formats](../https://docs.groupdocs.com/watermark/java/supported-document-formats/)
+* [Get supported file formats](../https://docs.groupdocs.com/watermark/java/get-supported-file-formats/)
+* [Get document info](../https://docs.groupdocs.com/watermark/java/get-document-info/)
 
 ## Fields
 

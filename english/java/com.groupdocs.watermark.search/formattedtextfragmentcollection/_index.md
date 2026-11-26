@@ -6,6 +6,7 @@ type: docs
 weight: 27
 url: /java/com.groupdocs.watermark.search/formattedtextfragmentcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase, com.groupdocs.watermark.common.RemoveOnlyListBase
 ```

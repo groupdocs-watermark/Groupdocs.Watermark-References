@@ -6,6 +6,7 @@ type: docs
 weight: 51
 url: /java/com.groupdocs.watermark.contents/pdfannotation/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.ShapeSearchAdapter](../../com.groupdocs.watermark.search/shapesearchadapter), [com.groupdocs.watermark.contents.PdfShape](../../com.groupdocs.watermark.contents/pdfshape)
 ```
@@ -16,7 +17,7 @@ Represents an annotation in a pdf document.
 
 **Learn more:**
 
-* [Working with annotations](../https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithannotations)
+* [Working with annotations](../https://docs.groupdocs.com/watermark/java/existing-objects-in-pdf-document/#working-with-annotations)
 
 ## Fields
 

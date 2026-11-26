@@ -6,6 +6,7 @@ type: docs
 weight: 14
 url: /java/com.groupdocs.watermark.options/diagramshapewatermarkoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.DiagramWatermarkOptions](../../com.groupdocs.watermark.options/diagramwatermarkoptions)
 ```
@@ -16,7 +17,7 @@ Represents watermark adding options when adding shape watermark to a Visio docum
 
 **Learn more:**
 
-* [Add watermarks to diagram documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+diagram+documents)
+* [Add watermarks to diagram documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-diagram-documents/)
 
 The following example demonstrates how to add a protected watermark to all pages of the Visio document.
 >

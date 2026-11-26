@@ -6,6 +6,7 @@ type: docs
 weight: 21
 url: /java/com.groupdocs.watermark.exceptions/watermarkexception/
 ---
+
 **Inheritance:**
 java.lang.Object, java.lang.Throwable, java.lang.Exception, java.lang.RuntimeException
 ```

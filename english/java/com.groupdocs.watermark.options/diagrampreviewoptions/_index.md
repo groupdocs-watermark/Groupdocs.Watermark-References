@@ -6,6 +6,7 @@ type: docs
 weight: 12
 url: /java/com.groupdocs.watermark.options/diagrampreviewoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.PreviewOptions](../../com.groupdocs.watermark.options/previewoptions)
 ```

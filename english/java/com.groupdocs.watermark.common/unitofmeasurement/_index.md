@@ -6,6 +6,7 @@ type: docs
 weight: 18
 url: /java/com.groupdocs.watermark.common/unitofmeasurement/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

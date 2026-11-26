@@ -6,6 +6,7 @@ type: docs
 weight: 49
 url: /java/com.groupdocs.watermark.options/spreadsheetbackgroundwatermarkoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.SpreadsheetWatermarkOptions](../../com.groupdocs.watermark.options/spreadsheetwatermarkoptions)
 ```
@@ -16,7 +17,7 @@ Represents options when adding the watermark as a background to a Spreadsheet wo
 
 **Learn more:**
 
-* [Add watermarks to spreadsheet documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+spreadsheet+documents)
+* [Add watermarks to spreadsheet documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-spreadsheet-documents/)
 
 The following example demonstrates how to add a text watermark to an Excel document worksheet as background.
 >

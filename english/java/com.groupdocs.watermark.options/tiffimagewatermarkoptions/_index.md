@@ -6,6 +6,7 @@ type: docs
 weight: 63
 url: /java/com.groupdocs.watermark.options/tiffimagewatermarkoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.MultiframeImageWatermarkOptions](../../com.groupdocs.watermark.options/multiframeimagewatermarkoptions)
 ```
@@ -16,7 +17,7 @@ Represents watermark adding options when adding watermark to a TIFF image.
 
 **Learn more:**
 
-* [Add watermarks to images](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+images)
+* [Add watermarks to images](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-images/)
 
 The following example demonstrates how to add a watermark to a particular frame of TIFF image.
 >

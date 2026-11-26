@@ -6,6 +6,7 @@ type: docs
 weight: 33
 url: /java/com.groupdocs.watermark.search/imagethumbnailsearchcriteria/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.SearchCriteria](../../com.groupdocs.watermark.search/searchcriteria), [com.groupdocs.watermark.search.PageSearchCriteria](../../com.groupdocs.watermark.search/pagesearchcriteria), [com.groupdocs.watermark.search.ImageSearchCriteria](../../com.groupdocs.watermark.search/imagesearchcriteria)
 ```

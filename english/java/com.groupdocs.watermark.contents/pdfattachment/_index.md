@@ -6,6 +6,7 @@ type: docs
 weight: 58
 url: /java/com.groupdocs.watermark.contents/pdfattachment/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.common.Attachment](../../com.groupdocs.watermark.common/attachment)
 ```
@@ -16,7 +17,7 @@ Represents a file attached to a pdf content.
 
 **Learn more:**
 
-* [Attachments in PDF document](../https://docs.groupdocs.com/display/watermarkjava/Attachments+in+PDF+document)
+* [Attachments in PDF document](../https://docs.groupdocs.com/watermark/java/attachments-in-pdf-document/)
 
 ## Methods
 

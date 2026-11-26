@@ -6,6 +6,7 @@ type: docs
 weight: 31
 url: /java/com.groupdocs.watermark.contents/emailattachmentbase/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.common.Attachment](../../com.groupdocs.watermark.common/attachment)
 ```

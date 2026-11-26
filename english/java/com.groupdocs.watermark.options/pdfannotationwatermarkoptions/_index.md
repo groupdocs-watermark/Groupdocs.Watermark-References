@@ -6,6 +6,7 @@ type: docs
 weight: 28
 url: /java/com.groupdocs.watermark.options/pdfannotationwatermarkoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.PdfWatermarkOptions](../../com.groupdocs.watermark.options/pdfwatermarkoptions)
 ```
@@ -16,7 +17,7 @@ Represents watermark adding options when adding annotation watermark to a pdf do
 
 **Learn more:**
 
-* [Add watermarks to PDF documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+PDF+documents)
+* [Add watermarks to PDF documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-pdf-documents/)
 
 The following example demonstrates how to add an image annotation watermark to a PDF document.
 >

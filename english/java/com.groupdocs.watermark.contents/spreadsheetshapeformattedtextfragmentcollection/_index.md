@@ -6,6 +6,7 @@ type: docs
 weight: 120
 url: /java/com.groupdocs.watermark.contents/spreadsheetshapeformattedtextfragmentcollection/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.common.ReadOnlyListBase, com.groupdocs.watermark.common.RemoveOnlyListBase, [com.groupdocs.watermark.search.FormattedTextFragmentCollection](../../com.groupdocs.watermark.search/formattedtextfragmentcollection)
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 14
 url: /java/com.groupdocs.watermark.contents/contentsproxy/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```

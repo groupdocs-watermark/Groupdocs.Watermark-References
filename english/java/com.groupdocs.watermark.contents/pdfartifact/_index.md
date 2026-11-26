@@ -6,6 +6,7 @@ type: docs
 weight: 54
 url: /java/com.groupdocs.watermark.contents/pdfartifact/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.search.ShapeSearchAdapter](../../com.groupdocs.watermark.search/shapesearchadapter), [com.groupdocs.watermark.contents.PdfShape](../../com.groupdocs.watermark.contents/pdfshape)
 ```
@@ -16,7 +17,7 @@ Represents an artifact in a pdf content.
 
 **Lean more**
 
-* [Working with artifacts](../https://docs.groupdocs.com/display/watermarkjava/Existing+objects+in+PDF+document#ExistingobjectsinPDFdocument-Workingwithartifacts)
+* [Working with artifacts](../https://docs.groupdocs.com/watermark/java/existing-objects-in-pdf-document/#working-with-artifacts)
 
 ## Methods
 
@@ -48,6 +49,9 @@ Represents an artifact in a pdf content.
 
  |
 | [getOuterForm()](#getOuterForm--) | <br />
+
+ |
+| [extractImageAppearance()](#extractImageAppearance--) | <br />
 
  |
 ### getPage() {#getPage--}
@@ -211,3 +215,15 @@ public XForm getOuterForm()
 
 **Returns:**
 com.aspose.pdf.XForm
+### extractImageAppearance() {#extractImageAppearance--}
+```
+public PdfXImageAppearance extractImageAppearance()
+```
+
+
+<br />
+
+
+
+**Returns:**
+[PdfXImageAppearance](../../com.groupdocs.watermark.internal/pdfximageappearance)

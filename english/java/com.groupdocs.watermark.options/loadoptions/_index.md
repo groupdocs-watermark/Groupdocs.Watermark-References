@@ -6,6 +6,7 @@ type: docs
 weight: 24
 url: /java/com.groupdocs.watermark.options/loadoptions/
 ---
+
 **Inheritance:**
 java.lang.Object
 ```
@@ -16,11 +17,11 @@ Represents document loading options when loading a document.
 
 **Learn more:**
 
-* [Loading documents](../https://docs.groupdocs.com/display/watermarkjava/Loading+documents)
-* [Load from local disk](../https://docs.groupdocs.com/display/watermarkjava/Load+from+local+disk)
-* [Load from stream](../https://docs.groupdocs.com/display/watermarkjava/Load+from+stream)
-* [Load document of specific format](../https://docs.groupdocs.com/display/watermarkjava/Load+document+of+specific+format)
-* [Load password-protected document](../https://docs.groupdocs.com/display/watermarkjava/Load+password-protected+document)
+* [Loading documents](../https://docs.groupdocs.com/watermark/java/loading-documents/)
+* [Load from local disk](../https://docs.groupdocs.com/watermark/java/load-from-local-disk/)
+* [Load from stream](../https://docs.groupdocs.com/watermark/java/load-from-stream/)
+* [Load document of specific format](../https://docs.groupdocs.com/watermark/java/load-document-of-specific-format/)
+* [Load password-protected document](../https://docs.groupdocs.com/watermark/java/load-password-protected-document/)
 
 ## Constructors
 

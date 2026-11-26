@@ -6,6 +6,7 @@ type: docs
 weight: 85
 url: /java/com.groupdocs.watermark.contents/presentationimagefillformat/
 ---
+
 **Inheritance:**
 java.lang.Object, com.groupdocs.watermark.contents.OfficeImageFillFormat
 ```

@@ -6,6 +6,7 @@ type: docs
 weight: 100
 url: /java/com.groupdocs.watermark.contents/presentationwatermarkableimage/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.ContentPart](../../com.groupdocs.watermark.contents/contentpart), [com.groupdocs.watermark.contents.WatermarkableImage](../../com.groupdocs.watermark.contents/watermarkableimage)
 ```

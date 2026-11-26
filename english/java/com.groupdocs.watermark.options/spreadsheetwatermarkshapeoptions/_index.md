@@ -6,6 +6,7 @@ type: docs
 weight: 60
 url: /java/com.groupdocs.watermark.options/spreadsheetwatermarkshapeoptions/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.options.WatermarkOptions](../../com.groupdocs.watermark.options/watermarkoptions), [com.groupdocs.watermark.options.SpreadsheetWatermarkOptions](../../com.groupdocs.watermark.options/spreadsheetwatermarkoptions), [com.groupdocs.watermark.options.SpreadsheetWatermarkBaseOptions](../../com.groupdocs.watermark.options/spreadsheetwatermarkbaseoptions)
 ```
@@ -16,7 +17,7 @@ Represents options when adding shape watermark to a Spreadsheet worksheet.
 
 **Learn more:**
 
-* [Add watermarks to spreadsheet documents](../https://docs.groupdocs.com/display/watermarkjava/Add+watermarks+to+spreadsheet+documents)
+* [Add watermarks to spreadsheet documents](../https://docs.groupdocs.com/watermark/java/add-watermarks-to-spreadsheet-documents/)
 
 The following example demonstrates how to add a watermark to a particular worksheet of an Excel document.
 >

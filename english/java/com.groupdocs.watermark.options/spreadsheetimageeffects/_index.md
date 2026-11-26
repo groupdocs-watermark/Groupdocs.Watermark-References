@@ -6,6 +6,7 @@ type: docs
 weight: 50
 url: /java/com.groupdocs.watermark.options/spreadsheetimageeffects/
 ---
+
 **Inheritance:**
 java.lang.Object, [com.groupdocs.watermark.contents.OfficeImageEffects](../../com.groupdocs.watermark.contents/officeimageeffects)
 
